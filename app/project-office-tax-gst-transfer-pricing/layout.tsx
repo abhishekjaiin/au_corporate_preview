@@ -1,0 +1,31 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Tax, GST and Transfer Pricing for Project Offices in India",
+  },
+  description:
+    "Tax rate, PE, lower deduction certificate, presumptive tax, GST, transfer pricing and treaty relief for the India project office of a foreign company.",
+  alternates: {
+    canonical: "https://www.theaucorp.com/project-office-tax-gst-transfer-pricing",
+  },
+  openGraph: {
+    type: "website",
+    images: [{ url: "https://www.theaucorp.com/og?title=Tax%2C%20GST%20and%20Transfer%20Pricing%20for%20Project%20Offices%20in%20India", width: 1200, height: 630, alt: "Tax, GST and Transfer Pricing for Project Offices in India" }],
+    locale: "en_IN",
+    siteName: "AU Corporate",
+    title: "Tax, GST and Transfer Pricing for Project Offices in India",
+    description:
+      "Tax rate, PE, lower deduction certificate, presumptive tax, GST, transfer pricing and treaty relief for the India project office of a foreign company.",
+    url: "https://www.theaucorp.com/project-office-tax-gst-transfer-pricing",
+  },
+  twitter: {
+    title: "Tax, GST and Transfer Pricing for Project Offices in India",
+    description:
+      "Tax rate, PE, lower deduction certificate, presumptive tax, GST, transfer pricing and treaty relief for the India project office of a foreign company.",
+  },
+}
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children
+}

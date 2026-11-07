@@ -1,0 +1,226 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* =========================
+   AU CORPORATE DESIGN SYSTEM
+========================= */
+
+:root {
+  /* Brand Colors */
+  --gold: #FFD21F;
+  --gold-light: #FFE66B;
+  /* Matches --gold on explicit user instruction (2026-09-25): text using
+     --gold-dark should render the same bright yellow as the site's icons.
+     Note this reopens the WCAG AA contrast failure the darker value fixed —
+     small/normal gold text on white/light backgrounds is ~1.53:1, needs
+     4.5:1 — flagged and accepted as a known, deliberate trade-off. */
+  --gold-dark: var(--gold);
+
+  --blue: #0E1B4D;
+  --blue-light: #142A6B;
+
+  --gray-dark: #111827;
+  --gray-light: #E5E7EB;
+
+  /* Base Theme */
+  --background: #ffffff;
+  --foreground: #111827;
+
+  --card: #ffffff;
+  --card-foreground: #111827;
+
+  --popover: #ffffff;
+  --popover-foreground: #111827;
+
+  --primary: #FFD21F;
+  --primary-foreground: #111827;
+
+  --secondary: #f3f4f6;
+  --secondary-foreground: #111827;
+
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+
+  --accent: #FFD21F;
+  --accent-foreground: #111827;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: #FFD21F;
+
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --breakpoint-xs: 30rem;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Manrope', system-ui, sans-serif;
+  --font-mono: monospace;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-blue: var(--blue);
+  --color-blue-light: var(--blue-light);
+
+  /* Explicit user instruction (2026-09-25): no separate "gold" look anywhere
+     on the site — every yellow should be the one bright brand yellow used by
+     the logo/icons. Tailwind's own yellow-400 through yellow-900 utilities
+     are used in 100+ files sitewide (buttons, borders, links, stat numbers)
+     and the 500/600/700 shades in particular render as a visibly different,
+     more amber/orange "gold" than --gold. Overriding the scale here — one
+     line, applies everywhere those classes are already used — instead of
+     hand-editing every file, which would be slower and far more error-prone
+     for the same visual result. */
+  --color-yellow-50: #FFF9DB;
+  --color-yellow-100: #FFF4B8;
+  --color-yellow-200: #FFE98A;
+  --color-yellow-300: #FFD21F;
+  --color-yellow-400: #FFD21F;
+  --color-yellow-500: #FFD21F;
+  --color-yellow-600: #F2B705;
+  --color-yellow-700: #D9A400;
+  --color-yellow-800: #B88900;
+  --color-yellow-900: #8F6B00;
+  --color-yellow-950: #6B5000;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--gold-dark);
+    outline-offset: 3px;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scroll reveal (components/Reveal.tsx). Only browsers with scroll-driven
+   animations run it, so content is visible everywhere else, including
+   without JavaScript. Elements already on screen at load finish instantly. */
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--reveal-y, 24px));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry calc(0% + var(--reveal-delay, 0%)) entry calc(60% + var(--reveal-delay, 0%));
+    }
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.9s ease-out both;
+}
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-500 { animation-delay: 500ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+::selection {
+  background: var(--gold);
+  color: #111827;
+}

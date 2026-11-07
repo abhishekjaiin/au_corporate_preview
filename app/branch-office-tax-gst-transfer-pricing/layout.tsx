@@ -1,0 +1,31 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Tax, GST and Transfer Pricing for Branch Offices in India",
+  },
+  description:
+    "Tax rate, advance tax, TDS, GST, transfer pricing, permanent establishment, treaty relief and litigation for the India branch office of a foreign company.",
+  alternates: {
+    canonical: "https://www.theaucorp.com/branch-office-tax-gst-transfer-pricing",
+  },
+  openGraph: {
+    type: "website",
+    images: [{ url: "https://www.theaucorp.com/og?title=Tax%2C%20GST%20and%20Transfer%20Pricing%20for%20Branch%20Offices%20in%20India", width: 1200, height: 630, alt: "Tax, GST and Transfer Pricing for Branch Offices in India" }],
+    locale: "en_IN",
+    siteName: "AU Corporate",
+    title: "Tax, GST and Transfer Pricing for Branch Offices in India",
+    description:
+      "Tax rate, advance tax, TDS, GST, transfer pricing, permanent establishment, treaty relief and litigation for the India branch office of a foreign company.",
+    url: "https://www.theaucorp.com/branch-office-tax-gst-transfer-pricing",
+  },
+  twitter: {
+    title: "Tax, GST and Transfer Pricing for Branch Offices in India",
+    description:
+      "Tax rate, advance tax, TDS, GST, transfer pricing, permanent establishment, treaty relief and litigation for the India branch office of a foreign company.",
+  },
+}
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children
+}

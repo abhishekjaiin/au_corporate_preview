@@ -1,0 +1,31 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "FEMA and RBI Compliance for Liaison Offices in India",
+  },
+  description:
+    "Form FNC, UIN, Annual Activity Certificate, extension, additional offices, compounding and closure for the India liaison office of a foreign company.",
+  alternates: {
+    canonical: "https://www.theaucorp.com/liaison-office-fema-rbi-compliance",
+  },
+  openGraph: {
+    type: "website",
+    images: [{ url: "https://www.theaucorp.com/og?title=FEMA%20and%20RBI%20Compliance%20for%20Liaison%20Offices%20in%20India", width: 1200, height: 630, alt: "FEMA and RBI Compliance for Liaison Offices in India" }],
+    locale: "en_IN",
+    siteName: "AU Corporate",
+    title: "FEMA and RBI Compliance for Liaison Offices in India",
+    description:
+      "Form FNC, UIN, Annual Activity Certificate, extension, additional offices, compounding and closure for the India liaison office of a foreign company.",
+    url: "https://www.theaucorp.com/liaison-office-fema-rbi-compliance",
+  },
+  twitter: {
+    title: "FEMA and RBI Compliance for Liaison Offices in India",
+    description:
+      "Form FNC, UIN, Annual Activity Certificate, extension, additional offices, compounding and closure for the India liaison office of a foreign company.",
+  },
+}
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children
+}

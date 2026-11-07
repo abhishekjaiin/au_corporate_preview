@@ -1,0 +1,30 @@
+import type { Metadata } from "next"
+import { guideAlternates } from "@/lib/guides/countries"
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Subsidiary vs Branch vs Liaison Office vs LLP in India",
+  },
+  description:
+    "Compare the four ways a US company can enter India: wholly owned subsidiary, branch office, liaison office and LLP. Activities, approvals, tax and control.",
+  alternates: guideAlternates("usa", "subsidiary-vs-branch-vs-liaison-office-vs-llp"),
+  openGraph: {
+    type: "article",
+    images: [{ url: "https://www.theaucorp.com/og?title=Subsidiary%20vs%20Branch%20vs%20Liaison%20Office%20vs%20LLP%20in%20India", width: 1200, height: 630, alt: "Subsidiary vs Branch vs Liaison Office vs LLP in India" }],
+    locale: "en_US",
+    siteName: "AU Corporate",
+    title: "Subsidiary vs Branch vs Liaison Office vs LLP in India",
+    description:
+      "Compare the four ways a US company can enter India: wholly owned subsidiary, branch office, liaison office and LLP. Activities, approvals, tax and control.",
+    url: "https://www.theaucorp.com/usa-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp",
+  },
+  twitter: {
+    title: "Subsidiary vs Branch vs Liaison Office vs LLP in India",
+    description:
+      "Compare the four ways a US company can enter India: wholly owned subsidiary, branch office, liaison office and LLP. Activities, approvals, tax and control.",
+  },
+}
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children
+}
