@@ -23,6 +23,7 @@ const toc = [
   { id: "selling", label: "Selling to an outside buyer" },
   { id: "closing", label: "Closing the Indian company" },
   { id: "japan-side", label: "The Japanese side of an exit" },
+  { id: "exit-steps", label: "Share transfer and NCLT steps for an exit" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -36,6 +37,7 @@ const faqs = [
   { q: "When is voluntary liquidation used instead of strike-off?", a: "When the company has traded, holds assets or has employees, contracts or tax matters to settle. A liquidator realises the assets, pays creditors and distributes the surplus under the Insolvency and Bankruptcy Code." },
   { q: "How is the final surplus sent to Japan?", a: "After taxes and creditors are paid and the accounts are final, the bank remits the surplus with Forms 145 and 146 (previously 15CA and 15CB), and the change is reported to the RBI." },
   { q: "Does selling the Japanese parent create Indian tax?", a: "It can. India's indirect transfer rules can tax a sale of a foreign company whose value comes substantially from Indian assets, so a group-level transaction needs an Indian review." },
+  { q: "What is the fastest exit for a dormant Indian company?", a: "A strike-off under Section 248, once liabilities are cleared and the bank account is closed; a trading company usually needs voluntary liquidation as its exit route." },
 ]
 
 const relatedCards = [
@@ -163,6 +165,18 @@ export default function RestructuringAndExitPage() {
           <li>Japanese reporting on the disposal of an overseas subsidiary may be required under the Foreign Exchange and Foreign Trade Act.</li>
           <li>For the parent&apos;s wider obligations, see <Link href="/japan-to-india/japan-parent-obligations" className="text-blue-800 font-semibold hover:underline">Japan parent obligations</Link>.</li>
         </ul>
+        <h2 id="exit-steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Share transfer and NCLT steps for an exit</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Fair value certificate; under FEMA, a sale to an Indian resident cannot exceed fair value.</li>
+          <li>Share purchase agreement and stamped share transfer instrument, or demat transfer.</li>
+          <li>Indian withholding by the buyer on the gain, using the Japanese seller&apos;s treaty documents.</li>
+          <li>Form FC-TRS filed within 60 days by the Indian resident party.</li>
+          <li>For a merger or demerger, a scheme approved by the National Company Law Tribunal (NCLT), or the fast-track route for wholly owned group mergers.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Plan the exit sequence with the Japanese tax result in mind: a share sale, a merger and a liquidation each give a different Japanese outcome. Most exit timelines run from two months for a simple sale to a year or more for an NCLT scheme or liquidation.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

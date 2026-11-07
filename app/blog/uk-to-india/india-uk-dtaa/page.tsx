@@ -29,17 +29,18 @@ const toc = [
   { id: "claim", label: "How to claim treaty benefits, step by step" },
   { id: "uk-parent", label: "What this means for a UK parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "dtaa-claim", label: "Claiming the DTAA rate in practice" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
 const faqs = [
-  { q: "What is the withholding tax on dividends under the India-UK DTAA?", a: "Article 11 caps Indian tax on a dividend paid to a UK company at 10% of the gross amount, or 15% for certain property investment vehicles. The domestic rate for non-residents is 20% plus surcharge and cess, so the treaty rate is lower where the documents are in place." },
+  { q: "What is the withholding tax on dividends under the India-UK DTAA?", a: "Article 11 caps Indian tax on a dividend paid to a UK company at 10% of the gross amount, or 15% for certain property investment vehicles. The domestic rate for non-residents is 20% plus surcharge and cess, so the DTAA rate is lower where the documents are in place." },
   { q: "How many days in India create a permanent establishment under the India-UK DTAA?", a: "Services furnished through employees create a PE after more than 90 days in any 12 months, and services to an associated enterprise after more than 30 days in any 12 months. Building and construction projects create one after more than 6 months." },
   { q: "What is the royalty and fees for technical services rate under the India-UK treaty?", a: "Article 13 allows India to tax them at up to 15%, or 10% for equipment royalties and ancillary services. A fee only counts as a technical-services fee if it makes technical knowledge, skill or know-how available to the payer." },
   { q: "Does the UK tax dividends from an Indian subsidiary?", a: "Generally not. A UK company parent is normally exempt on dividends from a subsidiary under the distribution exemption in Part 9A of the Corporation Tax Act 2009, subject to the conditions, so the 10% Indian withholding is usually the final tax." },
   { q: "Does the India-UK treaty cap capital gains tax on selling the Indian subsidiary?", a: "No. Article 14 leaves each country to tax capital gains under its own law, so India taxes the gain under the Income-tax Act, 2025. The UK substantial shareholding exemption can make the gain exempt in the UK." },
   { q: "Is there a limitation on benefits article in the India-UK treaty?", a: "There is no separate article. The Multilateral Instrument's principal purpose test now applies, and it can deny a treaty benefit if obtaining it was one of the principal purposes of an arrangement." },
-  { q: "How does a UK company get a certificate of residence?", a: "It asks HMRC, which issues a certificate confirming UK residence for a stated period. The certificate, with Form 41, goes to the Indian payer before the first payment at the treaty rate." },
+  { q: "How does a UK company get a certificate of residence?", a: "It asks HMRC, which issues a certificate confirming UK residence for a stated period. The certificate, with Form 41, goes to the Indian payer before the first payment at the DTAA rate." },
 ]
 
 const relatedCards = [
@@ -122,17 +123,17 @@ export default function IndiaUkDtaaPage() {
           Each article gives one country the right to tax first (the source state, where the income arises) and
           the other a duty to relieve double tax (the residence state, where the recipient lives). For a UK
           parent with an Indian subsidiary, <strong>India is the source state</strong> and{" "}
-          <strong>the UK is the residence state</strong>. The treaty only ever limits India&apos;s domestic
-          rate; the lower of the Income-tax Act rate and the treaty rate applies.
+          <strong>the UK is the residence state</strong>. The DTAA only ever limits India&apos;s domestic
+          rate; the lower of the Income-tax Act rate and the DTAA rate applies.
         </p>
 
         <p className="text-gray-600 leading-relaxed mb-10">
-          The Indian subsidiary is a separate Indian resident company, so the treaty does not reduce its own
+          The Indian subsidiary is a separate Indian resident company, so the DTAA does not reduce its own
           tax. It matters when money flows to the parent, when the parent&apos;s staff work in India, and when
           the two companies price transactions.
         </p>
 
-        <h2 id="rates" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Tax rates under the treaty, article by article</h2>
+        <h2 id="rates" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Tax rates under the DTAA, article by article</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           Article numbers follow the consolidated text published by HMRC, which includes the effect of the MLI.
         </p>
@@ -223,14 +224,14 @@ export default function IndiaUkDtaaPage() {
 
         <h2 id="scope" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Articles 1 to 4: scope, taxes covered, definitions and residence</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
-          <li><strong>Article 1:</strong> the treaty applies to residents of the UK or India, or both. An MLI clause also means it does not limit a country&apos;s right to tax its own residents, apart from listed benefits.</li>
+          <li><strong>Article 1:</strong> the DTAA applies to residents of the UK or India, or both. An MLI clause also means it does not limit a country&apos;s right to tax its own residents, apart from listed benefits.</li>
           <li><strong>Article 2, taxes covered:</strong> in the UK, income tax, corporation tax, capital gains tax and petroleum revenue tax; in India, income tax with any surcharge. GST, VAT and stamp duty are not covered.</li>
           <li><strong>Article 3:</strong> definitions, including the competent authorities, the fiscal year and international traffic. Undefined terms take their meaning from domestic law.</li>
           <li><strong>Article 4, residence:</strong> a person is resident if liable to tax by reason of domicile, residence, management or incorporation. A company resident in both countries is no longer sorted by place of effective management alone: under the MLI the two tax authorities try to agree its residence, and relief may be denied if they cannot. Individuals are sorted by permanent home, centre of vital interests, habitual abode and nationality.</li>
         </ul>
 
         <p className="text-gray-600 leading-relaxed mb-10">
-          A UK company claims the treaty with an HMRC certificate of residence, which confirms residence for a
+          A UK company claims the DTAA with an HMRC certificate of residence, which confirms residence for a
           stated period. It must cover the payment dates, and the parent must also be the{" "}
           <strong>beneficial owner</strong> of the income, not a pass-through.
         </p>
@@ -338,24 +339,24 @@ export default function IndiaUkDtaaPage() {
         <h2 id="relief" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Articles 23 to 24 and 26: other income, relief and non-discrimination</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
           <li><strong>Article 23, other income:</strong> income not covered elsewhere is taxed in the residence state, and the source state may also tax income that arises there.</li>
-          <li><strong>Article 24, relief:</strong> the UK gives a credit for Indian tax, and for a UK company holding at least 10% of the voting power the credit extends to the underlying Indian corporate tax on dividends. In practice most dividends are exempt in the UK under the distribution exemption, so the Indian withholding is a cost, while interest, royalties and fees are taxed in the UK with credit for Indian tax. India gives a credit for UK tax, limited to the Indian tax on that income. The treaty&apos;s tax-sparing rules for old Indian incentives are time-limited and no longer matter for new investments.</li>
+          <li><strong>Article 24, relief:</strong> the UK gives a credit for Indian tax, and for a UK company holding at least 10% of the voting power the credit extends to the underlying Indian corporate tax on dividends. In practice most dividends are exempt in the UK under the distribution exemption, so the Indian withholding is a cost, while interest, royalties and fees are taxed in the UK with credit for Indian tax. India gives a credit for UK tax, limited to the Indian tax on that income. The DTAA&apos;s tax-sparing rules for old Indian incentives are time-limited and no longer matter for new investments.</li>
           <li><strong>Article 26, non-discrimination:</strong> a PE or a company owned by UK residents may not be taxed more heavily than a comparable Indian business, and payments to UK residents must be deductible on the same terms as payments to residents.</li>
         </ul>
 
         <h2 id="disputes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Articles 27 to 28C: disputes, information and collection</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
-          <li><strong>Article 27, mutual agreement procedure (MAP):</strong> present the case to the competent authority within three years of the first notification of the action that is not in line with the treaty. Agreements are carried out despite domestic time limits.</li>
+          <li><strong>Article 27, mutual agreement procedure (MAP):</strong> present the case to the competent authority within three years of the first notification of the action that is not in line with the DTAA. Agreements are carried out despite domestic time limits.</li>
           <li><strong>Article 28, exchange of information:</strong> information that is foreseeably relevant is exchanged, and bank secrecy is not a ground to refuse. <strong>Article 28A</strong> allows tax examinations abroad with consent.</li>
           <li><strong>Article 28B, assistance in collection:</strong> each country can help collect the other&apos;s enforceable claims and take protective steps.</li>
-          <li><strong>Article 28C and the MLI:</strong> the treaty has no separate limitation-on-benefits article; the MLI&apos;s <strong>principal purpose test</strong> denies a benefit if obtaining it was one of the principal purposes of an arrangement, unless granting it fits the treaty&apos;s object and purpose.</li>
+          <li><strong>Article 28C and the MLI:</strong> the DTAA has no separate limitation-on-benefits article; the MLI&apos;s <strong>principal purpose test</strong> denies a benefit if obtaining it was one of the principal purposes of an arrangement, unless granting it fits the DTAA&apos;s object and purpose.</li>
         </ul>
 
         <h2 id="final" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Articles 29 to 31: diplomats, entry into force and termination</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
-          Article 29 preserves diplomatic and consular privileges. Article 30 brought the treaty into force,
+          Article 29 preserves diplomatic and consular privileges. Article 30 brought the DTAA into force,
           replacing the 1981 convention. Article 31 lets either country end it by diplomatic notice of at least
           six months, given before the end of a calendar year, with effect from the following fiscal year. The
-          MLI modified the treaty for withholding taxes from 1 January 2020 in the UK and 1 April 2020 in India,
+          MLI modified the DTAA for withholding taxes from 1 January 2020 in the UK and 1 April 2020 in India,
           and for other taxes from tax periods beginning on or after 1 April 2020 (corporation tax) and 6 April
           2020 (income tax and capital gains tax) in the UK.
         </p>
@@ -365,7 +366,7 @@ export default function IndiaUkDtaaPage() {
           <li>Request an HMRC certificate of residence for the period of the payments. Allow time, because HMRC issues it on request and it covers a stated period.</li>
           <li>Prepare Form 41 (previously Form 10F) with residence details, and give it with the certificate to the Indian payer.</li>
           <li>Give a no-PE declaration and evidence of beneficial ownership if the payer or the tax officer asks.</li>
-          <li>The Indian subsidiary applies the treaty rate under Section 393 and keeps the documents on file.</li>
+          <li>The Indian subsidiary applies the DTAA rate under Section 393 and keeps the documents on file.</li>
           <li>Where required, a Chartered Accountant certifies the payment (Form 146, previously Form 15CB) and the company files Form 145 (previously Form 15CA).</li>
           <li>The parent obtains the Indian Withholding Tax certificate for its UK return and credit claim.</li>
         </ol>
@@ -387,6 +388,11 @@ export default function IndiaUkDtaaPage() {
           <li>Using an HMRC certificate that does not cover the payment date.</li>
           <li>Ignoring the principal purpose test when inserting a holding company.</li>
         </ul>
+        <h2 id="dtaa-claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Claiming the DTAA rate in practice</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          To apply the DTAA rate, the Indian payer needs the UK company&apos;s certificate of residence (TRC) from HMRC for the year and Form 41 (previously Form 10F) before paying. Without them, tax is withheld at the domestic rate, and the DTAA benefit can only be recovered through a refund in an Indian return. For royalties and technical fees, keep the agreement and evidence of the services with the DTAA file, because the classification decides the DTAA article. The MLI&apos;s principal purpose test also applies to the DTAA, so document the commercial reason for any intermediate holding company.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

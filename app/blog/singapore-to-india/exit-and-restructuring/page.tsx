@@ -22,6 +22,7 @@ const toc = [
   { id: "fema", label: "FEMA on a sale" },
   { id: "close", label: "Closing the subsidiary" },
   { id: "restructure", label: "Restructuring inside the group" },
+  { id: "exit-at-a-glance", label: "Exit routes at a glance" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,8 @@ const faqs = [
   { q: "How do I close an Indian subsidiary?", a: "By strike-off if it is dormant with no liabilities, or by voluntary liquidation if it has assets, contracts or disputes, after clearing tax, employee and RBI matters." },
   { q: "Can the buyer withhold tax on the price?", a: "Yes. The buyer must deduct tax on the payment to a non-resident. A lower deduction certificate can reduce or remove it." },
   { q: "Is a group reorganisation tax free?", a: "Not automatically. Exemptions exist for certain intra-group transfers and mergers, but the conditions are strict and must be tested first." },
+  { q: "Which exit route is fastest?", a: "A share sale is usually the fastest exit for a trading company; a strike-off is the fastest exit for a dormant one. A liquidation is the slowest exit route." },
+  { q: "Is an exit by a Singapore parent taxed in India?", a: "Usually yes: gains on Indian shares are taxed in India, at 12.5% for unlisted shares held more than 24 months, subject to the DTAA. Plan the exit tax position before signing." },
 ]
 
 const relatedCards = [
@@ -185,6 +188,22 @@ export default function ExitAndRestructuringPage() {
           the Indian tax result, the shell and primary purpose tests for the new holder and any indirect
           transfer exposure.
         </p>
+        <h2 id="exit-at-a-glance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Exit routes at a glance</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Exit route</th><th scope="col" className="border border-gray-300 p-3 text-left">Main steps</th><th scope="col" className="border border-gray-300 p-3 text-left">Typical time</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share transfer to a buyer</th><td className="border border-gray-300 p-3">Valuation, share purchase agreement, withholding by the buyer, Form FC-TRS within 60 days</td><td className="border border-gray-300 p-3">Two to four months</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Strike-off under Section 248</th><td className="border border-gray-300 p-3">Dormant company; liabilities cleared; Form STK-2 with indemnity and affidavits</td><td className="border border-gray-300 p-3">Several months</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Merger through the NCLT</th><td className="border border-gray-300 p-3">Scheme approved by the National Company Law Tribunal, or the fast-track route for group companies</td><td className="border border-gray-300 p-3">Six to twelve months</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Voluntary liquidation</th><td className="border border-gray-300 p-3">Declaration of solvency, liquidator, sale of assets, final distribution</td><td className="border border-gray-300 p-3">A year or more</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          For a Singapore parent the exit choice usually turns on tax on both sides and on how quickly cash is needed. Plan the exit early, because clean records from the first year make every exit route faster.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

@@ -23,6 +23,7 @@ const toc = [
   { id: "clause", label: "Drafting the arbitration clause" },
   { id: "enforcement", label: "Enforcing in India" },
   { id: "checklist", label: "Signing checklist" },
+  { id: "seat-table", label: "Choosing the seat: SIAC, LCIA, JCAA or India" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -179,6 +180,22 @@ export default function ContractsAndArbitrationPage() {
           <li>Store the executed originals with the stamp paper or e-stamp certificate.</li>
           <li>Update the transfer pricing file when an intercompany agreement changes.</li>
         </ol>
+        <h2 id="seat-table" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Choosing the seat: SIAC, LCIA, JCAA or India</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Seat and rules</th><th scope="col" className="border border-gray-300 p-3 text-left">Typical use for a Japanese group</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Singapore, SIAC</th><td className="border border-gray-300 p-3">The most common neutral choice for contracts with Indian companies</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Tokyo, JCAA</th><td className="border border-gray-300 p-3">Intercompany contracts governed by Japanese law</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">London, LCIA</th><td className="border border-gray-300 p-3">Contracts governed by English law</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">India, MCIA or DIAC</th><td className="border border-gray-300 p-3">Where the counterparty and assets are in India and speed of enforcement matters</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          All foreign seats listed are in New York Convention countries notified by India. Name the institution, seat, language and number of members of the tribunal in the clause.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

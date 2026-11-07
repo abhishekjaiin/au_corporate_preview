@@ -32,12 +32,12 @@ const toc = [
 
 const faqs = [
   { q: "Is there a tax treaty between India and Hong Kong?", a: "Yes. It was signed on 19 March 2018, entered into force on 30 November 2018 and applies in India from 1 April 2019." },
-  { q: "What is the Indian withholding rate on dividends paid to a Hong Kong parent?", a: "5% of the gross amount under the treaty, if the beneficial owner is a Hong Kong resident and the paperwork is in place. The domestic rate is higher." },
-  { q: "What are the treaty rates on interest, royalties and technical fees?", a: "10% of the gross amount for each, with 0% on interest paid to the government, the RBI and designated bodies such as the HKMA." },
+  { q: "What is the Indian withholding rate on dividends paid to a Hong Kong parent?", a: "5% of the gross amount under the DTAA, if the beneficial owner is a Hong Kong resident and the paperwork is in place. The domestic rate is higher." },
+  { q: "What are the DTAA rates on interest, royalties and technical fees?", a: "10% of the gross amount for each, with 0% on interest paid to the government, the RBI and designated bodies such as the HKMA." },
   { q: "When does a Hong Kong company have a permanent establishment in India?", a: "Through a fixed place, a building site or installation over six months, services through personnel for more than 183 days in any 12-month period, or a dependent agent." },
-  { q: "Are gains on Indian shares taxable in India for a Hong Kong seller?", a: "Yes. Summaries of the treaty say gains on shares of an Indian company are taxable in India, and Hong Kong does not tax capital gains in general." },
-  { q: "What is the principal purpose test?", a: "A rule that denies a treaty benefit if obtaining it was one of the principal purposes of an arrangement and granting it would be contrary to the treaty's object and purpose." },
-  { q: "Does the treaty remove the need for Press Note 3 approval?", a: "No. The treaty deals with tax. Press Note 3 is a separate foreign investment approval rule." },
+  { q: "Are gains on Indian shares taxable in India for a Hong Kong seller?", a: "Yes. Summaries of the DTAA say gains on shares of an Indian company are taxable in India, and Hong Kong does not tax capital gains in general." },
+  { q: "What is the principal purpose test?", a: "A rule that denies a treaty benefit if obtaining it was one of the principal purposes of an arrangement and granting it would be contrary to the DTAA's object and purpose." },
+  { q: "Does the DTAA remove the need for Press Note 3 approval?", a: "No. The DTAA deals with tax. Press Note 3 is a separate foreign investment approval rule." },
   { q: "What documents prove treaty eligibility?", a: "A Tax Residency Certificate from the Hong Kong Inland Revenue Department, Form 41, and a declaration of beneficial ownership and no PE." },
   { q: "How long do I have to bring a mutual agreement case?", a: "Three years from the first notification of the action that gives rise to the taxation, under Article 25." },
 ]
@@ -142,7 +142,7 @@ export default function IndiaHongKongDtaaPage() {
                 ["Article 7", "Business profits", "Taxed in India only to the extent attributable to a PE", "Net basis for PE income"],
                 ["Article 14", "Capital gains", "Shares of an Indian company: taxable in India", "Domestic law sets the rate; 12.5% for unlisted shares held more than 24 months"],
                 ["Article 8", "Shipping and air transport", "Source country may tax at 50% of its normal rate, as reported", "Check the article for the exact scope"],
-                ["Article 15", "Salary of a Hong Kong resident", "Standard day-count test; confirm the period and conditions in the treaty text", "See the employees guide"],
+                ["Article 15", "Salary of a Hong Kong resident", "Standard day-count test; confirm the period and conditions in the DTAA text", "See the employees guide"],
               ].map((row, i) => (
                 <tr key={row[0]} className={i % 2 === 1 ? "bg-gray-50" : undefined}>
                   <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">{row[0]}</th>
@@ -167,7 +167,7 @@ export default function IndiaHongKongDtaaPage() {
 
         <h2 id="gains" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Share gains</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
-          Summaries of the treaty place share gains in Article 14 and say that gains on shares of an Indian
+          Summaries of the DTAA place share gains in Article 14 and say that gains on shares of an Indian
           company are taxable in India. Hong Kong does not tax capital gains generally, so the Indian tax is the
           main cost on an exit. Domestic law taxes a non-resident&apos;s long-term gain on unlisted Indian
           shares at 12.5% (held more than 24 months), and a short-term gain at the normal rate. See{" "}
@@ -176,27 +176,27 @@ export default function IndiaHongKongDtaaPage() {
 
         <h2 id="abuse" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Anti-abuse: the principal purpose test</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
-          <li>The dividend, interest, royalty, technical services and capital gains articles contain a principal purpose test. A benefit is denied if obtaining it was one of the principal purposes of the arrangement and granting it would be contrary to the treaty&apos;s object and purpose.</li>
+          <li>The dividend, interest, royalty, technical services and capital gains articles contain a principal purpose test. A benefit is denied if obtaining it was one of the principal purposes of the arrangement and granting it would be contrary to the DTAA&apos;s object and purpose.</li>
           <li>A Hong Kong company needs commercial reasons and real substance: board decisions, people, premises and spend in Hong Kong. A letterbox holding company is exposed.</li>
           <li>India&apos;s General Anti-Avoidance Rule can apply where the arrangement&apos;s main purpose is a tax benefit above INR 3 crore.</li>
-          <li>Summaries of the treaty say the Multilateral Instrument does not modify it. Have your adviser confirm.</li>
-          <li>The 5% dividend rate is the main attraction. Press Note 3 approval, not the treaty, is the gating issue for most Hong Kong investors. See <Link href="/hong-kong-to-india/india-press-note-3-and-hong-kong-entities" className="text-blue-800 font-semibold hover:underline">Press Note 3 and Hong Kong entities</Link>.</li>
+          <li>Summaries of the DTAA say the Multilateral Instrument does not modify it. Have your adviser confirm.</li>
+          <li>The 5% dividend rate is the main attraction. Press Note 3 approval, not the DTAA, is the gating issue for most Hong Kong investors. See <Link href="/hong-kong-to-india/india-press-note-3-and-hong-kong-entities" className="text-blue-800 font-semibold hover:underline">Press Note 3 and Hong Kong entities</Link>.</li>
         </ul>
 
-        <h2 id="claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to claim treaty rates</h2>
+        <h2 id="claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to claim DTAA rates</h2>
         <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-10">
           <li>The Hong Kong company obtains a Tax Residency Certificate from the Inland Revenue Department.</li>
           <li>It gives the Indian payer Form 41 (previously Form 10F), the certificate and a self-declaration of beneficial ownership and no PE in India.</li>
-          <li>The Indian payer deducts Withholding Tax at the treaty rate under Section 393 of the Income-tax Act, 2025, and deposits it by the 7th of the following month.</li>
+          <li>The Indian payer deducts Withholding Tax at the DTAA rate under Section 393 of the Income-tax Act, 2025, and deposits it by the 7th of the following month.</li>
           <li>The payer issues the certificate, which the Hong Kong company keeps for its Hong Kong return and any credit claim.</li>
         </ol>
 
         <h2 id="trc-hk" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The Hong Kong certificate of resident status</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          To claim the treaty, a Hong Kong company needs a <strong>certificate of resident status</strong>, Hong Kong&apos;s tax residency certificate (TRC), issued by the Inland Revenue Department (IRD). For a company, the IRD looks at whether it is normally managed or controlled in Hong Kong, so the application asks where the board meets, where directors live, and whether the company has an office, staff and real operations in Hong Kong.
+          To claim the DTAA, a Hong Kong company needs a <strong>certificate of resident status</strong>, Hong Kong&apos;s tax residency certificate (TRC), issued by the Inland Revenue Department (IRD). For a company, the IRD looks at whether it is normally managed or controlled in Hong Kong, so the application asks where the board meets, where directors live, and whether the company has an office, staff and real operations in Hong Kong.
         </p>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
-          <li>A company incorporated in Hong Kong but managed from elsewhere may be refused, so holding companies with no Hong Kong substance should check before relying on the treaty.</li>
+          <li>A company incorporated in Hong Kong but managed from elsewhere may be refused, so holding companies with no Hong Kong substance should check before relying on the DTAA.</li>
           <li>Certificates are issued for a specific year of assessment; request one covering the period of the Indian payments.</li>
           <li>Filing Form 41 (previously Form 10F) on the Indian income tax portal and giving a beneficial ownership and no-PE declaration completes the Indian paperwork.</li>
         </ul>
@@ -238,7 +238,7 @@ export default function IndiaHongKongDtaaPage() {
           </table>
         </div>
         <p className="text-gray-600 leading-relaxed mb-10">
-          Hong Kong does not tax dividends received and does not withhold tax on dividends paid onward, so the 5% Indian tax is usually the only tax on the profit flow, and there is nothing in Hong Kong to credit it against. On an INR 1 crore dividend, Indian tax is INR 5 lakh with the treaty, against about INR 20.8 lakh or more without it.
+          Hong Kong does not tax dividends received and does not withhold tax on dividends paid onward, so the 5% Indian tax is usually the only tax on the profit flow, and there is nothing in Hong Kong to credit it against. On an INR 1 crore dividend, Indian tax is INR 5 lakh with the DTAA, against about INR 20.8 lakh or more without it.
         </p>
         <h2 id="holdco-hk" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Using a Hong Kong company to hold the Indian subsidiary</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -250,20 +250,20 @@ export default function IndiaHongKongDtaaPage() {
           <li><strong>Press Note 3.</strong> If the ultimate owner is Chinese, or a resident or citizen of another country sharing a land border with India, every Indian investment through the Hong Kong company needs Government of India approval. See <Link href="/hong-kong-to-india/india-press-note-3-and-hong-kong-entities" className="text-blue-800 font-semibold hover:underline">Press Note 3 and Hong Kong entities</Link>.</li>
         </ol>
         <p className="text-gray-600 leading-relaxed mb-10">
-          Capital gains are a further point: India can tax gains on the sale of shares of an Indian company under the treaty, so an exit through the Hong Kong company does not escape Indian capital gains tax.
+          Capital gains are a further point: India can tax gains on the sale of shares of an Indian company under the DTAA, so an exit through the Hong Kong company does not escape Indian capital gains tax.
         </p>
 
         <h2 id="hk" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The Hong Kong side</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
           <li>Hong Kong taxes profits arising in or derived from Hong Kong. Indian-source dividends received by a Hong Kong company may be exempt if they are not Hong Kong-sourced, but the foreign-sourced income exemption regime for multinational groups can deem certain foreign dividends, interest, gains and IP income to be received in Hong Kong unless economic substance or participation conditions are met. This is for your Hong Kong adviser.</li>
-          <li>Summaries note that the foreign tax credit under the treaty is limited to the Hong Kong profits tax payable on the same income.</li>
+          <li>Summaries note that the foreign tax credit under the DTAA is limited to the Hong Kong profits tax payable on the same income.</li>
           <li>Hong Kong does not levy withholding tax on dividends and interest paid to non-residents; royalties are subject to a withholding tax at an effective rate of 4.95% in the summaries.</li>
         </ul>
 
         <h2 id="map" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Disputes and information exchange</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           The mutual agreement procedure allows a case to be presented within three years of the first
-          notification of the action that gives rise to taxation not in line with the treaty. The treaty also
+          notification of the action that gives rise to taxation not in line with the DTAA. The DTAA also
           provides for exchange of information. Keep the transfer pricing files of both jurisdictions aligned.
         </p>
 

@@ -22,6 +22,10 @@ const toc = [
   { id: "fees", label: "Service fees and royalties" },
   { id: "paperwork", label: "The paperwork for each remittance" },
   { id: "japan-tax", label: "How Japan taxes what arrives" },
+  { id: "repatriation-options", label: "Profit repatriation routes compared" },
+  { id: "forms", label: "The repatriation paperwork: Forms 145 and 146" },
+  { id: "repatriation-example", label: "A worked repatriation example" },
+  { id: "repatriation-timing", label: "Repatriation timing for a 31 March parent" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +39,8 @@ const faqs = [
   { q: "What are Forms 145 and 146?", a: "The remittance declarations that replaced Forms 15CA and 15CB under the Income-tax Act, 2025." },
   { q: "Can a loss-making subsidiary pay a dividend?", a: "No. Dividends need distributable profits after the audited accounts are approved." },
   { q: "Is GST due on fees and royalties paid to Japan?", a: "Yes, usually under reverse charge by the Indian subsidiary, with input credit where eligible." },
+  { q: "What are Forms 145 and 146?", a: "The online declaration of a payment abroad and the Chartered Accountant's certificate behind it, previously Forms 15CA and 15CB." },
+  { q: "Can repatriation start before the first audit?", a: "An interim dividend from current profits can be declared by the board; otherwise service fees and royalties under agreements move money during the year. Each repatriation payment needs Forms 145 and 146." },
 ]
 
 const relatedCards = [
@@ -174,6 +180,40 @@ export default function RepatriatingProfitsPage() {
           <li>Fees, royalties and interest: taxable in Japan, with a foreign tax credit for the Indian tax, subject to limits.</li>
           <li>Japanese controlled foreign company rules can apply where the Indian subsidiary&apos;s effective tax rate is low, which is unusual at Indian rates.</li>
         </ul>
+        <h2 id="repatriation-options" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Profit repatriation routes compared</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Repatriation route</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax</th><th scope="col" className="border border-gray-300 p-3 text-left">Japanese tax</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Dividend</th><td className="border border-gray-300 p-3">10% under the treaty</td><td className="border border-gray-300 p-3">95% exempt under the foreign dividend exclusion for a qualifying holding of 25% held six months</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share buy-back</th><td className="border border-gray-300 p-3">Taxed as a dividend for the shareholder since 1 October 2024</td><td className="border border-gray-300 p-3">Depends on the Japanese characterisation; take advice</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Royalty or technical fee</th><td className="border border-gray-300 p-3">10% under the treaty; deductible in India at arm&apos;s length</td><td className="border border-gray-300 p-3">Taxable, with a foreign tax credit</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Interest on a parent loan</th><td className="border border-gray-300 p-3">10% under the treaty</td><td className="border border-gray-300 p-3">Taxable, with a foreign tax credit</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Because the 10% Indian withholding on a dividend is generally not creditable once 95% of the dividend is exempt in Japan, it is usually a final cost. Royalties and fees give a foreign tax credit instead, so the best repatriation mix depends on the parent&apos;s Japanese tax position.
+        </p>
+
+        <h2 id="forms" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The repatriation paperwork: Forms 145 and 146</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each repatriation payment is reported before the money leaves India. Form 145 (previously Form 15CA) is the payer&apos;s online declaration; Form 146 (previously Form 15CB) is a Chartered Accountant&apos;s certificate of the nature of the payment, the treaty article and the rate. The bank releases the remittance only after both are filed, with the Japanese Certificate of Residence and Form 41 on record.
+        </p>
+
+        <h2 id="repatriation-example" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A worked repatriation example</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An Indian company earns ₹6 crore before tax. Corporate tax at about 25.17% is about ₹1.51 crore, leaving about ₹4.49 crore. It declares a dividend of ₹4 crore after the AGM, withholds 10% (₹40 lakh) and repatriates ₹3.6 crore to the Japanese parent. In Japan, 5% of the dividend is taxable, so the Japanese tax is small, and the Indian taxes are the main cost of this repatriation.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Japanese parents that also close on 31 March can plan dividends in the same fiscal year as the Indian results. A declared dividend must be paid within 30 days.
+        </p>
+        <h2 id="repatriation-timing" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Repatriation timing for a 31 March parent</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most Japanese parents also close on 31 March, so a final dividend from the Indian company, paid after its audit and AGM, usually falls in the parent&apos;s following quarter. Plan repatriation with the group treasury calendar, and remember that a declared dividend must be paid within 30 days.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

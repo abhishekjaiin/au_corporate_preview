@@ -21,6 +21,8 @@ const toc = [
   { id: "economics", label: "Tax and pricing: keeping it defensible" },
   { id: "stages", label: "A staged build" },
   { id: "people", label: "Leadership, culture and governance" },
+  { id: "gcc-models", label: "GCC operating models: own centre, BOT or hybrid" },
+  { id: "uk-talent", label: "Talent and location" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -179,6 +181,29 @@ export default function GccForUkCompaniesPage() {
           <Link href="/uk-to-india/hiring-in-india" className="text-blue-800 font-semibold hover:underline">hiring in India</Link>.
           For regulated firms, ensure the board and risk committees receive reporting on the centre.
         </p>
+        <h2 id="gcc-models" className="text-2xl font-bold text-gray-900 mt-12 mb-4">GCC operating models: own centre, BOT or hybrid</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">GCC model</th><th scope="col" className="border border-gray-300 p-3 text-left">How it works</th><th scope="col" className="border border-gray-300 p-3 text-left">Suits</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Own GCC from day one</th><td className="border border-gray-300 p-3">The parent forms its Indian company, hires and runs the centre</td><td className="border border-gray-300 p-3">Groups with India experience and a clear long-term plan</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Build-operate-transfer (BOT)</th><td className="border border-gray-300 p-3">A partner builds and runs the GCC, then transfers it to the parent&apos;s own company after an agreed period</td><td className="border border-gray-300 p-3">Groups that want speed and lower early risk</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Hybrid</th><td className="border border-gray-300 p-3">A small own GCC with some functions run by a partner or employer of record</td><td className="border border-gray-300 p-3">Testing new functions before scaling</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          SEZ and STPI units are still used for GCC premises, mainly for customs and GST advantages; the SEZ income-tax holiday is not available to units that started after 31 March 2020. Most new GCCs choose standard commercial premises and price their services to the group on a cost-plus basis.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Talent availability, rather than incentives, usually decides the GCC location. UK groups most often look at Bengaluru, Pune or the National Capital Region. See our <Link href="/gcc-setup-india" className="text-blue-800 font-semibold hover:underline">GCC setup service</Link>.
+        </p>
+        <h2 id="uk-talent" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Talent and location</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Talent availability is the main reason UK groups choose India for a GCC. Bengaluru, Hyderabad, Pune, Chennai and the National Capital Region have the deepest pools for engineering, data and finance roles.
+        </p>
+
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

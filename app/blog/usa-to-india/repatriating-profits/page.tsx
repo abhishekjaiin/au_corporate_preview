@@ -24,6 +24,7 @@ const toc = [
   { id: "note", label: "A note on the new forms" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "repatriation-checklist", label: "Repatriation checklist for a US parent" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -39,6 +40,9 @@ const faqs = [
   { q: "How are royalties and software license fees treated?", a: "Royalty payments to the parent attract Withholding Tax at the applicable domestic or treaty rate, transfer pricing review and GST on reverse charge. The agreement should define the licensed IP, the rate and the basis for it, and the payment needs the same documents as other foreign remittances." },
   { q: "What is the India-US tax treaty (DTAA)?", a: "The India-US tax treaty (DTAA) is an agreement that avoids double taxation between the two countries. It reduces withholding rates on dividends, interest, royalties and fees for included services (Articles 10 to 12) and defines when a permanent establishment exists (Article 5). Claiming its benefits needs a Tax Residency Certificate and treaty details in Form 41 (previously Form 10F)." },
   { q: "What are Withholding Tax returns and when are they due?", a: "Withholding Tax deducted on salaries and payments is deposited by the 7th of the following month. Quarterly statements are filed in Form 138 for salaries, Form 140 for resident payments and Form 144 for non-resident payments (previously Forms 24Q, 26Q and 27Q)." },
+  { q: "What is the cheapest repatriation route for a US parent?", a: "Usually a dividend, because the repatriation is taxed once in India at the DTAA rate and often relieved at home; fees and royalties suit groups that can use a foreign tax credit. Compare the after-tax repatriation result for each route before deciding." },
+  { q: "How often can profits be repatriated?", a: "A final dividend once a year after the AGM, interim dividends during the year, and regular repatriation through service fees or royalties under signed agreements. Each repatriation payment needs Forms 145 and 146." },
+  { q: "Does repatriation need RBI approval?", a: "No. Dividends and current payments are freely repatriable through the AD bank once Indian tax is paid and the paperwork is filed; repatriation of capital follows the FEMA rules for buy-backs, capital reduction or sale." },
 ]
 
 const relatedCards = [
@@ -200,6 +204,25 @@ export default function RepatriatingProfitsPage() {
           and{" "}
           <Link href="/usa-to-india/tax-and-social-security-treaties/treaty-benefits-documents" className="text-blue-800 font-semibold hover:underline">claiming treaty benefits with Form 6166 and Form 41</Link>.
         </p>
+        <h2 id="repatriation-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Repatriation checklist for a US parent</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Repatriation route</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax under the DTAA</th><th scope="col" className="border border-gray-300 p-3 text-left">Point to note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Dividend</th><td className="border border-gray-300 p-3">15% with a holding of at least 10% (25% otherwise)</td><td className="border border-gray-300 p-3">The us taxes the dividend under its own rules, with a foreign tax credit where available</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Royalty or technical fee</th><td className="border border-gray-300 p-3">15% (10% in some cases)</td><td className="border border-gray-300 p-3">Must reflect real rights or services, priced at arm&apos;s length</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Interest on a parent loan</th><td className="border border-gray-300 p-3">10% or 15%</td><td className="border border-gray-300 p-3">External commercial borrowing rules apply</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share buy-back</th><td className="border border-gray-300 p-3">Taxed as a dividend in the shareholder&apos;s hands since 1 October 2024</td><td className="border border-gray-300 p-3">No longer a cheaper route than a dividend</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each repatriation payment to the US parent is reported before the money leaves India: Form 145 (previously Form 15CA) is the payer&apos;s online declaration, and Form 146 (previously Form 15CB) is a Chartered Accountant&apos;s certificate of the nature of the payment, the DTAA article and the rate. The bank releases the remittance only after both are filed, with the tax residency certificate and Form 41 on record.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A final dividend follows the Indian audit and AGM, so repatriation of a year&apos;s profit usually happens between July and October. A declared dividend must be paid within 30 days, so confirm the receiving account and the paperwork before the board meeting.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

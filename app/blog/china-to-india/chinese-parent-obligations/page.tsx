@@ -22,6 +22,7 @@ const toc = [
   { id: "technology", label: "Technology, equipment and people" },
   { id: "tax", label: "Chinese tax on the investment (for your Chinese adviser)" },
   { id: "governance", label: "Governance and reporting" },
+  { id: "group-reporting", label: "Group reporting the parent provides" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -174,6 +175,17 @@ export default function ChineseParentObligationsPage() {
           <li>Annual reporting of the overseas investment to MOFCOM and tax authorities.</li>
           <li>Prepare for questions on beneficial ownership from Indian banks and regulators.</li>
         </ul>
+        <h2 id="group-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Group reporting the parent provides</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Ultimate beneficial owner:</strong> the Indian company records its significant beneficial owners, and the bank keeps its own declaration; the parent must provide the full chain.</li>
+          <li><strong>Master file (Form 3CEAA under the old numbering):</strong> where group revenue exceeds ₹500 crore and Indian international transactions exceed ₹50 crore.</li>
+          <li><strong>CbCR:</strong> country-by-country reporting at consolidated group revenue of ₹6,400 crore or more.</li>
+          <li><strong>FLA return:</strong> filed by the Indian company by 15 July, using figures the parent confirms.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          These parent-driven filings cannot be completed without information from the Chinese parent, so agree a yearly information request with the group&apos;s finance team.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

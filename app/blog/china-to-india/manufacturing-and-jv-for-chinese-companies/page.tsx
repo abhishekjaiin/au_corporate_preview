@@ -23,6 +23,7 @@ const toc = [
   { id: "incentives", label: "Incentives and subsidies" },
   { id: "risks", label: "Practical risks" },
   { id: "transfer", label: "Moving toward Indian control" },
+  { id: "jv-agreement", label: "What the joint venture agreement should cover" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -183,6 +184,11 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
           equity later with approval. Whichever model you choose, document the technology, pricing and exit
           terms in advance and keep them consistent with the approval letter.
         </p>
+        <h2 id="jv-agreement" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the joint venture agreement should cover</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A joint venture between a Chinese company and an Indian partner should set out the shareholding, board seats and reserved matters, the technology licence and royalty, funding obligations, deadlock and exit, and what happens if Press Note 3 approval for a later capital round is refused. Put the key joint venture terms into the articles so they bind the Indian company, and make the joint venture&apos;s capital plan conditional on approval where it is needed.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

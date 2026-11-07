@@ -23,16 +23,17 @@ const toc = [
   { id: "gains", label: "Gains on shares: grandfathering, the 2017 change and the shell test" },
   { id: "claim", label: "How to claim treaty rates: the paperwork" },
   { id: "pe-risk", label: "Permanent establishment: where Singapore groups get caught" },
+  { id: "dtaa-claim", label: "Claiming the DTAA rate in practice" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
 const faqs = [
-  { q: "What is the withholding rate on dividends from India to Singapore?", a: "Under the treaty, 10% if the Singapore company holds at least 25% of the Indian company's capital and 15% otherwise. Singapore adds no tax withholding on its side. The Indian payer applies it under Section 393 on receipt of the residency certificate and Form 41." },
+  { q: "What is the withholding rate on dividends from India to Singapore?", a: "Under the DTAA, 10% if the Singapore company holds at least 25% of the Indian company's capital and 15% otherwise. Singapore adds no tax withholding on its side. The Indian payer applies it under Section 393 on receipt of the residency certificate and Form 41." },
   { q: "What documents does a Singapore company need to claim India-Singapore treaty benefits?", a: "An IRAS tax residency certificate, Form 41 (previously Form 10F), a no-PE declaration and a beneficial-ownership declaration, given to the Indian payer before payment." },
   { q: "Can India tax the sale of Indian shares by a Singapore company?", a: "Yes for shares acquired on or after 1 April 2017, at full Indian domestic rates since 1 April 2019. Shares acquired before 1 April 2017 remain taxable only in Singapore, unless the seller is a shell or conduit company." },
   { q: "What counts as a shell company under the India-Singapore treaty?", a: "A company whose annual operating expenditure in its home state is below SGD 200,000 (Singapore) or INR 5,000,000 (India) over the preceding 24 months. Listed companies are deemed not to be shells." },
   { q: "When does a Singapore parent have a permanent establishment in India?", a: "A fixed place of business, a construction project over 183 days, a dependent agent who habitually concludes contracts, or services through employees above 90 days in a fiscal year (30 days for services to an associated enterprise), as summarised in the sources we checked." },
-  { q: "Does India tax a Singapore parent on royalties and technical fees?", a: "Yes, but at no more than 10% under the treaty as we read it, and fees are taxable only where the service makes technical knowledge available. Without it, domestic Withholding Tax at around 20% plus surcharge and cess could apply." },
+  { q: "Does India tax a Singapore parent on royalties and technical fees?", a: "Yes, but at no more than 10% under the DTAA as we read it, and fees are taxable only where the service makes technical knowledge available. Without it, domestic Withholding Tax at around 20% plus surcharge and cess could apply." },
   { q: "Is there a mutual agreement procedure between India and Singapore?", a: "Yes. A taxpayer can present a case to the competent authority within three years of first notification of the action. India has not accepted MLI mandatory arbitration, so the process has no binding backstop." },
   { q: "Has the India-Singapore treaty been changed by the MLI?", a: "Yes. Both countries ratified the MLI. India's withholding-tax changes took effect from 1 January 2020 and other taxes from 1 April 2020. The principal purpose test now applies alongside Article 24A." },
   { q: "Does Singapore tax dividends received from an Indian subsidiary?", a: "Foreign-sourced dividends received in Singapore can qualify for exemption if conditions on the headline tax rate and subjection to tax in the source country are met. Check with your Singapore tax adviser." },
@@ -103,7 +104,7 @@ export default function IndiaSingaporeDtaaPage() {
                 ["MLI", "Both countries ratified the Multilateral Instrument. India's withholding-tax changes took effect from 1 January 2020 and other taxes from 1 April 2020. Singapore opted into MLI arbitration; India did not, so it does not apply here"],
                 ["Dividends", "10% if the Singapore company holds at least 25% of the Indian company's capital; 15% otherwise"],
                 ["Interest", "10% for banks and similar financial institutions; 15% in other cases"],
-                ["Royalties and technical fees", "10% under the treaty as summarised in the secondary sources we checked; confirm against the consolidated text before filing"],
+                ["Royalties and technical fees", "10% under the DTAA as summarised in the secondary sources we checked; confirm against the consolidated text before filing"],
                 ["Permanent establishment", "Building site or installation project above 183 days; services through employees above 90 days in a fiscal year, and above 30 days for services to an associated enterprise (as summarised in secondary sources)"],
                 ["Shares", "Acquired before 1 April 2017: taxable only in Singapore (not for shell companies). Acquired on or after 1 April 2017: India may tax. Gains up to 31 March 2019 were capped at 50% of the Indian rate; since then, full domestic rates"],
                 ["Claim paperwork", "Singapore tax residency certificate from IRAS, Form 41 (previously Form 10F) and no-PE declaration, given to the Indian payer before payment"],
@@ -117,7 +118,7 @@ export default function IndiaSingaporeDtaaPage() {
           </table>
         </div>
 
-        <h2 id="how-it-works" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How the treaty works, and who can use it</h2>
+        <h2 id="how-it-works" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How the DTAA works, and who can use it</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           A treaty does not impose tax. It limits the tax a country can charge, and it allocates taxing rights
           between the <em>source state</em>, where the income arises (India, for Indian dividends, fees and
@@ -129,7 +130,7 @@ export default function IndiaSingaporeDtaaPage() {
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
           <li><strong>Resident:</strong> the Singapore company must be a Singapore tax resident (control and management in Singapore) and hold a tax residency certificate from IRAS.</li>
           <li><strong>Beneficial owner:</strong> the recipient must be the true owner of the income, not a conduit passing it on.</li>
-          <li><strong>Domestic law comparison:</strong> Indian domestic Withholding Tax on dividends, interest, royalties and fees to a non-resident is typically 20% plus surcharge and cess, so the treaty rate is usually a saving.</li>
+          <li><strong>Domestic law comparison:</strong> Indian domestic Withholding Tax on dividends, interest, royalties and fees to a non-resident is typically 20% plus surcharge and cess, so the DTAA rate is usually a saving.</li>
           <li><strong>Anti-avoidance:</strong> the principal purpose test from the MLI and the Article 24A limitation of benefits apply on top of the rates table.</li>
         </ul>
 
@@ -170,8 +171,8 @@ export default function IndiaSingaporeDtaaPage() {
 
         <div className="bg-secondary/40 border-l-4 border-blue-800 rounded-lg p-4 mb-10 text-sm text-gray-700">
           <strong>Reading the table.</strong> These are ceilings. Where the Indian domestic rate is lower than
-          the treaty rate, the lower rate applies. Surcharge and cess are added to domestic rates; whether they
-          are also added on top of a treaty rate is a point payers handle differently, so confirm the
+          the DTAA rate, the lower rate applies. Surcharge and cess are added to domestic rates; whether they
+          are also added on top of a DTAA rate is a point payers handle differently, so confirm the
           computation with your Indian adviser.
         </div>
 
@@ -201,12 +202,12 @@ export default function IndiaSingaporeDtaaPage() {
           <li><strong>Article 24A, limitation of benefits:</strong> see the next section.</li>
           <li><strong>Article 27, mutual agreement procedure:</strong> a taxpayer may present a case within three years of the first notification of the action.</li>
           <li><strong>Article 28, exchange of information:</strong> replaced by the Second Protocol (2011) with the international standard.</li>
-          <li><strong>Article 28A, domestic anti-avoidance:</strong> added by the Third Protocol; domestic anti-avoidance rules are not blocked by the treaty.</li>
+          <li><strong>Article 28A, domestic anti-avoidance:</strong> added by the Third Protocol; domestic anti-avoidance rules are not blocked by the DTAA.</li>
         </ul>
 
         <h2 id="gains" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Gains on shares: grandfathering, the 2017 change and the shell test</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          This is the article that changed most. Before 1 April 2017 the treaty gave Singapore sole right to tax
+          This is the article that changed most. Before 1 April 2017 the DTAA gave Singapore sole right to tax
           gains on Indian shares. The Third Protocol moved to source taxation for shares acquired on or after
           that date, with a transition: gains arising between 1 April 2017 and 31 March 2019 were taxed at no
           more than 50% of the Indian rate, and gains after that at full Indian rates.
@@ -226,12 +227,12 @@ export default function IndiaSingaporeDtaaPage() {
           <Link href="/singapore-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">selling, restructuring or closing</Link>.
         </p>
 
-        <h2 id="claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to claim treaty rates: the paperwork</h2>
+        <h2 id="claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to claim DTAA rates: the paperwork</h2>
         <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-4">
           <li>Obtain a tax residency certificate from IRAS for the Singapore company for each relevant year.</li>
           <li>Prepare Form 41 (previously Form 10F) with identity, residence, period and tax identification details.</li>
           <li>Prepare a no-PE declaration and a beneficial-ownership declaration signed by a Singapore director.</li>
-          <li>Send the set to the Indian payer before the first payment. The payer then withholds at the treaty rate under Section 393.</li>
+          <li>Send the set to the Indian payer before the first payment. The payer then withholds at the DTAA rate under Section 393.</li>
           <li>The payer files Form 145 (previously Form 15CA) and, where required, a Chartered Accountant&apos;s Form 146 (previously Form 15CB) for the remittance.</li>
           <li>The Singapore parent claims a foreign tax credit in its Singapore return and keeps the Indian TDS certificate as evidence.</li>
         </ol>
@@ -244,7 +245,7 @@ export default function IndiaSingaporeDtaaPage() {
 
         <h2 id="pe-risk" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Permanent establishment: where Singapore groups get caught</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          The services PE is the practical risk. Under the treaty as summarised, a Singapore parent that
+          The services PE is the practical risk. Under the DTAA as summarised, a Singapore parent that
           furnishes services through employees in India for more than 90 days in a fiscal year can have a PE,
           and the test falls to 30 days where the services are for an associated enterprise, which includes an
           Indian subsidiary of the same group.
@@ -261,6 +262,11 @@ export default function IndiaSingaporeDtaaPage() {
           If a PE does arise, India taxes its profits as those of a foreign company (35% plus surcharge and
           cess) and the Singapore parent files an Indian return.
         </p>
+        <h2 id="dtaa-claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Claiming the DTAA rate in practice</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          To apply the DTAA rate, the Indian payer needs the Singapore company&apos;s tax residency certificate (TRC) from IRAS for the relevant year and Form 41 (previously Form 10F) before the payment. Without them, tax is withheld at the domestic rate and the DTAA benefit can only be recovered by a refund claim. Because the DTAA includes a limitation of benefits article and the MLI adds a principal purpose test, keep evidence of the Singapore company&apos;s substance with the DTAA file. Royalty and technical fee claims also need the agreement and proof of the services.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

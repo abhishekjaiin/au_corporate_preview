@@ -38,6 +38,9 @@ const faqs = [
   { q: "When is director KYC due?", a: "By 30 September each year, for every director with a DIN." },
   { q: "How many directors does the company need?", a: "At least two, one of whom meets the residence test." },
   { q: "What liability does a resident director have?", a: "Liability under company, tax, labour and FEMA law as a director, which is why professional directors ask for a limited role, an indemnity and D&O insurance." },
+  { q: "Can an Australian director be the resident director?", a: "Only if he or she stays in India for 182 days or more in the Indian financial year, which usually also makes them Indian tax resident; the treaty tie-breaker then decides residence." },
+  { q: "What does a professional resident director cost?", a: "It depends on the company's size and risk; expect an annual fee and a request for an indemnity and insurance." },
+  { q: "Does the resident director need to be an Indian citizen?", a: "No. The test is physical stay in India of 182 days or more in the financial year, not nationality." },
 ]
 
 const relatedCards = [

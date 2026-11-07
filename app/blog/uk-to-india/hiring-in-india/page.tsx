@@ -22,6 +22,7 @@ const toc = [
   { id: "payroll", label: "Payroll and registrations in the first 90 days" },
   { id: "esop", label: "Share plans: extending a UK scheme to Indian employees" },
   { id: "models", label: "Own subsidiary or Employer of Record?" },
+  { id: "ctc", label: "Cost to company (CTC) and the Indian payroll" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,8 @@ const faqs = [
   { q: "What is the provident fund contribution in India?", a: "Twelve per cent of wages from the employer and 12% from the employee, on wages up to the ₹15,000 monthly ceiling, with higher contributions possible by choice." },
   { q: "Can UK shares be granted to Indian employees?", a: "Yes. Indian residents can acquire shares of the foreign parent under the RBI's rules. The exercise is taxed in India as a perquisite, and the cost recharge between the companies needs transfer pricing and tax review." },
   { q: "Are non-compete clauses enforceable in India?", a: "Post-termination non-compete restrictions are generally not enforceable. Confidentiality, IP assignment and non-solicitation drafted with care are the more reliable protections." },
+  { q: "Can the Indian payroll be outsourced?", a: "Yes. Many {a}-owned companies outsource payroll processing, statutory filings and payslips to an Indian firm, while HR decisions stay in-house." },
+  { q: "When must payroll deductions be deposited?", a: "Tax deducted through payroll by the 7th of the following month, and provident fund and ESI by the 15th." },
 ]
 
 const relatedCards = [
@@ -185,6 +188,26 @@ export default function HiringInIndiaPage() {
           contracts or when you wish to build a centre such as the one in{" "}
           <Link href="/uk-to-india/gcc-for-uk-companies" className="text-blue-800 font-semibold hover:underline">our guide to captive centres</Link>.
         </p>
+        <h2 id="ctc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Cost to company (CTC) and the Indian payroll</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian offers are quoted as an annual cost to company (CTC). UK HR teams should present offers the same way, because candidates compare on CTC, and the payroll then breaks it into its parts:
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">CTC component</th><th scope="col" className="border border-gray-300 p-3 text-left">Note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Basic salary</th><td className="border border-gray-300 p-3">Wages must be at least 50% of total remuneration under the labour codes</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Allowances</th><td className="border border-gray-300 p-3">House rent and other allowances, partly tax-free for the employee</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Employer provident fund</th><td className="border border-gray-300 p-3">12% of basic wages, often capped by policy</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Gratuity provision</th><td className="border border-gray-300 p-3">15 days&apos; wages per year of service, capped at ₹20 lakh, paid after five years</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Insurance and variable pay</th><td className="border border-gray-300 p-3">Group health cover and an annual bonus are usual</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each month the payroll deducts income tax, employee provident fund and professional tax, deposits tax by the 7th and provident fund by the 15th, and pays wages by the 7th of the following month. Take-home pay is therefore well below CTC divided by twelve.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

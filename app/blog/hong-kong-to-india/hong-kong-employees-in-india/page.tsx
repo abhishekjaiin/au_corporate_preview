@@ -22,6 +22,7 @@ const toc = [
   { id: "models", label: "Secondment, local contract or business trip" },
   { id: "contract", label: "The secondment letter" },
   { id: "visa", label: "Immigration" },
+  { id: "social-security-summary", label: "Social security in one paragraph" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -32,6 +33,8 @@ const faqs = [
   { q: "Is salary for work in India taxable in India?", a: "Yes, unless the treaty's employment article conditions are met. A secondee whose cost is borne by the Indian subsidiary normally does not meet them." },
   { q: "Who deducts Indian tax on the salary?", a: "The Indian employer, under Section 392 of the Income-tax Act, 2025, by the 7th of the following month." },
   { q: "Can I avoid double contributions?", a: "Not through an agreement. Structure the assignment, for example as a local contract or a short trip, only where the facts support it, and budget for both schemes where they apply." },
+  { q: "Is there a social security agreement with India?", a: "The position for this country is set out above; where there is no agreement, social security contributions are due in India as an international worker, and home social security may continue as well." },
+  { q: "Can social security contributions be refunded when the employee leaves India?", a: "Only in limited cases for international workers from countries without a social security agreement, usually at retirement age; check the position before the assignment starts." },
 ]
 
 const relatedCards = [
@@ -186,6 +189,11 @@ export default function HongKongEmployeesInIndiaPage() {
           <Link href="/hong-kong-to-india/relocate-hong-kong-staff" className="text-blue-800 font-semibold hover:underline">relocating Hong Kong staff</Link>.
           Align the tax and immigration plans so that the visa matches the real work.
         </p>
+        <h2 id="social-security-summary" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Social security in one paragraph</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India and Hong Kong have no social security agreement, so a Hong Kong employee on Indian payroll is an international worker for provident fund on full basic wages, with no exemption. Hong Kong MPF contributions follow Hong Kong rules, so budget for both social security systems where they overlap.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

@@ -23,6 +23,7 @@ const toc = [
   { id: "compliance", label: "Ongoing compliance for directors" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "resident-director-handover", label: "Planning resident director changes" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -155,6 +156,11 @@ export default function ResidentDirectorPage() {
           <li>Assuming a foreign executive who visits India occasionally will meet the 182-day test.</li>
           <li>Appointing a person who is also a director in many unrelated companies without understanding their liability exposure.</li>
         </ul>
+        <h2 id="resident-director-handover" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Planning resident director changes</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          When the resident director resigns or moves abroad, appoint a new resident director before the change takes effect, because the company must have a resident director in every financial year. File the change with the Registrar within 30 days, and update the bank&apos;s signatory records.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

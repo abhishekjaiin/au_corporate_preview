@@ -22,6 +22,9 @@ const toc = [
   { id: "first-year", label: "The first year after incorporation" },
   { id: "control", label: "Keeping decisions with the parent" },
   { id: "duties", label: "Annual duties of every director" },
+  { id: "din", label: "DIN, digital signature and KYC" },
+  { id: "liability", label: "Director liability and how to manage it" },
+  { id: "transition", label: "When the chuzaiin rotates" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +38,9 @@ const faqs = [
   { q: "What is DIR-3 KYC?", a: "An annual identity update every director files with the Ministry of Corporate Affairs by 30 September; a missed filing deactivates the DIN until a late fee is paid." },
   { q: "Can a resident director create tax risk for the parent?", a: "A director who acts for the parent, rather than the Indian company, in concluding contracts can raise permanent establishment questions, so roles should be documented." },
   { q: "How many directors does an Indian private company need?", a: "At least two, of whom at least one must meet the 182-day residence test." },
+  { q: "Is the resident director personally liable?", a: "Potentially, under company, tax, labour and FEMA law, which is why an indemnity and D&O insurance are usual." },
+  { q: "Can the resident director be removed later?", a: "Yes, by board or shareholder resolution with a filing to the Registrar, provided another director meets the 182-day test." },
+  { q: "Must the resident director be a Japanese employee?", a: "No. Many groups use an Indian general manager or a professional director." },
 ]
 
 const relatedCards = [
@@ -164,6 +170,27 @@ export default function ResidentDirectorPage() {
           <li>Keep the digital signature valid for filings.</li>
           <li>Resign formally, with the Registrar notified, when leaving India or the board.</li>
         </ol>
+        <h2 id="din" className="text-2xl font-bold text-gray-900 mt-12 mb-4">DIN, digital signature and KYC</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The resident director needs a Director Identification Number (DIN) and a digital signature, and must keep the DIN active through the director KYC filing the Registrar requires. A chuzaiin applies with the apostilled passport; an Indian manager uses PAN and Aadhaar.
+        </p>
+
+        <h2 id="liability" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Director liability and how to manage it</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Company law: liability as an officer in default for filing, accounts and meeting failures.</li>
+          <li>Tax law: directors of a private company can be liable for unpaid company tax unless they show it was not due to their gross neglect.</li>
+          <li>Labour and other laws: the person in charge can be prosecuted for the company&apos;s offences.</li>
+          <li>FEMA: persons responsible for the business can face penalties for contraventions.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A chuzaiin or professional director will expect a defined role, an indemnity from the Japanese parent and directors&apos; and officers&apos; insurance. Keeping filings current is the best protection.
+        </p>
+        <h2 id="transition" className="text-2xl font-bold text-gray-900 mt-12 mb-4">When the chuzaiin rotates</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Japanese rotations often run three to five years. Plan the handover so that a new resident director is appointed before the outgoing chuzaiin leaves India, because the company must have a director who meets the 182-day test in every financial year.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

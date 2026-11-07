@@ -22,6 +22,7 @@ const toc = [
   { id: "fees", label: "Service fees, royalties and recharges" },
   { id: "forms", label: "Remittance paperwork" },
   { id: "hk", label: "Hong Kong side" },
+  { id: "repatriation-checklist", label: "Repatriation checklist for a Hong Kong parent" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,9 @@ const faqs = [
   { q: "Can I repay a loan to Hong Kong?", a: "Yes, following the registered ECB schedule through the bank. Principal is not taxed, but interest is subject to Withholding Tax." },
   { q: "Are Indian dividends taxed in Hong Kong?", a: "Generally not as Hong Kong-sourced, but the foreign-sourced income exemption rules can apply to multinational group members that lack economic substance." },
   { q: "What if the Hong Kong company is only a conduit?", a: "The principal purpose test and the general anti-avoidance rule can deny treaty relief. Build commercial substance in Hong Kong." },
+  { q: "What is the cheapest repatriation route for a Hong Kong parent?", a: "Usually a dividend, because the repatriation is taxed once in India at the DTAA rate and often relieved at home; fees and royalties suit groups that can use a foreign tax credit. Compare the after-tax repatriation result for each route before deciding." },
+  { q: "How often can profits be repatriated?", a: "A final dividend once a year after the AGM, interim dividends during the year, and regular repatriation through service fees or royalties under signed agreements. Each repatriation payment needs Forms 145 and 146." },
+  { q: "Does repatriation need RBI approval?", a: "No. Dividends and current payments are freely repatriable through the AD bank once Indian tax is paid and the paperwork is filed; repatriation of capital follows the FEMA rules for buy-backs, capital reduction or sale." },
 ]
 
 const relatedCards = [
@@ -196,6 +200,25 @@ export default function RepatriatingProfitsPage() {
           HK$83,000 at an indicative ₹12.07 per Hong Kong dollar (15 October 2026 interbank rate; check the live
           rate before remitting).
         </p>
+        <h2 id="repatriation-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Repatriation checklist for a Hong Kong parent</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Repatriation route</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax under the DTAA</th><th scope="col" className="border border-gray-300 p-3 text-left">Point to note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Dividend</th><td className="border border-gray-300 p-3">5%</td><td className="border border-gray-300 p-3">Hong kong&apos;s treatment of foreign-sourced dividends depends on its foreign-sourced income exemption rules</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Royalty or technical fee</th><td className="border border-gray-300 p-3">10%</td><td className="border border-gray-300 p-3">Must reflect real rights or services, priced at arm&apos;s length</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Interest on a parent loan</th><td className="border border-gray-300 p-3">10%</td><td className="border border-gray-300 p-3">External commercial borrowing rules apply</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share buy-back</th><td className="border border-gray-300 p-3">Taxed as a dividend in the shareholder&apos;s hands since 1 October 2024</td><td className="border border-gray-300 p-3">No longer a cheaper route than a dividend</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each repatriation payment to the Hong Kong parent is reported before the money leaves India: Form 145 (previously Form 15CA) is the payer&apos;s online declaration, and Form 146 (previously Form 15CB) is a Chartered Accountant&apos;s certificate of the nature of the payment, the DTAA article and the rate. The bank releases the remittance only after both are filed, with the tax residency certificate and Form 41 on record.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A final dividend follows the Indian audit and AGM, so repatriation of a year&apos;s profit usually happens between July and October. A declared dividend must be paid within 30 days, so confirm the receiving account and the paperwork before the board meeting.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

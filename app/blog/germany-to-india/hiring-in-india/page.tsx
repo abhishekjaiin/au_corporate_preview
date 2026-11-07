@@ -22,6 +22,9 @@ const toc = [
   { id: "contracts", label: "Contracts that work in India" },
   { id: "people", label: "Attrition, pay and benefits" },
   { id: "secondees", label: "German staff in India" },
+  { id: "ctc", label: "Cost to company (CTC) and the Indian payroll" },
+  { id: "de-contrast", label: "Indian employment compared with German practice" },
+  { id: "de-leave", label: "Leave, holidays and working hours" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +38,7 @@ const faqs = [
   { q: "Can German secondees avoid Indian provident fund?", a: "Yes, with a certificate of coverage, for up to 48 months plus 12." },
   { q: "When is salary tax deposited?", a: "By the 7th of the following month." },
   { q: "Do the labour codes affect salary structures?", a: "Yes. Wages must be at least half of total pay." },
+  { q: "Does an Indian company need a works council?", a: "No. Indian offices generally have no works council or co-determination, although German group policies may still apply internally." },
 ]
 
 const relatedCards = [
@@ -160,6 +164,51 @@ export default function HiringInIndiaPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Germans posted to India can stay in German social insurance with a certificate of coverage under the India-Germany Social Security Agreement, for up to 48 months with a possible 12-month extension, and are then exempt from Indian provident fund. Salary for work in India is taxed in India.
         </p>
+        <h2 id="ctc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Cost to company (CTC) and the Indian payroll</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian offers are quoted as an annual cost to company (CTC). German HR teams should present offers the same way, because candidates compare on CTC, and the payroll then breaks it into its parts:
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">CTC component</th><th scope="col" className="border border-gray-300 p-3 text-left">Note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Basic salary</th><td className="border border-gray-300 p-3">Wages must be at least 50% of total remuneration under the labour codes</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Allowances</th><td className="border border-gray-300 p-3">House rent and other allowances, partly tax-free for the employee</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Employer provident fund</th><td className="border border-gray-300 p-3">12% of basic wages, often capped by policy</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Gratuity provision</th><td className="border border-gray-300 p-3">15 days&apos; wages per year of service, capped at ₹20 lakh, paid after five years</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Insurance and variable pay</th><td className="border border-gray-300 p-3">Group health cover and an annual bonus are usual</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each month the payroll deducts income tax, employee provident fund and professional tax, deposits tax by the 7th and provident fund by the 15th, and pays wages by the 7th of the following month. Take-home pay is therefore well below CTC divided by twelve.
+        </p>
+        <h2 id="de-contrast" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Indian employment compared with German practice</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Topic</th><th scope="col" className="border border-gray-300 p-3 text-left">India</th><th scope="col" className="border border-gray-300 p-3 text-left">Germany</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Works council</th><td className="border border-gray-300 p-3">No works council for most offices</td><td className="border border-gray-300 p-3">Betriebsrat with co-determination rights</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Protection against dismissal</th><td className="border border-gray-300 p-3">Contractual notice and labour code rules; retrenchment rules for larger establishments</td><td className="border border-gray-300 p-3">Kündigungsschutzgesetz and social selection</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Notice period</th><td className="border border-gray-300 p-3">Usually one to three months by contract</td><td className="border border-gray-300 p-3">Statutory periods rising with service</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Pension</th><td className="border border-gray-300 p-3">Provident fund, 12% employer and employee</td><td className="border border-gray-300 p-3">Statutory pension insurance plus company schemes</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Long service</th><td className="border border-gray-300 p-3">Gratuity after five years</td><td className="border border-gray-300 p-3">No direct equivalent</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          German HR teams should not copy German contracts. Indian contracts are shorter, CTC-based and drafted for the labour codes and the state shops and establishments law.
+        </p>
+
+        <h2 id="de-leave" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Leave, holidays and working hours</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Three national holidays plus state festival holidays.</li>
+          <li>Earned and sick leave minimums under the state shops and establishments law.</li>
+          <li>26 weeks of paid maternity leave for eligible employees.</li>
+          <li>Working hours and overtime set by state law and the labour codes; overtime at twice the wage rate.</li>
+        </ul>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

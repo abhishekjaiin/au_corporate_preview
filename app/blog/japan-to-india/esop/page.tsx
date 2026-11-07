@@ -23,6 +23,8 @@ const toc = [
   { id: "recharge", label: "Recharging the cost from Japan" },
   { id: "employee-filings", label: "What employees file" },
   { id: "indian-plan", label: "If the Indian company runs its own plan" },
+  { id: "esop-tax", label: "ESOP tax for the Indian employee, stage by stage" },
+  { id: "esop-fema", label: "FEMA: Indian employees holding Japanese shares" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -36,6 +38,8 @@ const faqs = [
   { q: "Do employees need to report Japanese shares in India?", a: "Yes, in Schedule FA of the Indian income tax return, along with any dividends." },
   { q: "What is the long-term capital gains rate on the shares?", a: "12.5% for shares held more than 24 months, plus surcharge and cess." },
   { q: "What does an Indian ESOP need under company law?", a: "A shareholders' special resolution filed in Form MGT-14 and a minimum one-year gap between grant and vesting." },
+  { q: "When is an ESOP taxed in India?", a: "At exercise, as a perquisite on fair value minus the price paid; later gains are capital gains." },
+  { q: "Can an Indian company run its own ESOP instead of the parent's plan?", a: "Yes, but most Japanese groups prefer the parent's ESOP or RSU plan, because Indian company shares are illiquid and an Indian ESOP needs shareholder approval and valuation each year." },
 ]
 
 const relatedCards = [
@@ -170,6 +174,27 @@ export default function EsopPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           An Indian ESOP needs a shareholders&apos; special resolution, filed in Form MGT-14 within 30 days, and at least one year between grant and vesting. Shares issued to resident employees are not foreign investment, but a later transfer to the Japanese parent is, and follows FEMA pricing.
         </p>
+        <h2 id="esop-tax" className="text-2xl font-bold text-gray-900 mt-12 mb-4">ESOP tax for the Indian employee, stage by stage</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Stage</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Grant of the ESOP</th><td className="border border-gray-300 p-3">None</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Exercise, or delivery of RSU shares</th><td className="border border-gray-300 p-3">Perquisite tax as salary on fair value minus the amount paid, withheld by the Indian employer</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Sale</th><td className="border border-gray-300 p-3">Capital gains on the increase after exercise</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share appreciation right (SAR) settled in cash</th><td className="border border-gray-300 p-3">Salary when paid</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Because the perquisite tax falls before any sale, Indian employees often sell part of the shares at once to cover it. Explain this in the ESOP communication pack.
+        </p>
+
+        <h2 id="esop-fema" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA: Indian employees holding Japanese shares</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An Indian resident employee may acquire shares of the Japanese parent under a group ESOP. The overseas investment (ODI) rules permit this for employees of the Indian company, with reporting through its AD bank. The employee declares the foreign shares in the Indian return each year, and dividends and sale proceeds follow the overseas investment rules.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

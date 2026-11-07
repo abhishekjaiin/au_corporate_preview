@@ -27,13 +27,13 @@ const toc = [
 ]
 
 const faqs = [
-  { q: "What is the withholding rate on dividends from India to Germany?", a: "Under the treaty, 10% of the gross amount, with no shareholding tiers. The Indian payer applies it under Section 393 on receipt of the German certificate of residence and Form 41." },
+  { q: "What is the withholding rate on dividends from India to Germany?", a: "Under the DTAA, 10% of the gross amount, with no shareholding tiers. The Indian payer applies it under Section 393 on receipt of the German certificate of residence and Form 41." },
   { q: "Does the India-Germany treaty have a services permanent establishment clause?", a: "The summaries we checked say it does not. Fixed-place and dependent-agent PE risk still applies, so track days and authority anyway." },
   { q: "How long can a German construction project run in India before a PE arises?", a: "More than six months, counting connected supervisory activity, as summarised in the sources we checked." },
   { q: "What documents does a German company need to claim treaty benefits?", a: "A certificate of residence from the German tax office, Form 41 (previously Form 10F), a no-PE declaration and a beneficial-ownership declaration, given to the Indian payer before payment." },
   { q: "Can India tax a German company on the sale of Indian shares?", a: "That depends on Article 13, where the sources we checked disagree. Confirm against the consolidated text before planning an exit." },
-  { q: "Does the MLI change the India-Germany treaty?", a: "It was reported not to, because the treaty was not listed as a covered agreement, so the principal purpose test does not apply. India's domestic GAAR can still apply, and Germany's 2026 amendment of its MLI consent act should be watched." },
-  { q: "Are royalties and technical fees taxed at the same rate?", a: "Yes, at 10% each under the treaty. Whether a payment is a technical fee depends on the treaty definition." },
+  { q: "Does the MLI change the India-Germany treaty?", a: "It was reported not to, because the DTAA was not listed as a covered agreement, so the principal purpose test does not apply. India's domestic GAAR can still apply, and Germany's 2026 amendment of its MLI consent act should be watched." },
+  { q: "Are royalties and technical fees taxed at the same rate?", a: "Yes, at 10% each under the DTAA. Whether a payment is a technical fee depends on the DTAA definition." },
   { q: "How is Indian tax relieved in Germany?", a: "Under Article 23 by credit or exemption depending on the income, and domestic law exempts 95% of qualifying dividends and share gains of corporations. Your German adviser should confirm the result for your structure." },
   { q: "Is there a mutual agreement procedure?", a: "Yes. A case can be presented within three years of the first notification of the action. The EU Arbitration Convention does not apply to India." },
 ]
@@ -117,7 +117,7 @@ export default function IndiaGermanyDtaaPage() {
           </table>
         </div>
 
-        <h2 id="how-it-works" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How the treaty works, and who can use it</h2>
+        <h2 id="how-it-works" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How the DTAA works, and who can use it</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           A treaty limits the tax a country can charge and allocates taxing rights between the{" "}
           <em>source state</em>, where the income arises (India, for Indian dividends, fees and gains), and the{" "}
@@ -129,8 +129,8 @@ export default function IndiaGermanyDtaaPage() {
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
           <li><strong>Resident:</strong> the German company must be a German tax resident and hold a certificate of residence from its tax office (Finanzamt).</li>
           <li><strong>Beneficial owner:</strong> the recipient must own the income, not pass it on as a conduit.</li>
-          <li><strong>Flat rate:</strong> because the treaty gives 10% on dividends, interest, royalties and technical fees, an intermediate holding company in a third country rarely improves the withholding position.</li>
-          <li><strong>Domestic comparison:</strong> Indian domestic Withholding Tax on these payments to a non-resident is typically about 20% plus surcharge and cess, so the treaty rate is normally a saving.</li>
+          <li><strong>Flat rate:</strong> because the DTAA gives 10% on dividends, interest, royalties and technical fees, an intermediate holding company in a third country rarely improves the withholding position.</li>
+          <li><strong>Domestic comparison:</strong> Indian domestic Withholding Tax on these payments to a non-resident is typically about 20% plus surcharge and cess, so the DTAA rate is normally a saving.</li>
           <li><strong>Anti-avoidance:</strong> India&apos;s domestic GAAR applies from 1 April 2017 where the tax benefit exceeds INR 3 crore.</li>
         </ul>
 
@@ -150,7 +150,7 @@ export default function IndiaGermanyDtaaPage() {
                 ["10", "Dividends", "10% of the gross amount", "No shareholding tiers"],
                 ["11", "Interest", "10%", "Exempt in India for interest paid to the German Government, Bundesbank, KfW or DEG and on Hermes-guaranteed loans, as reported"],
                 ["12", "Royalties", "10%", "Equipment rentals, know-how and intellectual property; check the definition in the text"],
-                ["12", "Fees for technical services", "10%", "Check how the treaty defines the services; Indian authorities argue for a knowledge-transfer reading"],
+                ["12", "Fees for technical services", "10%", "Check how the DTAA defines the services; Indian authorities argue for a knowledge-transfer reading"],
                 ["5 and 7", "Business profits", "Nil, unless there is a PE", "If a PE exists, profits attributable to it are taxed at the foreign-company rate (35% plus surcharge and cess)"],
                 ["13", "Gains on Indian shares", "Unconfirmed: nil or domestic rates", "Sources conflict; see the gains section"],
                 ["13", "Gains on immovable property", "Domestic rates", "Taxed where the property is"],
@@ -169,7 +169,7 @@ export default function IndiaGermanyDtaaPage() {
 
         <div className="bg-secondary/40 border-l-4 border-blue-800 rounded-lg p-4 mb-10 text-sm text-gray-700">
           <strong>Surcharge and cess.</strong> Domestic rates carry surcharge and cess. Whether payers add them
-          on top of a treaty rate differs in practice, so agree the computation with your Indian adviser before
+          on top of a DTAA rate differs in practice, so agree the computation with your Indian adviser before
           the first payment.
         </div>
 
@@ -183,7 +183,7 @@ export default function IndiaGermanyDtaaPage() {
           <li><strong>Taxes covered:</strong> in India, income tax with any surcharge; in Germany, income tax, corporation tax, trade tax and the solidarity surcharge.</li>
           <li><strong>Residence:</strong> a company is resident where it is liable to tax by reason of domicile, residence, management or similar criteria; dual residents are placed by agreement.</li>
           <li><strong>Article 5, permanent establishment:</strong> a fixed place of business such as a branch, office, factory or workshop; a building site, construction or installation project lasting more than six months, including connected supervision; and a dependent agent who habitually concludes contracts. A purchasing office or a stock held only for delivery does not create one.</li>
-          <li><strong>No services PE clause:</strong> the summaries we checked say the treaty has no day-count services PE test. That does not make German staff safe: a fixed place at their disposal in India, or a dependent agent, can still create a PE. A blog we read suggested a seven-month risk and a 183-day guide; those figures are not in any treaty text we saw.</li>
+          <li><strong>No services PE clause:</strong> the summaries we checked say the DTAA has no day-count services PE test. That does not make German staff safe: a fixed place at their disposal in India, or a dependent agent, can still create a PE. A blog we read suggested a seven-month risk and a 183-day guide; those figures are not in any treaty text we saw.</li>
           <li><strong>Article 7, business profits:</strong> taxable only in Germany unless the parent carries on business in India through a PE, and then only the profit attributable to that PE.</li>
           <li><strong>Associated enterprises:</strong> where parent and subsidiary deal on non-arm&apos;s-length terms, either state may adjust profits. See <Link href="/germany-to-india/transfer-pricing" className="text-blue-800 font-semibold hover:underline">transfer pricing</Link>.</li>
           <li><strong>Article 10, dividends:</strong> 10%, see the table.</li>
@@ -195,7 +195,7 @@ export default function IndiaGermanyDtaaPage() {
           <li><strong>Directors&apos; fees:</strong> taxable in the state where the paying company is resident, so India for an Indian subsidiary.</li>
           <li><strong>Article 23, relief from double tax:</strong> Germany relieves Indian tax by credit or exemption depending on the income, and domestic law adds a 95% exemption for qualifying dividends and share gains of corporations. India relieves under its domestic law.</li>
           <li><strong>Article 25, mutual agreement procedure:</strong> a case may be presented within three years of the first notification of the action. The EU Arbitration Convention does not apply to India.</li>
-          <li><strong>Exchange of information:</strong> both countries exchange information under the treaty and under their wider agreements.</li>
+          <li><strong>Exchange of information:</strong> both countries exchange information under the DTAA and under their wider agreements.</li>
         </ul>
 
         <h2 id="gains" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Gains on shares: an open point to confirm</h2>
@@ -221,12 +221,12 @@ export default function IndiaGermanyDtaaPage() {
           for the exit steps.
         </p>
 
-        <h2 id="claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to claim treaty rates: the paperwork</h2>
+        <h2 id="claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to claim DTAA rates: the paperwork</h2>
         <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-4">
           <li>Obtain a certificate of residence for the German company from its tax office, for each relevant year.</li>
           <li>Prepare Form 41 (previously Form 10F) with identity, residence, period and tax identification details.</li>
           <li>Prepare a no-PE declaration and a beneficial-ownership declaration signed by a Geschäftsführer.</li>
-          <li>Send the set to the Indian payer before the first payment. The payer withholds at the treaty rate under Section 393.</li>
+          <li>Send the set to the Indian payer before the first payment. The payer withholds at the DTAA rate under Section 393.</li>
           <li>The payer files Form 145 (previously Form 15CA) and, where required, a Chartered Accountant&apos;s Form 146 (previously Form 15CB).</li>
           <li>The German parent keeps the Indian TDS certificate for its German return and any credit.</li>
         </ol>

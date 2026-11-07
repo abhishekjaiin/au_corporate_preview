@@ -25,6 +25,8 @@ const toc = [
   { id: "tax-numbers", label: "The Indian tax numbers side by side" },
   { id: "setup-time", label: "Set-up time and running cost compared" },
   { id: "llp-detail", label: "Why few Australian groups use an Indian LLP" },
+  { id: "decision-tree", label: "A short decision guide" },
+  { id: "joint-venture", label: "Joint ventures with an Indian partner" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -40,6 +42,9 @@ const faqs = [
   { q: "Is an LLP a good option?", a: "Rarely for Australian groups; foreign investment is limited to eligible sectors and the Australian treatment needs review." },
   { q: "What is the tax rate for an Australian-owned company in India?", a: "About 25.17% under the concessional regime, against about 36.4% to 38.22% for a branch office." },
   { q: "How long does each structure take to set up?", a: "About 4 to 6 weeks for a company once documents are ready; longer for a branch or liaison office because the AD bank must approve the parent first." },
+  { q: "Can an Australian company convert a branch into an Indian company later?", a: "Yes, by moving the business into a new Indian company and closing the branch through the AD bank, with tax and stamp duty planning." },
+  { q: "Which option is easiest to close later?", a: "A liaison office closes through the AD bank once its approval ends; a company that never traded can be struck off; a trading company or branch takes longer." },
+  { q: "Can a liaison office sign contracts in India?", a: "No. It cannot earn income, sign sales contracts or invoice Indian customers." },
 ]
 
 const relatedCards = [
@@ -227,6 +232,20 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           An LLP can suit a small professional services practice. For an operating business that may grow, hire or be sold, the private limited company is the usual answer. See <Link href="/australia-to-india/incorporation-process" className="text-blue-800 font-semibold hover:underline">incorporation from Australia</Link>.
         </p>
+        <h2 id="decision-tree" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A short decision guide</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Will the Indian business earn income from Indian customers or from the group? If not, a liaison office is enough.</li>
+          <li>Is it a single contract that ends? A project office may suit.</li>
+          <li>Will it hire more than a few people, own assets or need its own contracts? Choose a private limited company.</li>
+          <li>Is there an Indian partner? Use a joint venture company with a shareholders&apos; agreement.</li>
+          <li>Does the Australian parent meet the five-year profit and USD 100,000 net worth tests, and want the Indian business inside the Australian company? Only then consider a branch.</li>
+        </ol>
+        <h2 id="joint-venture" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Joint ventures with an Indian partner</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A joint venture company is a private limited company with an Indian shareholder alongside the Australian parent. It suits businesses that need a partner&apos;s customers, licences, land or distribution. The shareholders&apos; agreement should cover board seats, reserved matters, funding, deadlock and exit, and be reflected in the articles so that it binds the company.
+        </p>
+
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

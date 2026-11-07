@@ -34,14 +34,14 @@ const toc = [
 
 const faqs = [
   { q: "Is there a tax treaty between India and China?", a: "Yes. It was signed on 18 July 1994 and came into force in November 1994, and has been amended by protocols, including one signed on 26 November 2018." },
-  { q: "What is the Indian withholding rate on dividends paid to a Chinese parent under the treaty?", a: "10% of the gross amount, on receipt of the Chinese tax residence certificate, Form 41 and other declarations." },
-  { q: "What is the treaty rate on royalties and technical fees?", a: "10% of the gross amount under Article 12, where the Chinese company is the beneficial owner and has no PE in India connected with the payment." },
+  { q: "What is the Indian withholding rate on dividends paid to a Chinese parent under the DTAA?", a: "10% of the gross amount, on receipt of the Chinese tax residence certificate, Form 41 and other declarations." },
+  { q: "What is the DTAA rate on royalties and technical fees?", a: "10% of the gross amount under Article 12, where the Chinese company is the beneficial owner and has no PE in India connected with the payment." },
   { q: "When does a Chinese company have a permanent establishment in India?", a: "Through a fixed place of business, a building site or installation project over 183 days, services through personnel for more than 183 days in a year, or a dependent agent who concludes contracts. Confirm the exact text for your facts." },
-  { q: "Who gives relief from double tax?", a: "China gives a credit for Indian tax paid on income taxable in India under the treaty, subject to Chinese rules and limits. Keep the Withholding Tax certificate." },
-  { q: "Does the treaty exempt share gains?", a: "Sources differ on Article 13. Domestic law taxes long-term gains on unlisted shares at 12.5%. Confirm the treaty position with the official text before planning an exit." },
-  { q: "Do I need a certificate from the Chinese tax office?", a: "Yes. A certificate of tax residence is the basic document for the treaty claim, together with Form 41 and a no-PE declaration." },
-  { q: "Does Press Note 3 apply even though a treaty exists?", a: "Yes. The treaty deals with tax. Press Note 3 is a separate foreign investment approval rule and applies whatever the treaty says." },
-  { q: "Where can I read the treaty text?", a: "On the Income Tax Department of India website under tax treaties, and the Chinese State Taxation Administration site. Use the consolidated version with all protocols." },
+  { q: "Who gives relief from double tax?", a: "China gives a credit for Indian tax paid on income taxable in India under the DTAA, subject to Chinese rules and limits. Keep the Withholding Tax certificate." },
+  { q: "Does the DTAA exempt share gains?", a: "Sources differ on Article 13. Domestic law taxes long-term gains on unlisted shares at 12.5%. Confirm the DTAA position with the official text before planning an exit." },
+  { q: "Do I need a certificate from the Chinese tax office?", a: "Yes. A certificate of tax residence is the basic document for the DTAA claim, together with Form 41 and a no-PE declaration." },
+  { q: "Does Press Note 3 apply even though a treaty exists?", a: "Yes. The DTAA deals with tax. Press Note 3 is a separate foreign investment approval rule and applies whatever the DTAA says." },
+  { q: "Where can I read the DTAA text?", a: "On the Income Tax Department of India website under tax treaties, and the Chinese State Taxation Administration site. Use the consolidated version with all protocols." },
 ]
 
 const relatedCards = [
@@ -139,7 +139,7 @@ export default function IndiaChinaDtaaPage() {
                 ["Article 11", "Interest", "10%; exemptions for specified government and central bank lenders", "About 20% plus surcharge and cess; ECB cost limits also apply"],
                 ["Article 12", "Royalties", "10% of the gross amount", "Domestic rate under Section 393 of the Income-tax Act, 2025; confirm the current rate"],
                 ["Article 12", "Fees for technical services", "10% of the gross amount (managerial, technical or consultancy services)", "Domestic rate under Section 393; confirm the current rate"],
-                ["Article 7", "Business profits without a PE", "Not taxable in India", "Taxable in India if business connection, subject to the treaty"],
+                ["Article 7", "Business profits without a PE", "Not taxable in India", "Taxable in India if business connection, subject to the DTAA"],
                 ["Article 7", "Business profits of a PE", "Taxed in India on profits attributable to the PE", "About 35% plus surcharge and cess for a foreign company"],
                 ["Article 13", "Capital gains", "See the share-gains note below", "12.5% for unlisted shares held more than 24 months"],
                 ["Article 14", "Independent professional services", "Not taxable in India without a fixed base or 183 days' stay", "Taxable under the Act"],
@@ -177,7 +177,7 @@ export default function IndiaChinaDtaaPage() {
 
         <h2 id="gains" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Share gains and other income</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
-          <li>Secondary sources describe Article 13 differently: some say gains on property other than immovable property are taxed where the seller resides, while others say India may tax gains on shares of an Indian company. Obtain the treaty text and have your adviser confirm the reading before pricing an exit.</li>
+          <li>Secondary sources describe Article 13 differently: some say gains on property other than immovable property are taxed where the seller resides, while others say India may tax gains on shares of an Indian company. Obtain the DTAA text and have your adviser confirm the reading before pricing an exit.</li>
           <li>Domestic law taxes a non-resident&apos;s long-term gain on unlisted Indian shares at 12.5% (held more than 24 months) and short-term gain at the normal rate.</li>
           <li>Interest and royalties are covered by Articles 11 and 12 above. Directors&apos; fees and artistes and sportspersons have their own articles.</li>
           <li>Pensions and government service have separate rules.</li>
@@ -194,7 +194,7 @@ export default function IndiaChinaDtaaPage() {
 
         <h2 id="relief" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Relief from double taxation (Article 23)</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
-          China gives its resident a credit for Indian tax paid on income taxable in India under the treaty,
+          China gives its resident a credit for Indian tax paid on income taxable in India under the DTAA,
           capped by the Chinese tax on that income. Sources differ on the method India itself applies for Indian
           residents. The practical point for a Chinese parent is to keep the Indian Withholding Tax certificate,
           the tax payment evidence and the Indian tax return so that the credit can be claimed in China. A
@@ -202,18 +202,18 @@ export default function IndiaChinaDtaaPage() {
           qualifying holdings.
         </p>
 
-        <h2 id="claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to claim treaty rates</h2>
+        <h2 id="claim" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to claim DTAA rates</h2>
         <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-10">
           <li>The Chinese company obtains a certificate of tax residence from the Chinese tax authority.</li>
           <li>It gives the Indian payer Form 41 (previously Form 10F), the residence certificate and a declaration of no permanent establishment in India.</li>
           <li>It confirms it is the beneficial owner of the income.</li>
-          <li>The Indian payer deducts Withholding Tax at the treaty rate under Section 393 of the Income-tax Act, 2025, and deposits it by the 7th of the following month.</li>
+          <li>The Indian payer deducts Withholding Tax at the DTAA rate under Section 393 of the Income-tax Act, 2025, and deposits it by the 7th of the following month.</li>
           <li>The payer issues the certificate for the Chinese credit claim. Keep it with the Chinese tax return papers.</li>
         </ol>
 
         <h2 id="trc-china" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The Chinese tax residency certificate</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          A Chinese company claims the treaty with a <strong>tax residency certificate (TRC)</strong> issued by its local tax bureau under the State Taxation Administration. The application states the treaty, the income type and the period, so request it specifically for the India-China agreement and for the year of the Indian payments.
+          A Chinese company claims the DTAA with a <strong>tax residency certificate (TRC)</strong> issued by its local tax bureau under the State Taxation Administration. The application states the DTAA, the income type and the period, so request it specifically for the India-China agreement and for the year of the Indian payments.
         </p>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
           <li>Provide the certificate in Chinese with an English translation; keep the company name identical to the contract and invoices.</li>
@@ -225,7 +225,7 @@ export default function IndiaChinaDtaaPage() {
           China taxes resident companies on worldwide income at 25% and gives a credit for foreign tax paid. Indian withholding of 10% on royalties, technical fees or interest is generally creditable against Chinese enterprise income tax on the same income, within the credit limit. For dividends, Chinese rules also allow an indirect credit for the Indian corporate tax underlying the dividend, generally where the Chinese company directly holds at least 20% of the Indian company.
         </p>
         <p className="text-gray-600 leading-relaxed mb-10">
-          To claim the credit, the Chinese parent needs evidence of the Indian tax paid: the TDS certificate downloaded from the Indian income tax portal, the remittance documents, and the Indian company&apos;s confirmation that the treaty rate was applied. We provide this pack with each remittance.
+          To claim the credit, the Chinese parent needs evidence of the Indian tax paid: the TDS certificate downloaded from the Indian income tax portal, the remittance documents, and the Indian company&apos;s confirmation that the DTAA rate was applied. We provide this pack with each remittance.
         </p>
         <h2 id="example-china" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Worked example: technical fees to a Chinese parent</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -250,7 +250,7 @@ export default function IndiaChinaDtaaPage() {
               </tr>
               <tr>
                 <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">When a PE can arise instead</th>
-                <td className="border border-gray-300 p-3">If the installation or supervisory project, or the services, last beyond the treaty&apos;s time thresholds, the profit is taxed as business profits of a PE, at the foreign company rate on net income</td>
+                <td className="border border-gray-300 p-3">If the installation or supervisory project, or the services, last beyond the DTAA&apos;s time thresholds, the profit is taxed as business profits of a PE, at the foreign company rate on net income</td>
               </tr>
               <tr className="bg-gray-50">
                 <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Transfer pricing</th>
@@ -269,15 +269,15 @@ export default function IndiaChinaDtaaPage() {
 
         <h2 id="abuse" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Anti-abuse rules</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
-          <li>Secondary summaries say the protocol added a test of whether claiming treaty benefits is consistent with the treaty&apos;s object and purpose. Have your adviser confirm how this works with the Multilateral Instrument.</li>
+          <li>Secondary summaries say the protocol added a test of whether claiming treaty benefits is consistent with the DTAA&apos;s object and purpose. Have your adviser confirm how this works with the Multilateral Instrument.</li>
           <li>India&apos;s General Anti-Avoidance Rule applies to arrangements whose main purpose is a tax benefit above INR 3 crore.</li>
           <li>A holding company in a third country needs real substance. A Chinese parent with a Hong Kong or Singapore intermediate holding also has to clear Press Note 3. See <Link href="/china-to-india/india-press-note-3-and-chinese-investors" className="text-blue-800 font-semibold hover:underline">Press Note 3</Link></li>
         </ul>
 
         <h2 id="map" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Disputes and information exchange</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
-          The treaty provides for a mutual agreement procedure between the competent authorities and for
-          exchange of information. File a case within the time limit in the treaty text and as soon as an
+          The DTAA provides for a mutual agreement procedure between the competent authorities and for
+          exchange of information. File a case within the time limit in the DTAA text and as soon as an
           adjustment is notified. Indian authorities may share information about payments and accounts with
           China under the exchange of information article.
         </p>

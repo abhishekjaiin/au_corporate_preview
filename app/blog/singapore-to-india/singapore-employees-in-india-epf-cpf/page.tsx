@@ -22,6 +22,7 @@ const toc = [
   { id: "epf", label: "India: Employees' Provident Fund" },
   { id: "cpf", label: "Singapore: CPF on the assignee" },
   { id: "setup", label: "Setting up an assignment: a short checklist" },
+  { id: "social-security-summary", label: "Social security in one paragraph" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,8 @@ const faqs = [
   { q: "Does CPF continue for a Singapore citizen posted to India?", a: "It can, depending on who employs the person and the contract terms. Confirm with the CPF Board before the posting begins." },
   { q: "What is the minimum salary for an Indian employment visa?", a: "Generally USD 25,000 a year, with limited exceptions." },
   { q: "Does India tax the pay of a Singapore director of the Indian subsidiary?", a: "Directors' fees are taxable in the state where the paying company is resident, which is India for an Indian subsidiary, even if the director never visits." },
+  { q: "Is there a social security agreement with India?", a: "The position for this country is set out above; where there is no agreement, social security contributions are due in India as an international worker, and home social security may continue as well." },
+  { q: "Can social security contributions be refunded when the employee leaves India?", a: "Only in limited cases for international workers from countries without a social security agreement, usually at retirement age; check the position before the assignment starts." },
 ]
 
 const relatedCards = [
@@ -199,6 +202,11 @@ export default function SingaporeEmployeesInIndiaEpfCpfPage() {
           <li>Review the PE risk in <Link href="/singapore-to-india/india-singapore-dtaa" className="text-blue-800 font-semibold hover:underline">the tax treaty guide</Link> before sending more than one person for the same project.</li>
           <li>On return, close out the Indian payroll position and file the exit forms.</li>
         </ol>
+        <h2 id="social-security-summary" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Social security in one paragraph</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Singapore citizens working in India are exempt from India&apos;s provident fund under the CECA, a social security exemption that works by nationality rather than a certificate of coverage. Non-citizen Singapore employees do not get this exemption and contribute as international workers. CPF follows Singapore&apos;s own social security rules.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

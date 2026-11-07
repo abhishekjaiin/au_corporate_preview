@@ -33,6 +33,7 @@ const faqs = [
   { q: "Were the international worker rules struck down?", a: "The Karnataka High Court struck them down in 2024, but the Delhi High Court upheld them in November 2025, so most employers still comply." },
   { q: "What happens if contributions were missed?", a: "Arrears can be claimed with interest and damages, so take advice before regularising." },
   { q: "When are contributions deposited?", a: "By the 15th of the following month, with the monthly return." },
+  { q: "What is the 12% contribution for international workers?", a: "Employer and employee each contribute 12% of basic wages, with no wage ceiling for international workers unless a social security agreement and Certificate of Coverage apply." },
 ]
 
 const relatedCards = [

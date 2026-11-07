@@ -37,6 +37,8 @@ const faqs = [
   { q: "Are allowances taxable in India?", a: "Housing and school allowances are generally taxable." },
   { q: "Can the executive create a PE for the Australian parent?", a: "Yes, if he or she concludes contracts for the parent; the role should sit with the Indian company." },
   { q: "What is the salary threshold for an Indian employment visa?", a: "USD 25,000 a year, with limited exceptions." },
+  { q: "Must Australian staff register with the FRRO?", a: "Yes, within 14 days of arrival if the stay is longer than 180 days." },
+  { q: "Can family members join an Australian employee in India?", a: "Yes, on dependant status linked to the employee's own permission, with separate FRRO registration for each family member staying longer than 180 days." },
 ]
 
 const relatedCards = [

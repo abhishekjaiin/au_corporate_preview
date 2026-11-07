@@ -22,6 +22,7 @@ const toc = [
   { id: "remittance", label: "Remitting from Singapore" },
   { id: "fcgpr", label: "FC-GPR and the 60/30 clocks" },
   { id: "ecb", label: "ECB loans from a Singapore parent" },
+  { id: "fema-steps", label: "FEMA steps for each capital round" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,8 @@ const faqs = [
   { q: "Is there a minimum price for shares issued to a Singapore investor?", a: "Yes. Unlisted shares must be issued at or above fair value from a valuation by a registered valuer, a chartered accountant or a merchant banker." },
   { q: "Can capital be sent by UPI-PayNow?", a: "No. The UPI-PayNow link is for small person-to-person transfers. Capital goes through the banking channel with a remittance certificate." },
   { q: "What is the FLA return?", a: "The annual return on foreign liabilities and assets that any Indian company with foreign investment files with the RBI by 15 July." },
+  { q: "Which FEMA filings follow a capital remittance from the Singapore parent?", a: "Reporting the receipt on FIRMS, allotment within 60 days, FC-GPR within 30 days of allotment and the yearly FLA return. Each is a FEMA requirement, and a missed FEMA deadline usually needs a late fee or compounding." },
+  { q: "Who signs the FEMA valuation?", a: "A Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant, under the FEMA pricing guidelines." },
 ]
 
 const relatedCards = [
@@ -178,6 +181,19 @@ export default function FundingAndFemaPage() {
           <li><strong>Tax:</strong> interest is subject to Withholding Tax under Section 393; the treaty can reduce it to 10% or 15%. Transfer pricing applies to the interest rate.</li>
           <li><strong>Currency risk:</strong> a loan in SGD or USD exposes the subsidiary to rupee depreciation; consider hedging.</li>
         </ul>
+        <h2 id="fema-steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA steps for each capital round</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The Indian bank issues the foreign inward remittance certificate and a KYC report on the remitter.</li>
+          <li>The receipt is reported on the RBI&apos;s FIRMS portal, where the company first registers.</li>
+          <li>Shares are allotted within 60 days, at no less than fair value under the FEMA pricing guidelines, certified by a Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant.</li>
+          <li>The return of allotment is filed with the Registrar within 30 days.</li>
+          <li>Form FC-GPR is filed on FIRMS within 30 days of allotment.</li>
+          <li>The FLA return reports the investment every year by 15 July.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Share capital has no legal minimum; most Singapore parents fund the first 12 to 18 months in one round, because every round repeats the FEMA steps. Remit from the shareholder named in the documents, in US or Singapore dollars, so the bank&apos;s KYC report matches. A late FEMA report is usually regularised by a late submission fee; a missed allotment deadline needs compounding.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

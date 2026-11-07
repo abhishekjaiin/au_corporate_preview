@@ -22,6 +22,10 @@ const toc = [
   { id: "indian-steps", label: "The Indian steps" },
   { id: "calendar", label: "Fitting it around German holidays and approvals" },
   { id: "pitfalls", label: "Where German incorporations stall" },
+  { id: "spice-detail", label: "Inside the SPICe+ incorporation filing" },
+  { id: "de-sequence", label: "The German document sequence" },
+  { id: "de-name", label: "Name approval and objects" },
+  { id: "de-after", label: "After the certificate of incorporation" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +39,8 @@ const faqs = [
   { q: "Do German directors need to travel to India?", a: "No. They sign with digital signatures." },
   { q: "Why approve the capital with the incorporation?", a: "So the 60-day allotment window is not delayed by a second approval." },
   { q: "What follows the certificate of incorporation?", a: "Bank account, capital, allotment, FC-GPR, auditor and registrations." },
+  { q: "What is name approval in India?", a: "The reservation of the company name through SPICe+ Part A; an approved name is held for 20 days." },
+  { q: "When are PAN and TAN issued?", a: "With the certificate of incorporation." },
 ]
 
 const relatedCards = [
@@ -179,6 +185,48 @@ export default function IncorporationStepsPage() {
           <li>A Handelsregister extract that has aged before filing.</li>
           <li>No resident director chosen when the forms are ready.</li>
         </ul>
+        <h2 id="spice-detail" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Inside the SPICe+ incorporation filing</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Element</th><th scope="col" className="border border-gray-300 p-3 text-left">What it covers</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part A: name approval</th><td className="border border-gray-300 p-3">Up to two names; an approved name is reserved for 20 days</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part B</th><td className="border border-gray-300 p-3">Registered office, share capital, subscribers, directors and DINs for up to three directors</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-MOA and e-AOA</th><td className="border border-gray-300 p-3">The memorandum (objects) and articles (internal rules)</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">AGILE-PRO-S</th><td className="border border-gray-300 p-3">GST, provident fund, ESI, professional tax and the bank account</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          PAN and TAN are issued with the certificate of incorporation. After incorporation: first board meeting and auditor within 30 days, shares allotted within 60 days of receiving capital, FC-GPR within 30 days of allotment, the commencement of business declaration within 180 days, and share certificates within two months.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The registered office fixes the state of incorporation. German companies most often choose Pune, Bengaluru or Chennai; a registered office service is enough to start, with a utility bill not older than two months and the owner&apos;s consent as proof.
+        </p>
+        <h2 id="de-sequence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The German document sequence</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Shareholder or management board resolution approving the Indian company.</li>
+          <li>Notarisation of the resolution and of the directors&apos; passports and address proofs.</li>
+          <li>A current Handelsregister extract from the register court.</li>
+          <li>Apostille from the competent Landgericht for each notarised document.</li>
+          <li>Sworn English translation of every German document, with the translation also covered where required.</li>
+          <li>Courier of originals to India and scans for the digital signatures.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Getting this order right is the single biggest factor in staying within 4 to 6 weeks. A document apostilled before translation, or a Handelsregister extract that is no longer current, is the usual cause of delay.
+        </p>
+
+        <h2 id="de-name" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Name approval and objects</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The name is reserved through SPICe+ Part A. Indian name approval rejects names too close to existing companies or registered trademarks. Many German groups use the group name followed by a descriptive word and &apos;India Private Limited&apos;. The objects in the memorandum should describe the Indian activity, for example engineering services or distribution of machinery, because banks and tax officers read them.
+        </p>
+
+        <h2 id="de-after" className="text-2xl font-bold text-gray-900 mt-12 mb-4">After the certificate of incorporation</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The certificate of incorporation carries the corporate identity number, and PAN and TAN are issued with it. The first board meeting appoints the auditor within 30 days, the bank account is opened, the GmbH remits the capital, shares are allotted within 60 days and FC-GPR follows within 30 days. The company also files its commencement of business declaration within 180 days. See <Link href="/germany-to-india/funding-and-fema" className="text-blue-800 font-semibold hover:underline">funding and FEMA</Link>.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -25,6 +25,8 @@ const toc = [
   { id: "spice-detail", label: "What the SPICe+ filing contains" },
   { id: "din", label: "Director identification numbers for Australian directors" },
   { id: "after-cert", label: "The first 90 days after incorporation" },
+  { id: "incorporation-timeline", label: "A realistic incorporation timeline" },
+  { id: "state-choice", label: "Choosing the state and registered office" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -40,6 +42,8 @@ const faqs = [
   { q: "What follows incorporation?", a: "Bank account, capital remittance, allotment, FC-GPR, first auditor, INC-20A and registrations." },
   { q: "What are the MOA and AOA?", a: "The memorandum of association states the company's objects; the articles of association are its internal rules. Both are filed with SPICe+." },
   { q: "Do Australian directors need a DIN?", a: "Yes. Up to three DINs are allotted through SPICe+; each director also needs a digital signature certificate." },
+  { q: "How long does incorporation from Australia take?", a: "About 4 to 6 weeks from the decision to a bank account, if the documents are ready and the name is approved first time." },
+  { q: "Can we incorporate before we have an office in India?", a: "Yes, using a registered office service, and move to leased premises later." },
 ]
 
 const relatedCards = [
@@ -214,6 +218,29 @@ export default function IncorporationProcessPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           See <Link href="/australia-to-india/funding-fema-fc-gpr" className="text-blue-800 font-semibold hover:underline">funding and FC-GPR</Link> for the capital steps.
         </p>
+        <h2 id="incorporation-timeline" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A realistic incorporation timeline</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Week</th><th scope="col" className="border border-gray-300 p-3 text-left">Step</th><th scope="col" className="border border-gray-300 p-3 text-left">Who acts</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">1</th><td className="border border-gray-300 p-3">Board resolution in Australia; order the ASIC extract</td><td className="border border-gray-300 p-3">Australian company secretary</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">1 to 2</th><td className="border border-gray-300 p-3">Notarise and obtain the DFAT apostille</td><td className="border border-gray-300 p-3">Australian notary and DFAT</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">2</th><td className="border border-gray-300 p-3">Courier originals to India; scan copies for the digital signatures</td><td className="border border-gray-300 p-3">AU Corporate and the directors</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">2 to 3</th><td className="border border-gray-300 p-3">Digital signatures issued; name reserved through SPICe+ Part A</td><td className="border border-gray-300 p-3">AU Corporate</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">3 to 5</th><td className="border border-gray-300 p-3">SPICe+ Part B filed; certificate of incorporation, PAN and TAN issued</td><td className="border border-gray-300 p-3">Ministry of Corporate Affairs</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">5 to 6</th><td className="border border-gray-300 p-3">Bank account opened and first capital received</td><td className="border border-gray-300 p-3">Indian bank and the Australian treasury team</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Australian document stage is usually the quickest part because DFAT runs a single federal process. Most delays come later: a name objection, a mismatch between the ASIC extract and the forms, or a bank&apos;s KYC questions about the ownership chain.
+        </p>
+
+        <h2 id="state-choice" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Choosing the state and registered office</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The registered office fixes the state of incorporation, the Registrar the company reports to and the stamp duty payable. Australian companies most often choose Bengaluru, Hyderabad, Pune, Chennai, Mumbai or the Delhi region, depending on where they will hire. Without premises yet, a registered office service works for incorporation; the proof needed is a utility bill not older than two months and the owner&apos;s written consent.
+        </p>
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

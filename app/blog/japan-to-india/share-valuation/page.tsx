@@ -22,6 +22,8 @@ const toc = [
   { id: "when", label: "When a new valuation is needed" },
   { id: "yen", label: "Rupee valuation, yen accounting" },
   { id: "transfers", label: "Transfers between the parent and others" },
+  { id: "two-rules", label: "FEMA pricing guidelines and Rule 11UA" },
+  { id: "records", label: "Keeping records" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,7 @@ const faqs = [
   { q: "Does the yen value of the investment affect the Indian price?", a: "No. The Indian price is fixed in rupees; the yen amount only decides how many shares the rupees buy." },
   { q: "Is a valuation needed when the parent sells shares to an Indian buyer?", a: "Yes. The price cannot exceed fair value, and the transfer is reported in Form FC-TRS." },
   { q: "Does the group's own impairment test replace the FEMA valuation?", a: "No. The accounting review and the FEMA certificate are separate exercises with different purposes." },
+  { q: "Who can certify fair value?", a: "A Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant." },
 ]
 
 const relatedCards = [
@@ -158,6 +161,25 @@ export default function ShareValuationPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           If the Japanese parent buys shares from an Indian joint venture partner, it must pay at least fair value. If it sells shares to an Indian buyer, it cannot receive more than fair value. Transfers between the parent and another non-resident, such as a regional holding company, are not priced by FEMA in the same way, but tax valuation rules may still apply.
         </p>
+        <h2 id="two-rules" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA pricing guidelines and Rule 11UA</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Rule</th><th scope="col" className="border border-gray-300 p-3 text-left">What it tests</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">FEMA pricing guidelines</th><td className="border border-gray-300 p-3">Issue to a non-resident at no less than fair value; transfer from a non-resident at no more</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Income tax, Rule 11UA</th><td className="border border-gray-300 p-3">Fair market value of unlisted shares for tax on issues or transfers below that value</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Both can apply to the same share issue, so the report should address both where relevant. Neither is the same as the fair value the Japanese parent books under its own accounting standards.
+        </p>
+        <h2 id="records" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping records</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Keep each fair value certificate with the board resolution and the FC-GPR or FC-TRS it supported. Auditors, the RBI and the tax department may ask for them years later, often when a later transaction is reviewed.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

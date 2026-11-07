@@ -22,6 +22,7 @@ const toc = [
   { id: "how", label: "How to avoid all 13" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "fema-mistakes", label: "What a FEMA mistake costs" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -171,6 +172,11 @@ export default function CommonMistakesPage() {
           See also: Treaty and expat mistakes:{" "}
           <Link href="/usa-to-india/tax-and-social-security-treaties" className="text-blue-800 font-semibold hover:underline">India-US tax treaty and social security guide</Link>.
         </p>
+        <h2 id="fema-mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What a FEMA mistake costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Several mistakes on this list are FEMA mistakes: capital allotted late, FC-GPR filed after 30 days, a missed FLA return or a share transfer priced outside the rules. FEMA penalties can reach three times the amount involved, so such a mistake is usually settled by compounding with the RBI, or by a late submission fee where only a report was late. Each mistake costs more the longer it goes unnoticed, because compounding needs the full history. We set the FEMA calendar at incorporation so that no mistake of this kind waits for the US parent&apos;s annual review.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

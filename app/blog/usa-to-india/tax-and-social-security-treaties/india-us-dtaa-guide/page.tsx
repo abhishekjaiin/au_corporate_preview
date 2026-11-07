@@ -28,19 +28,20 @@ const toc = [
   { id: "software", label: "Software payments after the Engineering Analysis ruling" },
   { id: "worked-example", label: "Worked example: a royalty to a US parent" },
   { id: "us-documents", label: "The documents a US company provides" },
+  { id: "us-dtaa-checklist", label: "DTAA checklist before each payment" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
 const faqs = [
   { q: "What is a DTAA?", a: "A double taxation avoidance agreement. It decides which country can tax which income and reduces tax at source on certain cross-border payments." },
-  { q: "Does the India-US treaty replace Indian tax law?", a: "No. It works alongside it. The Indian Act applies only to the extent it is more beneficial than the treaty (Section 159 of the Income-tax Act, 2025)." },
-  { q: "Is the treaty automatic?", a: "No. You must prove residence, usually with a Tax Residency Certificate and Form 41 (previously Form 10F), and meet the conditions for each article." },
-  { q: "Does the treaty cover social security tax?", a: "No. Article 2 excludes US social security taxes from the covered taxes." },
-  { q: "What is the saving clause?", a: "A US treaty clause that allows the US to tax its own citizens and residents as if the treaty did not exist, subject to listed exceptions." },
+  { q: "Does the India-US treaty replace Indian tax law?", a: "No. It works alongside it. The Indian Act applies only to the extent it is more beneficial than the DTAA (Section 159 of the Income-tax Act, 2025)." },
+  { q: "Is the DTAA automatic?", a: "No. You must prove residence, usually with a Tax Residency Certificate and Form 41 (previously Form 10F), and meet the conditions for each article." },
+  { q: "Does the DTAA cover social security tax?", a: "No. Article 2 excludes US social security taxes from the covered taxes." },
+  { q: "What is the saving clause?", a: "A US treaty clause that allows the US to tax its own citizens and residents as if the DTAA did not exist, subject to listed exceptions." },
   { q: "How is double taxation relieved?", a: "Mainly by a foreign tax credit in the country of residence, and by lower Withholding Tax at source." },
-  { q: "What if a tax authority does not follow the treaty?", a: "You can request the mutual agreement procedure so that the two tax authorities resolve the case." },
-  { q: "Is a US LLC treated as a US resident under the treaty?", a: "It depends on how the LLC is taxed in the US. A pass-through entity needs specific analysis, so take advice before claiming treaty benefits." },
+  { q: "What if a tax authority does not follow the DTAA?", a: "You can request the mutual agreement procedure so that the two tax authorities resolve the case." },
+  { q: "Is a US LLC treated as a US resident under the DTAA?", a: "It depends on how the LLC is taxed in the US. A pass-through entity needs specific analysis, so take advice before claiming treaty benefits." },
 ]
 
 const relatedCards = [
@@ -105,7 +106,7 @@ export default function IndiaUsDtaaGuidePage() {
             <tbody>
               {[
                 ["Instrument", "Convention between India and the United States for the avoidance of double taxation and the prevention of fiscal evasion"],
-                ["Who qualifies", "A person who is a resident of India or the US under the treaty, including companies"],
+                ["Who qualifies", "A person who is a resident of India or the US under the DTAA, including companies"],
                 ["Taxes covered", "Income taxes. Social security taxes are excluded (Article 2)"],
                 ["Indian law", "Section 159 of the Income-tax Act, 2025 (previously Sections 90 and 90A): treaty applies to the extent more beneficial"],
                 ["Proof of residence", "A Tax Residency Certificate, plus Form 41 (previously Form 10F) where required"],
@@ -123,19 +124,19 @@ export default function IndiaUsDtaaGuidePage() {
         <h2 id="what" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What a tax treaty does</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           Without a treaty, India taxes income arising in India, and the US taxes its citizens, residents and
-          companies on worldwide income. The same dollar can be taxed twice. The treaty allocates which country
+          companies on worldwide income. The same dollar can be taxed twice. The DTAA allocates which country
           may tax which kind of income, caps the tax a source country can charge on certain payments, and gives
           the country of residence the job of relieving what remains.
         </p>
 
         <p className="text-gray-600 leading-relaxed mb-10">
-          The treaty works alongside domestic law. Under Section 159 of the Income-tax Act, 2025 (previously
+          The DTAA works alongside domestic law. Under Section 159 of the Income-tax Act, 2025 (previously
           Sections 90 and 90A of the 1961 Act), the Indian Act applies only to the extent it is more beneficial
-          to the taxpayer than the treaty. A non-resident must hold a residency certificate and provide the
+          to the taxpayer than the DTAA. A non-resident must hold a residency certificate and provide the
           documents the rules prescribe to claim relief.
         </p>
 
-        <h2 id="scope" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Who and what the treaty covers</h2>
+        <h2 id="scope" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Who and what the DTAA covers</h2>
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-collapse border border-gray-300 text-sm">
             <thead className="bg-[#081a42] text-white">
@@ -180,30 +181,30 @@ export default function IndiaUsDtaaGuidePage() {
         <h2 id="saving" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The US saving clause</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           The US treaty practice includes a saving clause that lets the US tax its own citizens and residents as
-          if the treaty did not exist, with specific exceptions. This is why a US citizen working in India still
+          if the DTAA did not exist, with specific exceptions. This is why a US citizen working in India still
           files in the US and relies on the foreign tax credit or exclusions rather than treaty exemption. Your
           US adviser should confirm how it applies to each person.
         </p>
 
         <h2 id="residence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Treaty residence for companies and individuals</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
-          <li>A <strong>company</strong> is usually a resident where it is incorporated or managed, as the treaty defines. A US parent incorporated in the US is a US resident.</li>
+          <li>A <strong>company</strong> is usually a resident where it is incorporated or managed, as the DTAA defines. A US parent incorporated in the US is a US resident.</li>
           <li>An <strong>individual</strong> who is a resident of both countries under domestic law is resolved by the tie-breaker in Article 4: permanent home, then centre of vital interests, then habitual abode, then nationality, and finally agreement between the tax authorities.</li>
           <li>Treaty residence is proved with a certificate from the home tax authority. For the US this is Form 6166 issued by the IRS.</li>
         </ul>
 
-        <h2 id="steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to use the treaty in practice</h2>
+        <h2 id="steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to use the DTAA in practice</h2>
         <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-10">
           <li>Confirm who the recipient is and that it is the beneficial owner of the income.</li>
           <li>Identify the type of payment: dividend, interest, royalty, fees for included services or something else.</li>
           <li>Obtain the Tax Residency Certificate and Form 41 (previously Form 10F), plus any no-PE declaration the payer asks for.</li>
-          <li>The Indian payer deducts Withholding Tax under Section 393 (previously Section 195) at the treaty rate where conditions are met.</li>
+          <li>The Indian payer deducts Withholding Tax under Section 393 (previously Section 195) at the DTAA rate where conditions are met.</li>
           <li>The US recipient claims a foreign tax credit in its US return for Indian tax paid, under US rules.</li>
         </ol>
 
         <h2 id="disputes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">When the two countries disagree</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
-          If you are taxed in a way that does not follow the treaty, you can ask your country&apos;s tax
+          If you are taxed in a way that does not follow the DTAA, you can ask your country&apos;s tax
           authority to resolve it with the other under the mutual agreement procedure (Article 27). Transfer
           pricing adjustments can also be dealt with this way. See{" "}
           <Link href="/usa-to-india/tax-notices-and-litigation" className="text-blue-800 font-semibold hover:underline">tax notices and litigation</Link>.
@@ -212,20 +213,20 @@ export default function IndiaUsDtaaGuidePage() {
         <h2 id="us-parent" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What this means for a US parent</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
           <li>Treaty relief reduces Indian tax at source; it does not remove your US filing. Use the foreign tax credit and keep proof of Indian tax paid.</li>
-          <li>Treaty articles carry conditions, so confirm each claim against the treaty text and the current Indian law before relying on it.</li>
+          <li>Treaty articles carry conditions, so confirm each claim against the DTAA text and the current Indian law before relying on it.</li>
         </ul>
 
         <h2 id="mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Mistakes to avoid</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-10">
-          <li>Assuming the treaty applies automatically without documents.</li>
+          <li>Assuming the DTAA applies automatically without documents.</li>
           <li>Ignoring the beneficial ownership condition when payments pass through another entity.</li>
-          <li>Treating the treaty as covering social security.</li>
+          <li>Treating the DTAA as covering social security.</li>
           <li>Using a rate from a table without checking the payment category.</li>
         </ul>
 
         <h2 id="rates-in-practice" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Treaty rates against Indian domestic rates</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          The India-US treaty caps the tax India can withhold on payments to a US resident. The domestic rates below apply only where the treaty paperwork is missing or the payment falls outside a treaty article. Treaty rates are applied to the gross amount and, as Indian courts have consistently held, are not increased by surcharge or cess.
+          The India-US treaty caps the tax India can withhold on payments to a US resident. The domestic rates below apply only where the DTAA paperwork is missing or the payment falls outside a treaty article. Treaty rates are applied to the gross amount and, as Indian courts have consistently held, are not increased by surcharge or cess.
         </p>
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-collapse border border-gray-300 text-sm">
@@ -271,11 +272,11 @@ export default function IndiaUsDtaaGuidePage() {
           </table>
         </div>
         <p className="text-gray-600 leading-relaxed mb-10">
-          Where the domestic rate is lower than the treaty rate, the lower domestic rate applies, because a treaty can only reduce tax, never increase it (Section 159 of the Income-tax Act, 2025, previously Section 90).
+          Where the domestic rate is lower than the DTAA rate, the lower domestic rate applies, because a treaty can only reduce tax, never increase it (Section 159 of the Income-tax Act, 2025, previously Section 90).
         </p>
         <h2 id="make-available" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The make-available test for US service fees</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          The India-US treaty is narrower than most Indian treaties on service fees. Under Article 12(4), a technical or consultancy fee is taxable in India as a fee for included services only if the service is ancillary to a royalty, or if it <strong>makes available</strong> technical knowledge, experience, skill, know-how or processes that the Indian company can then use on its own. A Memorandum of Understanding attached to the treaty gives worked examples.
+          The India-US treaty is narrower than most Indian treaties on service fees. Under Article 12(4), a technical or consultancy fee is taxable in India as a fee for included services only if the service is ancillary to a royalty, or if it <strong>makes available</strong> technical knowledge, experience, skill, know-how or processes that the Indian company can then use on its own. A Memorandum of Understanding attached to the DTAA gives worked examples.
         </p>
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-collapse border border-gray-300 text-sm">
@@ -315,7 +316,7 @@ export default function IndiaUsDtaaGuidePage() {
         </p>
         <h2 id="software" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Software payments after the Engineering Analysis ruling</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
-          In Engineering Analysis Centre of Excellence v. CIT (2021), the Supreme Court of India held that payments by Indian distributors and end users for off-the-shelf software licences are not royalty under India&apos;s treaties, because no copyright is transferred. For a US software or SaaS company without a permanent establishment in India, licence fees paid by an Indian subsidiary or customer are therefore generally business profits that India cannot tax under the treaty. Customised development, source code rights and the right to modify or sublicense can still be royalty, so each contract needs reading on its own terms. Both Indian equalisation levies have since been abolished: the 2% levy on e-commerce supplies from 1 August 2024 and the 6% levy on online advertising from 1 April 2025.
+          In Engineering Analysis Centre of Excellence v. CIT (2021), the Supreme Court of India held that payments by Indian distributors and end users for off-the-shelf software licences are not royalty under India&apos;s treaties, because no copyright is transferred. For a US software or SaaS company without a permanent establishment in India, licence fees paid by an Indian subsidiary or customer are therefore generally business profits that India cannot tax under the DTAA. Customised development, source code rights and the right to modify or sublicense can still be royalty, so each contract needs reading on its own terms. Both Indian equalisation levies have since been abolished: the 2% levy on e-commerce supplies from 1 August 2024 and the 6% levy on online advertising from 1 April 2025.
         </p>
         <h2 id="worked-example" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Worked example: a royalty to a US parent</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -344,7 +345,7 @@ export default function IndiaUsDtaaGuidePage() {
               <tr>
                 <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Credit in the US</th>
                 <td className="border border-gray-300 p-3">Generally available as a foreign tax credit, subject to US limits</td>
-                <td className="border border-gray-300 p-3">Only up to the treaty rate; the excess is a refund claim in India</td>
+                <td className="border border-gray-300 p-3">Only up to the DTAA rate; the excess is a refund claim in India</td>
               </tr>
             </tbody>
           </table>
@@ -360,10 +361,15 @@ export default function IndiaUsDtaaGuidePage() {
           <li>A PAN for the US company. Without one, Indian law applies a higher withholding rate, unless the US company gives its US tax identification number, address, email and residency certificate (the relief previously in Rule 37BC).</li>
           <li>For limitation on benefits under Article 24, a short note on how the US company qualifies, for example as a publicly traded company or one owned by US residents.</li>
         </ol>
+        <h2 id="us-dtaa-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">DTAA checklist before each payment</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Before each payment to the US company under the DTAA: confirm the article and DTAA rate, obtain IRS Form 6166 as the tax residency certificate, file Form 41, prepare Forms 145 and 146, withhold and deposit the tax by the 7th of the following month, and keep the agreement and invoice. The India-US DTAA has a limitation on benefits article, so a US recipient must also meet that test.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          We confirm the treaty position, collect documents and apply the correct Withholding Tax rate on every
+          We confirm the DTAA position, collect documents and apply the correct Withholding Tax rate on every
           remittance to the US.
         </p>
 

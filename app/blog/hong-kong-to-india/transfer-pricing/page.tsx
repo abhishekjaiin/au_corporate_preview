@@ -22,6 +22,9 @@ const toc = [
   { id: "docs", label: "Documentation and deadlines" },
   { id: "tools", label: "Safe harbour and advance pricing" },
   { id: "disputes", label: "Disputes" },
+  { id: "arm-length-range", label: "How India tests the arm's length price" },
+  { id: "apa-master-file", label: "APAs, master file and country-by-country reporting" },
+  { id: "hk-hub-tp", label: "Hong Kong trading and treasury companies in the flow" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +36,8 @@ const faqs = [
   { q: "Do I need a master file?", a: "Only if the group meets the revenue and transaction thresholds in the rules. Confirm against your numbers." },
   { q: "Can I get certainty in advance?", a: "An advance pricing agreement or a safe harbour for eligible transactions can reduce disputes." },
   { q: "What if both India and Hong Kong tax the same profit?", a: "The treaty's mutual agreement procedure and credit mechanisms can relieve it. Align the documentation on both sides." },
+  { q: "Which transactions with the Hong Kong parent need transfer pricing documentation?", a: "All international transactions with group companies, including services, goods, royalties, loans, guarantees and cost allocations; full transfer pricing documentation is required above ₹1 crore a year." },
+  { q: "When is the transfer pricing report filed?", a: "Form 48 (previously Form 3CEB), the accountant's transfer pricing report, is filed by the tax audit due date; the transfer pricing study is kept on file and produced on request." },
 ]
 
 const relatedCards = [
@@ -172,6 +177,29 @@ export default function TransferPricingPage() {
           Tribunal. The treaty&apos;s mutual agreement procedure may relieve double taxation. See{" "}
           <Link href="/hong-kong-to-india/india-hong-kong-dtaa" className="text-blue-800 font-semibold hover:underline">the DTAA guide</Link>.
         </p>
+        <h2 id="arm-length-range" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How India tests the arm&apos;s length price</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Six or more comparables: the 35th to 65th percentile range; a result outside it is moved to the median.</li>
+          <li>Fewer than six: the arithmetic mean with a 3% tolerance (1% for wholesale traders).</li>
+          <li>Indian comparables from Indian databases, which can differ from the sets in the Hong Kong documentation; explain the difference in both files.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Example.</strong> An Indian service company with costs of ₹10 crore charges the Hong Kong parent cost plus 10%. If the Indian range is 13% to 18% with a median of 15%, the officer would lift the mark-up to 15%, adding ₹50 lakh to Indian income. A year-end true-up invoice before the books close avoids the adjustment.
+        </p>
+
+        <h2 id="apa-master-file" className="text-2xl font-bold text-gray-900 mt-12 mb-4">APAs, master file and country-by-country reporting</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An advance pricing agreement (APA) fixes the method, and sometimes the margin, for up to five future years, with a rollback of up to four earlier years. A unilateral APA is agreed with the Indian authority alone; a bilateral APA also involves the other country&apos;s tax authority under the treaty and gives certainty on both sides.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Indian company files a master file where group revenue exceeds ₹500 crore and its international transactions exceed ₹50 crore. Country-by-country reporting applies at consolidated group revenue of ₹6,400 crore or more; the parent&apos;s report usually reaches India through exchange, with an Indian notification naming the reporting entity.
+        </p>
+        <h2 id="hk-hub-tp" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Hong Kong trading and treasury companies in the flow</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Hong Kong groups often route Indian sales or purchases through a Hong Kong trading or treasury company. The Indian transfer pricing file must explain what that company does, its staff and risks, and why its margin is justified; a company with no real functions attracts adjustments. Hong Kong&apos;s own transfer pricing rules apply on the Hong Kong side, so align both files.
+        </p>
+
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

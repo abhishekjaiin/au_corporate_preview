@@ -21,6 +21,8 @@ const toc = [
   { id: "rhythm", label: "The Indian monthly rhythm" },
   { id: "annual", label: "The Indian annual cycle" },
   { id: "german", label: "German filings that need Indian numbers" },
+  { id: "gst-compliance", label: "GST returns and other recurring compliance dates" },
+  { id: "de-map", label: "The Indian year mapped to a German 31 December year" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -159,6 +161,41 @@ export default function ComplianceCalendarPage() {
           <li>Transfer pricing documentation consistent with the Indian file.</li>
           <li>Pillar Two information for groups above EUR 750 million revenue.</li>
         </ul>
+        <h2 id="gst-compliance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">GST returns and other recurring compliance dates</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Filing</th><th scope="col" className="border border-gray-300 p-3 text-left">Due</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-1</th><td className="border border-gray-300 p-3">11th of the next month, or 13th after the quarter under QRMP</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-3B and tax payment</th><td className="border border-gray-300 p-3">20th of the next month, or 22nd or 24th after the quarter under QRMP</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-9 annual return (and GSTR-9C above the threshold)</th><td className="border border-gray-300 p-3">31 December after the year end</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">TDS returns</th><td className="border border-gray-300 p-3">31 July, 31 October, 31 January and 31 May</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Advance tax</th><td className="border border-gray-300 p-3">15 June, 15 September, 15 December and 15 March</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Return of deposits (DPT-3)</th><td className="border border-gray-300 p-3">30 June</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">MSME payments return</th><td className="border border-gray-300 p-3">31 October and 30 April, where dues to small suppliers are overdue</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Services bought from the GmbH or AG are usually taxed under reverse charge in GSTR-3B, with the credit claimed in the same return; this is the GST compliance point foreign-owned companies most often miss. Keep one compliance owner in India and send the German parent a monthly compliance summary that maps each Indian date to its own 31 December year.
+        </p>
+        <h2 id="de-map" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The Indian year mapped to a German 31 December year</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">German quarter</th><th scope="col" className="border border-gray-300 p-3 text-left">What happens in India</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Q1 (January to March)</th><td className="border border-gray-300 p-3">Last quarter of the Indian year; advance tax by 15 March; true-ups for transfer pricing</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Q2 (April to June)</th><td className="border border-gray-300 p-3">Indian books closed to 31 March; audit fieldwork; DPT-3 by 30 June</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Q3 (July to September)</th><td className="border border-gray-300 p-3">FLA return by 15 July; tax audit and Form 48; AGM by 30 September</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Q4 (October to December)</th><td className="border border-gray-300 p-3">Tax return by 31 October or 30 November; ROC forms after the AGM; GST annual return by 31 December</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          German parents consolidate from Indian management accounts to 31 December. The compliance calendar above keeps the Indian statutory dates and the German group dates in one view.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

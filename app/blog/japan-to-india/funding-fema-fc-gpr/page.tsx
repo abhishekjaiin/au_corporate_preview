@@ -23,6 +23,7 @@ const toc = [
   { id: "ringi", label: "Sizing the capital for the ringi" },
   { id: "japan-side", label: "Filings on the Japanese side" },
   { id: "slips", label: "Where Japanese parents slip" },
+  { id: "fc-gpr-pack", label: "What an FC-GPR filing needs" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -200,6 +201,17 @@ export default function FundingFemaFcGprPage() {
           <li>Letting the 60-day allotment window run past a Japanese holiday period such as Golden Week or Obon.</li>
           <li>Issuing shares on a valuation certificate that is out of date.</li>
         </ul>
+        <h2 id="fc-gpr-pack" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What an FC-GPR filing needs</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The bank&apos;s foreign inward remittance certificate and its KYC report on the Japanese remitter.</li>
+          <li>The valuation certificate under the FEMA pricing guidelines.</li>
+          <li>The board resolution allotting shares and the return of allotment.</li>
+          <li>Declarations on the sector, route and sectoral cap.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The KYC report must show that the remitter is the shareholder named in the incorporation documents. A remittance from a group treasury company is the most common reason an FC-GPR is held up. Each later round of capital needs its own FC-GPR within 30 days of allotment; a late FC-GPR is usually regularised with a late submission fee.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

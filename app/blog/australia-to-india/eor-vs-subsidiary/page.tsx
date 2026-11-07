@@ -24,6 +24,8 @@ const toc = [
   { id: "move", label: "Moving staff into your own entity" },
   { id: "ip", label: "IP ownership: who owns what the Indian team creates" },
   { id: "cost-compare", label: "Cost comparison at different team sizes" },
+  { id: "compliance-burden", label: "What your own Indian company must handle that a provider does for you" },
+  { id: "contract-terms", label: "Contract terms to check with a provider" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -38,6 +40,9 @@ const faqs = [
   { q: "How long does a subsidiary take to set up?", a: "About 4 to 6 weeks from receipt of apostilled documents." },
   { q: "Can staff move from the EOR to the subsidiary?", a: "Yes, through new contracts and an agreed treatment of benefits." },
   { q: "Who owns IP created by staff hired through an employer of record?", a: "The provider first; the Australian company owns it only if the provider's agreement assigns it and the employment contracts assign it to the provider." },
+  { q: "Does an employer of record create a permanent establishment for the Australian company?", a: "It can, if the Indian staff work under the Australian company's direction on its core business; see the PE section above and keep the work and contracts structured carefully." },
+  { q: "How long does it take to move staff from a provider to our own company?", a: "Usually a month or two after incorporation: new contracts on equivalent terms, provident fund transfers and continuity of service for gratuity." },
+  { q: "Can we keep some staff with the provider after forming the company?", a: "Yes. Some groups keep a few specialist or short-term roles with the provider while the core team moves across." },
 ]
 
 const relatedCards = [
@@ -204,6 +209,23 @@ export default function EorVsSubsidiaryPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           The change-over is usually planned around a quarter end, with employees offered equivalent terms and their service and gratuity accrual carried over. See <Link href="/australia-to-india/hiring-and-payroll" className="text-blue-800 font-semibold hover:underline">hiring and payroll for Australian companies</Link> and <Link href="/australia-to-india/incorporation-process" className="text-blue-800 font-semibold hover:underline">incorporation from Australia</Link>.
         </p>
+        <h2 id="compliance-burden" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What your own Indian company must handle that a provider does for you</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>A resident director who meets the 182-day test.</li>
+          <li>Statutory audit, AGM and annual returns to the Registrar.</li>
+          <li>Monthly tax deduction, provident fund, ESI and professional tax filings.</li>
+          <li>FEMA filings for each capital round and the yearly FLA return.</li>
+          <li>Transfer pricing documentation for charges to Australia.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most Australian groups outsource these to an Indian firm once they own the company. The cost is fixed rather than per head, which is why the comparison changes as the team grows.
+        </p>
+        <h2 id="contract-terms" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contract terms to check with a provider</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Before signing with a provider, check the notice period for ending the arrangement, the fee for transferring staff to your own company, who holds the employees&apos; records and data, and how statutory benefits such as gratuity are handled on transfer. These terms decide how smoothly the team can later move into your own Indian company.
+        </p>
+
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

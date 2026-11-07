@@ -21,6 +21,7 @@ const toc = [
   { id: "sg", label: "The Singapore parent's calendar" },
   { id: "align", label: "Aligning two year ends" },
   { id: "quarters", label: "A working year for a 31 December parent" },
+  { id: "gst-compliance", label: "GST returns and other recurring compliance dates" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -31,6 +32,8 @@ const faqs = [
   { q: "When is Form FC-GPR due?", a: "Within 30 days of allotment of shares." },
   { q: "When is director KYC due?", a: "By 30 September each year for directors holding a DIN." },
   { q: "Do dates change under the new Income-tax Act?", a: "Some forms and sections have changed from 1 April 2026. Confirm the current due dates every year." },
+  { q: "What happens if a compliance date is missed?", a: "Usually a late fee and interest, and for some filings a penalty; repeated compliance failures can lead to notices and difficulties with banks. A shared compliance calendar avoids most of them." },
+  { q: "Can the Singapore parent outsource Indian compliance?", a: "Yes. Most groups outsource accounting, tax, GST, payroll and secretarial compliance to an Indian firm, with a monthly compliance report to the parent." },
 ]
 
 const relatedCards = [
@@ -213,6 +216,25 @@ export default function ComplianceCalendarPage() {
             </tbody>
           </table>
         </div>
+        <h2 id="gst-compliance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">GST returns and other recurring compliance dates</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Filing</th><th scope="col" className="border border-gray-300 p-3 text-left">Due</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-1</th><td className="border border-gray-300 p-3">11th of the next month, or 13th after the quarter under QRMP</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-3B and tax payment</th><td className="border border-gray-300 p-3">20th of the next month, or 22nd or 24th after the quarter under QRMP</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-9 annual return (and GSTR-9C above the threshold)</th><td className="border border-gray-300 p-3">31 December after the year end</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">TDS returns</th><td className="border border-gray-300 p-3">31 July, 31 October, 31 January and 31 May</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Advance tax</th><td className="border border-gray-300 p-3">15 June, 15 September, 15 December and 15 March</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Return of deposits (DPT-3)</th><td className="border border-gray-300 p-3">30 June</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">MSME payments return</th><td className="border border-gray-300 p-3">31 October and 30 April, where dues to small suppliers are overdue</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Services bought from the Singapore parent are usually taxed under reverse charge in GSTR-3B, with the credit claimed in the same return; this is the GST compliance point foreign-owned companies most often miss. Keep one compliance owner in India and send the Singapore parent a monthly compliance summary that maps each Indian date to its own 31 December or 31 March year.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

@@ -22,6 +22,7 @@ const toc = [
   { id: "tax", label: "Profits tax on income from India" },
   { id: "mpf", label: "Employees and officers" },
   { id: "sequence", label: "Order of work" },
+  { id: "group-reporting", label: "Group reporting the parent provides" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,7 @@ const faqs = [
   { q: "What is the Hong Kong profits tax rate?", a: "For corporations, 8.25% on the first HK$2 million of assessable profits and 16.5% on the rest, with one company in a connected group able to use the lower tier." },
   { q: "What is a significant controllers register?", a: "A register kept by a Hong Kong company of individuals or entities with more than 25% of shares or votes or with control. It aligns with the beneficial owner information India asks for." },
   { q: "Do I need an audit for a Hong Kong company?", a: "Yes. Hong Kong companies generally prepare audited financial statements by a certified public accountant, which also support Indian banking and net worth evidence." },
+  { q: "What information does the Hong Kong parent need to send India each year?", a: "Ownership details for beneficial ownership records, group revenue for master file and CbCR thresholds, and the parent's figures for the FLA return; the parent should name one contact for these requests." },
 ]
 
 const relatedCards = [
@@ -171,6 +173,17 @@ export default function HongKongParentObligationsPage() {
           Start the Indian approval and Hong Kong board work together, because both use the same ownership chart
           and business plan. Do not incorporate the Indian company or send money until the approval is in hand.
         </p>
+        <h2 id="group-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Group reporting the parent provides</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Ultimate beneficial owner:</strong> the Indian company records its significant beneficial owners, and the bank keeps its own declaration; the parent must provide the full chain.</li>
+          <li><strong>Master file (Form 3CEAA under the old numbering):</strong> where group revenue exceeds ₹500 crore and Indian international transactions exceed ₹50 crore.</li>
+          <li><strong>CbCR:</strong> country-by-country reporting at consolidated group revenue of ₹6,400 crore or more.</li>
+          <li><strong>FLA return:</strong> filed by the Indian company by 15 July, using figures the parent confirms.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          These parent-driven filings cannot be completed without information from the Hong Kong parent, so agree a yearly information request with the group&apos;s finance team.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

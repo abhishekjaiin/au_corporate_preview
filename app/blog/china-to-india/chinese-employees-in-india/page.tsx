@@ -23,6 +23,7 @@ const toc = [
   { id: "contracts", label: "The secondment letter" },
   { id: "visa", label: "Immigration and registration" },
   { id: "cost", label: "Costing the assignment" },
+  { id: "social-security-summary", label: "Social security in one paragraph" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -179,6 +180,11 @@ export default function ChineseEmployeesInIndiaPage() {
           <li>Advisory and immigration fees.</li>
           <li>Transfer pricing mark-up on the recharge.</li>
         </ul>
+        <h2 id="social-security-summary" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Social security in one paragraph</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India and China have no social security agreement, so a Chinese employee on Indian payroll is an international worker for provident fund, contributing 12% (matched by the employer) on full basic wages with no wage ceiling, and there is no exemption. Chinese social security contributions may also continue under Chinese rules, so budget for both social security systems.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

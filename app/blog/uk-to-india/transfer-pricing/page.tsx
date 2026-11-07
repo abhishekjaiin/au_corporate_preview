@@ -22,6 +22,8 @@ const toc = [
   { id: "process", label: "The annual process, in order" },
   { id: "uk-india", label: "Where the UK and Indian regimes differ" },
   { id: "audits", label: "Audits, safe harbours and advance agreements" },
+  { id: "arm-length-range", label: "How India tests the arm's length price" },
+  { id: "apa-master-file", label: "APAs, master file and country-by-country reporting" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -178,6 +180,24 @@ export default function TransferPricingPage() {
           We prepare Form 48 and the local file in India. Country-by-country reports are prepared by the UK
           ultimate parent; we help with the Indian notification and filing when the group report exists.
         </div>
+        <h2 id="arm-length-range" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How India tests the arm&apos;s length price</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Six or more comparables: the 35th to 65th percentile range; a result outside it is moved to the median.</li>
+          <li>Fewer than six: the arithmetic mean with a 3% tolerance (1% for wholesale traders).</li>
+          <li>Indian comparables from Indian databases, which can differ from the sets in the UK documentation; explain the difference in both files.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Example.</strong> An Indian service company with costs of ₹10 crore charges the UK parent cost plus 10%. If the Indian range is 13% to 18% with a median of 15%, the officer would lift the mark-up to 15%, adding ₹50 lakh to Indian income. A year-end true-up invoice before the books close avoids the adjustment.
+        </p>
+
+        <h2 id="apa-master-file" className="text-2xl font-bold text-gray-900 mt-12 mb-4">APAs, master file and country-by-country reporting</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An advance pricing agreement (APA) fixes the method, and sometimes the margin, for up to five future years, with a rollback of up to four earlier years. A unilateral APA is agreed with the Indian authority alone; a bilateral APA also involves the other country&apos;s tax authority under the treaty and gives certainty on both sides.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Indian company files a master file where group revenue exceeds ₹500 crore and its international transactions exceed ₹50 crore. Country-by-country reporting applies at consolidated group revenue of ₹6,400 crore or more; the parent&apos;s report usually reaches India through exchange, with an Indian notification naming the reporting entity.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

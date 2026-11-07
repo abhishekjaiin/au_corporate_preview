@@ -24,6 +24,7 @@ const toc = [
   { id: "structure", label: "Structuring to stay clear" },
   { id: "pe-types", label: "The four permanent establishment triggers in practice" },
   { id: "secondment", label: "Secondments without a permanent establishment" },
+  { id: "pe-checklist", label: "An annual permanent establishment review" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -38,6 +39,8 @@ const faqs = [
   { q: "Can a dependent agent create a PE?", a: "Yes, if a person in India habitually concludes contracts for the Australian company." },
   { q: "How are treaty disputes resolved?", a: "Through the Mutual Agreement Procedure under Article 25." },
   { q: "What creates a permanent establishment for an Australian company in India?", a: "A fixed place used for its business, services by its staff in India for more than 183 days in any 12 months, a dependent agent concluding contracts, or a long construction or installation project." },
+  { q: "How can an Australian company show it has no permanent establishment in India?", a: "Keep day counts, contracts signed outside India, secondment agreements and an annual review memo." },
+  { q: "Does a permanent establishment change the Indian company's own tax?", a: "No. The Indian company is taxed on its own profits regardless; a permanent establishment adds a separate Indian tax liability for the Australian company itself." },
 ]
 
 const relatedCards = [
@@ -195,6 +198,18 @@ export default function DtaaPeRiskPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           See <Link href="/australia-to-india/foreign-employee-treaty-ssa" className="text-blue-800 font-semibold hover:underline">how Australian employees in India are taxed</Link>.
         </p>
+        <h2 id="pe-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">An annual permanent establishment review</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>List every Australian employee who spent time in India and add up days per project.</li>
+          <li>Check who signed customer contracts and from where.</li>
+          <li>Confirm that the Indian company invoices for its own work and that the parent&apos;s role is documented.</li>
+          <li>Review secondment agreements and recharges.</li>
+          <li>Record the outcome in a short memo for the auditors and the ATO file.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Doing this every year takes a few hours and is the best defence if the Indian tax department later alleges a permanent establishment.
+        </p>
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

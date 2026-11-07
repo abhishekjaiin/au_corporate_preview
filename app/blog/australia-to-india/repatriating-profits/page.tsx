@@ -25,6 +25,7 @@ const toc = [
   { id: "repatriation-options", label: "Profit repatriation options compared" },
   { id: "forms", label: "The repatriation paperwork: Forms 145 and 146" },
   { id: "timing", label: "Repatriation timing across two financial years" },
+  { id: "repatriation-example", label: "A worked repatriation example" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -40,6 +41,8 @@ const faqs = [
   { q: "When is Withholding Tax deposited?", a: "By the 7th of the following month." },
   { q: "What are Forms 145 and 146?", a: "The online declaration of a payment abroad and the Chartered Accountant's certificate behind it, previously Forms 15CA and 15CB." },
   { q: "Is a dividend from India taxed in Australia?", a: "Generally not, for a qualifying holding: it is non-assessable non-exempt income under section 768-5." },
+  { q: "How much tax is paid on repatriation from India to Australia?", a: "Indian corporate tax of about 25.17% on profits, then up to 15% withholding on the dividend; the dividend is generally exempt in Australia." },
+  { q: "Can repatriation happen during the Indian year?", a: "Yes, through an interim dividend declared by the board from the current year's profits, or through service fees and royalties paid under agreements." },
 ]
 
 const relatedCards = [
@@ -196,6 +199,14 @@ export default function RepatriatingProfitsPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           A final dividend can be paid only after the Indian audit and the AGM, which fall between April and September. For an Australian parent closing on 30 June, that means profit earned in the Indian year to 31 March usually arrives in the following Australian year. An interim dividend, declared by the board during the Indian year from current profits, can bring repatriation forward. Plan the timing with the group treasury forecast, and remember that a declared dividend must be paid within 30 days.
         </p>
+        <h2 id="repatriation-example" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A worked repatriation example</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An Indian company earns ₹5 crore before tax in the year to 31 March. It pays corporate tax of about ₹1.26 crore at 25.17%, leaving about ₹3.74 crore. After the audit and AGM, it declares a dividend of ₹3 crore to the Australian parent. With the parent&apos;s tax residency certificate and Form 41 on file, it withholds up to 15%, about ₹45 lakh, and repatriates about ₹2.55 crore. Under section 768-5 the dividend is generally not taxed again in Australia, so the Indian taxes are the total cost of this repatriation.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          If part of the same profit had instead been paid as a service fee, it would have been deductible in India, taxed in Australia at the corporate rate, with an offset for any Indian withholding. Which repatriation mix is better depends on the group&apos;s Australian tax position.
+        </p>
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

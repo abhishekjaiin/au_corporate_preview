@@ -22,6 +22,9 @@ const toc = [
   { id: "singapore-diff", label: "Where Singapore differs from India" },
   { id: "safe", label: "Safe harbour, APAs and disputes" },
   { id: "practice", label: "A practical annual cycle" },
+  { id: "arm-length-range", label: "How India tests the arm's length price" },
+  { id: "apa-master-file", label: "APAs, master file and country-by-country reporting" },
+  { id: "sg-routine", label: "IRAS routine support and Indian benchmarks" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -32,6 +35,8 @@ const faqs = [
   { q: "Can a Singapore parent get an advance pricing agreement for India?", a: "Yes. India has a unilateral and bilateral APA program, and a bilateral agreement involves both competent authorities." },
   { q: "Is a management fee from Singapore deductible in India?", a: "Only to the extent it is at arm's length and supported by proof that the Indian entity received a service it needed." },
   { q: "What happens if India makes a transfer pricing adjustment?", a: "The Indian income rises, penalty may apply, and the Singapore side may claim relief through the mutual agreement procedure within three years of first notice." },
+  { q: "Which transactions with the Singapore parent need transfer pricing documentation?", a: "All international transactions with group companies, including services, goods, royalties, loans, guarantees and cost allocations; full transfer pricing documentation is required above ₹1 crore a year." },
+  { q: "When is the transfer pricing report filed?", a: "Form 48 (previously Form 3CEB), the accountant's transfer pricing report, is filed by the tax audit due date; the transfer pricing study is kept on file and produced on request." },
 ]
 
 const relatedCards = [
@@ -171,6 +176,29 @@ export default function TransferPricingPage() {
           <li>Check the Singapore documentation obligations and align the numbers.</li>
           <li>Keep invoices, time records and emails that show who did what.</li>
         </ol>
+        <h2 id="arm-length-range" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How India tests the arm&apos;s length price</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Six or more comparables: the 35th to 65th percentile range; a result outside it is moved to the median.</li>
+          <li>Fewer than six: the arithmetic mean with a 3% tolerance (1% for wholesale traders).</li>
+          <li>Indian comparables from Indian databases, which can differ from the sets in the Singapore documentation; explain the difference in both files.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Example.</strong> An Indian service company with costs of ₹10 crore charges the Singapore parent cost plus 10%. If the Indian range is 13% to 18% with a median of 15%, the officer would lift the mark-up to 15%, adding ₹50 lakh to Indian income. A year-end true-up invoice before the books close avoids the adjustment.
+        </p>
+
+        <h2 id="apa-master-file" className="text-2xl font-bold text-gray-900 mt-12 mb-4">APAs, master file and country-by-country reporting</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An advance pricing agreement (APA) fixes the method, and sometimes the margin, for up to five future years, with a rollback of up to four earlier years. A unilateral APA is agreed with the Indian authority alone; a bilateral APA also involves the other country&apos;s tax authority under the treaty and gives certainty on both sides.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Indian company files a master file where group revenue exceeds ₹500 crore and its international transactions exceed ₹50 crore. Country-by-country reporting applies at consolidated group revenue of ₹6,400 crore or more; the parent&apos;s report usually reaches India through exchange, with an Indian notification naming the reporting entity.
+        </p>
+        <h2 id="sg-routine" className="text-2xl font-bold text-gray-900 mt-12 mb-4">IRAS routine support and Indian benchmarks</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Singapore allows a 5% cost mark-up for certain routine support services, while Indian comparables for IT and engineering services usually show higher mark-ups. An Indian company providing services to Singapore should be benchmarked on Indian data, not on the Singapore routine mark-up, or the Indian officer will adjust it.
+        </p>
+
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

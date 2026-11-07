@@ -22,6 +22,12 @@ const toc = [
   { id: "subsidiary-fit", label: "When to form the subsidiary" },
   { id: "pe", label: "The permanent establishment question" },
   { id: "switch", label: "Moving staff from the EOR to the subsidiary" },
+  { id: "ip", label: "IP ownership when staff are employed by a provider" },
+  { id: "team-size", label: "Which model at which team size" },
+  { id: "own-company-duties", label: "What your own company must then handle" },
+  { id: "chuzaiin", label: "Chuzaiin and the provider model" },
+  { id: "transition", label: "Planning the move to your own company" },
+  { id: "jp-pe-note", label: "A note on permanent establishment" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +41,8 @@ const faqs = [
   { q: "How long does it take to form a subsidiary instead?", a: "About 4 to 6 weeks from receiving the apostilled Japanese documents." },
   { q: "Can staff move from the EOR to the subsidiary later?", a: "Yes, through new contracts with the subsidiary and an agreed settlement or transfer of benefits." },
   { q: "Who owns IP created by EOR staff?", a: "It depends on the EOR contract, so the agreement should assign IP to the Japanese company or the group entity that needs it." },
+  { q: "Who owns IP created by staff hired through an employer of record?", a: "The provider first; the Japanese company owns it only through a complete chain of assignment in the provider's agreement and the employment contracts." },
+  { q: "Can a provider sponsor a chuzaiin?", a: "Sometimes, but the chuzaiin's role must be a genuine employment with the provider; most Japanese groups form their own company first." },
 ]
 
 const relatedCards = [
@@ -176,6 +184,61 @@ export default function EorVsSubsidiaryPage() {
           <li>Settle or transfer gratuity and leave balances as agreed with the EOR.</li>
           <li>Move payroll, provident fund and ESI registrations to the subsidiary.</li>
         </ol>
+        <h2 id="ip" className="text-2xl font-bold text-gray-900 mt-12 mb-4">IP ownership when staff are employed by a provider</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          With an employer of record, the employees&apos; contracts are with the Indian provider, so work product first belongs to the provider. The Japanese company owns it only if the chain of assignment is complete:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The provider&apos;s services agreement assigns all work product and intellectual property to the Japanese company.</li>
+          <li>Each employment contract assigns inventions and copyright to the provider.</li>
+          <li>Source code, documents and data are handed over on termination, with audit rights during the arrangement.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          In your own Indian company, employment contracts assign IP to the Indian company, and an intercompany agreement settles ownership between India and Japan. For engineering and R&amp;D work this is often the deciding factor for Japanese groups.
+        </p>
+
+        <h2 id="team-size" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Which model at which team size</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Team size</th><th scope="col" className="border border-gray-300 p-3 text-left">Usual choice</th><th scope="col" className="border border-gray-300 p-3 text-left">Reason</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">1 to 5</th><td className="border border-gray-300 p-3">Employer of record</td><td className="border border-gray-300 p-3">No entity, quick start, per-head fee acceptable</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">5 to 20</th><td className="border border-gray-300 p-3">Either</td><td className="border border-gray-300 p-3">Fees add up, but an entity needs a resident director and annual filings</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">20 or more</th><td className="border border-gray-300 p-3">Own company</td><td className="border border-gray-300 p-3">Fixed costs spread wider; control of hiring, IP and premises</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="own-company-duties" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What your own company must then handle</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>A resident director who meets the 182-day test.</li>
+          <li>Statutory audit, AGM and annual returns.</li>
+          <li>Monthly tax deduction, provident fund, ESI and professional tax.</li>
+          <li>FEMA reports for capital and the yearly FLA return.</li>
+          <li>Transfer pricing documentation for charges to Japan.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          See <Link href="/japan-to-india/incorporation-process" className="text-blue-800 font-semibold hover:underline">incorporation from Japan</Link> and <Link href="/japan-to-india/hiring-and-payroll" className="text-blue-800 font-semibold hover:underline">hiring and payroll for Japanese companies</Link>.
+        </p>
+        <h2 id="chuzaiin" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Chuzaiin and the provider model</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A provider can employ local Indian staff easily, but placing a Japanese chuzaiin with a provider is harder, because the employment category requires a sponsoring Indian employer and a real employment relationship. Most Japanese groups therefore form their own company before sending a chuzaiin, and use a provider only for the first local hires.
+        </p>
+        <h2 id="transition" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Planning the move to your own company</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Plan the move around a month end. Offer each employee equivalent terms in the new company, carry over continuity of service for gratuity, transfer provident fund balances through the universal account number, and agree with the provider the date its contracts end. Tell customers and suppliers in advance if invoices will start coming from the new company.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Keep the provider in place until the new company has its bank account, payroll registrations and resident director, so that salaries are never interrupted.
+        </p>
+        <h2 id="jp-pe-note" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A note on permanent establishment</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          If staff employed by a provider work under the Japanese parent&apos;s direction on its core business, the Indian tax department may argue that the parent has a permanent establishment in India. Structure the provider&apos;s services agreement and the reporting lines carefully.
+        </p>
+
+
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -36,6 +36,8 @@ const faqs = [
   { q: "Which Australian filing uses Indian figures?", a: "The International Dealings Schedule with the parent's company tax return, and Division 815 documentation." },
   { q: "When is Withholding Tax on payments to Australia deposited?", a: "By the 7th of the following month." },
   { q: "How many board meetings are needed?", a: "At least four a year, with no more than 120 days between them, subject to small company relaxations." },
+  { q: "When is the Indian AGM due?", a: "By 30 September after the 31 March year end." },
+  { q: "When is the FLA return due?", a: "By 15 July each year." },
 ]
 
 const relatedCards = [

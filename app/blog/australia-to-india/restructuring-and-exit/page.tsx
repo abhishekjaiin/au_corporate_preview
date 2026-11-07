@@ -38,6 +38,8 @@ const faqs = [
   { q: "How does surplus cash reach Australia on closure?", a: "Through the bank with Forms 145 and 146 after taxes and creditors are paid." },
   { q: "Does the different year end matter for an exit?", a: "Yes. The Indian 31 March and Australian 30 June years affect when gains are recognised and returns lodged." },
   { q: "Does a merger of Indian group companies need NCLT approval?", a: "Usually yes; a fast-track route through the regional director is available for small companies and wholly owned group mergers." },
+  { q: "What is the quickest exit for a dormant Indian company?", a: "A strike-off under Section 248, once liabilities are cleared and the bank account is closed." },
+  { q: "Which exit route do Australian parents use most?", a: "A sale of the shares to a buyer, or a strike-off for a company that never traded." },
 ]
 
 const relatedCards = [

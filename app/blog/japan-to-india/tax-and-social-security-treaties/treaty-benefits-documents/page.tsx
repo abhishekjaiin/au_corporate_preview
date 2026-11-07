@@ -20,6 +20,7 @@ const toc = [
   { id: "form41", label: "Filing Form 41 in India" },
   { id: "tests", label: "Beneficial ownership and anti-abuse" },
   { id: "routine", label: "A routine for recurring payments" },
+  { id: "form-10f", label: "Form 41, formerly Form 10F: what changed" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -33,6 +34,7 @@ const faqs = [
   { q: "Does a regional holding company change the position?", a: "It can. The treaty then depends on that company's own residence and beneficial ownership, so the structure needs review." },
   { q: "Can the Japanese parent file Form 41 without an Indian PAN?", a: "The portal requires a PAN or a non-resident registration, so the parent usually obtains one." },
   { q: "Which payments benefit from the 10% rate?", a: "Dividends, interest, royalties and fees for technical services paid to a Japanese resident beneficial owner." },
+  { q: "Is Form 10F still needed?", a: "Its replacement, Form 41, is. The content and purpose are the same as the former Form 10F." },
 ]
 
 const relatedCards = [
@@ -163,6 +165,11 @@ export default function TreatyBenefitsDocumentsPage() {
           <li>Check each payment type against the treaty article that applies.</li>
           <li>Prepare Forms 145 and 146 with the treaty rate stated.</li>
         </ol>
+        <h2 id="form-10f" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Form 41, formerly Form 10F: what changed</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Under the Income-tax Act, 2025, Form 10F has been renumbered as Form 41. The content is the same: the recipient&apos;s status, nationality, tax identification number, residence period and address, filed electronically on the Indian tax portal. Payers still sometimes ask for Form 10F by its old name; a Form 41 filed online meets the same requirement.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

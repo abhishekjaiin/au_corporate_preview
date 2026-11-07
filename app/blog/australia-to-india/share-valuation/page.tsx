@@ -38,6 +38,9 @@ const faqs = [
   { q: "What happens if shares are issued below fair value?", a: "The issue breaches FEMA pricing and needs correction, often through compounding." },
   { q: "Which method is used for a captive centre?", a: "Often discounted cash flow or net assets, reflecting its cost-plus remuneration." },
   { q: "What is Rule 11UA?", a: "The Indian income tax rule that sets how the fair market value of unlisted shares is worked out for tax purposes." },
+  { q: "Who can certify the fair value of Indian shares?", a: "A Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant." },
+  { q: "How recent must the certificate be?", a: "Close to the date of the issue or transfer; a stale certificate is a common reason for queries." },
+  { q: "Is a fresh certificate needed for each capital round?", a: "Yes. Each issue or transfer needs a certificate dated close to the transaction." },
 ]
 
 const relatedCards = [

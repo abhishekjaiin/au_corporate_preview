@@ -24,6 +24,7 @@ const toc = [
   { id: "australian-side", label: "On the Australian side" },
   { id: "fc-gpr-pack", label: "What goes into an FC-GPR filing" },
   { id: "fc-gpr-late", label: "If FC-GPR is late" },
+  { id: "later-rounds", label: "Later capital rounds" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -38,6 +39,8 @@ const faqs = [
   { q: "Is a minimum capital required?", a: "No. Plan enough to cover 12 to 18 months of the subsidiary's costs." },
   { q: "What does a late FC-GPR cost?", a: "₹7,500 plus 0.025% of the amount involved for each year of delay, for up to three years." },
   { q: "What documents are needed for FC-GPR?", a: "The bank's foreign inward remittance certificate and KYC report, the valuation certificate, the allotment resolution and the return of allotment." },
+  { q: "Does each capital injection need its own FC-GPR?", a: "Yes. Every allotment of shares to the Australian parent is reported in its own FC-GPR within 30 days." },
+  { q: "Can the Australian parent send capital in Australian dollars?", a: "Yes. The Indian bank converts it to rupees, and the rupee amount on the inward remittance certificate is the amount reported in FC-GPR." },
 ]
 
 const relatedCards = [
@@ -187,6 +190,11 @@ export default function FundingFemaFcGprPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           A late FC-GPR can usually be regularised by paying a late submission fee calculated on the amount and the delay. If shares were not allotted within 60 days, or the money was not refunded in time, the issue is more serious and normally needs compounding with the RBI. Each later round of capital needs its own FC-GPR, so we keep a register of every remittance, allotment and FC-GPR filing for the Indian company.
         </p>
+        <h2 id="later-rounds" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Later capital rounds</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          After the first capital, Australian parents usually add funds through a rights issue to existing shareholders. Each round needs a board resolution, a valuation dated close to the issue, allotment within 60 days, the return of allotment and a fresh FC-GPR. One larger round each year is easier to manage than several small ones, and it keeps the Australian treasury forecast simpler.
+        </p>
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

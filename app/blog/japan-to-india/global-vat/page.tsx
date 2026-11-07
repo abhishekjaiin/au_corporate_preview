@@ -22,6 +22,7 @@ const toc = [
   { id: "india", label: "Selling digital services into India" },
   { id: "subsidiary", label: "Where the Indian subsidiary fits" },
   { id: "set-up", label: "Setting up the process" },
+  { id: "export-of-services", label: "When the Indian company exports services to Japan" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -171,6 +172,16 @@ export default function GlobalVatPage() {
           <li>Assign who files each return and when.</li>
           <li>Reconcile tax collected to returns filed each period.</li>
         </ol>
+        <h2 id="export-of-services" className="text-2xl font-bold text-gray-900 mt-12 mb-4">When the Indian company exports services to Japan</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          When the Indian company provides software, engineering or back-office services to the Japanese parent, the supply is usually an export of services, zero-rated where the recipient and place of supply are outside India and payment is received in foreign exchange.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>File a Letter of Undertaking (LUT) each year to export without paying the tax first.</li>
+          <li>Claim refunds of input tax on rent, equipment and purchased services.</li>
+          <li>The Indian company and the Japanese parent are separate persons, so the export treatment applies.</li>
+        </ul>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

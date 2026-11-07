@@ -23,6 +23,7 @@ const toc = [
   { id: "dcc", label: "Social security: the India-UK Double Contributions Convention" },
   { id: "structure", label: "Choosing how to send the person: four models" },
   { id: "checklist", label: "Pre-departure checklist for the UK payroll team" },
+  { id: "social-security-summary", label: "Social security in one paragraph" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,8 @@ const faqs = [
   { q: "When does a UK national become tax resident in India?", a: "By spending 182 days or more in India in an Indian tax year, or 60 days or more in the year plus 365 days or more in the previous four years. Not-ordinarily-resident status can limit Indian tax on foreign income for some people." },
   { q: "Does the UK secondee pay Indian tax if the subsidiary reimburses the UK parent?", a: "Yes in most cases. When the Indian subsidiary bears the cost, the Article 16 exemption fails, so Indian tax applies from the first day of work in India, with a credit in the UK if the person remains UK resident." },
   { q: "Does a UK director of the Indian subsidiary pay tax in India on director fees?", a: "Directors' fees from an Indian company can be taxed in India under Article 17, even if the director is based in the UK. The UK gives a credit for the Indian tax if the fees are also taxable there." },
+  { q: "Is there a social security agreement with India?", a: "The position for this country is set out above; where there is no agreement, social security contributions are due in India as an international worker, and home social security may continue as well." },
+  { q: "Can social security contributions be refunded when the employee leaves India?", a: "Only in limited cases for international workers from countries without a social security agreement, usually at retirement age; check the position before the assignment starts." },
 ]
 
 const relatedCards = [
@@ -214,6 +217,11 @@ export default function UkEmployeesInIndiaDccPage() {
           <li>Tell the Indian payroll team whether Article 16 or a certificate of coverage is being claimed, and give them the evidence.</li>
           <li>Review UK payroll, pension auto-enrolment and benefits treatment for the period abroad.</li>
         </ul>
+        <h2 id="social-security-summary" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Social security in one paragraph</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Under the India-UK Double Contributions Convention, in force from 15 July 2026, a UK employee on a covered temporary assignment with a certificate of coverage stays in UK National Insurance and out of Indian provident fund (EPF). Without the certificate, social security contributions are due in India on full basic wages as an international worker, so the certificate is the key social security document.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

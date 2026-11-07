@@ -22,6 +22,7 @@ const toc = [
   { id: "director", label: "Directors and the resident director" },
   { id: "costs", label: "Cost planning" },
   { id: "after", label: "After incorporation" },
+  { id: "spice-detail", label: "Inside the SPICe+ incorporation filing" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -177,6 +178,25 @@ export default function IncorporationStepsPage() {
           <li>Register for GST, professional tax and labour laws as needed.</li>
           <li>File FLA return by 15 July each year.</li>
         </ul>
+        <h2 id="spice-detail" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Inside the SPICe+ incorporation filing</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Element</th><th scope="col" className="border border-gray-300 p-3 text-left">What it covers</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part A: name approval</th><td className="border border-gray-300 p-3">Up to two names; an approved name is reserved for 20 days</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part B</th><td className="border border-gray-300 p-3">Registered office, share capital, subscribers, directors and DINs for up to three directors</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-MOA and e-AOA</th><td className="border border-gray-300 p-3">The memorandum (objects) and articles (internal rules)</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">AGILE-PRO-S</th><td className="border border-gray-300 p-3">GST, provident fund, ESI, professional tax and the bank account</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          PAN and TAN are issued with the certificate of incorporation. After incorporation: first board meeting and auditor within 30 days, shares allotted within 60 days of receiving capital, FC-GPR within 30 days of allotment, the commencement of business declaration within 180 days, and share certificates within two months.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The registered office fixes the state of incorporation. Hong Kong companies most often choose Mumbai, Bengaluru or the National Capital Region; a registered office service is enough to start, with a utility bill not older than two months and the owner&apos;s consent as proof.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

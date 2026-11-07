@@ -22,6 +22,11 @@ const toc = [
   { id: "india", label: "What India requires" },
   { id: "years", label: "31 December and 31 March" },
   { id: "certainty", label: "APAs and MAP" },
+  { id: "arm-length-range", label: "How India tests the arm's length price" },
+  { id: "apa-master-file", label: "APAs, master file and country-by-country reporting" },
+  { id: "function-transfer", label: "Function transfers from Germany to India" },
+  { id: "german-documentation", label: "German and Indian documentation side by side" },
+  { id: "de-apa", label: "Bilateral APAs between India and Germany" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +40,8 @@ const faqs = [
   { q: "What royalty rate applies to Germany?", a: "10% under the treaty." },
   { q: "Can India and Germany agree methods in advance?", a: "Yes, through a bilateral Advance Pricing Agreement." },
   { q: "How is double tax resolved?", a: "Through the Mutual Agreement Procedure under the treaty." },
+  { q: "What is a function transfer?", a: "A German tax concept: when functions move from a German company to a foreign group company, the profit potential that leaves Germany may be taxed in Germany." },
+  { q: "Can Germany and India agree an APA?", a: "Yes, a bilateral APA under the DTAA, covering up to five future years with an Indian rollback of up to four years." },
 ]
 
 const relatedCards = [
@@ -165,6 +172,56 @@ export default function TransferPricingPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           India&apos;s Advance Pricing Agreement programme, unilateral or bilateral with Germany, fixes methods for future years. Double tax after an adjustment can go to the Mutual Agreement Procedure under the India-Germany treaty.
         </p>
+        <h2 id="arm-length-range" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How India tests the arm&apos;s length price</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Six or more comparables: the 35th to 65th percentile range; a result outside it is moved to the median.</li>
+          <li>Fewer than six: the arithmetic mean with a 3% tolerance (1% for wholesale traders).</li>
+          <li>Indian comparables from Indian databases, which can differ from the sets in the German documentation; explain the difference in both files.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Example.</strong> An Indian service company with costs of ₹10 crore charges the GmbH or AG cost plus 10%. If the Indian range is 13% to 18% with a median of 15%, the officer would lift the mark-up to 15%, adding ₹50 lakh to Indian income. A year-end true-up invoice before the books close avoids the adjustment.
+        </p>
+
+        <h2 id="apa-master-file" className="text-2xl font-bold text-gray-900 mt-12 mb-4">APAs, master file and country-by-country reporting</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An advance pricing agreement (APA) fixes the method, and sometimes the margin, for up to five future years, with a rollback of up to four earlier years. A unilateral APA is agreed with the Indian authority alone; a bilateral APA also involves the other country&apos;s tax authority under the treaty and gives certainty on both sides.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Indian company files a master file where group revenue exceeds ₹500 crore and its international transactions exceed ₹50 crore. Country-by-country reporting applies at consolidated group revenue of ₹6,400 crore or more; the parent&apos;s report usually reaches India through exchange, with an Indian notification naming the reporting entity.
+        </p>
+        <h2 id="function-transfer" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Function transfers from Germany to India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          When a German company moves engineering, IT or back-office work to its Indian company, German tax law may treat it as a function transfer (Funktionsverlagerung). The German side may then tax the profit potential that leaves Germany, valued as a transfer package, even if no asset is sold. The Indian side sees the same move as the start of a routine service, rewarded at cost plus a mark-up.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Document what moved, when and why, with the German board papers.</li>
+          <li>Keep the Indian company&apos;s role as a service provider clear in the intercompany agreement.</li>
+          <li>Agree the German exit valuation with German advisers before the work moves, not afterwards.</li>
+          <li>Make sure the Indian transfer pricing study describes the same facts as the German documentation.</li>
+        </ul>
+
+        <h2 id="german-documentation" className="text-2xl font-bold text-gray-900 mt-12 mb-4">German and Indian documentation side by side</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Point</th><th scope="col" className="border border-gray-300 p-3 text-left">India</th><th scope="col" className="border border-gray-300 p-3 text-left">Germany</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Local documentation</th><td className="border border-gray-300 p-3">Transfer pricing study kept on file; Form 48 filed</td><td className="border border-gray-300 p-3">Local file under German documentation rules, produced on request</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Master file</th><td className="border border-gray-300 p-3">Above the Indian revenue and transaction thresholds</td><td className="border border-gray-300 p-3">Above the German revenue threshold</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Country-by-country report</th><td className="border border-gray-300 p-3">At consolidated group revenue of ₹6,400 crore or more</td><td className="border border-gray-300 p-3">Filed by the German parent with the Federal Central Tax Office for large groups</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Year end</th><td className="border border-gray-300 p-3">31 March</td><td className="border border-gray-300 p-3">Usually 31 December</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Align the margin, the method and the description of functions in both sets, and bridge the different year ends with a quarterly margin check.
+        </p>
+
+        <h2 id="de-apa" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Bilateral APAs between India and Germany</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India and Germany can agree bilateral advance pricing agreements under the DTAA. For a large engineering or shared service centre serving the German group, a bilateral APA fixes the method for up to five future years, with a rollback of up to four years in India, and removes the risk of both countries taxing the same profit. Smaller centres usually rely on a well-documented cost-plus model and the Indian safe harbour where it fits.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

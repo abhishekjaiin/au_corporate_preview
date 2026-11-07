@@ -22,6 +22,7 @@ const toc = [
   { id: "uk-tax", label: "The UK side of an exit" },
   { id: "closure", label: "Closing the subsidiary cleanly" },
   { id: "restructure", label: "Restructuring before an exit" },
+  { id: "exit-at-a-glance", label: "Exit routes at a glance" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -175,6 +176,22 @@ export default function ExitAndRestructuringPage() {
           arrangement needs tribunal time. Align the sequence with the UK group&apos;s plan, and check the
           position under the principal purpose test if the restructuring creates a new holding layer.
         </p>
+        <h2 id="exit-at-a-glance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Exit routes at a glance</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Exit route</th><th scope="col" className="border border-gray-300 p-3 text-left">Main steps</th><th scope="col" className="border border-gray-300 p-3 text-left">Typical time</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share transfer to a buyer</th><td className="border border-gray-300 p-3">Valuation, share purchase agreement, withholding by the buyer, Form FC-TRS within 60 days</td><td className="border border-gray-300 p-3">Two to four months</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Strike-off under Section 248</th><td className="border border-gray-300 p-3">Dormant company; liabilities cleared; Form STK-2 with indemnity and affidavits</td><td className="border border-gray-300 p-3">Several months</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Merger through the NCLT</th><td className="border border-gray-300 p-3">Scheme approved by the National Company Law Tribunal, or the fast-track route for group companies</td><td className="border border-gray-300 p-3">Six to twelve months</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Voluntary liquidation</th><td className="border border-gray-300 p-3">Declaration of solvency, liquidator, sale of assets, final distribution</td><td className="border border-gray-300 p-3">A year or more</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          For a UK parent the exit choice usually turns on tax on both sides and on how quickly cash is needed. Plan the exit early, because clean records from the first year make every exit route faster.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

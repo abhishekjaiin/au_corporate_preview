@@ -23,6 +23,13 @@ const toc = [
   { id: "alignment", label: "Aligning with the Japanese local file" },
   { id: "certainty", label: "Safe harbour and advance pricing" },
   { id: "year-end", label: "Year-end true-ups" },
+  { id: "range", label: "How India tests the price: the arm's length range" },
+  { id: "bilateral-apa", label: "Bilateral APAs between India and Japan" },
+  { id: "master-file", label: "Master file and country-by-country reporting" },
+  { id: "agreements", label: "Intercompany agreements Indian officers expect" },
+  { id: "tp-calendar", label: "A transfer pricing calendar for a 31 March year" },
+  { id: "study", label: "What the Indian study contains" },
+  { id: "jp-contract-mfg", label: "Contract manufacturers supplying Japan" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -36,6 +43,8 @@ const faqs = [
   { q: "Has India signed bilateral APAs with Japan?", a: "India and Japan negotiate bilateral Advance Pricing Agreements for groups that apply, fixing the method for future years." },
   { q: "What is the penalty for missing documentation?", a: "2% of the value of each international transaction, and ₹1 lakh for not filing Form 48." },
   { q: "When should a year-end adjustment be made?", a: "Before the books close on 31 March, so GST, Withholding Tax and customs can follow it." },
+  { q: "Are bilateral APAs common between India and Japan?", a: "Yes. Japanese groups use bilateral APAs with India more than most investors, for large and stable flows." },
+  { q: "Which comparables does India use?", a: "Normally Indian companies from Indian databases, tested within the 35th to 65th percentile range." },
 ]
 
 const relatedCards = [
@@ -170,6 +179,68 @@ export default function TransferPricingPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Raise any adjustment to bring the subsidiary&apos;s margin into the agreed range before the books close on 31 March. Late adjustments complicate GST, Withholding Tax and customs, and an adjustment made after the Indian year end can be questioned in both countries.
         </p>
+        <h2 id="range" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How India tests the price: the arm&apos;s length range</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India does not test a single comparable. It builds a set of independent companies and accepts the Indian result if it falls within a defined range:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Six or more comparables: the 35th to 65th percentile, with an out-of-range result moved to the median.</li>
+          <li>Fewer than six: the arithmetic mean, with a tolerance of 3% (1% for wholesale traders).</li>
+          <li>Indian comparables from Indian databases are normally required, while the Japanese local file may use Asia-Pacific or Japanese sets; explain the difference in both files.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Example.</strong> An Indian engineering team costs ₹12 crore a year and charges the Japanese parent cost plus 8%, a mark-up typical of Japanese captive arrangements. If the Indian comparables show a range of 12% to 17% with a median of 14%, the Indian officer would raise the mark-up to 14%, adding ₹72 lakh to Indian income. Japan would relieve the double tax only through the Mutual Agreement Procedure. Many Japanese groups therefore set Indian mark-ups by reference to Indian benchmarks from the start.
+        </p>
+
+        <h2 id="bilateral-apa" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Bilateral APAs between India and Japan</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Japan and India have concluded a number of bilateral advance pricing agreements, and Japanese groups use them more than most investors. A bilateral APA fixes the method and margin for up to five future years, agreed by both tax authorities, and India allows a rollback to up to four earlier years. It is the strongest protection for a large, stable flow such as an engineering centre or a contract manufacturer supplying the Japanese group.
+        </p>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Pre-filing meetings with the Indian authority and the National Tax Agency.</li>
+          <li>A formal application with the functional analysis and proposed method.</li>
+          <li>Negotiation between the two authorities, which can take several years.</li>
+          <li>Signature, then annual compliance reports showing the agreed terms were applied.</li>
+        </ol>
+
+        <h2 id="master-file" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Master file and country-by-country reporting</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Indian company files a master file where the group&apos;s revenue exceeds ₹500 crore and its international transactions exceed ₹50 crore. Country-by-country reporting applies at consolidated group revenue of ₹6,400 crore or more. A Japanese ultimate parent that files the report with the National Tax Agency usually satisfies the Indian requirement through exchange, with an Indian notification naming the reporting entity.
+        </p>
+
+        <h2 id="agreements" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Intercompany agreements Indian officers expect</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Specific descriptions of services, goods or licensed rights.</li>
+          <li>The pricing method, mark-up or royalty rate, and the true-up mechanism.</li>
+          <li>Invoicing currency, usually yen or US dollars, and who bears exchange differences.</li>
+          <li>Ownership of intellectual property developed in India.</li>
+          <li>Stamping under Indian law before the agreement is relied on in India.</li>
+        </ul>
+        <h2 id="tp-calendar" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A transfer pricing calendar for a 31 March year</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">When</th><th scope="col" className="border border-gray-300 p-3 text-left">Step</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">February</th><td className="border border-gray-300 p-3">Check the year-to-date transfer pricing margin and plan any true-up</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">March</th><td className="border border-gray-300 p-3">Issue true-up invoices before the books close</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">April to August</th><td className="border border-gray-300 p-3">Update the transfer pricing study with current comparables</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">By 31 October</th><td className="border border-gray-300 p-3">File Form 48 with the tax audit</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Ongoing</th><td className="border border-gray-300 p-3">Align the Indian transfer pricing file with the Japanese local file</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 id="study" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Indian study contains</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Indian study describes the group, the Indian company&apos;s functions, assets and risks, each international transaction, the method and the comparables. It is kept on file and produced when the tax department asks, while Form 48 is filed every year with the tax audit.
+        </p>
+        <h2 id="jp-contract-mfg" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contract manufacturers supplying Japan</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Where the Indian company manufactures for the Japanese group, it is usually tested on its operating margin against independent contract manufacturers, with materials, tooling and quality responsibilities set out in the agreement.
+        </p>
+
+
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

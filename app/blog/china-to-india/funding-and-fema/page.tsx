@@ -22,6 +22,7 @@ const toc = [
   { id: "chinese-points", label: "Points specific to Chinese funding" },
   { id: "valuation", label: "Pricing and valuation" },
   { id: "penalty", label: "Late filing and compounding" },
+  { id: "fema-steps", label: "FEMA steps for each capital round" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,8 @@ const faqs = [
   { q: "What happens if I miss the 60-day allotment limit?", a: "The funds must be refunded through the same channel, otherwise the receipt is a FEMA contravention to be regularised." },
   { q: "Is the FLA return required every year?", a: "Yes. The annual return on foreign liabilities and assets is due by 15 July." },
   { q: "Can funds come from a related company that is not the investor?", a: "Not safely. Remit from the approved investor's own account, to match the approval and the bank records." },
+  { q: "Which FEMA filings follow a capital remittance from the Chinese parent?", a: "Reporting the receipt on FIRMS, allotment within 60 days, FC-GPR within 30 days of allotment and the yearly FLA return. Each is a FEMA requirement, and a missed FEMA deadline usually needs a late fee or compounding." },
+  { q: "Who signs the FEMA valuation?", a: "A Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant, under the FEMA pricing guidelines." },
 ]
 
 const relatedCards = [
@@ -175,6 +178,19 @@ export default function FundingAndFemaPage() {
           calendar from the day funds are sent. See{" "}
           <Link href="/china-to-india/compliance-calendar" className="text-blue-800 font-semibold hover:underline">compliance calendar</Link>.
         </p>
+        <h2 id="fema-steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA steps for each capital round</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The Indian bank issues the foreign inward remittance certificate and a KYC report on the remitter.</li>
+          <li>The receipt is reported on the RBI&apos;s FIRMS portal, where the company first registers.</li>
+          <li>Shares are allotted within 60 days, at no less than fair value under the FEMA pricing guidelines, certified by a Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant.</li>
+          <li>The return of allotment is filed with the Registrar within 30 days.</li>
+          <li>Form FC-GPR is filed on FIRMS within 30 days of allotment.</li>
+          <li>The FLA return reports the investment every year by 15 July.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Share capital has no legal minimum; most Chinese parents fund the first 12 to 18 months in one round, because every round repeats the FEMA steps. Remit from the shareholder named in the documents, in US dollars, so the bank&apos;s KYC report matches. A late FEMA report is usually regularised by a late submission fee; a missed allotment deadline needs compounding. Where Press Note 3 applies, the government approval must be in place before the money is sent.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

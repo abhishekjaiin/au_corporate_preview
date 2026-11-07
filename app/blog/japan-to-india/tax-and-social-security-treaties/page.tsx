@@ -22,6 +22,7 @@ const toc = [
   { id: "guides", label: "The guides in this series" },
   { id: "japanese-parent", label: "What this means for a Japanese parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "how-to-use", label: "How to use these guides" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -215,6 +216,11 @@ export default function TaxAndSocialSecurityTreatiesPage() {
           <li>Assuming the agreement covers health insurance.</li>
           <li>Moving the employee onto the Indian subsidiary&apos;s payroll and losing the detached worker position.</li>
         </ul>
+        <h2 id="how-to-use" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to use these guides</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Start with the agreement that matches your question. For tax on payments from India, read the DTAA guide and the documents guide. For employees moving between Japan and India, read the social security agreement guide, then the provident fund and Japanese social insurance guides, then the residency guide. Each page has a worked example and the forms you will need.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

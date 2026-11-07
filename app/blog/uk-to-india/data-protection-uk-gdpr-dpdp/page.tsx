@@ -20,6 +20,7 @@ const toc = [
   { id: "dpdp", label: "India's DPDP Act: what applies and when" },
   { id: "exemption", label: "The processor exemption that helps captive centres" },
   { id: "governance", label: "Setting up governance in the Indian subsidiary" },
+  { id: "dpdp-rules", label: "The DPDP Rules 2025 timeline" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -173,6 +174,17 @@ export default function DataProtectionUkGdprDpdpPage() {
           <li>Treat data localisation as a live possibility for regulated sectors such as financial services, payments and telecoms.</li>
           <li>Review the position each year, because the Indian Rules phase in and UK law is still being updated.</li>
         </ul>
+        <h2 id="dpdp-rules" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The DPDP Rules 2025 timeline</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India&apos;s Digital Personal Data Protection Act, 2023 (the DPDP Act) is coming into force in stages under the DPDP Rules 2025, notified on 13 November 2025. The Data Protection Board provisions came first; the main duties of a Data Fiduciary, including notice, consent, security safeguards and breach reporting, start on 13 May 2027.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Map personal data held by the Indian company and every flow abroad before May 2027.</li>
+          <li>Prepare DPDP notices and consent records for Indian customers and staff.</li>
+          <li>Set up DPDP security safeguards and a breach response plan.</li>
+          <li>Watch for any government notification restricting transfers to particular countries; the DPDP Act otherwise allows transfers abroad, including to the UK group.</li>
+        </ul>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

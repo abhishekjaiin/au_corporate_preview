@@ -22,6 +22,11 @@ const toc = [
   { id: "india-filing", label: "Phase 2: the Indian filing" },
   { id: "post", label: "Phase 3: from certificate to operating company" },
   { id: "timing", label: "Keeping to 4 to 6 weeks" },
+  { id: "spice-detail", label: "Inside the SPICe+ filing" },
+  { id: "din", label: "DIN and digital signatures for Japanese directors" },
+  { id: "first-90-days", label: "The first 90 days after incorporation" },
+  { id: "office", label: "Registered office and state" },
+  { id: "jp-name", label: "Choosing the company name" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +40,9 @@ const faqs = [
   { q: "What comes after the Certificate of Incorporation?", a: "Bank account opening, the capital remittance, share allotment within 60 days, FC-GPR within 30 days of allotment, the first auditor and INC-20A." },
   { q: "Can the Indian forms be prepared before the documents arrive?", a: "Yes. Running the Indian drafting in parallel with the Japanese document steps is the main way to keep to the timeline." },
   { q: "What causes most delays?", a: "Name mismatches between Japanese documents and passports, expired certificates, and the internal approval of the capital remittance." },
+  { q: "What are the MOA and AOA?", a: "The memorandum states the company's objects; the articles are its internal rules. Both are filed with SPICe+." },
+  { q: "How long does incorporation from Japan take?", a: "About 4 to 6 weeks once the Japanese documents reach India, plus the time needed in Japan for notarisation, certification and the MOFA apostille." },
+  { q: "Can a GK incorporate an Indian company?", a: "Yes. A godo kaisha can be the shareholder, with its own registered matters certificate and resolution." },
 ]
 
 const relatedCards = [
@@ -167,6 +175,48 @@ export default function IncorporationProcessPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Most delays come from three places: a Japanese document that has to be re-apostilled because of a name mismatch, the internal approval for the capital remittance, and bank KYC on the parent. Preparing the Indian forms while the Japanese documents are in progress, and approving the capital at the same time as the incorporation, keeps the timeline intact.
         </p>
+        <h2 id="spice-detail" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Inside the SPICe+ filing</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Element</th><th scope="col" className="border border-gray-300 p-3 text-left">What it is</th><th scope="col" className="border border-gray-300 p-3 text-left">Japanese point</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part A</th><td className="border border-gray-300 p-3">Reserves up to two names for 20 days</td><td className="border border-gray-300 p-3">Avoid names close to existing Indian companies or trademarks</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part B</th><td className="border border-gray-300 p-3">Office, capital, subscribers, directors, DIN for up to three directors</td><td className="border border-gray-300 p-3">Names must match the passport romanisation exactly</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-MOA</th><td className="border border-gray-300 p-3">Memorandum of association: the company&apos;s objects</td><td className="border border-gray-300 p-3">Describe the Indian activity, not the whole group&apos;s</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-AOA</th><td className="border border-gray-300 p-3">Articles of association: internal rules</td><td className="border border-gray-300 p-3">Add matters reserved for the Japanese head office</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">AGILE-PRO-S</th><td className="border border-gray-300 p-3">GST, provident fund, ESI, professional tax and bank account</td><td className="border border-gray-300 p-3">GST may wait until supplies begin</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          PAN and TAN come with the certificate of incorporation, which carries the corporate identity number.
+        </p>
+
+        <h2 id="din" className="text-2xl font-bold text-gray-900 mt-12 mb-4">DIN and digital signatures for Japanese directors</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each director needs a Director Identification Number (DIN) and a digital signature certificate. For up to three directors the DIN is allotted through SPICe+; later directors apply separately. The DIN stays with the person for life, so Japanese directors who later join other Indian boards reuse it.
+        </p>
+
+        <h2 id="first-90-days" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The first 90 days after incorporation</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>First board meeting within 30 days, appointing the first auditor.</li>
+          <li>Bank account opened; capital remitted by the shareholder named in the documents.</li>
+          <li>Shares allotted within 60 days; FC-GPR within 30 days of allotment.</li>
+          <li>Commencement of business declaration (INC-20A) within 180 days.</li>
+          <li>Share certificates to subscribers within two months.</li>
+          <li>Shops and establishments, provident fund and ESI registrations as staff join.</li>
+        </ol>
+        <h2 id="office" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Registered office and state</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The registered office decides the state of incorporation, the Registrar and the stamp duty. Japanese companies often start in Bengaluru, Chennai, Gurugram, Pune or Mumbai, close to suppliers and talent. Without premises, a registered office service is enough for incorporation; the proof is a utility bill not older than two months and the owner&apos;s consent. Moving within the same city later is a simple filing.
+        </p>
+        <h2 id="jp-name" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Choosing the company name</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most Japanese groups use the group name, a descriptive word and India Private Limited. Names too close to existing companies or trademarks are rejected.
+        </p>
+
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

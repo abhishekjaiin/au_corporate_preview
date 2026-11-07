@@ -22,6 +22,7 @@ const toc = [
   { id: "contents", label: "What to prepare" },
   { id: "translation", label: "Translation and names" },
   { id: "timing", label: "Timing and risk" },
+  { id: "apostille-china", label: "The apostille since November 2023" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -178,6 +179,11 @@ export default function DocumentsNotarisationLegalisationPage() {
           <li>If an office asks for an additional step, follow the office&apos;s current guidance and do not assume the chain you used last year still applies.</li>
           <li>Your Indian adviser can usually accept scans for the filing but the bank will want originals.</li>
         </ul>
+        <h2 id="apostille-china" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The apostille since November 2023</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          China joined the Hague Apostille Convention with effect from 7 November 2023, and India is also a party. Chinese public documents and notarised documents for India are therefore authenticated by an apostille issued by the Chinese foreign affairs authorities, instead of consular legalisation by the Indian embassy. Documents legalised under the old process before that date remain valid if they are still current. The apostille does not replace the certified English translation, which must also be covered.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

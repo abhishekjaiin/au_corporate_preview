@@ -25,6 +25,7 @@ const toc = [
   { id: "ctc", label: "Reading an Indian offer: cost to company (CTC)" },
   { id: "leave-holidays", label: "Leave, holidays and working hours" },
   { id: "gratuity", label: "Gratuity: India's long service payment" },
+  { id: "onboarding", label: "Onboarding checklist for a new Indian hire" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -39,6 +40,9 @@ const faqs = [
   { q: "Can Indian staff join the Australian share plan?", a: "Yes, subject to Indian tax and FEMA rules and Australian securities law." },
   { q: "Are non-competes enforceable in India?", a: "Post-employment restraints are narrowly enforced, so confidentiality terms matter more." },
   { q: "What does CTC mean?", a: "Cost to company: the employer's total annual cost, including employer provident fund, gratuity provision and benefits." },
+  { q: "What documents does a new Indian employee provide?", a: "PAN, Aadhaar, bank details, any existing provident fund account number and details of income from a previous employer in the year." },
+  { q: "When must salaries be paid in India?", a: "Under the labour codes, wages are generally paid by the 7th of the following month, or earlier where the contract or state rules say so." },
+  { q: "Is a probation period allowed?", a: "Yes. Indian contracts commonly set three to six months of probation, with a shorter notice period during it." },
 ]
 
 const relatedCards = [
@@ -213,6 +217,16 @@ export default function HiringAndPayrollPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Gratuity is 15 days&apos; wages for each completed year of service, calculated on 26 working days a month and capped at ₹20 lakh. It is payable after five years of continuous service, or after one year for fixed-term staff under the codes. Many Australian-owned companies fund it through a group gratuity policy with an insurer so the cost is spread over time.
         </p>
+        <h2 id="onboarding" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Onboarding checklist for a new Indian hire</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Signed offer letter and appointment letter showing CTC, role, notice period and confidentiality terms.</li>
+          <li>Copies of PAN, Aadhaar and bank details for salary and tax.</li>
+          <li>Provident fund nomination and the universal account number, if the employee already has one.</li>
+          <li>Declaration of the previous employer&apos;s income for the year, so tax is deducted correctly.</li>
+          <li>Background and education checks where the role needs them.</li>
+          <li>Acceptance of the IT, data and code-of-conduct policies of the Australian group, adapted to Indian law.</li>
+        </ol>
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

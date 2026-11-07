@@ -21,6 +21,8 @@ const toc = [
   { id: "cycle", label: "The Indian filing cycle" },
   { id: "chinese-year", label: "Feeding the Chinese year" },
   { id: "reviews", label: "Being ready for reviews" },
+  { id: "gst-compliance", label: "GST returns and other recurring compliance dates" },
+  { id: "china-map", label: "The Indian year against the Chinese calendar year" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -149,6 +151,30 @@ export default function ComplianceCalendarPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Chinese-owned companies in India can face closer checks from tax, customs, labour and other authorities. Keep payroll, contract-labour, customs and related-party records complete and reconciled each month, so a review can be answered from records rather than reconstructed.
         </p>
+        <h2 id="gst-compliance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">GST returns and other recurring compliance dates</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Filing</th><th scope="col" className="border border-gray-300 p-3 text-left">Due</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-1</th><td className="border border-gray-300 p-3">11th of the next month, or 13th after the quarter under QRMP</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-3B and tax payment</th><td className="border border-gray-300 p-3">20th of the next month, or 22nd or 24th after the quarter under QRMP</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-9 annual return (and GSTR-9C above the threshold)</th><td className="border border-gray-300 p-3">31 December after the year end</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">TDS returns</th><td className="border border-gray-300 p-3">31 July, 31 October, 31 January and 31 May</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Advance tax</th><td className="border border-gray-300 p-3">15 June, 15 September, 15 December and 15 March</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Return of deposits (DPT-3)</th><td className="border border-gray-300 p-3">30 June</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">MSME payments return</th><td className="border border-gray-300 p-3">31 October and 30 April, where dues to small suppliers are overdue</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Services bought from the Chinese parent are usually taxed under reverse charge in GSTR-3B, with the credit claimed in the same return; this is the GST compliance point foreign-owned companies most often miss. Keep one compliance owner in India and send the Chinese parent a monthly compliance summary that maps each Indian date to its own 31 December year.
+        </p>
+        <h2 id="china-map" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The Indian year against the Chinese calendar year</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Chinese parents report on the calendar year, so the Indian 31 March year spans two Chinese years. Consolidate from Indian management accounts to 31 December, run the Indian audit between April and September, and plan the FLA return for 15 July. Chinese outbound investment reporting and SAFE filings at the parent&apos;s end use the same Indian figures, so share them in one monthly pack.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -26,6 +26,9 @@ const toc = [
   { id: "master-file", label: "Master file and country-by-country reporting" },
   { id: "agreements", label: "Intercompany agreements that hold up in India" },
   { id: "penalties", label: "Penalties for missing documentation" },
+  { id: "safe-harbour-detail", label: "When the safe harbour is worth using" },
+  { id: "year-end", label: "A year-end checklist" },
+  { id: "documents-list", label: "What the Indian study contains" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -41,6 +44,8 @@ const faqs = [
   { q: "What happens if both countries tax the same profit?", a: "The taxpayer can request the Mutual Agreement Procedure under Article 25 of the treaty." },
   { q: "How does India decide whether a transfer price is at arm's length?", a: "By comparing the Indian company's margin with independent comparables, using the 35th to 65th percentile range where there are six or more." },
   { q: "Can the Indian filing reuse the ATO master file?", a: "Usually yes, where the Indian thresholds are met, with an Indian notification naming the reporting entity." },
+  { q: "Does India have a transfer pricing safe harbour?", a: "Yes, for certain activities such as software development and IT-enabled services, at fixed minimum margins." },
+  { q: "Who signs Form 48?", a: "A Chartered Accountant, who certifies the international transactions and their arm's length pricing." },
 ]
 
 const relatedCards = [
@@ -205,6 +210,25 @@ export default function TransferPricingPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           An Indian adjustment is taxed at the normal rate with interest. Missing documentation, failure to produce it on request and a late or missing Form 48 each carry their own penalties, and under-reported income from an adjustment can attract a further penalty on the tax. Australian parents should treat the Indian file as seriously as the ATO&apos;s reportable tax position schedule.
         </p>
+        <h2 id="safe-harbour-detail" className="text-2xl font-bold text-gray-900 mt-12 mb-4">When the safe harbour is worth using</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India&apos;s safe harbour rules let an eligible Indian company accept a fixed minimum margin for certain activities, such as software development or IT-enabled services, in exchange for the tax department accepting the price without a benchmarking dispute. The margins are usually higher than the Indian comparables would give, so the trade-off is certainty against a higher Indian tax bill. For a small Australian-owned development centre with a modest cost base, the certainty often wins. For a larger centre, a bilateral APA between India and Australia usually gives a better result.
+        </p>
+
+        <h2 id="year-end" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A year-end checklist</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Run the Indian margin test on the March management accounts.</li>
+          <li>Issue any true-up invoice before the Indian accounts close.</li>
+          <li>Update the Indian study with current-year comparables.</li>
+          <li>File Form 48 by the due date with the tax audit.</li>
+          <li>Share the final Indian figures with the ATO documentation team for the 30 June year.</li>
+        </ol>
+        <h2 id="documents-list" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Indian study contains</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Indian transfer pricing study describes the group, the Indian company&apos;s functions, assets and risks, each international transaction, the method chosen and why, the comparables search and the result. It is kept on file rather than filed, and must be produced within the time given if the tax department asks for it.
+        </p>
+
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

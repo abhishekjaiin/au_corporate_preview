@@ -44,6 +44,8 @@ const faqs = [
   { q: "Can an Australian employee claim Indian tax paid against Australian tax?", a: "Yes, generally. An Australian resident can claim a foreign income tax offset for Indian tax paid on Indian-source income that is assessable in Australia (Division 770 of the Income Tax Assessment Act 1997), up to a cap. Confirm the position with an Australian tax adviser." },
   { q: "What happens to the provident fund when an Australian employee leaves India?", a: "For members covered by the agreement, the Employees’ Provident Fund Organisation rules allow withdrawal of the balance on leaving employment in an EPF-covered establishment. Confirm the withdrawal procedure and tax treatment at the time." },
   { q: "Are Indian employees sent to Australia covered by the same agreement?", a: "Yes. An Indian employer can obtain a certificate of coverage through the EPFO’s international worker process so that the employee stays in the Indian provident fund scheme and the employer is exempt from Australian superannuation guarantee for up to five years." },
+  { q: "Does the social security agreement cover Indian staff sent to Australia?", a: "Yes. It works both ways: an Indian employee posted to Australia can stay in Indian social security with an Indian certificate of coverage, and avoid Australian superannuation guarantee for the covered period." },
+  { q: "What social security applies after five years?", a: "Once the period covered by the certificate ends, the employee normally joins the social security system of the country where they work, unless an extension is agreed." },
 ]
 
 const relatedCards = [

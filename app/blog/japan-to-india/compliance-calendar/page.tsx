@@ -22,6 +22,7 @@ const toc = [
   { id: "year", label: "The annual cycle against a Japanese year end" },
   { id: "events", label: "Event-driven filings" },
   { id: "parent-dates", label: "Dates the Japanese parent should hold" },
+  { id: "compliance-owner", label: "Making compliance routine" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -208,6 +209,11 @@ export default function ComplianceCalendarPage() {
           <li>Transfer pricing true-up dates, so year-end adjustments are invoiced before the books close.</li>
           <li>The renewal dates of Certificates of Coverage for seconded staff.</li>
         </ul>
+        <h2 id="compliance-owner" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Making compliance routine</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian compliance runs on fixed dates that do not move for internal approvals. Japanese groups that do well appoint one compliance owner in India, keep a shared compliance calendar that maps each Indian date to the head office&apos;s own cycle, and receive a short monthly compliance report. The report lists what was filed, what was paid and what is due, so the head office can approve items before the deadline rather than after it.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
