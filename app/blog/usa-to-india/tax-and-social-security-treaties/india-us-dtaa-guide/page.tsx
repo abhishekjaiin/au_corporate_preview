@@ -29,6 +29,7 @@ const toc = [
   { id: "worked-example", label: "Worked example: a royalty to a US parent" },
   { id: "us-documents", label: "The documents a US company provides" },
   { id: "us-dtaa-checklist", label: "DTAA checklist before each payment" },
+  { id: "us-pe-short", label: "Permanent establishment for visiting staff" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -365,6 +366,11 @@ export default function IndiaUsDtaaGuidePage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Before each payment to the US company under the DTAA: confirm the article and DTAA rate, obtain IRS Form 6166 as the tax residency certificate, file Form 41, prepare Forms 145 and 146, withhold and deposit the tax by the 7th of the following month, and keep the agreement and invoice. The India-US DTAA has a limitation on benefits article, so a US recipient must also meet that test.
         </p>
+        <h2 id="us-pe-short" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Permanent establishment for visiting staff</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          US employees who spend long periods in India serving the Indian company, or who conclude contracts for the US parent while in India, can create a permanent establishment. Keep day counts and contract signing records.
+        </p>
+
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

@@ -32,6 +32,7 @@ const toc = [
   { id: "worked-dividend", label: "Worked example: dividend to a Japanese parent" },
   { id: "residence-cert", label: "Getting the Certificate of Residence in Japan" },
   { id: "jp-dtaa-checklist", label: "DTAA checklist before each payment" },
+  { id: "jp-pe-short", label: "Permanent establishment risk for visiting engineers" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -314,6 +315,11 @@ export default function IndiaJapanDtaaGuidePage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Before each payment to Japan under the DTAA: confirm the article and DTAA rate, check the Certificate of Residence is current, file Form 41, prepare Forms 145 and 146, withhold and deposit the tax, and keep the agreement and invoice on file. Review the DTAA classification of any new type of payment before it is made.
         </p>
+        <h2 id="jp-pe-short" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Permanent establishment risk for visiting engineers</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Japanese engineers who visit India to install equipment or support the Indian company can create a permanent establishment for the Japanese parent if their work goes beyond the limits set in the agreement. Track the days on each project and keep the work contracted through the Indian company where possible.
+        </p>
+
 
 
 

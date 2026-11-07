@@ -38,6 +38,8 @@ const faqs = [
   { q: "What if both India and Hong Kong tax the same profit?", a: "The treaty's mutual agreement procedure and credit mechanisms can relieve it. Align the documentation on both sides." },
   { q: "Which transactions with the Hong Kong parent need transfer pricing documentation?", a: "All international transactions with group companies, including services, goods, royalties, loans, guarantees and cost allocations; full transfer pricing documentation is required above ₹1 crore a year." },
   { q: "When is the transfer pricing report filed?", a: "Form 48 (previously Form 3CEB), the accountant's transfer pricing report, is filed by the tax audit due date; the transfer pricing study is kept on file and produced on request." },
+  { q: "Can a Hong Kong group get an APA in India?", a: "Yes. A unilateral APA is available, and a bilateral APA can be sought under the India-Hong Kong DTAA." },
+  { q: "When is Form 48 filed?", a: "With the tax audit, by 31 October." },
 ]
 
 const relatedCards = [

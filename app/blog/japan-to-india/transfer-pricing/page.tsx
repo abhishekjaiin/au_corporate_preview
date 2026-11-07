@@ -45,6 +45,7 @@ const faqs = [
   { q: "When should a year-end adjustment be made?", a: "Before the books close on 31 March, so GST, Withholding Tax and customs can follow it." },
   { q: "Are bilateral APAs common between India and Japan?", a: "Yes. Japanese groups use bilateral APAs with India more than most investors, for large and stable flows." },
   { q: "Which comparables does India use?", a: "Normally Indian companies from Indian databases, tested within the 35th to 65th percentile range." },
+  { q: "Does India accept the Japanese local file?", a: "No. India requires its own transfer pricing study on Indian comparables, although the facts should match the Japanese local file." },
 ]
 
 const relatedCards = [

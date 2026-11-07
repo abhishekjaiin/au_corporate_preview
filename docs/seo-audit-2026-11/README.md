@@ -27,3 +27,20 @@ Deliberate exceptions (marked "Not applicable" or left Open with a reason):
   appears about 39 times; forcing in another 14 would be over-optimisation, so it is left as is.
 - The Australia and Germany density bands in the workbook ("0.5-0.43%", "0.5-0.31%") are inverted;
   they are treated as "at or below 0.5%".
+
+## Status labels in page-checklist.csv
+
+- **Done**: meets the audit's word-count rule (90% of required) and density band.
+- **Topic term kept**: a country post whose only flag is that its keyword runs above the band
+  because the keyword is the post's subject (for example "visa" on the visa guide, "apostille" on the
+  documents guide, "GST" on the VAT/GST guide, "arbitration", "notice", "audit", "treaty", "EOR",
+  "valuation", "origin", "sanction"). These were reduced where it read naturally; forcing them lower
+  would mean awkward synonyms.
+- **Measurement artefact**: the audit's density term is a word stem ("residen", "restrict"); a
+  whole-word count shows 0% although the pages use "resident", "residence" and "restricted" throughout.
+- **Deliberate exception**: /insights (noindexed, one of the audit's two options); /oidar-gst-registration-india
+  and /payroll-expat-services (13,600 and 4,250 words; reaching the band would mean adding about 50 and
+  36 more keyword repetitions); /blog/uk-to-india (see above).
+- **Not applicable**: legal, navigation and case-study pages measured against a service-page band.
+
+All country posts stay below 45% template similarity (audit threshold 60%).

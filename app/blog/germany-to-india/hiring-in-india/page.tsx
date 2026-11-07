@@ -25,6 +25,8 @@ const toc = [
   { id: "ctc", label: "Cost to company (CTC) and the Indian payroll" },
   { id: "de-contrast", label: "Indian employment compared with German practice" },
   { id: "de-leave", label: "Leave, holidays and working hours" },
+  { id: "de-onboard", label: "Onboarding a new hire" },
+  { id: "de-mobility", label: "Hiring German nationals locally in India" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -39,6 +41,8 @@ const faqs = [
   { q: "When is salary tax deposited?", a: "By the 7th of the following month." },
   { q: "Do the labour codes affect salary structures?", a: "Yes. Wages must be at least half of total pay." },
   { q: "Does an Indian company need a works council?", a: "No. Indian offices generally have no works council or co-determination, although German group policies may still apply internally." },
+  { q: "When are salaries paid in India?", a: "Generally by the 7th of the following month under the labour codes." },
+  { q: "Is a probation period allowed?", a: "Yes, commonly three to six months, with a shorter notice period during probation." },
 ]
 
 const relatedCards = [
@@ -207,6 +211,16 @@ export default function HiringInIndiaPage() {
           <li>26 weeks of paid maternity leave for eligible employees.</li>
           <li>Working hours and overtime set by state law and the labour codes; overtime at twice the wage rate.</li>
         </ul>
+        <h2 id="de-onboard" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Onboarding a new hire</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Collect PAN, Aadhaar, bank details, any existing provident fund account number and details of the year&apos;s income from a previous employer, then add the person to payroll from the joining date. Issue the appointment letter with CTC, role, notice period and confidentiality terms, and the group&apos;s policies adapted to Indian law.
+        </p>
+        <h2 id="de-mobility" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Hiring German nationals locally in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A German national hired directly by the Indian company, rather than seconded, is an Indian employee: on Indian payroll, in Indian provident fund unless a certificate of coverage applies, and taxed in India from the first day of work there. The employment visa needs a salary of at least USD 25,000 a year. Plan the housing, schooling and tax equalisation terms in the offer, because they often decide whether the candidate accepts.
+        </p>
+
+
 
 
 

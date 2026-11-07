@@ -26,6 +26,8 @@ const toc = [
   { id: "de-sequence", label: "The German document sequence" },
   { id: "de-name", label: "Name approval and objects" },
   { id: "de-after", label: "After the certificate of incorporation" },
+  { id: "de-office", label: "Digital signatures and DINs for German directors" },
+  { id: "de-timeline", label: "A realistic timeline" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -41,6 +43,8 @@ const faqs = [
   { q: "What follows the certificate of incorporation?", a: "Bank account, capital, allotment, FC-GPR, auditor and registrations." },
   { q: "What is name approval in India?", a: "The reservation of the company name through SPICe+ Part A; an approved name is held for 20 days." },
   { q: "When are PAN and TAN issued?", a: "With the certificate of incorporation." },
+  { q: "Can a GmbH & Co. KG be the shareholder?", a: "Yes, but its tax treatment as a partnership needs a German review before it holds Indian shares." },
+  { q: "Do German directors need to travel to India?", a: "No. They sign digitally; some banks ask to meet a signatory by video when opening the account." },
 ]
 
 const relatedCards = [
@@ -225,7 +229,17 @@ export default function IncorporationStepsPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           The certificate of incorporation carries the corporate identity number, and PAN and TAN are issued with it. The first board meeting appoints the auditor within 30 days, the bank account is opened, the GmbH remits the capital, shares are allotted within 60 days and FC-GPR follows within 30 days. The company also files its commencement of business declaration within 180 days. See <Link href="/germany-to-india/funding-and-fema" className="text-blue-800 font-semibold hover:underline">funding and FEMA</Link>.
         </p>
-
+        <h2 id="de-office" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Digital signatures and DINs for German directors</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each director needs a digital signature certificate, issued against the apostilled passport and address proof, and a Director Identification Number. For up to three directors the DIN is allotted through SPICe+ itself; a director added later applies separately. German directors sign all Indian filings digitally, so there is no need to travel to India for the incorporation.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Keep the spelling of each name identical across the passport, the Handelsregister extract and the Indian forms, including umlauts written out (for example ue for ü), or the filing will be queried.
+        </p>
+        <h2 id="de-timeline" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A realistic timeline</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Allow one to two weeks in Germany for the resolution, notary, Landgericht apostille and sworn translations, a few days for courier, one to two weeks in India for digital signatures, name approval and the SPICe+ filing, and a further one to two weeks for the bank account. Four to six weeks in total is realistic when the documents are right the first time.
+        </p>
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

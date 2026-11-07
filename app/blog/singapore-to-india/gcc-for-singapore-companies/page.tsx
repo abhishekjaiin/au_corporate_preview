@@ -35,6 +35,7 @@ const faqs = [
   { q: "Does a GCC create a permanent establishment for the Singapore parent?", a: "Not by itself if the Indian entity is a separate low-risk provider, but Singapore staff directing the work or concluding contracts in India can create one." },
   { q: "Does MAS regulate a captive centre in India?", a: "MAS regulates the Singapore financial institution, and expects controls over work done by a group company in India, as for any third-party arrangement." },
   { q: "Should we use build-operate-transfer?", a: "It reduces early risk and time, but check the transfer terms, tax on the transfer and who owns the know-how." },
+  { q: "How many people does a GCC need to start?", a: "There is no minimum; many start with 20 to 50 people, often after a pilot through an employer of record." },
 ]
 
 const relatedCards = [

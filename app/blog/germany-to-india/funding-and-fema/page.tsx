@@ -26,6 +26,8 @@ const toc = [
   { id: "de-loans", label: "Funding by loan: KfW, DEG and group loans" },
   { id: "de-equity-mix", label: "Equity or loan: what German groups usually choose" },
   { id: "de-bundesbank", label: "Reporting on the German side" },
+  { id: "de-fema-rounds", label: "FEMA checks for later rounds" },
+  { id: "de-fx", label: "Managing the euro-rupee exchange rate" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -40,6 +42,8 @@ const faqs = [
   { q: "Does Press Note 3 apply to German investors?", a: "No, unless a beneficial owner is from a land-border country." },
   { q: "What is the FLA return?", a: "An annual RBI return due by 15 July." },
   { q: "Is interest on a KfW or DEG loan taxed in India?", a: "It is reported as exempt in India under the India-Germany DTAA; interest on other parent loans is taxed at up to 10%." },
+  { q: "How much share capital should a German company put into its Indian company?", a: "There is no legal minimum. Most German groups fund 12 to 18 months of costs in the first round, because each further round repeats the FEMA valuation, allotment and FC-GPR steps." },
+  { q: "Can capital be sent before the Indian company exists?", a: "No. The bank account is opened after incorporation, and the capital is remitted to it; money sent earlier cannot be allotted as shares." },
 ]
 
 const relatedCards = [
@@ -206,6 +210,16 @@ export default function FundingAndFemaPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           The German parent may also need to report its Indian investment and related payments to the Bundesbank under German foreign trade reporting rules where the thresholds are met, and notify its tax office of the foreign holding. These are German requirements for German advisers to confirm; we provide the Indian figures so the two sets of reports agree.
         </p>
+        <h2 id="de-fema-rounds" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA checks for later rounds</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Every later capital round repeats the FEMA steps: a fresh valuation under the FEMA pricing guidelines, allotment within 60 days, the return of allotment, and FC-GPR within 30 days. Convertible instruments must fix the conversion formula at issue under FEMA. A FEMA delay is usually regularised with a late submission fee; a missed allotment needs compounding with the RBI. We keep a FEMA register of every remittance, allotment and filing so that the German parent&apos;s auditors can trace each euro.
+        </p>
+        <h2 id="de-fx" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Managing the euro-rupee exchange rate</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The capital is fixed in rupees at allotment, so the euro amount sent decides how many shares are issued. Agree the rupee amount with the Indian bank before remitting, allow a small buffer for exchange movements and bank charges, and record any excess as share application money to be allotted or refunded within the FEMA deadlines.
+        </p>
+
+
 
 
 

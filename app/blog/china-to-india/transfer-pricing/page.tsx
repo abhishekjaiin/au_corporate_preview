@@ -37,6 +37,7 @@ const faqs = [
   { q: "What happens if India adjusts the price?", a: "Indian income rises, penalty may apply, and the Chinese side may seek relief under the mutual agreement procedure of the treaty." },
   { q: "Which transactions with the Chinese parent need transfer pricing documentation?", a: "All international transactions with group companies, including services, goods, royalties, loans, guarantees and cost allocations; full transfer pricing documentation is required above ₹1 crore a year." },
   { q: "When is the transfer pricing report filed?", a: "Form 48 (previously Form 3CEB), the accountant's transfer pricing report, is filed by the tax audit due date; the transfer pricing study is kept on file and produced on request." },
+  { q: "Are transfer pricing audits common for Chinese-owned companies in India?", a: "Yes. Purchases of goods and components from China are a frequent transfer pricing focus, so keep customs values and transfer pricing consistent." },
 ]
 
 const relatedCards = [

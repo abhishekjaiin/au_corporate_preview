@@ -27,6 +27,8 @@ const toc = [
   { id: "function-transfer", label: "Function transfers from Germany to India" },
   { id: "german-documentation", label: "German and Indian documentation side by side" },
   { id: "de-apa", label: "Bilateral APAs between India and Germany" },
+  { id: "de-range", label: "What goes into the cost base" },
+  { id: "de-checklist", label: "A year-end checklist for German groups" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -42,6 +44,9 @@ const faqs = [
   { q: "How is double tax resolved?", a: "Through the Mutual Agreement Procedure under the treaty." },
   { q: "What is a function transfer?", a: "A German tax concept: when functions move from a German company to a foreign group company, the profit potential that leaves Germany may be taxed in Germany." },
   { q: "Can Germany and India agree an APA?", a: "Yes, a bilateral APA under the DTAA, covering up to five future years with an Indian rollback of up to four years." },
+  { q: "Which transfer pricing method suits an Indian engineering centre?", a: "Usually the transactional net margin method, testing a cost-plus mark-up against Indian service comparables." },
+  { q: "When is Form 48 due?", a: "With the tax audit, by 31 October; it is the accountant's transfer pricing report on international transactions." },
+  { q: "Do German and Indian transfer pricing files need to match?", a: "They should describe the same facts and margin; differences in comparables should be explained in both." },
 ]
 
 const relatedCards = [
@@ -220,7 +225,17 @@ export default function TransferPricingPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           India and Germany can agree bilateral advance pricing agreements under the DTAA. For a large engineering or shared service centre serving the German group, a bilateral APA fixes the method for up to five future years, with a rollback of up to four years in India, and removes the risk of both countries taxing the same profit. Smaller centres usually rely on a well-documented cost-plus model and the Indian safe harbour where it fits.
         </p>
-
+        <h2 id="de-range" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What goes into the cost base</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A cost-plus model is only as good as its cost base. Indian officers expect the mark-up to apply to all operating costs of the service: salaries and benefits, rent, depreciation, software, travel and the cost of employee share awards recharged by the German parent. Costs passed through without any value added, such as third-party licences bought for the group, can sometimes be charged at cost, but only if the Indian company genuinely adds no value and the agreement says so.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Example.</strong> An Indian engineering centre with costs of ₹15 crore charges the GmbH cost plus 8% while Indian comparables support about 14%. The ₹90 lakh gap would be added to Indian income on audit, and Germany would relieve it only through the Mutual Agreement Procedure. Setting the mark-up from Indian benchmarks, on the full cost base, avoids this.
+        </p>
+        <h2 id="de-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A year-end checklist for German groups</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          In February, test the Indian margin on management accounts. In March, issue any true-up invoice before the Indian books close. Between April and August, update the Indian study with current comparables. By 31 October, file Form 48 with the tax audit. Then share the final Indian figures with the German documentation team for the 31 December year.
+        </p>
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

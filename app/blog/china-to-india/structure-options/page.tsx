@@ -34,6 +34,8 @@ const faqs = [
   { q: "Is an Employer of Record a way around Press Note 3?", a: "No. It is a hiring vehicle for a pilot. If the real business is in a restricted sector or Chinese-controlled, the approval requirement still applies." },
   { q: "Does a joint venture with an Indian partner avoid Press Note 3?", a: "No. The Chinese stake still needs approval. A structure with Indian majority ownership and control may help in the fast-track sectors." },
   { q: "Can I use a Hong Kong or Singapore holding company?", a: "It does not avoid Press Note 3 where Chinese beneficial ownership or control exists, and mis-describing the structure is a FEMA risk." },
+  { q: "Can a Chinese company set up a liaison office in India?", a: "Yes, through the RBI route with security review, which takes longer than for most other applicants." },
+  { q: "Can a Chinese company hold an Indian company through Singapore to avoid approval?", a: "No. Press Note 3 looks through to the beneficial owner, so approval is still needed." },
 ]
 
 const relatedCards = [

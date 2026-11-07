@@ -35,6 +35,7 @@ const faqs = [
   { q: "What is the cheapest repatriation route for a UK parent?", a: "Usually a dividend, because the repatriation is taxed once in India at the DTAA rate and often relieved at home; fees and royalties suit groups that can use a foreign tax credit. Compare the after-tax repatriation result for each route before deciding." },
   { q: "How often can profits be repatriated?", a: "A final dividend once a year after the AGM, interim dividends during the year, and regular repatriation through service fees or royalties under signed agreements. Each repatriation payment needs Forms 145 and 146." },
   { q: "Does repatriation need RBI approval?", a: "No. Dividends and current payments are freely repatriable through the AD bank once Indian tax is paid and the paperwork is filed; repatriation of capital follows the FEMA rules for buy-backs, capital reduction or sale." },
+  { q: "How long does repatriation to the UK take?", a: "Usually a few days once Forms 145 and 146 are filed and the bank has the HMRC certificate of residence and Form 41; plan the repatriation date around the AGM." },
 ]
 
 const relatedCards = [

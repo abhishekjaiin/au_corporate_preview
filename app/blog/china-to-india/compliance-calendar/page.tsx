@@ -23,6 +23,8 @@ const toc = [
   { id: "reviews", label: "Being ready for reviews" },
   { id: "gst-compliance", label: "GST returns and other recurring compliance dates" },
   { id: "china-map", label: "The Indian year against the Chinese calendar year" },
+  { id: "cn-owner", label: "Fitting Chinese approvals into the Indian calendar" },
+  { id: "cn-late", label: "What late filing costs" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -36,6 +38,7 @@ const faqs = [
   { q: "When is FC-GPR filed?", a: "Within 30 days of allotment." },
   { q: "Why keep records especially complete?", a: "Because Chinese-owned companies can face closer reviews." },
   { q: "When is the tax return due?", a: "By 31 October, or 30 November with transfer pricing." },
+  { q: "When is the FLA return due?", a: "By 15 July each year." },
 ]
 
 const relatedCards = [
@@ -173,7 +176,14 @@ export default function ComplianceCalendarPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Chinese parents report on the calendar year, so the Indian 31 March year spans two Chinese years. Consolidate from Indian management accounts to 31 December, run the Indian audit between April and September, and plan the FLA return for 15 July. Chinese outbound investment reporting and SAFE filings at the parent&apos;s end use the same Indian figures, so share them in one monthly pack.
         </p>
-
+        <h2 id="cn-owner" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Fitting Chinese approvals into the Indian calendar</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each capital injection or loan from China usually needs the parent's own outbound investment filings and foreign exchange registration before the money can leave China, while the Indian side then has fixed deadlines for allotment and FC-GPR once it arrives. Plan the Chinese approvals first, and only fix the Indian board date for allotment once the remittance date is certain.
+        </p>
+        <h2 id="cn-late" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What late filing costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Late filings attract daily fees with the Registrar, late fees and interest on GST returns, and fees and interest for late TDS. For Chinese-owned companies, repeated defaults also draw closer scrutiny from banks, so a reliable calendar matters more than usual.
+        </p>
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>

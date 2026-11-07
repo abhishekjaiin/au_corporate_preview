@@ -33,6 +33,7 @@ const faqs = [
   { q: "Can a UK company open a liaison office in India?", a: "Yes, with RBI approval through an authorised dealer bank, if it has a profit record for the previous three years and net worth of at least USD 50,000. The office can liaise and research but cannot earn income or invoice." },
   { q: "Should a UK company hold its Indian subsidiary directly?", a: "In most cases yes. Direct holding keeps the treaty and UK exemption position simple. An intermediate holding company must pass the principal purpose test and needs real substance." },
   { q: "Is an Employer of Record better than a subsidiary?", a: "Only at the start. An Employer of Record is faster and needs no capital, but it cannot contract in your name, and it becomes costly as the team grows. Most groups convert to a subsidiary after the first year or ten hires." },
+  { q: "Can a UK company open a liaison office first?", a: "Yes, through an AD bank, if it has a three-year profit record and net worth of at least USD 50,000; it cannot earn income in India." },
 ]
 
 const relatedCards = [

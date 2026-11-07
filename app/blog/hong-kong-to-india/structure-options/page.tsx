@@ -24,6 +24,8 @@ const toc = [
   { id: "choose", label: "How to choose" },
   { id: "tax-rate-table", label: "Indian tax rate by structure" },
   { id: "pn3-hk", label: "Press Note 3 and Hong Kong ownership" },
+  { id: "hk-tax", label: "Trading groups: company or office?" },
+  { id: "hk-next", label: "Next step" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -35,6 +37,8 @@ const faqs = [
   { q: "Can a liaison office sell products?", a: "No. It can only represent the parent, promote exports and imports and communicate." },
   { q: "Is a joint venture easier?", a: "It can open access to a partner and market, but it needs strong governance terms and pricing compliance." },
   { q: "How are branches taxed?", a: "As foreign companies on Indian profits at the higher foreign company rate, with surcharge and cess; check the current rates." },
+  { q: "Does a Hong Kong company need approval to open a branch in India?", a: "Yes. It goes through the RBI route with security review." },
+  { q: "Can a Hong Kong group use an LLP in India?", a: "Only in sectors open to 100% automatic foreign investment, and Press Note 3 approval is still needed where it applies." },
 ]
 
 const relatedCards = [
@@ -201,7 +205,14 @@ export default function StructureOptionsPage() {
           <li>A joint venture with an Indian majority partner can reduce, but not remove, the approval question if a Hong Kong or Chinese owner holds any beneficial interest.</li>
           <li>Later capital rounds also need approval.</li>
         </ul>
-
+        <h2 id="hk-tax" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Trading groups: company or office?</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Hong Kong trading groups sometimes consider a liaison office to support sourcing from India without earning income there. It works while the office only liaises with suppliers; as soon as it negotiates contracts, inspects for customers for a fee or invoices, it needs to become a company. Because the Indian company pays tax at the domestic rate and dividends to Hong Kong are taxed at 5% under the DTAA, a company is usually the better long-term vehicle for any trading business.
+        </p>
+        <h2 id="hk-next" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Next step</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Once the structure is chosen, see the incorporation steps and the funding guide for the approval and capital sequence that applies to Hong Kong investors.
+        </p>
 
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
