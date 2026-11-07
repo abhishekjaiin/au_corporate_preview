@@ -22,6 +22,9 @@ const toc = [
   { id: "contracts", label: "Contract essentials" },
   { id: "cycle", label: "Each month" },
   { id: "retention", label: "Retention in the Indian market" },
+  { id: "ctc", label: "Reading an Indian offer: cost to company (CTC)" },
+  { id: "leave-holidays", label: "Leave, holidays and working hours" },
+  { id: "gratuity", label: "Gratuity: India's long service payment" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +38,7 @@ const faqs = [
   { q: "When must provident fund be paid?", a: "By the 15th of the following month." },
   { q: "Can Indian staff join the Australian share plan?", a: "Yes, subject to Indian tax and FEMA rules and Australian securities law." },
   { q: "Are non-competes enforceable in India?", a: "Post-employment restraints are narrowly enforced, so confidentiality terms matter more." },
+  { q: "What does CTC mean?", a: "Cost to company: the employer's total annual cost, including employer provident fund, gratuity provision and benefits." },
 ]
 
 const relatedCards = [
@@ -173,6 +177,43 @@ export default function HiringAndPayrollPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Indian technology and finance markets move quickly, and annual increments, variable pay and career paths matter more than in many Australian teams. Budget for annual salary reviews and plan a retention approach, such as participation in the Australian share plan, from the first year.
         </p>
+        <h2 id="ctc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reading an Indian offer: cost to company (CTC)</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian salaries are quoted as an annual cost to company (CTC), not as an hourly or base salary plus super. CTC includes everything the employer spends:
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Component</th><th scope="col" className="border border-gray-300 p-3 text-left">Note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Basic salary</th><td className="border border-gray-300 p-3">Wages must be at least 50% of total remuneration under the labour codes</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">House rent allowance and other allowances</th><td className="border border-gray-300 p-3">Partly tax-free depending on the employee&apos;s situation</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Employer provident fund</th><td className="border border-gray-300 p-3">12% of basic wages, often capped by policy</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Gratuity provision</th><td className="border border-gray-300 p-3">Accrued yearly, paid after five years of service</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Insurance</th><td className="border border-gray-300 p-3">Group health cover is expected in most offers</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Variable pay</th><td className="border border-gray-300 p-3">Annual bonus or incentive</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Take-home pay is noticeably lower than CTC divided by twelve, because employee provident fund, professional tax and income tax are deducted. Candidates compare offers on CTC, so quote it the same way.
+        </p>
+
+        <h2 id="leave-holidays" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Leave, holidays and working hours</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Three national holidays plus state festival holidays, which vary by state.</li>
+          <li>Earned and sick leave minimums under the state shops and establishments law; most employers offer more.</li>
+          <li>26 weeks of paid maternity leave for eligible employees.</li>
+          <li>Working hours and overtime limits set by state law and the labour codes; overtime is paid at twice the wage rate.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian teams supporting Australia often work shifted hours to overlap with Sydney or Melbourne. Agree the shift pattern, any shift allowance and transport for late shifts in the contract.
+        </p>
+
+        <h2 id="gratuity" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Gratuity: India&apos;s long service payment</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Gratuity is 15 days&apos; wages for each completed year of service, calculated on 26 working days a month and capped at ₹20 lakh. It is payable after five years of continuous service, or after one year for fixed-term staff under the codes. Many Australian-owned companies fund it through a group gratuity policy with an insurer so the cost is spread over time.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

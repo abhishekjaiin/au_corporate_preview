@@ -22,6 +22,8 @@ const toc = [
   { id: "risk", label: "Permanent establishment and the 183-day test" },
   { id: "tipping", label: "The tipping point" },
   { id: "move", label: "Moving staff into your own entity" },
+  { id: "ip", label: "IP ownership: who owns what the Indian team creates" },
+  { id: "cost-compare", label: "Cost comparison at different team sizes" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,7 @@ const faqs = [
   { q: "Who owns IP created by EOR staff?", a: "It depends on the EOR contract, so assign IP to the right group company in writing." },
   { q: "How long does a subsidiary take to set up?", a: "About 4 to 6 weeks from receipt of apostilled documents." },
   { q: "Can staff move from the EOR to the subsidiary?", a: "Yes, through new contracts and an agreed treatment of benefits." },
+  { q: "Who owns IP created by staff hired through an employer of record?", a: "The provider first; the Australian company owns it only if the provider's agreement assigns it and the employment contracts assign it to the provider." },
 ]
 
 const relatedCards = [
@@ -174,6 +177,34 @@ export default function EorVsSubsidiaryPage() {
           <li>Settle or transfer gratuity and leave balances.</li>
           <li>Move payroll, provident fund and ESI to the subsidiary.</li>
         </ol>
+        <h2 id="ip" className="text-2xl font-bold text-gray-900 mt-12 mb-4">IP ownership: who owns what the Indian team creates</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          With an employer of record, the employment contract is between the Indian provider and the employee, so the intellectual property created by the team first belongs to the provider. The Australian company owns it only if the provider&apos;s contract assigns it, and the employees&apos; contracts assign it to the provider. Check three things before the team starts work:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The provider&apos;s services agreement assigns all work product and intellectual property to the Australian company.</li>
+          <li>Each employment contract assigns inventions and copyright to the provider, so the chain is complete.</li>
+          <li>Confidentiality and source-code access are covered, with the right to audit and to take over records when the arrangement ends.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          In your own company, the employment contracts assign IP directly to the Indian company, and an intercompany agreement then deals with ownership between India and Australia.
+        </p>
+
+        <h2 id="cost-compare" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Cost comparison at different team sizes</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Team size</th><th scope="col" className="border border-gray-300 p-3 text-left">Typical choice</th><th scope="col" className="border border-gray-300 p-3 text-left">Why</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">1 to 5 people</th><td className="border border-gray-300 p-3">Employer of record</td><td className="border border-gray-300 p-3">No entity to run; quick start; fee per head is acceptable</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">5 to 20 people</th><td className="border border-gray-300 p-3">Either, depending on plans</td><td className="border border-gray-300 p-3">Provider fees add up, but an entity needs a resident director and annual filings</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">20 people or more</th><td className="border border-gray-300 p-3">Own company</td><td className="border border-gray-300 p-3">Fixed entity costs are spread wider; direct control of hiring, IP and premises</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The change-over is usually planned around a quarter end, with employees offered equivalent terms and their service and gratuity accrual carried over. See <Link href="/australia-to-india/hiring-and-payroll" className="text-blue-800 font-semibold hover:underline">hiring and payroll for Australian companies</Link> and <Link href="/australia-to-india/incorporation-process" className="text-blue-800 font-semibold hover:underline">incorporation from Australia</Link>.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

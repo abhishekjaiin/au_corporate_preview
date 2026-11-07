@@ -22,6 +22,8 @@ const toc = [
   { id: "withholding", label: "Withholding through Indian payroll" },
   { id: "recharge", label: "Recharging the cost to India" },
   { id: "offer", label: "Making the offer in India" },
+  { id: "esop-tax", label: "How an ESOP is taxed for an Indian employee" },
+  { id: "esop-fema", label: "FEMA and holding ASX shares from India" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,8 @@ const faqs = [
   { q: "What tax applies when the shares are sold?", a: "Capital gains; 12.5% for shares held more than 24 months, plus surcharge and cess." },
   { q: "Do Australian disclosure rules apply to offers in India?", a: "They mainly cover offers in Australia; Australian counsel should confirm the position." },
   { q: "Can Indian residents hold shares of an Australian parent?", a: "Yes, under an employee plan within FEMA's overseas investment rules." },
+  { q: "When is an ESOP taxed in India?", a: "On exercise, as a perquisite on the difference between fair value and the exercise price; later gains are capital gains." },
+  { q: "Can Indian employees hold shares in an Australian parent?", a: "Yes, under the overseas investment rules for ESOP schemes, with reporting through the AD bank." },
 ]
 
 const relatedCards = [
@@ -165,6 +169,27 @@ export default function EsopPage() {
           <li>Indian residents may acquire shares of a foreign parent under an employee plan within FEMA&apos;s overseas investment rules.</li>
           <li>Employees report the shares and any dividends in Schedule FA of their Indian return.</li>
         </ul>
+        <h2 id="esop-tax" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How an ESOP is taxed for an Indian employee</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Stage</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax for the employee</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Grant of the ESOP</th><td className="border border-gray-300 p-3">No tax</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Vesting</th><td className="border border-gray-300 p-3">No tax for options; RSUs are generally taxed on vesting as they are delivered</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Exercise of an option</th><td className="border border-gray-300 p-3">Perquisite tax as salary on the difference between fair value and the exercise price, withheld by the Indian employer</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Sale of the shares</th><td className="border border-gray-300 p-3">Capital gains on the increase after exercise, declared in the Indian return</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A share appreciation right (SAR) settled in cash is taxed as salary when paid. Because the perquisite tax falls before the employee sells anything, Indian employees often sell part of the shares at once to cover the tax.
+        </p>
+
+        <h2 id="esop-fema" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA and holding ASX shares from India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An Indian resident employee can acquire shares in the Australian parent under a group ESOP scheme. The overseas investment (ODI) rules permit this for employees of the Indian company, and the Indian company reports the issue through its AD bank. Dividends and sale proceeds follow the overseas investment rules, and the employee declares the foreign shares in the Indian return each year. A clear ESOP information pack for Indian employees avoids most questions.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

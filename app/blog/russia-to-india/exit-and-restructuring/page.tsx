@@ -22,6 +22,10 @@ const toc = [
   { id: "buyers", label: "What buyers will check" },
   { id: "tax", label: "Tax on the exit" },
   { id: "close", label: "Closing instead of selling" },
+  { id: "share-transfer", label: "Selling the shares: the share transfer steps" },
+  { id: "strike-off", label: "Strike-off under Section 248 and voluntary liquidation" },
+  { id: "exit-checklist", label: "Exit checklist for a Russian parent" },
+  { id: "exit-timeline", label: "How long each exit takes" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +39,8 @@ const faqs = [
   { q: "Can the subsidiary be merged into another Indian company?", a: "Yes, through a tribunal scheme or the fast-track route." },
   { q: "How is a dormant company closed?", a: "By strike-off under Section 248." },
   { q: "How does the surplus reach Russia on closure?", a: "Through an accepted bank route with Forms 145 and 146." },
+  { q: "What is a strike-off under Section 248?", a: "Removal of a dormant company from the register, on application in Form STK-2, once its liabilities are cleared." },
+  { q: "Who files FC-TRS on a share transfer?", a: "The Indian resident party, within 60 days of receiving or paying the price." },
 ]
 
 const relatedCards = [
@@ -169,6 +175,55 @@ export default function ExitAndRestructuringPage() {
           <li>Remit the surplus through an accepted route with Forms 145 and 146.</li>
           <li>Report to the RBI and close accounts.</li>
         </ol>
+        <h2 id="share-transfer" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling the shares: the share transfer steps</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Valuation.</strong> A fair value certificate dated close to the transfer; under FEMA, a sale by the Russian parent to an Indian resident cannot be above fair value.</li>
+          <li><strong>Agreement and deed.</strong> A share purchase agreement and the share transfer deed, stamped under Indian stamp law, or a demat transfer where the shares are in demat form.</li>
+          <li><strong>Board approval and register.</strong> The company approves the share transfer and updates its register of members.</li>
+          <li><strong>Tax.</strong> The buyer withholds Indian tax on the gain before paying the Russian seller, using the seller&apos;s PAN and the treaty documents.</li>
+          <li><strong>Reporting.</strong> Form FC-TRS is filed by the Indian resident party within 60 days of receiving or paying the price.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A sale to another non-resident is not reported in FC-TRS, but Indian capital gains tax still applies.
+        </p>
+
+        <h2 id="strike-off" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Strike-off under Section 248 and voluntary liquidation</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A dormant company can be removed from the register under Section 248 of the Companies Act. It qualifies if it has not carried on business for the two preceding financial years, or if the subscribers never paid for their shares. The company files Form STK-2 with an indemnity bond, director affidavits and a statement of accounts certified by a Chartered Accountant, after clearing its liabilities and closing its bank account.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A company that has traded, holds assets or has open tax years usually needs a voluntary liquidation instead. The directors make a declaration of solvency, the shareholders appoint a liquidator, the liquidator sells assets, pays creditors and distributes the surplus, and the tribunal finally dissolves the company. Expect a year or more. For a Russian shareholder, the final distribution needs the same accepted payment route as any dividend.
+        </p>
+
+        <h2 id="exit-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Exit checklist for a Russian parent</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Agree the payment route and currency in the term sheet.</li>
+          <li>Obtain a fresh valuation and confirm the FEMA price limit.</li>
+          <li>Collect the treaty documents so the buyer withholds tax correctly.</li>
+          <li>Close or transfer employees under Indian labour law, including gratuity.</li>
+          <li>Obtain tax and GST clearances before the final remittance.</li>
+          <li>Report the transaction under Russian currency control rules.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          See <Link href="/russia-to-india/repatriating-profits" className="text-blue-800 font-semibold hover:underline">repatriating profits</Link> for the payment paperwork that also applies to sale proceeds.
+        </p>
+        <h2 id="exit-timeline" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How long each exit takes</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Exit route</th><th scope="col" className="border border-gray-300 p-3 text-left">Typical time</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share sale to an Indian buyer</th><td className="border border-gray-300 p-3">Two to four months from signing, mainly for valuation, tax and payment</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Strike-off of a dormant company</th><td className="border border-gray-300 p-3">Several months after filing, once the Registrar publishes notice</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Voluntary liquidation</th><td className="border border-gray-300 p-3">A year or more</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Merger into an Indian group company</th><td className="border border-gray-300 p-3">Six to twelve months through the tribunal</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          For a Russian seller, add time for the payment route at every stage of the exit, because each transfer of money is reviewed by both banks.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

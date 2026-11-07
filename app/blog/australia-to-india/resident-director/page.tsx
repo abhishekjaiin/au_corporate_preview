@@ -22,6 +22,8 @@ const toc = [
   { id: "tax", label: "The tax side for an Australian director" },
   { id: "authority", label: "Limiting the resident director's authority" },
   { id: "upkeep", label: "Keeping the director compliant" },
+  { id: "din-dsc", label: "DIN and digital signature for the resident director" },
+  { id: "liability", label: "Director liability: what the resident director is exposed to" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,7 @@ const faqs = [
   { q: "What do Australian non-resident directors need?", a: "A DIN and Digital Signature Certificate obtained with a DFAT-apostilled passport and address proof." },
   { q: "When is director KYC due?", a: "By 30 September each year, for every director with a DIN." },
   { q: "How many directors does the company need?", a: "At least two, one of whom meets the residence test." },
+  { q: "What liability does a resident director have?", a: "Liability under company, tax, labour and FEMA law as a director, which is why professional directors ask for a limited role, an indemnity and D&O insurance." },
 ]
 
 const relatedCards = [
@@ -164,6 +167,22 @@ export default function ResidentDirectorPage() {
           <li>Renew the digital signature before it expires.</li>
           <li>Appoint a replacement before a departing resident director leaves India.</li>
         </ol>
+        <h2 id="din-dsc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">DIN and digital signature for the resident director</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The resident director needs a Director Identification Number (DIN) and a digital signature certificate, like every other director. An Indian manager usually obtains both quickly with an Indian PAN and Aadhaar. A professional resident director already has a DIN. The DIN must be kept active through the director KYC filing the Registrar requires, or the director cannot sign filings.
+        </p>
+
+        <h2 id="liability" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Director liability: what the resident director is exposed to</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Under company law, directors can be liable for defaults in filings, accounts and meetings, usually as an officer in default.</li>
+          <li>Under tax law, directors of a private company can be liable for tax the company cannot pay, unless they show the non-recovery is not due to their gross neglect.</li>
+          <li>Under labour and other laws, the person in charge of the business can be prosecuted for the company&apos;s offences.</li>
+          <li>Under FEMA, persons responsible for the company&apos;s conduct of business can face penalties for contraventions.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A professional resident director will therefore ask for a limited role, an indemnity from the Australian parent, directors&apos; and officers&apos; insurance and access to records. Australian boards should agree these terms in writing, and keep compliance current so the director&apos;s exposure stays low.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

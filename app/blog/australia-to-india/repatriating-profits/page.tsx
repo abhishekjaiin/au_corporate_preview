@@ -22,6 +22,9 @@ const toc = [
   { id: "fees", label: "Fees, royalties and interest" },
   { id: "process", label: "Processing a remittance" },
   { id: "compare", label: "Comparing the after-tax result" },
+  { id: "repatriation-options", label: "Profit repatriation options compared" },
+  { id: "forms", label: "The repatriation paperwork: Forms 145 and 146" },
+  { id: "timing", label: "Repatriation timing across two financial years" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +38,8 @@ const faqs = [
   { q: "Can a new subsidiary pay a dividend?", a: "Only from distributable profits after audited accounts are approved." },
   { q: "What are Forms 145 and 146?", a: "The remittance declarations that replaced Forms 15CA and 15CB." },
   { q: "When is Withholding Tax deposited?", a: "By the 7th of the following month." },
+  { q: "What are Forms 145 and 146?", a: "The online declaration of a payment abroad and the Chartered Accountant's certificate behind it, previously Forms 15CA and 15CB." },
+  { q: "Is a dividend from India taxed in Australia?", a: "Generally not, for a qualifying holding: it is non-assessable non-exempt income under section 768-5." },
 ]
 
 const relatedCards = [
@@ -166,6 +171,32 @@ export default function RepatriatingProfitsPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           For a profitable subsidiary, compare a dividend taxed at 15% in India and not again in Australia with a fee or royalty that is deductible in India at the corporate rate but assessable in Australia. The answer depends on the Indian tax saved, the Australian tax payable and whether the payment can be supported for transfer pricing.
         </p>
+        <h2 id="repatriation-options" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Profit repatriation options compared</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Repatriation route</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax</th><th scope="col" className="border border-gray-300 p-3 text-left">Australian tax</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Dividend</th><td className="border border-gray-300 p-3">Up to 15% under the treaty</td><td className="border border-gray-300 p-3">Generally non-assessable non-exempt under section 768-5 for a qualifying holding</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share buy-back</th><td className="border border-gray-300 p-3">Taxed as a dividend in the shareholder&apos;s hands since 1 October 2024</td><td className="border border-gray-300 p-3">Depends on the Australian characterisation; take advice</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Service fee or royalty</th><td className="border border-gray-300 p-3">Treaty rate on royalties and technical fees; deductible in India at arm&apos;s length</td><td className="border border-gray-300 p-3">Assessable, with a foreign income tax offset</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Interest on a parent loan</th><td className="border border-gray-300 p-3">Up to 15% under the treaty</td><td className="border border-gray-300 p-3">Assessable, with a foreign income tax offset</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          For most Australian parents the dividend is the cleanest repatriation route, because it is usually not taxed again in Australia. Fees and royalties move profit earlier in the year, but they must reflect real services or rights and be priced at arm&apos;s length.
+        </p>
+
+        <h2 id="forms" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The repatriation paperwork: Forms 145 and 146</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Every repatriation payment is reported before the money leaves India. Form 145 (previously Form 15CA) is the payer&apos;s online declaration of the payment and tax withheld. Form 146 (previously Form 15CB) is a Chartered Accountant&apos;s certificate of the nature of the payment, the treaty article and the rate. The Indian bank releases the remittance only after both are filed, with the Australian tax residency certificate and Form 41 on record.
+        </p>
+
+        <h2 id="timing" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Repatriation timing across two financial years</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A final dividend can be paid only after the Indian audit and the AGM, which fall between April and September. For an Australian parent closing on 30 June, that means profit earned in the Indian year to 31 March usually arrives in the following Australian year. An interim dividend, declared by the board during the Indian year from current profits, can bring repatriation forward. Plan the timing with the group treasury forecast, and remember that a declared dividend must be paid within 30 days.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

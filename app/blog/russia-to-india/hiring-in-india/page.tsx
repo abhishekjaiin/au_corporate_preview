@@ -22,19 +22,25 @@ const toc = [
   { id: "costs", label: "Statutory costs on top of salary" },
   { id: "banking", label: "Payroll and banking for a Russian-owned employer" },
   { id: "reporting", label: "Reporting to Moscow" },
+  { id: "ctc", label: "How Indian salaries are quoted: cost to company (CTC)" },
+  { id: "leaving", label: "Notice, termination and gratuity" },
+  { id: "leave", label: "Leave and holidays" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
 const faqs = [
   { q: "Do Russian labour rules apply to staff in India?", a: "No. Indian contracts, the labour codes and state rules apply." },
-  { q: "Is there a labour book in India?", a: "No. Employment is recorded through appointment letters and payroll records." },
+  { q: "Is there a labour book in India?", a: "No. Employment is recorded through appointment letters and statutory registers." },
   { q: "When does provident fund become compulsory?", a: "From 20 employees, though many companies register earlier." },
   { q: "When is gratuity payable?", a: "After five years of continuous service, or one year for fixed-term staff." },
   { q: "Why does banking matter for payroll?", a: "Indian banks screen Russian-owned companies closely, so salary funding needs a steady, evidenced channel." },
   { q: "When is tax on salaries deposited?", a: "By the 7th of the following month." },
   { q: "Do the labour codes change pay structures?", a: "Yes. Wages must be at least half of total pay for provident fund and gratuity." },
   { q: "Can Russian staff be on the Indian payroll?", a: "Yes, as international workers for provident fund purposes, with Indian tax on Indian salary." },
+  { q: "What does CTC mean in an Indian offer?", a: "Cost to company: the employer's total annual cost for the employee, including employer provident fund, gratuity provision and benefits." },
+  { q: "How is gratuity calculated?", a: "15 days' wages for each year of service, on 26 working days a month, capped at ₹20 lakh." },
+  { q: "Can a Russian-owned company hire through an Employer of Record first?", a: "Yes. An Employer of Record employs the staff on its own Indian contracts while the company is set up, and the team can transfer later. It is a common bridge when bank onboarding for the new company is slow." },
 ]
 
 const relatedCards = [
@@ -165,6 +171,50 @@ export default function HiringInIndiaPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Russian parents usually want headcount, cost and payroll reports in their own format. Prepare them from the Indian payroll, in rupees and roubles, and remember that the Indian figures follow the 1 April to 31 March year while the Russian parent reports on a calendar year.
         </p>
+        <h2 id="ctc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Indian salaries are quoted: cost to company (CTC)</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian offers are quoted as an annual cost to company (CTC), not a monthly net salary as Russian candidates may expect. CTC is everything the employer spends on the person in a year. A typical structure:
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Component</th><th scope="col" className="border border-gray-300 p-3 text-left">What it is</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Basic salary</th><td className="border border-gray-300 p-3">The core of the package; under the labour codes, wages including basic must be at least 50% of total remuneration</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">House rent allowance</th><td className="border border-gray-300 p-3">Partly tax-exempt for employees who pay rent</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Other allowances</th><td className="border border-gray-300 p-3">Special allowance, meal or travel components</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Employer provident fund</th><td className="border border-gray-300 p-3">12% of basic wages, unless capped by policy</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Gratuity provision</th><td className="border border-gray-300 p-3">Accrued each year; paid after five years of service</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Insurance and benefits</th><td className="border border-gray-300 p-3">Group health and accident cover, common in Indian offers</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Variable pay</th><td className="border border-gray-300 p-3">Bonus or incentive, usually annual</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The take-home pay is lower than CTC/12 because employee provident fund, professional tax and income tax are deducted. Candidates compare offers on CTC, so quote yours the same way.
+        </p>
+
+        <h2 id="leaving" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Notice, termination and gratuity</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Notice period</strong> is set in the contract, usually one to three months, and both sides usually follow it.</li>
+          <li><strong>Gratuity</strong> is 15 days&apos; wages for each completed year of service, calculated on 26 working days a month, capped at ₹20 lakh, and paid after five years (one year for fixed-term staff under the codes).</li>
+          <li><strong>Termination</strong> needs a valid reason and the contractual notice or pay in lieu; larger establishments have extra rules for retrenchment.</li>
+          <li><strong>Full and final settlement</strong> covers salary, leave encashment where applicable and gratuity, usually within a short period of leaving.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Russian HR teams used to the labour book should note that records are kept electronically through appointment letters and statutory registers. See <Link href="/russia-to-india/russian-employees-in-india" className="text-blue-800 font-semibold hover:underline">Russian employees in India</Link> for staff sent from Moscow.
+        </p>
+        <h2 id="leave" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Leave and holidays</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Public holidays.</strong> Three national holidays (Republic Day, Independence Day and Gandhi Jayanti) plus state festival holidays, set by each state.</li>
+          <li><strong>Earned and sick leave.</strong> Minimums come from the state shops and establishments law; most employers give more.</li>
+          <li><strong>Maternity leave.</strong> 26 weeks of paid leave for eligible employees.</li>
+          <li><strong>Working week.</strong> Usually five or six days, within the hours set by the state law.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Publish a holiday calendar for the Indian office at the start of each year, because it differs from the Russian calendar and from other Indian states.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

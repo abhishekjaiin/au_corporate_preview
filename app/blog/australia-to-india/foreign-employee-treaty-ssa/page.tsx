@@ -25,6 +25,7 @@ const toc = [
   { id: "pe-link", label: "Permanent establishment and the 183-day service test" },
   { id: "australian-parent", label: "What this means for an Australian parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "ssa-steps", label: "Applying the social security agreement step by step" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -273,6 +274,17 @@ export default function ForeignEmployeeTreatySsaPage() {
           <li>Treating a local hire as an assignee, or the reverse.</li>
           <li>Missing the FRRO registration for a stay over 180 days.</li>
         </ul>
+        <h2 id="ssa-steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Applying the social security agreement step by step</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Apply to the ATO for a certificate of coverage before the employee leaves Australia.</li>
+          <li>Give the Indian company a copy so it does not enrol the employee in provident fund as an international worker.</li>
+          <li>Keep the certificate on the employee&apos;s Indian file for the duration of the assignment, up to five years.</li>
+          <li>If the assignment is extended beyond the period covered, apply for an extension or move the employee into Indian social security.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Without the certificate, the social security agreement does not apply, and Indian provident fund contributions are due on full wages.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

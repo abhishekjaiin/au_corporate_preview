@@ -22,6 +22,9 @@ const toc = [
   { id: "documents", label: "Documents for the treaty rate" },
   { id: "dividend", label: "Paying a dividend" },
   { id: "russian-tax", label: "How Russia taxes what arrives" },
+  { id: "route-choice", label: "Choosing a repatriation route: dividend, buy-back or fees" },
+  { id: "remittance-forms", label: "The repatriation paperwork: Forms 145 and 146" },
+  { id: "blocked-route", label: "If the repatriation route fails after a dividend is declared" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +38,10 @@ const faqs = [
   { q: "Can a new subsidiary pay dividends?", a: "Only from audited distributable profits." },
   { q: "How does Russia tax foreign dividends?", a: "Possibly at 0% for qualifying holdings, subject to conditions; confirm with a Russian adviser." },
   { q: "When is the Indian tax deposited?", a: "By the 7th of the following month." },
+  { q: "Is a share buy-back still a tax-efficient way to repatriate cash to Russia?", a: "Less than before. Since 1 October 2024 the buy-back amount is taxed as a dividend in the shareholder's hands, so it is taxed much like a dividend under the treaty." },
+  { q: "What are Forms 145 and 146?", a: "The online declaration of a payment abroad and the Chartered Accountant's certificate behind it, previously Forms 15CA and 15CB." },
+  { q: "What happens if a declared dividend cannot be paid to Russia?", a: "It must be paid within 30 days; any unpaid amount goes to an unpaid dividend account, so confirm the payment route before declaring it." },
+  { q: "How long does repatriation to Russia take?", a: "Allow several weeks: the treaty documents, Forms 145 and 146, and the bank's review of the route all come before the money leaves. Repatriation is faster when the route is agreed in advance and used regularly." },
 ]
 
 const relatedCards = [
@@ -166,6 +173,45 @@ export default function RepatriatingProfitsPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Foreign dividends can be taxed at 0% in Russia for qualifying holdings, generally 50% held for 365 days, subject to conditions; other income is taxed with credit for the Indian tax. Russian currency control rules on receiving funds also apply. Confirm the position with a Russian adviser.
         </p>
+        <h2 id="route-choice" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Choosing a repatriation route: dividend, buy-back or fees</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Profit repatriation to Russia can take several legal forms. The right one depends on how much cash is surplus, whether the Indian company has distributable profits, and how the Russian parent is taxed on each type of receipt.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Route</th><th scope="col" className="border border-gray-300 p-3 text-left">How it works</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax position</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Dividend</th><td className="border border-gray-300 p-3">Paid from audited distributable profits after the AGM, or as an interim dividend by the board</td><td className="border border-gray-300 p-3">10% under the DTAA with the treaty documents; about 20% plus surcharge and cess without them</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share buy-back</th><td className="border border-gray-300 p-3">The Indian company buys back part of the parent&apos;s shares, within Companies Act limits and FEMA pricing rules</td><td className="border border-gray-300 p-3">Since 1 October 2024 the buy-back amount is taxed as a dividend in the parent&apos;s hands, so the 10% treaty rate is the usual reference; the cost of the shares becomes a capital loss</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Capital reduction</th><td className="border border-gray-300 p-3">Court or tribunal-approved reduction of share capital, returning surplus cash</td><td className="border border-gray-300 p-3">Treated as a dividend to the extent of accumulated profits; the rest reduces the cost of the shares</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Service fees and royalties</th><td className="border border-gray-300 p-3">Paid during the year for real services or a licence, under a signed agreement</td><td className="border border-gray-300 p-3">10% on technical fees and royalties under the DTAA; deductible for the Indian company if priced at arm&apos;s length</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Loan repayment</th><td className="border border-gray-300 p-3">Repays principal and interest under an external commercial borrowing</td><td className="border border-gray-300 p-3">No tax on principal; 10% on interest under the DTAA</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          For most Russian parents a regular dividend is the simplest repatriation route. A buy-back used to be attractive because the tax fell on the company; since the 2024 change it no longer has that advantage, but it remains useful where a group wants to return capital rather than profit. See <Link href="/russia-to-india/transfer-pricing" className="text-blue-800 font-semibold hover:underline">transfer pricing between India and Russia</Link> before using fees or royalties as a repatriation channel.
+        </p>
+
+        <h2 id="remittance-forms" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The repatriation paperwork: Forms 145 and 146</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Every repatriation payment to the Russian parent is reported before the money leaves India. Form 145 (previously Form 15CA) is the payer&apos;s online declaration of the payment and the tax withheld. Form 146 (previously Form 15CB) is a Chartered Accountant&apos;s certificate confirming the nature of the payment, the DTAA article relied on and the rate applied. The Indian bank will not release the remittance without them, so we prepare both once the treaty documents are on file.
+        </p>
+
+        <h2 id="blocked-route" className="text-2xl font-bold text-gray-900 mt-12 mb-4">If the repatriation route fails after a dividend is declared</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Under the Companies Act, a declared dividend must be paid within 30 days. Any amount still unpaid is moved to a separate unpaid dividend account within the next seven days, and directors can face penalties for a failure to pay that is not covered by one of the Act&apos;s limited exceptions. For a Russian shareholder whose bank route is uncertain, that creates a real risk.
+        </p>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Confirm the receiving bank, currency and correspondent with the Indian bank in writing before the board meeting.</li>
+          <li>Declare the dividend only once the route is confirmed, or declare a smaller amount that can be paid at once.</li>
+          <li>If a route fails after declaration, record why in the board minutes, move the amount to the unpaid dividend account on time and take legal advice on the exceptions.</li>
+          <li>Hold surplus cash in India in fixed deposits or use it for the Indian business until a repatriation route is available; retained profits are not taxed again.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Repatriation planning for Russian groups is mostly about sequence: route first, then the board decision, then the treaty documents, then the payment. Our <Link href="/russia-to-india/sanctions-and-payments-for-russian-companies" className="text-blue-800 font-semibold hover:underline">sanctions and payments guide</Link> explains how Indian banks screen these payments.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

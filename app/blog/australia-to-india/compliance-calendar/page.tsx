@@ -22,6 +22,7 @@ const toc = [
   { id: "annual", label: "The annual Indian cycle" },
   { id: "australian-links", label: "Filings in Australia that use Indian numbers" },
   { id: "owners", label: "Who owns each deadline" },
+  { id: "compliance-owner", label: "Keeping compliance on track" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -201,6 +202,11 @@ export default function ComplianceCalendarPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Assign an owner in India for each monthly filing and an approver in Australia for anything that needs parent sign-off, such as the accounts, dividends and intercompany pricing. Most missed Indian deadlines happen when the approval sits in an Australian inbox during the June year-end rush.
         </p>
+        <h2 id="compliance-owner" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping compliance on track</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most compliance problems we see in Australian-owned companies come from a missed handover rather than a hard rule. Keep one compliance owner in India, a shared calendar that maps each Indian date to the Australian month, and a monthly compliance report to the Australian CFO. See <Link href="/australia-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">common mistakes</Link>.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

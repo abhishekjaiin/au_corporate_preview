@@ -22,6 +22,10 @@ const toc = [
   { id: "filing", label: "The Indian filing" },
   { id: "bank", label: "Bank account and first capital" },
   { id: "after", label: "After incorporation" },
+  { id: "spice", label: "Inside the SPICe+ filing" },
+  { id: "first-90-days", label: "The first 90 days after incorporation" },
+  { id: "office", label: "Registered office and the state of incorporation" },
+  { id: "resubmissions", label: "Why SPICe+ filings come back" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +39,10 @@ const faqs = [
   { q: "Why involve the bank early?", a: "Account opening and the capital route are usually the slowest steps." },
   { q: "What follows incorporation?", a: "Bank account, capital, allotment, FC-GPR, auditor and registrations." },
   { q: "Is Russian approval needed for the investment?", a: "Possibly, from the Bank of Russia above the reported threshold." },
+  { q: "What are the MOA and AOA?", a: "The memorandum of association states the company's objects; the articles of association are its internal rules. Both are filed electronically with SPICe+." },
+  { q: "When are PAN and TAN issued?", a: "Together with the certificate of incorporation." },
+  { q: "Do Russian directors need to visit India for incorporation?", a: "No. Directors sign digitally and their documents are authenticated in Russia. Some banks ask to meet a signatory, by video or in person, when the account is opened." },
+  { q: "How many directors and shareholders does the company need?", a: "At least two directors, one of whom meets the 182-day residence test, and at least two shareholders. A wholly owned company usually has the Russian parent and a nominee as shareholders." },
 ]
 
 const relatedCards = [
@@ -174,6 +182,63 @@ export default function IncorporationStepsPage() {
           <li>Register for GST, provident fund and ESI as needed.</li>
           <li>Set a quarterly sanctions re-screening routine.</li>
         </ul>
+        <h2 id="spice" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Inside the SPICe+ filing</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          SPICe+ is a single online form on the Ministry of Corporate Affairs portal. It is filed in two parts:
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Part</th><th scope="col" className="border border-gray-300 p-3 text-left">What it covers</th><th scope="col" className="border border-gray-300 p-3 text-left">Notes for a Russian parent</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part A: name reservation</th><td className="border border-gray-300 p-3">Up to two proposed names</td><td className="border border-gray-300 p-3">An approved name is reserved for 20 days, so file Part B quickly</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part B: incorporation</th><td className="border border-gray-300 p-3">Registered office, share capital, subscribers, directors and DINs for up to three directors</td><td className="border border-gray-300 p-3">Russian names must be transliterated exactly as in the apostilled passports</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-MOA and e-AOA</th><td className="border border-gray-300 p-3">The memorandum (MOA), stating the objects, and the articles (AOA), the internal rules</td><td className="border border-gray-300 p-3">Objects should match the activity the bank will be told about</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">AGILE-PRO-S</th><td className="border border-gray-300 p-3">GST, provident fund, ESI, professional tax where applicable, and the bank account application</td><td className="border border-gray-300 p-3">GST can be deferred if not needed at once</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          PAN and TAN are issued together with the certificate of incorporation, which carries the company&apos;s corporate identity number (CIN). The Indian filing usually takes 7 to 15 working days once the documents are complete.
+        </p>
+
+        <h2 id="first-90-days" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The first 90 days after incorporation</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>First board meeting</strong> within 30 days, which also appoints the first auditor.</li>
+          <li><strong>Bank account</strong> opened and the first share capital received from Russia through the agreed route.</li>
+          <li><strong>Allotment and FC-GPR</strong>: shares allotted within 60 days of receipt and FC-GPR filed within 30 days of allotment.</li>
+          <li><strong>Commencement of business declaration</strong> (Form INC-20A) filed within 180 days of incorporation, after the subscribers&apos; capital is received.</li>
+          <li><strong>Share certificates</strong> issued to the subscribers within two months of incorporation.</li>
+          <li><strong>Registrations</strong> under the state shops and establishments law, and for provident fund and ESI once staff are hired.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Because the bank account is the step most likely to slow a Russian-owned company, we start bank onboarding in parallel with the SPICe+ filing. See <Link href="/russia-to-india/funding-and-fema" className="text-blue-800 font-semibold hover:underline">funding and FEMA</Link> for the capital steps and <Link href="/russia-to-india/hiring-in-india" className="text-blue-800 font-semibold hover:underline">hiring in India</Link> for the first employees.
+        </p>
+        <h2 id="office" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Registered office and the state of incorporation</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The registered office decides the state of incorporation, the Registrar the company reports to, and the stamp duty paid on incorporation. A Russian parent without premises can start with a registered office address service and move later by a simple filing within the same city, or by a longer process across states.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Proof of the registered office is a utility bill not older than two months, plus a no-objection letter from the owner.</li>
+          <li>A lease or service agreement in the company&apos;s name follows after incorporation.</li>
+          <li>Choose the state where most staff will sit, because shops and establishments, professional tax and GST registrations follow the office.</li>
+        </ul>
+
+        <h2 id="resubmissions" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Why SPICe+ filings come back</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most incorporation delays for Russian parents come from a short list of avoidable errors:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>A proposed name too close to an existing company or trademark.</li>
+          <li>Russian names transliterated differently in the passport, the register extract and the forms.</li>
+          <li>An apostille that covers the original but not the notarised translation.</li>
+          <li>A utility bill older than two months, or no owner&apos;s consent for the office.</li>
+          <li>Objects in the memorandum that do not match the activity described to the bank.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          We check each of these before filing, so the incorporation usually goes through on the first submission.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

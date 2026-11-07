@@ -22,6 +22,8 @@ const toc = [
   { id: "controls", label: "Controls the Australian parent relies on" },
   { id: "standards", label: "Indian accounts and the group pack" },
   { id: "prepare", label: "Preparing the Indian close" },
+  { id: "caro", label: "What the Indian auditor's report covers" },
+  { id: "close-calendar", label: "A practical year-end calendar" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,7 @@ const faqs = [
   { q: "When is the first Indian auditor appointed?", a: "By the board within 30 days of incorporation." },
   { q: "Is a tax audit always needed?", a: "Only when turnover crosses the threshold in the Income-tax Act." },
   { q: "What is Form 48?", a: "The accountant's report on international transactions, previously Form 3CEB." },
+  { q: "What is CARO?", a: "The Companies (Auditor's Report) Order, which adds specific comments to the Indian auditor's report on assets, dues, loans and related matters." },
 ]
 
 const relatedCards = [
@@ -160,6 +163,27 @@ export default function AuditIcofrPage() {
           <li>Keep agreements and evidence for every charge to or from the parent.</li>
           <li>Agree with the group auditor which period the component work covers.</li>
         </ul>
+        <h2 id="caro" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Indian auditor&apos;s report covers</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Beyond the opinion on the accounts, the Indian report usually includes the Companies (Auditor&apos;s Report) Order, which applies to most private companies other than the smallest. It asks the auditor to comment on fixed assets, inventory, loans, statutory dues, related party transactions and other matters. For companies above the size thresholds, the auditor also reports on internal financial controls over financial reporting. Australian group finance teams should read these annexures, because an adverse comment on statutory dues or controls is often the first sign of a problem in the Indian company.
+        </p>
+
+        <h2 id="close-calendar" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A practical year-end calendar</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">When</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian step</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">April</th><td className="border border-gray-300 p-3">Close the books to 31 March and send the group pack for the parent&apos;s March quarter</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">May to July</th><td className="border border-gray-300 p-3">Fieldwork by the Indian auditor; tax audit and transfer pricing report prepared</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">By 30 September</th><td className="border border-gray-300 p-3">Board approval of accounts and the AGM</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Within 30 days of the AGM</th><td className="border border-gray-300 p-3">File the accounts with the Registrar</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Running the Indian close in April also gives the Australian parent reliable numbers for its 30 June year without waiting for the statutory sign-off.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

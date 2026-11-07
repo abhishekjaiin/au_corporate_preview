@@ -22,6 +22,8 @@ const toc = [
   { id: "pf", label: "Provident fund with no agreement" },
   { id: "russian-side", label: "Russian tax and contributions" },
   { id: "policy", label: "Writing the assignment policy" },
+  { id: "no-agreement-effect", label: "What the missing social security agreement costs" },
+  { id: "reduce-cost", label: "Ways to manage the social security cost" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,7 @@ const faqs = [
   { q: "Are housing allowances taxable in India?", a: "Generally yes, as perquisites." },
   { q: "Do Russian contributions continue?", a: "They may, for employees kept on Russian contracts; confirm with a Russian adviser." },
   { q: "Who deducts Indian tax?", a: "The Indian employer, through payroll." },
+  { q: "Is there a social security exemption for Russian employees in India?", a: "No. India and Russia have no social security agreement, so Russian employees on Indian payroll contribute to the provident fund as international workers." },
 ]
 
 const relatedCards = [
@@ -154,6 +157,30 @@ export default function RussianEmployeesInIndiaPage() {
           <li>Budget for Indian provident fund on full salary.</li>
           <li>Keep a day-count log for treaty and residence tests.</li>
         </ul>
+        <h2 id="no-agreement-effect" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the missing social security agreement costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India has social security agreements with about twenty countries. These agreements give an exemption from the Indian provident fund to workers who stay in their home scheme. Russia has no such agreement with India, so there is no exemption, and a Russian employee on Indian payroll is an international worker under the provident fund rules.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Contributions on full wages.</strong> The usual wage ceiling for provident fund does not apply to international workers, so 12% employer and 12% employee contributions are calculated on the whole of basic wages.</li>
+          <li><strong>Withdrawal.</strong> An international worker from a country without an agreement can usually withdraw the balance only at retirement age or on permanent incapacity, not simply on leaving India.</li>
+          <li><strong>Double cost.</strong> If Russian social contributions also continue, the group pays into two social security systems for the same person.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Example.</strong> A Russian engineer with basic wages of ₹30 lakh a year costs the Indian company ₹3.6 lakh a year in employer provident fund contributions, and the same amount is deducted from the engineer&apos;s pay. A colleague from a country with an agreement and a certificate of coverage would pay neither.
+        </p>
+
+        <h2 id="reduce-cost" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Ways to manage the social security cost</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Keep short visits to India within the treaty&apos;s short-stay conditions so that the employee stays on Russian payroll and outside Indian provident fund.</li>
+          <li>Structure the package so that basic wages are a sensible share of total pay, within the labour codes&apos; 50% wage rule.</li>
+          <li>Explain the provident fund position to the employee before the move, including the restricted withdrawal rules.</li>
+          <li>Review the position each year, because an agreement or a change in Indian rules would change the answer.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          See <Link href="/russia-to-india/relocate-russian-staff" className="text-blue-800 font-semibold hover:underline">relocating Russian staff</Link> for residency and arrival, and our <Link href="/payroll-expat-services" className="text-blue-800 font-semibold hover:underline">payroll and expat services</Link> for the Indian payroll.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

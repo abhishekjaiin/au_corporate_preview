@@ -22,6 +22,7 @@ const toc = [
   { id: "beneficial", label: "Beneficial ownership and the land-border test" },
   { id: "practical", label: "The practical obstacles" },
   { id: "next", label: "Next steps" },
+  { id: "sectoral-caps", label: "Sectoral caps that matter to Russian investors" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -176,6 +177,23 @@ export default function IndiaFdiRulesForRussianCompaniesPage() {
           and{" "}
           <Link href="/russia-to-india/funding-and-fema" className="text-blue-800 font-semibold hover:underline">funding and FEMA</Link>.
         </p>
+        <h2 id="sectoral-caps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Sectoral caps that matter to Russian investors</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Sector</th><th scope="col" className="border border-gray-300 p-3 text-left">FDI position</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Most manufacturing and services</th><td className="border border-gray-300 p-3">100% FDI on the Automatic Route</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Defence manufacturing</th><td className="border border-gray-300 p-3">Up to 74% on the Automatic Route; above that with government approval</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Telecom services</th><td className="border border-gray-300 p-3">100% on the Automatic Route</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Print media and news</th><td className="border border-gray-300 p-3">Government approval with lower caps</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Atomic energy, lottery, gambling</th><td className="border border-gray-300 p-3">FDI prohibited</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each sectoral cap is set by the FDI Policy and its press notes and changes over time, so we confirm the current FDI cap for your activity before filing. For a Russian investor, a sector on the Automatic Route needs no prior approval, but the bank and sanctions checks still apply.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

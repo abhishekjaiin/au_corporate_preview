@@ -22,6 +22,7 @@ const toc = [
   { id: "screening", label: "A basic compliance programme" },
   { id: "indian", label: "Indian law and sanctions" },
   { id: "tips", label: "Practical tips" },
+  { id: "payment-ops", label: "Running regular payments in practice" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -32,7 +33,7 @@ const faqs = [
   { q: "Are Indian banks refusing Russian payments?", a: "Some have, after new US sanctions, particularly on oil-related payments. The position changes, so ask your bank." },
   { q: "What is the 50% rule?", a: "Under US sanctions, entities owned 50% or more in aggregate by blocked persons are also blocked. EU and UK rules use ownership and control tests." },
   { q: "Who is responsible for sanctions screening?", a: "The Indian subsidiary and its directors, with support from advisers. The parent should also screen its own side." },
-  { q: "Does the treaty or FDI route help with sanctions?", a: "No. Tax treaties and the FDI route do not remove sanctions or banking restrictions." },
+  { q: "Does the treaty or FDI route help with sanctions?", a: "No. Tax treaties and the FDI route do not remove these restrictions or bank refusals." },
 ]
 
 const relatedCards = [
@@ -175,6 +176,19 @@ export default function SanctionsAndPaymentsForRussianCompaniesPage() {
           <li>Do not use intermediaries or conduits whose only purpose is to hide the Russian origin of funds; it raises more red flags.</li>
           <li>Brief the Indian auditor early.</li>
         </ul>
+        <h2 id="payment-ops" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Running regular payments in practice</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Keep one approved route per payment type, agreed in writing with the Indian bank.</li>
+          <li>Give the bank a standing file: ownership chart, contracts, invoices and the purpose of each recurring flow.</li>
+          <li>Invoice in the currency the route supports, and state it in the contract.</li>
+          <li>Allow extra days in payment terms for bank review, and say so to suppliers and customers.</li>
+          <li>Re-check counterparties and banks every quarter, and whenever lists change.</li>
+          <li>Record every refused or returned payment and the reason, for audit and for the next request.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A stable, well-documented routine is what Indian banks look for. It also supports the transfer pricing file and the FEMA filings when routes or currencies change during the year.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

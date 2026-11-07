@@ -22,6 +22,7 @@ const toc = [
   { id: "tax", label: "Tax on income from India" },
   { id: "data", label: "Data and technology" },
   { id: "sequence", label: "Order of work" },
+  { id: "group-reporting", label: "Group reporting the Russian parent feeds in India" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -171,6 +172,17 @@ export default function RussianParentObligationsPage() {
           use the same ownership chart and funds plan. Do not remit funds before the Russian clearance and
           Indian bank approval are in place.
         </p>
+        <h2 id="group-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Group reporting the Russian parent feeds in India</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Ultimate beneficial owner.</strong> The Indian company records its significant beneficial owners with the Registrar, and the bank keeps its own beneficial ownership declaration; the Russian parent must give the full chain.</li>
+          <li><strong>Master file.</strong> Where the group&apos;s revenue exceeds ₹500 crore and Indian international transactions exceed ₹50 crore, the Indian company files the master file (Form 3CEAA under the old numbering), using information the parent provides.</li>
+          <li><strong>CbCR.</strong> Country-by-country reporting applies at consolidated group revenue of ₹6,400 crore or more; the parent&apos;s report or a local filing may be needed in India.</li>
+          <li><strong>Group accounts.</strong> The parent consolidates the Indian company on the calendar year, so it needs Indian figures re-cut from the 31 March year.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          These are parent-driven filings: the Indian company cannot complete them without information from Moscow. Agree a yearly information request, and see <Link href="/russia-to-india/transfer-pricing" className="text-blue-800 font-semibold hover:underline">transfer pricing between India and Russia</Link>.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

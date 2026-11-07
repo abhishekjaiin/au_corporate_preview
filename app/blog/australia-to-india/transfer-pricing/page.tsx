@@ -22,6 +22,10 @@ const toc = [
   { id: "ato-side", label: "The ATO side" },
   { id: "years", label: "True-ups across 31 March and 30 June" },
   { id: "certainty", label: "Safe harbour, APAs and MAP" },
+  { id: "range", label: "How India tests the arm's length price" },
+  { id: "master-file", label: "Master file and country-by-country reporting" },
+  { id: "agreements", label: "Intercompany agreements that hold up in India" },
+  { id: "penalties", label: "Penalties for missing documentation" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +39,8 @@ const faqs = [
   { q: "What is a significant global entity?", a: "A group with global income of A$1 billion or more, which has extra ATO obligations." },
   { q: "Can India and Australia agree a method in advance?", a: "Yes, through a bilateral Advance Pricing Agreement." },
   { q: "What happens if both countries tax the same profit?", a: "The taxpayer can request the Mutual Agreement Procedure under Article 25 of the treaty." },
+  { q: "How does India decide whether a transfer price is at arm's length?", a: "By comparing the Indian company's margin with independent comparables, using the 35th to 65th percentile range where there are six or more." },
+  { q: "Can the Indian filing reuse the ATO master file?", a: "Usually yes, where the Indian thresholds are met, with an Indian notification naming the reporting entity." },
 ]
 
 const relatedCards = [
@@ -165,6 +171,41 @@ export default function TransferPricingPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           India&apos;s safe harbour rules give fixed margins for some services. For larger flows, an Advance Pricing Agreement, unilateral with India or bilateral with India and the ATO, fixes the method for future years. Disputes that still lead to double tax can go to the Mutual Agreement Procedure under Article 25 of the treaty.
         </p>
+        <h2 id="range" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How India tests the arm&apos;s length price</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian transfer pricing compares the Indian company&apos;s result with a set of independent comparables, and the rules decide which part of that set is acceptable:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>With six or more comparables, the acceptable range runs from the 35th to the 65th percentile. A result inside the range is accepted; a result outside it is moved to the median.</li>
+          <li>With fewer than six, the arithmetic mean applies, with a tolerance of 3% (1% for wholesale traders).</li>
+          <li>Indian benchmarking normally uses Indian comparables from Indian databases, while the ATO file for the same transaction may rely on Asia-Pacific or global sets. Explain any gap between the two in both files.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Example.</strong> An Indian software team costs ₹8 crore a year and bills the Australian parent at cost plus 10%. If the Indian comparables show a range of 13% to 18% with a median of 15%, the Indian tax officer would lift the mark-up to 15%, adding ₹40 lakh to Indian taxable income. Unless the ATO accepts a matching reduction through the Mutual Agreement Procedure, that ₹40 lakh is taxed twice.
+        </p>
+
+        <h2 id="master-file" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Master file and country-by-country reporting</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Where the group&apos;s revenue exceeds ₹500 crore and the Indian company&apos;s international transactions exceed ₹50 crore, the Indian company also files a master file. Country-by-country reporting applies at consolidated group revenue of ₹6,400 crore or more. Australian significant global entities already prepare the OECD master file and country-by-country report for the ATO, so the Indian filing can usually reuse them, with an Indian notification naming the reporting entity.
+        </p>
+
+        <h2 id="agreements" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Intercompany agreements that hold up in India</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Describe each service specifically: who does what, for whom, and what the Indian company receives.</li>
+          <li>State the method and the mark-up, and how a year-end true-up is calculated and invoiced.</li>
+          <li>Fix the invoicing currency, usually Australian or US dollars, and who bears exchange differences.</li>
+          <li>Address ownership of software and other intellectual property created in India.</li>
+          <li>Stamp the agreement under Indian stamp law before relying on it in India.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian officers ask for the signed agreement first, then the invoices, then the study. If the three agree with the Division 815 documentation and the International Dealings Schedule, most queries close quickly. See <Link href="/australia-to-india/repatriating-profits" className="text-blue-800 font-semibold hover:underline">repatriating profits to Australia</Link> for how service fees and royalties are paid.
+        </p>
+
+        <h2 id="penalties" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Penalties for missing documentation</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An Indian adjustment is taxed at the normal rate with interest. Missing documentation, failure to produce it on request and a late or missing Form 48 each carry their own penalties, and under-reported income from an adjustment can attract a further penalty on the tax. Australian parents should treat the Indian file as seriously as the ATO&apos;s reportable tax position schedule.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

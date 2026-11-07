@@ -22,6 +22,8 @@ const toc = [
   { id: "annual", label: "Annual Indian filings" },
   { id: "screening", label: "Screening and KYC dates" },
   { id: "moscow", label: "Figures the Russian parent needs" },
+  { id: "gst-returns", label: "GST returns and other recurring compliance filings" },
+  { id: "calendar-owner", label: "Who owns the compliance calendar" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,7 @@ const faqs = [
   { q: "Why is sanctions screening in the calendar?", a: "Because bank KYC and counterparty checks for Russian-owned companies need regular refreshing." },
   { q: "When is Withholding Tax on payments to Russia deposited?", a: "By the 7th of the following month." },
   { q: "Who files director KYC?", a: "Every director, by 30 September." },
+  { q: "When are GST returns due?", a: "GSTR-1 by the 11th and GSTR-3B by the 20th of the next month, or quarterly under the QRMP scheme; the annual return by 31 December." },
 ]
 
 const relatedCards = [
@@ -170,6 +173,30 @@ export default function ComplianceCalendarPage() {
           <li>Information for foreign participation and account notifications to the Russian tax authority.</li>
           <li>Records for currency control on capital, dividends and repayments.</li>
         </ul>
+        <h2 id="gst-returns" className="text-2xl font-bold text-gray-900 mt-12 mb-4">GST returns and other recurring compliance filings</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Filing</th><th scope="col" className="border border-gray-300 p-3 text-left">Frequency</th><th scope="col" className="border border-gray-300 p-3 text-left">Due date</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-1 (outward supplies)</th><td className="border border-gray-300 p-3">Monthly, or quarterly under the QRMP scheme</td><td className="border border-gray-300 p-3">11th of the next month; 13th after the quarter under QRMP</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-3B (summary return and tax payment)</th><td className="border border-gray-300 p-3">Monthly, or quarterly under QRMP</td><td className="border border-gray-300 p-3">20th of the next month; 22nd or 24th after the quarter under QRMP, depending on the state</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-9 and GSTR-9C (annual return and reconciliation)</th><td className="border border-gray-300 p-3">Annual</td><td className="border border-gray-300 p-3">31 December after the year end; the reconciliation applies above the turnover threshold</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">TDS returns</th><td className="border border-gray-300 p-3">Quarterly</td><td className="border border-gray-300 p-3">31 July, 31 October, 31 January and 31 May</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Advance tax</th><td className="border border-gray-300 p-3">Quarterly instalments</td><td className="border border-gray-300 p-3">15 June, 15 September, 15 December and 15 March</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Return of deposits (DPT-3)</th><td className="border border-gray-300 p-3">Annual</td><td className="border border-gray-300 p-3">30 June</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">MSME payments return</th><td className="border border-gray-300 p-3">Half-yearly where dues to micro and small suppliers are outstanding beyond 45 days</td><td className="border border-gray-300 p-3">31 October and 30 April</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          GST returns are the filings Russian-owned companies most often get wrong, because services bought from the Russian parent are usually taxed under reverse charge in GSTR-3B, and the credit must then be claimed in the same return. Missing that creates interest and mismatches that show up in notices.
+        </p>
+
+        <h2 id="calendar-owner" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Who owns the compliance calendar</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The compliance calendar works best when one person in India owns it and one person in Moscow receives a monthly status report. We maintain the calendar, file the Indian returns and send the Russian parent a short monthly summary of what was filed, what was paid and what is coming up, so that sanctions re-screening and bank KYC refreshes are planned alongside the tax dates. See <Link href="/russia-to-india/russian-parent-obligations" className="text-blue-800 font-semibold hover:underline">obligations of the Russian parent</Link> for the parent&apos;s own reports.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

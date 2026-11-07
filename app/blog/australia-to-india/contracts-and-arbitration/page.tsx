@@ -22,6 +22,7 @@ const toc = [
   { id: "arbitration", label: "Setting up arbitration" },
   { id: "stamp", label: "Stamp duty and execution" },
   { id: "templates", label: "Changing Australian templates" },
+  { id: "seats", label: "SIAC, LCIA or ACICA" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -169,6 +170,11 @@ export default function ContractsAndArbitrationPage() {
           <li>Draft liquidated damages as a genuine pre-estimate, because Indian courts award reasonable compensation up to the amount.</li>
           <li>Add Indian data protection terms under the Digital Personal Data Protection Act.</li>
         </ul>
+        <h2 id="seats" className="text-2xl font-bold text-gray-900 mt-12 mb-4">SIAC, LCIA or ACICA</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Australian groups usually choose between SIAC in Singapore, ACICA in Sydney and the LCIA in London. All three produce awards enforceable in India under the New York Convention. SIAC is often preferred for Indian counterparties because of its familiarity and location; ACICA suits contracts governed by Australian law. Name the institution, seat, language and number of arbitrators in the clause.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

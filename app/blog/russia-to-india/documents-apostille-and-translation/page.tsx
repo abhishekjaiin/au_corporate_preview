@@ -21,6 +21,8 @@ const toc = [
   { id: "process", label: "Process" },
   { id: "pitfalls", label: "Pitfalls" },
   { id: "india-side", label: "On the Indian side" },
+  { id: "bank-kyc", label: "The bank KYC pack after incorporation" },
+  { id: "consularisation", label: "Do Russian documents need consularisation?" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -32,6 +34,8 @@ const faqs = [
   { q: "How recent must the documents be?", a: "Banks and the Registrar commonly want registry extracts and similar documents within three to six months. Ask each recipient." },
   { q: "Do directors need Indian credentials?", a: "Yes. Each proposed director needs a Director Identification Number and a Digital Signature Certificate." },
   { q: "Why do names matter so much?", a: "Indian systems and banks reject near matches, so the transliteration of names must be identical in every document." },
+  { q: "Which documents does the Indian bank need from a Russian-owned company?", a: "The certificate of incorporation, PAN, memorandum and articles, a board resolution, director and signatory KYC and a beneficial ownership declaration." },
+  { q: "Is consular legalisation needed for Russian documents?", a: "No. An apostille replaces consularisation between India and Russia." },
 ]
 
 const relatedCards = [
@@ -124,13 +128,13 @@ export default function DocumentsApostilleAndTranslationPage() {
             </thead>
             <tbody>
               {[
-                ["Extract from the register of legal entities", "Federal Tax Service", "Apostille, certified English translation"],
-                ["Charter of the company", "Russian company", "Notarised copy, apostille, translation"],
-                ["Decision of the board or shareholders to invest", "Russian company", "Notarised signatures, apostille, translation"],
+                ["Extract from the register of legal entities", "Federal Tax Service", "Authenticated, with certified English translation"],
+                ["Charter of the company", "Russian company", "Notarised copy, authenticated, translated"],
+                ["Decision of the board or shareholders to invest", "Russian company", "Notarised signatures, authenticated, translated"],
                 ["Passport copies and address proof of directors", "Individuals", "Notarised copies, translation of any Russian parts"],
-                ["Financial statements or net worth certificate", "Russian auditor or accountant", "Notarised, apostille, translation"],
+                ["Financial statements or net worth certificate", "Russian auditor or accountant", "Notarised, authenticated, translated"],
                 ["Ultimate beneficial owner chart and declarations", "Company", "Signed declaration, notarised where requested"],
-                ["Power of attorney for Indian signatories", "Company", "Notarised, apostille, translation, stamped in India"],
+                ["Power of attorney for Indian signatories", "Company", "Notarised, authenticated, translated, stamped in India"],
               ].map((row, i) => (
                 <tr key={row[0]} className={i % 2 === 1 ? "bg-gray-50" : undefined}>
                   <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">{row[0]}</th>
@@ -168,6 +172,24 @@ export default function DocumentsApostilleAndTranslationPage() {
           Banking evidence is in{" "}
           <Link href="/russia-to-india/sanctions-and-payments-for-russian-companies" className="text-blue-800 font-semibold hover:underline">sanctions and payments</Link>.
         </p>
+        <h2 id="bank-kyc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The bank KYC pack after incorporation</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Once the Indian company exists, the bank asks for a second set of documents to open its account. For a Russian-owned company the bank&apos;s KYC review is usually the slowest step, so prepare this pack while the incorporation is filed:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Certificate of incorporation, PAN and the memorandum and articles.</li>
+          <li>Board resolution of the Indian company opening the account and naming the signatories.</li>
+          <li>Identity and address proof for each director and signatory, with the authenticated copies used for incorporation.</li>
+          <li>Declaration of beneficial ownership showing the chain up to the individuals, with percentages.</li>
+          <li>The Russian parent&apos;s register extract and charter, as authenticated for the incorporation.</li>
+          <li>Details of the remitting bank and route for the first share capital.</li>
+        </ul>
+
+        <h2 id="consularisation" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Do Russian documents need consularisation?</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          No. Because both countries belong to the Apostille Convention, consularisation, meaning legalisation by the Indian embassy or consulate, is not needed for public and notarised documents. A document without proper authentication, or a translation that is not covered by it, is the usual reason the Registrar or the bank sends documents back. Documents for a country outside the Convention would still need consular legalisation, which matters if the shareholder is a Russian group company registered elsewhere.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">

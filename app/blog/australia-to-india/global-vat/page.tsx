@@ -23,6 +23,7 @@ const toc = [
   { id: "india", label: "GST in India and your Indian subsidiary" },
   { id: "australian-parent", label: "What this means for an Australian parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "export-of-services", label: "When the Indian company exports services to Australia" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +36,7 @@ const faqs = [
   { q: "Are exports GST-free in Australia?", a: "Exports of goods and most services to overseas customers are generally GST-free in Australia, which means no GST is charged but you can still claim input tax credits for the GST on your costs. You need evidence of the export. GST-free treatment in Australia does not remove any VAT or GST obligation in the customer's country." },
   { q: "Does an Australian company need to register for GST in India?", a: "An Australian company needs to register for GST in India if it supplies online information and database access or retrieval (OIDAR) services, such as software, apps or cloud services, to consumers in India. The simplified OIDAR registration applies, 18% GST is charged and a monthly return is filed. Supplies to business customers in India are usually under reverse charge." },
   { q: "What are the VAT registration thresholds for selling services abroad from Australia?", a: "Thresholds differ by country and by whether the seller is established there: the UK has none for non-UK businesses, the EU micro-threshold of €10,000 applies only to EU-established sellers, New Zealand is NZ$60,000 for remote services, Singapore overseas vendors register at SGD 100,000 of B2C sales (and SGD 1 million overall), and the UAE has none for foreign businesses. Thresholds change, so confirm before relying on them." },
+  { q: "What is an LUT?", a: "A Letter of Undertaking filed each year that lets an Indian exporter of services supply without paying the tax upfront." },
 ]
 
 const relatedCards = [
@@ -187,6 +189,19 @@ export default function GlobalVatPage() {
           <li>Missing the Indian OIDAR registration when selling online services to Indian consumers.</li>
           <li>Mixing Indian GST and overseas VAT in one return.</li>
         </ul>
+        <h2 id="export-of-services" className="text-2xl font-bold text-gray-900 mt-12 mb-4">When the Indian company exports services to Australia</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The reverse case matters too. When the Indian company provides software, engineering or back-office services to the Australian parent, the supply is usually an export of services from India, which is zero-rated if the conditions are met: the recipient is outside India, the place of supply is outside India, and payment is received in convertible foreign exchange or as otherwise permitted.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Letter of Undertaking (LUT).</strong> Filing an LUT each year lets the Indian company export without paying the tax first.</li>
+          <li><strong>Refunds.</strong> Input tax paid on rent, equipment and services can be refunded, which helps the company&apos;s cash flow.</li>
+          <li><strong>Related parties.</strong> The Indian company and its Australian parent are separate persons, so the export treatment applies, unlike the branch case.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Missing the LUT is a common and avoidable cost for new Indian companies. See <Link href="/australia-to-india/transfer-pricing" className="text-blue-800 font-semibold hover:underline">transfer pricing between Australia and India</Link> for pricing the same services.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

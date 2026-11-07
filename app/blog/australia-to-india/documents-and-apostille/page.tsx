@@ -23,6 +23,8 @@ const toc = [
   { id: "tips", label: "Practical tips" },
   { id: "australian-parent", label: "What this means for an Australian parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "after-incorporation", label: "Documents the Indian bank asks for after incorporation" },
+  { id: "consularisation", label: "Is consularisation ever needed?" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -42,6 +44,7 @@ const faqs = [
   { q: "What does an apostille cost in Australia?", a: "DFAT charges a fee for each document it apostilles, and notaries charge their own fees for the notarisation. Fees change, so check DFAT's current schedule. The cost is small next to the cost of a delayed incorporation." },
   { q: "Does DFAT apostille an ASIC company extract?", a: "It depends on the form of the extract and whether DFAT can verify the issuer's signature. If it cannot, the extract is certified by a notary public and the notary's signature is apostilled. We confirm the route before you order." },
   { q: "Can a notary in any Australian state sign the documents?", a: "Notaries are regulated by each state or territory. Any notary public can notarise, but DFAT must be able to verify the notary's signature and seal, so use a notary on DFAT's records and confirm before the appointment." },
+  { q: "What does the Indian bank need to open the company's account?", a: "The certificate of incorporation, PAN, memorandum and articles, a board resolution, KYC of directors and signatories and a beneficial ownership declaration." },
 ]
 
 const relatedCards = [
@@ -192,6 +195,23 @@ export default function DocumentsAndApostillePage() {
           <li>Mismatches between the parent&apos;s name, ACN or address on different documents.</li>
           <li>Waiting until after incorporation planning to start the Australian documents.</li>
         </ul>
+        <h2 id="after-incorporation" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Documents the Indian bank asks for after incorporation</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Once the certificate of incorporation is issued, the Indian bank opens the company&apos;s account against a second document set. Prepare it while the incorporation is being filed:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The certificate of incorporation, PAN, and the memorandum and articles.</li>
+          <li>A board resolution of the Indian company opening the account and naming the signatories.</li>
+          <li>Identity and address proof for each director and signatory.</li>
+          <li>A beneficial ownership declaration tracing the Australian parent to its ultimate owners.</li>
+          <li>The ASIC extract and constitution of the parent, as authenticated for the incorporation.</li>
+        </ul>
+
+        <h2 id="consularisation" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Is consularisation ever needed?</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Not for Australian public documents. Because Australia and India both belong to the Hague Convention, consularisation by the Indian High Commission is not required. It can still arise if a shareholder is a group company registered in a country outside the Convention, so check where each signing entity is registered before ordering documents.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

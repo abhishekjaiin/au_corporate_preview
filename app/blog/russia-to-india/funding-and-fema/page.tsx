@@ -22,6 +22,10 @@ const toc = [
   { id: "instruments", label: "Equity, convertibles or a loan" },
   { id: "evidence", label: "Evidence the Indian bank will ask for" },
   { id: "russia", label: "Russian approvals and currency control" },
+  { id: "share-capital", label: "Share capital: how much and in what form" },
+  { id: "pricing", label: "FEMA pricing guidelines for shares issued to Russia" },
+  { id: "after-allotment", label: "Company-law filings after each allotment" },
+  { id: "later-rounds", label: "Later funding rounds: rights issue or private placement" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +39,10 @@ const faqs = [
   { q: "What is the Indian tax on interest paid to Russia?", a: "Up to 10% under the India-Russia treaty." },
   { q: "Is Russian approval needed?", a: "Reportedly above RUB 30 million per counterparty, from the Bank of Russia." },
   { q: "What evidence will the Indian bank want?", a: "Ownership chart, source of funds, screening confirmation and business rationale." },
+  { q: "Is there a minimum share capital for a Russian-owned Indian company?", a: "No. Indian law sets no minimum; plan enough capital for the first 12 to 18 months." },
+  { q: "What are the FEMA pricing guidelines?", a: "Shares issued to a non-resident must be priced at no less than fair value, certified by a Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant." },
+  { q: "Can the Russian parent fund the Indian company through a loan instead of shares?", a: "Yes, as an external commercial borrowing under the RBI's framework, through the AD bank, with a loan registration number obtained before drawdown and monthly reporting afterwards. Interest is taxed at up to 10% under the treaty. For a Russian lender, repayments must later cross the same banking route, which is why equity is usually simpler." },
+  { q: "What happens if shares are not allotted within 60 days?", a: "The money must be refunded to the Russian parent within the following 15 days. If it is neither allotted nor refunded in time, the delay is a FEMA contravention that usually needs compounding, so we fix the allotment date before the remittance is sent." },
 ]
 
 const relatedCards = [
@@ -157,6 +165,51 @@ export default function FundingAndFemaPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Under Russian currency control, share investments abroad above the reported threshold of RUB 30 million per counterparty need Bank of Russia approval, counted with earlier transactions with the same counterparty. The parent also notifies the Russian tax authority of foreign participations and accounts. Confirm the current rules with a Russian adviser before remitting.
         </p>
+        <h2 id="share-capital" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Share capital: how much and in what form</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian company law sets no minimum share capital, so the amount is a business decision: enough to fund the first 12 to 18 months of rent, salaries and set-up costs, because further rounds from Russia take time to clear the banking route. The Indian company first fixes its authorised capital, the ceiling up to which shares can be issued, in its articles at incorporation; stamp duty and filing fees depend on that figure and the state.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Instrument</th><th scope="col" className="border border-gray-300 p-3 text-left">Treated as</th><th scope="col" className="border border-gray-300 p-3 text-left">Point for a Russian parent</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Equity shares</th><td className="border border-gray-300 p-3">Foreign direct investment</td><td className="border border-gray-300 p-3">Simplest; no repayment flow to Russia</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Compulsorily convertible preference shares or debentures</th><td className="border border-gray-300 p-3">Foreign direct investment</td><td className="border border-gray-300 p-3">Conversion terms must be fixed at issue under the pricing rules</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Optionally convertible or non-convertible instruments</th><td className="border border-gray-300 p-3">External commercial borrowing</td><td className="border border-gray-300 p-3">Interest and principal must later cross the same banking route</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          For most Russian groups, a single larger equity round is better than several small ones, because each remittance needs its own bank approval, FIRMS reporting and FC-GPR filing.
+        </p>
+
+        <h2 id="pricing" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA pricing guidelines for shares issued to Russia</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Under the FEMA pricing guidelines, shares of an unlisted Indian company issued to a non-resident must be priced at no less than their fair value. Fair value is worked out using an internationally accepted pricing method and certified by a Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant. At incorporation, shares are usually issued at face value, because a new company&apos;s fair value equals its capital.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Later rounds</strong> need a fresh valuation dated close to the issue.</li>
+          <li><strong>Convertibles</strong> must state the conversion formula at the time of issue, and the price on conversion cannot be lower than the fair value at issue.</li>
+          <li><strong>Russian valuation</strong> of the investment for Bank of Russia or currency control purposes is a separate exercise; keep the two consistent.</li>
+        </ul>
+
+        <h2 id="after-allotment" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Company-law filings after each allotment</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The board passes a resolution allotting the shares to the Russian parent and any nominee.</li>
+          <li>The return of allotment is filed with the Registrar of Companies within 30 days.</li>
+          <li>Share certificates, or demat credits where the company must issue shares in demat form, are issued to the shareholders.</li>
+          <li>Form FC-GPR is filed on the RBI&apos;s FIRMS portal within 30 days of allotment, with the valuation certificate and the bank&apos;s foreign inward remittance certificate.</li>
+          <li>The FLA return reports the investment each year by 15 July.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Missing any of these is a FEMA contravention that may need compounding. See <Link href="/russia-to-india/incorporation-steps" className="text-blue-800 font-semibold hover:underline">the incorporation steps</Link> for the first capital and our <Link href="/fema-rbi-compliance" className="text-blue-800 font-semibold hover:underline">FEMA and RBI compliance</Link> service.
+        </p>
+        <h2 id="later-rounds" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Later funding rounds: rights issue or private placement</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          After the first capital, a Russian parent usually adds funds through a rights issue, offering new shares to existing shareholders in proportion to their holdings. It is simpler than a private placement, which needs an offer letter, a separate bank account for the money and extra filings. Either way, each round needs a fresh valuation under the FEMA pricing guidelines, an allotment within 60 days and its own FC-GPR. Planning one larger round instead of several small ones saves both FEMA filings and bank reviews.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -22,6 +22,8 @@ const toc = [
   { id: "triggers", label: "When a fresh certificate is needed" },
   { id: "aud", label: "Rupee price, Australian dollar books" },
   { id: "errors", label: "Errors to avoid" },
+  { id: "two-rules", label: "FEMA pricing guidelines and Rule 11UA: two different tests" },
+  { id: "methods", label: "Methods valuers use" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,7 @@ const faqs = [
   { q: "What limit applies when the parent sells to an Indian buyer?", a: "The price cannot exceed fair value." },
   { q: "What happens if shares are issued below fair value?", a: "The issue breaches FEMA pricing and needs correction, often through compounding." },
   { q: "Which method is used for a captive centre?", a: "Often discounted cash flow or net assets, reflecting its cost-plus remuneration." },
+  { q: "What is Rule 11UA?", a: "The Indian income tax rule that sets how the fair market value of unlisted shares is worked out for tax purposes." },
 ]
 
 const relatedCards = [
@@ -157,6 +160,30 @@ export default function ShareValuationPage() {
           <li>Using a valuation certificate from an earlier round for a new issue.</li>
           <li>Assuming the group&apos;s impairment model satisfies FEMA pricing.</li>
         </ul>
+        <h2 id="two-rules" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA pricing guidelines and Rule 11UA: two different tests</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Rule</th><th scope="col" className="border border-gray-300 p-3 text-left">Purpose</th><th scope="col" className="border border-gray-300 p-3 text-left">What it requires</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">FEMA pricing guidelines</th><td className="border border-gray-300 p-3">Protect against money leaving India too cheaply or entering too dear</td><td className="border border-gray-300 p-3">Issue to a non-resident at no less than fair value; transfer from a non-resident at no more than fair value</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Income tax valuation (Rule 11UA)</th><td className="border border-gray-300 p-3">Tax shares issued or transferred below fair market value</td><td className="border border-gray-300 p-3">Fair market value under the prescribed methods for gift-type and transfer pricing purposes</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The two tests can give different answers for the same transaction, so a well-drafted valuation report addresses both where they apply. The Indian valuation is also separate from the fair value the Australian parent books under Australian Accounting Standards.
+        </p>
+
+        <h2 id="methods" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Methods valuers use</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Discounted cash flow:</strong> the usual method for an operating company with a business plan, using projections approved by the board.</li>
+          <li><strong>Net asset value:</strong> common for new or asset-holding companies, and at incorporation, where shares are issued at face value.</li>
+          <li><strong>Market multiples:</strong> used where listed comparables exist, as a cross-check.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Give the valuer projections that match those used for the Australian board and the transfer pricing model, so the numbers tell one consistent story.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
