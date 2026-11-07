@@ -25,6 +25,7 @@ const toc = [
   { id: "example-tax", label: "A worked example of the employee tax" },
   { id: "communication", label: "Explaining equity to Indian employees" },
   { id: "accounting", label: "Accounting for share-based payments in India" },
+  { id: "checklist-esop", label: "Checklist before the first grant to Indian staff" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -162,6 +163,11 @@ export default function EsopIndiaForeignOwnedCompaniesPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           The Indian company recognises an expense for awards to its employees over the vesting period under Indian accounting standards, based on the fair value at grant, whether the shares are its own or the parent&apos;s. Where the parent recharges the cost, the recharge is recorded against that expense. The auditors will ask for the plan rules, the grant data and the fair value calculation, so obtain these from the plan administrator before the year end.
         </p>
+        <h2 id="checklist-esop" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Checklist before the first grant to Indian staff</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Confirm that the plan rules allow awards to employees of the Indian company, agree how and when exercise data reaches the Indian payroll, decide whether the parent will recharge the cost, prepare an employee guide on Indian tax, and set up the monthly withholding process. Doing this before the first grant avoids most problems at the first vesting date.
+        </p>
+
 
 
 

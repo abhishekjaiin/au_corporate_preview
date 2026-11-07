@@ -24,6 +24,7 @@ const toc = [
   { id: "process", label: "How a valuation engagement runs" },
   { id: "information", label: "Information the valuer will ask for" },
   { id: "example", label: "A worked example" },
+  { id: "records", label: "Keeping the paperwork" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -180,6 +181,11 @@ export default function ShareValuationIndiaRegisteredValuerFemaPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           A foreign parent wants to subscribe for further shares in its Indian company, which has net assets of ₹4 crore and a five-year plan showing growing profits. The discounted cash flow method gives an equity value of ₹12 crore, or ₹1,200 per share on 1,00,000 shares. Under FEMA the new shares must be issued at not less than ₹1,200 per share. If the parent instead subscribed at face value of ₹10, the issue would breach the pricing rules, the FC-GPR would be rejected, and the shortfall could be questioned for tax. Issuing at or above the certified figure, with the certificate dated close to the allotment, avoids both problems.
         </p>
+        <h2 id="records" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping the paperwork</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Keep each signed certificate or report with the board resolution, the bank&apos;s remittance documents and the RBI filing it supported. Auditors, banks and tax officers may ask for them years later, often when a later transaction is reviewed, and a complete file avoids repeating the work.
+        </p>
+
 
 
 
