@@ -38,6 +38,60 @@ export function BranchOfficeDepth() {
       </DepthSection>
 
       <DepthSection
+        id="bo-lo-po"
+        tint
+        title="Branch, Liaison or Project Office: Which One Fits?"
+        intro="All three are offices of the foreign parent rather than Indian companies, and all three are approved under FEMA on Form FNC. What they may do, and what the head office must prove, is very different."
+      >
+        <DepthTable
+          head={["Point", "Branch", "Liaison office", "Project office"]}
+          rows={[
+            ["Can it earn income in India?", "Yes, from its permitted business activities", "No. It is funded entirely by the parent", "Yes, but only from the specific contract"],
+            ["Track record of the parent", "Profits in each of the last five years", "Profits in each of the last three years", "No track-record test"],
+            ["Minimum net worth", "USD 100,000", "USD 50,000", "No net worth test"],
+            ["What it is approved for", "Listed activities such as services, trading, agency and technical support", "Representation and communication only", "One contract awarded by an Indian company"],
+            ["How long it lasts", "No fixed term", "Typically three years, extendable", "Until the project is completed"],
+            ["Who approves", "AD bank, or the RBI for restricted countries and sectors", "AD bank, or the RBI for restricted countries and sectors", "AD bank, where a funding condition is met"],
+          ]}
+        />
+        <DepthP>
+          In practice the choice turns on two questions. First, will the India office earn revenue? If not, a{" "}
+          <DepthLink href="/liaison-office-registration">liaison office</DepthLink> is cheaper to run and simpler to close.
+          Second, is the work tied to one Indian contract, such as an engineering or construction project? Then a{" "}
+          <DepthLink href="/project-office-registration">project office</DepthLink> avoids the track-record tests altogether.
+          For open-ended, revenue-earning work in the parent&apos;s own name, a branch is the fit, unless the plan
+          includes manufacturing, retail or a large local team, in which case an{" "}
+          <DepthLink href="/india-subsidiary-registration">Indian subsidiary</DepthLink> under the automatic route is usually
+          better. A subsidiary also needs no FNC approval: foreign investment in most sectors goes in under the
+          automatic route and is reported to the RBI afterwards.
+        </DepthP>
+      </DepthSection>
+
+      <DepthSection
+        id="first-90-days"
+        title="Your First 90 Days After Approval"
+        intro="The approval letter from the authorised dealer bank is the start, not the finish. These steps make the India office able to hire, invoice and receive money."
+      >
+        <DepthTable
+          head={["When", "Step", "Why it matters"]}
+          rows={[
+            ["Within days of approval", "Receive the Unique Identification Number (UIN) and check every activity listed in the approval letter", "The office may only do what the letter lists; errors are easier to correct now"],
+            ["Before opening", "Sign the lease for the Indian office address", "The address goes on every registration that follows"],
+            ["Within 30 days of setting up", "File Form FC-1 with the Registrar of Companies under the Ministry of Corporate Affairs, naming a resident authorised representative", "Late filing attracts additional fees and is visible on the public record"],
+            ["Weeks 2 to 6", "Apply for PAN and TAN for the foreign parent's India office", "PAN is needed for the bank account and tax; TAN is needed before paying salaries or vendors"],
+            ["Weeks 3 to 8", "Open the current account with the AD bank and receive the first remittance from the head office", "All funding must arrive through banking channels and be traceable to the parent"],
+            ["Where needed", "Register for GST, Shops and Establishments, professional tax, and EPF and ESI once staff are hired", "Each is triggered by the activity or headcount, not by the approval itself"],
+          ]}
+        />
+        <DepthP>
+          We run these steps in parallel wherever the law allows, so the office is normally ready to hire and invoice
+          within two months of approval. After that, ongoing filings move to our{" "}
+          <DepthLink href="/branch-office-payroll-compliance">payroll and labour law</DepthLink> and{" "}
+          <DepthLink href="/branch-office-accounting-audit">accounting and audit</DepthLink> teams.
+        </DepthP>
+      </DepthSection>
+
+      <DepthSection
         id="tax"
         tint
         title="How a Branch Office Is Taxed in India"

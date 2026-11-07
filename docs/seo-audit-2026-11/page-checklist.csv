@@ -1,0 +1,253 @@
+Sheet,URL,Audit action,Words (audit),Words (now),Required words,Density term,Density (audit),Density (now),Required density,Similarity (audit),Similarity (now),Open issues,Status
+AU Service Pages,/,Minor expansion (+24 words),2176,2250,2200,subsidiary,1.29,1.33,0.8–1.5%,,,,Done
+AU Service Pages,/about,"Navigational page: add trust signals (team, credentials, reviews)",1199,1324,900,AU Corporate,0,1.74,0.6–1.2%,,,density-high,Open
+AU Service Pages,/contact,"Navigational page: add trust signals (team, credentials, reviews)",423,536,400,contact,0.24,0.19,0.8–1.5%,,,density-low,Open
+AU Service Pages,/career,"Navigational page: add trust signals (team, credentials, reviews)",310,420,300,career,0.97,0.71,0.6–1.2%,,,,Done
+AU Service Pages,/compliance-calendar,Expand by ~582 words; add missing LSI,1218,1327,1800,compliance,0.49,0.53,0.6–1.2%,,,"short, density-low",Open
+AU Service Pages,/privacy,No SEO action,352,461,352,privacy,0.85,0.87,0.6–1.2%,,,,Done
+AU Service Pages,/terms,No SEO action,364,473,364,terms,2.2,1.69,0.6–1.2%,,,density-high,Open
+AU Service Pages,/gcc-setup-india,Maintain; add internal links & refresh,6186,6371,4500,GCC,2.12,2.09,1.74–2.5%,,,,Done
+AU Service Pages,/branch-office-registration,Expand by ~1825 words; add missing LSI,1975,3734,3800,branch office,2.48,1.45,1.27–1.86%,,,,Done
+AU Service Pages,/branch-office-fema-rbi-compliance,Minor expansion (+151 words),1649,1865,1800,branch office,2.73,1.82,1.27–1.86%,,,,Done
+AU Service Pages,/foreign-company-roc-compliance,Minor expansion (+272 words),1528,1755,1800,foreign company,1.51,1.31,0.8–1.5%,,,,Done
+AU Service Pages,/branch-office-tax-gst-transfer-pricing,Minor expansion (+164 words),1636,1849,1800,branch office,2.93,1.84,1.27–1.86%,,,,Done
+AU Service Pages,/branch-office-accounting-audit,Minor expansion (+99 words),1501,1729,1600,branch office,2.4,1.62,1.27–1.86%,,,,Done
+AU Service Pages,/branch-office-payroll-compliance,Maintain; add internal links & refresh,1817,2044,1600,branch office,1.98,1.76,1.27–1.86%,,,,Done
+AU Service Pages,/project-office-registration,Minor expansion (+629 words),1871,2554,2500,project office,2.57,2.15,1.67–2.45%,,,,Done
+AU Service Pages,/project-office-fema-rbi-compliance,Minor expansion (+89 words),1511,1738,1600,project office,2.65,2.42,1.67–2.45%,,,,Done
+AU Service Pages,/project-office-tax-gst-transfer-pricing,Maintain; add internal links & refresh,1689,1916,1600,project office,2.66,2.45,1.67–2.45%,,,,Done
+AU Service Pages,/project-office-accounting-audit,Maintain; add internal links & refresh,1505,1732,1500,project office,1.93,1.79,1.67–2.45%,,,,Done
+AU Service Pages,/project-office-payroll-compliance,Maintain; add internal links & refresh,1753,1980,1500,project office,1.65,1.57,1.67–2.45%,,,density-low,Open
+AU Service Pages,/liaison-office-registration,Expand by ~1010 words; add missing LSI,1990,2806,3000,liaison office,2.76,2.35,1.78–2.5%,,,,Done
+AU Service Pages,/liaison-office-fema-rbi-compliance,Minor expansion (+45 words),1555,1782,1600,liaison office,2.83,2.47,1.78–2.5%,,,,Done
+AU Service Pages,/liaison-office-tax-compliance,Minor expansion (+173 words),1327,1554,1500,liaison office,2.86,2.45,1.78–2.5%,,,,Done
+AU Service Pages,/liaison-office-accounting-audit,Minor expansion (+36 words),1364,1591,1400,liaison office,2.49,2.14,1.78–2.5%,,,,Done
+AU Service Pages,/liaison-office-payroll-compliance,Maintain; add internal links & refresh,1652,1879,1400,liaison office,2.12,1.86,1.78–2.5%,,,,Done
+AU Service Pages,/india-subsidiary-registration,Expand by ~1628 words; add missing LSI,2472,4132,4100,subsidiary,2.35,1.11,0.79–1.16%,,,,Done
+AU Service Pages,/accounting-reporting-audit-support,Maintain; add internal links & refresh,3424,3651,3000,accounting,0.82,0.82,0.8–1.5%,,,,Done
+AU Service Pages,/fema-rbi-compliance,Minor expansion (+91 words),2909,3237,3000,FEMA,0.89,0.99,1.07–1.57%,,,density-low,Open
+AU Service Pages,/corporate-tax-gst-transfer-pricing,Maintain; add internal links & refresh,3953,4180,3500,transfer pricing,0.89,0.84,0.8–1.5%,,,,Done
+AU Service Pages,/oidar-gst-registration-india,Maintain; add internal links & refresh,13420,13643,4500,OIDAR,1.39,1.39,1.75–2.5%,,,density-low,Open
+AU Service Pages,/secretarial-roc-compliance,Maintain; add internal links & refresh,3707,3934,3000,ROC,1.48,1.4,0.8–1.5%,,,,Done
+AU Service Pages,/payroll-expat-services,Maintain; add internal links & refresh,4023,4250,3100,payroll,1.67,1.62,2.47–2.5%,,,density-low,Open
+AU Service Pages,/partners/uniproasia,"Navigational page: add trust signals (team, credentials, reviews)",1276,1385,1000,UniproAsia,2.74,2.53,0.6–1.2%,,,density-high,Open
+AU Service Pages,/blog,Listing hub: keep intro 300-500 words; paginate/categorise by country,8756,10825,800,India,3.25,3.08,0.6–1.2%,,,density-high,Open
+AU Service Pages,/insights,Thin hub: add 300-500 word intro + links to all country pillars,15,124,800,India,0,0.0,0.6–1.2%,,,"short, density-low",Open
+AU Service Pages,/case-studies,Thin hub: add 300-500 word intro + links to all country pillars,230,339,800,subsidiary,2.61,2.06,0.6–1.2%,,,"short, density-high",Open
+AU Service Pages,/case-studies/us-saas-captive-centre-india,"Over-optimised: reduce ""captive"" to 0.6-1.2%",2909,3132,1500,captive,2.27,2.17,0.6–1.2%,,,density-high,Open
+AU Service Pages,/case-studies/us-longevity-company-india-subsidiary-14-days,Maintain; add internal links & refresh,2392,2615,1500,subsidiary,1.46,1.41,0.6–1.2%,,,density-high,Open
+AU Service Pages,/case-studies/china-subsidiary-fema-compounding,Maintain; add internal links & refresh,2354,2577,1500,compounding,1.44,1.32,0.6–1.2%,,,density-high,Open
+AU Country Hubs,/blog/usa-to-india,Minor expansion (+273 words),4227,4702,4500,subsidiary,1.14,1.15,0.77–1.14%,,,density-high,Open
+AU Country Hubs,/blog/australia-to-india,"Over-optimised: reduce ""subsidiary"" to 0.5-0.43%",4675,2458,4500,subsidiary,1.11,0.73,0.5–0.43%,,,"short, density-high",Open
+AU Country Hubs,/blog/uk-to-india,Minor expansion (+999 words),3501,3790,4500,subsidiary,0.86,0.9,1.2–1.76%,,,"short, density-low",Open
+AU Country Hubs,/blog/japan-to-india,Maintain; add internal links & refresh,4564,2853,4500,subsidiary,1.18,0.7,0.72–1.06%,,,"short, density-low",Open
+AU Country Hubs,/blog/singapore-to-india,Minor expansion (+890 words),3610,3899,4500,subsidiary,0.69,0.74,0.6–1.2%,,,short,Open
+AU Country Hubs,/blog/germany-to-india,"Over-optimised: reduce ""subsidiary"" to 0.5-0.31%",3682,2326,4500,subsidiary,0.71,0.52,0.5–0.31%,,,"short, density-high",Open
+AU Country Hubs,/blog/china-to-india,Minor expansion (+517 words),3983,4272,4500,subsidiary,0.63,0.68,0.6–1.2%,,,,Done
+AU Country Hubs,/blog/hong-kong-to-india,Minor expansion (+539 words),3961,4250,4500,subsidiary,0.63,0.68,0.6–1.2%,,,,Done
+AU Country Hubs,/blog/russia-to-india,Minor expansion (+611 words),3889,4178,4500,subsidiary,0.62,0.67,0.6–1.2%,,,,Done
+AU Country Blog Posts,/blog/usa-to-india/audit-icofr,"Over-optimised: reduce ""audit"" to 0.6-1.2%",1637,1926,1500,audit,2.38,2.13,0.6–1.2%,62,14,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/common-mistakes,Maintain; add internal links & refresh,2505,2794,1500,mistake,0.56,0.5,0.6–1.2%,84,10,density-low,Open
+AU Country Blog Posts,/blog/usa-to-india/compliance-calendar,Maintain; add internal links & refresh,1789,2076,1500,compliance,0.89,0.92,0.6–1.2%,81,13,,Done
+AU Country Blog Posts,/blog/usa-to-india/contracts-and-arbitration,Minor expansion (+48 words),1552,1845,1600,arbitration,1.8,1.46,0.6–1.2%,77,14,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/documents-and-apostille,Maintain; add internal links & refresh,1701,1990,1600,apostille,1.59,1.36,0.6–1.2%,26,31,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/dtaa-pe-risk,Maintain; add internal links & refresh,2015,2310,1800,permanent establishment,0.84,0.74,0.6–1.2%,35,34,,Done
+AU Country Blog Posts,/blog/usa-to-india/eor-vs-subsidiary,"Over-optimised: reduce ""EOR"" to 0.6-1.2%",1619,1912,2000,EOR,2.53,2.25,0.6–1.2%,72,12,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/esop,Minor expansion (+42 words),1558,1845,1600,ESOP,1.35,1.14,0.6–1.2%,74,15,,Done
+AU Country Blog Posts,/blog/usa-to-india/expat-visa,Maintain; add internal links & refresh,1676,1969,1600,visa,1.37,1.22,0.6–1.2%,57,13,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/faq,Maintain; add internal links & refresh,11769,15398,1500,subsidiary,1.16,1.03,0.6–1.2%,78,5,,Done
+AU Country Blog Posts,/blog/usa-to-india/funding-fema-fc-gpr,Minor expansion (+367 words),1633,1920,2000,FC-GPR,1.04,0.94,0.8–1.5%,81,15,,Done
+AU Country Blog Posts,/blog/usa-to-india/global-vat,Maintain; add internal links & refresh,1579,1874,1500,GST,1.14,1.23,0.6–1.2%,80,33,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/hiring-and-payroll,Maintain; add internal links & refresh,1872,2165,1800,payroll,0.53,0.65,0.6–1.2%,69,13,,Done
+AU Country Blog Posts,/blog/usa-to-india/incorporation-process,Minor expansion (+126 words),1874,2163,2000,incorporation,1.28,1.11,0.6–1.2%,75,14,,Done
+AU Country Blog Posts,/blog/usa-to-india/repatriating-profits,"Under-optimised: raise ""repatriation"" usage to 0.6-1.2%",1873,2160,2000,repatriation,0.05,0.05,0.6–1.2%,59,12,density-low,Open
+AU Country Blog Posts,/blog/usa-to-india/resident-director,Minor expansion (+285 words),1515,1802,1800,resident director,0.92,0.78,0.8–1.5%,76,16,density-low,Open
+AU Country Blog Posts,/blog/usa-to-india/restructuring-and-exit,Minor expansion (+84 words),1716,2003,1800,exit,0.47,0.4,0.6–1.2%,80,14,density-low,Open
+AU Country Blog Posts,/blog/usa-to-india/share-valuation,"Over-optimised: reduce ""valuation"" to 0.6-1.2%",1218,1505,1600,valuation,2.13,1.79,0.6–1.2%,83,18,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp,Maintain; add internal links & refresh,2403,2692,2200,subsidiary,1.04,1.08,0.6–1.2%,74,11,,Done
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties,"Over-optimised: reduce ""treaty"" to 0.6-1.2%",1734,2029,2000,treaty,2.19,1.92,0.6–1.2%,22,28,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties/dtaa-withholding-rates,Minor expansion (+21 words),1479,1774,1500,withholding,0.88,0.79,0.6–1.2%,28,35,,Done
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties/epf-international-workers,Minor expansion (+167 words),1333,1626,1500,international worker,1.43,1.17,0.6–1.2%,39,15,,Done
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties/expat-tax-residency-india-us,"Under-optimised: raise ""residen"" usage to 0.6-1.2%",1435,1728,1500,residen,0,0.0,0.6–1.2%,0,33,density-low,Open
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties/faq,Maintain; add internal links & refresh,1826,2121,1200,treaty,1.92,1.7,0.6–1.2%,24,29,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties/india-us-dtaa-guide,Expand by ~1528 words; add missing LSI,1472,2611,3000,DTAA,0.34,0.19,0.6–1.2%,0,11,"short, density-low",Open
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties/social-security-us-expats-india,"Over-optimised: reduce ""social security"" to 0.6-1.2%",1316,1609,1500,social security,1.98,1.68,0.6–1.2%,0,16,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties/treaty-benefits-documents,Minor expansion (+332 words),1168,1463,1500,Form 10F,0.43,0.34,0.6–1.2%,37,16,density-low,Open
+AU Country Blog Posts,/blog/usa-to-india/tax-and-social-security-treaties/us-social-security-for-americans-in-india,Minor expansion (+200 words),1300,1593,1500,social security,1.38,1.19,0.6–1.2%,0,17,,Done
+AU Country Blog Posts,/blog/usa-to-india/tax-notices-and-litigation,"Over-optimised: reduce ""notice"" to 0.6-1.2%",1467,1762,1500,notice,2.11,1.82,0.6–1.2%,75,15,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/transfer-pricing,Minor expansion (+431 words),1769,2064,2200,transfer pricing,1.41,1.31,0.6–1.2%,73,14,density-high,Open
+AU Country Blog Posts,/blog/usa-to-india/us-parent-obligations,Maintain; add internal links & refresh,1729,2020,1500,parent,0.93,0.84,0.6–1.2%,0,19,,Done
+AU Country Blog Posts,/blog/uk-to-india/common-mistakes,Minor expansion (+411 words),1089,1378,1500,mistake,1.1,0.87,0.6–1.2%,8,16,,Done
+AU Country Blog Posts,/blog/uk-to-india/compliance-calendar,"Under-optimised: raise ""compliance"" usage to 0.6-1.2%",1400,1687,1500,compliance,0.29,0.41,0.6–1.2%,7,14,density-low,Open
+AU Country Blog Posts,/blog/uk-to-india/contracts-courts-arbitration,Minor expansion (+131 words),1469,1756,1600,arbitration,0.75,0.63,0.6–1.2%,6,13,,Done
+AU Country Blog Posts,/blog/uk-to-india/data-protection-uk-gdpr-dpdp,Minor expansion (+138 words),1462,1749,1600,DPDP,0.55,0.46,0.6–1.2%,0,13,density-low,Open
+AU Country Blog Posts,/blog/uk-to-india/documents-companies-house-apostille,Minor expansion (+109 words),1491,1780,1600,apostille,1.41,1.18,0.6–1.2%,0,12,,Done
+AU Country Blog Posts,/blog/uk-to-india/exit-and-restructuring,Minor expansion (+357 words),1443,1730,1800,exit,0.55,0.46,0.6–1.2%,8,15,density-low,Open
+AU Country Blog Posts,/blog/uk-to-india/faq,Maintain; add internal links & refresh,5983,6272,1500,subsidiary,1.45,1.45,0.6–1.2%,9,11,density-high,Open
+AU Country Blog Posts,/blog/uk-to-india/funding-and-fema,"Under-optimised: raise ""FEMA"" usage to 0.8-1.5%",1523,1810,2000,FEMA,0.26,0.44,0.8–1.5%,7,14,density-low,Open
+AU Country Blog Posts,/blog/uk-to-india/gcc-for-uk-companies,Expand by ~671 words; add missing LSI,1329,1617,2000,GCC,0.15,0.31,0.6–1.2%,0,14,"short, density-low",Open
+AU Country Blog Posts,/blog/uk-to-india/hiring-in-india,"Under-optimised: raise ""payroll"" usage to 0.6-1.2%",1591,1884,1800,payroll,0.25,0.42,0.6–1.2%,7,13,density-low,Open
+AU Country Blog Posts,/blog/uk-to-india/incorporation-steps,Minor expansion (+468 words),1532,1821,2000,incorporation,0.91,0.77,0.6–1.2%,7,14,,Done
+AU Country Blog Posts,/blog/uk-to-india/india-uk-ceta,Minor expansion (+482 words),1518,1813,2000,CETA,1.38,1.16,0.6–1.2%,0,16,,Done
+AU Country Blog Posts,/blog/uk-to-india/india-uk-dtaa,"Under-optimised: raise ""DTAA"" usage to 0.6-1.2%",3798,4093,3000,DTAA,0.11,0.1,0.6–1.2%,0,8,density-low,Open
+AU Country Blog Posts,/blog/uk-to-india/relocate-uk-staff,"Over-optimised: reduce ""visa"" to 0.6-1.2%",1275,1568,1600,visa,2.59,2.17,0.6–1.2%,0,14,density-high,Open
+AU Country Blog Posts,/blog/uk-to-india/repatriating-profits,"Under-optimised: raise ""repatriation"" usage to 0.6-1.2%",1485,1772,2000,repatriation,0.07,0.06,0.6–1.2%,8,14,"short, density-low",Open
+AU Country Blog Posts,/blog/uk-to-india/structure-options,Expand by ~745 words; add missing LSI,1455,1744,2200,subsidiary,1.17,1.2,0.6–1.2%,6,13,short,Open
+AU Country Blog Posts,/blog/uk-to-india/transfer-pricing,Expand by ~706 words; add missing LSI,1494,1789,2200,transfer pricing,1.07,1.01,0.6–1.2%,6,13,short,Open
+AU Country Blog Posts,/blog/uk-to-india/uk-employees-in-india-dcc,Maintain; add internal links & refresh,2031,2324,1500,social security,0.39,0.39,0.6–1.2%,0,11,density-low,Open
+AU Country Blog Posts,/blog/uk-to-india/uk-parent-reporting,Maintain; add internal links & refresh,1949,2238,1500,parent,0.87,0.8,0.6–1.2%,0,10,,Done
+AU Country Blog Posts,/blog/australia-to-india/audit-icofr,"Over-optimised: reduce ""audit"" to 0.6-1.2%",1783,1185,1500,audit,2.47,2.36,0.6–1.2%,59,19,"short, density-high",Open
+AU Country Blog Posts,/blog/australia-to-india/australian-parent-obligations,Maintain; add internal links & refresh,1754,2043,1500,parent,0.91,0.83,0.6–1.2%,0,17,,Done
+AU Country Blog Posts,/blog/australia-to-india/common-mistakes,Maintain; add internal links & refresh,2471,1335,1500,mistake,0.53,0.45,0.6–1.2%,83,15,"short, density-low",Open
+AU Country Blog Posts,/blog/australia-to-india/compliance-calendar,Maintain; add internal links & refresh,1731,1275,1500,compliance,0.92,0.55,0.6–1.2%,79,23,"short, density-low",Open
+AU Country Blog Posts,/blog/australia-to-india/contracts-and-arbitration,Minor expansion (+3 words),1597,1401,1600,arbitration,1.88,1.28,0.6–1.2%,76,17,"short, density-high",Open
+AU Country Blog Posts,/blog/australia-to-india/documents-and-apostille,Maintain; add internal links & refresh,1873,2162,1600,apostille,1.71,1.48,0.6–1.2%,26,31,density-high,Open
+AU Country Blog Posts,/blog/australia-to-india/dtaa-pe-risk,Maintain; add internal links & refresh,2180,1186,1800,permanent establishment,0.78,0.34,0.6–1.2%,35,17,"short, density-low",Open
+AU Country Blog Posts,/blog/australia-to-india/eor-vs-subsidiary,"Over-optimised: reduce ""EOR"" to 0.6-1.2%",1571,1285,2000,EOR,2.55,1.48,0.6–1.2%,71,22,"short, density-high",Open
+AU Country Blog Posts,/blog/australia-to-india/esop,Minor expansion (+10 words),1590,1245,1600,ESOP,1.38,0.24,0.6–1.2%,73,19,"short, density-low",Open
+AU Country Blog Posts,/blog/australia-to-india/expat-visa,Maintain; add internal links & refresh,1740,1288,1600,visa,1.32,1.16,0.6–1.2%,48,24,short,Open
+AU Country Blog Posts,/blog/australia-to-india/faq,Maintain; add internal links & refresh,15068,9204,1500,subsidiary,1.06,0.8,0.6–1.2%,50,9,,Done
+AU Country Blog Posts,/blog/australia-to-india/foreign-employee-treaty-ssa,Maintain; add internal links & refresh,2667,2955,1500,social security,0.49,0.47,0.6–1.2%,0,10,density-low,Open
+AU Country Blog Posts,/blog/australia-to-india/funding-fema-fc-gpr,Minor expansion (+308 words),1692,1473,2000,FC-GPR,1,0.75,0.8–1.5%,77,18,"short, density-low",Open
+AU Country Blog Posts,/blog/australia-to-india/global-vat,"Over-optimised: reduce ""GST"" to 0.6-1.2%",1632,1927,1500,GST,3.06,2.85,0.6–1.2%,27,33,density-high,Open
+AU Country Blog Posts,/blog/australia-to-india/hiring-and-payroll,Minor expansion (+68 words),1732,1164,1800,payroll,0.58,1.63,0.6–1.2%,69,26,"short, density-high",Open
+AU Country Blog Posts,/blog/australia-to-india/incorporation-process,Minor expansion (+130 words),1870,1205,2000,incorporation,1.23,0.83,0.6–1.2%,70,21,short,Open
+AU Country Blog Posts,/blog/australia-to-india/india-australia-dtaa,"Under-optimised: raise ""DTAA"" usage to 0.6-1.2%",6198,6490,3000,DTAA,0.34,0.32,0.6–1.2%,0,8,density-low,Open
+AU Country Blog Posts,/blog/australia-to-india/repatriating-profits,"Under-optimised: raise ""repatriation"" usage to 0.6-1.2%",1818,1248,2000,repatriation,0.11,0.0,0.6–1.2%,52,21,"short, density-low",Open
+AU Country Blog Posts,/blog/australia-to-india/resident-director,Minor expansion (+276 words),1524,1313,1800,resident director,0.92,1.14,0.8–1.5%,75,19,short,Open
+AU Country Blog Posts,/blog/australia-to-india/restructuring-and-exit,Minor expansion (+79 words),1721,1413,1800,exit,0.41,0.64,0.6–1.2%,77,18,short,Open
+AU Country Blog Posts,/blog/australia-to-india/share-valuation,"Over-optimised: reduce ""valuation"" to 0.6-1.2%",1224,1163,1600,valuation,2.12,1.2,0.6–1.2%,83,22,short,Open
+AU Country Blog Posts,/blog/australia-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp,Maintain; add internal links & refresh,2407,1313,2200,subsidiary,1.04,1.75,0.6–1.2%,73,20,"short, density-high",Open
+AU Country Blog Posts,/blog/australia-to-india/tax-notices-and-litigation,"Over-optimised: reduce ""notice"" to 0.6-1.2%",1452,1250,1500,notice,2.13,1.76,0.6–1.2%,72,22,"short, density-high",Open
+AU Country Blog Posts,/blog/australia-to-india/transfer-pricing,Minor expansion (+440 words),1760,1255,2200,transfer pricing,1.48,0.96,0.6–1.2%,70,21,short,Open
+AU Country Blog Posts,/blog/japan-to-india/audit-icofr,"Over-optimised: reduce ""audit"" to 0.6-1.2%",1636,1350,1500,audit,2.38,2.0,0.6–1.2%,62,19,density-high,Open
+AU Country Blog Posts,/blog/japan-to-india/common-mistakes,Maintain; add internal links & refresh,2525,1562,1500,mistake,0.51,0.32,0.6–1.2%,84,15,density-low,Open
+AU Country Blog Posts,/blog/japan-to-india/compliance-calendar,Maintain; add internal links & refresh,1757,1381,1500,compliance,0.85,0.43,0.6–1.2%,81,23,density-low,Open
+AU Country Blog Posts,/blog/japan-to-india/contracts-and-arbitration,Minor expansion (+76 words),1524,1711,1600,arbitration,1.77,1.4,0.6–1.2%,77,17,density-high,Open
+AU Country Blog Posts,/blog/japan-to-india/documents-and-apostille,"Over-optimised: reduce ""apostille"" to 0.6-1.2%",1724,2013,1600,apostille,1.97,1.69,0.6–1.2%,10,16,density-high,Open
+AU Country Blog Posts,/blog/japan-to-india/dtaa-pe-risk,Minor expansion (+385 words),1415,1710,1800,permanent establishment,0.78,0.64,0.6–1.2%,29,34,,Done
+AU Country Blog Posts,/blog/japan-to-india/eor-vs-subsidiary,"Over-optimised: reduce ""EOR"" to 0.6-1.2%",1571,1336,2000,EOR,2.61,1.95,0.6–1.2%,72,22,"short, density-high",Open
+AU Country Blog Posts,/blog/japan-to-india/esop,Minor expansion (+69 words),1531,1448,1600,ESOP,1.24,0.28,0.6–1.2%,74,19,density-low,Open
+AU Country Blog Posts,/blog/japan-to-india/expat-visa,Maintain; add internal links & refresh,1674,1363,1600,visa,1.37,1.25,0.6–1.2%,57,24,"short, density-high",Open
+AU Country Blog Posts,/blog/japan-to-india/faq,Maintain; add internal links & refresh,11804,7806,1500,subsidiary,1.14,0.99,0.6–1.2%,78,9,,Done
+AU Country Blog Posts,/blog/japan-to-india/funding-fema-fc-gpr,Minor expansion (+379 words),1621,1901,2000,FC-GPR,1.05,0.63,0.8–1.5%,81,18,density-low,Open
+AU Country Blog Posts,/blog/japan-to-india/global-vat,Maintain; add internal links & refresh,1539,1430,1500,GST,1.17,1.96,0.6–1.2%,80,14,density-high,Open
+AU Country Blog Posts,/blog/japan-to-india/hiring-and-payroll,Minor expansion (+35 words),1765,1349,1800,payroll,0.57,1.26,0.6–1.2%,69,26,"short, density-high",Open
+AU Country Blog Posts,/blog/japan-to-india/incorporation-process,Minor expansion (+127 words),1873,1417,2000,incorporation,1.28,0.99,0.6–1.2%,75,21,short,Open
+AU Country Blog Posts,/blog/japan-to-india/japan-parent-obligations,Minor expansion (+92 words),1408,1697,1500,parent,0.85,0.77,0.6–1.2%,0,19,,Done
+AU Country Blog Posts,/blog/japan-to-india/repatriating-profits,"Under-optimised: raise ""repatriation"" usage to 0.6-1.2%",1873,1403,2000,repatriation,0.05,0.0,0.6–1.2%,59,21,"short, density-low",Open
+AU Country Blog Posts,/blog/japan-to-india/resident-director,Minor expansion (+307 words),1493,1373,1800,resident director,1,1.24,0.8–1.5%,76,19,short,Open
+AU Country Blog Posts,/blog/japan-to-india/restructuring-and-exit,Minor expansion (+117 words),1683,1735,1800,exit,0.42,0.4,0.6–1.2%,80,17,density-low,Open
+AU Country Blog Posts,/blog/japan-to-india/share-valuation,"Over-optimised: reduce ""valuation"" to 0.6-1.2%",1218,1331,1600,valuation,2.13,1.43,0.6–1.2%,78,22,"short, density-high",Open
+AU Country Blog Posts,/blog/japan-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp,Maintain; add internal links & refresh,2387,1500,2200,subsidiary,1.17,1.67,0.6–1.2%,74,20,"short, density-high",Open
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties,"Over-optimised: reduce ""treaty"" to 0.6-1.2%",1706,2001,2000,treaty,2.34,2.05,0.6–1.2%,22,28,density-high,Open
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties/dtaa-withholding-rates,Minor expansion (+132 words),1368,1663,1500,withholding,0.88,0.78,0.6–1.2%,28,35,,Done
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties/epf-international-workers,Minor expansion (+115 words),1385,1339,1500,international worker,1.3,1.05,0.6–1.2%,39,16,short,Open
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties/expat-tax-residency-india-japan,"Under-optimised: raise ""residen"" usage to 0.6-1.2%",1393,1686,1500,residen,0,0.0,0.6–1.2%,0,33,density-low,Open
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties/faq,Maintain; add internal links & refresh,1835,2130,1200,treaty,1.8,1.6,0.6–1.2%,24,29,density-high,Open
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties/india-japan-dtaa-guide,Expand by ~1512 words; add missing LSI,1488,1939,3000,DTAA,0.34,0.15,0.6–1.2%,0,12,"short, density-low",Open
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties/india-japan-social-security-agreement,Minor expansion (+59 words),1441,1734,1500,social security,0.9,0.81,0.6–1.2%,0,16,,Done
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties/japan-social-insurance-for-expats-in-india,Minor expansion (+320 words),1180,1473,1500,social insurance,0.85,0.68,0.6–1.2%,0,17,,Done
+AU Country Blog Posts,/blog/japan-to-india/tax-and-social-security-treaties/treaty-benefits-documents,Minor expansion (+335 words),1165,1292,1500,Form 10F,0.52,0.39,0.6–1.2%,37,16,"short, density-low",Open
+AU Country Blog Posts,/blog/japan-to-india/tax-notices-and-litigation,"Over-optimised: reduce ""notice"" to 0.6-1.2%",1437,1385,1500,notice,2.16,1.44,0.6–1.2%,75,22,density-high,Open
+AU Country Blog Posts,/blog/japan-to-india/transfer-pricing,Minor expansion (+468 words),1732,1357,2200,transfer pricing,1.5,0.74,0.6–1.2%,73,21,short,Open
+AU Country Blog Posts,/blog/singapore-to-india/common-mistakes,Minor expansion (+286 words),1214,1503,1500,mistake,0.41,0.33,0.6–1.2%,8,16,density-low,Open
+AU Country Blog Posts,/blog/singapore-to-india/compliance-calendar,"Under-optimised: raise ""compliance"" usage to 0.6-1.2%",1258,1545,1500,compliance,0.16,0.32,0.6–1.2%,11,18,density-low,Open
+AU Country Blog Posts,/blog/singapore-to-india/contracts-courts-siac,Minor expansion (+171 words),1429,1716,1600,arbitration,1.26,1.05,0.6–1.2%,0,26,,Done
+AU Country Blog Posts,/blog/singapore-to-india/data-protection-pdpa-dpdp,Minor expansion (+251 words),1349,1636,1600,DPDP,0.89,0.73,0.6–1.2%,0,25,,Done
+AU Country Blog Posts,/blog/singapore-to-india/documents-acra-apostille,"Over-optimised: reduce ""apostille"" to 0.6-1.2%",1547,1836,1600,apostille,1.94,1.63,0.6–1.2%,0,21,density-high,Open
+AU Country Blog Posts,/blog/singapore-to-india/exit-and-restructuring,"Under-optimised: raise ""exit"" usage to 0.6-1.2%",1524,1811,1800,exit,0.2,0.17,0.6–1.2%,8,15,density-low,Open
+AU Country Blog Posts,/blog/singapore-to-india/faq,Maintain; add internal links & refresh,6059,6348,1500,subsidiary,1.07,1.09,0.6–1.2%,21,23,,Done
+AU Country Blog Posts,/blog/singapore-to-india/funding-and-fema,Expand by ~610 words; add missing LSI,1390,1677,2000,FEMA,0.43,0.6,0.8–1.5%,51,20,"short, density-low",Open
+AU Country Blog Posts,/blog/singapore-to-india/gcc-for-singapore-companies,Expand by ~715 words; add missing LSI,1285,1573,2000,GCC,0.39,0.51,0.6–1.2%,0,17,"short, density-low",Open
+AU Country Blog Posts,/blog/singapore-to-india/hiring-in-india,"Under-optimised: raise ""payroll"" usage to 0.6-1.2%",1586,1879,1800,payroll,0.32,0.48,0.6–1.2%,42,30,density-low,Open
+AU Country Blog Posts,/blog/singapore-to-india/incorporation-steps,Minor expansion (+481 words),1519,1808,2000,incorporation,0.79,0.66,0.6–1.2%,51,17,,Done
+AU Country Blog Posts,/blog/singapore-to-india/india-singapore-ceca,Minor expansion (+137 words),1663,1958,1800,CECA,1.38,1.17,0.6–1.2%,0,16,,Done
+AU Country Blog Posts,/blog/singapore-to-india/india-singapore-dtaa,"Under-optimised: raise ""DTAA"" usage to 0.6-1.2%",2856,3151,3000,DTAA,0.11,0.1,0.6–1.2%,0,16,density-low,Open
+AU Country Blog Posts,/blog/singapore-to-india/relocate-singapore-staff,"Over-optimised: reduce ""visa"" to 0.6-1.2%",1451,1744,1600,visa,2.34,2.01,0.6–1.2%,0,15,density-high,Open
+AU Country Blog Posts,/blog/singapore-to-india/repatriating-profits,Expand by ~643 words; add missing LSI,1357,1644,2000,repatriation,0.07,0.06,0.6–1.2%,32,38,"short, density-low",Open
+AU Country Blog Posts,/blog/singapore-to-india/singapore-employees-in-india-epf-cpf,"Under-optimised: raise ""social security"" usage to 0.6-1.2%",1700,1993,1500,social security,0.35,0.35,0.6–1.2%,0,25,density-low,Open
+AU Country Blog Posts,/blog/singapore-to-india/singapore-holdco-for-india,Minor expansion (+140 words),1660,1949,1800,holding,0.78,0.67,0.6–1.2%,0,12,,Done
+AU Country Blog Posts,/blog/singapore-to-india/singapore-parent-obligations,Maintain; add internal links & refresh,1571,1860,1500,parent,1.02,0.91,0.6–1.2%,0,15,,Done
+AU Country Blog Posts,/blog/singapore-to-india/structure-options,Minor expansion (+610 words),1590,1879,2200,subsidiary,0.82,0.9,0.6–1.2%,25,31,short,Open
+AU Country Blog Posts,/blog/singapore-to-india/transfer-pricing,Expand by ~844 words; add missing LSI,1356,1651,2200,transfer pricing,0.66,0.67,0.6–1.2%,36,28,short,Open
+AU Country Blog Posts,/blog/germany-to-india/common-mistakes,Minor expansion (+361 words),1139,1428,1500,mistake,0.53,0.42,0.6–1.2%,18,26,density-low,Open
+AU Country Blog Posts,/blog/germany-to-india/compliance-calendar,"Under-optimised: raise ""compliance"" usage to 0.6-1.2%",1206,1025,1500,compliance,0.17,0.59,0.6–1.2%,49,29,"short, density-low",Open
+AU Country Blog Posts,/blog/germany-to-india/contracts-courts-arbitration,Minor expansion (+74 words),1526,1813,1600,arbitration,1.11,0.94,0.6–1.2%,18,26,,Done
+AU Country Blog Posts,/blog/germany-to-india/data-protection-gdpr-dpdp,Minor expansion (+39 words),1561,1848,1600,DPDP,0.58,0.49,0.6–1.2%,0,25,density-low,Open
+AU Country Blog Posts,/blog/germany-to-india/documents-handelsregister-apostille,Maintain; add internal links & refresh,1604,1893,1600,apostille,1.87,1.58,0.6–1.2%,0,21,density-high,Open
+AU Country Blog Posts,/blog/germany-to-india/exit-and-restructuring,Minor expansion (+476 words),1324,1611,1800,exit,0.45,0.37,0.6–1.2%,35,41,"short, density-low",Open
+AU Country Blog Posts,/blog/germany-to-india/faq,Maintain; add internal links & refresh,5990,6279,1500,subsidiary,1.15,1.16,0.6–1.2%,21,23,,Done
+AU Country Blog Posts,/blog/germany-to-india/funding-and-fema,"Under-optimised: raise ""FEMA"" usage to 0.8-1.5%",1478,1159,2000,FEMA,0.41,0.69,0.8–1.5%,51,24,"short, density-low",Open
+AU Country Blog Posts,/blog/germany-to-india/gcc-for-german-companies,Expand by ~685 words; add missing LSI,1315,1603,2000,GCC,0,0.19,0.6–1.2%,0,17,"short, density-low",Open
+AU Country Blog Posts,/blog/germany-to-india/german-employees-in-india-ssa,Maintain; add internal links & refresh,1789,2082,1500,social security,0.67,0.62,0.6–1.2%,0,25,,Done
+AU Country Blog Posts,/blog/germany-to-india/german-parent-obligations,Maintain; add internal links & refresh,1662,1951,1500,parent,1.2,1.08,0.6–1.2%,0,15,,Done
+AU Country Blog Posts,/blog/germany-to-india/hiring-in-india,"Under-optimised: raise ""payroll"" usage to 0.6-1.2%",1542,1133,1800,payroll,0.32,1.06,0.6–1.2%,42,22,short,Open
+AU Country Blog Posts,/blog/germany-to-india/incorporation-steps,Minor expansion (+437 words),1563,1206,2000,incorporation,0.7,0.75,0.6–1.2%,51,21,short,Open
+AU Country Blog Posts,/blog/germany-to-india/india-eu-fta-and-germany,Minor expansion (+489 words),1511,1806,2000,FTA,1.13,0.94,0.6–1.2%,0,16,,Done
+AU Country Blog Posts,/blog/germany-to-india/india-germany-dtaa,"Under-optimised: raise ""DTAA"" usage to 0.6-1.2%",2488,2783,3000,DTAA,0.24,0.22,0.6–1.2%,0,16,density-low,Open
+AU Country Blog Posts,/blog/germany-to-india/relocate-german-staff,Minor expansion (+140 words),1460,1753,1600,visa,1.23,1.08,0.6–1.2%,0,18,,Done
+AU Country Blog Posts,/blog/germany-to-india/repatriating-profits,"Under-optimised: raise ""repatriation"" usage to 0.6-1.2%",1491,1778,2000,repatriation,0.07,0.06,0.6–1.2%,32,38,"short, density-low",Open
+AU Country Blog Posts,/blog/germany-to-india/structure-options,Minor expansion (+538 words),1662,1951,2200,subsidiary,0.9,0.97,0.6–1.2%,25,31,short,Open
+AU Country Blog Posts,/blog/germany-to-india/supply-chain-and-esg-duties,Minor expansion (+162 words),1338,1627,1500,supply chain,0.67,0.55,0.6–1.2%,0,13,density-low,Open
+AU Country Blog Posts,/blog/germany-to-india/transfer-pricing,Expand by ~689 words; add missing LSI,1511,1111,2200,transfer pricing,0.53,0.81,0.6–1.2%,36,24,short,Open
+AU Country Blog Posts,/blog/china-to-india/chinese-employees-in-india,Minor expansion (+38 words),1462,1755,1500,social security,0.48,0.46,0.6–1.2%,0,24,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/chinese-parent-obligations,Minor expansion (+79 words),1421,1710,1500,parent,0.63,0.58,0.6–1.2%,0,14,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/common-mistakes,Minor expansion (+315 words),1185,1474,1500,mistake,0.51,0.41,0.6–1.2%,18,26,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/compliance-calendar,"Under-optimised: raise ""compliance"" usage to 0.6-1.2%",1266,1029,1500,compliance,0.16,0.68,0.6–1.2%,49,29,short,Open
+AU Country Blog Posts,/blog/china-to-india/contracts-courts-arbitration,Minor expansion (+27 words),1573,1860,1600,arbitration,0.83,0.7,0.6–1.2%,18,25,,Done
+AU Country Blog Posts,/blog/china-to-india/data-protection-pipl-dpdp,Minor expansion (+41 words),1559,1846,1600,DPDP,0.58,0.49,0.6–1.2%,0,21,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/documents-notarisation-legalisation,Minor expansion (+138 words),1462,1751,1600,apostille,0.62,0.51,0.6–1.2%,0,15,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/exit-and-restructuring,Minor expansion (+357 words),1443,1730,1800,exit,0.62,0.52,0.6–1.2%,35,41,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/faq,Maintain; add internal links & refresh,5810,6099,1500,subsidiary,0.79,0.82,0.6–1.2%,13,15,,Done
+AU Country Blog Posts,/blog/china-to-india/funding-and-fema,"Under-optimised: raise ""FEMA"" usage to 0.8-1.5%",1406,1693,2000,FEMA,0.36,0.53,0.8–1.5%,15,20,"short, density-low",Open
+AU Country Blog Posts,/blog/china-to-india/hiring-in-india,"Under-optimised: raise ""payroll"" usage to 0.6-1.2%",1445,1738,1800,payroll,0.28,0.46,0.6–1.2%,29,30,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/incorporation-steps,Minor expansion (+518 words),1482,1771,2000,incorporation,0.61,0.51,0.6–1.2%,10,17,"short, density-low",Open
+AU Country Blog Posts,/blog/china-to-india/india-china-dtaa,Expand by ~982 words; add missing LSI,2018,2718,3000,DTAA,0.15,0.11,0.6–1.2%,0,14,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/india-press-note-3-and-chinese-investors,Minor expansion (+238 words),1762,2049,2000,Press Note 3,0.91,0.78,0.6–1.2%,0,16,,Done
+AU Country Blog Posts,/blog/china-to-india/manufacturing-and-jv-for-chinese-companies,Minor expansion (+397 words),1403,1692,1800,joint venture,0.57,0.47,0.6–1.2%,0,13,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/relocate-chinese-staff,"Over-optimised: reduce ""visa"" to 0.6-1.2%",1365,1658,1600,visa,3.37,2.83,0.6–1.2%,0,18,density-high,Open
+AU Country Blog Posts,/blog/china-to-india/repatriating-profits,"Under-optimised: raise ""repatriation"" usage to 0.6-1.2%",1436,1723,2000,repatriation,0.28,0.23,0.6–1.2%,19,26,"short, density-low",Open
+AU Country Blog Posts,/blog/china-to-india/restricted-sectors-procurement-and-trade,"Under-optimised: raise ""restrict"" usage to 0.6-1.2%",1358,1653,1600,restrict,0,0.0,0.6–1.2%,0,14,density-low,Open
+AU Country Blog Posts,/blog/china-to-india/structure-options,Expand by ~807 words; add missing LSI,1393,1682,2200,subsidiary,0.79,0.89,0.6–1.2%,7,14,short,Open
+AU Country Blog Posts,/blog/china-to-india/transfer-pricing,Expand by ~696 words; add missing LSI,1504,1799,2200,transfer pricing,0.33,0.39,0.6–1.2%,22,28,"short, density-low",Open
+AU Country Blog Posts,/blog/hong-kong-to-india/common-mistakes,Minor expansion (+381 words),1119,1408,1500,mistake,0.45,0.36,0.6–1.2%,33,40,density-low,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/compliance-calendar,"Under-optimised: raise ""compliance"" usage to 0.6-1.2%",1326,1613,1500,compliance,0.15,0.31,0.6–1.2%,49,17,density-low,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/contracts-courts-arbitration,Minor expansion (+242 words),1358,1645,1600,arbitration,1.03,0.85,0.6–1.2%,18,25,,Done
+AU Country Blog Posts,/blog/hong-kong-to-india/data-protection-pdpo-dpdp,"Under-optimised: raise ""DPDP"" usage to 0.6-1.2%",1224,1511,1600,DPDP,0.33,0.26,0.6–1.2%,0,35,density-low,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/documents-hong-kong-apostille,"Over-optimised: reduce ""apostille"" to 0.6-1.2%",1244,1533,1600,apostille,2.41,1.96,0.6–1.2%,0,27,density-high,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/exit-and-restructuring,Minor expansion (+459 words),1341,1628,1800,exit,0.6,0.49,0.6–1.2%,48,16,density-low,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/faq,Maintain; add internal links & refresh,5615,5904,1500,subsidiary,0.59,0.63,0.6–1.2%,27,29,,Done
+AU Country Blog Posts,/blog/hong-kong-to-india/funding-and-fema,Expand by ~688 words; add missing LSI,1312,1599,2000,FEMA,0.3,0.5,0.8–1.5%,46,18,"short, density-low",Open
+AU Country Blog Posts,/blog/hong-kong-to-india/goods-via-hong-kong-origin-customs-and-procurement,"Over-optimised: reduce ""origin"" to 0.6-1.2%",1251,1546,1500,origin,2.32,1.88,0.6–1.2%,0,22,density-high,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/hiring-in-india,Expand by ~661 words; add missing LSI,1139,1432,1800,payroll,0.26,0.49,0.6–1.2%,60,18,"short, density-low",Open
+AU Country Blog Posts,/blog/hong-kong-to-india/hong-kong-as-regional-hub-for-india,"Over-optimised: reduce ""Hong Kong"" to 0.6-1.2%",1363,1652,1500,Hong Kong,3.82,3.15,0.6–1.2%,0,13,density-high,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/hong-kong-employees-in-india,Minor expansion (+95 words),1405,1698,1500,social security,0.36,0.35,0.6–1.2%,0,24,density-low,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/hong-kong-parent-obligations,"Under-optimised: raise ""parent"" usage to 0.6-1.2%",1484,1773,1500,parent,0.27,0.28,0.6–1.2%,0,14,density-low,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/incorporation-steps,Expand by ~623 words; add missing LSI,1377,1666,2000,incorporation,0.94,0.78,0.6–1.2%,38,16,short,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/india-hong-kong-dtaa,Expand by ~1065 words; add missing LSI,1935,2710,3000,DTAA,0.16,0.11,0.6–1.2%,0,16,density-low,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/india-press-note-3-and-hong-kong-entities,Minor expansion (+403 words),1597,1884,2000,Press Note 3,0.75,0.64,0.6–1.2%,0,16,,Done
+AU Country Blog Posts,/blog/hong-kong-to-india/relocate-hong-kong-staff,"Over-optimised: reduce ""visa"" to 0.6-1.2%",1219,1512,1600,visa,2.63,2.18,0.6–1.2%,0,18,density-high,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/repatriating-profits,"Under-optimised: raise ""repatriation"" usage to 0.6-1.2%",1482,1769,2000,repatriation,0.07,0.06,0.6–1.2%,37,20,"short, density-low",Open
+AU Country Blog Posts,/blog/hong-kong-to-india/structure-options,Expand by ~914 words; add missing LSI,1286,1575,2200,subsidiary,0.7,0.83,0.6–1.2%,47,16,short,Open
+AU Country Blog Posts,/blog/hong-kong-to-india/transfer-pricing,Expand by ~927 words; add missing LSI,1273,1568,2200,transfer pricing,0.63,0.64,0.6–1.2%,37,15,short,Open
+AU Country Blog Posts,/blog/russia-to-india/common-mistakes,Minor expansion (+364 words),1136,1425,1500,mistake,0.44,0.35,0.6–1.2%,33,40,density-low,Open
+AU Country Blog Posts,/blog/russia-to-india/compliance-calendar,"Under-optimised: raise ""compliance"" usage to 0.6-1.2%",1263,1126,1500,compliance,0.24,0.62,0.6–1.2%,48,28,short,Open
+AU Country Blog Posts,/blog/russia-to-india/contracts-courts-arbitration,Minor expansion (+200 words),1400,1687,1600,arbitration,0.71,0.59,0.6–1.2%,18,25,density-low,Open
+AU Country Blog Posts,/blog/russia-to-india/data-protection-152fz-dpdp,"Under-optimised: raise ""DPDP"" usage to 0.6-1.2%",1199,1486,1600,DPDP,0.33,0.27,0.6–1.2%,0,35,density-low,Open
+AU Country Blog Posts,/blog/russia-to-india/documents-apostille-and-translation,"Over-optimised: reduce ""apostille"" to 0.6-1.2%",1132,1421,1600,apostille,2.39,1.9,0.6–1.2%,0,27,"short, density-high",Open
+AU Country Blog Posts,/blog/russia-to-india/exit-and-restructuring,Minor expansion (+471 words),1329,1150,1800,exit,0.53,0.7,0.6–1.2%,48,18,short,Open
+AU Country Blog Posts,/blog/russia-to-india/faq,Maintain; add internal links & refresh,5375,5664,1500,subsidiary,0.67,0.71,0.6–1.2%,27,29,,Done
+AU Country Blog Posts,/blog/russia-to-india/funding-and-fema,Expand by ~671 words; add missing LSI,1329,1170,2000,FEMA,0.3,0.94,0.8–1.5%,46,24,short,Open
+AU Country Blog Posts,/blog/russia-to-india/goods-trade-customs-and-eaeu-fta,Minor expansion (+263 words),1237,1532,1500,customs,1.37,1.11,0.6–1.2%,0,22,,Done
+AU Country Blog Posts,/blog/russia-to-india/hiring-in-india,Expand by ~698 words; add missing LSI,1102,1180,1800,payroll,0.27,1.69,0.6–1.2%,60,22,"short, density-high",Open
+AU Country Blog Posts,/blog/russia-to-india/incorporation-steps,Expand by ~627 words; add missing LSI,1373,1176,2000,incorporation,0.8,0.6,0.6–1.2%,38,20,short,Open
+AU Country Blog Posts,/blog/russia-to-india/india-fdi-rules-for-russian-companies,Minor expansion (+322 words),1278,1565,1600,FDI,0.7,0.58,0.6–1.2%,0,14,density-low,Open
+AU Country Blog Posts,/blog/russia-to-india/india-russia-dtaa,Expand by ~1415 words; add missing LSI,1585,2476,3000,DTAA,0.19,0.12,0.6–1.2%,0,16,"short, density-low",Open
+AU Country Blog Posts,/blog/russia-to-india/relocate-russian-staff,"Over-optimised: reduce ""visa"" to 0.6-1.2%",1138,1137,1600,visa,3.08,2.55,0.6–1.2%,0,19,"short, density-high",Open
+AU Country Blog Posts,/blog/russia-to-india/repatriating-profits,Expand by ~605 words; add missing LSI,1395,1158,2000,repatriation,0.07,0.09,0.6–1.2%,37,19,"short, density-low",Open
+AU Country Blog Posts,/blog/russia-to-india/russian-employees-in-india,Minor expansion (+272 words),1228,1198,1500,social security,0.41,0.58,0.6–1.2%,0,18,"short, density-low",Open
+AU Country Blog Posts,/blog/russia-to-india/russian-parent-obligations,Minor expansion (+169 words),1331,1620,1500,parent,0.38,0.37,0.6–1.2%,0,14,density-low,Open
+AU Country Blog Posts,/blog/russia-to-india/sanctions-and-payments-for-russian-companies,"Over-optimised: reduce ""sanction"" to 0.6-1.2%",1389,1676,1600,sanction,2.23,1.85,0.6–1.2%,0,14,density-high,Open
+AU Country Blog Posts,/blog/russia-to-india/structure-options,Expand by ~925 words; add missing LSI,1275,1199,2200,subsidiary,0.71,1.42,0.6–1.2%,47,18,"short, density-high",Open
+AU Country Blog Posts,/blog/russia-to-india/transfer-pricing,Expand by ~976 words; add missing LSI,1224,1153,2200,transfer pricing,0.65,0.95,0.6–1.2%,37,24,short,Open

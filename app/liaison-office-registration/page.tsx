@@ -68,6 +68,15 @@ const included = [
 
 const countryGuides = [
   { label: "USA", href: "/usa-to-india" },
+  { label: "UK", href: "/uk-to-india" },
+  { label: "Australia", href: "/australia-to-india" },
+  { label: "Singapore", href: "/singapore-to-india" },
+  { label: "Germany", href: "/germany-to-india" },
+  { label: "Spain", href: "/spain-to-india" },
+  { label: "Japan", href: "/japan-to-india" },
+  { label: "China", href: "/china-to-india" },
+  { label: "Hong Kong", href: "/hong-kong-to-india" },
+  { label: "Russia", href: "/russia-to-india" },
 ]
 
 const afterLinks = [
