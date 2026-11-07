@@ -50,6 +50,16 @@ export const publicPages: PublicPage[] = [
   // Doing Business in India Hub + cluster
 
   // GCC Setup
+  { path: "/resident-director-services-india", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/company-registration-in-india-for-nri", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/cost-of-setting-up-a-subsidiary-in-india", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/how-long-to-set-up-a-subsidiary-in-india", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/can-a-foreign-company-own-100-percent-of-an-indian-company", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/new-labour-codes-india-50-percent-wage-rule-gratuity", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/cost-of-hiring-employees-in-india", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/uae-to-india", priority: 0.95, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/manufacturing-company-setup-in-india", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/europe-to-india", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-11-07" },
   { path: "/gcc-setup-india", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-10-23" },
 
   // Entity-Type Pages

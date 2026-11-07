@@ -68,6 +68,8 @@ const countryGuides = [
   { label: "China", href: "/china-to-india" },
   { label: "Hong Kong", href: "/hong-kong-to-india" },
   { label: "Russia", href: "/russia-to-india" },
+  { label: "UAE", href: "/uae-to-india" },
+  { label: "Europe", href: "/europe-to-india" },
 ]
 
 const afterLinks = [

@@ -63,6 +63,8 @@ const countryGuides = [
   { label: "Hong Kong", href: "/hong-kong-to-india" },
   { label: "Russia", href: "/russia-to-india" },
   { label: "Spain", href: "/spain-to-india" },
+  { label: "UAE", href: "/uae-to-india" },
+  { label: "Europe", href: "/europe-to-india" },
 ]
 
 const afterLinks = [
@@ -257,6 +259,16 @@ export default function IndiaSubsidiaryRegistrationPage() {
               </Link>
             ))}
           </div>
+          <p className="mt-6 text-sm text-gray-600">
+            Planning guides:{" "}
+            <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="font-semibold text-[#081a42] underline">cost of setting up a subsidiary</Link>,{" "}
+            <Link href="/how-long-to-set-up-a-subsidiary-in-india" className="font-semibold text-[#081a42] underline">how long it takes</Link>,{" "}
+            <Link href="/resident-director-services-india" className="font-semibold text-[#081a42] underline">resident director services</Link>,{" "}
+            <Link href="/company-registration-in-india-for-nri" className="font-semibold text-[#081a42] underline">registration for NRIs</Link>,{" "}
+            <Link href="/manufacturing-company-setup-in-india" className="font-semibold text-[#081a42] underline">manufacturing setup</Link>,{" "}
+            <Link href="/cost-of-hiring-employees-in-india" className="font-semibold text-[#081a42] underline">cost of hiring</Link> and{" "}
+            <Link href="/can-a-foreign-company-own-100-percent-of-an-indian-company" className="font-semibold text-[#081a42] underline">100% foreign ownership</Link>.
+          </p>
         </div>
       </section>
 
