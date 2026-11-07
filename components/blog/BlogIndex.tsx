@@ -18,6 +18,8 @@ export type CountryGuideGroup = {
 
 const NAVY = "#081a42"
 const GOLD = "#facc15"
+/** Guides shown per country on /blog. The country hub lists the full series. */
+const FEATURED = 6
 
 /** The /blog index: every country guide, grouped by country. */
 export function BlogIndex({ guides }: { guides: CountryGuideGroup[] }) {
@@ -100,7 +102,7 @@ export function BlogIndex({ guides }: { guides: CountryGuideGroup[] }) {
             ))}
           </div>
 
-          {/* Every country's list stays in the HTML (only hidden), so all guides are crawlable. */}
+          {/* Every country's list stays in the HTML (only hidden). Each country hub is the category page with the full series. */}
           {guides.map((g) => (
             <div key={g.key} id={`guides-${g.key}`} role="tabpanel" hidden={country !== g.key}>
               <Link
@@ -115,7 +117,7 @@ export function BlogIndex({ guides }: { guides: CountryGuideGroup[] }) {
                 <span className="text-white/75 max-w-3xl">{g.hub.desc}</span>
               </Link>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {g.pages.map((p) => (
+                {g.pages.slice(0, FEATURED).map((p) => (
                   <Link
                     key={p.href}
                     href={p.href}
@@ -129,6 +131,14 @@ export function BlogIndex({ guides }: { guides: CountryGuideGroup[] }) {
                   </Link>
                 ))}
               </div>
+              {g.pages.length > FEATURED && (
+                <Link
+                  href={`${g.hub.href}#series`}
+                  className="mt-6 inline-flex items-center gap-2 rounded-full border border-[#081a42] px-5 py-2.5 text-sm font-semibold text-[#081a42] hover:bg-[#081a42] hover:text-white transition-colors"
+                >
+                  See all {g.pages.length + 1} guides for {g.adjective} companies <ArrowRight className="h-4 w-4" />
+                </Link>
+              )}
             </div>
           ))}
         </section>

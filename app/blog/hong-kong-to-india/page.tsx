@@ -29,6 +29,7 @@ const toc = [
   { id: "people", label: "People: hiring, visas and provident fund" },
   { id: "cost", label: "What it costs and how long it takes" },
   { id: "mistakes", label: "Six mistakes Hong Kong companies make" },
+  { id: "exit", label: "Selling, restructuring or closing the Indian subsidiary" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
@@ -461,6 +462,24 @@ export default function HongKongToIndiaHubPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           More detail:{" "}
           <Link href="/hong-kong-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">12 common mistakes</Link>.
+        </p>
+
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling, restructuring or closing the Indian subsidiary</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A Hong Kong parent can exit by selling the Indian shares, by a buy-back, by a merger, or by closing the
+          company through voluntary liquidation or strike-off. Hong Kong generally does not tax capital gains, but gains
+          on Indian shares are taxed in India under the treaty, so the Indian tax is usually the main cost.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Tax rate.</strong> A long-term gain on unlisted shares held for more than 24 months is taxed at 12.5%.</li>
+          <li><strong>FEMA pricing.</strong> A purchase from a non-resident cannot be above fair value, and a sale to a non-resident cannot be below it.</li>
+          <li><strong>Reporting.</strong> The transfer is reported on Form FC-TRS within 60 days.</li>
+          <li><strong>Buyer approval.</strong> If the buyer, or its beneficial owner, is from a land-border country, Press Note 3 approval is needed before it can acquire the shares.</li>
+          <li><strong>Clearances.</strong> Obtain the tax clearances before the money leaves India.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The same steps apply when a group moves its Indian shares from Hong Kong to another holding company. See 
+          <Link href="/hong-kong-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">exit and restructuring for Hong Kong companies</Link>.
         </p>
 
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>

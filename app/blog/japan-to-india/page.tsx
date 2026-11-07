@@ -27,6 +27,16 @@ const toc = [
   { id: "people", label: "Local hires and chuzaiin" },
   { id: "cost", label: "Cost and timeline" },
   { id: "treaties", label: "Treaty and social security" },
+  { id: "resident-director", label: "Meeting the resident director rule" },
+  { id: "equity", label: "Stock options and RSUs for Indian staff" },
+  { id: "contracts", label: "Contracts and dispute resolution" },
+  { id: "digital-sales", label: "Selling software and digital services into India" },
+  { id: "notices", label: "When an Indian tax notice arrives" },
+  { id: "restructuring", label: "Regional holding companies, mergers and exit" },
+  { id: "mistakes", label: "Ten mistakes and the fixes" },
+  { id: "steps", label: "Incorporating the subsidiary, step by step" },
+  { id: "payroll", label: "Hiring the first Indian team" },
+  { id: "parent-reporting", label: "What the Japanese parent reports at home" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate works with Japanese groups" },
   { id: "faq", label: "Frequently asked questions" },
@@ -272,6 +282,141 @@ export default function JapanToIndiaHubPage() {
           <li><Link href="/japan-to-india/tax-and-social-security-treaties/epf-international-workers" className="text-blue-800 font-semibold hover:underline">EPF for international workers</Link></li>
           <li><Link href="/japan-to-india/tax-and-social-security-treaties/japan-social-insurance-for-expats-in-india" className="text-blue-800 font-semibold hover:underline">Japanese social insurance for employees in India</Link></li>
         </ul>
+
+        <h2 id="resident-director" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Meeting the resident director rule</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Every Indian company needs at least one director who has stayed in India for 182 days or more in the
+          financial year. Japanese businesses usually meet this in one of three ways:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>A chuzaiin posted for a full year.</strong> The most common choice when the head office already plans to send a general manager.</li>
+          <li><strong>An Indian general manager on the board.</strong> Common once the subsidiary has hired its local leader.</li>
+          <li><strong>A professional resident director.</strong> The fallback at incorporation, before either of the others is in place, with no authority over the business.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The other directors, including those in Tokyo or Osaka, can stay abroad and sign digitally. A chuzaiin who
+          meets the 182-day test may also become tax resident in India, so plan the tax position at the same time. See{" "}
+          <Link href="/japan-to-india/resident-director" className="text-blue-800 font-semibold hover:underline">the resident director guide for Japanese companies</Link>.
+        </p>
+
+        <h2 id="equity" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Stock options and RSUs for Indian staff</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Indian employees of a Japanese group usually receive equity through the parent&apos;s own stock option or
+          restricted stock unit plan rather than a separate Indian scheme. India taxes the benefit as salary when an
+          option is exercised or an RSU vests, and the Indian subsidiary must withhold that tax through payroll even
+          though the shares come from Japan, so the plan administrator needs to send exercise and vesting data every
+          month. If the parent recharges the cost of the awards to India, the recharge needs a written agreement and
+          transfer pricing support. See{" "}
+          <Link href="/japan-to-india/esop" className="text-blue-800 font-semibold hover:underline">ESOPs and RSUs for Indian employees</Link>.
+        </p>
+
+        <h2 id="contracts" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contracts and dispute resolution</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Japanese groups arrive with careful contract templates, but they need adapting for India: stamp duty, Indian
+          employment law and data protection rules apply whatever the governing law says. For disputes, arbitration
+          is the practical choice. Japan is not a reciprocating territory under Section 44A of the Code of Civil
+          Procedure, so a Japanese court judgment cannot be executed directly in India, while an arbitral award seated
+          in Japan or Singapore can be enforced here under the New York Convention. We review intercompany, customer
+          and supplier templates before the first signature. See{" "}
+          <Link href="/japan-to-india/contracts-and-arbitration" className="text-blue-800 font-semibold hover:underline">contracts and arbitration</Link>.
+        </p>
+
+        <h2 id="digital-sales" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling software and digital services into India</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A Japanese company that sells software, apps or other online services to Indian consumers usually has to
+          register for Indian GST as an OIDAR supplier and charge 18% GST, often from the first sale, because the tax
+          follows the customer. Indian business customers usually account for the tax themselves under reverse
+          charge. The same logic applies in the EU, the UK and other VAT countries. Where the sales are made through
+          the Indian subsidiary instead, it registers for GST as an ordinary Indian business. See{" "}
+          <Link href="/japan-to-india/global-vat" className="text-blue-800 font-semibold hover:underline">VAT and GST on digital sales</Link>{" "}
+          and{" "}
+          <Link href="/oidar-gst-registration-india" className="text-blue-800 font-semibold hover:underline">OIDAR GST registration in India</Link>.
+        </p>
+
+        <h2 id="notices" className="text-2xl font-bold text-gray-900 mt-12 mb-4">When an Indian tax notice arrives</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          An Indian tax notice to a Japanese-owned subsidiary is usually routine: a mismatch between the return and the
+          tax department&apos;s data, a withholding tax query, a scrutiny selection or a transfer pricing reference.
+          Deadlines are short, often 7 to 30 days, which rarely fits a head-office approval cycle. Agree in advance who
+          may approve a reply, read each notice the day it arrives and respond with documents. Where a transfer
+          pricing adjustment causes double tax, the Mutual Agreement Procedure under the India-Japan treaty lets the
+          two tax authorities resolve it. See{" "}
+          <Link href="/japan-to-india/tax-notices-and-litigation" className="text-blue-800 font-semibold hover:underline">tax notices and litigation</Link>.
+        </p>
+
+        <h2 id="restructuring" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Regional holding companies, mergers and exit</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Japanese groups most often restructure an Indian subsidiary for one of three reasons: to bring it under a
+          regional holding company, often in Singapore; to combine two Indian entities after an acquisition; or to wind
+          down a unit that no longer fits. The tools are a share transfer, a merger scheme, a slump sale, strike-off or
+          voluntary liquidation. Each has its own Indian tax and FEMA steps, including Form FC-TRS for share transfers
+          and a valuation at fair value, and a separate result for the Japanese parent. See{" "}
+          <Link href="/japan-to-india/restructuring-and-exit" className="text-blue-800 font-semibold hover:underline">restructuring and exit</Link>.
+        </p>
+
+        <h2 id="mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Ten mistakes Japanese businesses make in India, and the fixes</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Mistake</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Fix</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Starting the ringi only after choosing a city and partner</th><td className="border border-gray-300 p-3">Run the internal approval in parallel with entity planning, with a fixed decision date</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Preparing Japanese documents in the wrong order</th><td className="border border-gray-300 p-3">Notarise, obtain Legal Affairs Bureau certification, apostille through MOFA, then translate; keep certificates under three months old</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Remitting capital from a group treasury company</th><td className="border border-gray-300 p-3">Send funds from the shareholder named in the incorporation documents, or FC-GPR is held up</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Missing the 60-day allotment window over Golden Week or Obon</th><td className="border border-gray-300 p-3">Fix the board date for allotment before the money leaves Japan</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Letting chuzaiin negotiate or sign contracts for the parent</th><td className="border border-gray-300 p-3">Keep contracting authority in the Indian company and document roles, to avoid a permanent establishment</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Copying Japanese employment terms</th><td className="border border-gray-300 p-3">Use Indian contracts reviewed against the labour codes and state shops rules</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Assuming the same year end needs no bridge</th><td className="border border-gray-300 p-3">Parents on 31 March match India; those on 31 December need an agreed reconciliation</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Charging the subsidiary without an intercompany agreement</th><td className="border border-gray-300 p-3">Sign agreements before the first invoice and price them at arm&apos;s length</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Skipping a Certificate of Coverage for seconded staff</th><td className="border border-gray-300 p-3">Apply under the India-Japan Social Security Agreement before the move</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Treating the resident director as a formality</th><td className="border border-gray-300 p-3">Plan who meets the 182-day test, often a full-year chuzaiin or an Indian manager</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Each mistake is explained with examples in{" "}
+          <Link href="/japan-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">common mistakes Japanese companies make in India</Link>.
+        </p>
+
+        <h2 id="steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Incorporating the subsidiary, step by step</h2>
+        <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-4">
+          <li><strong>Head office approval.</strong> The KK or GK board approves the Indian subsidiary, its capital, the directors and an authorised signatory, ideally with the ringi running in parallel with entity planning.</li>
+          <li><strong>Documents in Japan.</strong> A fresh certificate of registered matters, the articles and the resolution are notarised, certified by the Legal Affairs Bureau and apostilled by MOFA, then given a certified English translation.</li>
+          <li><strong>Digital signatures and DIN.</strong> Each proposed director receives a digital signature certificate, and Director Identification Numbers are allotted through the incorporation filing.</li>
+          <li><strong>SPICe+ filing.</strong> The subsidiary is incorporated on the Ministry of Corporate Affairs portal, with PAN and TAN, usually within 7 to 15 working days once the papers arrive.</li>
+          <li><strong>Bank account, capital and FC-GPR.</strong> The account is opened, the shareholder named in the documents remits the yen or dollar capital, shares are allotted within 60 days and FC-GPR is filed within 30 days of allotment.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The whole process usually takes 4 to 6 weeks from the day the apostilled documents reach India, and the
+          longest part is normally the document stage in Japan. See 
+          <Link href="/japan-to-india/incorporation-process" className="text-blue-800 font-semibold hover:underline">incorporation from Japan</Link> 
+          and our <Link href="/india-subsidiary-registration" className="text-blue-800 font-semibold hover:underline">India subsidiary registration</Link> service.
+        </p>
+
+        <h2 id="payroll" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Hiring the first Indian team</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Employees of the Indian subsidiary are hired on Indian contracts, on Indian payroll, with Indian statutory
+          benefits, whatever the group&apos;s practice in Japan. Payroll deducts income tax monthly and pays provident
+          fund, plus ESI where wages are low enough; gratuity becomes payable after five years; and the four labour
+          codes now set the rules on wages and working conditions. Japanese seniority pay and lifetime employment do not
+          carry over, so salary bands and promotion rules should be designed for the Indian market. See 
+          <Link href="/japan-to-india/hiring-and-payroll" className="text-blue-800 font-semibold hover:underline">hiring and payroll for Japanese companies</Link>.
+        </p>
+
+        <h2 id="parent-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Japanese parent reports at home</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A Japanese company that owns an Indian subsidiary has obligations of its own in Japan: checking the
+          controlled foreign company rules, applying the foreign dividend exemption, keeping transfer pricing
+          documentation for transactions with the subsidiary, including it in J-SOX internal control reporting if the
+          parent is listed, and meeting any outward investment reporting. Your Japanese tax adviser should confirm
+          these; we supply the Indian data on the parent&apos;s timetable so the numbers match. See 
+          <Link href="/japan-to-india/japan-parent-obligations" className="text-blue-800 font-semibold hover:underline">obligations of the Japanese parent</Link>.
+        </p>
+
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />

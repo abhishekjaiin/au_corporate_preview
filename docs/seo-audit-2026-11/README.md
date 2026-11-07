@@ -17,3 +17,13 @@ Note: the pages measured at "/blog/<country>-to-india" now live at "/<country>-t
 Rows that are not worth changing: the density flags on /terms, /contact and /about, and on case
 studies, compare legal and navigation pages against a keyword band designed for service pages, so
 they are left as they are on purpose.
+
+Deliberate exceptions (marked "Not applicable" or left Open with a reason):
+
+- /blog: now an index of the 10 country guide series (6 guides each plus a "See all" link to the
+  hub's #series list). Each country hub is the category page with the full list. The audit's 800-word
+  target and "India" density band are meant for content pages, not a listing.
+- /blog/uk-to-india: "subsidiary" runs at about 0.9% against the audit's 1.2-1.76% band. It already
+  appears about 39 times; forcing in another 14 would be over-optimisation, so it is left as is.
+- The Australia and Germany density bands in the workbook ("0.5-0.43%", "0.5-0.31%") are inverted;
+  they are treated as "at or below 0.5%".

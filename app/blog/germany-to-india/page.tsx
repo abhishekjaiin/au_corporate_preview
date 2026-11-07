@@ -26,6 +26,17 @@ const toc = [
   { id: "calendar", label: "Two financial years" },
   { id: "people", label: "Staff, secondees and the works-council gap" },
   { id: "cost", label: "Cost and timeline" },
+  { id: "entry-routes", label: "Market entry routes for German businesses" },
+  { id: "steps", label: "Business setup step by step" },
+  { id: "first-year", label: "Ongoing compliance in the first year" },
+  { id: "treaty-rates", label: "The India-Germany tax treaty in one table" },
+  { id: "contracts", label: "Contracts, DIS arbitration and enforcement" },
+  { id: "exit", label: "Leaving India later" },
+  { id: "mistakes", label: "Six procedural mistakes" },
+  { id: "data", label: "Data protection: GDPR and DPDP" },
+  { id: "fta", label: "The India-EU trade agreement" },
+  { id: "secondees", label: "Sending German staff to India: four questions to settle" },
+  { id: "parent-reporting", label: "What the German parent reports at home" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate works with German groups" },
   { id: "faq", label: "Frequently asked questions" },
@@ -215,6 +226,266 @@ export default function GermanyToIndiaHubPage() {
             Discuss your costing with our team
           </InquiryTrigger>
         </div>
+
+        <h2 id="entry-routes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Market entry routes for German businesses</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The right business structure follows from what the German company wants India to do. We ask three questions
+          first: will you sell in India, make in India, or deliver services from India to the group? The table maps
+          each answer to the usual market entry route.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Plan for India</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Usual structure</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">What to watch</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Sell products or services in India</th>
+                <td className="border border-gray-300 p-3">Wholly owned private limited company</td>
+                <td className="border border-gray-300 p-3">GST registration, distributor contracts, and transfer pricing on goods bought from Germany</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Manufacture with a local partner</th>
+                <td className="border border-gray-300 p-3">Joint venture company</td>
+                <td className="border border-gray-300 p-3">Shareholder agreement, deadlock and exit clauses, technology licence and royalty terms</td>
+              </tr>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Engineering, IT or finance centre for the group</th>
+                <td className="border border-gray-300 p-3">Captive centre (GCC) owned by the GmbH or AG</td>
+                <td className="border border-gray-300 p-3">Cost-plus remuneration, German function transfer rules and the works council at home</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">One plant or infrastructure contract</th>
+                <td className="border border-gray-300 p-3">Project office</td>
+                <td className="border border-gray-300 p-3">Needs a contract with an Indian company and a qualifying funding source; closes when the project ends</td>
+              </tr>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Test the market first</th>
+                <td className="border border-gray-300 p-3">Liaison office</td>
+                <td className="border border-gray-300 p-3">Cannot earn income or sign sales contracts; RBI-regulated through an AD bank</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Between the first two rows, the choice is often between a wholly owned subsidiary and a joint venture.
+          A wholly owned subsidiary gives the German parent full control of hiring, pricing and intellectual property,
+          and is simpler to merge, sell or close later. A joint venture brings an Indian partner&apos;s customers,
+          licences or land, but needs a carefully drafted shareholder agreement covering board seats, reserved
+          matters, deadlock, technology rights and exit, because changing partners later is slow and expensive.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A parent that is a partnership, such as a GmbH &amp; Co. KG, needs its own German tax review before it holds
+          Indian shares. Foreign investment in most sectors is on the Automatic Route, so the company can be formed
+          without prior approval. More detail is in{" "}
+          <Link href="/germany-to-india/structure-options" className="text-blue-800 font-semibold hover:underline">structure options for German companies</Link>,{" "}
+          <Link href="/germany-to-india/gcc-for-german-companies" className="text-blue-800 font-semibold hover:underline">GCC setup for German groups</Link>{" "}
+          and our{" "}
+          <Link href="/project-office-registration" className="text-blue-800 font-semibold hover:underline">project office registration</Link> service.
+        </p>
+
+        <h2 id="steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Business setup step by step, from Gesellschafterbeschluss to bank account</h2>
+        <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-4">
+          <li><strong>Resolution in Germany.</strong> The shareholders or the management board approve the Indian company, its share capital, the first directors and an authorised signatory.</li>
+          <li><strong>Notary, Landgericht and translation.</strong> The resolution, articles and a recent Handelsregister extract are notarised, apostilled by the competent Landgericht and given a sworn English translation.</li>
+          <li><strong>Digital signatures and director identification.</strong> Each proposed director gets a digital signature certificate, and a Director Identification Number (DIN) is allotted through the incorporation filing itself for up to three directors.</li>
+          <li><strong>Name and incorporation.</strong> The name is reserved and the company incorporated through the SPICe+ form on the Ministry of Corporate Affairs portal, which also issues PAN and TAN. This usually takes 7 to 15 working days once the papers arrive.</li>
+          <li><strong>Bank account and capital.</strong> The company opens its account, the GmbH remits euros, shares are allotted within 60 days, and Form FC-GPR is filed with the RBI within 30 days of allotment.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          From a ready document set, the whole process takes about 4 to 6 weeks. The order, and the documents for each
+          Landgericht, are in{" "}
+          <Link href="/germany-to-india/incorporation-steps" className="text-blue-800 font-semibold hover:underline">incorporation steps</Link>{" "}
+          and{" "}
+          <Link href="/germany-to-india/documents-handelsregister-apostille" className="text-blue-800 font-semibold hover:underline">documents, Handelsregister and apostille</Link>.
+        </p>
+
+        <h2 id="first-year" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Ongoing compliance in the first year</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          German finance teams are used to an annual cycle centred on the Jahresabschluss. In India the filings are
+          spread through the year and across four authorities, so the first year is where most groups need help.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Area</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">What is filed</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">When</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">RBI</th>
+                <td className="border border-gray-300 p-3">FC-GPR for each share allotment; FLA return</td>
+                <td className="border border-gray-300 p-3">30 days after allotment; 15 July each year</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Registrar of Companies</th>
+                <td className="border border-gray-300 p-3">AGM, then annual accounts (AOC-4) and annual return (MGT-7)</td>
+                <td className="border border-gray-300 p-3">AGM by 30 September; forms after the AGM</td>
+              </tr>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Income tax</th>
+                <td className="border border-gray-300 p-3">Advance tax, TDS returns, transfer pricing report (Form 48) and the tax return</td>
+                <td className="border border-gray-300 p-3">Quarterly instalments; return by 31 October or 30 November</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GST and payroll</th>
+                <td className="border border-gray-300 p-3">GST returns; provident fund and ESI contributions</td>
+                <td className="border border-gray-300 p-3">Monthly</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Every date, mapped against a 31 December German year, is in the{" "}
+          <Link href="/germany-to-india/compliance-calendar" className="text-blue-800 font-semibold hover:underline">compliance calendar for German groups</Link>.
+          Our <Link href="/secretarial-roc-compliance" className="text-blue-800 font-semibold hover:underline">secretarial</Link>{" "}
+          and <Link href="/fema-rbi-compliance" className="text-blue-800 font-semibold hover:underline">FEMA and RBI compliance</Link>{" "}
+          teams file them for you.
+        </p>
+
+        <h2 id="treaty-rates" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The India-Germany tax treaty in one table</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Payment from India to Germany</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Treaty maximum in India</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">German side</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Dividends</th>
+                <td className="border border-gray-300 p-3">10%, with no shareholding tiers</td>
+                <td className="border border-gray-300 p-3">95% exempt for a qualifying corporate holding (Section 8b)</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Interest</th>
+                <td className="border border-gray-300 p-3">10%; loans from KfW, DEG and Hermes-guaranteed loans exempt</td>
+                <td className="border border-gray-300 p-3">Taxable, with credit for Indian tax</td>
+              </tr>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Royalties and fees for technical services</th>
+                <td className="border border-gray-300 p-3">10%</td>
+                <td className="border border-gray-300 p-3">Taxable, with credit for Indian tax</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Business profits of the parent</th>
+                <td className="border border-gray-300 p-3">Only through a permanent establishment; a building site after six months</td>
+                <td className="border border-gray-300 p-3">Relief under the treaty</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          To claim the treaty rate, the German recipient gives the Indian payer a German tax residency certificate and
+          Form 41 (previously Form 10F) before the payment, and the remittance goes out with Forms 145 and 146. Missing
+          these papers is one of the most common reasons Indian tax is withheld at the higher domestic rate. The full
+          article-by-article analysis is in the{" "}
+          <Link href="/germany-to-india/india-germany-dtaa" className="text-blue-800 font-semibold hover:underline">India-Germany DTAA guide</Link>.
+        </p>
+
+        <h2 id="contracts" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contracts, DIS arbitration and enforcement in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A German parent can choose German law and a German-seated arbitration, for example under the DIS rules, for
+          its shareholder, services and licence agreements. India enforces an award from a New York Convention country
+          as a foreign award under Part II of the Arbitration and Conciliation Act, 1996. A German court judgment is a
+          different matter: Germany is not on India&apos;s list of reciprocating territories, so the winner must bring a
+          fresh suit in India within three years. Indian mandatory law, FEMA and stamp duty apply whatever law the
+          parties choose, and there is currently no investment protection treaty between India and Germany. See{" "}
+          <Link href="/germany-to-india/contracts-courts-arbitration" className="text-blue-800 font-semibold hover:underline">contracts, courts and arbitration</Link>.
+        </p>
+
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Leaving India later: sale, buy-back or closure</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A German parent can leave by selling the shares, having the Indian company buy them back, winding it up, or
+          having it struck off if it is dormant. A sale is the most common route. The price must follow FEMA pricing
+          rules; Indian capital gains tax on unlisted shares held for more than 24 months is 12.5%, subject to the
+          treaty; and a qualifying German corporation generally pays tax on only 5% of its gain. Closing a company takes
+          longer, because tax, labour and company law dues must all be cleared first. See{" "}
+          <Link href="/germany-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">exit and restructuring</Link>.
+        </p>
+
+        <h2 id="mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Six procedural mistakes German companies make</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Choosing a branch without testing eligibility.</strong> It needs USD 100,000 net worth and a five-year profit record.</li>
+          <li><strong>Wrong apostille office, or no sworn translation.</strong> Each document goes to the competent Landgericht and needs a sworn English translation.</li>
+          <li><strong>Allotting shares after 60 days.</strong> Allot within 60 days of receiving the money, or refund it, and file FC-GPR within 30 days.</li>
+          <li><strong>No resident director.</strong> One director must have stayed in India for at least 182 days in the year.</li>
+          <li><strong>Dividends without treaty papers.</strong> Without the residency certificate and Form 41, tax is withheld at the higher rate.</li>
+          <li><strong>Secondments with no agreement.</strong> A German engineer directing Indian work without a secondment contract can create a permanent establishment for the parent.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The full list, grouped by area, is in{" "}
+          <Link href="/germany-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">common mistakes German companies make in India</Link>.
+        </p>
+
+        <h2 id="data" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Data protection: GDPR transfers and India&apos;s DPDP Act</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Sending personal data from Germany to the Indian company is a restricted transfer under the GDPR. India has
+          no EU adequacy decision, so the usual tools are the standard contractual clauses with a transfer impact
+          assessment, or binding corporate rules for larger groups. For employee data, German law adds a works council
+          co-determination right over many HR and monitoring systems, so involve the Betriebsrat before rolling out
+          shared tools. In India, the Digital Personal Data Protection Act applies as its duties take effect: the Rules
+          were notified on 13 November 2025 and the main duties start on 13 May 2027. See 
+          <Link href="/germany-to-india/data-protection-gdpr-dpdp" className="text-blue-800 font-semibold hover:underline">GDPR and DPDP for German companies</Link>.
+        </p>
+
+        <h2 id="fta" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The India-EU trade agreement: what changes and what does not</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Negotiators concluded the India-EU free trade agreement on 27 January 2026, but it is not yet in force. On 11
+          September 2026 the European Commission asked the Council to authorise signing and conclusion, signature is
+          being reported for December 2026, and entry into force is targeted for early 2027.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Expected to help:</strong> lower tariffs on components and machinery, clearer rules for sending staff, and stronger intellectual property enforcement.</li>
+          <li><strong>Will not change:</strong> how an Indian company is formed, funded or taxed, or the FEMA filings; and there is still no investment protection treaty.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          German supply-chain rules matter in the meantime. The Supply Chain Due Diligence Act (LkSG) applies to
+          companies with 1,000 or more employees in Germany, and EU sustainability reporting and CBAM send data requests
+          to Indian suppliers and group companies. See 
+          <Link href="/germany-to-india/india-eu-fta-and-germany" className="text-blue-800 font-semibold hover:underline">the India-EU FTA and Germany</Link> 
+          and 
+          <Link href="/germany-to-india/supply-chain-and-esg-duties" className="text-blue-800 font-semibold hover:underline">supply chain and ESG duties</Link>.
+        </p>
+
+        <h2 id="secondees" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Sending German staff to India: four questions to settle</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Sending a German employee to India raises four separate questions, and all four should be settled before the
+          person travels:
+        </p>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Immigration.</strong> An Employment Visa and registration with the FRRO after arrival.</li>
+          <li><strong>Income tax.</strong> Pay for work done in India is taxable there unless the treaty&apos;s short-stay exemption applies: 183 days or fewer in the fiscal year, an employer outside India, and no cost borne by an Indian permanent establishment.</li>
+          <li><strong>Social security.</strong> Under the India-Germany agreement, in force since 1 October 2009, a posted worker can stay in the German scheme for up to 48 months, extendable by 12, and avoid Indian provident fund, but only with a certificate of coverage in hand before the posting begins.</li>
+          <li><strong>Corporate tax.</strong> Whether the secondment creates a permanent establishment for the German parent, which depends on who directs the work and who bears the cost.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A German employee who works on the Indian company&apos;s payroll and under its control is normally an employee of
+          the Indian entity for Indian tax. See 
+          <Link href="/germany-to-india/relocate-german-staff" className="text-blue-800 font-semibold hover:underline">relocating German staff to India</Link> 
+          and 
+          <Link href="/germany-to-india/german-employees-in-india-ssa" className="text-blue-800 font-semibold hover:underline">German employees in India and the social security agreement</Link>.
+        </p>
+
+        <h2 id="parent-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the German parent reports at home</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A GmbH or AG pays corporation tax of 15% plus the solidarity surcharge and municipal trade tax, roughly 30% in
+          total, but dividends and share gains from a qualifying foreign company are 95% exempt, so the German cost on
+          an Indian dividend is small. The parent must still notify the tax office of the foreign holding, report to the
+          Bundesbank where thresholds are met, consolidate under German accounting rules, keep the Transparenzregister
+          current and apply German anti-bribery and supply-chain law to the Indian team. Your German advisers confirm
+          these points; we advise on the Indian side. See 
+          <Link href="/germany-to-india/german-parent-obligations" className="text-blue-800 font-semibold hover:underline">obligations of the German parent</Link>.
+        </p>
 
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
         <div className="mb-10">

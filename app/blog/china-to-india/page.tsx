@@ -29,6 +29,7 @@ const toc = [
   { id: "people", label: "People: hiring, visas and provident fund" },
   { id: "cost", label: "What it costs and how long it takes" },
   { id: "mistakes", label: "Six mistakes Chinese companies make" },
+  { id: "exit", label: "Selling, restructuring or closing the Indian subsidiary" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
@@ -472,6 +473,23 @@ export default function ChinaToIndiaHubPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           More detail:{" "}
           <Link href="/china-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">12 common mistakes</Link>.
+        </p>
+
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling, restructuring or closing the Indian subsidiary</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A Chinese parent can leave India by selling the shares, having the company buy them back, winding it up, or
+          having it struck off if it is dormant. A sale is the most common route, and it has two points that do not
+          arise for most other investors:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>The buyer may need approval too.</strong> A buyer that is itself from a country sharing a land border with India, or whose beneficial owner is, needs Press Note 3 approval before it can acquire the shares.</li>
+          <li><strong>Filings in China.</strong> The Chinese seller must handle its own overseas-investment filings for the disposal, alongside the Indian steps.</li>
+          <li><strong>Pricing and reporting in India.</strong> The price must follow FEMA pricing guidelines, and the transfer is reported in Form FC-TRS.</li>
+          <li><strong>Tax.</strong> Long-term gains on unlisted Indian shares held for more than 24 months are taxed at 12.5%, and the treaty position should be confirmed before signing.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Closing a company is slower than selling it, because tax, labour and company law dues must all be cleared
+          first. See <Link href="/china-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">exit and restructuring for Chinese companies</Link>.
         </p>
 
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>

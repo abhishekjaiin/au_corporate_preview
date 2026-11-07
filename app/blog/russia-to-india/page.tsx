@@ -30,6 +30,7 @@ const toc = [
   { id: "people", label: "People: hiring, visas and provident fund" },
   { id: "cost", label: "What it costs and how long it takes" },
   { id: "mistakes", label: "Six mistakes Russian companies make" },
+  { id: "exit", label: "Selling, restructuring or closing the Indian subsidiary" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
@@ -481,6 +482,22 @@ export default function RussiaToIndiaHubPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           More detail:{" "}
           <Link href="/russia-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">12 common mistakes</Link>.
+        </p>
+
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling, restructuring or closing the Indian subsidiary</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A Russian parent can exit through a share sale, a buy-back, a merger, voluntary liquidation or strike-off,
+          using the same Indian legal routes as any foreign owner. The hard part is usually the money, not the law:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>The payment route.</strong> Sale proceeds or the surplus on liquidation must reach Russia through a channel both banks accept, so agree it before signing.</li>
+          <li><strong>Buyer screening.</strong> A buyer, and its bank, will run sanctions and ownership checks on the Russian seller, which adds time.</li>
+          <li><strong>Tax.</strong> Gains on Indian shares are taxable in India under the treaty, and the Indian buyer withholds tax before paying.</li>
+          <li><strong>FEMA.</strong> The price must follow the pricing guidelines, and the transfer is reported in Form FC-TRS.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Because banking and sanctions positions change often, we review this section every quarter. See 
+          <Link href="/russia-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">exit and restructuring for Russian companies</Link>.
         </p>
 
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>

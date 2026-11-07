@@ -25,6 +25,17 @@ const toc = [
   { id: "tax", label: "Tax, treaty and transfer pricing" },
   { id: "people", label: "Teams, secondees and superannuation" },
   { id: "cost", label: "Cost and timeline" },
+  { id: "structures", label: "Company, LLP, branch or liaison office" },
+  { id: "pe", label: "Permanent establishment risk" },
+  { id: "shares", label: "Employee share plans and valuations" },
+  { id: "audit", label: "Audit and the Australian group timetable" },
+  { id: "contracts", label: "Contracts, disputes and tax notices" },
+  { id: "selling", label: "Selling into India: ECTA, GST and digital sales" },
+  { id: "exit", label: "Selling, merging or closing later" },
+  { id: "checklist", label: "A six-step checklist before you incorporate" },
+  { id: "steps", label: "Incorporation from Australia, step by step" },
+  { id: "payroll", label: "Payroll for an Indian team" },
+  { id: "parent-reporting", label: "What the Australian parent reports at home" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate works with Australian groups" },
   { id: "faq", label: "Frequently asked questions" },
@@ -221,6 +232,223 @@ export default function AustraliaToIndiaHubPage() {
             Discuss your costing with our team
           </InquiryTrigger>
         </div>
+
+        <h2 id="structures" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Company, LLP, branch or liaison office: the four options side by side</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Australian boards often ask whether a limited liability partnership (LLP) or a branch would be simpler than an
+          Indian private limited company. The table sets out how each option works for an Australian parent. In
+          practice the private limited company wins for almost every operating business, because it pays the lowest
+          Indian rate, needs no RBI approval in most sectors and can later be sold, merged or listed.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Option</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Indian tax</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Approval</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Australian angle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Private limited company</th>
+                <td className="border border-gray-300 p-3">About 25.17% on the concessional regime</td>
+                <td className="border border-gray-300 p-3">Automatic Route in most sectors; FC-GPR after allotment</td>
+                <td className="border border-gray-300 p-3">Dividends generally non-assessable non-exempt under section 768-5</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Limited liability partnership</th>
+                <td className="border border-gray-300 p-3">30% plus surcharge and cess</td>
+                <td className="border border-gray-300 p-3">Only in sectors open to 100% automatic FDI with no performance conditions</td>
+                <td className="border border-gray-300 p-3">Classification for Australian tax needs separate advice; uncommon for Australian groups</td>
+              </tr>
+              <tr>
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Branch office</th>
+                <td className="border border-gray-300 p-3">35% plus surcharge and cess</td>
+                <td className="border border-gray-300 p-3">Form FNC through an AD bank; five-year profit record and USD 100,000 net worth</td>
+                <td className="border border-gray-300 p-3">Active branch profits may be non-assessable under section 23AH, but the parent carries Indian liabilities</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Liaison office</th>
+                <td className="border border-gray-300 p-3">No income, so no profit tax, but annual reporting applies</td>
+                <td className="border border-gray-300 p-3">Form FNC; three-year profit record and USD 50,000 net worth</td>
+                <td className="border border-gray-300 p-3">Market research and representation only; cannot invoice Indian customers</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The full comparison, including when a branch can make sense for a project business, is in{" "}
+          <Link href="/australia-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp" className="text-blue-800 font-semibold hover:underline">choosing the right structure</Link>.
+          For the office routes themselves, see{" "}
+          <Link href="/branch-office-registration" className="text-blue-800 font-semibold hover:underline">branch office registration</Link> and{" "}
+          <Link href="/liaison-office-registration" className="text-blue-800 font-semibold hover:underline">liaison office registration</Link>.
+        </p>
+
+        <h2 id="pe" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Permanent establishment risk when Australian staff work in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Having an Indian company does not stop the Australian parent itself from becoming taxable in India. Under
+          the India-Australia treaty, the most common trigger is a service PE: services furnished in India by the
+          parent&apos;s own personnel for more than 183 days in any 12-month period. A fixed place the parent uses,
+          or an agent in India who habitually concludes contracts for it, can also create a PE.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Keep Australian staff on Indian assignments under a written secondment agreement, with the Indian company directing the work and bearing the cost.</li>
+          <li>Track days in India per person and per project, across the whole group, not just per trip.</li>
+          <li>Do not let Indian employees sign customer contracts in the parent&apos;s name.</li>
+          <li>Price any services the parent provides to India at arm&apos;s length, and match the Indian and ATO transfer pricing files.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The treaty also caps Indian withholding at up to 15% on dividends, interest and royalties, and 10% on
+          equipment royalties, and treats many technical service fees as royalties. Details:{" "}
+          <Link href="/australia-to-india/dtaa-pe-risk" className="text-blue-800 font-semibold hover:underline">treaty and PE risk</Link>{" "}
+          and{" "}
+          <Link href="/australia-to-india/foreign-employee-treaty-ssa" className="text-blue-800 font-semibold hover:underline">how Australian employees in India are taxed</Link>,
+          which explains the 183-day short-visit exemption under Article 15 and the Social Security Agreement in force since 1 January 2016.
+        </p>
+
+        <h2 id="shares" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Employee share plans and valuations</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian staff of an Australian group usually join the parent&apos;s employee share scheme rather than a
+          separate Indian plan. India taxes the benefit as salary when an option is exercised, or when a right or RSU
+          vests, converting the Australian dollar value to rupees at the SBI telegraphic transfer buying rate. The
+          Indian employer withholds that tax through payroll, so the plan administrator must send exercise and vesting
+          data every month. Australian counsel should confirm the securities-law position of offering parent shares to
+          Indian employees.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Separately, every issue or transfer of shares in the Indian company needs its own rupee valuation, certified
+          by a Chartered Accountant or a SEBI-registered merchant banker. That certificate is not the same as the fair
+          value the parent measures under Australian Accounting Standards, so plan for both. See{" "}
+          <Link href="/australia-to-india/esop" className="text-blue-800 font-semibold hover:underline">ESOPs for Indian employees</Link>{" "}
+          and{" "}
+          <Link href="/australia-to-india/share-valuation" className="text-blue-800 font-semibold hover:underline">share valuation</Link>.
+        </p>
+
+        <h2 id="audit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Audit and the Australian group timetable</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The Indian company is audited every year by an Indian Chartered Accountant, whichever firm audits the
+          Australian group. For an ASX-listed parent, the CEO and CFO declaration under section 295A of the
+          Corporations Act relies on controls at material subsidiaries, and the group auditor directs component
+          auditors under ASA 600. In practice this means two audit cycles: group reporting to 30 June, using
+          management accounts or a review, and the Indian statutory audit to 31 March, signed before the AGM deadline
+          of 30 September. Planning both together avoids asking the Indian team for the same evidence twice. See{" "}
+          <Link href="/australia-to-india/audit-icofr" className="text-blue-800 font-semibold hover:underline">audit and internal controls</Link>.
+        </p>
+
+        <h2 id="contracts" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contracts, disputes and tax notices</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Australia is not a reciprocating territory under Section 44A of the Code of Civil Procedure, so an
+          Australian court judgment cannot be executed directly in India; the creditor has to sue again on the
+          judgment. For that reason, contracts with Indian customers and suppliers usually choose arbitration, for
+          example seated in Singapore or Sydney under SIAC or ACICA rules, whose awards India enforces under the New
+          York Convention. Indian stamp duty applies to agreements brought into India, wherever they were signed, so
+          stamp intercompany agreements before relying on them. See{" "}
+          <Link href="/australia-to-india/contracts-and-arbitration" className="text-blue-800 font-semibold hover:underline">contracts and arbitration</Link>.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Indian tax notices often allow only 7 to 30 days for a reply, so agree in advance who in Australia approves
+          a response. Most notices are routine data mismatches or questions about payments to Australia. Where a
+          transfer pricing adjustment leads to double tax, the Mutual Agreement Procedure under Article 25 of the
+          treaty lets the ATO and the Indian authority negotiate. See{" "}
+          <Link href="/australia-to-india/tax-notices-and-litigation" className="text-blue-800 font-semibold hover:underline">tax notices and litigation</Link>.
+        </p>
+
+        <h2 id="selling" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling into India: ECTA, GST and digital sales</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The India-Australia ECTA mainly cuts goods tariffs, which helps Australian exporters of goods, but it leaves
+          FDI and company law rules unchanged, and a broader Comprehensive Economic Cooperation Agreement has been
+          under negotiation to build on it. GST follows the customer: an Australian business selling digital services
+          to Indian consumers may need to register for Indian GST even with no office in India, while exports remain
+          generally GST-free at home. Where the sales run through an Indian company instead, it registers for GST
+          like any Indian business. See{" "}
+          <Link href="/australia-to-india/global-vat" className="text-blue-800 font-semibold hover:underline">VAT and GST on cross-border sales</Link>{" "}
+          and our{" "}
+          <Link href="/oidar-gst-registration-india" className="text-blue-800 font-semibold hover:underline">OIDAR GST registration</Link> service.
+        </p>
+
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling, merging or closing later</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          An Australian parent can sell, merge or close its Indian company, and the right route usually depends on
+          tax on both sides. India generally taxes a gain on selling the Indian shares, while in Australia the active
+          foreign business asset reduction can reduce or remove the gain on selling shares in an active foreign
+          company. A company that never traded can be struck off; one that traded needs a voluntary liquidation. Every
+          share transfer between a resident and a non-resident is reported to the RBI in Form FC-TRS. Building clean
+          records from the first year makes each of these routes faster. See{" "}
+          <Link href="/australia-to-india/restructuring-and-exit" className="text-blue-800 font-semibold hover:underline">restructuring and exit</Link>.
+        </p>
+
+        <h2 id="checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A six-step checklist before you incorporate</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most problems we fix for Australian parents come from treating India like another Australian state. India
+          splits responsibility between the Ministry of Corporate Affairs, the RBI, the income tax and GST
+          authorities and state labour departments, each with its own calendar and little tolerance for late filing.
+          Six decisions made early prevent most of them:
+        </p>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Decide the resident director before incorporation.</li>
+          <li>Order the ASIC extract and DFAT apostilles in one sequence.</li>
+          <li>Approve the first capital and its allotment together, so FC-GPR is filed on time.</li>
+          <li>Apply for ATO certificates of coverage for anyone moving to India.</li>
+          <li>Sign intercompany agreements before the first invoice.</li>
+          <li>Set a group calendar that maps the Indian 31 March year to the Australian 30 June year.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          All thirteen mistakes we see, and how to avoid them, are in{" "}
+          <Link href="/australia-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">common mistakes Australian companies make in India</Link>.
+          The <Link href="/australia-to-india/resident-director" className="text-blue-800 font-semibold hover:underline">resident director guide</Link>{" "}
+          explains the 182-day test and the Article 4 tie-breaker for an Australian director who moves to India.
+        </p>
+
+        <h2 id="steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Incorporation from Australia, step by step</h2>
+        <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-4">
+          <li><strong>Board resolution.</strong> The Pty Ltd board approves the Indian company, its capital, the first directors, the resident director and an authorised signatory.</li>
+          <li><strong>ASIC extract and DFAT apostille.</strong> A current ASIC company extract, the constitution and the resolution are notarised and apostilled once, federally, by DFAT. The exact legal name and ACN must match on every Indian form.</li>
+          <li><strong>Digital signatures and DIN.</strong> Each director receives a digital signature certificate, and Director Identification Numbers are allotted through the incorporation filing.</li>
+          <li><strong>SPICe+ filing.</strong> The name is reserved and the company incorporated on the Ministry of Corporate Affairs portal, with PAN and TAN issued at the same time.</li>
+          <li><strong>Bank account, capital and FC-GPR.</strong> The account is opened, the parent remits the capital, shares are allotted within 60 days and FC-GPR is filed within 30 days of allotment.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          From the day the apostilled documents reach India, this usually takes 4 to 6 weeks. Because DFAT runs a
+          single federal apostille process, the Australian document stage is often quicker than for countries with
+          state-by-state rules. See <Link href="/australia-to-india/incorporation-process" className="text-blue-800 font-semibold hover:underline">incorporation from Australia</Link>.
+        </p>
+
+        <h2 id="payroll" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Payroll for an Indian team: what replaces super and Fair Work</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">In Australia</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">The Indian equivalent</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Superannuation</th><td className="border border-gray-300 p-3">Employees&apos; provident fund, with employer and employee contributions paid by the 15th of the following month</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Modern awards and the National Employment Standards</th><td className="border border-gray-300 p-3">The four labour codes and state shops and establishments laws</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Long service leave</th><td className="border border-gray-300 p-3">Gratuity after five years of continuous service, or one year for fixed-term staff under the codes</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Workers compensation and Medicare</th><td className="border border-gray-300 p-3">Employees&apos; State Insurance (ESI) for lower-paid staff</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">PAYG withholding</th><td className="border border-gray-300 p-3">Monthly TDS on salary, plus professional tax in many states</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Every employee needs a written Indian contract; Fair Work concepts do not apply. See 
+          <Link href="/australia-to-india/hiring-and-payroll" className="text-blue-800 font-semibold hover:underline">hiring and payroll for Australian companies</Link> 
+          and our <Link href="/payroll-expat-services" className="text-blue-800 font-semibold hover:underline">payroll and expat services</Link>.
+        </p>
+
+        <h2 id="parent-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Australian parent reports at home</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Owning an Indian company brings Australian obligations too. The parent should consider the controlled
+          foreign company rules, report its international related-party dealings in the International Dealings
+          Schedule with the company tax return, claim any foreign income tax offset for Indian tax on fees and
+          royalties, and keep transfer pricing documentation that agrees with the Indian file. Dividends from a wholly
+          owned Indian company are usually exempt in Australia. These are Australian requirements for your Australian
+          adviser to confirm; we supply the Indian figures so both sides match. See 
+          <Link href="/australia-to-india/australian-parent-obligations" className="text-blue-800 font-semibold hover:underline">Australian parent obligations</Link>.
+        </p>
 
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
         <div className="mb-10">

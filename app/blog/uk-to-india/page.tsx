@@ -29,6 +29,10 @@ const toc = [
   { id: "people", label: "People: hiring, secondments and share plans" },
   { id: "cost", label: "What it costs and how long it takes" },
   { id: "mistakes", label: "Six mistakes UK companies make" },
+  { id: "ceta-checklist", label: "CETA in practice" },
+  { id: "contracts", label: "Contracts and enforcement: a UK advantage" },
+  { id: "gcc", label: "Captive centres for UK groups" },
+  { id: "exit", label: "Leaving or restructuring later" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
@@ -431,6 +435,70 @@ export default function UkToIndiaHubPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           More detail:{" "}
           <Link href="/uk-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">13 common mistakes</Link>.
+        </p>
+
+        <h2 id="ceta-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">CETA in practice: what it changes for a UK company in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The India-UK Comprehensive Economic and Trade Agreement has been in force since 15 July 2026, together with a
+          Double Contributions Convention on social security. UK boards often ask whether it makes setting up an Indian
+          subsidiary easier. It helps with trade and people, but not with incorporation.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Area</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Effect of CETA and the Convention</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Services sold from the UK</th><td className="border border-gray-300 p-3">Defined market access for UK service firms and more predictable trade rules</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Staff sent to India</th><td className="border border-gray-300 p-3">Clearer mobility routes; a worker on a covered temporary assignment with a certificate of coverage stays in UK National Insurance and out of Indian provident fund</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Goods</th><td className="border border-gray-300 p-3">Tariff reductions under the agreement&apos;s schedules and rules of origin</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Forming and funding the subsidiary</th><td className="border border-gray-300 p-3">No change: the Companies Act, FEMA and the FDI Policy still apply, with FC-GPR after each allotment</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Tax on profits, dividends and fees</th><td className="border border-gray-300 p-3">No change: the India-UK tax treaty and Indian tax law still decide it</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The Convention only helps if the certificate of coverage is in place before the secondment starts. See 
+          <Link href="/uk-to-india/india-uk-ceta" className="text-blue-800 font-semibold hover:underline">the India-UK CETA explained</Link> 
+          and 
+          <Link href="/uk-to-india/uk-employees-in-india-dcc" className="text-blue-800 font-semibold hover:underline">UK employees in India and the Double Contributions Convention</Link>.
+        </p>
+
+        <h2 id="contracts" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contracts and enforcement: a UK advantage</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          UK companies are in a better position than most foreign groups when a contract goes wrong. The UK is a
+          reciprocating territory under Section 44A of India&apos;s Code of Civil Procedure, so a money judgment of a UK
+          superior court can be filed for execution in India without a fresh suit. Arbitral awards from London are
+          enforceable as foreign awards under the New York Convention. English law and a London seat are therefore
+          realistic choices for intercompany and customer contracts, although Indian stamp duty, employment law and
+          FEMA still apply to the Indian subsidiary. The right forum depends on where the other side&apos;s assets are
+          and how quickly you need a result. See 
+          <Link href="/uk-to-india/contracts-courts-arbitration" className="text-blue-800 font-semibold hover:underline">contracts, courts and arbitration for UK companies</Link>.
+        </p>
+
+        <h2 id="gcc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Captive centres for UK groups: from pilot to scale</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Many UK groups use India for engineering, finance, data and operations work through a Global Capability
+          Centre. The usual path is a pilot team through an Employer of Record, a subsidiary once the team reaches 20 to
+          50 people, and scaled operations priced on a cost-plus basis. UK regulated firms must also meet the PRA and
+          FCA rules on outsourcing and third-party risk when work moves to a group company in India, and UK GDPR
+          applies to any personal data the centre handles, because India does not have UK adequacy. See 
+          <Link href="/uk-to-india/gcc-for-uk-companies" className="text-blue-800 font-semibold hover:underline">GCC setup for UK companies</Link>, 
+          <Link href="/uk-to-india/data-protection-uk-gdpr-dpdp" className="text-blue-800 font-semibold hover:underline">UK GDPR and India&apos;s DPDP Act</Link> 
+          and our <Link href="/gcc-setup-india" className="text-blue-800 font-semibold hover:underline">GCC setup service</Link>.
+        </p>
+
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Leaving or restructuring later</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A UK parent can exit an Indian subsidiary by selling the shares, selling the business as a slump sale, merging
+          it into another company, buying back shares, or closing it by strike-off or liquidation. India taxes the gain
+          in most cases and the treaty does not cap it, while the UK often exempts it under the substantial
+          shareholding exemption, so the Indian tax is usually the final cost. Plan the RBI pricing rules, Form FC-TRS
+          reporting and tax clearances before signing anything. See 
+          <Link href="/uk-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">exit and restructuring for UK parents</Link>.
         </p>
 
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
