@@ -269,6 +269,9 @@ export default function IndiaSubsidiaryRegistrationPage() {
             <Link href="/cost-of-hiring-employees-in-india" className="font-semibold text-[#081a42] underline">cost of hiring</Link> and{" "}
             <Link href="/can-a-foreign-company-own-100-percent-of-an-indian-company" className="font-semibold text-[#081a42] underline">100% foreign ownership</Link>.
           </p>
+          <p className="mt-3 text-sm text-gray-600">
+            City guides: <Link href="/company-registration-in-bengaluru" className="font-semibold text-[#081a42] underline">Bengaluru</Link>,{" "}<Link href="/company-registration-in-gurugram" className="font-semibold text-[#081a42] underline">Gurugram</Link>,{" "}<Link href="/company-registration-in-mumbai" className="font-semibold text-[#081a42] underline">Mumbai</Link> and{" "}<Link href="/company-registration-in-pune" className="font-semibold text-[#081a42] underline">Pune</Link>. Funding and equity: <Link href="/share-valuation-india-registered-valuer-fema" className="font-semibold text-[#081a42] underline">share valuation</Link>,{" "}<Link href="/funding-instruments-india-ccd-ccps-convertible-notes" className="font-semibold text-[#081a42] underline">CCDs, CCPS and convertible notes</Link> and{" "}<Link href="/esop-india-foreign-owned-companies" className="font-semibold text-[#081a42] underline">ESOPs</Link>.
+          </p>
         </div>
       </section>
 

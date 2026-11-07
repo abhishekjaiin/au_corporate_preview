@@ -39,6 +39,8 @@ Full page index (every page on the site, not just the curated list below): https
 - [For Hong Kong Companies](https://www.theaucorp.com/hong-kong-to-india)
 - [For Russian Companies](https://www.theaucorp.com/russia-to-india)
 - [For Spanish Companies](https://www.theaucorp.com/spain-to-india)
+- [For UAE and Dubai Companies](https://www.theaucorp.com/uae-to-india): Setting up in India from the UAE, free zone parents, NRI founders, the tax treaty and CEPA
+- [For Dutch and European Companies](https://www.theaucorp.com/europe-to-india): Netherlands, France and other EU parents, with links to the Germany and Spain guides
 
 ## USA → India — Full Resource List
 
@@ -312,6 +314,25 @@ A long-form guide cluster for Singapore companies setting up and running a subsi
 - [Structure Options for Spanish Companies in India: Subsidiary, LLP, Branch, Liaison or JV](https://www.theaucorp.com/spain-to-india/structure-options): Compare the ways a Spanish group can enter India: a wholly owned private limited company, a joint venture, a limited liability partnership, a branch, a liaison office or a project office. Includes the RBI net worth tests, tax differences and notes for renewables, auto components, ceramics, retail and infrastructure.
 - [Transfer Pricing for Spanish Groups in India: Documentation, Form 3CEB and Benchmarking](https://www.theaucorp.com/spain-to-india/transfer-pricing): How India and Spain test related-party prices: methods, thresholds, Form 3CEB, the master and local files, intra-group services and royalties, loans, safe harbours, advance pricing agreements, audits and the match between Indian and Spanish files.
 - [179 FAQs: Setting Up an India Subsidiary from Spain](https://www.theaucorp.com/spain-to-india/faq): 179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff, data protection, compliance, repatriation and exit.
+
+## Planning Guides
+
+- [Cost of Setting Up a Subsidiary in India](https://www.theaucorp.com/cost-of-setting-up-a-subsidiary-in-india): AU Corporate's USD 750-1,000 all-inclusive incorporation fee, home-country costs, share capital and annual running costs
+- [How Long It Takes to Set Up a Subsidiary in India](https://www.theaucorp.com/how-long-to-set-up-a-subsidiary-in-india): Week-by-week timeline from documents to bank account and FC-GPR
+- [Resident Director Services in India](https://www.theaucorp.com/resident-director-services-india): The Section 149(3) rule and AU Corporate's professional resident director service
+- [Company Registration in India for NRIs](https://www.theaucorp.com/company-registration-in-india-for-nri): Structures, repatriation vs non-repatriation investment, documents and tax for NRIs and foreign nationals
+- [Can a Foreign Company Own 100% of an Indian Company?](https://www.theaucorp.com/can-a-foreign-company-own-100-percent-of-an-indian-company): 100% FDI, capped and prohibited sectors, Press Note 3
+- [Cost of Hiring Employees in India](https://www.theaucorp.com/cost-of-hiring-employees-in-india): CTC, statutory contributions and worked employer-cost examples
+- [India's New Labour Codes](https://www.theaucorp.com/new-labour-codes-india-50-percent-wage-rule-gratuity): The 50% wage rule, gratuity and other changes in force since 21 November 2025
+- [Manufacturing Company Setup in India](https://www.theaucorp.com/manufacturing-company-setup-in-india): Own plant or contract manufacturing, approvals and PLI incentives
+
+- [Company Registration in Bengaluru](https://www.theaucorp.com/company-registration-in-bengaluru): Registrar, Karnataka rules, districts and talent for foreign companies
+- [Company Registration in Gurugram](https://www.theaucorp.com/company-registration-in-gurugram): Registrar, Haryana rules, districts and talent for foreign companies
+- [Company Registration in Mumbai](https://www.theaucorp.com/company-registration-in-mumbai): Registrar, Maharashtra rules, districts and regulated businesses
+- [Company Registration in Pune](https://www.theaucorp.com/company-registration-in-pune): Registrar, Maharashtra rules, engineering and automotive cluster
+- [Share Valuation in India](https://www.theaucorp.com/share-valuation-india-registered-valuer-fema): FEMA pricing, registered valuer reports and income tax valuation rules
+- [ESOPs for Foreign-Owned Indian Companies](https://www.theaucorp.com/esop-india-foreign-owned-companies): Parent plans, Indian plans, ESOP valuation and perquisite tax
+- [Funding Instruments: CCDs, CCPS and Convertible Notes](https://www.theaucorp.com/funding-instruments-india-ccd-ccps-convertible-notes): FDI instruments, pricing and reporting
 
 ## India Entry — Entity Types & Process
 

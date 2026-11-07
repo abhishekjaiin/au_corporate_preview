@@ -60,6 +60,13 @@ export const publicPages: PublicPage[] = [
   { path: "/uae-to-india", priority: 0.95, changeFrequency: "monthly", lastModified: "2026-11-07" },
   { path: "/manufacturing-company-setup-in-india", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-11-07" },
   { path: "/europe-to-india", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/company-registration-in-bengaluru", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/company-registration-in-gurugram", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/company-registration-in-mumbai", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/company-registration-in-pune", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/share-valuation-india-registered-valuer-fema", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/esop-india-foreign-owned-companies", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/funding-instruments-india-ccd-ccps-convertible-notes", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-11-07" },
   { path: "/gcc-setup-india", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-10-23" },
 
   // Entity-Type Pages

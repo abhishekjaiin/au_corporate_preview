@@ -17,12 +17,22 @@ same method (visible body text, header/nav/footer removed) after each change.
 | Manufacturing company setup | manufacturing company setup in India | /manufacturing-company-setup-in-india | Built |
 | Netherlands and Europe hub | set up a subsidiary in India from Netherlands | /europe-to-india | Built; links Germany and Spain hubs |
 | Pricing / packages page | Indian subsidiary registration cost | Covered by the cost page | Waiting for fees for other services |
-| Valuation services hub + 3 pages | registered valuer valuation report | Not built | Waiting for confirmation that AU offers it |
-| ESOP advisory / valuation | ESOP valuation India | Not built | Waiting for confirmation |
-| Fund-raising instruments (CCD, notes) | compulsory convertible debentures | Not built | Optional in the workbook; waiting for confirmation |
-| City pages (Bengaluru, Gurugram, Mumbai, Pune) | company registration in Bengaluru for foreign companies | Not built | Low priority in the workbook |
+| Valuation services | registered valuer valuation report | /share-valuation-india-registered-valuer-fema | Built as a guide; AU's role described as coordinating the valuer and filings |
+| ESOP advisory / valuation | ESOP valuation India | /esop-india-foreign-owned-companies | Built as a guide |
+| Fund-raising instruments (CCD, notes) | compulsory convertible debentures | /funding-instruments-india-ccd-ccps-convertible-notes | Built as a guide |
+| City pages | company registration in Bengaluru for foreign companies | /company-registration-in-bengaluru, /company-registration-in-gurugram, /company-registration-in-mumbai, /company-registration-in-pune | Built; each with its own state rules and local detail (overlap between pages under 50%) |
 | Localised versions (ja, de, zh) | インド 子会社 設立, Tochtergesellschaft Indien gründen | Not built | Needs a native reviewer |
 | Insights hub (15 words) | India regulatory updates | /insights noindexed | Done (audit's "or noindex" option) |
 
 Keyword density on the cost, NRI, manufacturing and UAE pages runs above the band because the keyword
 is the page's subject; treated like the "topic term" rows in page-checklist.csv.
+
+## Site checks fixed alongside
+
+- scripts/validate-llms.mjs: the required-link list named /india-entry-for-us-companies and
+  /doing-business-in-india pages that now redirect; it now names their current destinations, and
+  public/llms.txt links to every required page plus the new guides. The only remaining warning,
+  /insights not in the sitemap, appears when no published insights exist (as in a local build
+  without the database); the sitemap adds /insights automatically once it lists content.
+- Three country posts had meta descriptions over 165 characters that were also cut off mid-sentence
+  (Singapore EPF/CPF, China PIPL/DPDP, Russia 152-FZ/DPDP); rewritten in full.

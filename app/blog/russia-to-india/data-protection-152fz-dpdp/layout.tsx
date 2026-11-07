@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Russia 152-FZ and India's DPDP Act",
   },
   description:
-    "How Russia's personal data law (152-FZ), with its localisation rule and cross-border transfer notification, and India's Digital Personal Data Protection Act.",
+    "How Russia's 152-FZ, with its localisation and transfer notice rules, and India's DPDP Act apply when a Russian company runs an Indian subsidiary.",
   alternates: guideAlternates("russia", "data-protection"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Russia 152-FZ and India's DPDP Act",
     description:
-      "How Russia's personal data law (152-FZ), with its localisation rule and cross-border transfer notification, and India's Digital Personal Data Protection Act.",
+      "How Russia's 152-FZ, with its localisation and transfer notice rules, and India's DPDP Act apply when a Russian company runs an Indian subsidiary.",
     url: "https://www.theaucorp.com/russia-to-india/data-protection-152fz-dpdp",
     locale: "en_RU",
   },
   twitter: {
     title: "Russia 152-FZ and India's DPDP Act",
     description:
-      "How Russia's personal data law (152-FZ), with its localisation rule and cross-border transfer notification, and India's Digital Personal Data Protection Act.",
+      "How Russia's 152-FZ, with its localisation and transfer notice rules, and India's DPDP Act apply when a Russian company runs an Indian subsidiary.",
   },
 }
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Singapore Employees in India: Treaty, EPF Exemption and CPF",
   },
   description:
-    "How income tax, India's Employees' Provident Fund and Singapore's CPF apply to Singapore staff working in India: the treaty's 183-day test, the citizen.",
+    "How Indian income tax, EPF and Singapore's CPF apply to Singapore staff in India: the 183-day test and the CECA provident fund exemption for citizens.",
   alternates: guideAlternates("singapore", "foreign-employee-treaty-ssa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Singapore Employees in India: Treaty, EPF Exemption and CPF",
     description:
-      "How income tax, India's Employees' Provident Fund and Singapore's CPF apply to Singapore staff working in India: the treaty's 183-day test, the citizen.",
+      "How Indian income tax, EPF and Singapore's CPF apply to Singapore staff in India: the 183-day test and the CECA provident fund exemption for citizens.",
     url: "https://www.theaucorp.com/singapore-to-india/singapore-employees-in-india-epf-cpf",
     locale: "en_SG",
   },
   twitter: {
     title: "Singapore Employees in India: Treaty, EPF Exemption and CPF",
     description:
-      "How income tax, India's Employees' Provident Fund and Singapore's CPF apply to Singapore staff working in India: the treaty's 183-day test, the citizen.",
+      "How Indian income tax, EPF and Singapore's CPF apply to Singapore staff in India: the 183-day test and the CECA provident fund exemption for citizens.",
   },
 }
 

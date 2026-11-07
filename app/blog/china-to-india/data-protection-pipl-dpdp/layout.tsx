@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Data Protection for Chinese Companies in India",
   },
   description:
-    "How China's PIPL, Data Security Law and cross-border data rules apply to a Chinese company with an Indian subsidiary, and how India's Digital Personal Data.",
+    "How China's PIPL and data export rules and India's DPDP Act apply when a Chinese company runs an Indian subsidiary, and what each side must do.",
   alternates: guideAlternates("china", "data-protection"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Data Protection for Chinese Companies in India",
     description:
-      "How China's PIPL, Data Security Law and cross-border data rules apply to a Chinese company with an Indian subsidiary, and how India's Digital Personal Data.",
+      "How China's PIPL and data export rules and India's DPDP Act apply when a Chinese company runs an Indian subsidiary, and what each side must do.",
     url: "https://www.theaucorp.com/china-to-india/data-protection-pipl-dpdp",
     locale: "en_CN",
   },
   twitter: {
     title: "Data Protection for Chinese Companies in India",
     description:
-      "How China's PIPL, Data Security Law and cross-border data rules apply to a Chinese company with an Indian subsidiary, and how India's Digital Personal Data.",
+      "How China's PIPL and data export rules and India's DPDP Act apply when a Chinese company runs an Indian subsidiary, and what each side must do.",
   },
 }
 
