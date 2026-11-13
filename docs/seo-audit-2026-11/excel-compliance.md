@@ -137,3 +137,23 @@ used above, and the Methodology rules are the ones used for every re-measurement
   the Japan FAQ page has a new question, the About page has an "International Alliances" section, and llms.txt has the
   alliance in its summary and under its own heading.
 - The existing USD 750–1,000 incorporation fee wording is kept and repeated on the alliance page.
+
+## Final check (13 Nov 2026, clean production build)
+
+| Check | Result |
+|---|---|
+| TypeScript (`tsc --noEmit`) | 0 errors |
+| Production build from scratch | Passes |
+| Sitemap pages | 311, all 200, self-canonical, none noindex |
+| Internal link targets | 312: 0 redirects, 0 broken, 0 bad anchors |
+| hreflang | 241 pages carry hreflang; every pair reciprocal and in the sitemap (including en/ja for the Japan alliance) |
+| Titles and descriptions | 0 duplicates, 0 out of range |
+| JSON-LD | 1,225 blocks, 0 invalid |
+| llms.txt / llms-full.txt | All required pages linked (the /insights note only appears without the database) |
+| Old /blog/<country>-to-india URLs | 308 to the new paths |
+| Readable without JavaScript | H1, body, FAQs and form markup present in the server HTML |
+| Browser console (13 templates) | 0 app errors |
+| 6-second popup | Opens at 6 s on money pages (desktop form; mobile bottom card). Not on blog posts. Does not repeat on reload |
+
+Note: `pnpm lint` (eslint) has no configuration file in this repo, so it did not run. This predates this
+work; TypeScript and the build are the checks that apply.
