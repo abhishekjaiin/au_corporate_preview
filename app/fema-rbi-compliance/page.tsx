@@ -389,8 +389,8 @@ export default function FemaRbiCompliancePage() {
                 description: "Payroll and employment support for the India team your subsidiary funds through its RBI-reported investment.",
               },
               {
-                label: "FDI Automatic vs Government Route",
-                href: "/india-business-setup/fdi-channels",
+                label: "100% Foreign Ownership and the FDI Routes",
+                href: "/can-a-foreign-company-own-100-percent-of-an-indian-company",
                 description: "Which sectors clear under the automatic route versus needing prior government approval before FC-GPR can be filed.",
               },
             ]}

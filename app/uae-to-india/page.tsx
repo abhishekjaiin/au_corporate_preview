@@ -33,6 +33,9 @@ const toc = [
   { id: "bank-kyc", label: "What Indian banks ask Gulf-based shareholders" },
   { id: "exit-uae", label: "Exit and moving proceeds back to the Gulf" },
   { id: "india-locations", label: "Where in India Gulf businesses set up" },
+  { id: "sector-rules", label: "Sector rules for Gulf investors" },
+  { id: "property", label: "Property, offices and warehouses" },
+  { id: "distributor-or-entity", label: "Distributor, agent or your own company?" },
   { id: "gift-city", label: "GIFT City for finance and treasury businesses" },
   { id: "timeline-uae", label: "A realistic timeline from Dubai" },
   { id: "first-steps", label: "Your first three steps" },
@@ -283,6 +286,27 @@ export default function UaeToIndiaPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Location follows the business. Trading and logistics groups often choose Mumbai, Ahmedabad, Kochi or Chennai for port access and Gulf shipping lanes. Technology and services teams go to Bengaluru, Hyderabad, Pune or the National Capital Region for talent. Financial services and fund businesses may consider GIFT City, India&apos;s international financial services centre in Gujarat, which has its own regulator and tax incentives. Manufacturing for export to the Gulf often sits in Gujarat, Maharashtra or Tamil Nadu. See <Link href="/manufacturing-company-setup-in-india" className="text-blue-800 font-semibold hover:underline">manufacturing company setup in India</Link>.
         </p>
+        <h2 id="sector-rules" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Sector rules for Gulf investors</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most sectors in India are open to 100% foreign investment under the automatic route, so a UAE shareholder does not need government approval to own a technology, consulting, trading or manufacturing business outright. A small list of sectors carries caps or needs approval, including defence, broadcasting, print media, some financial services and multi-brand retail. Before incorporation we check the main object you plan to put in the memorandum against the FDI policy, because a business description that drifts into a capped sector later can cause problems at the bank and with the RBI reporting.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Press Note 3, which requires government approval for investment from countries that share a land border with India, does not apply to a UAE investor in itself. It can apply where the ultimate beneficial owner behind a Dubai or Abu Dhabi holding vehicle is a citizen or resident of one of those countries. Indian banks now ask for the full ownership chain for this reason, so we map it at the start. Read more on <Link href="/press-note-3-approval-india" className="text-blue-800 font-semibold hover:underline">Press Note 3 approvals</Link> and on <Link href="/can-a-foreign-company-own-100-percent-of-an-indian-company" className="text-blue-800 font-semibold hover:underline">100% foreign ownership</Link>.
+        </p>
+
+        <h2 id="property" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Property, offices and warehouses</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Gulf investors often ask whether the Indian entity can buy an office or warehouse. An Indian subsidiary owned by a UAE parent is an Indian company, so it can buy or lease property it needs for its own business, such as an office, factory or warehouse. What foreign investment cannot fund is a business of dealing in real estate or building farmhouses, and agricultural land is subject to state rules. A branch office has narrower property rights and generally needs the property to be required for its approved activity.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most new entrants lease first. A registered office address is needed at incorporation, and a short lease or a serviced office works, provided the landlord gives a no-objection letter and a recent utility bill. Stamp duty on leases varies by state, which is one reason the choice of city matters. Our city guides for <Link href="/company-registration-in-mumbai" className="text-blue-800 font-semibold hover:underline">Mumbai</Link>, <Link href="/company-registration-in-bengaluru" className="text-blue-800 font-semibold hover:underline">Bengaluru</Link> and <Link href="/company-registration-in-gurugram" className="text-blue-800 font-semibold hover:underline">Gurugram</Link> cover the local points.
+        </p>
+
+        <h2 id="distributor-or-entity" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Distributor, agent or your own company?</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Many UAE trading groups start in India through a distributor and only set up a company once volumes justify it. A distributor needs no Indian entity on your side, but you give up control of pricing, customer data and brand. Hiring sales staff in India without an entity creates permanent establishment risk under the treaty, and an Employer of Record helps only for a short bridge. Once you need to invoice Indian customers, hold stock or employ a team, a private limited company is usually the cleaner answer, and it is the structure Indian buyers and banks are most comfortable with.
+        </p>
+
         <h2 id="gift-city" className="text-2xl font-bold text-gray-900 mt-12 mb-4">GIFT City for finance and treasury businesses</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           Gulf financial groups, family offices and fund managers sometimes set up in GIFT City, India&apos;s international financial services centre near Gandhinagar, rather than a standard location. Units there operate under the International Financial Services Centres Authority, deal mainly in foreign currency and can access tax incentives for eligible activities. It suits fund management, aircraft and ship leasing, banking units and treasury centres, not ordinary trading or technology businesses. Setting up in GIFT City needs its own licences in addition to incorporation.

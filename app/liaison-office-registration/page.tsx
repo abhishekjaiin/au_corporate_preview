@@ -242,6 +242,16 @@ export default function LiaisonOfficeRegistrationPage() {
         </div>
       </section>
 
+      {/* AFTER APPROVAL */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">After Approval: The First Year of Your Liaison Office</h2>
+          <p className="text-gray-600 leading-relaxed mb-4">The approval letter is the start, not the end. In the first months the office needs a PAN and TAN, a bank account with the authorised dealer bank that processed the application, and registration under the local shops and establishments law where staff work. Running costs must be met only from money remitted by the head office through normal banking channels; the office cannot earn income in India or borrow locally.</p>
+          <p className="text-gray-600 leading-relaxed mb-4">Each year, after the financial year closes, the office files an Annual Activity Certificate from a chartered accountant with the authorised dealer bank, confirming that it carried out only the permitted activities. It also files Form 49C with the income tax department within 60 days of the year end, and its accounts are audited. Missing these filings is the most common reason renewals are delayed.</p>
+          <p className="text-gray-600 leading-relaxed">Approval is granted for a fixed period, typically three years, so renewal should be planned well ahead of expiry. If the office starts to need revenue in India, the usual next step is to convert to a <Link href="/branch-office-registration" className="text-blue-800 font-semibold hover:underline">branch office</Link> or set up a <Link href="/india-subsidiary-registration" className="text-blue-800 font-semibold hover:underline">subsidiary</Link>. Our <Link href="/compliance-calendar" className="text-blue-800 font-semibold hover:underline">compliance calendar</Link> lists the dates.</p>
+        </div>
+      </section>
+
       {/* WHAT WE NEED */}
       <section className="py-20 bg-secondary/30">
         <div className="max-w-4xl mx-auto px-4">

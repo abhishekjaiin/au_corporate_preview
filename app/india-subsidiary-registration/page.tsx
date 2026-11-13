@@ -408,8 +408,8 @@ export default function IndiaSubsidiaryRegistrationPage() {
                 description: "The full SPICe+ incorporation process and FDI eligibility rules behind this registration service.",
               },
               {
-                label: "FDI Automatic vs Government Route",
-                href: "/india-business-setup/fdi-channels",
+                label: "100% Foreign Ownership and the FDI Routes",
+                href: "/can-a-foreign-company-own-100-percent-of-an-indian-company",
                 description: "Which sectors clear under the automatic route versus needing prior government approval before shares are issued.",
               },
             ]}

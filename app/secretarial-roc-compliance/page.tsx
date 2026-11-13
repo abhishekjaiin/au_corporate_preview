@@ -405,9 +405,9 @@ export default function SecretarialRocCompliancePage() {
                 description: "Payroll and employment support for the India team your subsidiary is governed to employ.",
               },
               {
-                label: "Regulatory Compliance Framework",
-                href: "/india-business-setup/regulatory-compliance",
-                description: "The broader six-regime compliance landscape, including corporate governance, that this page details.",
+                label: "Compliance Calendar",
+                href: "/compliance-calendar",
+                description: "Every monthly, quarterly, annual and event-based filing for a foreign-owned Indian company, in date order.",
               },
             ]}
           />

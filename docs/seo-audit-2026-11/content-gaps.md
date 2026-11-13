@@ -6,7 +6,7 @@ same method (visible body text, header/nav/footer removed) after each change.
 
 | Gap (workbook row) | Target keyword | Page | Status |
 |---|---|---|---|
-| UAE / Dubai to India | set up a company in India from Dubai | /uae-to-india (hreflang en-AE + x-default) | Built, ~3,600 words (target 4,000+) |
+| UAE / Dubai to India | set up a company in India from Dubai | /uae-to-india (hreflang en-AE + x-default) | Built, 4,080 words (target 4,000+) |
 | Company registration for NRIs / foreign nationals | company registration in India for NRI | /company-registration-in-india-for-nri | Built, ~2,250 words |
 | Cost of setting up a subsidiary | cost of setting up a subsidiary in India | /cost-of-setting-up-a-subsidiary-in-india | Built; explains cost components without prices; free consultation message |
 | How long it takes | how long to set up a subsidiary in India | /how-long-to-set-up-a-subsidiary-in-india | Built; links to the 14-day case study |
