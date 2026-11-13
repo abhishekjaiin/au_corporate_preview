@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/new-labour-codes-india-50-percent-wage-rule-gratuity",
     locale: "en_IN",
   },
-  twitter: { title: "India's New Labour Codes: 50% Wage Rule and Gratuity", description: "India's labour codes, in force since 21 November 2025: the 50% wage rule, gratuity for fixed-term staff, wage deadlines and layoff thresholds." },
+  twitter: { card: "summary_large_image", title: "India's New Labour Codes: 50% Wage Rule and Gratuity", description: "India's labour codes, in force since 21 November 2025: the 50% wage rule, gratuity for fixed-term staff, wage deadlines and layoff thresholds." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

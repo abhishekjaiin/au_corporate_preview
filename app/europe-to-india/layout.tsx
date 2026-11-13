@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/europe-to-india",
     locale: "en_IN",
   },
-  twitter: { title: "Set Up a Subsidiary in India from the Netherlands and Europe", description: "How Dutch, German, French and other European companies set up a subsidiary in India: Dutch BV route, treaties, social security, the EU FTA and GDPR." },
+  twitter: { card: "summary_large_image", title: "Set Up a Subsidiary in India from the Netherlands and Europe", description: "How Dutch, German, French and other European companies set up a subsidiary in India: Dutch BV route, treaties, social security, the EU FTA and GDPR." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/german-employees-in-india-ssa",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "German Employees in India: Tax and Social Security",
     description:
       "How income tax and social security apply to German staff in India: the 183-day treaty test, the 2009 social security agreement.",

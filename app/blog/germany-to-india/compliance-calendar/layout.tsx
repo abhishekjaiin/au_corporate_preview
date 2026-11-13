@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/compliance-calendar",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India Subsidiary Compliance Calendar: Germany",
     description:
       "A month-by-month compliance calendar for an Indian subsidiary of a German parent: TDS, GST, PF, ESI, advance tax, AGM, AOC-4, MGT-7 and the FLA return.",

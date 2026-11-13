@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/us-saas-and-digital-sales-into-india",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "US SaaS and Digital Sales into India: GST",
     description:
       "How a US software or digital business is taxed when it sells to India without a local entity: GST on online information and database access services.",

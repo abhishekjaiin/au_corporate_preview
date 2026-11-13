@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "How foreign parents set up, run and fix the compliance of Indian subsidiaries with AU Corporate: a US SaaS captive, 14-day incorporation, FEMA compounding.",
     url: "https://www.theaucorp.com/case-studies",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Case Studies: Indian Subsidiaries",
     description:
       "How foreign parents set up, run and fix the compliance of Indian subsidiaries with AU Corporate: a US SaaS captive, 14-day incorporation, FEMA compounding.",

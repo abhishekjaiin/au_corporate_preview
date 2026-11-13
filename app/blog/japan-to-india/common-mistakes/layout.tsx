@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "The ten most common and costly mistakes Japanese companies make when setting up an Indian subsidiary, and how to avoid each. Includes a pre-filing checklist.",
     url: "https://www.theaucorp.com/japan-to-india/common-mistakes",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Common Mistakes Japanese Companies Make in India",
     description:
       "The ten most common and costly mistakes Japanese companies make when setting up an Indian subsidiary, and how to avoid each. Includes a pre-filing checklist.",

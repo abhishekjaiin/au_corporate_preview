@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/faq",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "143 FAQs: Setting Up an India Subsidiary from Singapore",
     description:
       "143 plain answers for Singapore companies: incorporation, FEMA, the India-Singapore tax treaty, holding companies, staff and provident fund.",

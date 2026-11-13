@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uk-to-india/uk-employees-in-india-dcc",
     locale: "en_GB",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "UK Employees in India: Tax and Social Security",
     description:
       "How the India-UK tax treaty, Indian tax residence, provident fund and the 2026 Double Contributions Convention apply to UK employees working in India.",

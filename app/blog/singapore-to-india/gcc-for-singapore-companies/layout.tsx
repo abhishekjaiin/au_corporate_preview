@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/gcc-for-singapore-companies",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Global Capability Centres in India for Singapore Companies",
     description:
       "How Singapore headquartered groups build captive centres in India: build-operate-transfer, captive subsidiary and hybrid models, cost-plus pricing.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uk-to-india/documents-companies-house-apostille",
     locale: "en_GB",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "UK Board Resolution and Companies House Apostille for India",
     description:
       "The documents a UK company needs to incorporate an Indian subsidiary, how Companies House papers, notarisation and the UK apostille work.",

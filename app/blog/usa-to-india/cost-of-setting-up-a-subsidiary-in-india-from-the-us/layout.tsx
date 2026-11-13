@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/cost-of-setting-up-a-subsidiary-in-india-from-the-us",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Cost of Setting Up a Subsidiary in India from the US",
     description:
       "A budgeting guide for US companies: what the one-time set-up costs, what the subsidiary costs every year to keep compliant.",

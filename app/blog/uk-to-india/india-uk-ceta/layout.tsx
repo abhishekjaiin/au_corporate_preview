@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uk-to-india/india-uk-ceta",
     locale: "en_GB",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-UK CETA for UK Companies Entering India",
     description:
       "What the India-UK CETA means for a UK company that wants to set up, staff or sell through an Indian subsidiary.",

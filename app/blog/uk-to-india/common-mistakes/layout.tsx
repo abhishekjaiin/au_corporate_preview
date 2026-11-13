@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uk-to-india/common-mistakes",
     locale: "en_GB",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Mistakes UK Companies Make Setting Up in India",
     description:
       "The 13 most common and costly mistakes UK companies make setting up an Indian subsidiary, with the fix for each and a pre-filing checklist.",

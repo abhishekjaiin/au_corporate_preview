@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Statutory audit, tax audit, GST audit and internal controls over financial reporting for an Indian subsidiary of a Japanese group.",
     url: "https://www.theaucorp.com/japan-to-india/audit-icofr",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Audit and ICOFR for Japanese Companies",
     description:
       "Statutory audit, tax audit, GST audit and internal controls over financial reporting for an Indian subsidiary of a Japanese group.",

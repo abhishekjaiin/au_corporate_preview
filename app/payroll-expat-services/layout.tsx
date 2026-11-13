@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Payroll, PF and ESI, professional tax, labour law compliance, employment contracts and FRRO registration for expats in India. Free consultation.",
     url: "https://www.theaucorp.com/payroll-expat-services",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Payroll, PF, ESI and Expat Services in India",
     description:
       "Payroll, PF and ESI, professional tax, labour law compliance, employment contracts and FRRO registration for expats in India. Free consultation.",

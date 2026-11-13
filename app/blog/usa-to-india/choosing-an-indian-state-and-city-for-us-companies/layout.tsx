@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/choosing-an-indian-state-and-city-for-us-companies",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Choosing an Indian State and City for a US Company",
     description:
       "How to choose the state and city for the registered office and the team: a decision framework, a comparison table of major hubs by function.",

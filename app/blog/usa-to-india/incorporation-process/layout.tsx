@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "The eight steps to incorporate a wholly owned subsidiary in India from the USA: forms, order of steps, typical 4 to 6 week timeline and first 90 days.",
     url: "https://www.theaucorp.com/usa-to-india/incorporation-process",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Incorporation Process for an Indian Subsidiary, Step by Step",
     description:
       "The eight steps to incorporate a wholly owned subsidiary in India from the USA: forms, order of steps, typical 4 to 6 week timeline and first 90 days.",

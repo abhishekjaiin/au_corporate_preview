@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/gcc-for-australian-companies",
     locale: "en_AU",
   },
-  twitter: { title: "GCC Setup in India for Australian Companies (2026 Guide)", description: "How Australian companies set up a GCC in India: own centre, BOT or EOR pilot, time zones, APRA CPS 230, Privacy Act transfers and cost-plus tax." },
+  twitter: { card: "summary_large_image", title: "GCC Setup in India for Australian Companies (2026 Guide)", description: "How Australian companies set up a GCC in India: own centre, BOT or EOR pilot, time zones, APRA CPS 230, Privacy Act transfers and cost-plus tax." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

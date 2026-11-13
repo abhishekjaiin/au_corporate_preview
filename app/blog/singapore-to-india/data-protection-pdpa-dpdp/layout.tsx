@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/data-protection-pdpa-dpdp",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Data Protection for Singapore Companies in India",
     description:
       "How Singapore's PDPA and India's DPDP Act apply when a Singapore company has an Indian subsidiary: transfer rules, contracts and the 2027 timeline.",

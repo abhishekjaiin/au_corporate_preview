@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uk-to-india/contracts-courts-arbitration",
     locale: "en_GB",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Contracts, Courts and Arbitration for UK Companies in India",
     description:
       "How a UK company should draft contracts with its Indian subsidiary and customers, choose governing law and seat.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Which country taxes a Japanese expat in India: Indian residency tests, Japanese residency, treaty tie-breaker, the 183-day rule and foreign tax credit.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/expat-tax-residency-india-japan",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Tax Residency for Japanese Expats in India: Treaty Rules",
     description:
       "Which country taxes a Japanese expat in India: Indian residency tests, Japanese residency, treaty tie-breaker, the 183-day rule and foreign tax credit.",

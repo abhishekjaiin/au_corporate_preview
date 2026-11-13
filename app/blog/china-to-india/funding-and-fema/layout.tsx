@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/funding-and-fema",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Funding an Indian Subsidiary from China",
     description:
       "How a Chinese parent funds an Indian subsidiary: equity pricing and valuation, compulsorily convertible instruments, external commercial borrowing.",

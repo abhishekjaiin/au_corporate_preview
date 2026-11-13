@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Intercompany and customer contracts for an Indian subsidiary, governing law, arbitration clauses, the New York Convention and enforcing awards in India.",
     url: "https://www.theaucorp.com/usa-to-india/contracts-and-arbitration",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Contracts and Arbitration in India for US Companies",
     description:
       "Intercompany and customer contracts for an Indian subsidiary, governing law, arbitration clauses, the New York Convention and enforcing awards in India.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Compare the four ways a US company can enter India: wholly owned subsidiary, branch office, liaison office and LLP. Activities, approvals, tax and control.",
     url: "https://www.theaucorp.com/usa-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Subsidiary vs Branch vs Liaison Office vs LLP in India",
     description:
       "Compare the four ways a US company can enter India: wholly owned subsidiary, branch office, liaison office and LLP. Activities, approvals, tax and control.",

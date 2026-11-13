@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Set Up a Subsidiary in India from Russia: 2026 Guide",
     description:
       "How Russian companies set up a subsidiary in India: FDI route, sanctions and banking, structure, incorporation, FEMA filings, the India-Russia tax treaty.",

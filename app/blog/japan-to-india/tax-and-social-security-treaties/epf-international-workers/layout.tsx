@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How Indian provident fund applies to foreign nationals: international worker rules, no wage ceiling, the Japan agreement exclusion and the 2026 EPF Scheme.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/epf-international-workers",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "EPF for International Workers: Rules for Japanese Expats",
     description:
       "How Indian provident fund applies to foreign nationals: international worker rules, no wage ceiling, the Japan agreement exclusion and the 2026 EPF Scheme.",

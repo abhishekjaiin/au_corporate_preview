@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uk-to-india/faq",
     locale: "en_GB",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "122 FAQs: Setting Up an India Subsidiary from the UK",
     description:
       "122 plain answers for UK companies: incorporation, FEMA, the India-UK tax treaty, CETA, staff and social security, data protection, compliance.",

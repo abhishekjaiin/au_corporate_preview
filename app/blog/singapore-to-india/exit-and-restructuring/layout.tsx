@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/exit-and-restructuring",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Exit Options for a Singapore-Owned Indian Subsidiary",
     description:
       "Exit routes for a Singapore parent: sale of Indian shares and treaty position by acquisition date, FEMA pricing and reporting, indirect transfer, buyback.",

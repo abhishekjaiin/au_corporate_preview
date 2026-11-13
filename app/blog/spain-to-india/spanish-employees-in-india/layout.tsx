@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/spanish-employees-in-india",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Spanish Employees in India: Tax and Provident Fund",
     description:
       "What a Spanish employer must plan when staff work in India: Indian salary tax and the treaty test, the Spanish IRPF exemption for work abroad.",

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uae-to-india",
     locale: "en_IN",
   },
-  twitter: { title: "Set Up a Company in India from Dubai and the UAE: 2026 Guide", description: "How UAE and Dubai companies and NRI founders set up a company in India: structure, documents, the tax treaty, CEPA, banking, compliance and cost." },
+  twitter: { card: "summary_large_image", title: "Set Up a Company in India from Dubai and the UAE: 2026 Guide", description: "How UAE and Dubai companies and NRI founders set up a company in India: structure, documents, the tax treaty, CEPA, banking, compliance and cost." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

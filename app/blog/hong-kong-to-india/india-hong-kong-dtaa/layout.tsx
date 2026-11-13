@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/india-hong-kong-dtaa",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Hong Kong DTAA for Hong Kong Companies",
     description:
       "The India-Hong Kong tax treaty explained for a Hong Kong parent: 5% dividend rate, 10% interest, royalties and fees for technical services.",

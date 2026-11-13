@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/exit-and-restructuring",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Exit and Restructuring of a German-Owned Subsidiary",
     description:
       "How a German parent exits an Indian subsidiary: share sale and FEMA pricing, capital gains and the treaty, buyback, voluntary liquidation, strike off.",

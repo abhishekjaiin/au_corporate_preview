@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "The yearly compliance calendar of an Indian subsidiary owned by a Japanese company: monthly, quarterly and annual filings, mapped to a 31 March parent year-end.",
     url: "https://www.theaucorp.com/japan-to-india/compliance-calendar",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India Subsidiary Compliance Calendar for Japanese Companies",
     description:
       "The yearly compliance calendar of an Indian subsidiary owned by a Japanese company: monthly, quarterly and annual filings, mapped to a 31 March parent year-end.",

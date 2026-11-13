@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Documents a Japanese company needs to claim India-Japan treaty rates: certificate of residence, Form 41 (previously Form 10F) and no-PE declaration.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/treaty-benefits-documents",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Claiming India-Japan Treaty Benefits: Forms and Documents",
     description:
       "Documents a Japanese company needs to claim India-Japan treaty rates: certificate of residence, Form 41 (previously Form 10F) and no-PE declaration.",

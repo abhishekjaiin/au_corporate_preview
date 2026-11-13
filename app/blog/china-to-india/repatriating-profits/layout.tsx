@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/repatriating-profits",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Repatriating Profits from India to China",
     description:
       "How a Chinese parent receives money from an Indian subsidiary: 10% treaty withholding, Section 393, Forms 41, 145 and 146, Chinese tax credit.",

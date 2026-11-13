@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How the Japan-India Social Security Agreement works: detached workers, five-year coverage, Certificate of Coverage, pension systems covered and totalization.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/india-japan-social-security-agreement",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Japan-India Social Security Agreement: Rules for Expats",
     description:
       "How the Japan-India Social Security Agreement works: detached workers, five-year coverage, Certificate of Coverage, pension systems covered and totalization.",

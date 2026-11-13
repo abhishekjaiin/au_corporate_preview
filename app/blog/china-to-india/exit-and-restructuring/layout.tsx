@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/exit-and-restructuring",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Exit and Restructuring of a China-Owned Subsidiary",
     description:
       "How a Chinese parent exits an Indian subsidiary: share sale and FEMA pricing, capital gains and the treaty, approval for a land-border buyer, buyback.",

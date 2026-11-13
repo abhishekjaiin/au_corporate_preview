@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/repatriating-profits",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Repatriating Profits from India to Singapore",
     description:
       "How a Singapore parent receives money from an Indian subsidiary: dividends at the treaty rate, fees and royalties at arm's length.",

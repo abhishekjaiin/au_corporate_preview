@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/indian-labour-codes-for-us-employers",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India's Labour Codes for US Employers",
     description:
       "What US employers need to know about India's labour codes: the wage rule and its effect on provident fund and gratuity, fixed-term contracts and layoffs.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/transfer-pricing",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Transfer Pricing Between China and India",
     description:
       "How transfer pricing works between China and India: Indian arm's length rules and Form 48, pricing of components, equipment and technology, customs value.",

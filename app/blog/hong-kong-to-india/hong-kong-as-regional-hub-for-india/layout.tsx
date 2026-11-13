@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/hong-kong-as-regional-hub-for-india",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Using Hong Kong as a Regional Hub for India",
     description:
       "How groups use a Hong Kong company as a regional holding, trading or treasury hub for India, the substance Indian and Hong Kong tax authorities expect.",

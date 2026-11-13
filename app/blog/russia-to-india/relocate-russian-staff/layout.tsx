@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/relocate-russian-staff",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Relocating Russian Staff to India",
     description:
       "How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/india-singapore-dtaa",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Singapore DTAA for Singapore Companies",
     description:
       "The India-Singapore double taxation agreement explained article by article from the Singapore parent's point of view: rates table, permanent establishment.",

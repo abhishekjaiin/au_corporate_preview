@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/incorporation-steps",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Incorporation Steps for a Spanish Company in India",
     description:
       "The exact steps to incorporate an Indian private limited company when the shareholder is Spanish: name, DIN and DSC, the SPICe+ form with AGILE-PRO-S.",

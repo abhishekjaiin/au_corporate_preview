@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/restructuring-and-exit",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Exit Options for an Australian-Owned Subsidiary",
     description:
       "Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback.",

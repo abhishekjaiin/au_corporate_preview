@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/fcpa-anti-bribery-and-export-controls-for-indian-subsidiaries",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "FCPA and US Export Controls for an Indian Subsidiary",
     description:
       "The compliance rules that follow US law into India: how the Foreign Corrupt Practices Act reaches an Indian subsidiary and its agents.",

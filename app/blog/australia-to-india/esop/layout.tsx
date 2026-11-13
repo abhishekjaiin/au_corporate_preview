@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/esop",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "ESOPs for Indian Employees of an Australian Parent Company",
     description:
       "How Australian parent ESOPs and RSUs work for Indian employees: Indian tax at exercise or vesting, FEMA reporting, valuation and cost recharges.",

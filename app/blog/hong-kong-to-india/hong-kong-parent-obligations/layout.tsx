@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/hong-kong-parent-obligations",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Hong Kong Parent Obligations: Tax and Reporting",
     description:
       "The Hong Kong-side steps for a parent investing in India: no outbound approval or exchange controls, company secretary and registers.",

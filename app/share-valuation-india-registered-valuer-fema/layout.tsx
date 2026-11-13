@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/share-valuation-india-registered-valuer-fema",
     locale: "en_IN",
   },
-  twitter: { title: "Share Valuation in India: Registered Valuer, FEMA and Tax Rules", description: "When an Indian company needs a share valuation, who may sign it and which rules apply: FEMA pricing, Companies Act registered valuer reports and income tax." },
+  twitter: { card: "summary_large_image", title: "Share Valuation in India: Registered Valuer, FEMA and Tax Rules", description: "When an Indian company needs a share valuation, who may sign it and which rules apply: FEMA pricing, Companies Act registered valuer reports and income tax." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

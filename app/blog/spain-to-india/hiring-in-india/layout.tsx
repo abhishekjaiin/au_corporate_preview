@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/hiring-in-india",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Hiring in India for Spanish Companies",
     description:
       "How a Spanish company hires in India: the entity or employer-of-record choice, offer letters and contracts, salary structure, payroll deductions.",

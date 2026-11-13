@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Project-wise accounting, head office reconciliation, retention and WIP, TDS and GST workings, US GAAP or IFRS reporting and audit for India project offices.",
     url: "https://www.theaucorp.com/project-office-accounting-audit",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Accounting and Audit Support for Project Offices in India",
     description:
       "Project-wise accounting, head office reconciliation, retention and WIP, TDS and GST workings, US GAAP or IFRS reporting and audit for India project offices.",

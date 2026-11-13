@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/resident-director-services-india",
     locale: "en_IN",
   },
-  twitter: { title: "Resident Director Services in India for Foreign Companies", description: "Resident director services for foreign-owned Indian companies: the Section 149(3) rule, the director's role, liability, safeguards and appointment." },
+  twitter: { card: "summary_large_image", title: "Resident Director Services in India for Foreign Companies", description: "Resident director services for foreign-owned Indian companies: the Section 149(3) rule, the director's role, liability, safeguards and appointment." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

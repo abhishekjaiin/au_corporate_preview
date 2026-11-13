@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/global-vat",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Global VAT and GST for Australian Companies Selling Abroad",
     description:
       "How VAT and GST work for Australian companies selling digital services and goods into Europe, the UK, New Zealand, India and beyond.",

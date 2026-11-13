@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/cost-of-setting-up-a-subsidiary-in-india-from-spain",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Cost of Setting Up a Subsidiary in India from Spain",
     description:
       "A budgeting guide for Spanish groups: what the one-time set-up costs, the first-year running costs and the money you must fund as share capital.",

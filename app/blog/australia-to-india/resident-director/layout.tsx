@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/resident-director",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Resident Director in India for Australian Companies",
     description:
       "Every Indian company needs a resident director who stayed in India for 182 days in the year. How Australian groups meet the rule, and the tax points.",

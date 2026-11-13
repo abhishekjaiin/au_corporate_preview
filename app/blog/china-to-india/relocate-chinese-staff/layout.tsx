@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/relocate-chinese-staff",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Sending Chinese Employees to India: Visas and FRRO",
     description:
       "What a Chinese company must plan when sending staff to India: business visa limits, employment visa rules and salary floor, security clearance.",

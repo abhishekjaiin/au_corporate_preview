@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/expat-visa",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Sending an Australian Executive to India",
     description:
       "How to relocate an Australian executive to India: employment visa, FRRO registration, housing, banking.",

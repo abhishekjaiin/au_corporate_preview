@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "The India-Japan tax treaty (DTAA) and Social Security Agreement for Japanese companies and expats: 10% treaty rates, residency, EPF and pensions.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Japan Tax Treaty and Social Security for Expats",
     description:
       "The India-Japan tax treaty (DTAA) and Social Security Agreement for Japanese companies and expats: 10% treaty rates, residency, EPF and pensions.",

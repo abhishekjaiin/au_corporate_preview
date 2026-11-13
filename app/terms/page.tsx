@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/terms",
     images: [{ url: "https://www.theaucorp.com/og?title=Terms%20of%20Service%20%7C%20AU%20Corporate%20%7C%20AU%20Corporate", width: 1200, height: 630, alt: "Terms of Service | AU Corporate" }],
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Terms of Service | AU Corporate",
     description:
       "Terms of Service governing your use of theaucorp.com and engagement with AU Corporate's advisory services.",

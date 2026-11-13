@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Board meetings, AGM, ROC filings, MCA notices, office shifting and resident director support for Indian subsidiaries. CA-led, free consultation.",
     url: "https://www.theaucorp.com/secretarial-roc-compliance",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Secretarial and ROC Compliance for Indian Subsidiaries",
     description:
       "Board meetings, AGM, ROC filings, MCA notices, office shifting and resident director support for Indian subsidiaries. CA-led, free consultation.",

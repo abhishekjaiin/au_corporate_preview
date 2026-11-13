@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/how-long-it-takes-to-set-up-from-the-us",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "How Long It Takes to Set Up an Indian Subsidiary from the US",
     description:
       "A schedule for a US parent: US documents and apostille, Indian incorporation, bank onboarding across the time difference, and the capital remittance.",

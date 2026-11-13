@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/india-australia-ecta",
     locale: "en_AU",
   },
-  twitter: { title: "India-Australia ECTA: What It Means for Australian Companies", description: "How the India-Australia ECTA affects Australian companies: tariff cuts, rules of origin, services, the technical services tax change and the CECA talks." },
+  twitter: { card: "summary_large_image", title: "India-Australia ECTA: What It Means for Australian Companies", description: "How the India-Australia ECTA affects Australian companies: tariff cuts, rules of origin, services, the technical services tax change and the CECA talks." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

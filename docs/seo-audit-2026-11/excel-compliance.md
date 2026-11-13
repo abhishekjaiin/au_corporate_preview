@@ -157,3 +157,17 @@ used above, and the Methodology rules are the ones used for every re-measurement
 
 Note: `pnpm lint` (eslint) has no configuration file in this repo, so it did not run. This predates this
 work; TypeScript and the build are the checks that apply.
+
+## Code audit of every route (13 Nov 2026)
+
+| Check | Result |
+|---|---|
+| Routes in app/ vs sitemap | 322 routes. Every public static route is in the sitemap. Only /admin/* (login redirect plus noindex, robots-disallowed) and /insights (noindex until content is published) are left out, on purpose. The case-study [slug] pages are all listed |
+| Rendering | All indexable pages are prerendered static HTML. Only admin, auth, insights and /og are rendered on request |
+| Error handling | Unknown URLs, unknown case studies and unknown guide posts return 404 with noindex. A trailing slash 308s to the clean URL. UTM parameters keep the canonical clean |
+| Per-page head | Every page has a description, canonical, og:url (equal to the canonical), og:image, twitter:card and html lang. Exactly one H1 per page. No img without alt |
+| URLs inside code | No localhost, vercel.app, http:// or non-www links. No structured-data, hreflang or link URL that points to a redirect or a missing page |
+| Orphans | None. Every sitemap page is linked from at least one other page |
+| Security | Every external link that opens a new tab has noopener/noreferrer. CSP, HSTS, X-Frame-Options, nosniff, Referrer-Policy and Permissions-Policy headers are present |
+| Fixed in this pass | (1) twitter:card was "summary" on 309 pages: each page's twitter metadata replaced the root's summary_large_image. All 311 pages now use the large card for bigger previews. (2) /free-consultation had no in-content links: it is now linked from the CTA box on every guide page. (3) The Japan hub links to the Japanese notice |
+| Share image route /og | Works on the live site (checked https://www.theaucorp.com/og, 200 image/png). It fails only in this sandbox's local image library, so no code change was made |

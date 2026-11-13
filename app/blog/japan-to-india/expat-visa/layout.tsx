@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How to relocate a Japanese executive to India: employment visa, FRRO registration, housing, banking, tax residency and permanent establishment risk.",
     url: "https://www.theaucorp.com/japan-to-india/expat-visa",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Sending a Japanese Executive to India: Visa, Housing and Tax",
     description:
       "How to relocate a Japanese executive to India: employment visa, FRRO registration, housing, banking, tax residency and permanent establishment risk.",

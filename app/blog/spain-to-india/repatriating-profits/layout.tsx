@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/repatriating-profits",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Repatriating Profits from India to Spain",
     description:
       "A comparison of the five routes a Spanish parent can use to take cash from an Indian subsidiary, with the Indian withholding tax, Indian conditions.",

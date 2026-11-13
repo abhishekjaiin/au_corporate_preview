@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/incorporation-steps",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Incorporating an Indian Subsidiary from Hong Kong",
     description:
       "Step-by-step route for a Hong Kong parent to set up an Indian private limited company: Press Note 3 approval, name, SPICe+, DIN and DSC, resident director.",

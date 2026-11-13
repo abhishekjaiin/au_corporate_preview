@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "When Social Security and Medicare tax apply to Americans working in India: US employer, Indian subsidiary, Section 3121(l) agreements and self-employment.",
     url: "https://www.theaucorp.com/usa-to-india/tax-and-social-security-treaties/us-social-security-for-americans-in-india",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "US Social Security (FICA) for Americans Working in India",
     description:
       "When Social Security and Medicare tax apply to Americans working in India: US employer, Indian subsidiary, Section 3121(l) agreements and self-employment.",

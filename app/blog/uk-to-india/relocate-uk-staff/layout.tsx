@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uk-to-india/relocate-uk-staff",
     locale: "en_GB",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Relocating UK Staff to India: Visa and FRRO Registration",
     description:
       "How to move a UK employee to India: employment or short-stay visa, CETA intra-corporate transfers, FRRO registration, housing, banking and family.",

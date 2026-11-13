@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/transfer-pricing",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Transfer Pricing for Russian Groups in India",
     description:
       "Transfer pricing for a Russian group with an Indian subsidiary: arm's length rules, accountant's report, master file and local file.",

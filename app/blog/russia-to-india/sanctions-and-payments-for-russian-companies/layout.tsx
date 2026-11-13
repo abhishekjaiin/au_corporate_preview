@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/sanctions-and-payments-for-russian-companies",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Sanctions and Payments for Russian Companies in India",
     description:
       "The practical gate for Russian investors in India: US, EU and UK sanctions screening, the 50% ownership rule, Indian bank due diligence.",

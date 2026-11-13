@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Which documents a Japanese parent must prepare to incorporate an Indian subsidiary, and how notarization, translation and apostille work in Japan.",
     url: "https://www.theaucorp.com/japan-to-india/documents-and-apostille",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Documents and Apostille for a Japanese Parent Company",
     description:
       "Which documents a Japanese parent must prepare to incorporate an Indian subsidiary, and how notarization, translation and apostille work in Japan.",

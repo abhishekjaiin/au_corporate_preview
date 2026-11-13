@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/us-privacy-hipaa-ccpa-and-dpdp",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "US Privacy Law and India's DPDP Act",
     description:
       "How a US company handles personal data when an Indian subsidiary or vendor processes it: what US federal and state privacy laws require.",

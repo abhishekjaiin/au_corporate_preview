@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/funding-instruments-india-ccd-ccps-convertible-notes",
     locale: "en_IN",
   },
-  twitter: { title: "Funding an Indian Company: CCDs, CCPS and Convertible Notes", description: "How foreign investors fund an Indian company: equity, compulsorily convertible debentures and preference shares, convertible notes for start-ups, and the rules." },
+  twitter: { card: "summary_large_image", title: "Funding an Indian Company: CCDs, CCPS and Convertible Notes", description: "How foreign investors fund an Indian company: equity, compulsorily convertible debentures and preference shares, convertible notes for start-ups, and the rules." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

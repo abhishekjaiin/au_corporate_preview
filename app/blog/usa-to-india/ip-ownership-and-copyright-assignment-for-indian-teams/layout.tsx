@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/ip-ownership-and-copyright-assignment-for-indian-teams",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "IP Ownership for Indian Teams of US Companies",
     description:
       "A guide to making sure the US parent owns what the Indian team creates: employment and assignment contracts.",

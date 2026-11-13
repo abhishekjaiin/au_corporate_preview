@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/exit-and-restructuring",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Exit and Restructuring in India for a Russian Parent",
     description:
       "How a Russian parent exits or restructures an Indian business: sale of shares, buyer sanctions checks, FEMA pricing, FC-TRS, capital gains tax, buy-back.",

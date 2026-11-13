@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/nri-and-oci-founders-of-us-companies-investing-in-india",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "NRI and OCI Founders of US Companies in India",
     description:
       "How the status of the founder changes the plan: how FEMA treats NRIs, OCI cardholders and US citizens of Indian origin.",

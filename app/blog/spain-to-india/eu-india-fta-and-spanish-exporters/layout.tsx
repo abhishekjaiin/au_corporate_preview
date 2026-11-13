@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/eu-india-fta-and-spanish-exporters",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "EU-India Trade Agreement and Spanish Exporters",
     description:
       "The EU-India trade agreement as it affects a Spanish company exporting to or investing in India: the 27 January 2026 conclusion.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/foreign-employee-treaty-ssa",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Treaty and Social Security for Foreign Employees in India",
     description:
       "How the India-Australia DTAA (Article 15) and the India-Australia Social Security Agreement apply to Australian employees working in India.",

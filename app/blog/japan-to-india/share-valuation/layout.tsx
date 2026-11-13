@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Why shares issued to a Japanese parent need a valuation, who can certify it, the pricing floor under FEMA, and when you need a fresh valuation.",
     url: "https://www.theaucorp.com/japan-to-india/share-valuation",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Share Valuation for Japanese Investment in India",
     description:
       "Why shares issued to a Japanese parent need a valuation, who can certify it, the pricing floor under FEMA, and when you need a fresh valuation.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How the India-Japan tax treaty works: who qualifies, taxes covered, treaty versus domestic law, residency, relief from double tax and disputes.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/india-japan-dtaa-guide",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Japan Tax Treaty (DTAA) Explained",
     description:
       "How the India-Japan tax treaty works: who qualifies, taxes covered, treaty versus domestic law, residency, relief from double tax and disputes.",

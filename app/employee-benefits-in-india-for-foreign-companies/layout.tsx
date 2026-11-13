@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/employee-benefits-in-india-for-foreign-companies",
     locale: "en_IN",
   },
-  twitter: { title: "Employee Benefits in India for Foreign Companies (2026 Guide)", description: "Employee benefits in India for Singapore, UK, German and US companies: provident fund, ESI, gratuity, leave, group health insurance and common extras." },
+  twitter: { card: "summary_large_image", title: "Employee Benefits in India for Foreign Companies (2026 Guide)", description: "Employee benefits in India for Singapore, UK, German and US companies: provident fund, ESI, gratuity, leave, group health insurance and common extras." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/gcc-for-us-companies",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Global Capability Centre in India for US Companies",
     description:
       "How a US company builds a captive engineering, finance or operations centre in India: the three delivery models, entity and tax choices.",

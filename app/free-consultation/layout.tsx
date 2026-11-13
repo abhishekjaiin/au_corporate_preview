@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     url: URL,
   },
-  twitter: { title: TITLE, description: DESCRIPTION },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/documents-acra-apostille",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Singapore ACRA Documents and Apostille for India",
     description:
       "The document checklist for a Singapore parent forming an Indian subsidiary: ACRA business profile, constitution, board resolution, director identity papers.",

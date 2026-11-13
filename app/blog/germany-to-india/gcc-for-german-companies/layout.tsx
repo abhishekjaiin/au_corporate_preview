@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/gcc-for-german-companies",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Global Capability Centres in India for German Companies",
     description:
       "How German companies set up captive engineering, IT and shared service centres in India: entity choice, cost-plus transfer pricing, export of services.",

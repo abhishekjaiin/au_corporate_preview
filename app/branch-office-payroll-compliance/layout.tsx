@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Payroll, social security compliance, professional tax, Labour Codes compliance and FRRO support for expats at the India branch office of a foreign company.",
     url: "https://www.theaucorp.com/branch-office-payroll-compliance",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Payroll, PF, Labour Law & FRRO for Branch Offices in India",
     description:
       "Payroll, social security compliance, professional tax, Labour Codes compliance and FRRO support for expats at the India branch office of a foreign company.",

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       "How to set up a GCC in India: subsidiary, JV or BOT, cost drivers, timeline, FEMA filings and safe harbour tax. CA-led team, free consultation.",
     url: "https://www.theaucorp.com/gcc-setup-india",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "GCC Setup in India: Cost, Timeline and Steps (2026 Guide)",
     description:
       "How to set up a GCC in India: subsidiary, JV or BOT, cost drivers, timeline, FEMA filings and safe harbour tax. CA-led team, free consultation.",

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/japan-alliance",
     locale: "en_IN",
   },
-  twitter: { title: "Japan–India Alliance: AU Corporate and Nihon-bashi CPA Firm", description: "AU Corporate (New Delhi) and Nihon-bashi International Accounting Firm (Tokyo) signed an MOU on 19 October 2026 to support Japan–India market entry." },
+  twitter: { card: "summary_large_image", title: "Japan–India Alliance: AU Corporate and Nihon-bashi CPA Firm", description: "AU Corporate (New Delhi) and Nihon-bashi International Accounting Firm (Tokyo) signed an MOU on 19 October 2026 to support Japan–India market entry." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

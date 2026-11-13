@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/funding-and-fema",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Funding an Indian Subsidiary from Hong Kong",
     description:
       "How a Hong Kong parent can fund an Indian company: equity share and preference share pricing, 60-day allotment and FC-GPR rules, ECB, loans, FLA return.",

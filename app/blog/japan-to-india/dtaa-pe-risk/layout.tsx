@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How the India-Japan tax treaty applies to payments to your Japanese parent: 10% Withholding Tax rates, residence certificate.",
     url: "https://www.theaucorp.com/japan-to-india/dtaa-pe-risk",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Japan Tax Treaty and Permanent Establishment Risk",
     description:
       "How the India-Japan tax treaty applies to payments to your Japanese parent: 10% Withholding Tax rates, residence certificate.",

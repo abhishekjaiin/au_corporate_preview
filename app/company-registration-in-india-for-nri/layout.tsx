@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/company-registration-in-india-for-nri",
     locale: "en_IN",
   },
-  twitter: { title: "Company Registration in India for NRIs and Foreign Nationals", description: "How NRIs, OCIs and foreign nationals register a company in India: structures, repatriation basis, documents, bank accounts, resident director and tax." },
+  twitter: { card: "summary_large_image", title: "Company Registration in India for NRIs and Foreign Nationals", description: "How NRIs, OCIs and foreign nationals register a company in India: structures, repatriation basis, documents, bank accounts, resident director and tax." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

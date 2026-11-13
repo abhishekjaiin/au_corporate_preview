@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "TDS, annual statement, permanent establishment risk, GST position and expat tax for the India liaison office of a foreign company.",
     url: "https://www.theaucorp.com/liaison-office-tax-compliance",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Liaison Office Tax Compliance in India: TDS, Statement, PE",
     description:
       "TDS, annual statement, permanent establishment risk, GST position and expat tax for the India liaison office of a foreign company.",

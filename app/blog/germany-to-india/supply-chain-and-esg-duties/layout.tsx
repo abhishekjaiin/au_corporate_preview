@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/supply-chain-and-esg-duties",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "German Supply-Chain and ESG Rules for India Operations",
     description:
       "How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier.",

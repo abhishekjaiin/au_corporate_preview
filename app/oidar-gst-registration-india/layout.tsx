@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "OIDAR GST registration, GSTR-5A filing and GST payment for foreign AI and SaaS companies selling in India. CA-led, 18% IGST. Free consultation.",
     url: "https://www.theaucorp.com/oidar-gst-registration-india",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "OIDAR GST Registration and GSTR-5A Filing Service in India",
     description:
       "OIDAR GST registration, GSTR-5A filing and GST payment for foreign AI and SaaS companies selling in India. CA-led, 18% IGST. Free consultation.",

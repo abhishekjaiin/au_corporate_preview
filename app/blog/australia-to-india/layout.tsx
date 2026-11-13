@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Set Up a Subsidiary in India from Australia: 2026 Guide",
     description:
       "How Australian companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings.",

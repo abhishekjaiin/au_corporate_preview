@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/cost-of-setting-up-a-subsidiary-in-india",
     locale: "en_IN",
   },
-  twitter: { title: "Cost of Setting Up a Subsidiary in India (2026): Fees and Budget", description: "What setting up a subsidiary in India involves: government fees, stamp duty, home-country costs, share capital and annual running costs, with a free consultation." },
+  twitter: { card: "summary_large_image", title: "Cost of Setting Up a Subsidiary in India (2026): Fees and Budget", description: "What setting up a subsidiary in India involves: government fees, stamp duty, home-country costs, share capital and annual running costs, with a free consultation." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

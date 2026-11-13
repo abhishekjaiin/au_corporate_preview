@@ -33,7 +33,7 @@ const insightsMetadata: Metadata = {
     url: "https://www.theaucorp.com/insights",
     images: [{ url: "https://www.theaucorp.com/og?title=Insights%3A%20Regulatory%20Updates%20%7C%20AU%20Corporate%20%7C%20AU%20Corporate", width: 1200, height: 630, alt: "Insights: Regulatory Updates | AU Corporate" }],
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Insights: Regulatory Updates | AU Corporate",
     description:
       "Articles and updates from AU Corporate on India market entry, taxation, compliance, and global business advisory.",

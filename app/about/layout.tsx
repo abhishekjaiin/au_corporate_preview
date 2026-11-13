@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "CA-led firm founded in 2016 and led by Abhishek Jaiin, incorporating and running companies across India for Indian and foreign clients.",
     url: "https://www.theaucorp.com/about",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "About AU Corporate | CA-Led Incorporation Firm in India",
     description:
       "CA-led firm founded in 2016 and led by Abhishek Jaiin, incorporating and running companies across India for Indian and foreign clients.",

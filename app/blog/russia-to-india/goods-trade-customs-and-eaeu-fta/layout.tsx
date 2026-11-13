@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/goods-trade-customs-and-eaeu-fta",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Goods, Trade and Procurement for Russian Companies in India",
     description:
       "What Russian companies and their Indian subsidiaries must know about goods: no India-Russia preferential agreement in force, EAEU free trade negotiations.",

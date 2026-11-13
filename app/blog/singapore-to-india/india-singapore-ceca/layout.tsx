@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/india-singapore-ceca",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Singapore CECA (2005) Explained for Singapore Firms",
     description:
       "What the India-Singapore CECA means for a Singapore company with an Indian subsidiary: trade, services, investment and the EPF exemption for citizens.",

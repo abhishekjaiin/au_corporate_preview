@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/esop-india-foreign-owned-companies",
     locale: "en_IN",
   },
-  twitter: { title: "ESOPs in India for Foreign-Owned Companies: Plans, Valuation, Tax", description: "How foreign groups give equity to Indian employees: parent ESOP and RSU plans, an Indian company ESOP, ESOP valuation, perquisite tax, FEMA and recharges." },
+  twitter: { card: "summary_large_image", title: "ESOPs in India for Foreign-Owned Companies: Plans, Valuation, Tax", description: "How foreign groups give equity to Indian employees: parent ESOP and RSU plans, an Indian company ESOP, ESOP valuation, perquisite tax, FEMA and recharges." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

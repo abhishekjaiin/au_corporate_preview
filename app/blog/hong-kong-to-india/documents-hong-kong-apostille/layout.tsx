@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/documents-hong-kong-apostille",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Hong Kong Documents for India: Apostille",
     description:
       "How to prepare Hong Kong company and director documents for Indian filings: certified copies, notary public, Hong Kong apostille.",

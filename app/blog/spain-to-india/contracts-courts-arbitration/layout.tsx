@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/contracts-courts-arbitration",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Contracts and Arbitration in India for Spanish Companies",
     description:
       "How to draft and enforce contracts with Indian counterparties from Spain: governing law, the choice of arbitration seat (Madrid, Singapore.",

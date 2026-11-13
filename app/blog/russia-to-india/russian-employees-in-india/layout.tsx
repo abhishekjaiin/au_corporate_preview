@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/russian-employees-in-india",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Russian Employees in India: Tax and Provident Fund",
     description:
       "What a Russian employer must plan for staff in India: Indian salary tax and the treaty test, EPF for international workers, no social security agreement.",

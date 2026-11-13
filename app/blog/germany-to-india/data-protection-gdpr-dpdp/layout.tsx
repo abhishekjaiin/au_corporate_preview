@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/data-protection-gdpr-dpdp",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Data Protection for German Companies in India",
     description:
       "How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary.",

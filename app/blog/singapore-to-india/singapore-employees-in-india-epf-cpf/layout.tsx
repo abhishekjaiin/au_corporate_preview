@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/singapore-to-india/singapore-employees-in-india-epf-cpf",
     locale: "en_SG",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Singapore Employees in India: Treaty, EPF Exemption and CPF",
     description:
       "How Indian income tax, EPF and Singapore's CPF apply to Singapore staff in India: the 183-day test and the CECA provident fund exemption for citizens.",

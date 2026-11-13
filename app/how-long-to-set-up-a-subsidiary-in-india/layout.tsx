@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/how-long-to-set-up-a-subsidiary-in-india",
     locale: "en_IN",
   },
-  twitter: { title: "How Long to Set Up a Subsidiary in India: Week-by-Week Timeline", description: "How long it takes to set up a subsidiary in India: documents, SPICe+, bank account, capital and FC-GPR, with ways to speed it up and a 14-day example." },
+  twitter: { card: "summary_large_image", title: "How Long to Set Up a Subsidiary in India: Week-by-Week Timeline", description: "How long it takes to set up a subsidiary in India: documents, SPICe+, bank account, capital and FC-GPR, with ways to speed it up and a 14-day example." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

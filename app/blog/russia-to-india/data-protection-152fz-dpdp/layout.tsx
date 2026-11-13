@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/data-protection-152fz-dpdp",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Russia 152-FZ and India's DPDP Act",
     description:
       "How Russia's 152-FZ, with its localisation and transfer notice rules, and India's DPDP Act apply when a Russian company runs an Indian subsidiary.",

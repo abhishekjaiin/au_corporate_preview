@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration.",
     url: "https://www.theaucorp.com/japan-to-india/contracts-and-arbitration",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Contracts and Arbitration in India for Japanese Companies",
     description:
       "Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration.",

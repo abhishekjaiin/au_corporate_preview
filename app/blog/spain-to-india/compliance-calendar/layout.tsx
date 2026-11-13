@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/compliance-calendar",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Compliance Calendar for a Spanish-Owned Indian Company",
     description:
       "One calendar for the whole year showing what the Indian subsidiary files with Indian authorities and what the Spanish parent files in Spain.",

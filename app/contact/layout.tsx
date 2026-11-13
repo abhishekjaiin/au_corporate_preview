@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Contact AU Corporate for company registration, tax, compliance and Virtual CFO support. Serving clients across India.",
     url: "https://www.theaucorp.com/contact",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Contact AU Corporate | India Entry & Advisory Team",
     description:
       "Contact AU Corporate for company registration, tax, compliance and Virtual CFO support. Serving clients across India.",

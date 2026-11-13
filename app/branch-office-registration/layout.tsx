@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Register a branch office of your foreign company in India: Form FNC, RBI and AD bank approval, UIN, Form FC-1, PAN and TAN. CA-led, free consultation.",
     url: "https://www.theaucorp.com/branch-office-registration",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Branch Office Registration in India for Foreign Companies",
     description:
       "Register a branch office of your foreign company in India: Form FNC, RBI and AD bank approval, UIN, Form FC-1, PAN and TAN. CA-led, free consultation.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/india-germany-dtaa",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Germany DTAA: Treaty Rates for German Companies",
     description:
       "The India-Germany double taxation agreement explained article by article from the German parent's point of view.",

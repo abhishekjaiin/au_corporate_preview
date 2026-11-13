@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Form FC-1 registration, FC-2 changes, FC-3 accounts and the FC-4 annual return for a foreign company's India branch office.",
     url: "https://www.theaucorp.com/foreign-company-roc-compliance",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "ROC Compliance for Foreign Companies in India: FC-1 to FC-4",
     description:
       "Form FC-1 registration, FC-2 changes, FC-3 accounts and the FC-4 annual return for a foreign company's India branch office.",

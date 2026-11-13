@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/japan-to-india/data-protection-appi-dpdp",
     locale: "en_JP",
   },
-  twitter: { title: "Data Protection for Japanese Companies in India: APPI and DPDP", description: "How Japan's APPI and India's DPDP Act apply when a Japanese company runs an Indian subsidiary: transfers, contracts and the 2027 timeline." },
+  twitter: { card: "summary_large_image", title: "Data Protection for Japanese Companies in India: APPI and DPDP", description: "How Japan's APPI and India's DPDP Act apply when a Japanese company runs an Indian subsidiary: transfers, contracts and the 2027 timeline." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Tax rate, advance tax, TDS, GST, transfer pricing, permanent establishment, treaty relief and litigation for the India branch office of a foreign company.",
     url: "https://www.theaucorp.com/branch-office-tax-gst-transfer-pricing",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Tax, GST and Transfer Pricing for Branch Offices in India",
     description:
       "Tax rate, advance tax, TDS, GST, transfer pricing, permanent establishment, treaty relief and litigation for the India branch office of a foreign company.",

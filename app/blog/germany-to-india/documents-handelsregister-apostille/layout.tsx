@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/documents-handelsregister-apostille",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "German Documents and Apostille for an India Subsidiary",
     description:
       "The document checklist for a German parent forming an Indian subsidiary: Handelsregister extract, articles of association, shareholder resolution.",

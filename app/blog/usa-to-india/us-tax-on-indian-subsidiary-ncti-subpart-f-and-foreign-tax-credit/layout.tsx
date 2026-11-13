@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/us-tax-on-indian-subsidiary-ncti-subpart-f-and-foreign-tax-credit",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "US Tax on an Indian Subsidiary: NCTI and Subpart F",
     description:
       "The US side of an Indian subsidiary for a US C corporation or pass-through owner: how profits are taxed when earned or when distributed.",

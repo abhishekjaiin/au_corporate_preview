@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/relocate-german-staff",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Sending German Employees to India: Visas and Tax",
     description:
       "What a German company must plan when sending staff to India: employment visa rules, FRRO registration, 183-day tax test, Section 392 salary tax.",

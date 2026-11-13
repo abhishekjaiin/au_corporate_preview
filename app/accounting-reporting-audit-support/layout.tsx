@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Monthly accounting, reconciliations, TDS and GST workings and US GAAP or IFRS reporting for your Indian subsidiary, plus audit support. From USD 240 a month.",
     url: "https://www.theaucorp.com/accounting-reporting-audit-support",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Accounting & Audit Support for Indian Subsidiaries",
     description:
       "Monthly accounting, reconciliations, TDS and GST workings and US GAAP or IFRS reporting for your Indian subsidiary, plus audit support. From USD 240 a month.",

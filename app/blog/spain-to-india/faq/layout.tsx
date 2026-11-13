@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/faq",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "179 FAQs: Setting Up an India Subsidiary from Spain",
     description:
       "179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff.",

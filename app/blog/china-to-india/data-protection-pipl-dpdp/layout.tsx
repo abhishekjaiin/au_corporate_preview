@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/data-protection-pipl-dpdp",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Data Protection for Chinese Companies in India",
     description:
       "How China's PIPL and data export rules and India's DPDP Act apply when a Chinese company runs an Indian subsidiary, and what each side must do.",

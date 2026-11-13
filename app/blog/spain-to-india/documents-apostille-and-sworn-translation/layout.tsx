@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/documents-apostille-and-sworn-translation",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Spanish Documents for India: Apostille and Translation",
     description:
       "How to prepare Spanish company and director documents for Indian filings: why Spain and India both accept the apostille.",

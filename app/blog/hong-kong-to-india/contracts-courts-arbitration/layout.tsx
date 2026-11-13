@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/contracts-courts-arbitration",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Hong Kong Contracts, Courts and Arbitration",
     description:
       "How to draft and enforce contracts between a Hong Kong company and Indian counterparties: governing law, HKIAC or SIAC seats.",

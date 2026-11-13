@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/chinese-employees-in-india",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Chinese Employees in India: Tax and Provident Fund",
     description:
       "What a Chinese employer must plan for staff in India: the 183-day treaty test, Section 392 salary tax, residence rules.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/chinese-parent-obligations",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Chinese Parent Obligations: ODI and Tax Reporting",
     description:
       "The Chinese-side steps for a parent investing in India: NDRC and MOFCOM outbound investment approval or filing.",

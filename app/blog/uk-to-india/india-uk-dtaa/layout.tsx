@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/uk-to-india/india-uk-dtaa",
     locale: "en_GB",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-UK DTAA for UK Companies",
     description:
       "The India-UK double taxation convention explained article by article from the UK parent's point of view.",

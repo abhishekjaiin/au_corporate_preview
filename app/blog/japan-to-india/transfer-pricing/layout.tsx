@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How transfer pricing works for an Indian subsidiary of a Japanese company: arm's length pricing, documentation, Form 48, methods, safe harbour and audits.",
     url: "https://www.theaucorp.com/japan-to-india/transfer-pricing",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Transfer Pricing in India for Japanese-Owned Subsidiaries",
     description:
       "How transfer pricing works for an Indian subsidiary of a Japanese company: arm's length pricing, documentation, Form 48, methods, safe harbour and audits.",

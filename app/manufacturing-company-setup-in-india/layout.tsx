@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/manufacturing-company-setup-in-india",
     locale: "en_IN",
   },
-  twitter: { title: "Manufacturing Company Setup in India for Foreign Companies", description: "How a foreign company sets up manufacturing in India: own plant or contract manufacturing, FDI route, land, approvals, PLI incentives and tax." },
+  twitter: { card: "summary_large_image", title: "Manufacturing Company Setup in India for Foreign Companies", description: "How a foreign company sets up manufacturing in India: own plant or contract manufacturing, FDI route, land, approvals, PLI incentives and tax." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

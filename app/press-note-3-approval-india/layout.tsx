@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/press-note-3-approval-india",
     locale: "en_IN",
   },
-  twitter: { title: "Press Note 3 Approval for Chinese and Hong Kong Investors", description: "Who needs Press Note 3 approval to invest in India, the March 2026 easing, documents, the approval process, timelines, director clearance and filings after approval." },
+  twitter: { card: "summary_large_image", title: "Press Note 3 Approval for Chinese and Hong Kong Investors", description: "Who needs Press Note 3 approval to invest in India, the March 2026 easing, documents, the approval process, timelines, director clearance and filings after approval." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

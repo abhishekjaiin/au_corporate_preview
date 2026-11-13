@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/contracts-courts-arbitration",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Contracts and Arbitration for a German Parent",
     description:
       "How a German parent protects its Indian subsidiary contracts: choice of law, DIS and other arbitration.",

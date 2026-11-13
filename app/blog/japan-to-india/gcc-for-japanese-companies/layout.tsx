@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/japan-to-india/gcc-for-japanese-companies",
     locale: "en_JP",
   },
-  twitter: { title: "GCC Setup in India for Japanese Companies (2026 Guide)", description: "How Japanese companies set up a GCC in India: own centre or BOT, Japanese-speaking bridge roles, cities, cost-plus pricing and the ringi timeline." },
+  twitter: { card: "summary_large_image", title: "GCC Setup in India for Japanese Companies (2026 Guide)", description: "How Japanese companies set up a GCC in India: own centre or BOT, Japanese-speaking bridge roles, cities, cost-plus pricing and the ringi timeline." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

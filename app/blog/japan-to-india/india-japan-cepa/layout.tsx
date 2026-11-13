@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/japan-to-india/india-japan-cepa",
     locale: "en_JP",
   },
-  twitter: { title: "India-Japan CEPA: What It Means for Japanese Companies", description: "How the India-Japan CEPA affects Japanese companies: tariff cuts, rules of origin, certificates, services and investment, and what it does not change." },
+  twitter: { card: "summary_large_image", title: "India-Japan CEPA: What It Means for Japanese Companies", description: "How the India-Japan CEPA affects Japanese companies: tariff cuts, rules of origin, certificates, services and investment, and what it does not change." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Register your India subsidiary with AU Corporate: incorporation, PAN, TAN, bank account, share issue and FC-GPR in 4–6 weeks, USD 750–1,000 all-inclusive.",
     url: "https://www.theaucorp.com/india-subsidiary-registration",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Indian Subsidiary Registration: Process, Documents, Timeline",
     description:
       "Register your India subsidiary with AU Corporate: incorporation, PAN, TAN, bank account, share issue and FC-GPR in 4–6 weeks, USD 750–1,000 all-inclusive.",

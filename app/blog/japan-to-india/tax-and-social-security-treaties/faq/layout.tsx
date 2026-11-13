@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "50 plain answers on the India-Japan tax treaty, 10% withholding rates, certificate of residence, Form 41.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/faq",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Treaty and Social Security FAQs for India-Japan Expats",
     description:
       "50 plain answers on the India-Japan tax treaty, 10% withholding rates, certificate of residence, Form 41.",

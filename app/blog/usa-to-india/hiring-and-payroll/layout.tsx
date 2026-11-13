@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How US companies hire in India: employment contracts, provident fund, ESI, gratuity, professional tax, payroll steps and India's labour codes.",
     url: "https://www.theaucorp.com/usa-to-india/hiring-and-payroll",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Hiring in India: Contracts, Payroll and Statutory Compliance",
     description:
       "How US companies hire in India: employment contracts, provident fund, ESI, gratuity, professional tax, payroll steps and India's labour codes.",

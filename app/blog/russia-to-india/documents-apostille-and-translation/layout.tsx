@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/documents-apostille-and-translation",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Russian Documents for India: Apostille and Translation",
     description:
       "How to prepare Russian company and director documents for Indian filings: both countries are parties to the Apostille Convention.",

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/can-a-foreign-company-own-100-percent-of-an-indian-company",
     locale: "en_IN",
   },
-  twitter: { title: "Can a Foreign Company Own 100% of an Indian Company? (100% FDI)", description: "Yes, in most sectors. How 100% FDI works in India: the Automatic Route, capped and prohibited sectors, Press Note 3, two shareholders and filings." },
+  twitter: { card: "summary_large_image", title: "Can a Foreign Company Own 100% of an Indian Company? (100% FDI)", description: "Yes, in most sectors. How 100% FDI works in India: the Automatic Route, capped and prohibited sectors, Press Note 3, two shareholders and filings." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

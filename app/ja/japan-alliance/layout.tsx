@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: URL_JA,
     locale: "ja_JP",
   },
-  twitter: { title: TITLE, description: DESCRIPTION },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

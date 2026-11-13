@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Set Up a Subsidiary in India from China: 2026 Guide",
     description:
       "How Chinese companies set up a subsidiary in India: Press Note 3 approval, structure, incorporation, FEMA filings, the India-China tax treaty, documents.",

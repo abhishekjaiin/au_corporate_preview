@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Corporate tax, GST, transfer pricing, DTAA, repatriation and expat tax for Indian subsidiaries of foreign companies. CA-led team, free consultation.",
     url: "https://www.theaucorp.com/corporate-tax-gst-transfer-pricing",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Corporate Tax, GST and Transfer Pricing in India",
     description:
       "Corporate tax, GST, transfer pricing, DTAA, repatriation and expat tax for Indian subsidiaries of foreign companies. CA-led team, free consultation.",

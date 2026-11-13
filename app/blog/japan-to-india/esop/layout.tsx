@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How Japanese parent stock options and RSUs work for Indian employees: Indian tax at exercise, FEMA reporting, valuation and cost recharges.",
     url: "https://www.theaucorp.com/japan-to-india/esop",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "ESOPs for Indian Employees of a Japanese Parent Company",
     description:
       "How Japanese parent stock options and RSUs work for Indian employees: Indian tax at exercise, FEMA reporting, valuation and cost recharges.",

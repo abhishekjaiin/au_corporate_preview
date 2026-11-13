@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/cost-of-hiring-employees-in-india",
     locale: "en_IN",
   },
-  twitter: { title: "Cost of Hiring Employees in India: Employer Costs (2026)", description: "What an employee costs in India: CTC, provident fund, ESI, gratuity, insurance, recruitment and office costs, with worked examples at three salaries." },
+  twitter: { card: "summary_large_image", title: "Cost of Hiring Employees in India: Employer Costs (2026)", description: "What an employee costs in India: CTC, provident fund, ESI, gratuity, insurance, recruitment and office costs, with worked examples at three salaries." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "The India-US tax treaty (DTAA) and social security for US expats: treaty rates, residency, EPF, FICA and the missing totalization agreement.",
     url: "https://www.theaucorp.com/usa-to-india/tax-and-social-security-treaties",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Tax and Social Security Treaties for US Companies in India",
     description:
       "The India-US tax treaty (DTAA) and social security for US expats: treaty rates, residency, EPF, FICA and the missing totalization agreement.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/contracts-courts-arbitration",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Contracts, Courts and Arbitration between India and Russia",
     description:
       "How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution.",

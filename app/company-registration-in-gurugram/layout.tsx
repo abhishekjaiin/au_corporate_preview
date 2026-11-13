@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/company-registration-in-gurugram",
     locale: "en_IN",
   },
-  twitter: { title: "Company Registration in Gurugram for Foreign Companies", description: "How a foreign company registers a company in Gurugram: the Registrar, Haryana shops and establishments and professional tax rules, offices, talent and timeline." },
+  twitter: { card: "summary_large_image", title: "Company Registration in Gurugram for Foreign Companies", description: "How a foreign company registers a company in Gurugram: the Registrar, Haryana shops and establishments and professional tax rules, offices, talent and timeline." },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

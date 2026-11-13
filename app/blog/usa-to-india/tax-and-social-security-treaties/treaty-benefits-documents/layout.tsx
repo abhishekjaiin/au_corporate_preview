@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Documents needed to claim India-US treaty rates: IRS Form 6166, Form 41 (previously Form 10F), no-PE declaration and beneficial ownership.",
     url: "https://www.theaucorp.com/usa-to-india/tax-and-social-security-treaties/treaty-benefits-documents",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Claiming India-US Treaty Benefits: Form 6166 and Form 41",
     description:
       "Documents needed to claim India-US treaty rates: IRS Form 6166, Form 41 (previously Form 10F), no-PE declaration and beneficial ownership.",

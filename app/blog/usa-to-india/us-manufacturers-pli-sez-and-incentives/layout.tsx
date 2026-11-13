@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/usa-to-india/us-manufacturers-pli-sez-and-incentives",
     locale: "en_US",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "US Manufacturers in India: PLI, SEZ and Customs",
     description:
       "What a US manufacturer should check before building or contracting a plant in India: how PLI and zone incentives work and what they require.",

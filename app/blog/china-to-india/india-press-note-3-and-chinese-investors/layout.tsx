@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/india-press-note-3-and-chinese-investors",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Press Note 3 Approval for Chinese Investors",
     description:
       "How India's Press Note 3 (2020) applies to a Chinese parent: prior government approval for investors incorporated in China.",
