@@ -151,7 +151,7 @@ used above, and the Methodology rules are the ones used for every re-measurement
 | JSON-LD | 1,225 blocks, 0 invalid |
 | llms.txt / llms-full.txt | All required pages linked (the /insights note only appears without the database) |
 | Old /blog/<country>-to-india URLs | 308 to the new paths |
-| Readable without JavaScript | H1, body, FAQs and form markup present in the server HTML |
+| Everything in HTML (all 311 pages) | Each page was loaded in Chromium with JavaScript off and on. Text and link counts match on every page (0 pages lose content without JS), and no page is thin without JS. FAQs, tables, collapsed sections and the enquiry form are all in the server HTML. Only the timed popup needs JavaScript, and the same form is in the page HTML |
 | Browser console (13 templates) | 0 app errors |
 | 6-second popup | Opens at 6 s on money pages (desktop form; mobile bottom card). Not on blog posts. Does not repeat on reload |
 
