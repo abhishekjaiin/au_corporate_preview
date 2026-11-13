@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-Australia DTAA for Australian Companies",
   },
   description:
-    "The India-Australia double taxation avoidance agreement (DTAA) explained article by article, with India as the source state and Australia as the residence.",
+    "The India-Australia DTAA explained article by article, with India as the source state and Australia as the residence state: rates, PE, dividends and more.",
   alternates: guideAlternates("australia", "india-dtaa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-Australia DTAA for Australian Companies",
     description:
-      "The India-Australia double taxation avoidance agreement (DTAA) explained article by article, with India as the source state and Australia as the residence.",
+      "The India-Australia DTAA explained article by article, with India as the source state and Australia as the residence state: rates, PE, dividends and more.",
     url: "https://www.theaucorp.com/australia-to-india/india-australia-dtaa",
     locale: "en_AU",
   },
   twitter: {
     title: "India-Australia DTAA for Australian Companies",
     description:
-      "The India-Australia double taxation avoidance agreement (DTAA) explained article by article, with India as the source state and Australia as the residence.",
+      "The India-Australia DTAA explained article by article, with India as the source state and Australia as the residence state: rates, PE, dividends and more.",
   },
 }
 

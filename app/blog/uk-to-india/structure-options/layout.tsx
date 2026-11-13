@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Subsidiary, Branch, Liaison or LLP: UK",
   },
   description:
-    "How a UK company should choose between an Indian subsidiary, branch, liaison office, LLP or Employer of Record, and whether to hold it directly or through.",
+    "How a UK company should choose between an Indian subsidiary, branch, liaison office, LLP or Employer of Record.",
   alternates: guideAlternates("uk", "subsidiary-vs-branch-vs-liaison-office-vs-llp"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Subsidiary, Branch, Liaison or LLP: UK",
     description:
-      "How a UK company should choose between an Indian subsidiary, branch, liaison office, LLP or Employer of Record, and whether to hold it directly or through.",
+      "How a UK company should choose between an Indian subsidiary, branch, liaison office, LLP or Employer of Record.",
     url: "https://www.theaucorp.com/uk-to-india/structure-options",
     locale: "en_GB",
   },
   twitter: {
     title: "Subsidiary, Branch, Liaison or LLP: UK",
     description:
-      "How a UK company should choose between an Indian subsidiary, branch, liaison office, LLP or Employer of Record, and whether to hold it directly or through.",
+      "How a UK company should choose between an Indian subsidiary, branch, liaison office, LLP or Employer of Record.",
   },
 }
 

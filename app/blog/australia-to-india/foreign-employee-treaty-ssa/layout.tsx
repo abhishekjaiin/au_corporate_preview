@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Treaty and Social Security for Foreign Employees in India",
   },
   description:
-    "How the India-Australia DTAA (Article 15) and the India-Australia Social Security Agreement apply to Australian employees working in India: the 183-day.",
+    "How the India-Australia DTAA (Article 15) and the India-Australia Social Security Agreement apply to Australian employees working in India.",
   alternates: guideAlternates("australia", "foreign-employee-treaty-ssa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Treaty and Social Security for Foreign Employees in India",
     description:
-      "How the India-Australia DTAA (Article 15) and the India-Australia Social Security Agreement apply to Australian employees working in India: the 183-day.",
+      "How the India-Australia DTAA (Article 15) and the India-Australia Social Security Agreement apply to Australian employees working in India.",
     url: "https://www.theaucorp.com/australia-to-india/foreign-employee-treaty-ssa",
     locale: "en_AU",
   },
   twitter: {
     title: "Treaty and Social Security for Foreign Employees in India",
     description:
-      "How the India-Australia DTAA (Article 15) and the India-Australia Social Security Agreement apply to Australian employees working in India: the 183-day.",
+      "How the India-Australia DTAA (Article 15) and the India-Australia Social Security Agreement apply to Australian employees working in India.",
   },
 }
 

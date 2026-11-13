@@ -53,7 +53,7 @@ export default function GlobalVatPage() {
         headline="Global VAT and GST for Australian Companies: Registration, Filing and Compliance"
         description="How VAT and GST work for Australian companies selling digital services and goods into Europe, the UK, New Zealand, India and beyond: registration, B2B and B2C rules and compliance."
         datePublished="2026-10-15"
-        dateModified="2026-10-15"
+        dateModified="2026-11-13"
         isPartOfUrl={HUB_URL}
         inLanguage="en-AU"
       />
@@ -69,7 +69,7 @@ export default function GlobalVatPage() {
       <GuideHero
         eyebrow="Beyond India: VAT and GST"
         title="Global VAT and GST for Australian Companies: Registration, Filing and Compliance"
-        updated="15 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -252,7 +252,7 @@ export default function GlobalVatPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 15 October 2026. General information only, not legal or tax advice. Indian and Australian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Australian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

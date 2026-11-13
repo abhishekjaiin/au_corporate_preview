@@ -53,13 +53,13 @@ export default function ManufacturingCompanySetupInIndiaPage() {
         headline={"Manufacturing Company Setup in India for Foreign Companies: Structure, Land, Approvals and Incentives"}
         description={"How a foreign company sets up manufacturing in India: own factory or contract manufacturing, FDI route, land, factory and pollution approvals, BIS and import-export registration, PLI incentives and tax."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "Manufacturing Company Setup" }]} />
 
-      <GuideHero eyebrow={"Service: manufacturing setup"} title={"Manufacturing Company Setup in India for Foreign Companies: Structure, Land, Approvals and Incentives"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Service: manufacturing setup"} title={"Manufacturing Company Setup in India for Foreign Companies: Structure, Land, Approvals and Incentives"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -210,7 +210,7 @@ export default function ManufacturingCompanySetupInIndiaPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

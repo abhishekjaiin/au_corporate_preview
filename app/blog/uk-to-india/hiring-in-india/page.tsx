@@ -53,7 +53,7 @@ export default function HiringInIndiaPage() {
         headline="Hiring in India as a UK Employer: How Indian Employment Differs, and What to Put in the Contract"
         description="How a UK company should hire in India through its subsidiary: contracts, provident fund, ESI, gratuity, the labour codes, payroll, and how to extend share plans to Indian employees."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-GB"
       />
@@ -69,7 +69,7 @@ export default function HiringInIndiaPage() {
       <GuideHero
         eyebrow="People: hiring in India"
         title="Hiring in India as a UK Employer: How Indian Employment Differs, and What to Put in the Contract"
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -257,7 +257,7 @@ export default function HiringInIndiaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

@@ -51,7 +51,7 @@ export default function CommonMistakesPage() {
         headline="Thirteen Mistakes Australian Companies Make When Setting Up in India, and How to Avoid Them"
         description="The 13 most common and costly mistakes Australian companies make when setting up an Indian subsidiary, and how to avoid each. Includes a pre-filing checklist."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -67,7 +67,7 @@ export default function CommonMistakesPage() {
       <GuideHero
         eyebrow="Avoid the pitfalls"
         title="Thirteen Mistakes Australian Companies Make When Setting Up in India, and How to Avoid Them"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -246,7 +246,7 @@ export default function CommonMistakesPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

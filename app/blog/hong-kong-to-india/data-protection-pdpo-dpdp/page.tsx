@@ -50,7 +50,7 @@ export default function DataProtectionPdpoDpdpPage() {
         headline="Data Protection for Hong Kong Groups in India: PDPO Principles, the DPDP Act and Rules, Cross-Border Transfers and Penalties"
         description="How Hong Kong's Personal Data (Privacy) Ordinance and India's Digital Personal Data Protection Act apply to a group with staff and customers in both: consent, notice, cross-border transfer, processors, breach notification and penalties of up to INR 250 crore."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -66,7 +66,7 @@ export default function DataProtectionPdpoDpdpPage() {
       <GuideHero
         eyebrow="Compliance: data protection"
         title="Data Protection for Hong Kong Groups in India: PDPO Principles, the DPDP Act and Rules, Cross-Border Transfers and Penalties"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -225,7 +225,7 @@ export default function DataProtectionPdpoDpdpPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

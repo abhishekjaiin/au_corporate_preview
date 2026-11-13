@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Common Mistakes Chinese Companies Make When Entering India",
   },
   description:
-    "The most frequent mistakes Chinese companies make when setting up in India: investing before Press Note 3 approval, assuming an apostille works, hidden.",
+    "The most frequent mistakes Chinese companies make when setting up in India: investing before Press Note 3 approval, assuming an apostille works.",
   alternates: guideAlternates("china", "common-mistakes"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Common Mistakes Chinese Companies Make When Entering India",
     description:
-      "The most frequent mistakes Chinese companies make when setting up in India: investing before Press Note 3 approval, assuming an apostille works, hidden.",
+      "The most frequent mistakes Chinese companies make when setting up in India: investing before Press Note 3 approval, assuming an apostille works.",
     url: "https://www.theaucorp.com/china-to-india/common-mistakes",
     locale: "en_CN",
   },
   twitter: {
     title: "Common Mistakes Chinese Companies Make When Entering India",
     description:
-      "The most frequent mistakes Chinese companies make when setting up in India: investing before Press Note 3 approval, assuming an apostille works, hidden.",
+      "The most frequent mistakes Chinese companies make when setting up in India: investing before Press Note 3 approval, assuming an apostille works.",
   },
 }
 

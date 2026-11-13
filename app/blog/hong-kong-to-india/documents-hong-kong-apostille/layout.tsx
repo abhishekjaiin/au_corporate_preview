@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Hong Kong Documents for India: Apostille",
   },
   description:
-    "How to prepare Hong Kong company and director documents for Indian filings: certified copies, notary public, Hong Kong apostille, when consular legalisation.",
+    "How to prepare Hong Kong company and director documents for Indian filings: certified copies, notary public, Hong Kong apostille.",
   alternates: guideAlternates("hongkong", "documents-and-apostille"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Hong Kong Documents for India: Apostille",
     description:
-      "How to prepare Hong Kong company and director documents for Indian filings: certified copies, notary public, Hong Kong apostille, when consular legalisation.",
+      "How to prepare Hong Kong company and director documents for Indian filings: certified copies, notary public, Hong Kong apostille.",
     url: "https://www.theaucorp.com/hong-kong-to-india/documents-hong-kong-apostille",
     locale: "en_HK",
   },
   twitter: {
     title: "Hong Kong Documents for India: Apostille",
     description:
-      "How to prepare Hong Kong company and director documents for Indian filings: certified copies, notary public, Hong Kong apostille, when consular legalisation.",
+      "How to prepare Hong Kong company and director documents for Indian filings: certified copies, notary public, Hong Kong apostille.",
   },
 }
 

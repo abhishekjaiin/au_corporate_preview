@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Goods via Hong Kong: Origin, Customs and Procurement",
   },
   description:
-    "What Hong Kong traders must know when goods go to India: origin versus port of shipment, no India-Hong Kong trade agreement, customs value on related-party.",
+    "What Hong Kong traders must know when goods go to India: origin versus port of shipment, no India-Hong Kong trade agreement.",
   alternates: guideAlternates("hongkong", "trade-origin"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Goods via Hong Kong: Origin, Customs and Procurement",
     description:
-      "What Hong Kong traders must know when goods go to India: origin versus port of shipment, no India-Hong Kong trade agreement, customs value on related-party.",
+      "What Hong Kong traders must know when goods go to India: origin versus port of shipment, no India-Hong Kong trade agreement.",
     url: "https://www.theaucorp.com/hong-kong-to-india/goods-via-hong-kong-origin-customs-and-procurement",
     locale: "en_HK",
   },
   twitter: {
     title: "Goods via Hong Kong: Origin, Customs and Procurement",
     description:
-      "What Hong Kong traders must know when goods go to India: origin versus port of shipment, no India-Hong Kong trade agreement, customs value on related-party.",
+      "What Hong Kong traders must know when goods go to India: origin versus port of shipment, no India-Hong Kong trade agreement.",
   },
 }
 

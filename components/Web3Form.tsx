@@ -22,7 +22,7 @@ export function leadSubject(kind: string, need?: string) {
 const inputClass =
   "w-full rounded-lg border border-[#d6dce6] bg-white px-4 py-3 text-sm text-gray-900 shadow-sm transition placeholder:text-gray-400 focus:border-[#0E1B4D] focus:outline-none focus:ring-2 focus:ring-[#FFD21F]/40"
 const labelClass = "mb-1.5 block text-sm font-semibold text-[#243047]"
-const optionalClass = "font-normal text-gray-400"
+const optionalClass = "font-normal text-gray-500"
 
 type Submitted = { name: string; email: string; need: string }
 

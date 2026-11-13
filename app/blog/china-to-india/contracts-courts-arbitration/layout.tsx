@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Contracts and Arbitration for a Chinese Parent",
   },
   description:
-    "How a Chinese parent protects its Indian subsidiary contracts: choice of law and seat, CIETAC, HKIAC and SIAC arbitration, enforcement of awards under.",
+    "How a Chinese parent protects its Indian subsidiary contracts: choice of law and seat, CIETAC, HKIAC and SIAC arbitration.",
   alternates: guideAlternates("china", "contracts-and-arbitration"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Contracts and Arbitration for a Chinese Parent",
     description:
-      "How a Chinese parent protects its Indian subsidiary contracts: choice of law and seat, CIETAC, HKIAC and SIAC arbitration, enforcement of awards under.",
+      "How a Chinese parent protects its Indian subsidiary contracts: choice of law and seat, CIETAC, HKIAC and SIAC arbitration.",
     url: "https://www.theaucorp.com/china-to-india/contracts-courts-arbitration",
     locale: "en_CN",
   },
   twitter: {
     title: "Contracts and Arbitration for a Chinese Parent",
     description:
-      "How a Chinese parent protects its Indian subsidiary contracts: choice of law and seat, CIETAC, HKIAC and SIAC arbitration, enforcement of awards under.",
+      "How a Chinese parent protects its Indian subsidiary contracts: choice of law and seat, CIETAC, HKIAC and SIAC arbitration.",
   },
 }
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Sending Chinese Employees to India: Visas and FRRO",
   },
   description:
-    "What a Chinese company must plan when sending staff to India: business visa limits, employment visa rules and salary floor, security clearance, the reported.",
+    "What a Chinese company must plan when sending staff to India: business visa limits, employment visa rules and salary floor, security clearance.",
   alternates: guideAlternates("china", "expat-visa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Sending Chinese Employees to India: Visas and FRRO",
     description:
-      "What a Chinese company must plan when sending staff to India: business visa limits, employment visa rules and salary floor, security clearance, the reported.",
+      "What a Chinese company must plan when sending staff to India: business visa limits, employment visa rules and salary floor, security clearance.",
     url: "https://www.theaucorp.com/china-to-india/relocate-chinese-staff",
     locale: "en_CN",
   },
   twitter: {
     title: "Sending Chinese Employees to India: Visas and FRRO",
     description:
-      "What a Chinese company must plan when sending staff to India: business visa limits, employment visa rules and salary floor, security clearance, the reported.",
+      "What a Chinese company must plan when sending staff to India: business visa limits, employment visa rules and salary floor, security clearance.",
   },
 }
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-UK DTAA for UK Companies",
   },
   description:
-    "The India-UK double taxation convention explained article by article from the UK parent's point of view: rates table, permanent establishment, royalties.",
+    "The India-UK double taxation convention explained article by article from the UK parent's point of view.",
   alternates: guideAlternates("uk", "india-dtaa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-UK DTAA for UK Companies",
     description:
-      "The India-UK double taxation convention explained article by article from the UK parent's point of view: rates table, permanent establishment, royalties.",
+      "The India-UK double taxation convention explained article by article from the UK parent's point of view.",
     url: "https://www.theaucorp.com/uk-to-india/india-uk-dtaa",
     locale: "en_GB",
   },
   twitter: {
     title: "India-UK DTAA for UK Companies",
     description:
-      "The India-UK double taxation convention explained article by article from the UK parent's point of view: rates table, permanent establishment, royalties.",
+      "The India-UK double taxation convention explained article by article from the UK parent's point of view.",
   },
 }
 

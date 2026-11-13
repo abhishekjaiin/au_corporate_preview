@@ -55,7 +55,7 @@ export default function RelocateRussianStaffPage() {
         headline="Moving Russian Employees to India: Employment Visa, FRRO Registration, Dependants and Practicalities"
         description="How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor, FRRO registration within 14 days for stays over 180 days, dependants, tax and exit."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -71,7 +71,7 @@ export default function RelocateRussianStaffPage() {
       <GuideHero
         eyebrow="People: relocation"
         title="Moving Russian Employees to India: Employment Visa, FRRO Registration, Dependants and Practicalities"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -240,7 +240,7 @@ export default function RelocateRussianStaffPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

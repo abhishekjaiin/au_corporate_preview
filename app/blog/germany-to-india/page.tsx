@@ -89,7 +89,7 @@ export default function GermanyToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Germany: The 2026 Guide"
         description="How German companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Germany tax treaty, social security agreement, staff and compliance. By a Chartered Accountant."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         inLanguage="en-DE"
       />
 
@@ -103,7 +103,7 @@ export default function GermanyToIndiaHubPage() {
         eyebrow="Guide for German companies"
         title="How to Set Up a Subsidiary in India from Germany: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, the India-Germany treaty and social security agreement, and EU rules for German companies entering India, in plain terms."
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -580,7 +580,7 @@ export default function GermanyToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian and German
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and German
           rules change often; confirm current requirements before acting.
         </p>
       </article>

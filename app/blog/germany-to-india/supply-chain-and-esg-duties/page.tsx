@@ -50,7 +50,7 @@ export default function SupplyChainAndEsgDutiesPage() {
         headline="Supply Chain Due Diligence, Sustainability Reporting and CBAM: How German and EU Rules Reach Indian Operations"
         description="How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier: the German Supply Chain Act (LkSG), EU reporting, CBAM, and what to prepare."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -66,7 +66,7 @@ export default function SupplyChainAndEsgDutiesPage() {
       <GuideHero
         eyebrow="Compliance: supply chain and ESG"
         title="Supply Chain Due Diligence, Sustainability Reporting and CBAM: How German and EU Rules Reach Indian Operations"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -225,7 +225,7 @@ export default function SupplyChainAndEsgDutiesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and German
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and German
           rules change often; confirm current requirements before acting.
         </p>
       </article>

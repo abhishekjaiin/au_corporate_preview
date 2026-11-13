@@ -61,7 +61,7 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
         headline="Subsidiary vs. Branch vs. Liaison Office vs. LLP: Which Is Right for a Japanese Company in India?"
         description="Compare the four ways a Japanese company can enter India: wholly owned subsidiary, branch office, liaison office and LLP. Activities, approvals, tax and control."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -77,7 +77,7 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
       <GuideHero
         eyebrow="Enter: choose your structure"
         title="Subsidiary vs. Branch vs. Liaison Office vs. LLP: Which Is Right for a Japanese Company in India?"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -288,7 +288,7 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

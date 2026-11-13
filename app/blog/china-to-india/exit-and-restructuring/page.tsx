@@ -51,7 +51,7 @@ export default function ExitAndRestructuringPage() {
         headline="Exit and Restructuring: Share Sale, Buyback, Liquidation and Closing a Subsidiary Owned by a Chinese Parent"
         description="How a Chinese parent exits an Indian subsidiary: share sale and FEMA pricing, capital gains and the treaty, approval for a land-border buyer, buyback, voluntary liquidation, Chinese approvals and employee rules."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-CN"
       />
@@ -67,7 +67,7 @@ export default function ExitAndRestructuringPage() {
       <GuideHero
         eyebrow="Lifecycle: exit"
         title="Exit and Restructuring: Share Sale, Buyback, Liquidation and Closing a Subsidiary Owned by a Chinese Parent"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -244,7 +244,7 @@ export default function ExitAndRestructuringPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Chinese
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Chinese
           rules change often; confirm current requirements before acting.
         </p>
       </article>

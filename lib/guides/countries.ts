@@ -151,6 +151,8 @@ export const GUIDE_COUNTRIES: Record<GuideCountryKey, GuideCountry> = {
     locale: "en-AU",
     basePath: "/australia-to-india",
     slugs: {
+      gcc: "gcc-for-australian-companies",
+      "trade-agreement": "india-australia-ecta",
       hub: "",
       ...sameSlugs(SHARED_TOPICS),
       "parent-obligations": "australian-parent-obligations",
@@ -384,6 +386,9 @@ export const GUIDE_COUNTRIES: Record<GuideCountryKey, GuideCountry> = {
     // Same topic set and treaty sub-hub as the USA cluster, with Japan's own
     // slugs for the treaty and parent pages.
     slugs: {
+      "data-protection": "data-protection-appi-dpdp",
+      gcc: "gcc-for-japanese-companies",
+      "trade-agreement": "india-japan-cepa",
       hub: "",
       ...sameSlugs(SHARED_TOPICS),
       "parent-obligations": "japan-parent-obligations",

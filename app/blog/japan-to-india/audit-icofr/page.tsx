@@ -53,7 +53,7 @@ export default function AuditIcofrPage() {
         headline="Audit and Internal Controls for an Indian Subsidiary of a Japanese Group"
         description="Statutory audit, tax audit, GST audit and internal controls over financial reporting for an Indian subsidiary of a Japanese group. What to expect and how to prepare."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -69,7 +69,7 @@ export default function AuditIcofrPage() {
       <GuideHero
         eyebrow="Assure: audit and controls"
         title="Audit and Internal Controls for an Indian Subsidiary of a Japanese Group"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -219,7 +219,7 @@ export default function AuditIcofrPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

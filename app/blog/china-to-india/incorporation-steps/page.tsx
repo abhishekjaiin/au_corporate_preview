@@ -51,7 +51,7 @@ export default function IncorporationStepsPage() {
         headline="Setting Up the Indian Subsidiary After Approval: Step-by-Step Plan for a Chinese Parent"
         description="The step-by-step plan for incorporating an Indian private limited company owned by a Chinese parent: Press Note 3 approval, documents, director clearance, SPICe+, bank account, funding, RBI reporting and the first 180 days."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-CN"
       />
@@ -67,7 +67,7 @@ export default function IncorporationStepsPage() {
       <GuideHero
         eyebrow="Setup: who does what"
         title="Setting Up the Indian Subsidiary After Approval: Step-by-Step Plan for a Chinese Parent"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -269,7 +269,7 @@ export default function IncorporationStepsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Chinese
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Chinese
           rules change often; confirm current requirements before acting.
         </p>
       </article>

@@ -51,7 +51,7 @@ export default function ComplianceCalendarPage() {
         headline="Compliance Calendar: Indian Dates for the Subsidiary, Beside the Singapore Parent's Dates"
         description="A calendar of Indian monthly, quarterly and annual filings for a subsidiary of a Singapore company, with the Singapore parent's ACRA and IRAS dates alongside and a note on year-end alignment."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -67,7 +67,7 @@ export default function ComplianceCalendarPage() {
       <GuideHero
         eyebrow="Compliance: the annual calendar"
         title="Compliance Calendar: Indian Dates for the Subsidiary, Beside the Singapore Parent's Dates"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -285,7 +285,7 @@ export default function ComplianceCalendarPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

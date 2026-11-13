@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Repatriating Profits from India to Spain",
   },
   description:
-    "A comparison of the five routes a Spanish parent can use to take cash from an Indian subsidiary, with the Indian withholding tax, Indian conditions, Spanish.",
+    "A comparison of the five routes a Spanish parent can use to take cash from an Indian subsidiary, with the Indian withholding tax, Indian conditions.",
   alternates: guideAlternates("spain", "repatriating-profits"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Repatriating Profits from India to Spain",
     description:
-      "A comparison of the five routes a Spanish parent can use to take cash from an Indian subsidiary, with the Indian withholding tax, Indian conditions, Spanish.",
+      "A comparison of the five routes a Spanish parent can use to take cash from an Indian subsidiary, with the Indian withholding tax, Indian conditions.",
     url: "https://www.theaucorp.com/spain-to-india/repatriating-profits",
     locale: "en_ES",
   },
   twitter: {
     title: "Repatriating Profits from India to Spain",
     description:
-      "A comparison of the five routes a Spanish parent can use to take cash from an Indian subsidiary, with the Indian withholding tax, Indian conditions, Spanish.",
+      "A comparison of the five routes a Spanish parent can use to take cash from an Indian subsidiary, with the Indian withholding tax, Indian conditions.",
   },
 }
 

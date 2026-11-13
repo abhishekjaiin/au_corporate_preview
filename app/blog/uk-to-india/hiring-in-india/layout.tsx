@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Hiring in India as a UK Employer",
   },
   description:
-    "How a UK company should hire in India through its subsidiary: contracts, provident fund, ESI, gratuity, the labour codes, payroll, and how to extend share.",
+    "How a UK company should hire in India through its subsidiary: contracts, provident fund, ESI, gratuity, the labour codes, payroll.",
   alternates: guideAlternates("uk", "hiring-and-payroll"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Hiring in India as a UK Employer",
     description:
-      "How a UK company should hire in India through its subsidiary: contracts, provident fund, ESI, gratuity, the labour codes, payroll, and how to extend share.",
+      "How a UK company should hire in India through its subsidiary: contracts, provident fund, ESI, gratuity, the labour codes, payroll.",
     url: "https://www.theaucorp.com/uk-to-india/hiring-in-india",
     locale: "en_GB",
   },
   twitter: {
     title: "Hiring in India as a UK Employer",
     description:
-      "How a UK company should hire in India through its subsidiary: contracts, provident fund, ESI, gratuity, the labour codes, payroll, and how to extend share.",
+      "How a UK company should hire in India through its subsidiary: contracts, provident fund, ESI, gratuity, the labour codes, payroll.",
   },
 }
 

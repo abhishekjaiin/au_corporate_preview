@@ -52,7 +52,7 @@ export default function ContractsCourtsArbitrationPage() {
         headline="Contracts and Dispute Resolution for Russian Companies in India: Governing Law, Arbitration Seats, Enforcing Awards and Court Judgments"
         description="How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution, enforcing awards under the New York Convention, the position on court judgments, Russian courts' jurisdiction over sanctions disputes, stamp duty and interim relief."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -68,7 +68,7 @@ export default function ContractsCourtsArbitrationPage() {
       <GuideHero
         eyebrow="Disputes: contracts and enforcement"
         title="Contracts and Dispute Resolution for Russian Companies in India: Governing Law, Arbitration Seats, Enforcing Awards and Court Judgments"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -245,7 +245,7 @@ export default function ContractsCourtsArbitrationPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

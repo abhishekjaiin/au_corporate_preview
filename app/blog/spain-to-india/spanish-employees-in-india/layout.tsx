@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Spanish Employees in India: Tax and Provident Fund",
   },
   description:
-    "What a Spanish employer must plan when staff work in India: Indian salary tax and the treaty test, the Spanish IRPF exemption for work abroad, Indian.",
+    "What a Spanish employer must plan when staff work in India: Indian salary tax and the treaty test, the Spanish IRPF exemption for work abroad.",
   alternates: guideAlternates("spain", "foreign-employee-treaty-ssa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Spanish Employees in India: Tax and Provident Fund",
     description:
-      "What a Spanish employer must plan when staff work in India: Indian salary tax and the treaty test, the Spanish IRPF exemption for work abroad, Indian.",
+      "What a Spanish employer must plan when staff work in India: Indian salary tax and the treaty test, the Spanish IRPF exemption for work abroad.",
     url: "https://www.theaucorp.com/spain-to-india/spanish-employees-in-india",
     locale: "en_ES",
   },
   twitter: {
     title: "Spanish Employees in India: Tax and Provident Fund",
     description:
-      "What a Spanish employer must plan when staff work in India: Indian salary tax and the treaty test, the Spanish IRPF exemption for work abroad, Indian.",
+      "What a Spanish employer must plan when staff work in India: Indian salary tax and the treaty test, the Spanish IRPF exemption for work abroad.",
   },
 }
 

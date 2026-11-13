@@ -56,7 +56,7 @@ export default function FundingFemaFcGprPage() {
         headline="Funding the Indian Subsidiary: FEMA Rules, Share Allotment and Form FC-GPR"
         description="How a Japanese parent capitalises an Indian subsidiary: yen remittance, rupee pricing, the 60-day allotment rule, FC-GPR on FIRMS, ECB loans and the Japanese-side report."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -72,7 +72,7 @@ export default function FundingFemaFcGprPage() {
       <GuideHero
         eyebrow="Fund: capital infusion"
         title="Funding the Indian Subsidiary: FEMA Rules, Share Allotment and Form FC-GPR"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -270,7 +270,7 @@ export default function FundingFemaFcGprPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

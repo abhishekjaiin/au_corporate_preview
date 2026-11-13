@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-EU FTA for German Companies Entering India",
   },
   description:
-    "Status and content of the India-EU free trade agreement for German companies: services access, staff mobility, tariffs on components, the investment.",
+    "Status and content of the India-EU free trade agreement for German companies: services access, staff mobility, tariffs on components.",
   alternates: guideAlternates("germany", "trade-agreement"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-EU FTA for German Companies Entering India",
     description:
-      "Status and content of the India-EU free trade agreement for German companies: services access, staff mobility, tariffs on components, the investment.",
+      "Status and content of the India-EU free trade agreement for German companies: services access, staff mobility, tariffs on components.",
     url: "https://www.theaucorp.com/germany-to-india/india-eu-fta-and-germany",
     locale: "en_DE",
   },
   twitter: {
     title: "India-EU FTA for German Companies Entering India",
     description:
-      "Status and content of the India-EU free trade agreement for German companies: services access, staff mobility, tariffs on components, the investment.",
+      "Status and content of the India-EU free trade agreement for German companies: services access, staff mobility, tariffs on components.",
   },
 }
 

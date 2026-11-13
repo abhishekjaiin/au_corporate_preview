@@ -54,7 +54,7 @@ export default function IndiaSingaporeDtaaPage() {
         headline="The India-Singapore Tax Treaty (DTAA), Article by Article: India as Source State, Singapore as Residence State"
         description="The India-Singapore double taxation agreement explained article by article from the Singapore parent's point of view: rates table, permanent establishment, share gains, limitation of benefits and how to claim."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -70,7 +70,7 @@ export default function IndiaSingaporeDtaaPage() {
       <GuideHero
         eyebrow="Tax: the India-Singapore DTAA"
         title="The India-Singapore Tax Treaty (DTAA), Article by Article: India as Source State, Singapore as Residence State"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -318,7 +318,7 @@ export default function IndiaSingaporeDtaaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

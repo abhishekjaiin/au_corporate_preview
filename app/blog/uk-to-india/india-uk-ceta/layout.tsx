@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-UK CETA for UK Companies Entering India",
   },
   description:
-    "What the India-UK CETA means for a UK company that wants to set up, staff or sell through an Indian subsidiary: services access, staff mobility, the Double.",
+    "What the India-UK CETA means for a UK company that wants to set up, staff or sell through an Indian subsidiary.",
   alternates: guideAlternates("uk", "trade-agreement"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-UK CETA for UK Companies Entering India",
     description:
-      "What the India-UK CETA means for a UK company that wants to set up, staff or sell through an Indian subsidiary: services access, staff mobility, the Double.",
+      "What the India-UK CETA means for a UK company that wants to set up, staff or sell through an Indian subsidiary.",
     url: "https://www.theaucorp.com/uk-to-india/india-uk-ceta",
     locale: "en_GB",
   },
   twitter: {
     title: "India-UK CETA for UK Companies Entering India",
     description:
-      "What the India-UK CETA means for a UK company that wants to set up, staff or sell through an Indian subsidiary: services access, staff mobility, the Double.",
+      "What the India-UK CETA means for a UK company that wants to set up, staff or sell through an Indian subsidiary.",
   },
 }
 

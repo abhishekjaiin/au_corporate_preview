@@ -66,7 +66,7 @@ export default function IndiaJapanDtaaGuidePage() {
         headline="The India-Japan Tax Treaty (DTAA) Explained: Scope, Residency and Relief from Double Tax"
         description="How the India-Japan tax treaty works: who qualifies, taxes covered, treaty versus domestic law, residency, relief from double tax and disputes."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -83,7 +83,7 @@ export default function IndiaJapanDtaaGuidePage() {
       <GuideHero
         eyebrow="Treaties: DTAA"
         title="The India-Japan Tax Treaty (DTAA) Explained: Scope, Residency and Relief from Double Tax"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -368,7 +368,7 @@ export default function IndiaJapanDtaaGuidePage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

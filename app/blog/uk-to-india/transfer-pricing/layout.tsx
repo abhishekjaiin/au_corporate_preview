@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Transfer Pricing for UK-Owned Indian Subsidiaries",
   },
   description:
-    "How Indian transfer pricing applies to an Indian subsidiary of a UK group: arm's length pricing, Form 48, documentation, methods, safe harbours, audits.",
+    "How Indian transfer pricing applies to an Indian subsidiary of a UK group: arm's length pricing, Form 48, documentation, methods, safe harbours.",
   alternates: guideAlternates("uk", "transfer-pricing"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Transfer Pricing for UK-Owned Indian Subsidiaries",
     description:
-      "How Indian transfer pricing applies to an Indian subsidiary of a UK group: arm's length pricing, Form 48, documentation, methods, safe harbours, audits.",
+      "How Indian transfer pricing applies to an Indian subsidiary of a UK group: arm's length pricing, Form 48, documentation, methods, safe harbours.",
     url: "https://www.theaucorp.com/uk-to-india/transfer-pricing",
     locale: "en_GB",
   },
   twitter: {
     title: "Transfer Pricing for UK-Owned Indian Subsidiaries",
     description:
-      "How Indian transfer pricing applies to an Indian subsidiary of a UK group: arm's length pricing, Form 48, documentation, methods, safe harbours, audits.",
+      "How Indian transfer pricing applies to an Indian subsidiary of a UK group: arm's length pricing, Form 48, documentation, methods, safe harbours.",
   },
 }
 

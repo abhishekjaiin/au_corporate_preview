@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "US SaaS and Digital Sales into India: GST",
   },
   description:
-    "How a US software or digital business is taxed when it sells to India without a local entity: GST on online information and database access services, B2B.",
+    "How a US software or digital business is taxed when it sells to India without a local entity: GST on online information and database access services.",
   alternates: guideAlternates("usa", "digital-sales-gst"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "US SaaS and Digital Sales into India: GST",
     description:
-      "How a US software or digital business is taxed when it sells to India without a local entity: GST on online information and database access services, B2B.",
+      "How a US software or digital business is taxed when it sells to India without a local entity: GST on online information and database access services.",
     url: "https://www.theaucorp.com/usa-to-india/us-saas-and-digital-sales-into-india",
     locale: "en_US",
   },
   twitter: {
     title: "US SaaS and Digital Sales into India: GST",
     description:
-      "How a US software or digital business is taxed when it sells to India without a local entity: GST on online information and database access services, B2B.",
+      "How a US software or digital business is taxed when it sells to India without a local entity: GST on online information and database access services.",
   },
 }
 

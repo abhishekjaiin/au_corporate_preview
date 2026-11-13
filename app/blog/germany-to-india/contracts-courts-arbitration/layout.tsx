@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Contracts and Arbitration for a German Parent",
   },
   description:
-    "How a German parent protects its Indian subsidiary contracts: choice of law, DIS and other arbitration, why German court judgments need a fresh suit.",
+    "How a German parent protects its Indian subsidiary contracts: choice of law, DIS and other arbitration.",
   alternates: guideAlternates("germany", "contracts-and-arbitration"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Contracts and Arbitration for a German Parent",
     description:
-      "How a German parent protects its Indian subsidiary contracts: choice of law, DIS and other arbitration, why German court judgments need a fresh suit.",
+      "How a German parent protects its Indian subsidiary contracts: choice of law, DIS and other arbitration.",
     url: "https://www.theaucorp.com/germany-to-india/contracts-courts-arbitration",
     locale: "en_DE",
   },
   twitter: {
     title: "Contracts and Arbitration for a German Parent",
     description:
-      "How a German parent protects its Indian subsidiary contracts: choice of law, DIS and other arbitration, why German court judgments need a fresh suit.",
+      "How a German parent protects its Indian subsidiary contracts: choice of law, DIS and other arbitration.",
   },
 }
 

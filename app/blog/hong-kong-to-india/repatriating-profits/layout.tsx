@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Repatriating Profits from India to Hong Kong",
   },
   description:
-    "How a Hong Kong parent receives money from an Indian subsidiary: 5% treaty withholding on dividends, 10% on interest, royalties and fees, Section 393, Forms.",
+    "How a Hong Kong parent receives money from an Indian subsidiary: 5% treaty withholding on dividends, 10% on interest, royalties and fees, Section 393.",
   alternates: guideAlternates("hongkong", "repatriating-profits"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Repatriating Profits from India to Hong Kong",
     description:
-      "How a Hong Kong parent receives money from an Indian subsidiary: 5% treaty withholding on dividends, 10% on interest, royalties and fees, Section 393, Forms.",
+      "How a Hong Kong parent receives money from an Indian subsidiary: 5% treaty withholding on dividends, 10% on interest, royalties and fees, Section 393.",
     url: "https://www.theaucorp.com/hong-kong-to-india/repatriating-profits",
     locale: "en_HK",
   },
   twitter: {
     title: "Repatriating Profits from India to Hong Kong",
     description:
-      "How a Hong Kong parent receives money from an Indian subsidiary: 5% treaty withholding on dividends, 10% on interest, royalties and fees, Section 393, Forms.",
+      "How a Hong Kong parent receives money from an Indian subsidiary: 5% treaty withholding on dividends, 10% on interest, royalties and fees, Section 393.",
   },
 }
 

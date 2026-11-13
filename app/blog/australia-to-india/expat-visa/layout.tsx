@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Sending an Australian Executive to India",
   },
   description:
-    "How to relocate an Australian executive to India: employment visa, FRRO registration, housing, banking, tax residency and permanent establishment risk.",
+    "How to relocate an Australian executive to India: employment visa, FRRO registration, housing, banking.",
   alternates: guideAlternates("australia", "expat-visa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Sending an Australian Executive to India",
     description:
-      "How to relocate an Australian executive to India: employment visa, FRRO registration, housing, banking, tax residency and permanent establishment risk.",
+      "How to relocate an Australian executive to India: employment visa, FRRO registration, housing, banking.",
     url: "https://www.theaucorp.com/australia-to-india/expat-visa",
     locale: "en_AU",
   },
   twitter: {
     title: "Sending an Australian Executive to India",
     description:
-      "How to relocate an Australian executive to India: employment visa, FRRO registration, housing, banking, tax residency and permanent establishment risk.",
+      "How to relocate an Australian executive to India: employment visa, FRRO registration, housing, banking.",
   },
 }
 

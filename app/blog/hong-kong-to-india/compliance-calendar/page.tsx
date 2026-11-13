@@ -53,7 +53,7 @@ export default function ComplianceCalendarPage() {
         headline="Compliance Calendar: Indian Deadlines and the Hong Kong Filings They Feed"
         description="A month-by-month compliance calendar for an Indian subsidiary of a Hong Kong parent: TDS, GST, PF and ESI, advance tax, AGM, AOC-4, MGT-7, FLA return, approval conditions and the Hong Kong-side annual return and profits tax filings."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -69,7 +69,7 @@ export default function ComplianceCalendarPage() {
       <GuideHero
         eyebrow="Calendar: compliance"
         title="Compliance Calendar: Indian Deadlines and the Hong Kong Filings They Feed"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -269,7 +269,7 @@ export default function ComplianceCalendarPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

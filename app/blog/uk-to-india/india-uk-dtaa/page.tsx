@@ -58,7 +58,7 @@ export default function IndiaUkDtaaPage() {
         headline="The India-UK Tax Treaty (DTAA), Article by Article: India as Source State, the UK as Residence State"
         description="The India-UK double taxation convention explained article by article from the UK parent's point of view: rates table, permanent establishment, royalties and fees, gains, employees, relief and how to claim."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-GB"
       />
@@ -74,7 +74,7 @@ export default function IndiaUkDtaaPage() {
       <GuideHero
         eyebrow="Tax: the India-UK DTAA"
         title="The India-UK Tax Treaty (DTAA), Article by Article: India as Source State, the UK as Residence State"
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -442,7 +442,7 @@ export default function IndiaUkDtaaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

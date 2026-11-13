@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Compliance Calendar for a Spanish-Owned Indian Company",
   },
   description:
-    "One calendar for the whole year showing what the Indian subsidiary files with Indian authorities and what the Spanish parent files in Spain, with the Indian.",
+    "One calendar for the whole year showing what the Indian subsidiary files with Indian authorities and what the Spanish parent files in Spain.",
   alternates: guideAlternates("spain", "compliance-calendar"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Compliance Calendar for a Spanish-Owned Indian Company",
     description:
-      "One calendar for the whole year showing what the Indian subsidiary files with Indian authorities and what the Spanish parent files in Spain, with the Indian.",
+      "One calendar for the whole year showing what the Indian subsidiary files with Indian authorities and what the Spanish parent files in Spain.",
     url: "https://www.theaucorp.com/spain-to-india/compliance-calendar",
     locale: "en_ES",
   },
   twitter: {
     title: "Compliance Calendar for a Spanish-Owned Indian Company",
     description:
-      "One calendar for the whole year showing what the Indian subsidiary files with Indian authorities and what the Spanish parent files in Spain, with the Indian.",
+      "One calendar for the whole year showing what the Indian subsidiary files with Indian authorities and what the Spanish parent files in Spain.",
   },
 }
 

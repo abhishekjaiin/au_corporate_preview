@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Spanish Parent Obligations for an Indian Subsidiary",
   },
   description:
-    "The Spanish-side steps for a parent investing in India: declarations to the Registro de Inversiones Exteriores (forms D-5A and D-8), board and notarial.",
+    "The Spanish-side steps for a parent investing in India: declarations to the Registro de Inversiones Exteriores (forms D-5A and D-8).",
   alternates: guideAlternates("spain", "parent-obligations"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Spanish Parent Obligations for an Indian Subsidiary",
     description:
-      "The Spanish-side steps for a parent investing in India: declarations to the Registro de Inversiones Exteriores (forms D-5A and D-8), board and notarial.",
+      "The Spanish-side steps for a parent investing in India: declarations to the Registro de Inversiones Exteriores (forms D-5A and D-8).",
     url: "https://www.theaucorp.com/spain-to-india/spanish-parent-obligations",
     locale: "en_ES",
   },
   twitter: {
     title: "Spanish Parent Obligations for an Indian Subsidiary",
     description:
-      "The Spanish-side steps for a parent investing in India: declarations to the Registro de Inversiones Exteriores (forms D-5A and D-8), board and notarial.",
+      "The Spanish-side steps for a parent investing in India: declarations to the Registro de Inversiones Exteriores (forms D-5A and D-8).",
   },
 }
 

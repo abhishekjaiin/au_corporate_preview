@@ -53,7 +53,7 @@ export default function DocumentsApostilleAndTranslationPage() {
         headline="Russian Documents for an Indian Subsidiary: Notary, Apostille, Certified English Translation and Delivery to India"
         description="How to prepare Russian company and director documents for Indian filings: both countries are parties to the Apostille Convention, which authority issues the apostille, notarised English translations, validity, checklist and common pitfalls."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -69,7 +69,7 @@ export default function DocumentsApostilleAndTranslationPage() {
       <GuideHero
         eyebrow="Documents: apostille and translation"
         title="Russian Documents for an Indian Subsidiary: Notary, Apostille, Certified English Translation and Delivery to India"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -238,7 +238,7 @@ export default function DocumentsApostilleAndTranslationPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

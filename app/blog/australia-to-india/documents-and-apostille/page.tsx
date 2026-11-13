@@ -62,7 +62,7 @@ export default function DocumentsAndApostillePage() {
         headline="Documents Required from the Australian Parent, and How to Get Them Apostilled"
         description="Which documents an Australian parent must prepare to incorporate an Indian subsidiary, and how notarisation and DFAT apostille work for Australian company documents."
         datePublished="2026-10-15"
-        dateModified="2026-10-15"
+        dateModified="2026-11-13"
         isPartOfUrl={HUB_URL}
         inLanguage="en-AU"
       />
@@ -78,7 +78,7 @@ export default function DocumentsAndApostillePage() {
       <GuideHero
         eyebrow="Enter: documents"
         title="Documents Required from the Australian Parent, and How to Get Them Apostilled"
-        updated="15 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -266,7 +266,7 @@ export default function DocumentsAndApostillePage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 15 October 2026. General information only, not legal or tax advice. Indian and Australian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Australian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

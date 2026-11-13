@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India Subsidiary Compliance Calendar for UK Companies",
   },
   description:
-    "A month-by-month compliance calendar for an Indian subsidiary: GST, TDS, provident fund, advance tax, AGM, ROC and RBI filings, mapped against the UK.",
+    "A month-by-month compliance calendar for an Indian subsidiary: GST, TDS, provident fund, advance tax, AGM, ROC and RBI filings.",
   alternates: guideAlternates("uk", "compliance-calendar"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India Subsidiary Compliance Calendar for UK Companies",
     description:
-      "A month-by-month compliance calendar for an Indian subsidiary: GST, TDS, provident fund, advance tax, AGM, ROC and RBI filings, mapped against the UK.",
+      "A month-by-month compliance calendar for an Indian subsidiary: GST, TDS, provident fund, advance tax, AGM, ROC and RBI filings.",
     url: "https://www.theaucorp.com/uk-to-india/compliance-calendar",
     locale: "en_GB",
   },
   twitter: {
     title: "India Subsidiary Compliance Calendar for UK Companies",
     description:
-      "A month-by-month compliance calendar for an Indian subsidiary: GST, TDS, provident fund, advance tax, AGM, ROC and RBI filings, mapped against the UK.",
+      "A month-by-month compliance calendar for an Indian subsidiary: GST, TDS, provident fund, advance tax, AGM, ROC and RBI filings.",
   },
 }
 

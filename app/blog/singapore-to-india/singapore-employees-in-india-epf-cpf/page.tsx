@@ -53,7 +53,7 @@ export default function SingaporeEmployeesInIndiaEpfCpfPage() {
         headline="Singapore Employees Working in India: What the Tax Treaty, the EPF Exemption and CPF Mean"
         description="How income tax, India's Employees' Provident Fund and Singapore's CPF apply to Singapore staff working in India: the treaty's 183-day test, the citizen exemption, and PR and foreign-national gaps."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -69,7 +69,7 @@ export default function SingaporeEmployeesInIndiaEpfCpfPage() {
       <GuideHero
         eyebrow="People: tax and social security for assignees"
         title="Singapore Employees Working in India: What the Tax Treaty, the EPF Exemption and CPF Mean"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -257,7 +257,7 @@ export default function SingaporeEmployeesInIndiaEpfCpfPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

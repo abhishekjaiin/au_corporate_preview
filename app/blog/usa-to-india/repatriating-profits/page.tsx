@@ -64,7 +64,7 @@ export default function RepatriatingProfitsPage() {
         headline="Repatriating Profits to the US: Dividends, Fees, Royalties, Loans and the Paperwork"
         description="How a US parent receives money from its Indian subsidiary: dividends, service fees, royalties, loans. Forms 145 and 146, Withholding Tax and DTAA relief."
         datePublished="2026-10-07"
-        dateModified="2026-10-14"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
       />
 
@@ -79,7 +79,7 @@ export default function RepatriatingProfitsPage() {
       <GuideHero
         eyebrow="Repatriate: moving money back"
         title="Repatriating Profits to the US: Dividends, Fees, Royalties, Loans and the Paperwork"
-        updated="14 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -282,7 +282,7 @@ export default function RepatriatingProfitsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 14 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

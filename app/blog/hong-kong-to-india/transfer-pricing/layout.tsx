@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Transfer Pricing for Hong Kong Groups in India",
   },
   description:
-    "Transfer pricing for a Hong Kong group with an Indian subsidiary: arm's length rules, Form 3CEB, master file and local file, Hong Kong trading.",
+    "Transfer pricing for a Hong Kong group with an Indian subsidiary: arm's length rules, Form 3CEB, master file and local file.",
   alternates: guideAlternates("hongkong", "transfer-pricing"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Transfer Pricing for Hong Kong Groups in India",
     description:
-      "Transfer pricing for a Hong Kong group with an Indian subsidiary: arm's length rules, Form 3CEB, master file and local file, Hong Kong trading.",
+      "Transfer pricing for a Hong Kong group with an Indian subsidiary: arm's length rules, Form 3CEB, master file and local file.",
     url: "https://www.theaucorp.com/hong-kong-to-india/transfer-pricing",
     locale: "en_HK",
   },
   twitter: {
     title: "Transfer Pricing for Hong Kong Groups in India",
     description:
-      "Transfer pricing for a Hong Kong group with an Indian subsidiary: arm's length rules, Form 3CEB, master file and local file, Hong Kong trading.",
+      "Transfer pricing for a Hong Kong group with an Indian subsidiary: arm's length rules, Form 3CEB, master file and local file.",
   },
 }
 

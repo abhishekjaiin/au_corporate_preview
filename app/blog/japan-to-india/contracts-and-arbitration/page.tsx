@@ -54,7 +54,7 @@ export default function ContractsAndArbitrationPage() {
         headline="Contracts and Arbitration in India: A Guide for Japanese Companies"
         description="Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration, enforcing awards and why Japanese court judgments need a fresh suit."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -70,7 +70,7 @@ export default function ContractsAndArbitrationPage() {
       <GuideHero
         eyebrow="Defend: contracts and arbitration"
         title="Contracts and Arbitration in India: A Guide for Japanese Companies"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -241,7 +241,7 @@ export default function ContractsAndArbitrationPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

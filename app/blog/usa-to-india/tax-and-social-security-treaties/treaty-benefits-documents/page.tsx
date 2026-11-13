@@ -53,7 +53,7 @@ export default function TreatyBenefitsDocumentsPage() {
         headline="How to Claim India-US Treaty Benefits: Form 6166, Form 41 and Beneficial Ownership"
         description="Documents needed to claim India-US treaty rates: IRS Form 6166, Form 41 (previously Form 10F), no-PE declaration and beneficial ownership."
         datePublished="2026-10-14"
-        dateModified="2026-10-14"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
       />
 
@@ -69,7 +69,7 @@ export default function TreatyBenefitsDocumentsPage() {
       <GuideHero
         eyebrow="Treaties: claiming relief"
         title="How to Claim India-US Treaty Benefits: Form 6166, Form 41 and Beneficial Ownership"
-        updated="14 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -243,7 +243,7 @@ export default function TreatyBenefitsDocumentsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 14 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

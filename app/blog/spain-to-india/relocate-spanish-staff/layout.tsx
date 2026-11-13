@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Relocating Spanish Staff to India",
   },
   description:
-    "A step-by-step relocation guide for a Spanish employee posted to an Indian subsidiary: the employment visa and its conditions, FRRO registration within 14.",
+    "A step-by-step relocation guide for a Spanish employee posted to an Indian subsidiary: the employment visa and its conditions.",
   alternates: guideAlternates("spain", "expat-visa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Relocating Spanish Staff to India",
     description:
-      "A step-by-step relocation guide for a Spanish employee posted to an Indian subsidiary: the employment visa and its conditions, FRRO registration within 14.",
+      "A step-by-step relocation guide for a Spanish employee posted to an Indian subsidiary: the employment visa and its conditions.",
     url: "https://www.theaucorp.com/spain-to-india/relocate-spanish-staff",
     locale: "en_ES",
   },
   twitter: {
     title: "Relocating Spanish Staff to India",
     description:
-      "A step-by-step relocation guide for a Spanish employee posted to an Indian subsidiary: the employment visa and its conditions, FRRO registration within 14.",
+      "A step-by-step relocation guide for a Spanish employee posted to an Indian subsidiary: the employment visa and its conditions.",
   },
 }
 

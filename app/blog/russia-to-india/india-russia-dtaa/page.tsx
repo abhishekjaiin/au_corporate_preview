@@ -61,7 +61,7 @@ export default function IndiaRussiaDtaaPage() {
         headline="India-Russia Double Taxation Agreement Explained: 10% Dividends, Interest, Royalties and Technical Fees, PE Rules and the MLI"
         description="The India-Russia tax treaty explained for a Russian parent: 10% dividends, interest, royalties and fees for technical services, permanent establishment, share gains, credit method, the MLI principal purpose test and how to claim treaty rates."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -77,7 +77,7 @@ export default function IndiaRussiaDtaaPage() {
       <GuideHero
         eyebrow="Tax: DTAA"
         title="India-Russia Double Taxation Agreement Explained: 10% Dividends, Interest, Royalties and Technical Fees, PE Rules and the MLI"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -360,7 +360,7 @@ export default function IndiaRussiaDtaaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

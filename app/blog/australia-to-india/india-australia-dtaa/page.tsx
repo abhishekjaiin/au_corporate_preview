@@ -76,7 +76,7 @@ export default function IndiaAustraliaDtaaPage() {
         headline="The India-Australia DTAA: Article-by-Article Guide for Australian Companies"
         description="The India-Australia double taxation avoidance agreement (DTAA) explained article by article, with India as the source state and Australia as the residence state: tax rates table, permanent establishment, business profits, dividends, interest, royalties, capital gains, employees, relief, MAP and how to claim treaty benefits."
         datePublished="2026-10-15"
-        dateModified="2026-10-15"
+        dateModified="2026-11-13"
         isPartOfUrl={HUB_URL}
         inLanguage="en-AU"
       />
@@ -92,7 +92,7 @@ export default function IndiaAustraliaDtaaPage() {
       <GuideHero
         eyebrow="Tax: the India-Australia DTAA"
         title="The India-Australia DTAA: Article-by-Article Guide for Australian Companies"
-        updated="15 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -566,7 +566,7 @@ export default function IndiaAustraliaDtaaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 15 October 2026. General information only, not legal or tax advice. Indian and Australian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Australian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

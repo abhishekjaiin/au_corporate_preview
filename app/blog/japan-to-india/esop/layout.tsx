@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "ESOPs for Indian Employees of a Japanese Parent Company",
   },
   description:
-    "How ESOPs and RSUs work for employees of an Indian subsidiary: FEMA reporting, employee tax, valuation, cost recharge and transfer pricing for a Japanese.",
+    "How Japanese parent stock options and RSUs work for Indian employees: Indian tax at exercise, FEMA reporting, valuation and cost recharges.",
   alternates: guideAlternates("japan", "esop"),
   openGraph: {
     type: "article",
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "ESOPs for Indian Employees of a Japanese Parent Company",
     description:
-      "How ESOPs and RSUs work for employees of an Indian subsidiary: FEMA reporting, employee tax, valuation, cost recharge and transfer pricing for a Japanese.",
+      "How Japanese parent stock options and RSUs work for Indian employees: Indian tax at exercise, FEMA reporting, valuation and cost recharges.",
     url: "https://www.theaucorp.com/japan-to-india/esop",
   },
   twitter: {
     title: "ESOPs for Indian Employees of a Japanese Parent Company",
     description:
-      "How ESOPs and RSUs work for employees of an Indian subsidiary: FEMA reporting, employee tax, valuation, cost recharge and transfer pricing for a Japanese.",
+      "How Japanese parent stock options and RSUs work for Indian employees: Indian tax at exercise, FEMA reporting, valuation and cost recharges.",
   },
 }
 

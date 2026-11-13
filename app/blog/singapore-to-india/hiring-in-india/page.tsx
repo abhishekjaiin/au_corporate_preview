@@ -24,6 +24,7 @@ const toc = [
   { id: "share-plans", label: "Share plans for Indian employees" },
   { id: "eor", label: "Employer of Record as a first step" },
   { id: "ctc", label: "Cost to company (CTC) and the Indian payroll" },
+  { id: "benefits", label: "Employee benefits Singapore companies usually offer in India" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -55,7 +56,7 @@ export default function HiringInIndiaPage() {
         headline="Hiring in India as a Singapore Employer: What Changes from Singapore Practice"
         description="A comparison for Singapore HR teams hiring in India: employment contracts, provident fund, ESI, gratuity, labour codes, notice and termination, payroll tax and share plans, set against Singapore practice."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -71,7 +72,7 @@ export default function HiringInIndiaPage() {
       <GuideHero
         eyebrow="People: hiring in India"
         title="Hiring in India as a Singapore Employer: What Changes from Singapore Practice"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -212,6 +213,20 @@ export default function HiringInIndiaPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Each month the payroll deducts income tax, employee provident fund and professional tax, deposits tax by the 7th and provident fund by the 15th, and pays wages by the 7th of the following month. Take-home pay is therefore well below CTC divided by twelve.
         </p>
+        <h2 id="benefits" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Employee benefits Singapore companies usually offer in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          CPF and MediSave do not cover staff hired in India, so Singapore companies combine Indian statutory benefits with market-standard extras:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Statutory:</strong> provident fund (Singapore citizens are exempt under the CECA; others contribute), ESI for lower-paid staff, gratuity after five years, maternity benefit and paid leave.</li>
+          <li><strong>Group health insurance</strong> for the employee and family from an Indian insurer, issued to the Indian company or an employer of record.</li>
+          <li><strong>Group term life and personal accident cover</strong>, often a multiple of salary.</li>
+          <li><strong>Allowances</strong> for meals, internet and late shifts where teams support Singapore hours.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          See <Link href="/employee-benefits-in-india-for-foreign-companies" className="text-blue-800 font-semibold hover:underline">employee benefits in India for foreign companies</Link> for the full picture.
+        </p>
+
 
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
@@ -262,7 +277,7 @@ export default function HiringInIndiaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

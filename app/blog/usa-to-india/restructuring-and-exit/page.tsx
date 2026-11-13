@@ -57,7 +57,7 @@ export default function RestructuringAndExitPage() {
         headline="Restructuring, Mergers and Exit: Your Options for an Indian Subsidiary"
         description="Options to restructure, sell, merge or close an Indian subsidiary: share sale, slump sale, merger, buyback, strike-off and liquidation, with tax and RBI steps."
         datePublished="2026-10-07"
-        dateModified="2026-10-14"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
       />
 
@@ -72,7 +72,7 @@ export default function RestructuringAndExitPage() {
       <GuideHero
         eyebrow="Scale and exit"
         title="Restructuring, Mergers and Exit: Your Options for an Indian Subsidiary"
-        updated="14 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -266,7 +266,7 @@ export default function RestructuringAndExitPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 14 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

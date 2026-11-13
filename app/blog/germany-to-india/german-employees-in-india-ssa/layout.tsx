@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "German Employees in India: Tax and Social Security",
   },
   description:
-    "How income tax and social security apply to German staff in India: the 183-day treaty test, the 2009 social security agreement, the 48-month detachment.",
+    "How income tax and social security apply to German staff in India: the 183-day treaty test, the 2009 social security agreement.",
   alternates: guideAlternates("germany", "foreign-employee-treaty-ssa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "German Employees in India: Tax and Social Security",
     description:
-      "How income tax and social security apply to German staff in India: the 183-day treaty test, the 2009 social security agreement, the 48-month detachment.",
+      "How income tax and social security apply to German staff in India: the 183-day treaty test, the 2009 social security agreement.",
     url: "https://www.theaucorp.com/germany-to-india/german-employees-in-india-ssa",
     locale: "en_DE",
   },
   twitter: {
     title: "German Employees in India: Tax and Social Security",
     description:
-      "How income tax and social security apply to German staff in India: the 183-day treaty test, the 2009 social security agreement, the 48-month detachment.",
+      "How income tax and social security apply to German staff in India: the 183-day treaty test, the 2009 social security agreement.",
   },
 }
 

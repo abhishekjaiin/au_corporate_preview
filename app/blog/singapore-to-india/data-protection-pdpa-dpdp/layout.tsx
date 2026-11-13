@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Data Protection for Singapore Companies in India",
   },
   description:
-    "How Singapore's PDPA and India's Digital Personal Data Protection Act apply when a Singapore company has an Indian subsidiary: transfer limitation.",
+    "How Singapore's PDPA and India's DPDP Act apply when a Singapore company has an Indian subsidiary: transfer rules, contracts and the 2027 timeline.",
   alternates: guideAlternates("singapore", "data-protection"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Data Protection for Singapore Companies in India",
     description:
-      "How Singapore's PDPA and India's Digital Personal Data Protection Act apply when a Singapore company has an Indian subsidiary: transfer limitation.",
+      "How Singapore's PDPA and India's DPDP Act apply when a Singapore company has an Indian subsidiary: transfer rules, contracts and the 2027 timeline.",
     url: "https://www.theaucorp.com/singapore-to-india/data-protection-pdpa-dpdp",
     locale: "en_SG",
   },
   twitter: {
     title: "Data Protection for Singapore Companies in India",
     description:
-      "How Singapore's PDPA and India's Digital Personal Data Protection Act apply when a Singapore company has an Indian subsidiary: transfer limitation.",
+      "How Singapore's PDPA and India's DPDP Act apply when a Singapore company has an Indian subsidiary: transfer rules, contracts and the 2027 timeline.",
   },
 }
 

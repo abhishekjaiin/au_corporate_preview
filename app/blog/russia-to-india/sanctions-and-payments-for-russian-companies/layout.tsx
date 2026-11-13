@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Sanctions and Payments for Russian Companies in India",
   },
   description:
-    "The practical gate for Russian investors in India: US, EU and UK sanctions screening, the 50% ownership rule, Indian bank due diligence, settlement channels.",
+    "The practical gate for Russian investors in India: US, EU and UK sanctions screening, the 50% ownership rule, Indian bank due diligence.",
   alternates: guideAlternates("russia", "sanctions-payments"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Sanctions and Payments for Russian Companies in India",
     description:
-      "The practical gate for Russian investors in India: US, EU and UK sanctions screening, the 50% ownership rule, Indian bank due diligence, settlement channels.",
+      "The practical gate for Russian investors in India: US, EU and UK sanctions screening, the 50% ownership rule, Indian bank due diligence.",
     url: "https://www.theaucorp.com/russia-to-india/sanctions-and-payments-for-russian-companies",
     locale: "en_RU",
   },
   twitter: {
     title: "Sanctions and Payments for Russian Companies in India",
     description:
-      "The practical gate for Russian investors in India: US, EU and UK sanctions screening, the 50% ownership rule, Indian bank due diligence, settlement channels.",
+      "The practical gate for Russian investors in India: US, EU and UK sanctions screening, the 50% ownership rule, Indian bank due diligence.",
   },
 }
 

@@ -53,7 +53,7 @@ export default function ExitAndRestructuringPage() {
         headline="Selling, Restructuring or Closing an Indian Subsidiary Held from Singapore: Tax, FEMA and Treaty Steps"
         description="Exit routes for a Singapore parent: sale of Indian shares and treaty position by acquisition date, FEMA pricing and reporting, indirect transfer, buyback, strike-off, voluntary liquidation and group restructuring."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -69,7 +69,7 @@ export default function ExitAndRestructuringPage() {
       <GuideHero
         eyebrow="Exit: sale, restructure, close"
         title="Selling, Restructuring or Closing an Indian Subsidiary Held from Singapore: Tax, FEMA and Treaty Steps"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -253,7 +253,7 @@ export default function ExitAndRestructuringPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

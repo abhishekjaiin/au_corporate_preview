@@ -55,7 +55,7 @@ export default function ShareValuationPage() {
         headline="Share Valuation for Foreign Investment: Pricing Rules and Certificates"
         description="Why shares issued to a Japanese parent need a valuation, who can certify it, the pricing floor under FEMA, and when you need a fresh valuation."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -71,7 +71,7 @@ export default function ShareValuationPage() {
       <GuideHero
         eyebrow="Fund: valuation"
         title="Share Valuation for Foreign Investment: Pricing Rules and Certificates"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -224,7 +224,7 @@ export default function ShareValuationPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

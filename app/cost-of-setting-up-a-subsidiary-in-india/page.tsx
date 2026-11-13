@@ -52,13 +52,13 @@ export default function CostOfSettingUpASubsidiaryInIndiaPage() {
         headline={"Cost of Setting Up a Subsidiary in India: One-Time Fees, Annual Running Costs and a Budget Template"}
         description={"AU Corporate offers the best pricing with better work support, and the first consultation is free."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "Cost of Setting Up a Subsidiary" }]} />
 
-      <GuideHero eyebrow={"Cost and pricing"} title={"Cost of Setting Up a Subsidiary in India: One-Time Fees, Annual Running Costs and a Budget Template"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Cost and pricing"} title={"Cost of Setting Up a Subsidiary in India: One-Time Fees, Annual Running Costs and a Budget Template"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">The cost of setting up a subsidiary in India has three parts: Indian government fees and stamp duty, which rise with the authorised share capital and vary by state; professional fees for incorporation, the share issue and FC-GPR; and costs outside India, such as notary, apostille and courier charges in your own country. After incorporation, budget for annual running costs: accounting, audit, tax and GST filings, payroll, FEMA and Registrar filings, plus rent and salaries. The share capital you invest is not a cost; it funds the company&apos;s own expenses. AU Corporate offers the best pricing with better work support, and the first consultation is free.
@@ -201,7 +201,7 @@ export default function CostOfSettingUpASubsidiaryInIndiaPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "German Supply-Chain and ESG Rules for India Operations",
   },
   description:
-    "How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier: the German Supply Chain Act (LkSG), EU.",
+    "How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier.",
   alternates: guideAlternates("germany", "esg-supply-chain"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "German Supply-Chain and ESG Rules for India Operations",
     description:
-      "How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier: the German Supply Chain Act (LkSG), EU.",
+      "How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier.",
     url: "https://www.theaucorp.com/germany-to-india/supply-chain-and-esg-duties",
     locale: "en_DE",
   },
   twitter: {
     title: "German Supply-Chain and ESG Rules for India Operations",
     description:
-      "How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier: the German Supply Chain Act (LkSG), EU.",
+      "How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier.",
   },
 }
 

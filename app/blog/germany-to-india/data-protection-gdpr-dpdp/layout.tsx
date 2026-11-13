@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Data Protection for German Companies in India",
   },
   description:
-    "How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary: standard contractual clauses, transfer.",
+    "How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary.",
   alternates: guideAlternates("germany", "data-protection"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Data Protection for German Companies in India",
     description:
-      "How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary: standard contractual clauses, transfer.",
+      "How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary.",
     url: "https://www.theaucorp.com/germany-to-india/data-protection-gdpr-dpdp",
     locale: "en_DE",
   },
   twitter: {
     title: "Data Protection for German Companies in India",
     description:
-      "How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary: standard contractual clauses, transfer.",
+      "How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary.",
   },
 }
 

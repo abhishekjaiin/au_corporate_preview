@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Transfer Pricing for Russian Groups in India",
   },
   description:
-    "Transfer pricing for a Russian group with an Indian subsidiary: arm's length rules, accountant's report, master file and local file, supply of equipment.",
+    "Transfer pricing for a Russian group with an Indian subsidiary: arm's length rules, accountant's report, master file and local file.",
   alternates: guideAlternates("russia", "transfer-pricing"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Transfer Pricing for Russian Groups in India",
     description:
-      "Transfer pricing for a Russian group with an Indian subsidiary: arm's length rules, accountant's report, master file and local file, supply of equipment.",
+      "Transfer pricing for a Russian group with an Indian subsidiary: arm's length rules, accountant's report, master file and local file.",
     url: "https://www.theaucorp.com/russia-to-india/transfer-pricing",
     locale: "en_RU",
   },
   twitter: {
     title: "Transfer Pricing for Russian Groups in India",
     description:
-      "Transfer pricing for a Russian group with an Indian subsidiary: arm's length rules, accountant's report, master file and local file, supply of equipment.",
+      "Transfer pricing for a Russian group with an Indian subsidiary: arm's length rules, accountant's report, master file and local file.",
   },
 }
 

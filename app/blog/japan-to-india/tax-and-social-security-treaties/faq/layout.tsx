@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Treaty and Social Security FAQs for India-Japan Expats",
   },
   description:
-    "50 plain answers on the India-Japan tax treaty, 10% withholding rates, certificate of residence, Form 41, expat tax and the Japan-India social security.",
+    "50 plain answers on the India-Japan tax treaty, 10% withholding rates, certificate of residence, Form 41.",
   alternates: guideAlternates("japan", "treaties-faq"),
   openGraph: {
     type: "article",
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Treaty and Social Security FAQs for India-Japan Expats",
     description:
-      "50 plain answers on the India-Japan tax treaty, 10% withholding rates, certificate of residence, Form 41, expat tax and the Japan-India social security.",
+      "50 plain answers on the India-Japan tax treaty, 10% withholding rates, certificate of residence, Form 41.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/faq",
   },
   twitter: {
     title: "Treaty and Social Security FAQs for India-Japan Expats",
     description:
-      "50 plain answers on the India-Japan tax treaty, 10% withholding rates, certificate of residence, Form 41, expat tax and the Japan-India social security.",
+      "50 plain answers on the India-Japan tax treaty, 10% withholding rates, certificate of residence, Form 41.",
   },
 }
 

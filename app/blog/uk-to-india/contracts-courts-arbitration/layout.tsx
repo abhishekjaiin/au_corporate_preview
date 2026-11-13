@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Contracts, Courts and Arbitration for UK Companies in India",
   },
   description:
-    "How a UK company should draft contracts with its Indian subsidiary and customers, choose governing law and seat, and enforce English court judgments.",
+    "How a UK company should draft contracts with its Indian subsidiary and customers, choose governing law and seat.",
   alternates: guideAlternates("uk", "contracts-and-arbitration"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Contracts, Courts and Arbitration for UK Companies in India",
     description:
-      "How a UK company should draft contracts with its Indian subsidiary and customers, choose governing law and seat, and enforce English court judgments.",
+      "How a UK company should draft contracts with its Indian subsidiary and customers, choose governing law and seat.",
     url: "https://www.theaucorp.com/uk-to-india/contracts-courts-arbitration",
     locale: "en_GB",
   },
   twitter: {
     title: "Contracts, Courts and Arbitration for UK Companies in India",
     description:
-      "How a UK company should draft contracts with its Indian subsidiary and customers, choose governing law and seat, and enforce English court judgments.",
+      "How a UK company should draft contracts with its Indian subsidiary and customers, choose governing law and seat.",
   },
 }
 

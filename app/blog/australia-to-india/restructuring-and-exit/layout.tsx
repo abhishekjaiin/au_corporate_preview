@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Exit Options for an Australian-Owned Subsidiary",
   },
   description:
-    "Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback, strike-off.",
+    "Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback.",
   alternates: guideAlternates("australia", "restructuring-and-exit"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Exit Options for an Australian-Owned Subsidiary",
     description:
-      "Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback, strike-off.",
+      "Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback.",
     url: "https://www.theaucorp.com/australia-to-india/restructuring-and-exit",
     locale: "en_AU",
   },
   twitter: {
     title: "Exit Options for an Australian-Owned Subsidiary",
     description:
-      "Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback, strike-off.",
+      "Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback.",
   },
 }
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     absolute: "Project Office Registration in India for Foreign Companies",
   },
   description:
-    "Set up a project office in India for a contract from an Indian company: general permission, Form FNC, Form FC-1, PAN and TAN. Conditions, FAQs and fixed fee.",
+    "Set up a project office in India for a contract from an Indian company: conditions, Form FNC, Form FC-1, PAN and TAN. CA-led, free consultation.",
   alternates: {
     canonical: "https://www.theaucorp.com/project-office-registration",
   },
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Project Office Registration in India for Foreign Companies",
     description:
-      "Set up a project office in India for a contract from an Indian company: general permission, Form FNC, Form FC-1, PAN and TAN. Conditions, FAQs and fixed fee.",
+      "Set up a project office in India for a contract from an Indian company: conditions, Form FNC, Form FC-1, PAN and TAN. CA-led, free consultation.",
     url: "https://www.theaucorp.com/project-office-registration",
   },
   twitter: {
     title: "Project Office Registration in India for Foreign Companies",
     description:
-      "Set up a project office in India for a contract from an Indian company: general permission, Form FNC, Form FC-1, PAN and TAN. Conditions, FAQs and fixed fee.",
+      "Set up a project office in India for a contract from an Indian company: conditions, Form FNC, Form FC-1, PAN and TAN. CA-led, free consultation.",
   },
 }
 

@@ -58,7 +58,7 @@ export default function ResidentDirectorPage() {
         headline="Resident Director Rules for an Indian Subsidiary: Who Can Be One and How to Plan"
         description="Every Indian company needs a Resident Director who has stayed in India 182 days in the financial year. Who qualifies, options for Australian parents, and duties."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -74,7 +74,7 @@ export default function ResidentDirectorPage() {
       <GuideHero
         eyebrow="Enter: directors"
         title="Resident Director Rules for an Indian Subsidiary: Who Can Be One and How to Plan"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -229,7 +229,7 @@ export default function ResidentDirectorPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

@@ -51,7 +51,7 @@ export default function StructureOptionsPage() {
         headline="Choosing an Indian Structure as a UK Company: Subsidiary, Branch, Liaison Office, LLP or Employer of Record"
         description="How a UK company should choose between an Indian subsidiary, branch, liaison office, LLP or Employer of Record, and whether to hold it directly or through an intermediate company."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-GB"
       />
@@ -67,7 +67,7 @@ export default function StructureOptionsPage() {
       <GuideHero
         eyebrow="Structure: UK parent"
         title="Choosing an Indian Structure as a UK Company: Subsidiary, Branch, Liaison Office, LLP or Employer of Record"
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -246,7 +246,7 @@ export default function StructureOptionsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

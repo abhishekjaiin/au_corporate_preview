@@ -55,7 +55,7 @@ export default function ComplianceCalendarPage() {
         headline="Compliance Calendar: Indian Deadlines and the Russian Filings They Feed"
         description="A month-by-month compliance calendar for an Indian subsidiary of a Russian parent: TDS, GST, PF and ESI, advance tax, AGM, AOC-4, MGT-7, FLA return, sanctions reviews and the Russian-side reporting that depends on Indian numbers."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -71,7 +71,7 @@ export default function ComplianceCalendarPage() {
       <GuideHero
         eyebrow="Calendar: compliance"
         title="Compliance Calendar: Indian Deadlines and the Russian Filings They Feed"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -241,7 +241,7 @@ export default function ComplianceCalendarPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

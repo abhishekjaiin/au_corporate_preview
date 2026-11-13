@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India's Labour Codes for US Employers",
   },
   description:
-    "What a US company used to at-will employment needs to know about India's consolidated labour codes: the wage definition and its effect on provident fund.",
+    "What US employers need to know about India's labour codes: the wage rule and its effect on provident fund and gratuity, fixed-term contracts and layoffs.",
   alternates: guideAlternates("usa", "labour-codes"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India's Labour Codes for US Employers",
     description:
-      "What a US company used to at-will employment needs to know about India's consolidated labour codes: the wage definition and its effect on provident fund.",
+      "What US employers need to know about India's labour codes: the wage rule and its effect on provident fund and gratuity, fixed-term contracts and layoffs.",
     url: "https://www.theaucorp.com/usa-to-india/indian-labour-codes-for-us-employers",
     locale: "en_US",
   },
   twitter: {
     title: "India's Labour Codes for US Employers",
     description:
-      "What a US company used to at-will employment needs to know about India's consolidated labour codes: the wage definition and its effect on provident fund.",
+      "What US employers need to know about India's labour codes: the wage rule and its effect on provident fund and gratuity, fixed-term contracts and layoffs.",
   },
 }
 

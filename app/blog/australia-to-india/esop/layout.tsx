@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "ESOPs for Indian Employees of an Australian Parent Company",
   },
   description:
-    "How ESOPs and RSUs work for employees of an Indian subsidiary: FEMA reporting, employee tax, valuation, cost recharge and transfer pricing.",
+    "How Australian parent ESOPs and RSUs work for Indian employees: Indian tax at exercise or vesting, FEMA reporting, valuation and cost recharges.",
   alternates: guideAlternates("australia", "esop"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "ESOPs for Indian Employees of an Australian Parent Company",
     description:
-      "How ESOPs and RSUs work for employees of an Indian subsidiary: FEMA reporting, employee tax, valuation, cost recharge and transfer pricing.",
+      "How Australian parent ESOPs and RSUs work for Indian employees: Indian tax at exercise or vesting, FEMA reporting, valuation and cost recharges.",
     url: "https://www.theaucorp.com/australia-to-india/esop",
     locale: "en_AU",
   },
   twitter: {
     title: "ESOPs for Indian Employees of an Australian Parent Company",
     description:
-      "How ESOPs and RSUs work for employees of an Indian subsidiary: FEMA reporting, employee tax, valuation, cost recharge and transfer pricing.",
+      "How Australian parent ESOPs and RSUs work for Indian employees: Indian tax at exercise or vesting, FEMA reporting, valuation and cost recharges.",
   },
 }
 

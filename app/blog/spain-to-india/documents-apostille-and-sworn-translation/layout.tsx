@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Spanish Documents for India: Apostille and Translation",
   },
   description:
-    "How to prepare Spanish company and director documents for Indian filings: why Spain and India both accept the apostille, notarial deeds and Mercantile.",
+    "How to prepare Spanish company and director documents for Indian filings: why Spain and India both accept the apostille.",
   alternates: guideAlternates("spain", "documents-and-apostille"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Spanish Documents for India: Apostille and Translation",
     description:
-      "How to prepare Spanish company and director documents for Indian filings: why Spain and India both accept the apostille, notarial deeds and Mercantile.",
+      "How to prepare Spanish company and director documents for Indian filings: why Spain and India both accept the apostille.",
     url: "https://www.theaucorp.com/spain-to-india/documents-apostille-and-sworn-translation",
     locale: "en_ES",
   },
   twitter: {
     title: "Spanish Documents for India: Apostille and Translation",
     description:
-      "How to prepare Spanish company and director documents for Indian filings: why Spain and India both accept the apostille, notarial deeds and Mercantile.",
+      "How to prepare Spanish company and director documents for Indian filings: why Spain and India both accept the apostille.",
   },
 }
 

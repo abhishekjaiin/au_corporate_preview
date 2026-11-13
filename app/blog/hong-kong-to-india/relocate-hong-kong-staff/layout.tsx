@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Relocating Hong Kong Staff to India",
   },
   description:
-    "How to relocate Hong Kong staff to an Indian subsidiary: employment and business visa categories, the salary floor, FRRO registration within 14 days.",
+    "How to relocate Hong Kong staff to an Indian subsidiary: employment and business visa categories, the salary floor.",
   alternates: guideAlternates("hongkong", "expat-visa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Relocating Hong Kong Staff to India",
     description:
-      "How to relocate Hong Kong staff to an Indian subsidiary: employment and business visa categories, the salary floor, FRRO registration within 14 days.",
+      "How to relocate Hong Kong staff to an Indian subsidiary: employment and business visa categories, the salary floor.",
     url: "https://www.theaucorp.com/hong-kong-to-india/relocate-hong-kong-staff",
     locale: "en_HK",
   },
   twitter: {
     title: "Relocating Hong Kong Staff to India",
     description:
-      "How to relocate Hong Kong staff to an Indian subsidiary: employment and business visa categories, the salary floor, FRRO registration within 14 days.",
+      "How to relocate Hong Kong staff to an Indian subsidiary: employment and business visa categories, the salary floor.",
   },
 }
 

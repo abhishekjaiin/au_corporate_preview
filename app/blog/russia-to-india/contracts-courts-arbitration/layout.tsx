@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Contracts, Courts and Arbitration between India and Russia",
   },
   description:
-    "How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution, enforcing awards.",
+    "How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution.",
   alternates: guideAlternates("russia", "contracts-and-arbitration"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Contracts, Courts and Arbitration between India and Russia",
     description:
-      "How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution, enforcing awards.",
+      "How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution.",
     url: "https://www.theaucorp.com/russia-to-india/contracts-courts-arbitration",
     locale: "en_RU",
   },
   twitter: {
     title: "Contracts, Courts and Arbitration between India and Russia",
     description:
-      "How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution, enforcing awards.",
+      "How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution.",
   },
 }
 

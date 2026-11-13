@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Choosing an Indian State and City for a US Company",
   },
   description:
-    "How to choose the state and city for the registered office and the team: a decision framework, a comparison table of major hubs by function, how state law.",
+    "How to choose the state and city for the registered office and the team: a decision framework, a comparison table of major hubs by function.",
   alternates: guideAlternates("usa", "state-and-city"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Choosing an Indian State and City for a US Company",
     description:
-      "How to choose the state and city for the registered office and the team: a decision framework, a comparison table of major hubs by function, how state law.",
+      "How to choose the state and city for the registered office and the team: a decision framework, a comparison table of major hubs by function.",
     url: "https://www.theaucorp.com/usa-to-india/choosing-an-indian-state-and-city-for-us-companies",
     locale: "en_US",
   },
   twitter: {
     title: "Choosing an Indian State and City for a US Company",
     description:
-      "How to choose the state and city for the registered office and the team: a decision framework, a comparison table of major hubs by function, how state law.",
+      "How to choose the state and city for the registered office and the team: a decision framework, a comparison table of major hubs by function.",
   },
 }
 

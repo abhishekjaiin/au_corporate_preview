@@ -49,7 +49,7 @@ export default function CommonMistakesPage() {
         headline="12 Common Mistakes Singapore Companies Make When Entering India, and How to Avoid Each"
         description="The twelve mistakes we see most often when a Singapore company sets up an Indian subsidiary: treaty assumptions, holdco substance, EPF for PRs, services PE, FEMA clocks, stamping, data transfers and year-end gaps."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -65,7 +65,7 @@ export default function CommonMistakesPage() {
       <GuideHero
         eyebrow="Avoid: common mistakes"
         title="12 Common Mistakes Singapore Companies Make When Entering India, and How to Avoid Each"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -190,7 +190,7 @@ export default function CommonMistakesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Hiring in India for Spanish Companies",
   },
   description:
-    "How a Spanish company hires in India: the entity or employer-of-record choice, offer letters and contracts, salary structure, payroll deductions, the labour.",
+    "How a Spanish company hires in India: the entity or employer-of-record choice, offer letters and contracts, salary structure, payroll deductions.",
   alternates: guideAlternates("spain", "hiring-and-payroll"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Hiring in India for Spanish Companies",
     description:
-      "How a Spanish company hires in India: the entity or employer-of-record choice, offer letters and contracts, salary structure, payroll deductions, the labour.",
+      "How a Spanish company hires in India: the entity or employer-of-record choice, offer letters and contracts, salary structure, payroll deductions.",
     url: "https://www.theaucorp.com/spain-to-india/hiring-in-india",
     locale: "en_ES",
   },
   twitter: {
     title: "Hiring in India for Spanish Companies",
     description:
-      "How a Spanish company hires in India: the entity or employer-of-record choice, offer letters and contracts, salary structure, payroll deductions, the labour.",
+      "How a Spanish company hires in India: the entity or employer-of-record choice, offer letters and contracts, salary structure, payroll deductions.",
   },
 }
 

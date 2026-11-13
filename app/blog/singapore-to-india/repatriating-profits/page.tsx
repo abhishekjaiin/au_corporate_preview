@@ -53,7 +53,7 @@ export default function RepatriatingProfitsPage() {
         headline="Getting Money Out of India to Singapore: Dividends, Service Fees, Royalties, Interest and Loan Repayments"
         description="How a Singapore parent receives money from an Indian subsidiary: dividends at the treaty rate, fees and royalties at arm's length, interest and ECB repayments, Section 393 withholding, Forms 41, 145 and 146."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -69,7 +69,7 @@ export default function RepatriatingProfitsPage() {
       <GuideHero
         eyebrow="Money out: repatriation"
         title="Getting Money Out of India to Singapore: Dividends, Service Fees, Royalties, Interest and Loan Repayments"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -246,7 +246,7 @@ export default function RepatriatingProfitsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

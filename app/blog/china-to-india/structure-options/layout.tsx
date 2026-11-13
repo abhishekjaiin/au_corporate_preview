@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Subsidiary, Joint Venture, Branch or EOR: China",
   },
   description:
-    "A comparison of ways for a Chinese company to operate in India: wholly owned subsidiary, joint venture with an Indian partner, branch or liaison office, LLP.",
+    "A comparison of ways for a Chinese company to operate in India: wholly owned subsidiary, joint venture with an Indian partner, branch or liaison office.",
   alternates: guideAlternates("china", "subsidiary-vs-branch-vs-liaison-office-vs-llp"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Subsidiary, Joint Venture, Branch or EOR: China",
     description:
-      "A comparison of ways for a Chinese company to operate in India: wholly owned subsidiary, joint venture with an Indian partner, branch or liaison office, LLP.",
+      "A comparison of ways for a Chinese company to operate in India: wholly owned subsidiary, joint venture with an Indian partner, branch or liaison office.",
     url: "https://www.theaucorp.com/china-to-india/structure-options",
     locale: "en_CN",
   },
   twitter: {
     title: "Subsidiary, Joint Venture, Branch or EOR: China",
     description:
-      "A comparison of ways for a Chinese company to operate in India: wholly owned subsidiary, joint venture with an Indian partner, branch or liaison office, LLP.",
+      "A comparison of ways for a Chinese company to operate in India: wholly owned subsidiary, joint venture with an Indian partner, branch or liaison office.",
   },
 }
 

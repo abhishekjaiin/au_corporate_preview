@@ -85,7 +85,7 @@ export default function RussiaToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Russia: The 2026 Guide"
         description="How Russian companies set up a subsidiary in India: FDI route, sanctions and banking, structure, incorporation, FEMA filings, the India-Russia tax treaty, documents, staff and compliance. By a Chartered Accountant."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         inLanguage="en-RU"
       />
 
@@ -99,7 +99,7 @@ export default function RussiaToIndiaHubPage() {
         eyebrow="Guide for Russian companies"
         title="How to Set Up a Subsidiary in India from Russia: The 2026 Guide"
         dek="The FDI route, sanctions and banking, structure, incorporation, FEMA/RBI filings, the India-Russia treaty and the apostille for Russian companies entering India, in plain terms."
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -586,7 +586,7 @@ export default function RussiaToIndiaHubPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

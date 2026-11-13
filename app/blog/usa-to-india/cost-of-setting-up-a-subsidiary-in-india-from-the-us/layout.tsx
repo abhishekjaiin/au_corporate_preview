@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Cost of Setting Up a Subsidiary in India from the US",
   },
   description:
-    "A budgeting guide for US companies: what the one-time set-up costs, what the subsidiary costs every year to keep compliant, how to size the capital you.",
+    "A budgeting guide for US companies: what the one-time set-up costs, what the subsidiary costs every year to keep compliant.",
   alternates: guideAlternates("usa", "setup-cost"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Cost of Setting Up a Subsidiary in India from the US",
     description:
-      "A budgeting guide for US companies: what the one-time set-up costs, what the subsidiary costs every year to keep compliant, how to size the capital you.",
+      "A budgeting guide for US companies: what the one-time set-up costs, what the subsidiary costs every year to keep compliant.",
     url: "https://www.theaucorp.com/usa-to-india/cost-of-setting-up-a-subsidiary-in-india-from-the-us",
     locale: "en_US",
   },
   twitter: {
     title: "Cost of Setting Up a Subsidiary in India from the US",
     description:
-      "A budgeting guide for US companies: what the one-time set-up costs, what the subsidiary costs every year to keep compliant, how to size the capital you.",
+      "A budgeting guide for US companies: what the one-time set-up costs, what the subsidiary costs every year to keep compliant.",
   },
 }
 

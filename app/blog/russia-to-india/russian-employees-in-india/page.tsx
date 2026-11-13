@@ -55,7 +55,7 @@ export default function RussianEmployeesInIndiaPage() {
         headline="Russian Employees in India: Salary Tax, the Treaty Day Count, EPF for International Workers and Russian Social Insurance"
         description="What a Russian employer must plan for staff in India: Indian salary tax and the treaty test, EPF for international workers, no social security agreement, Russian insurance contributions and secondment contracts."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -71,7 +71,7 @@ export default function RussianEmployeesInIndiaPage() {
       <GuideHero
         eyebrow="People: tax and social security"
         title="Russian Employees in India: Salary Tax, the Treaty Day Count, EPF for International Workers and Russian Social Insurance"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -224,7 +224,7 @@ export default function RussianEmployeesInIndiaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

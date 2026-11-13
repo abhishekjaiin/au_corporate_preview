@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Repatriating Profits from India to China",
   },
   description:
-    "How a Chinese parent receives money from an Indian subsidiary: 10% treaty withholding, Section 393, Forms 41, 145 and 146, Chinese tax credit, scrutiny.",
+    "How a Chinese parent receives money from an Indian subsidiary: 10% treaty withholding, Section 393, Forms 41, 145 and 146, Chinese tax credit.",
   alternates: guideAlternates("china", "repatriating-profits"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Repatriating Profits from India to China",
     description:
-      "How a Chinese parent receives money from an Indian subsidiary: 10% treaty withholding, Section 393, Forms 41, 145 and 146, Chinese tax credit, scrutiny.",
+      "How a Chinese parent receives money from an Indian subsidiary: 10% treaty withholding, Section 393, Forms 41, 145 and 146, Chinese tax credit.",
     url: "https://www.theaucorp.com/china-to-india/repatriating-profits",
     locale: "en_CN",
   },
   twitter: {
     title: "Repatriating Profits from India to China",
     description:
-      "How a Chinese parent receives money from an Indian subsidiary: 10% treaty withholding, Section 393, Forms 41, 145 and 146, Chinese tax credit, scrutiny.",
+      "How a Chinese parent receives money from an Indian subsidiary: 10% treaty withholding, Section 393, Forms 41, 145 and 146, Chinese tax credit.",
   },
 }
 

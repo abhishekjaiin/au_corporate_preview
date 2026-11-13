@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Common Mistakes Russian Companies Make When Entering India",
   },
   description:
-    "The most common mistakes of Russian companies entering India: ignoring banking and sanctions, skipping Russian clearance, late FEMA filings, weak treaty.",
+    "The most common mistakes of Russian companies entering India: ignoring banking and sanctions, skipping Russian clearance, late FEMA filings.",
   alternates: guideAlternates("russia", "common-mistakes"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Common Mistakes Russian Companies Make When Entering India",
     description:
-      "The most common mistakes of Russian companies entering India: ignoring banking and sanctions, skipping Russian clearance, late FEMA filings, weak treaty.",
+      "The most common mistakes of Russian companies entering India: ignoring banking and sanctions, skipping Russian clearance, late FEMA filings.",
     url: "https://www.theaucorp.com/russia-to-india/common-mistakes",
     locale: "en_RU",
   },
   twitter: {
     title: "Common Mistakes Russian Companies Make When Entering India",
     description:
-      "The most common mistakes of Russian companies entering India: ignoring banking and sanctions, skipping Russian clearance, late FEMA filings, weak treaty.",
+      "The most common mistakes of Russian companies entering India: ignoring banking and sanctions, skipping Russian clearance, late FEMA filings.",
   },
 }
 

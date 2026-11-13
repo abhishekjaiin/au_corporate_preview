@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Choosing an Indian Structure from Singapore",
   },
   description:
-    "A decision guide for Singapore companies: wholly owned subsidiary, branch, liaison office, LLP, GIFT City IFSC unit and EOR, with eligibility tests, tax.",
+    "A decision guide for Singapore companies: wholly owned subsidiary, branch, liaison office, LLP, GIFT City IFSC unit and EOR, with eligibility tests.",
   alternates: guideAlternates("singapore", "subsidiary-vs-branch-vs-liaison-office-vs-llp"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Choosing an Indian Structure from Singapore",
     description:
-      "A decision guide for Singapore companies: wholly owned subsidiary, branch, liaison office, LLP, GIFT City IFSC unit and EOR, with eligibility tests, tax.",
+      "A decision guide for Singapore companies: wholly owned subsidiary, branch, liaison office, LLP, GIFT City IFSC unit and EOR, with eligibility tests.",
     url: "https://www.theaucorp.com/singapore-to-india/structure-options",
     locale: "en_SG",
   },
   twitter: {
     title: "Choosing an Indian Structure from Singapore",
     description:
-      "A decision guide for Singapore companies: wholly owned subsidiary, branch, liaison office, LLP, GIFT City IFSC unit and EOR, with eligibility tests, tax.",
+      "A decision guide for Singapore companies: wholly owned subsidiary, branch, liaison office, LLP, GIFT City IFSC unit and EOR, with eligibility tests.",
   },
 }
 

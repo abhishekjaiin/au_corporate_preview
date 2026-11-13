@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-China DTAA for Chinese Companies",
   },
   description:
-    "The India-China DTAA explained for a Chinese parent: 10% rates on dividends, interest, royalties and technical fees, permanent establishment rules, business.",
+    "The India-China DTAA explained for a Chinese parent: 10% rates on dividends, interest, royalties and technical fees, permanent establishment rules.",
   alternates: guideAlternates("china", "india-dtaa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-China DTAA for Chinese Companies",
     description:
-      "The India-China DTAA explained for a Chinese parent: 10% rates on dividends, interest, royalties and technical fees, permanent establishment rules, business.",
+      "The India-China DTAA explained for a Chinese parent: 10% rates on dividends, interest, royalties and technical fees, permanent establishment rules.",
     url: "https://www.theaucorp.com/china-to-india/india-china-dtaa",
     locale: "en_CN",
   },
   twitter: {
     title: "India-China DTAA for Chinese Companies",
     description:
-      "The India-China DTAA explained for a Chinese parent: 10% rates on dividends, interest, royalties and technical fees, permanent establishment rules, business.",
+      "The India-China DTAA explained for a Chinese parent: 10% rates on dividends, interest, royalties and technical fees, permanent establishment rules.",
   },
 }
 

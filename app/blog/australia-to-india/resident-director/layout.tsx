@@ -3,25 +3,25 @@ import { guideAlternates } from "@/lib/guides/countries"
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Resident Director for an Australian-Owned Company",
+    absolute: "Resident Director in India for Australian Companies",
   },
   description:
-    "Every Indian company needs a Resident Director who has stayed in India 182 days in the financial year.",
+    "Every Indian company needs a resident director who stayed in India for 182 days in the year. How Australian groups meet the rule, and the tax points.",
   alternates: guideAlternates("australia", "resident-director"),
   openGraph: {
     type: "article",
-    images: [{ url: "https://www.theaucorp.com/og?title=Resident%20Director%20for%20an%20Australian-Owned%20Company", width: 1200, height: 630, alt: "Resident Director for an Australian-Owned Company" }],
+    images: [{ url: "https://www.theaucorp.com/og?title=Resident%20Director%20for%20an%20Australian-Owned%20Company", width: 1200, height: 630, alt: "Resident Director in India for Australian Companies" }],
     siteName: "AU Corporate",
-    title: "Resident Director for an Australian-Owned Company",
+    title: "Resident Director in India for Australian Companies",
     description:
-      "Every Indian company needs a Resident Director who has stayed in India 182 days in the financial year.",
+      "Every Indian company needs a resident director who stayed in India for 182 days in the year. How Australian groups meet the rule, and the tax points.",
     url: "https://www.theaucorp.com/australia-to-india/resident-director",
     locale: "en_AU",
   },
   twitter: {
-    title: "Resident Director for an Australian-Owned Company",
+    title: "Resident Director in India for Australian Companies",
     description:
-      "Every Indian company needs a Resident Director who has stayed in India 182 days in the financial year.",
+      "Every Indian company needs a resident director who stayed in India for 182 days in the year. How Australian groups meet the rule, and the tax points.",
   },
 }
 

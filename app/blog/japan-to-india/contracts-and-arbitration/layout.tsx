@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Contracts and Arbitration in India for Japanese Companies",
   },
   description:
-    "Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration, enforcing awards and why.",
+    "Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration.",
   alternates: guideAlternates("japan", "contracts-and-arbitration"),
   openGraph: {
     type: "article",
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Contracts and Arbitration in India for Japanese Companies",
     description:
-      "Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration, enforcing awards and why.",
+      "Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration.",
     url: "https://www.theaucorp.com/japan-to-india/contracts-and-arbitration",
   },
   twitter: {
     title: "Contracts and Arbitration in India for Japanese Companies",
     description:
-      "Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration, enforcing awards and why.",
+      "Contracts for a Japanese-owned Indian subsidiary: intercompany agreements, adapting Japanese templates, JCAA or SIAC arbitration.",
   },
 }
 

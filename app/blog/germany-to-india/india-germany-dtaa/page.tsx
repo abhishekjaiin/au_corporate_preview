@@ -53,7 +53,7 @@ export default function IndiaGermanyDtaaPage() {
         headline="The India-Germany Tax Treaty (DTAA), Article by Article: India as Source State, Germany as Residence State"
         description="The India-Germany double taxation agreement explained article by article from the German parent's point of view: the flat 10% rates table, permanent establishment, share gains, relief and how to claim."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -69,7 +69,7 @@ export default function IndiaGermanyDtaaPage() {
       <GuideHero
         eyebrow="Tax: the India-Germany DTAA"
         title="The India-Germany Tax Treaty (DTAA), Article by Article: India as Source State, Germany as Residence State"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -300,7 +300,7 @@ export default function IndiaGermanyDtaaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and German
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and German
           rules change often; confirm current requirements before acting.
         </p>
       </article>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Transfer Pricing Between Germany and India",
   },
   description:
-    "How transfer pricing works between Germany and India: Indian arm's length rules and Form 48, German documentation duties, the function transfer rules, APAs.",
+    "How transfer pricing works between Germany and India: Indian arm's length rules and Form 48, German documentation duties, the function transfer rules.",
   alternates: guideAlternates("germany", "transfer-pricing"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Transfer Pricing Between Germany and India",
     description:
-      "How transfer pricing works between Germany and India: Indian arm's length rules and Form 48, German documentation duties, the function transfer rules, APAs.",
+      "How transfer pricing works between Germany and India: Indian arm's length rules and Form 48, German documentation duties, the function transfer rules.",
     url: "https://www.theaucorp.com/germany-to-india/transfer-pricing",
     locale: "en_DE",
   },
   twitter: {
     title: "Transfer Pricing Between Germany and India",
     description:
-      "How transfer pricing works between Germany and India: Indian arm's length rules and Form 48, German documentation duties, the function transfer rules, APAs.",
+      "How transfer pricing works between Germany and India: Indian arm's length rules and Form 48, German documentation duties, the function transfer rules.",
   },
 }
 

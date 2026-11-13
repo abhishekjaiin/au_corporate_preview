@@ -60,13 +60,13 @@ export default function PressNote3ApprovalIndiaPage() {
         headline={"Press Note 3 Approval in India: Government Approval for Investors from China, Hong Kong and Other Land-Border Countries"}
         description={"Who needs Press Note 3 approval to invest in India, the March 2026 easing, documents, the approval process, timelines, director clearance and filings after approval."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "Press Note 3 Approval" }]} />
 
-      <GuideHero eyebrow={"Service: Press Note 3 approval"} title={"Press Note 3 Approval in India: Government Approval for Investors from China, Hong Kong and Other Land-Border Countries"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Service: Press Note 3 approval"} title={"Press Note 3 Approval in India: Government Approval for Investors from China, Hong Kong and Other Land-Border Countries"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -234,7 +234,7 @@ export default function PressNote3ApprovalIndiaPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

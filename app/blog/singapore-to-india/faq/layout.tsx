@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "143 FAQs: Setting Up an India Subsidiary from Singapore",
   },
   description:
-    "143 plain answers for Singapore companies: incorporation, FEMA, the India-Singapore tax treaty, holding companies, staff and provident fund, data.",
+    "143 plain answers for Singapore companies: incorporation, FEMA, the India-Singapore tax treaty, holding companies, staff and provident fund.",
   alternates: guideAlternates("singapore", "faq"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "143 FAQs: Setting Up an India Subsidiary from Singapore",
     description:
-      "143 plain answers for Singapore companies: incorporation, FEMA, the India-Singapore tax treaty, holding companies, staff and provident fund, data.",
+      "143 plain answers for Singapore companies: incorporation, FEMA, the India-Singapore tax treaty, holding companies, staff and provident fund.",
     url: "https://www.theaucorp.com/singapore-to-india/faq",
     locale: "en_SG",
   },
   twitter: {
     title: "143 FAQs: Setting Up an India Subsidiary from Singapore",
     description:
-      "143 plain answers for Singapore companies: incorporation, FEMA, the India-Singapore tax treaty, holding companies, staff and provident fund, data.",
+      "143 plain answers for Singapore companies: incorporation, FEMA, the India-Singapore tax treaty, holding companies, staff and provident fund.",
   },
 }
 

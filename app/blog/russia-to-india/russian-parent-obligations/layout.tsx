@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Russian Parent Obligations: Currency Control and Tax",
   },
   description:
-    "The Russian-side steps for a parent investing in India: Bank of Russia thresholds and approval for share investments abroad, currency control.",
+    "The Russian-side steps for a parent investing in India: Bank of Russia thresholds and approval for share investments abroad.",
   alternates: guideAlternates("russia", "parent-obligations"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Russian Parent Obligations: Currency Control and Tax",
     description:
-      "The Russian-side steps for a parent investing in India: Bank of Russia thresholds and approval for share investments abroad, currency control.",
+      "The Russian-side steps for a parent investing in India: Bank of Russia thresholds and approval for share investments abroad.",
     url: "https://www.theaucorp.com/russia-to-india/russian-parent-obligations",
     locale: "en_RU",
   },
   twitter: {
     title: "Russian Parent Obligations: Currency Control and Tax",
     description:
-      "The Russian-side steps for a parent investing in India: Bank of Russia thresholds and approval for share investments abroad, currency control.",
+      "The Russian-side steps for a parent investing in India: Bank of Russia thresholds and approval for share investments abroad.",
   },
 }
 

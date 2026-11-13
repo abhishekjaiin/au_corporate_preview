@@ -61,7 +61,7 @@ export default function IncorporationProcessPage() {
         headline="Incorporation Process for an Australian-Owned Indian Subsidiary, Step by Step"
         description="The eight steps to incorporate a wholly owned subsidiary in India from Australia: forms, order of steps, typical 4 to 6 week timeline and first 90 days."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -77,7 +77,7 @@ export default function IncorporationProcessPage() {
       <GuideHero
         eyebrow="Enter: incorporation"
         title="Incorporation Process for an Australian-Owned Indian Subsidiary, Step by Step"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -286,7 +286,7 @@ export default function IncorporationProcessPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

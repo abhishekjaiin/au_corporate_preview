@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "122 FAQs: Setting Up an India Subsidiary from the UK",
   },
   description:
-    "122 plain answers for UK companies: incorporation, FEMA, the India-UK tax treaty, CETA, staff and social security, data protection, compliance, repatriation.",
+    "122 plain answers for UK companies: incorporation, FEMA, the India-UK tax treaty, CETA, staff and social security, data protection, compliance.",
   alternates: guideAlternates("uk", "faq"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "122 FAQs: Setting Up an India Subsidiary from the UK",
     description:
-      "122 plain answers for UK companies: incorporation, FEMA, the India-UK tax treaty, CETA, staff and social security, data protection, compliance, repatriation.",
+      "122 plain answers for UK companies: incorporation, FEMA, the India-UK tax treaty, CETA, staff and social security, data protection, compliance.",
     url: "https://www.theaucorp.com/uk-to-india/faq",
     locale: "en_GB",
   },
   twitter: {
     title: "122 FAQs: Setting Up an India Subsidiary from the UK",
     description:
-      "122 plain answers for UK companies: incorporation, FEMA, the India-UK tax treaty, CETA, staff and social security, data protection, compliance, repatriation.",
+      "122 plain answers for UK companies: incorporation, FEMA, the India-UK tax treaty, CETA, staff and social security, data protection, compliance.",
   },
 }
 

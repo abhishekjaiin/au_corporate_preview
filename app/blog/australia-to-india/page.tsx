@@ -43,6 +43,8 @@ const toc = [
 ]
 
 const seriesCards = [
+  { title: "GCC Setup in India for Australian Companies (2026 Guide)", desc: "How Australian companies set up a GCC in India: own centre, BOT or EOR pilot, time-zone overlap, APRA CPS 230 for regulated firms, Privacy Act transfers and cost-plus tax.", href: "/australia-to-india/gcc-for-australian-companies" },
+  { title: "India-Australia ECTA: What It Means for Australian Companies", desc: "How the India-Australia Economic Cooperation and Trade Agreement affects Australian companies: tariff cuts, rules of origin, services, the tax change on technical services and the CECA talks.", href: "/australia-to-india/india-australia-ecta" },
   { title: "Subsidiary, branch, liaison office or LLP", desc: "Sections 23AH and 768-5 compared with Indian rules.", href: "/australia-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp" },
   { title: "Incorporation from Australia", desc: "ASIC extract, DFAT apostille and SPICe+.", href: "/australia-to-india/incorporation-process" },
   { title: "Documents and apostille through DFAT", desc: "The federal apostille process.", href: "/australia-to-india/documents-and-apostille" },
@@ -92,7 +94,7 @@ export default function AustraliaToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Australia: The 2026 Guide"
         description="How Australian companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, the India-Australia tax treaty and compliance. By a Chartered Accountant."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         inLanguage="en-AU"
       />
 
@@ -106,7 +108,7 @@ export default function AustraliaToIndiaHubPage() {
         eyebrow="Guide for Australian companies"
         title="How to Set Up a Subsidiary in India from Australia: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, tax and compliance for Australian companies entering India — in plain terms, with the form names your advisers will use."
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -541,7 +543,7 @@ export default function AustraliaToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

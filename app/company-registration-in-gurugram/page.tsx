@@ -49,13 +49,13 @@ export default function CompanyRegistrationInGurugramPage() {
         headline={"Company Registration in Gurugram for Foreign Companies: Registrar, State Rules, Offices and Talent"}
         description={"How a foreign company registers a company in Gurugram: the Registrar, Haryana shops and establishments and professional tax rules, offices, talent and timeline."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "Company Registration in Gurugram" }]} />
 
-      <GuideHero eyebrow={"City guide: Gurugram"} title={"Company Registration in Gurugram for Foreign Companies: Registrar, State Rules, Offices and Talent"} updated="7 November 2026" />
+      <GuideHero eyebrow={"City guide: Gurugram"} title={"Company Registration in Gurugram for Foreign Companies: Registrar, State Rules, Offices and Talent"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -166,7 +166,7 @@ export default function CompanyRegistrationInGurugramPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

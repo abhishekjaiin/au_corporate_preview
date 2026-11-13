@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     absolute: "Payroll, PF, ESI and Expat Services in India",
   },
   description:
-    "Payroll, PF and ESI, professional tax, labour law compliance, recruitment, employment contracts and FRRO registration for expats in India.",
+    "Payroll, PF and ESI, professional tax, labour law compliance, employment contracts and FRRO registration for expats in India. Free consultation.",
   alternates: {
     canonical: "https://www.theaucorp.com/payroll-expat-services",
   },
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Payroll, PF, ESI and Expat Services in India",
     description:
-      "Payroll, PF and ESI, professional tax, labour law compliance, recruitment, employment contracts and FRRO registration for expats in India.",
+      "Payroll, PF and ESI, professional tax, labour law compliance, employment contracts and FRRO registration for expats in India. Free consultation.",
     url: "https://www.theaucorp.com/payroll-expat-services",
   },
   twitter: {
     title: "Payroll, PF, ESI and Expat Services in India",
     description:
-      "Payroll, PF and ESI, professional tax, labour law compliance, recruitment, employment contracts and FRRO registration for expats in India.",
+      "Payroll, PF and ESI, professional tax, labour law compliance, employment contracts and FRRO registration for expats in India. Free consultation.",
   },
 }
 

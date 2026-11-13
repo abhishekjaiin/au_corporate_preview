@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Incorporating an Indian Subsidiary from Singapore",
   },
   description:
-    "A split plan for a Singapore parent forming an Indian private limited company: what the Singapore team does, what the Indian team does, SPICe+, bank.",
+    "A split plan for a Singapore parent forming an Indian private limited company: what the Singapore team does, what the Indian team does, SPICe+.",
   alternates: guideAlternates("singapore", "incorporation-process"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Incorporating an Indian Subsidiary from Singapore",
     description:
-      "A split plan for a Singapore parent forming an Indian private limited company: what the Singapore team does, what the Indian team does, SPICe+, bank.",
+      "A split plan for a Singapore parent forming an Indian private limited company: what the Singapore team does, what the Indian team does, SPICe+.",
     url: "https://www.theaucorp.com/singapore-to-india/incorporation-steps",
     locale: "en_SG",
   },
   twitter: {
     title: "Incorporating an Indian Subsidiary from Singapore",
     description:
-      "A split plan for a Singapore parent forming an Indian private limited company: what the Singapore team does, what the Indian team does, SPICe+, bank.",
+      "A split plan for a Singapore parent forming an Indian private limited company: what the Singapore team does, what the Indian team does, SPICe+.",
   },
 }
 

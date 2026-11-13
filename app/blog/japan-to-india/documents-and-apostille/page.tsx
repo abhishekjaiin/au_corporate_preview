@@ -61,7 +61,7 @@ export default function DocumentsAndApostillePage() {
         headline="Documents and Apostille for a Japanese Parent: What to Prepare and in What Order"
         description="Which documents a Japanese parent must prepare to incorporate an Indian subsidiary, and how notarization, translation and apostille work in Japan."
         datePublished="2026-10-20"
-        dateModified="2026-10-20"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -77,7 +77,7 @@ export default function DocumentsAndApostillePage() {
       <GuideHero
         eyebrow="Set up: documents"
         title="Documents and Apostille for a Japanese Parent: What to Prepare and in What Order"
-        updated="20 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -270,7 +270,7 @@ export default function DocumentsAndApostillePage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 20 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

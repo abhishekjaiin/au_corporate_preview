@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Transfer Pricing for Spanish Groups in India",
   },
   description:
-    "How India and Spain test related-party prices: methods, thresholds, Form 3CEB, the master and local files, intra-group services and royalties, loans, safe.",
+    "How India and Spain test related-party prices: methods, thresholds, Form 3CEB, the master and local files, intra-group services and royalties, loans.",
   alternates: guideAlternates("spain", "transfer-pricing"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Transfer Pricing for Spanish Groups in India",
     description:
-      "How India and Spain test related-party prices: methods, thresholds, Form 3CEB, the master and local files, intra-group services and royalties, loans, safe.",
+      "How India and Spain test related-party prices: methods, thresholds, Form 3CEB, the master and local files, intra-group services and royalties, loans.",
     url: "https://www.theaucorp.com/spain-to-india/transfer-pricing",
     locale: "en_ES",
   },
   twitter: {
     title: "Transfer Pricing for Spanish Groups in India",
     description:
-      "How India and Spain test related-party prices: methods, thresholds, Form 3CEB, the master and local files, intra-group services and royalties, loans, safe.",
+      "How India and Spain test related-party prices: methods, thresholds, Form 3CEB, the master and local files, intra-group services and royalties, loans.",
   },
 }
 

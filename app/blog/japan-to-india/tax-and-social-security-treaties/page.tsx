@@ -65,7 +65,7 @@ export default function TaxAndSocialSecurityTreatiesPage() {
         headline="India-Japan Tax Treaty and Social Security Agreement: The Complete Guide for Japanese Companies and Expats"
         description="The India-Japan tax treaty (DTAA) and Social Security Agreement for Japanese companies and expats: 10% treaty rates, residency, EPF and pensions."
         datePublished="2026-10-20"
-        dateModified="2026-10-20"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -81,7 +81,7 @@ export default function TaxAndSocialSecurityTreatiesPage() {
       <GuideHero
         eyebrow="Treaties: tax and social security"
         title="India-Japan Tax Treaty and Social Security Agreement: The Complete Guide for Japanese Companies and Expats"
-        updated="20 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -284,7 +284,7 @@ export default function TaxAndSocialSecurityTreatiesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 20 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

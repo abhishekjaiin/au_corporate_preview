@@ -84,7 +84,7 @@ export default function UkToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from the UK: The 2026 Guide"
         description="How UK companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-UK tax treaty, CETA, staff and compliance. By a Chartered Accountant."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         inLanguage="en-GB"
       />
 
@@ -98,7 +98,7 @@ export default function UkToIndiaHubPage() {
         eyebrow="Guide for UK companies"
         title="How to Set Up a Subsidiary in India from the UK: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, the India-UK treaty, CETA and compliance for UK companies entering India — in plain terms, with the form names your advisers will use."
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -587,7 +587,7 @@ export default function UkToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

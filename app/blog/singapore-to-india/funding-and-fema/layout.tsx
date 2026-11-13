@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Funding an Indian Subsidiary from Singapore",
   },
   description:
-    "How a Singapore parent funds an Indian subsidiary: equity pricing, compulsorily convertible instruments, external commercial borrowings, remittance.",
+    "How a Singapore parent funds an Indian subsidiary: equity pricing, compulsorily convertible instruments, external commercial borrowings.",
   alternates: guideAlternates("singapore", "funding-fema-fc-gpr"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Funding an Indian Subsidiary from Singapore",
     description:
-      "How a Singapore parent funds an Indian subsidiary: equity pricing, compulsorily convertible instruments, external commercial borrowings, remittance.",
+      "How a Singapore parent funds an Indian subsidiary: equity pricing, compulsorily convertible instruments, external commercial borrowings.",
     url: "https://www.theaucorp.com/singapore-to-india/funding-and-fema",
     locale: "en_SG",
   },
   twitter: {
     title: "Funding an Indian Subsidiary from Singapore",
     description:
-      "How a Singapore parent funds an Indian subsidiary: equity pricing, compulsorily convertible instruments, external commercial borrowings, remittance.",
+      "How a Singapore parent funds an Indian subsidiary: equity pricing, compulsorily convertible instruments, external commercial borrowings.",
   },
 }
 

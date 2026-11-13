@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Manufacturing and Joint Ventures for Chinese Companies",
   },
   description:
-    "How Chinese manufacturers approach India: joint ventures with Indian partners, the 60-day fast-track sectors under the amended Press Note 3, incentive.",
+    "How Chinese manufacturers approach India: joint ventures with Indian partners, the 60-day fast-track sectors under the amended Press Note 3.",
   alternates: guideAlternates("china", "manufacturing-jv"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Manufacturing and Joint Ventures for Chinese Companies",
     description:
-      "How Chinese manufacturers approach India: joint ventures with Indian partners, the 60-day fast-track sectors under the amended Press Note 3, incentive.",
+      "How Chinese manufacturers approach India: joint ventures with Indian partners, the 60-day fast-track sectors under the amended Press Note 3.",
     url: "https://www.theaucorp.com/china-to-india/manufacturing-and-jv-for-chinese-companies",
     locale: "en_CN",
   },
   twitter: {
     title: "Manufacturing and Joint Ventures for Chinese Companies",
     description:
-      "How Chinese manufacturers approach India: joint ventures with Indian partners, the 60-day fast-track sectors under the amended Press Note 3, incentive.",
+      "How Chinese manufacturers approach India: joint ventures with Indian partners, the 60-day fast-track sectors under the amended Press Note 3.",
   },
 }
 

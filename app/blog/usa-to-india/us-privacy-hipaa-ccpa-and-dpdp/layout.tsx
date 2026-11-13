@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "US Privacy Law and India's DPDP Act",
   },
   description:
-    "How a US company handles personal data when an Indian subsidiary or vendor processes it: what US federal and state privacy laws require, HIPAA business.",
+    "How a US company handles personal data when an Indian subsidiary or vendor processes it: what US federal and state privacy laws require.",
   alternates: guideAlternates("usa", "data-protection"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "US Privacy Law and India's DPDP Act",
     description:
-      "How a US company handles personal data when an Indian subsidiary or vendor processes it: what US federal and state privacy laws require, HIPAA business.",
+      "How a US company handles personal data when an Indian subsidiary or vendor processes it: what US federal and state privacy laws require.",
     url: "https://www.theaucorp.com/usa-to-india/us-privacy-hipaa-ccpa-and-dpdp",
     locale: "en_US",
   },
   twitter: {
     title: "US Privacy Law and India's DPDP Act",
     description:
-      "How a US company handles personal data when an Indian subsidiary or vendor processes it: what US federal and state privacy laws require, HIPAA business.",
+      "How a US company handles personal data when an Indian subsidiary or vendor processes it: what US federal and state privacy laws require.",
   },
 }
 

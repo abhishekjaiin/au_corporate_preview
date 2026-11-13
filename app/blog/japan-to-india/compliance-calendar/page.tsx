@@ -53,7 +53,7 @@ export default function ComplianceCalendarPage() {
         headline="Compliance Calendar for an Indian Subsidiary: What Is Due and When"
         description="The yearly compliance calendar of an Indian subsidiary owned by a Japanese company: monthly, quarterly and annual filings, mapped to a 31 March parent year-end."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -69,7 +69,7 @@ export default function ComplianceCalendarPage() {
       <GuideHero
         eyebrow="Operate: compliance"
         title="Compliance Calendar for an Indian Subsidiary: What Is Due and When"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -259,7 +259,7 @@ export default function ComplianceCalendarPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Russian Documents for India: Apostille and Translation",
   },
   description:
-    "How to prepare Russian company and director documents for Indian filings: both countries are parties to the Apostille Convention, which authority issues.",
+    "How to prepare Russian company and director documents for Indian filings: both countries are parties to the Apostille Convention.",
   alternates: guideAlternates("russia", "documents-and-apostille"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Russian Documents for India: Apostille and Translation",
     description:
-      "How to prepare Russian company and director documents for Indian filings: both countries are parties to the Apostille Convention, which authority issues.",
+      "How to prepare Russian company and director documents for Indian filings: both countries are parties to the Apostille Convention.",
     url: "https://www.theaucorp.com/russia-to-india/documents-apostille-and-translation",
     locale: "en_RU",
   },
   twitter: {
     title: "Russian Documents for India: Apostille and Translation",
     description:
-      "How to prepare Russian company and director documents for Indian filings: both countries are parties to the Apostille Convention, which authority issues.",
+      "How to prepare Russian company and director documents for Indian filings: both countries are parties to the Apostille Convention.",
   },
 }
 

@@ -49,7 +49,7 @@ export default function ExitAndRestructuringPage() {
         headline="Selling, Restructuring or Closing an Indian Subsidiary: Options, Tax and RBI Steps for a UK Parent"
         description="How a UK parent can sell, merge, restructure or close an Indian subsidiary: share sale, slump sale, merger, buyback and winding up, with Indian tax, RBI reporting and the UK substantial shareholding exemption."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-GB"
       />
@@ -65,7 +65,7 @@ export default function ExitAndRestructuringPage() {
       <GuideHero
         eyebrow="Exit: UK parent"
         title="Selling, Restructuring or Closing an Indian Subsidiary: Options, Tax and RBI Steps for a UK Parent"
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -241,7 +241,7 @@ export default function ExitAndRestructuringPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

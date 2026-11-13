@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India Subsidiary Compliance Calendar: Australia",
   },
   description:
-    "The recurring compliance of an Australian-owned Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST, FEMA.",
+    "The recurring compliance of an Australian-owned Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST.",
   alternates: guideAlternates("australia", "compliance-calendar"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India Subsidiary Compliance Calendar: Australia",
     description:
-      "The recurring compliance of an Australian-owned Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST, FEMA.",
+      "The recurring compliance of an Australian-owned Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST.",
     url: "https://www.theaucorp.com/australia-to-india/compliance-calendar",
     locale: "en_AU",
   },
   twitter: {
     title: "India Subsidiary Compliance Calendar: Australia",
     description:
-      "The recurring compliance of an Australian-owned Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST, FEMA.",
+      "The recurring compliance of an Australian-owned Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST.",
   },
 }
 

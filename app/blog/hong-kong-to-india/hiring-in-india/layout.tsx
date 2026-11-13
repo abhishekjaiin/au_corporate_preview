@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Hiring in India for a Hong Kong-Owned Company",
   },
   description:
-    "How a Hong Kong-owned Indian subsidiary hires locally: offer and employment contracts, payroll taxes, provident fund, ESI, gratuity, labour codes, shops.",
+    "How a Hong Kong-owned Indian subsidiary hires locally: offer and employment contracts, payroll taxes, provident fund, ESI, gratuity, labour codes.",
   alternates: guideAlternates("hongkong", "hiring-and-payroll"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Hiring in India for a Hong Kong-Owned Company",
     description:
-      "How a Hong Kong-owned Indian subsidiary hires locally: offer and employment contracts, payroll taxes, provident fund, ESI, gratuity, labour codes, shops.",
+      "How a Hong Kong-owned Indian subsidiary hires locally: offer and employment contracts, payroll taxes, provident fund, ESI, gratuity, labour codes.",
     url: "https://www.theaucorp.com/hong-kong-to-india/hiring-in-india",
     locale: "en_HK",
   },
   twitter: {
     title: "Hiring in India for a Hong Kong-Owned Company",
     description:
-      "How a Hong Kong-owned Indian subsidiary hires locally: offer and employment contracts, payroll taxes, provident fund, ESI, gratuity, labour codes, shops.",
+      "How a Hong Kong-owned Indian subsidiary hires locally: offer and employment contracts, payroll taxes, provident fund, ESI, gratuity, labour codes.",
   },
 }
 

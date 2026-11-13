@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Set Up a Subsidiary in India from Australia: 2026 Guide",
   },
   description:
-    "How Australian companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, the India-Australia tax treaty.",
+    "How Australian companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings.",
   alternates: guideAlternates("australia", "hub"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Set Up a Subsidiary in India from Australia: 2026 Guide",
     description:
-      "How Australian companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, the India-Australia tax treaty.",
+      "How Australian companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings.",
     url: "https://www.theaucorp.com/australia-to-india",
     locale: "en_AU",
   },
   twitter: {
     title: "Set Up a Subsidiary in India from Australia: 2026 Guide",
     description:
-      "How Australian companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, the India-Australia tax treaty.",
+      "How Australian companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings.",
   },
 }
 

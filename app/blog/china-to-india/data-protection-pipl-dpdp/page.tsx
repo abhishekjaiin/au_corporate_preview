@@ -51,7 +51,7 @@ export default function DataProtectionPiplDpdpPage() {
         headline="Moving Personal Data Between China and India: PIPL Cross-Border Routes, Important Data and the DPDP Act"
         description="How China's PIPL, Data Security Law and cross-border data rules apply to a Chinese company with an Indian subsidiary, and how India's Digital Personal Data Protection Act and data restrictions affect the Indian side."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-CN"
       />
@@ -67,7 +67,7 @@ export default function DataProtectionPiplDpdpPage() {
       <GuideHero
         eyebrow="Data: PIPL and DPDP"
         title="Moving Personal Data Between China and India: PIPL Cross-Border Routes, Important Data and the DPDP Act"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -240,7 +240,7 @@ export default function DataProtectionPiplDpdpPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Chinese
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Chinese
           rules change often; confirm current requirements before acting.
         </p>
       </article>

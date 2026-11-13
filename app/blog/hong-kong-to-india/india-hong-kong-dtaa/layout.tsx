@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-Hong Kong DTAA for Hong Kong Companies",
   },
   description:
-    "The India-Hong Kong tax treaty explained for a Hong Kong parent: 5% dividend rate, 10% interest, royalties and fees for technical services, permanent.",
+    "The India-Hong Kong tax treaty explained for a Hong Kong parent: 5% dividend rate, 10% interest, royalties and fees for technical services.",
   alternates: guideAlternates("hongkong", "india-dtaa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-Hong Kong DTAA for Hong Kong Companies",
     description:
-      "The India-Hong Kong tax treaty explained for a Hong Kong parent: 5% dividend rate, 10% interest, royalties and fees for technical services, permanent.",
+      "The India-Hong Kong tax treaty explained for a Hong Kong parent: 5% dividend rate, 10% interest, royalties and fees for technical services.",
     url: "https://www.theaucorp.com/hong-kong-to-india/india-hong-kong-dtaa",
     locale: "en_HK",
   },
   twitter: {
     title: "India-Hong Kong DTAA for Hong Kong Companies",
     description:
-      "The India-Hong Kong tax treaty explained for a Hong Kong parent: 5% dividend rate, 10% interest, royalties and fees for technical services, permanent.",
+      "The India-Hong Kong tax treaty explained for a Hong Kong parent: 5% dividend rate, 10% interest, royalties and fees for technical services.",
   },
 }
 

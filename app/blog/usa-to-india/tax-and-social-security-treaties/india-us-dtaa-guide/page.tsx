@@ -60,7 +60,7 @@ export default function IndiaUsDtaaGuidePage() {
         headline="The India-US Tax Treaty (DTAA) Explained: Scope, Residency and Relief from Double Tax"
         description="How the India-US tax treaty works: who qualifies, which taxes it covers, how treaty and domestic law interact, residency, relief from double tax and disputes."
         datePublished="2026-10-14"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
       />
 
@@ -76,7 +76,7 @@ export default function IndiaUsDtaaGuidePage() {
       <GuideHero
         eyebrow="Treaties: DTAA"
         title="The India-US Tax Treaty (DTAA) Explained: Scope, Residency and Relief from Double Tax"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -431,7 +431,7 @@ export default function IndiaUsDtaaGuidePage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

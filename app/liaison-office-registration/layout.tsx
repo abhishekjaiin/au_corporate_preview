@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     absolute: "Liaison Office Registration in India for Foreign Companies",
   },
   description:
-    "Register a liaison office of your foreign company in India: eligibility, Form FNC, UIN, ROC Form FC-1, PAN, TAN, permitted tasks and FAQs, with a fixed-fee.",
+    "Register a liaison office of your foreign company in India: eligibility, Form FNC, UIN, Form FC-1, PAN, TAN and permitted tasks. Free consultation.",
   alternates: {
     canonical: "https://www.theaucorp.com/liaison-office-registration",
   },
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Liaison Office Registration in India for Foreign Companies",
     description:
-      "Register a liaison office of your foreign company in India: eligibility, Form FNC, UIN, ROC Form FC-1, PAN, TAN, permitted tasks and FAQs, with a fixed-fee.",
+      "Register a liaison office of your foreign company in India: eligibility, Form FNC, UIN, Form FC-1, PAN, TAN and permitted tasks. Free consultation.",
     url: "https://www.theaucorp.com/liaison-office-registration",
   },
   twitter: {
     title: "Liaison Office Registration in India for Foreign Companies",
     description:
-      "Register a liaison office of your foreign company in India: eligibility, Form FNC, UIN, ROC Form FC-1, PAN, TAN, permitted tasks and FAQs, with a fixed-fee.",
+      "Register a liaison office of your foreign company in India: eligibility, Form FNC, UIN, Form FC-1, PAN, TAN and permitted tasks. Free consultation.",
   },
 }
 

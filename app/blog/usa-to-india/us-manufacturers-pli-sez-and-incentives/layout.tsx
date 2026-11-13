@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "US Manufacturers in India: PLI, SEZ and Customs",
   },
   description:
-    "What a US manufacturer should check before building or contracting a plant in India: how PLI and zone incentives work and what they require, customs and GST.",
+    "What a US manufacturer should check before building or contracting a plant in India: how PLI and zone incentives work and what they require.",
   alternates: guideAlternates("usa", "manufacturing-incentives"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "US Manufacturers in India: PLI, SEZ and Customs",
     description:
-      "What a US manufacturer should check before building or contracting a plant in India: how PLI and zone incentives work and what they require, customs and GST.",
+      "What a US manufacturer should check before building or contracting a plant in India: how PLI and zone incentives work and what they require.",
     url: "https://www.theaucorp.com/usa-to-india/us-manufacturers-pli-sez-and-incentives",
     locale: "en_US",
   },
   twitter: {
     title: "US Manufacturers in India: PLI, SEZ and Customs",
     description:
-      "What a US manufacturer should check before building or contracting a plant in India: how PLI and zone incentives work and what they require, customs and GST.",
+      "What a US manufacturer should check before building or contracting a plant in India: how PLI and zone incentives work and what they require.",
   },
 }
 

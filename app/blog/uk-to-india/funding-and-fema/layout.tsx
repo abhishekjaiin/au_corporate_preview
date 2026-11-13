@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Funding an Indian Subsidiary from the UK",
   },
   description:
-    "How a UK parent puts money into an Indian subsidiary legally: equity, convertible preference shares and loans, the fair-value pricing floor, the 60-day.",
+    "How a UK parent puts money into an Indian subsidiary legally: equity, convertible preference shares and loans, the fair-value pricing floor.",
   alternates: guideAlternates("uk", "funding-fema-fc-gpr"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Funding an Indian Subsidiary from the UK",
     description:
-      "How a UK parent puts money into an Indian subsidiary legally: equity, convertible preference shares and loans, the fair-value pricing floor, the 60-day.",
+      "How a UK parent puts money into an Indian subsidiary legally: equity, convertible preference shares and loans, the fair-value pricing floor.",
     url: "https://www.theaucorp.com/uk-to-india/funding-and-fema",
     locale: "en_GB",
   },
   twitter: {
     title: "Funding an Indian Subsidiary from the UK",
     description:
-      "How a UK parent puts money into an Indian subsidiary legally: equity, convertible preference shares and loans, the fair-value pricing floor, the 60-day.",
+      "How a UK parent puts money into an Indian subsidiary legally: equity, convertible preference shares and loans, the fair-value pricing floor.",
   },
 }
 

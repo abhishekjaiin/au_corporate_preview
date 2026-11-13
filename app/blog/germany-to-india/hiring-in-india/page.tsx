@@ -27,6 +27,7 @@ const toc = [
   { id: "de-leave", label: "Leave, holidays and working hours" },
   { id: "de-onboard", label: "Onboarding a new hire" },
   { id: "de-mobility", label: "Hiring German nationals locally in India" },
+  { id: "benefits", label: "Employee benefits German companies usually offer in India" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -60,7 +61,7 @@ export default function HiringInIndiaPage() {
         headline="Hiring in India as a German Employer: What Changes from German Practice"
         description="A comparison for German HR teams hiring in India: employment contracts, provident fund, ESI, gratuity, labour codes, notice and dismissal, no works council, payroll tax and share plans, set against German practice."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -76,7 +77,7 @@ export default function HiringInIndiaPage() {
       <GuideHero
         eyebrow="People: hiring in India"
         title="Hiring in India as a German Employer: What Changes from German Practice"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -219,6 +220,20 @@ export default function HiringInIndiaPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           A German national hired directly by the Indian company, rather than seconded, is an Indian employee: on Indian payroll, in Indian provident fund unless a certificate of coverage applies, and taxed in India from the first day of work there. The employment visa needs a salary of at least USD 25,000 a year. Plan the housing, schooling and tax equalisation terms in the offer, because they often decide whether the candidate accepts.
         </p>
+        <h2 id="benefits" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Employee benefits German companies usually offer in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          German statutory insurance does not extend to staff hired locally in India, so German groups combine Indian statutory benefits with market-standard extras:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Statutory:</strong> provident fund, ESI for lower-paid staff, gratuity after five years, maternity benefit and paid leave under state law.</li>
+          <li><strong>Group health insurance</strong> for the employee and family from an Indian insurer, issued to the Indian company.</li>
+          <li><strong>Group term life and personal accident cover.</strong></li>
+          <li><strong>Allowances and learning budgets</strong>, which matter for engineering talent.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Posted German staff can stay in German social insurance for up to 48 months (plus 12) with a certificate of coverage. See <Link href="/employee-benefits-in-india-for-foreign-companies" className="text-blue-800 font-semibold hover:underline">employee benefits in India for foreign companies</Link>.
+        </p>
+
 
 
 
@@ -267,7 +282,7 @@ export default function HiringInIndiaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

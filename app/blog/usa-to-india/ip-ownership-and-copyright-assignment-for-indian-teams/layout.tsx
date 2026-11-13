@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "IP Ownership for Indian Teams of US Companies",
   },
   description:
-    "A guide to making sure the US parent owns what the Indian team creates: employment and assignment contracts, the duration and territory defaults in Indian.",
+    "A guide to making sure the US parent owns what the Indian team creates: employment and assignment contracts.",
   alternates: guideAlternates("usa", "ip-ownership"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "IP Ownership for Indian Teams of US Companies",
     description:
-      "A guide to making sure the US parent owns what the Indian team creates: employment and assignment contracts, the duration and territory defaults in Indian.",
+      "A guide to making sure the US parent owns what the Indian team creates: employment and assignment contracts.",
     url: "https://www.theaucorp.com/usa-to-india/ip-ownership-and-copyright-assignment-for-indian-teams",
     locale: "en_US",
   },
   twitter: {
     title: "IP Ownership for Indian Teams of US Companies",
     description:
-      "A guide to making sure the US parent owns what the Indian team creates: employment and assignment contracts, the duration and territory defaults in Indian.",
+      "A guide to making sure the US parent owns what the Indian team creates: employment and assignment contracts.",
   },
 }
 

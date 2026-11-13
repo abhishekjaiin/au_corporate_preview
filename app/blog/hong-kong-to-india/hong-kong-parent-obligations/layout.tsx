@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Hong Kong Parent Obligations: Tax and Reporting",
   },
   description:
-    "The Hong Kong-side steps for a parent investing in India: no outbound approval or exchange controls, company secretary and registers, significant.",
+    "The Hong Kong-side steps for a parent investing in India: no outbound approval or exchange controls, company secretary and registers.",
   alternates: guideAlternates("hongkong", "parent-obligations"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Hong Kong Parent Obligations: Tax and Reporting",
     description:
-      "The Hong Kong-side steps for a parent investing in India: no outbound approval or exchange controls, company secretary and registers, significant.",
+      "The Hong Kong-side steps for a parent investing in India: no outbound approval or exchange controls, company secretary and registers.",
     url: "https://www.theaucorp.com/hong-kong-to-india/hong-kong-parent-obligations",
     locale: "en_HK",
   },
   twitter: {
     title: "Hong Kong Parent Obligations: Tax and Reporting",
     description:
-      "The Hong Kong-side steps for a parent investing in India: no outbound approval or exchange controls, company secretary and registers, significant.",
+      "The Hong Kong-side steps for a parent investing in India: no outbound approval or exchange controls, company secretary and registers.",
   },
 }
 

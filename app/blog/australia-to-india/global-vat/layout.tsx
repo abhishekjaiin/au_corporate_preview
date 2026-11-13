@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Global VAT and GST for Australian Companies Selling Abroad",
   },
   description:
-    "How VAT and GST work for Australian companies selling digital services and goods into Europe, the UK, New Zealand, India and beyond: registration, B2B.",
+    "How VAT and GST work for Australian companies selling digital services and goods into Europe, the UK, New Zealand, India and beyond.",
   alternates: guideAlternates("australia", "global-vat"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Global VAT and GST for Australian Companies Selling Abroad",
     description:
-      "How VAT and GST work for Australian companies selling digital services and goods into Europe, the UK, New Zealand, India and beyond: registration, B2B.",
+      "How VAT and GST work for Australian companies selling digital services and goods into Europe, the UK, New Zealand, India and beyond.",
     url: "https://www.theaucorp.com/australia-to-india/global-vat",
     locale: "en_AU",
   },
   twitter: {
     title: "Global VAT and GST for Australian Companies Selling Abroad",
     description:
-      "How VAT and GST work for Australian companies selling digital services and goods into Europe, the UK, New Zealand, India and beyond: registration, B2B.",
+      "How VAT and GST work for Australian companies selling digital services and goods into Europe, the UK, New Zealand, India and beyond.",
   },
 }
 

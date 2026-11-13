@@ -51,7 +51,7 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
         headline="Manufacturing in India with a Chinese Partner: Approval, Joint Venture Terms, Technology Licences and Local Content"
         description="How Chinese manufacturers approach India: joint ventures with Indian partners, the 60-day fast-track sectors under the amended Press Note 3, incentive schemes, technology licences, supply chains, customs and the practical limits."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-CN"
       />
@@ -67,7 +67,7 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
       <GuideHero
         eyebrow="Model: manufacturing and JV"
         title="Manufacturing in India with a Chinese Partner: Approval, Joint Venture Terms, Technology Licences and Local Content"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -238,7 +238,7 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Chinese
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Chinese
           rules change often; confirm current requirements before acting.
         </p>
       </article>

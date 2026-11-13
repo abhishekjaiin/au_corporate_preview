@@ -55,13 +55,13 @@ export default function EsopIndiaForeignOwnedCompaniesPage() {
         headline={"ESOPs for Employees of Foreign-Owned Indian Companies: Parent Plans, Indian Plans, Valuation and Tax"}
         description={"How foreign groups give equity to Indian employees: parent ESOP and RSU plans, an Indian company ESOP, ESOP valuation, perquisite tax, FEMA and recharges."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "ESOPs in India" }]} />
 
-      <GuideHero eyebrow={"Guide: ESOPs"} title={"ESOPs for Employees of Foreign-Owned Indian Companies: Parent Plans, Indian Plans, Valuation and Tax"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Guide: ESOPs"} title={"ESOPs for Employees of Foreign-Owned Indian Companies: Parent Plans, Indian Plans, Valuation and Tax"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -195,7 +195,7 @@ export default function EsopIndiaForeignOwnedCompaniesPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

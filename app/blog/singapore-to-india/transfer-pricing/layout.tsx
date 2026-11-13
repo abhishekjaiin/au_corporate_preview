@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Transfer Pricing Between Singapore and India",
   },
   description:
-    "How transfer pricing works between Singapore and India: Indian arm's length rules, Form 48, documentation, master file, safe harbours, IRAS routine support.",
+    "How transfer pricing works between Singapore and India: Indian arm's length rules, Form 48, documentation, master file, safe harbours.",
   alternates: guideAlternates("singapore", "transfer-pricing"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Transfer Pricing Between Singapore and India",
     description:
-      "How transfer pricing works between Singapore and India: Indian arm's length rules, Form 48, documentation, master file, safe harbours, IRAS routine support.",
+      "How transfer pricing works between Singapore and India: Indian arm's length rules, Form 48, documentation, master file, safe harbours.",
     url: "https://www.theaucorp.com/singapore-to-india/transfer-pricing",
     locale: "en_SG",
   },
   twitter: {
     title: "Transfer Pricing Between Singapore and India",
     description:
-      "How transfer pricing works between Singapore and India: Indian arm's length rules, Form 48, documentation, master file, safe harbours, IRAS routine support.",
+      "How transfer pricing works between Singapore and India: Indian arm's length rules, Form 48, documentation, master file, safe harbours.",
   },
 }
 

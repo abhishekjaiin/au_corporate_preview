@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Repatriating Profits from India to Singapore",
   },
   description:
-    "How a Singapore parent receives money from an Indian subsidiary: dividends at the treaty rate, fees and royalties at arm's length, interest and ECB.",
+    "How a Singapore parent receives money from an Indian subsidiary: dividends at the treaty rate, fees and royalties at arm's length.",
   alternates: guideAlternates("singapore", "repatriating-profits"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Repatriating Profits from India to Singapore",
     description:
-      "How a Singapore parent receives money from an Indian subsidiary: dividends at the treaty rate, fees and royalties at arm's length, interest and ECB.",
+      "How a Singapore parent receives money from an Indian subsidiary: dividends at the treaty rate, fees and royalties at arm's length.",
     url: "https://www.theaucorp.com/singapore-to-india/repatriating-profits",
     locale: "en_SG",
   },
   twitter: {
     title: "Repatriating Profits from India to Singapore",
     description:
-      "How a Singapore parent receives money from an Indian subsidiary: dividends at the treaty rate, fees and royalties at arm's length, interest and ECB.",
+      "How a Singapore parent receives money from an Indian subsidiary: dividends at the treaty rate, fees and royalties at arm's length.",
   },
 }
 

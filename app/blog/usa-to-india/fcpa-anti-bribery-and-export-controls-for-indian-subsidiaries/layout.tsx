@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "FCPA and US Export Controls for an Indian Subsidiary",
   },
   description:
-    "The compliance rules that follow US law into India: how the Foreign Corrupt Practices Act reaches an Indian subsidiary and its agents, how Indian.",
+    "The compliance rules that follow US law into India: how the Foreign Corrupt Practices Act reaches an Indian subsidiary and its agents.",
   alternates: guideAlternates("usa", "anti-bribery-export-controls"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "FCPA and US Export Controls for an Indian Subsidiary",
     description:
-      "The compliance rules that follow US law into India: how the Foreign Corrupt Practices Act reaches an Indian subsidiary and its agents, how Indian.",
+      "The compliance rules that follow US law into India: how the Foreign Corrupt Practices Act reaches an Indian subsidiary and its agents.",
     url: "https://www.theaucorp.com/usa-to-india/fcpa-anti-bribery-and-export-controls-for-indian-subsidiaries",
     locale: "en_US",
   },
   twitter: {
     title: "FCPA and US Export Controls for an Indian Subsidiary",
     description:
-      "The compliance rules that follow US law into India: how the Foreign Corrupt Practices Act reaches an Indian subsidiary and its agents, how Indian.",
+      "The compliance rules that follow US law into India: how the Foreign Corrupt Practices Act reaches an Indian subsidiary and its agents.",
   },
 }
 

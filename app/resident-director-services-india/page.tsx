@@ -56,13 +56,13 @@ export default function ResidentDirectorServicesIndiaPage() {
         headline={"Resident Director Services in India: A Professional Resident Director for Your Indian Company"}
         description={"Resident director services in India for foreign-owned companies: the Section 149(3) rule, what a professional resident director does and does not do, liability, safeguards and how appointment works."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "Resident Director Services" }]} />
 
-      <GuideHero eyebrow={"Service: resident director"} title={"Resident Director Services in India: A Professional Resident Director for Your Indian Company"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Service: resident director"} title={"Resident Director Services in India: A Professional Resident Director for Your Indian Company"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -225,7 +225,7 @@ export default function ResidentDirectorServicesIndiaPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

@@ -53,7 +53,7 @@ export default function GccForSingaporeCompaniesPage() {
         headline="Setting Up a Global Capability Centre in India for a Singapore Group: Models, Pricing, Tax and Risk"
         description="How Singapore headquartered groups build captive centres in India: build-operate-transfer, captive subsidiary and hybrid models, cost-plus pricing, GST on exports, PE risk, MAS third-party rules and talent."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -69,7 +69,7 @@ export default function GccForSingaporeCompaniesPage() {
       <GuideHero
         eyebrow="Operate: the captive centre"
         title="Setting Up a Global Capability Centre in India for a Singapore Group: Models, Pricing, Tax and Risk"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -254,7 +254,7 @@ export default function GccForSingaporeCompaniesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

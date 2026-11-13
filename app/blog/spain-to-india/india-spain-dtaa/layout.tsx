@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-Spain DTAA for Spanish Companies",
   },
   description:
-    "The India-Spain tax treaty explained for a Spanish parent with India as source state and Spain as residence state: dividend, interest, royalty and technical.",
+    "The India-Spain tax treaty explained for a Spanish parent with India as source state and Spain as residence state.",
   alternates: guideAlternates("spain", "india-dtaa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-Spain DTAA for Spanish Companies",
     description:
-      "The India-Spain tax treaty explained for a Spanish parent with India as source state and Spain as residence state: dividend, interest, royalty and technical.",
+      "The India-Spain tax treaty explained for a Spanish parent with India as source state and Spain as residence state.",
     url: "https://www.theaucorp.com/spain-to-india/india-spain-dtaa",
     locale: "en_ES",
   },
   twitter: {
     title: "India-Spain DTAA for Spanish Companies",
     description:
-      "The India-Spain tax treaty explained for a Spanish parent with India as source state and Spain as residence state: dividend, interest, royalty and technical.",
+      "The India-Spain tax treaty explained for a Spanish parent with India as source state and Spain as residence state.",
   },
 }
 

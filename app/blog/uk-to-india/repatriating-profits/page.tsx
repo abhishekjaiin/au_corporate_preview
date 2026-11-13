@@ -53,7 +53,7 @@ export default function RepatriatingProfitsPage() {
         headline="Getting Money Out of India: How a UK Parent Receives Dividends, Service Fees, Royalties and Loan Repayments"
         description="The routes a UK parent has for taking money out of its Indian subsidiary, with the Indian tax, UK tax, forms and timing for each route."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-GB"
       />
@@ -69,7 +69,7 @@ export default function RepatriatingProfitsPage() {
       <GuideHero
         eyebrow="Repatriation: UK parent"
         title="Getting Money Out of India: How a UK Parent Receives Dividends, Service Fees, Royalties and Loan Repayments"
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -249,7 +249,7 @@ export default function RepatriatingProfitsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

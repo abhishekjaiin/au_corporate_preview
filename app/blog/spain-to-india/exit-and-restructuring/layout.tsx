@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Exit and Restructuring from India for Spanish Groups",
   },
   description:
-    "How a Spanish parent can sell, wind up or restructure an Indian subsidiary: the tax on share gains under the India-Spain treaty, FEMA pricing, buyback.",
+    "How a Spanish parent can sell, wind up or restructure an Indian subsidiary: the tax on share gains under the India-Spain treaty, FEMA pricing.",
   alternates: guideAlternates("spain", "restructuring-and-exit"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Exit and Restructuring from India for Spanish Groups",
     description:
-      "How a Spanish parent can sell, wind up or restructure an Indian subsidiary: the tax on share gains under the India-Spain treaty, FEMA pricing, buyback.",
+      "How a Spanish parent can sell, wind up or restructure an Indian subsidiary: the tax on share gains under the India-Spain treaty, FEMA pricing.",
     url: "https://www.theaucorp.com/spain-to-india/exit-and-restructuring",
     locale: "en_ES",
   },
   twitter: {
     title: "Exit and Restructuring from India for Spanish Groups",
     description:
-      "How a Spanish parent can sell, wind up or restructure an Indian subsidiary: the tax on share gains under the India-Spain treaty, FEMA pricing, buyback.",
+      "How a Spanish parent can sell, wind up or restructure an Indian subsidiary: the tax on share gains under the India-Spain treaty, FEMA pricing.",
   },
 }
 

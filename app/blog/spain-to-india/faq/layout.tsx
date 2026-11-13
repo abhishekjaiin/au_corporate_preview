@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "179 FAQs: Setting Up an India Subsidiary from Spain",
   },
   description:
-    "179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff, data.",
+    "179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff.",
   alternates: guideAlternates("spain", "faq"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "179 FAQs: Setting Up an India Subsidiary from Spain",
     description:
-      "179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff, data.",
+      "179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff.",
     url: "https://www.theaucorp.com/spain-to-india/faq",
     locale: "en_ES",
   },
   twitter: {
     title: "179 FAQs: Setting Up an India Subsidiary from Spain",
     description:
-      "179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff, data.",
+      "179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff.",
   },
 }
 

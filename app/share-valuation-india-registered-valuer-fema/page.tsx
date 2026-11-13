@@ -53,13 +53,13 @@ export default function ShareValuationIndiaRegisteredValuerFemaPage() {
         headline={"Share Valuation in India for Foreign-Owned Companies: Registered Valuer Reports, FEMA Pricing and Income Tax"}
         description={"When an Indian company needs a share valuation, who may sign it and which rules apply: FEMA pricing, Companies Act registered valuer reports and income tax."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "Share Valuation in India" }]} />
 
-      <GuideHero eyebrow={"Guide: share valuation"} title={"Share Valuation in India for Foreign-Owned Companies: Registered Valuer Reports, FEMA Pricing and Income Tax"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Guide: share valuation"} title={"Share Valuation in India for Foreign-Owned Companies: Registered Valuer Reports, FEMA Pricing and Income Tax"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -213,7 +213,7 @@ export default function ShareValuationIndiaRegisteredValuerFemaPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

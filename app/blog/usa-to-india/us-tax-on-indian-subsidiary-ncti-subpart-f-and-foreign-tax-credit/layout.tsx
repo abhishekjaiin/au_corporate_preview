@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "US Tax on an Indian Subsidiary: NCTI and Subpart F",
   },
   description:
-    "The US side of an Indian subsidiary for a US C corporation or pass-through owner: how profits are taxed when earned or when distributed, what changed after.",
+    "The US side of an Indian subsidiary for a US C corporation or pass-through owner: how profits are taxed when earned or when distributed.",
   alternates: guideAlternates("usa", "home-country-tax"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "US Tax on an Indian Subsidiary: NCTI and Subpart F",
     description:
-      "The US side of an Indian subsidiary for a US C corporation or pass-through owner: how profits are taxed when earned or when distributed, what changed after.",
+      "The US side of an Indian subsidiary for a US C corporation or pass-through owner: how profits are taxed when earned or when distributed.",
     url: "https://www.theaucorp.com/usa-to-india/us-tax-on-indian-subsidiary-ncti-subpart-f-and-foreign-tax-credit",
     locale: "en_US",
   },
   twitter: {
     title: "US Tax on an Indian Subsidiary: NCTI and Subpart F",
     description:
-      "The US side of an Indian subsidiary for a US C corporation or pass-through owner: how profits are taxed when earned or when distributed, what changed after.",
+      "The US side of an Indian subsidiary for a US C corporation or pass-through owner: how profits are taxed when earned or when distributed.",
   },
 }
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Repatriating Profits from India to Germany",
   },
   description:
-    "How a German parent receives money from an Indian subsidiary: the flat 10% treaty rate, Section 393 withholding, Forms 41, 145 and 146, German 95%.",
+    "How a German parent receives money from an Indian subsidiary: the flat 10% treaty rate, Section 393 withholding, Forms 41, 145 and 146.",
   alternates: guideAlternates("germany", "repatriating-profits"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Repatriating Profits from India to Germany",
     description:
-      "How a German parent receives money from an Indian subsidiary: the flat 10% treaty rate, Section 393 withholding, Forms 41, 145 and 146, German 95%.",
+      "How a German parent receives money from an Indian subsidiary: the flat 10% treaty rate, Section 393 withholding, Forms 41, 145 and 146.",
     url: "https://www.theaucorp.com/germany-to-india/repatriating-profits",
     locale: "en_DE",
   },
   twitter: {
     title: "Repatriating Profits from India to Germany",
     description:
-      "How a German parent receives money from an Indian subsidiary: the flat 10% treaty rate, Section 393 withholding, Forms 41, 145 and 146, German 95%.",
+      "How a German parent receives money from an Indian subsidiary: the flat 10% treaty rate, Section 393 withholding, Forms 41, 145 and 146.",
   },
 }
 

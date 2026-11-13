@@ -49,7 +49,7 @@ export default function ComplianceCalendarPage() {
         headline="The Compliance Calendar for a UK-Owned Indian Subsidiary, Month by Month, with the UK Parent's Dates Beside It"
         description="A month-by-month compliance calendar for an Indian subsidiary: GST, TDS, provident fund, advance tax, AGM, ROC and RBI filings, mapped against the UK parent's Companies House and HMRC dates."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-GB"
       />
@@ -65,7 +65,7 @@ export default function ComplianceCalendarPage() {
       <GuideHero
         eyebrow="Compliance: calendar"
         title="The Compliance Calendar for a UK-Owned Indian Subsidiary, Month by Month, with the UK Parent's Dates Beside It"
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -289,7 +289,7 @@ export default function ComplianceCalendarPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

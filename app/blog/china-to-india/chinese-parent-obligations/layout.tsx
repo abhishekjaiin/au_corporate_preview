@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Chinese Parent Obligations: ODI and Tax Reporting",
   },
   description:
-    "The Chinese-side steps for a parent investing in India: NDRC and MOFCOM outbound investment approval or filing, SAFE foreign exchange registration through.",
+    "The Chinese-side steps for a parent investing in India: NDRC and MOFCOM outbound investment approval or filing.",
   alternates: guideAlternates("china", "parent-obligations"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Chinese Parent Obligations: ODI and Tax Reporting",
     description:
-      "The Chinese-side steps for a parent investing in India: NDRC and MOFCOM outbound investment approval or filing, SAFE foreign exchange registration through.",
+      "The Chinese-side steps for a parent investing in India: NDRC and MOFCOM outbound investment approval or filing.",
     url: "https://www.theaucorp.com/china-to-india/chinese-parent-obligations",
     locale: "en_CN",
   },
   twitter: {
     title: "Chinese Parent Obligations: ODI and Tax Reporting",
     description:
-      "The Chinese-side steps for a parent investing in India: NDRC and MOFCOM outbound investment approval or filing, SAFE foreign exchange registration through.",
+      "The Chinese-side steps for a parent investing in India: NDRC and MOFCOM outbound investment approval or filing.",
   },
 }
 

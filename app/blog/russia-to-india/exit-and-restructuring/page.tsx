@@ -58,7 +58,7 @@ export default function ExitAndRestructuringPage() {
         headline="Exiting an Indian Subsidiary from Russia: Share Sale, Buy-Back, Merger, Voluntary Liquidation and Tax on the Exit"
         description="How a Russian parent exits or restructures an Indian business: sale of shares, buyer sanctions checks, FEMA pricing, FC-TRS, capital gains tax, buy-back, merger, voluntary liquidation, strike-off, the treaty position and bringing proceeds home."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -74,7 +74,7 @@ export default function ExitAndRestructuringPage() {
       <GuideHero
         eyebrow="Exit: sale and closure"
         title="Exiting an Indian Subsidiary from Russia: Share Sale, Buy-Back, Merger, Voluntary Liquidation and Tax on the Exit"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -268,7 +268,7 @@ export default function ExitAndRestructuringPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

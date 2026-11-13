@@ -58,13 +58,13 @@ export default function EuropeToIndiaPage() {
         headline={"Setting Up a Subsidiary in India from the Netherlands and Europe: An EU Guide"}
         description={"How Dutch, German, French, Spanish and other European companies set up a subsidiary in India: the Dutch BV route, tax treaties, social security agreements, the India-EU FTA, GDPR transfers and setup steps."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "Europe to India" }]} />
 
-      <GuideHero eyebrow={"Regional guide: Europe to India"} title={"Setting Up a Subsidiary in India from the Netherlands and Europe: An EU Guide"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Regional guide: Europe to India"} title={"Setting Up a Subsidiary in India from the Netherlands and Europe: An EU Guide"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -217,7 +217,7 @@ export default function EuropeToIndiaPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

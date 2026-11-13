@@ -51,7 +51,7 @@ export default function DataProtectionGdprDpdpPage() {
         headline="Moving Personal Data Between Germany and India: GDPR Transfer Rules, Works Councils and the DPDP Act"
         description="How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary: standard contractual clauses, transfer impact assessments, employee data, works council rights, breach notice and penalties."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -67,7 +67,7 @@ export default function DataProtectionGdprDpdpPage() {
       <GuideHero
         eyebrow="Data: GDPR and DPDP"
         title="Moving Personal Data Between Germany and India: GDPR Transfer Rules, Works Councils and the DPDP Act"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -244,7 +244,7 @@ export default function DataProtectionGdprDpdpPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and German
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and German
           rules change often; confirm current requirements before acting.
         </p>
       </article>

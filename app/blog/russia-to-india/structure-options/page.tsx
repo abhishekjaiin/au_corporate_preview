@@ -61,7 +61,7 @@ export default function StructureOptionsPage() {
         headline="Choosing an Indian Structure for a Russian Parent: Private Limited, LLP, Branch, Liaison Office, Project Office and Joint Venture"
         description="Compare Indian structures for a Russian company: wholly owned private limited company, LLP, branch, liaison and project office, and joint venture, with tax, approval, liability, sanctions and exit points."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -77,7 +77,7 @@ export default function StructureOptionsPage() {
       <GuideHero
         eyebrow="Setup: structure"
         title="Choosing an Indian Structure for a Russian Parent: Private Limited, LLP, Branch, Liaison Office, Project Office and Joint Venture"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -283,7 +283,7 @@ export default function StructureOptionsPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

@@ -87,7 +87,7 @@ export default function UsaToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from the USA: The 2026 Guide"
         description="How US companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, tax and compliance. By a Chartered Accountant."
         datePublished="2026-10-07"
-        dateModified="2026-10-14"
+        dateModified="2026-11-13"
       />
 
       <Breadcrumb
@@ -100,7 +100,7 @@ export default function UsaToIndiaHubPage() {
         eyebrow="Guide for US companies"
         title="How to Set Up a Subsidiary in India from the USA: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, tax and compliance for US companies entering India — in plain terms, with the form names your advisers will use."
-        updated="14 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -507,7 +507,7 @@ export default function UsaToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 14 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

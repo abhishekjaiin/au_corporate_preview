@@ -48,13 +48,13 @@ export default function NewLabourCodesIndia50PercentWageRuleGratuityPage() {
         headline={"India's New Labour Codes for Employers: The 50% Wage Rule, Gratuity and What Changed"}
         description={"What India's four labour codes, in force since 21 November 2025, mean for employers: the 50% wage rule, gratuity for fixed-term staff, wage payment deadlines, working hours and retrenchment thresholds."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "New Labour Codes" }]} />
 
-      <GuideHero eyebrow={"Employment law update"} title={"India's New Labour Codes for Employers: The 50% Wage Rule, Gratuity and What Changed"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Employment law update"} title={"India's New Labour Codes for Employers: The 50% Wage Rule, Gratuity and What Changed"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -162,7 +162,7 @@ export default function NewLabourCodesIndia50PercentWageRuleGratuityPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

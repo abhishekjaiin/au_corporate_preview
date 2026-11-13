@@ -44,6 +44,9 @@ const toc = [
 ]
 
 const seriesCards = [
+  { title: "Data Protection for Japanese Companies in India: APPI and DPDP", desc: "How Japan's APPI and India's DPDP Act apply when a Japanese company runs an Indian subsidiary: transfers to India, contracts, the DPDP Rules 2025 timeline and practical steps.", href: "/japan-to-india/data-protection-appi-dpdp" },
+  { title: "GCC Setup in India for Japanese Companies (2026 Guide)", desc: "How Japanese companies set up a GCC in India: own centre or BOT, Japanese-language bridge roles, cities, cost-plus transfer pricing, data rules and the ringi timeline.", href: "/japan-to-india/gcc-for-japanese-companies" },
+  { title: "India-Japan CEPA: What It Means for Japanese Companies", desc: "How the India-Japan Comprehensive Economic Partnership Agreement affects Japanese companies: tariff cuts, rules of origin, certificates, services, investment and what it does not change.", href: "/japan-to-india/india-japan-cepa" },
   { title: "Subsidiary, branch, liaison office or LLP", desc: "Which vehicle fits a KK or GK entering India.", href: "/japan-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp" },
   { title: "Incorporation process from Japan", desc: "Three phases across Japan and India, in order.", href: "/japan-to-india/incorporation-process" },
   { title: "Documents and apostille from Japan", desc: "Notary, Legal Affairs Bureau, MOFA and translation.", href: "/japan-to-india/documents-and-apostille" },
@@ -84,7 +87,7 @@ export default function JapanToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Japan: The 2026 Guide"
         description="How Japanese companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, tax and compliance. By a Chartered Accountant."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         inLanguage="en-JP"
       />
 
@@ -98,7 +101,7 @@ export default function JapanToIndiaHubPage() {
         eyebrow="Guide for Japanese companies"
         title="How to Set Up a Subsidiary in India from Japan: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, the India-Japan tax treaty and social security, and compliance for Japanese companies (KK and GK) entering India, in plain terms."
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -507,7 +510,7 @@ export default function JapanToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

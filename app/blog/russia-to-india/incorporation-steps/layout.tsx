@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Incorporating an Indian Subsidiary from Russia",
   },
   description:
-    "Step-by-step route for a Russian parent to set up an Indian private limited company: ownership and sanctions checks, name, SPICe+, DIN and DSC, resident.",
+    "Step-by-step route for a Russian parent to set up an Indian private limited company: ownership and sanctions checks, name, SPICe+, DIN and DSC.",
   alternates: guideAlternates("russia", "incorporation-process"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Incorporating an Indian Subsidiary from Russia",
     description:
-      "Step-by-step route for a Russian parent to set up an Indian private limited company: ownership and sanctions checks, name, SPICe+, DIN and DSC, resident.",
+      "Step-by-step route for a Russian parent to set up an Indian private limited company: ownership and sanctions checks, name, SPICe+, DIN and DSC.",
     url: "https://www.theaucorp.com/russia-to-india/incorporation-steps",
     locale: "en_RU",
   },
   twitter: {
     title: "Incorporating an Indian Subsidiary from Russia",
     description:
-      "Step-by-step route for a Russian parent to set up an Indian private limited company: ownership and sanctions checks, name, SPICe+, DIN and DSC, resident.",
+      "Step-by-step route for a Russian parent to set up an Indian private limited company: ownership and sanctions checks, name, SPICe+, DIN and DSC.",
   },
 }
 

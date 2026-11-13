@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "UK Employees in India: Tax and Social Security",
   },
   description:
-    "How the India-UK tax treaty (Articles 15 and 16), Indian tax residence, provident fund and the 2026 India-UK Double Contributions Convention apply to UK.",
+    "How the India-UK tax treaty, Indian tax residence, provident fund and the 2026 Double Contributions Convention apply to UK employees working in India.",
   alternates: guideAlternates("uk", "foreign-employee-treaty-ssa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "UK Employees in India: Tax and Social Security",
     description:
-      "How the India-UK tax treaty (Articles 15 and 16), Indian tax residence, provident fund and the 2026 India-UK Double Contributions Convention apply to UK.",
+      "How the India-UK tax treaty, Indian tax residence, provident fund and the 2026 Double Contributions Convention apply to UK employees working in India.",
     url: "https://www.theaucorp.com/uk-to-india/uk-employees-in-india-dcc",
     locale: "en_GB",
   },
   twitter: {
     title: "UK Employees in India: Tax and Social Security",
     description:
-      "How the India-UK tax treaty (Articles 15 and 16), Indian tax residence, provident fund and the 2026 India-UK Double Contributions Convention apply to UK.",
+      "How the India-UK tax treaty, Indian tax residence, provident fund and the 2026 Double Contributions Convention apply to UK employees working in India.",
   },
 }
 

@@ -84,7 +84,7 @@ export default function SingaporeToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Singapore: The 2026 Guide"
         description="How Singapore companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Singapore tax treaty, holding companies, staff and compliance. By a Chartered Accountant."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         inLanguage="en-SG"
       />
 
@@ -98,7 +98,7 @@ export default function SingaporeToIndiaHubPage() {
         eyebrow="Guide for Singapore companies"
         title="How to Set Up a Subsidiary in India from Singapore: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, the India-Singapore treaty, CECA and holding structures for Singapore companies entering India, in plain terms."
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -591,7 +591,7 @@ export default function SingaporeToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

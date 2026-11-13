@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Sending German Employees to India: Visas and Tax",
   },
   description:
-    "What a German company must plan when sending staff to India: employment visa rules, FRRO registration, 183-day tax test, Section 392 salary tax, the Social.",
+    "What a German company must plan when sending staff to India: employment visa rules, FRRO registration, 183-day tax test, Section 392 salary tax.",
   alternates: guideAlternates("germany", "expat-visa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Sending German Employees to India: Visas and Tax",
     description:
-      "What a German company must plan when sending staff to India: employment visa rules, FRRO registration, 183-day tax test, Section 392 salary tax, the Social.",
+      "What a German company must plan when sending staff to India: employment visa rules, FRRO registration, 183-day tax test, Section 392 salary tax.",
     url: "https://www.theaucorp.com/germany-to-india/relocate-german-staff",
     locale: "en_DE",
   },
   twitter: {
     title: "Sending German Employees to India: Visas and Tax",
     description:
-      "What a German company must plan when sending staff to India: employment visa rules, FRRO registration, 183-day tax test, Section 392 salary tax, the Social.",
+      "What a German company must plan when sending staff to India: employment visa rules, FRRO registration, 183-day tax test, Section 392 salary tax.",
   },
 }
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "UK Parent Obligations for an Indian Subsidiary",
   },
   description:
-    "The UK-side tax and compliance duties of a parent with an Indian subsidiary: dividend exemption, CFC rules, foreign tax credit, UK transfer pricing, Pillar.",
+    "The UK-side tax and compliance duties of a parent with an Indian subsidiary: dividend exemption, CFC rules, foreign tax credit, UK transfer pricing.",
   alternates: guideAlternates("uk", "parent-obligations"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "UK Parent Obligations for an Indian Subsidiary",
     description:
-      "The UK-side tax and compliance duties of a parent with an Indian subsidiary: dividend exemption, CFC rules, foreign tax credit, UK transfer pricing, Pillar.",
+      "The UK-side tax and compliance duties of a parent with an Indian subsidiary: dividend exemption, CFC rules, foreign tax credit, UK transfer pricing.",
     url: "https://www.theaucorp.com/uk-to-india/uk-parent-reporting",
     locale: "en_GB",
   },
   twitter: {
     title: "UK Parent Obligations for an Indian Subsidiary",
     description:
-      "The UK-side tax and compliance duties of a parent with an Indian subsidiary: dividend exemption, CFC rules, foreign tax credit, UK transfer pricing, Pillar.",
+      "The UK-side tax and compliance duties of a parent with an Indian subsidiary: dividend exemption, CFC rules, foreign tax credit, UK transfer pricing.",
   },
 }
 

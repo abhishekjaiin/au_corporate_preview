@@ -48,7 +48,7 @@ export default function CommonMistakesPage() {
         headline="Twelve Common Mistakes Hong Kong Companies Make in India and How to Avoid Them"
         description="The most common mistakes of Hong Kong companies entering India: skipping Press Note 3, thin hub structures, late FEMA filings, weak treaty paperwork, secondment tax errors, stale apostilles, unstamped contracts and ignoring the Indian calendar."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -64,7 +64,7 @@ export default function CommonMistakesPage() {
       <GuideHero
         eyebrow="Risk: common mistakes"
         title="Twelve Common Mistakes Hong Kong Companies Make in India and How to Avoid Them"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -244,7 +244,7 @@ export default function CommonMistakesPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

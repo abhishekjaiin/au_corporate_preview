@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Chinese Employees in India: Tax and Provident Fund",
   },
   description:
-    "What a Chinese employer must plan for staff in India: the 183-day treaty test, Section 392 salary tax, residence rules, EPF contributions for international.",
+    "What a Chinese employer must plan for staff in India: the 183-day treaty test, Section 392 salary tax, residence rules.",
   alternates: guideAlternates("china", "foreign-employee-treaty-ssa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Chinese Employees in India: Tax and Provident Fund",
     description:
-      "What a Chinese employer must plan for staff in India: the 183-day treaty test, Section 392 salary tax, residence rules, EPF contributions for international.",
+      "What a Chinese employer must plan for staff in India: the 183-day treaty test, Section 392 salary tax, residence rules.",
     url: "https://www.theaucorp.com/china-to-india/chinese-employees-in-india",
     locale: "en_CN",
   },
   twitter: {
     title: "Chinese Employees in India: Tax and Provident Fund",
     description:
-      "What a Chinese employer must plan for staff in India: the 183-day treaty test, Section 392 salary tax, residence rules, EPF contributions for international.",
+      "What a Chinese employer must plan for staff in India: the 183-day treaty test, Section 392 salary tax, residence rules.",
   },
 }
 

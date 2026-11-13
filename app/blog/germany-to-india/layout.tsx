@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Set Up a Subsidiary in India from Germany: 2026 Guide",
   },
   description:
-    "How German companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Germany tax treaty, social security.",
+    "How German companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Germany tax treaty.",
   alternates: guideAlternates("germany", "hub"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Set Up a Subsidiary in India from Germany: 2026 Guide",
     description:
-      "How German companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Germany tax treaty, social security.",
+      "How German companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Germany tax treaty.",
     url: "https://www.theaucorp.com/germany-to-india",
     locale: "en_DE",
   },
   twitter: {
     title: "Set Up a Subsidiary in India from Germany: 2026 Guide",
     description:
-      "How German companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Germany tax treaty, social security.",
+      "How German companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Germany tax treaty.",
   },
 }
 

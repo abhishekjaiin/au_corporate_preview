@@ -57,7 +57,7 @@ export default function RestructuringAndExitPage() {
         headline="Restructuring, Mergers and Exit: Your Options for an Indian Subsidiary"
         description="Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback, strike-off and liquidation."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -73,7 +73,7 @@ export default function RestructuringAndExitPage() {
       <GuideHero
         eyebrow="Scale and exit"
         title="Restructuring, Mergers and Exit: Your Options for an Indian Subsidiary"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -228,7 +228,7 @@ export default function RestructuringAndExitPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

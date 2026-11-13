@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Selling, Restructuring or Closing an Indian Subsidiary",
   },
   description:
-    "How a UK parent can sell, merge, restructure or close an Indian subsidiary: share sale, slump sale, merger, buyback and winding up, with Indian tax, RBI.",
+    "How a UK parent can sell, merge, restructure or close an Indian subsidiary: share sale, slump sale, merger, buyback and winding up, with Indian tax.",
   alternates: guideAlternates("uk", "restructuring-and-exit"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Selling, Restructuring or Closing an Indian Subsidiary",
     description:
-      "How a UK parent can sell, merge, restructure or close an Indian subsidiary: share sale, slump sale, merger, buyback and winding up, with Indian tax, RBI.",
+      "How a UK parent can sell, merge, restructure or close an Indian subsidiary: share sale, slump sale, merger, buyback and winding up, with Indian tax.",
     url: "https://www.theaucorp.com/uk-to-india/exit-and-restructuring",
     locale: "en_GB",
   },
   twitter: {
     title: "Selling, Restructuring or Closing an Indian Subsidiary",
     description:
-      "How a UK parent can sell, merge, restructure or close an Indian subsidiary: share sale, slump sale, merger, buyback and winding up, with Indian tax, RBI.",
+      "How a UK parent can sell, merge, restructure or close an Indian subsidiary: share sale, slump sale, merger, buyback and winding up, with Indian tax.",
   },
 }
 

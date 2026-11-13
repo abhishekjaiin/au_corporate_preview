@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-Japan Tax Treaty and Permanent Establishment Risk",
   },
   description:
-    "How the India-Japan tax treaty applies to payments to your Japanese parent: 10% Withholding Tax rates, residence certificate, Form 41 and permanent.",
+    "How the India-Japan tax treaty applies to payments to your Japanese parent: 10% Withholding Tax rates, residence certificate.",
   alternates: guideAlternates("japan", "dtaa-pe-risk"),
   openGraph: {
     type: "article",
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-Japan Tax Treaty and Permanent Establishment Risk",
     description:
-      "How the India-Japan tax treaty applies to payments to your Japanese parent: 10% Withholding Tax rates, residence certificate, Form 41 and permanent.",
+      "How the India-Japan tax treaty applies to payments to your Japanese parent: 10% Withholding Tax rates, residence certificate.",
     url: "https://www.theaucorp.com/japan-to-india/dtaa-pe-risk",
   },
   twitter: {
     title: "India-Japan Tax Treaty and Permanent Establishment Risk",
     description:
-      "How the India-Japan tax treaty applies to payments to your Japanese parent: 10% Withholding Tax rates, residence certificate, Form 41 and permanent.",
+      "How the India-Japan tax treaty applies to payments to your Japanese parent: 10% Withholding Tax rates, residence certificate.",
   },
 }
 

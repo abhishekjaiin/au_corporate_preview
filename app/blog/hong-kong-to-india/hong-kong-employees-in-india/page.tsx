@@ -52,7 +52,7 @@ export default function HongKongEmployeesInIndiaPage() {
         headline="Hong Kong Employees in India: Salary Tax, the MPF Position and EPF for International Workers"
         description="What a Hong Kong employer must plan for staff in India: Indian salary tax and the treaty day-count test, Hong Kong salaries tax, MPF, EPF for international workers because there is no social security agreement, and secondment contracts."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -68,7 +68,7 @@ export default function HongKongEmployeesInIndiaPage() {
       <GuideHero
         eyebrow="People: tax and social security"
         title="Hong Kong Employees in India: Salary Tax, the MPF Position and EPF for International Workers"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -242,7 +242,7 @@ export default function HongKongEmployeesInIndiaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

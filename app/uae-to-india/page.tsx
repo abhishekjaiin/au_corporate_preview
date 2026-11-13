@@ -69,13 +69,13 @@ export default function UaeToIndiaPage() {
         headline={"How to Set Up a Company in India from Dubai and the UAE: The 2026 Guide for UAE Businesses and Founders"}
         description={"How UAE companies, free zone entities and UAE-based founders set up a company in India: structure, FDI route, documents, the India-UAE tax treaty and CEPA, banking in dirhams and rupees, compliance and cost."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en-AE"
       />
 
       <Breadcrumb items={[{ label: "UAE to India" }]} />
 
-      <GuideHero eyebrow={"Country guide: UAE to India"} title={"How to Set Up a Company in India from Dubai and the UAE: The 2026 Guide for UAE Businesses and Founders"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Country guide: UAE to India"} title={"How to Set Up a Company in India from Dubai and the UAE: The 2026 Guide for UAE Businesses and Founders"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -339,7 +339,7 @@ export default function UaeToIndiaPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

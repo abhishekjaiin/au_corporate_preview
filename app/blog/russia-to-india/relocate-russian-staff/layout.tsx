@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Relocating Russian Staff to India",
   },
   description:
-    "How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor, FRRO registration within 14.",
+    "How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor.",
   alternates: guideAlternates("russia", "expat-visa"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Relocating Russian Staff to India",
     description:
-      "How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor, FRRO registration within 14.",
+      "How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor.",
     url: "https://www.theaucorp.com/russia-to-india/relocate-russian-staff",
     locale: "en_RU",
   },
   twitter: {
     title: "Relocating Russian Staff to India",
     description:
-      "How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor, FRRO registration within 14.",
+      "How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor.",
   },
 }
 

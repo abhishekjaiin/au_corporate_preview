@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "NRI and OCI Founders of US Companies in India",
   },
   description:
-    "How the status of the founder changes the plan: how FEMA treats NRIs, OCI cardholders and US citizens of Indian origin, the repatriable and non-repatriable.",
+    "How the status of the founder changes the plan: how FEMA treats NRIs, OCI cardholders and US citizens of Indian origin.",
   alternates: guideAlternates("usa", "nri-oci-founders"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "NRI and OCI Founders of US Companies in India",
     description:
-      "How the status of the founder changes the plan: how FEMA treats NRIs, OCI cardholders and US citizens of Indian origin, the repatriable and non-repatriable.",
+      "How the status of the founder changes the plan: how FEMA treats NRIs, OCI cardholders and US citizens of Indian origin.",
     url: "https://www.theaucorp.com/usa-to-india/nri-and-oci-founders-of-us-companies-investing-in-india",
     locale: "en_US",
   },
   twitter: {
     title: "NRI and OCI Founders of US Companies in India",
     description:
-      "How the status of the founder changes the plan: how FEMA treats NRIs, OCI cardholders and US citizens of Indian origin, the repatriable and non-repatriable.",
+      "How the status of the founder changes the plan: how FEMA treats NRIs, OCI cardholders and US citizens of Indian origin.",
   },
 }
 

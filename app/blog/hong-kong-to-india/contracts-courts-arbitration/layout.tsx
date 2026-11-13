@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "India-Hong Kong Contracts, Courts and Arbitration",
   },
   description:
-    "How to draft and enforce contracts between a Hong Kong company and Indian counterparties: governing law, HKIAC or SIAC seats, Hong Kong as a reciprocating.",
+    "How to draft and enforce contracts between a Hong Kong company and Indian counterparties: governing law, HKIAC or SIAC seats.",
   alternates: guideAlternates("hongkong", "contracts-and-arbitration"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "India-Hong Kong Contracts, Courts and Arbitration",
     description:
-      "How to draft and enforce contracts between a Hong Kong company and Indian counterparties: governing law, HKIAC or SIAC seats, Hong Kong as a reciprocating.",
+      "How to draft and enforce contracts between a Hong Kong company and Indian counterparties: governing law, HKIAC or SIAC seats.",
     url: "https://www.theaucorp.com/hong-kong-to-india/contracts-courts-arbitration",
     locale: "en_HK",
   },
   twitter: {
     title: "India-Hong Kong Contracts, Courts and Arbitration",
     description:
-      "How to draft and enforce contracts between a Hong Kong company and Indian counterparties: governing law, HKIAC or SIAC seats, Hong Kong as a reciprocating.",
+      "How to draft and enforce contracts between a Hong Kong company and Indian counterparties: governing law, HKIAC or SIAC seats.",
   },
 }
 

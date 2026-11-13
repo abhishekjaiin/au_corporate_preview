@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: "Exit and Restructuring in India for a Hong Kong Parent",
   },
   description:
-    "How a Hong Kong parent exits or restructures an Indian business: sale of shares, FEMA pricing, FC-TRS, capital gains tax, buy-back, merger, voluntary.",
+    "How a Hong Kong parent exits or restructures an Indian business: sale of shares, FEMA pricing, FC-TRS, capital gains tax, buy-back, merger.",
   alternates: guideAlternates("hongkong", "restructuring-and-exit"),
   openGraph: {
     type: "article",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Exit and Restructuring in India for a Hong Kong Parent",
     description:
-      "How a Hong Kong parent exits or restructures an Indian business: sale of shares, FEMA pricing, FC-TRS, capital gains tax, buy-back, merger, voluntary.",
+      "How a Hong Kong parent exits or restructures an Indian business: sale of shares, FEMA pricing, FC-TRS, capital gains tax, buy-back, merger.",
     url: "https://www.theaucorp.com/hong-kong-to-india/exit-and-restructuring",
     locale: "en_HK",
   },
   twitter: {
     title: "Exit and Restructuring in India for a Hong Kong Parent",
     description:
-      "How a Hong Kong parent exits or restructures an Indian business: sale of shares, FEMA pricing, FC-TRS, capital gains tax, buy-back, merger, voluntary.",
+      "How a Hong Kong parent exits or restructures an Indian business: sale of shares, FEMA pricing, FC-TRS, capital gains tax, buy-back, merger.",
   },
 }
 

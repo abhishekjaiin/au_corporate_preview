@@ -64,7 +64,7 @@ export default function TransferPricingPage() {
         headline="Transfer Pricing Between a German Parent and an Indian Subsidiary: What India Requires and Where Germany Differs"
         description="How transfer pricing works between Germany and India: Indian arm's length rules and Form 48, German documentation duties, the function transfer rules, APAs and the mutual agreement route."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -80,7 +80,7 @@ export default function TransferPricingPage() {
       <GuideHero
         eyebrow="Tax: transfer pricing"
         title="Transfer Pricing Between a German Parent and an Indian Subsidiary: What India Requires and Where Germany Differs"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -281,7 +281,7 @@ export default function TransferPricingPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

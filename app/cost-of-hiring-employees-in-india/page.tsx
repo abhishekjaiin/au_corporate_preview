@@ -47,13 +47,13 @@ export default function CostOfHiringEmployeesInIndiaPage() {
         headline={"Cost of Hiring Employees in India: Salary, Statutory Contributions and the True Employer Cost"}
         description={"What an employee really costs in India: CTC, employer provident fund, ESI, gratuity, bonus, insurance, recruitment and office costs, with worked examples at three salary levels."}
         datePublished="2026-11-07"
-        dateModified="2026-11-07"
+        dateModified="2026-11-13"
         inLanguage="en"
       />
 
       <Breadcrumb items={[{ label: "Cost of Hiring Employees" }]} />
 
-      <GuideHero eyebrow={"Hiring and payroll costs"} title={"Cost of Hiring Employees in India: Salary, Statutory Contributions and the True Employer Cost"} updated="7 November 2026" />
+      <GuideHero eyebrow={"Hiring and payroll costs"} title={"Cost of Hiring Employees in India: Salary, Statutory Contributions and the True Employer Cost"} updated="13 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
@@ -172,7 +172,7 @@ export default function CostOfHiringEmployeesInIndiaPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 7 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change often; confirm current requirements before acting.
         </p>
       </article>
 

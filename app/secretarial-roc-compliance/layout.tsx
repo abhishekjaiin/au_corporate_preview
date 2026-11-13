@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     absolute: "Secretarial and ROC Compliance for Indian Subsidiaries",
   },
   description:
-    "Board meetings, AGM, ROC filings, MCA notices, registered office shifting, mergers, winding up and resident director support for your Indian subsidiary.",
+    "Board meetings, AGM, ROC filings, MCA notices, office shifting and resident director support for Indian subsidiaries. CA-led, free consultation.",
   alternates: {
     canonical: "https://www.theaucorp.com/secretarial-roc-compliance",
   },
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     siteName: "AU Corporate",
     title: "Secretarial and ROC Compliance for Indian Subsidiaries",
     description:
-      "Board meetings, AGM, ROC filings, MCA notices, registered office shifting, mergers, winding up and resident director support for your Indian subsidiary.",
+      "Board meetings, AGM, ROC filings, MCA notices, office shifting and resident director support for Indian subsidiaries. CA-led, free consultation.",
     url: "https://www.theaucorp.com/secretarial-roc-compliance",
   },
   twitter: {
     title: "Secretarial and ROC Compliance for Indian Subsidiaries",
     description:
-      "Board meetings, AGM, ROC filings, MCA notices, registered office shifting, mergers, winding up and resident director support for your Indian subsidiary.",
+      "Board meetings, AGM, ROC filings, MCA notices, office shifting and resident director support for Indian subsidiaries. CA-led, free consultation.",
   },
 }
 
