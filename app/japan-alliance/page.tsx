@@ -113,7 +113,7 @@ export default function JapanAlliancePage() {
         <blockquote lang="ja" className="border-l-4 border-gold bg-[#fffbe6] p-4 mb-4 text-gray-700">
           <p className="mb-2">日本橋国際会計事務所は、2026年10月19日付で、インド・ニューデリーに本拠を置く会計事務所 AU Corporate（AU Corporate Private Limited）と、日本とインドの間の進出支援に関する業務提携の覚書（MOU）を締結いたしました。</p>
           <p className="mb-2">本提携により、インドへの進出・事業拡大をお考えの日本企業の皆様、また日本への進出をお考えのインド企業の皆様に対し、両国の専門家が連携して、会社設立から会計・税務・各種コンプライアンス対応まで、一貫したサポートをご提供してまいります。</p>
-          <footer className="text-sm text-gray-500"><span lang="en">From Nihon-bashi International Accounting Firm&apos;s announcement, 1 November 2026.</span></footer>
+          <footer className="text-sm text-gray-500"><span lang="en">From Nihon-bashi International Accounting Firm&apos;s announcement, 1 November 2026. <Link href="/ja/japan-alliance" className="text-blue-800 font-semibold hover:underline">Read our announcement in Japanese</Link>.</span></footer>
         </blockquote>
 
         <h2 id="nihonbashi" className="text-2xl font-bold text-gray-900 mt-12 mb-4">About Nihon-bashi International Accounting Firm</h2>
