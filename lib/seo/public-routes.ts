@@ -69,6 +69,7 @@ export const publicPages: PublicPage[] = [
   { path: "/funding-instruments-india-ccd-ccps-convertible-notes", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-11-13" },
   { path: "/press-note-3-approval-india", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-11-13" },
   { path: "/employee-benefits-in-india-for-foreign-companies", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-11-13" },
+  { path: "/free-consultation", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-11-13" },
   { path: "/japan-alliance", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-11-13" },
   { path: "/ja/japan-alliance", priority: 0.7, changeFrequency: "yearly", lastModified: "2026-11-13" },
   { path: "/gcc-setup-india", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-10-23" },

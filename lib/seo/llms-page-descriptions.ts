@@ -343,4 +343,5 @@ export const pageMeta: Record<string, PageMeta> = {
   "/japan-to-india/data-protection-appi-dpdp": { title: "Data Protection for Japanese Companies in India: APPI and DPDP", description: "How Japan's APPI and India's DPDP Act apply when a Japanese company runs an Indian subsidiary: transfers, contracts and the 2027 timeline." },
   "/japan-alliance": { title: "Japan–India Alliance: AU Corporate and Nihon-bashi CPA Firm", description: "AU Corporate (New Delhi) and Nihon-bashi International Accounting Firm (Tokyo) signed an MOU on 19 October 2026 to support Japan–India market entry." },
   "/ja/japan-alliance": { title: "日本橋国際会計事務所との業務提携に関するお知らせ (Japanese announcement of the Japan–India alliance)", description: "Japanese-language notice: AU Corporate and Nihon-bashi International Accounting Firm (日本橋国際会計事務所, Tokyo) signed an MOU on 19 October 2026 for Japan–India market entry support." },
+  "/free-consultation": { title: "Free Consultation: India Company Setup", description: "Book a free consultation with an AU Corporate Chartered Accountant on setting up and running a company in India: structure, timeline, compliance and a fixed quote." },
 }

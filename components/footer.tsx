@@ -32,6 +32,7 @@ const companyLinks = [
   { label: "Partners", href: "/partners/uniproasia" },
   { label: "Careers", href: "/career" },
   { label: "Contact", href: "/contact" },
+  { label: "Free Consultation", href: "/free-consultation" },
 ]
 
 /* Compliance pages for each foreign entity type. Linked site-wide so search

@@ -3,6 +3,7 @@
 import { useEffect, useId, useState } from "react"
 import { CalendarCheck, CheckCircle2, MessageCircle } from "lucide-react"
 import { getStoredAttribution } from "@/lib/attribution"
+import { markLeadSubmitted } from "@/lib/lead-popup"
 import { LEAD_NEEDS, LEAD_TIMELINES, countryFromPath, needFromPath, trackEvent } from "@/lib/lead-context"
 
 export const WEB3FORMS_ACCESS_KEY = "7f7b220d-2540-451d-88ba-6b6f878ec151"
@@ -73,6 +74,7 @@ export function Web3Form({ compact = false }: { compact?: boolean } = {}) {
           email: String(formData.get("email") || ""),
           need: chosenNeed,
         })
+        markLeadSubmitted()
         setStatus("success")
         form.reset()
       } else {

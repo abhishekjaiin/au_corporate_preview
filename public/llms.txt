@@ -18,6 +18,7 @@ Full page index (every page on the site, not just the curated list below): https
 - [India Subsidiary Registration](https://www.theaucorp.com/india-subsidiary-registration): AU Corporate's incorporation service for foreign companies, with fees and process
 - [About](https://www.theaucorp.com/about): Firm background, team, and credentials
 - [Contact](https://www.theaucorp.com/contact): Contact details and inquiry form
+- [Free Consultation](https://www.theaucorp.com/free-consultation): Book a free first consultation with a Chartered Accountant on India entry and compliance
 - [Compliance Calendar](https://www.theaucorp.com/compliance-calendar): Monthly, quarterly, annual and event-based filing calendar for a foreign-owned Indian subsidiary
 - [Blog](https://www.theaucorp.com/blog): Regulatory explainers and India business guides
 - [Insights](https://www.theaucorp.com/insights): AU Corporate's published regulatory and compliance insights
