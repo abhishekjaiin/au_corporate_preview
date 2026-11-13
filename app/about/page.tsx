@@ -317,6 +317,23 @@ export default function AboutPage() {
         </section>
       )}
 
+      {/* ALLIANCES */}
+      <section className="py-14 bg-gray-50">
+        <div className="mx-auto max-w-5xl px-4">
+          <h2 className="mb-4 text-2xl font-bold text-[#081a42] sm:text-3xl">International Alliances</h2>
+          <p className="text-gray-600 leading-relaxed">
+            <strong>Japan:</strong> On 19 October 2026, AU Corporate signed an MOU with Nihon-bashi International Accounting
+            Firm (日本橋国際会計事務所), a Tokyo firm of Japanese CPAs and tax accountants, for market-entry support between
+            Japan and India. Japanese companies can start in Japanese in Tokyo, and AU Corporate handles incorporation,
+            tax and compliance in India. The firms are independent, and each contracts directly for its own country.{" "}
+            <Link href="/japan-alliance" className="font-semibold text-blue-800 hover:underline">
+              About the Japan–India alliance
+            </Link>
+            .
+          </p>
+        </div>
+      </section>
+
       {/* OFFICES */}
       <section className="py-14">
         <div className="mx-auto max-w-5xl px-4">

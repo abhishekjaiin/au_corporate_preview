@@ -127,3 +127,13 @@ used above, and the Methodology rules are the ones used for every re-measurement
 3. A CA review of the new pages before going live.
 4. Review/AggregateRating schema, once real client reviews are collected.
 5. Merging this branch and deploying.
+
+## Added after the Excel: Japan–India alliance (13 Nov 2026)
+
+- New page /japan-alliance. It covers the MOU with Nihon-bashi International Accounting Firm (日本橋国際会計事務所),
+  signed on 19 October 2026. Every fact on the page comes from the partner's own pages, which are cited as sources. It includes
+  AccountingService and WebPage structured data, plus the partner's Japanese announcement text marked lang="ja".
+- The alliance note appears in the service box on every Japan page (35 URLs). The Japan hub has an alliance section and an FAQ,
+  the Japan FAQ page has a new question, the About page has an "International Alliances" section, and llms.txt has the
+  alliance in its summary and under its own heading.
+- The existing USD 750–1,000 incorporation fee wording is kept and repeated on the alliance page.

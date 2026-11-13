@@ -39,6 +39,7 @@ const toc = [
   { id: "parent-reporting", label: "What the Japanese parent reports at home" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate works with Japanese groups" },
+  { id: "japan-alliance", label: "Our Japan alliance: Nihon-bashi International Accounting Firm" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
 ]
@@ -65,6 +66,7 @@ const seriesCards = [
 ]
 
 const faqs = [
+  { q: "Does AU Corporate have a partner firm in Japan?", a: "Yes. AU Corporate signed an MOU on 19 October 2026 with Nihon-bashi International Accounting Firm (日本橋国際会計事務所), a Tokyo firm of Japanese CPAs and tax accountants. Nihon-bashi takes consultations in Japanese and handles Japan-side accounting and tax, and AU Corporate handles incorporation and compliance in India. The firms are independent, and each contracts directly for work in its own country." },
   { q: "Can a KK or GK own all the shares of an Indian company?", a: "Yes, in most sectors. India allows 100% foreign ownership under the Automatic Route, and Press Note 3 does not apply to Japanese investors, so no prior approval is needed unless the sector itself requires it. A second shareholder, usually a group company or nominee holding one share, completes the two-shareholder minimum." },
   { q: "How long does it take to set up from Japan?", a: "Usually 4 to 6 weeks from the day the apostilled Japanese documents reach India. The Japanese document steps, the internal approval of the capital and bank KYC are what most often extend the timeline." },
   { q: "Who apostilles Japanese company documents?", a: "The Ministry of Foreign Affairs of Japan. Private documents such as board resolutions are notarised and certified by the Legal Affairs Bureau first, and every document needs a certified English translation." },
@@ -472,6 +474,14 @@ export default function JapanToIndiaHubPage() {
             </tbody>
           </table>
         </div>
+        <h2 id="japan-alliance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Our Japan alliance: Nihon-bashi International Accounting Firm</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          On 19 October 2026, AU Corporate signed a memorandum of understanding with <strong>Nihon-bashi International Accounting Firm (日本橋国際会計事務所)</strong>, a firm of Japanese CPAs and tax accountants based in Nihonbashi, Tokyo, and established in 2009. Under the alliance, a Japanese company can hold its first consultation in Japanese with Nihon-bashi in Tokyo. Nihon-bashi then handles the Japanese parent&apos;s accounting, tax, consolidation and transfer pricing questions, and AU Corporate handles incorporation, FEMA and RBI filings, GST, income tax, transfer pricing, accounting and payroll in India.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The two firms are independent: neither is a branch or subsidiary of the other, and each contracts directly with the client for its own country&apos;s work. The alliance also supports Indian companies entering Japan. Read the details, services and how the work is shared on our <Link href="/japan-alliance" className="text-blue-800 font-semibold hover:underline">Japan–India alliance page</Link>, or see Nihon-bashi&apos;s own <a href="https://www.n-cpa.com/au-corporate-alliance/" className="text-blue-800 font-semibold hover:underline" rel="noopener" lang="ja">announcement (Japanese)</a>.
+        </p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Rules on this page can be verified at the primary sources:{" "}

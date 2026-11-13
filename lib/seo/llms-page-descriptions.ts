@@ -341,4 +341,5 @@ export const pageMeta: Record<string, PageMeta> = {
   "/japan-to-india/gcc-for-japanese-companies": { title: "GCC Setup in India for Japanese Companies (2026 Guide)", description: "How Japanese companies set up a GCC in India: own centre or BOT, Japanese-speaking bridge roles, cities, cost-plus pricing and the ringi timeline." },
   "/australia-to-india/gcc-for-australian-companies": { title: "GCC Setup in India for Australian Companies (2026 Guide)", description: "How Australian companies set up a GCC in India: own centre, BOT or EOR pilot, time zones, APRA CPS 230, Privacy Act transfers and cost-plus tax." },
   "/japan-to-india/data-protection-appi-dpdp": { title: "Data Protection for Japanese Companies in India: APPI and DPDP", description: "How Japan's APPI and India's DPDP Act apply when a Japanese company runs an Indian subsidiary: transfers, contracts and the 2027 timeline." },
+  "/japan-alliance": { title: "Japan–India Alliance: AU Corporate and Nihon-bashi CPA Firm", description: "AU Corporate (New Delhi) and Nihon-bashi International Accounting Firm (Tokyo) signed an MOU on 19 October 2026 to support Japan–India market entry." },
 }
