@@ -150,7 +150,7 @@ export default function CostOfHiringEmployeesInIndiaPage() {
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
         <GuideCTA title={"Want a Costing for Your Indian Team?"} description={"Send us the roles, cities and start dates, and we will prepare an employer cost estimate and a payroll plan."} />
 

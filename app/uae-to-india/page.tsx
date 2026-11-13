@@ -49,7 +49,7 @@ const faqs = [
   { q: "Does CEPA change company formation rules?", a: "No. CEPA covers trade in goods and services; company formation, FEMA and tax rules are unchanged." },
   { q: "Is there a social security agreement between India and the UAE?", a: "No. Foreign employees on Indian payroll contribute to Indian provident fund as international workers." },
   { q: "Can a UAE resident be the resident director?", a: "Only if they stayed in India for 182 days or more in the financial year." },
-  { q: "What does it cost?", a: "AU Corporate's incorporation fee is USD 750 to 1,000 all-inclusive for share capital up to ₹10 lakh; UAE attestation and courier costs are separate." },
+  { q: "What does it cost?", a: "AU Corporate offers the best pricing with better work support, and the first consultation is free." },
   { q: "Can a free zone company in Dubai own shares in an Indian company?", a: "Generally yes, subject to its own free zone rules; Indian banks will ask for its registry documents, share register and ownership chart to the individuals at the top." },
   { q: "Which Indian city suits a Gulf trading business?", a: "Often Mumbai, Ahmedabad, Kochi or Chennai, for port access and shipping links to the Gulf." },
 ]
@@ -237,8 +237,7 @@ export default function UaeToIndiaPage() {
         </p>
 
         <h2 id="cost" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Cost and timeline</h2>
-        <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate&apos;s incorporation fee is USD 750 to 1,000, all-inclusive of Indian government and professional fees, for share capital up to ₹10 lakh; attestation and courier costs in the UAE are separate. Incorporation takes about 4 to 6 weeks from complete documents. Ongoing compliance is quoted as a fixed monthly or annual package. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary in India</Link>.
+        <p className="text-gray-600 leading-relaxed mb-4">AU Corporate offers the best pricing with better work support, and the first consultation is free. Incorporation takes about 4 to 6 weeks from complete documents. Ongoing compliance is available as a package tailored to your company. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary in India</Link>.
         </p>
 
         <h2 id="mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Common mistakes UAE investors make</h2>
@@ -316,9 +315,9 @@ export default function UaeToIndiaPage() {
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
-        <GuideCTA title={"Setting Up in India from the UAE?"} description={"Tell us about the UAE parent or your own NRI status and what the Indian company will do, and we will recommend the route and confirm a written quote."} />
+        <GuideCTA title={"Setting Up in India from the UAE?"} description={"Tell us about the UAE parent or your own NRI status and what the Indian company will do, and we will recommend the route in a free consultation."} />
 
         <h2 id="faqs" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Frequently asked questions</h2>
         <GuideFaqList faqs={faqs} />
@@ -344,7 +343,7 @@ export default function UaeToIndiaPage() {
         </p>
       </article>
 
-      <GuideLeadForm title={"Setting Up in India from the UAE?"} description={"Tell us about the UAE parent or your own NRI status and what the Indian company will do, and we will recommend the route and confirm a written quote."} />
+      <GuideLeadForm title={"Setting Up in India from the UAE?"} description={"Tell us about the UAE parent or your own NRI status and what the Indian company will do, and we will recommend the route in a free consultation."} />
     </main>
   )
 }

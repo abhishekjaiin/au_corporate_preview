@@ -132,7 +132,7 @@ export default function CompanyRegistrationInGurugramPage() {
           <li>State registrations: shops and establishments, professional tax where levied, and labour welfare fund.</li>
         </ol>
         <p className="text-gray-600 leading-relaxed mb-4">
-          From complete documents, incorporation in Gurugram usually takes 4 to 6 weeks, with the bank account often the longest step. AU Corporate&apos;s incorporation fee is USD 750 to 1,000, all-inclusive of Indian government and professional fees, for share capital up to ₹10 lakh; stamp duty in some states or for larger capital is quoted separately. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary</Link> and <Link href="/how-long-to-set-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">how long it takes</Link>.
+          From complete documents, incorporation in Gurugram usually takes 4 to 6 weeks, with the bank account often the longest step. AU Corporate offers the best pricing with better work support, and the first consultation is free. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary</Link> and <Link href="/how-long-to-set-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">how long it takes</Link>.
         </p>
         <h2 id="ggn-living" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Practical points for teams in Gurugram</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -145,9 +145,9 @@ export default function CompanyRegistrationInGurugramPage() {
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
-        <GuideCTA title={"Registering a Company in Gurugram?"} description={"Tell us about your plans for Gurugram, and we will confirm the incorporation route, state registrations and a written quote."} />
+        <GuideCTA title={"Registering a Company in Gurugram?"} description={"Tell us about your plans for Gurugram, and we will confirm the incorporation route, state registrations in a free consultation."} />
 
         <h2 id="faqs" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Frequently asked questions</h2>
         <GuideFaqList faqs={faqs} />
@@ -170,7 +170,7 @@ export default function CompanyRegistrationInGurugramPage() {
         </p>
       </article>
 
-      <GuideLeadForm title={"Registering a Company in Gurugram?"} description={"Tell us about your plans for Gurugram, and we will confirm the incorporation route, state registrations and a written quote."} />
+      <GuideLeadForm title={"Registering a Company in Gurugram?"} description={"Tell us about your plans for Gurugram, and we will confirm the incorporation route, state registrations in a free consultation."} />
     </main>
   )
 }

@@ -413,7 +413,7 @@ export default function SingaporeToIndiaHubPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           <strong>Indicative setup fee:</strong> AU Corporate&apos;s fee for setting up the subsidiary is USD
           750 to USD 1,000 for share capital up to ₹10 lakh (about S$13,500 at an indicative ₹74.0 per Singapore
-          dollar on 21 October 2026). The costing depends on your plan.
+          dollar on 21 October 2026). The costing depends on your plan. You get the best pricing, better work support and a free first consultation.
         </p>
 
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">

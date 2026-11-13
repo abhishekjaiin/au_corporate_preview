@@ -141,7 +141,7 @@ export default function NewLabourCodesIndia50PercentWageRuleGratuityPage() {
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
         <GuideCTA title={"Updating Your Payroll for the Labour Codes?"} description={"Send us your salary structures and we will check them against the 50% wage rule and estimate the effect on gratuity and provident fund."} />
 

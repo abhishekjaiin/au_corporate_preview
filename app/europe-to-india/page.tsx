@@ -175,8 +175,7 @@ export default function EuropeToIndiaPage() {
         </p>
 
         <h2 id="costs-eu" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Fees and timeline for European parents</h2>
-        <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate&apos;s incorporation fee is USD 750 to 1,000, all-inclusive of Indian government and professional fees, for share capital up to ₹10 lakh; notary, apostille and translation charges in Europe are separate. Incorporation usually takes 4 to 6 weeks from complete documents. Ongoing accounting, tax, payroll and FEMA work is quoted as a fixed package. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary in India</Link>.
+        <p className="text-gray-600 leading-relaxed mb-4">AU Corporate offers the best pricing with better work support, and the first consultation is free. Incorporation usually takes 4 to 6 weeks from complete documents. Ongoing accounting, tax, payroll and FEMA work is available as a package tailored to your company. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary in India</Link>.
         </p>
         <h2 id="eu-mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Common mistakes European parents make</h2>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
@@ -196,9 +195,9 @@ export default function EuropeToIndiaPage() {
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
-        <GuideCTA title={"Setting Up in India from Europe?"} description={"Tell us where the parent is based and what the Indian company will do, and we will confirm the route, documents and a written quote."} />
+        <GuideCTA title={"Setting Up in India from Europe?"} description={"Tell us where the parent is based and what the Indian company will do, and we will confirm the route, documents in a free consultation."} />
 
         <h2 id="faqs" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Frequently asked questions</h2>
         <GuideFaqList faqs={faqs} />
@@ -222,7 +221,7 @@ export default function EuropeToIndiaPage() {
         </p>
       </article>
 
-      <GuideLeadForm title={"Setting Up in India from Europe?"} description={"Tell us where the parent is based and what the Indian company will do, and we will confirm the route, documents and a written quote."} />
+      <GuideLeadForm title={"Setting Up in India from Europe?"} description={"Tell us where the parent is based and what the Indian company will do, and we will confirm the route, documents in a free consultation."} />
     </main>
   )
 }

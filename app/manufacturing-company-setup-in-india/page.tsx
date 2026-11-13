@@ -187,7 +187,7 @@ export default function ManufacturingCompanySetupInIndiaPage() {
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
         <GuideCTA title={"Planning a Manufacturing Plant in India?"} description={"Tell us your product, target state and timeline, and we will map the structure, approvals and compliance plan."} />
 

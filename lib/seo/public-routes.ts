@@ -67,6 +67,7 @@ export const publicPages: PublicPage[] = [
   { path: "/share-valuation-india-registered-valuer-fema", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-11-07" },
   { path: "/esop-india-foreign-owned-companies", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-11-07" },
   { path: "/funding-instruments-india-ccd-ccps-convertible-notes", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-11-07" },
+  { path: "/press-note-3-approval-india", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-11-07" },
   { path: "/gcc-setup-india", priority: 0.9, changeFrequency: "monthly", lastModified: "2026-10-23" },
 
   // Entity-Type Pages

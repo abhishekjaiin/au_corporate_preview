@@ -27,12 +27,12 @@ const toc = [
 ]
 
 const faqs = [
-  { q: "How much does it cost to set up a subsidiary in India?", a: "With AU Corporate, USD 750–1,000 all-inclusive of Indian government and professional fees for share capital up to ₹10 lakh; costs in your own country are separate." },
+  { q: "How much does it cost to set up a subsidiary in India?", a: "It depends on the share capital, the state, the documents needed in your own country and the services you choose. AU Corporate offers the best pricing with better work support, and the first consultation is free." },
   { q: "What is the minimum capital for a subsidiary in India?", a: "There is no legal minimum; fund 12 to 18 months of expected costs." },
-  { q: "Are government fees included in AU Corporate's fee?", a: "Yes, for share capital up to ₹10 lakh in the standard package; larger capital or some states cost more and are quoted." },
+  { q: "Are government fees included in AU Corporate's fee?", a: "Yes, for share capital up to ₹10 lakh in the standard package; larger capital or some states cost more." },
   { q: "Does the fee include FC-GPR?", a: "Yes. The share issue to the parent, share certificates and the FC-GPR filing are included." },
   { q: "What is not included?", a: "Notary and apostille fees in your country, courier costs, and compliance after incorporation." },
-  { q: "What does annual compliance cost?", a: "It depends on the company's size and transactions; AU Corporate quotes a fixed monthly or annual package in writing." },
+  { q: "What does annual compliance cost?", a: "It depends on the company's size and transactions; AU Corporate offers the best pricing with better work support and a free first consultation." },
   { q: "Is share capital a cost?", a: "No. It is the company's own money, used to pay its expenses." },
   { q: "Why do quotes for incorporation vary so much?", a: "Mainly because some exclude government fees, FC-GPR or the share issue; compare like with like." },
 ]
@@ -50,7 +50,7 @@ export default function CostOfSettingUpASubsidiaryInIndiaPage() {
       <GuideArticleSchema
         url={PAGE_URL}
         headline={"Cost of Setting Up a Subsidiary in India: One-Time Fees, Annual Running Costs and a Budget Template"}
-        description={"What it costs a foreign company to set up a subsidiary in India: AU Corporate's USD 750–1,000 all-inclusive incorporation fee, costs in your own country, share capital, and annual running costs."}
+        description={"AU Corporate offers the best pricing with better work support, and the first consultation is free."}
         datePublished="2026-11-07"
         dateModified="2026-11-07"
         inLanguage="en"
@@ -61,8 +61,7 @@ export default function CostOfSettingUpASubsidiaryInIndiaPage() {
       <GuideHero eyebrow={"Cost and pricing"} title={"Cost of Setting Up a Subsidiary in India: One-Time Fees, Annual Running Costs and a Budget Template"} updated="7 November 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
-        <GuideAnswerBox title="Short answer">
-          With AU Corporate, the cost of setting up a subsidiary in India is USD 750–1,000, all-inclusive of Indian government fees and our professional fees, for a company with share capital up to ₹10 lakh. Larger share capital and some states cost more, and we confirm a fixed quote before starting. Costs outside India, such as notary, apostille and courier charges in your own country, are separate. After incorporation, budget for annual running costs: accounting, audit, tax and GST filings, payroll, FEMA and Registrar filings, plus rent and salaries. The share capital you invest is not a cost; it funds the company&apos;s own expenses.
+        <GuideAnswerBox title="Short answer">The cost of setting up a subsidiary in India has three parts: Indian government fees and stamp duty, which rise with the authorised share capital and vary by state; professional fees for incorporation, the share issue and FC-GPR; and costs outside India, such as notary, apostille and courier charges in your own country. After incorporation, budget for annual running costs: accounting, audit, tax and GST filings, payroll, FEMA and Registrar filings, plus rent and salaries. The share capital you invest is not a cost; it funds the company&apos;s own expenses. AU Corporate offers the best pricing with better work support, and the first consultation is free.
         </GuideAnswerBox>
 
         <GuideTOC items={toc} />
@@ -127,7 +126,7 @@ export default function CostOfSettingUpASubsidiaryInIndiaPage() {
           </table>
         </div>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate offers ongoing compliance as a fixed monthly or annual package covering the areas you need, quoted in writing after a short call about your company&apos;s size and transactions. The audit itself is performed by an independent audit firm.
+          AU Corporate offers ongoing compliance as a package covering the areas you need, at the best pricing with better work support, after a free consultation about your company&apos;s size and transactions. The audit itself is performed by an independent audit firm.
         </p>
 
         <h2 id="hidden" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Costs foreign parents often forget</h2>
@@ -174,16 +173,16 @@ export default function CostOfSettingUpASubsidiaryInIndiaPage() {
         </p>
         <h2 id="registration-fee" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Indian subsidiary registration fee: what our package covers</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          Our standard package covers structure and FDI advice, digital signatures and director identification numbers, name approval, incorporation with PAN and TAN, support with opening the bank account, the share issue to the parent, share certificates and the FC-GPR filing with the RBI. It is quoted as one figure so that you can compare it directly with other providers, and it is confirmed in writing before any work begins.
+          Our standard package covers structure and FDI advice, digital signatures and director identification numbers, name approval, incorporation with PAN and TAN, support with opening the bank account, the share issue to the parent, share certificates and the FC-GPR filing with the RBI. We agree the scope with you in a free consultation and confirm it in writing before any work begins.
         </p>
 
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
-        <GuideCTA title={"Get a Fixed Quote for Your Indian Subsidiary"} description={"Tell us your share capital, state and what the company will do, and we will confirm the set-up fee and an annual compliance package in writing."} />
+        <GuideCTA title={"Get the Best Pricing for Your Indian Subsidiary"} description={"Tell us your share capital, state and what the company will do, and we will recommend the right package in a free consultation."} />
 
         <h2 id="faqs" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Frequently asked questions</h2>
         <GuideFaqList faqs={faqs} />
@@ -206,7 +205,7 @@ export default function CostOfSettingUpASubsidiaryInIndiaPage() {
         </p>
       </article>
 
-      <GuideLeadForm title={"Get a Fixed Quote for Your Indian Subsidiary"} description={"Tell us your share capital, state and what the company will do, and we will confirm the set-up fee and an annual compliance package in writing."} />
+      <GuideLeadForm title={"Get the Best Pricing for Your Indian Subsidiary"} description={"Tell us your share capital, state and what the company will do, and we will recommend the right package in a free consultation."} />
     </main>
   )
 }

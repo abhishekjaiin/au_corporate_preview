@@ -456,7 +456,7 @@ export default function RussiaToIndiaHubPage() {
           <strong>Indicative setup fee:</strong> AU Corporate&apos;s fee for setting up the subsidiary is USD
           750 to USD 1,000 for share capital up to ₹10 lakh (about RUB 845,000 at an indicative ₹1.18 per
           rouble, 27 October 2026 rate). The costing depends on your plan, and it does not include sanctions,
-          banking or approval work, which depends on the sector, structure and parties.
+          banking or approval work, which depends on the sector, structure and parties. You get the best pricing, better work support and a free first consultation.
         </p>
 
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">

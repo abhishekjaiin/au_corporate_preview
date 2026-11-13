@@ -39,7 +39,7 @@ const faqs = [
   { q: "Which bank account should an NRI use to invest?", a: "An NRE account or a direct remittance from abroad for a repatriation-basis investment; an NRO account for a non-repatriation investment." },
   { q: "How long does company registration take for an NRI?", a: "About 4 to 6 weeks from complete documents, plus time for bank onboarding." },
   { q: "How is a dividend to an NRI taxed?", a: "In India at about 20% plus surcharge and cess, or the lower tax treaty rate with a tax residency certificate and Form 41." },
-  { q: "How much does company registration cost?", a: "AU Corporate's incorporation fee for a private limited company is USD 750 to 1,000 for share capital up to ₹10 lakh, with notary, apostille and courier costs separate; ongoing compliance is quoted separately." },
+  { q: "How much does company registration cost?", a: "AU Corporate offers the best pricing with better work support, and the first consultation is free." },
 ]
 
 const relatedCards = [
@@ -199,16 +199,16 @@ export default function CompanyRegistrationInIndiaForNriPage() {
         </p>
         <h2 id="timeline-fees" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Timeline and fees</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          Incorporation usually takes 4 to 6 weeks from complete documents. AU Corporate&apos;s incorporation fee for a private limited company is USD 750 to 1,000 for share capital up to ₹10 lakh, covering Indian government and professional fees; notary, apostille and courier charges abroad are separate, and ongoing compliance is quoted as a fixed package. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the full fee breakdown</Link>.
+          Incorporation usually takes 4 to 6 weeks from complete documents. AU Corporate offers the best pricing with better work support, and the first consultation is free. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost guide</Link>.
         </p>
 
 
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
-        <GuideCTA title={"Registering a Company in India as an NRI?"} description={"Tell us where you live, what the company will do and whether you plan to repatriate profits, and we will recommend the structure and confirm a written quote."} />
+        <GuideCTA title={"Registering a Company in India as an NRI?"} description={"Tell us where you live, what the company will do and whether you plan to repatriate profits, and we will recommend the structure in a free consultation."} />
 
         <h2 id="faqs" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Frequently asked questions</h2>
         <GuideFaqList faqs={faqs} />
@@ -232,7 +232,7 @@ export default function CompanyRegistrationInIndiaForNriPage() {
         </p>
       </article>
 
-      <GuideLeadForm title={"Registering a Company in India as an NRI?"} description={"Tell us where you live, what the company will do and whether you plan to repatriate profits, and we will recommend the structure and confirm a written quote."} />
+      <GuideLeadForm title={"Registering a Company in India as an NRI?"} description={"Tell us where you live, what the company will do and whether you plan to repatriate profits, and we will recommend the structure in a free consultation."} />
     </main>
   )
 }

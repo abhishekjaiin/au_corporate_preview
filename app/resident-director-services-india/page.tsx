@@ -35,7 +35,7 @@ const faqs = [
   { q: "What does a professional resident director do?", a: "Joins the board in a non-executive role, signs the statutory documents the company needs and keeps director compliance current, while business decisions stay with the foreign parent." },
   { q: "Will the resident director control our Indian company?", a: "No. Authority is limited by the appointment letter and board resolutions; contracts, payments and strategy stay with the people the parent authorises." },
   { q: "Can we replace the professional resident director later?", a: "Yes. When the group appoints its own qualifying director, the professional director resigns and the change is filed with the Registrar within 30 days." },
-  { q: "How much do resident director services cost?", a: "AU Corporate quotes a fixed annual fee in writing before appointment; it depends on the company's size, activity and compliance history." },
+  { q: "How much do resident director services cost?", a: "AU Corporate offers the best pricing with better work support; the terms depend on the company's size, activity and compliance history, and the first consultation is free." },
   { q: "Is the resident director personally liable for the company?", a: "Directors can face liability under company, tax, labour and FEMA law, which is why the role comes with a written scope, an indemnity and insurance where available." },
   { q: "Does a resident director need a DIN?", a: "Yes. Every director needs a Director Identification Number and a digital signature certificate; our directors already have both." },
   { q: "What happens if a company has no resident director?", a: "It is in default of Section 149(3). It should appoint a qualifying director promptly and take advice on regularising the period of default." },
@@ -66,7 +66,7 @@ export default function ResidentDirectorServicesIndiaPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-14">
         <GuideAnswerBox title="Short answer">
-          Every Indian company must have at least one director who stayed in India for 182 days or more in the financial year (Section 149(3) of the Companies Act, 2013). Foreign parents without a suitable person in India use resident director services: a qualified professional joins the board to meet the rule, signs the statutory filings the company needs and keeps the director&apos;s own compliance current, while business decisions stay with the foreign parent. AU Corporate provides a professional resident director for its clients, with the role, authority and safeguards agreed in writing before appointment, and a written quote confirmed in advance.
+          Every Indian company must have at least one director who stayed in India for 182 days or more in the financial year (Section 149(3) of the Companies Act, 2013). Foreign parents without a suitable person in India use resident director services: a qualified professional joins the board to meet the rule, signs the statutory filings the company needs and keeps the director&apos;s own compliance current, while business decisions stay with the foreign parent. AU Corporate provides a professional resident director for its clients, with the role, authority and safeguards agreed in writing before appointment, and a free first consultation to agree the scope.
         </GuideAnswerBox>
 
         <GuideTOC items={toc} />
@@ -174,7 +174,7 @@ export default function ResidentDirectorServicesIndiaPage() {
 
         <h2 id="cost" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What resident director services cost</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate charges a fixed annual fee for resident director services, confirmed in a written quote before appointment. The fee depends mainly on the company&apos;s size and activity, its compliance history, and whether we also handle its accounting and secretarial work, which reduces the risk for the director. Government fees for the appointment filing are separate. Contact us with a short description of the Indian company for a quote.
+          AU Corporate offers resident director services at the best pricing, with better work support and a free first consultation to agree the scope. The terms depend mainly on the company&apos;s size and activity, its compliance history, and whether we also handle its accounting and secretarial work, which reduces the risk for the director. Government fees for the appointment filing are separate. Contact us with a short description of the Indian company to book a free consultation.
         </p>
         <p className="text-gray-600 leading-relaxed mb-4">
           See also <Link href="/india-subsidiary-registration" className="text-blue-800 font-semibold hover:underline">India subsidiary registration</Link>, <Link href="/secretarial-roc-compliance" className="text-blue-800 font-semibold hover:underline">secretarial and ROC compliance</Link> and country guides such as <Link href="/usa-to-india/resident-director" className="text-blue-800 font-semibold hover:underline">the resident director guide for US companies</Link> and <Link href="/japan-to-india/resident-director" className="text-blue-800 font-semibold hover:underline">for Japanese companies</Link>.
@@ -204,9 +204,9 @@ export default function ResidentDirectorServicesIndiaPage() {
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end and confirm a written, fixed quote before work starts.
+          AU Corporate is a pan-India firm of Chartered Accountants and Company Secretaries, serving foreign companies since 2016. We handle the Indian side end to end, with the best pricing, better work support and a free first consultation.
         </p>
-        <GuideCTA title={"Need a Resident Director for Your Indian Company?"} description={"Tell us about your company and when you need the director in place, and we will confirm the scope, safeguards and a written quote."} />
+        <GuideCTA title={"Need a Resident Director for Your Indian Company?"} description={"Tell us about your company and when you need the director in place, and we will confirm the scope, safeguards in a free consultation."} />
 
         <h2 id="faqs" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Frequently asked questions</h2>
         <GuideFaqList faqs={faqs} />
@@ -229,7 +229,7 @@ export default function ResidentDirectorServicesIndiaPage() {
         </p>
       </article>
 
-      <GuideLeadForm title={"Need a Resident Director for Your Indian Company?"} description={"Tell us about your company and when you need the director in place, and we will confirm the scope, safeguards and a written quote."} />
+      <GuideLeadForm title={"Need a Resident Director for Your Indian Company?"} description={"Tell us about your company and when you need the director in place, and we will confirm the scope, safeguards in a free consultation."} />
     </main>
   )
 }

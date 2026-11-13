@@ -8,7 +8,7 @@ same method (visible body text, header/nav/footer removed) after each change.
 |---|---|---|---|
 | UAE / Dubai to India | set up a company in India from Dubai | /uae-to-india (hreflang en-AE + x-default) | Built, ~3,600 words (target 4,000+) |
 | Company registration for NRIs / foreign nationals | company registration in India for NRI | /company-registration-in-india-for-nri | Built, ~2,250 words |
-| Cost of setting up a subsidiary | cost of setting up a subsidiary in India | /cost-of-setting-up-a-subsidiary-in-india | Built; uses only the published USD 750–1,000 fee |
+| Cost of setting up a subsidiary | cost of setting up a subsidiary in India | /cost-of-setting-up-a-subsidiary-in-india | Built; explains cost components without prices; free consultation message |
 | How long it takes | how long to set up a subsidiary in India | /how-long-to-set-up-a-subsidiary-in-india | Built; links to the 14-day case study |
 | Resident / nominee director service | resident director services in India | /resident-director-services-india | Built; fee "quote on request" |
 | Can a foreign company own 100%? | 100% FDI India | /can-a-foreign-company-own-100-percent-of-an-indian-company | Built |
@@ -16,7 +16,7 @@ same method (visible body text, header/nav/footer removed) after each change.
 | New Labour Codes explainer | new labour codes gratuity 50% wage rule | /new-labour-codes-india-50-percent-wage-rule-gratuity | Built |
 | Manufacturing company setup | manufacturing company setup in India | /manufacturing-company-setup-in-india | Built |
 | Netherlands and Europe hub | set up a subsidiary in India from Netherlands | /europe-to-india | Built; links Germany and Spain hubs |
-| Pricing / packages page | Indian subsidiary registration cost | Covered by the cost page | Waiting for fees for other services |
+| Pricing / packages page | Indian subsidiary registration cost | Not built, by decision | AU does not publish prices for all services. New pages use: best pricing, better work support and a free first consultation. Fee wording that was already on the site is unchanged |
 | Valuation services | registered valuer valuation report | /share-valuation-india-registered-valuer-fema | Built as a guide; AU's role described as coordinating the valuer and filings |
 | ESOP advisory / valuation | ESOP valuation India | /esop-india-foreign-owned-companies | Built as a guide |
 | Fund-raising instruments (CCD, notes) | compulsory convertible debentures | /funding-instruments-india-ccd-ccps-convertible-notes | Built as a guide |
@@ -36,3 +36,20 @@ is the page's subject; treated like the "topic term" rows in page-checklist.csv.
   without the database); the sitemap adds /insights automatically once it lists content.
 - Three country posts had meta descriptions over 165 characters that were also cut off mid-sentence
   (Singapore EPF/CPF, China PIPL/DPDP, Russia 152-FZ/DPDP); rewritten in full.
+
+## Country Matrix items
+
+| Country | Matrix action | Status |
+|---|---|---|
+| USA | Cost page and a US-specific pricing CTA | Cost page built; all 10 hubs now carry the best-pricing and free-consultation message instead of a price list |
+| UK | CETA-led content; hub to 4,500+ words | CETA section added; hub expanded |
+| Australia | Differentiate near-duplicate posts | Done (no post above 43% similarity) |
+| Japan, Germany | ja-JP and de-DE versions | On hold until a native reviewer is available |
+| Singapore | CECA comparison table; promote holdco and DTAA posts | Done |
+| China | Press Note 3 service landing page | Built: /press-note-3-approval-india, linked from the China and Hong Kong hubs |
+| Hong Kong | Merge thin posts into the hub | Not needed: every post now meets its length target |
+| Russia | Refresh sanctions/payments quarterly | Recurring task; see off-page-plan.md |
+| UAE, Netherlands, Europe, NRI | New pillars and service page | Built |
+
+Off-page work (chambers, directories, guest articles, reviews) is planned in off-page-plan.md and
+needs the AU team to carry out.

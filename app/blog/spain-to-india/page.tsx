@@ -487,7 +487,7 @@ export default function SpainToIndiaHubPage() {
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">
           <div>
             <strong className="block text-gray-900">Get a costing for your plan</strong>
-            <p className="text-sm text-gray-600 mt-0.5">Tell us what you plan to set up and we will prepare a costing and book a call.</p>
+            <p className="text-sm text-gray-600 mt-0.5">Tell us what you plan to set up: you get the best pricing, better work support and a free first consultation.</p>
           </div>
           <InquiryTrigger className="inline-block rounded-lg bg-gold px-5 py-2.5 text-sm font-bold text-[#081a42] hover:bg-gold-dark transition-colors whitespace-nowrap">
             Discuss your costing with our team
