@@ -68,7 +68,7 @@ export type GuideTopic =
   | "digital-sales-gst"
   | "home-country-tax"
 
-export type GuideCountryKey = "usa" | "australia" | "uk" | "japan" | "singapore" | "germany" | "china" | "hongkong" | "russia" | "spain"
+export type GuideCountryKey = "usa" | "australia" | "uk" | "japan" | "singapore" | "germany" | "china" | "hongkong" | "russia" | "spain" | "uae"
 
 export type GuideCountry = {
   /** "the USA" / "Australia", as used in "from {name}". */
@@ -397,6 +397,14 @@ export const GUIDE_COUNTRIES: Record<GuideCountryKey, GuideCountry> = {
       "treaty-benefits-documents": "tax-and-social-security-treaties/treaty-benefits-documents",
       "home-social-security": "tax-and-social-security-treaties/japan-social-insurance-for-expats-in-india",
     },
+  },
+  uae: {
+    name: "the UAE",
+    adjective: "UAE",
+    locale: "en-AE",
+    basePath: "/uae-to-india",
+    // Pillar only for now; country posts can be added to slugs as they are written.
+    slugs: { hub: "" },
   },
 }
 

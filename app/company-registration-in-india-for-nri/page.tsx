@@ -40,6 +40,8 @@ const faqs = [
   { q: "How long does company registration take for an NRI?", a: "About 4 to 6 weeks from complete documents, plus time for bank onboarding." },
   { q: "How is a dividend to an NRI taxed?", a: "In India at about 20% plus surcharge and cess, or the lower tax treaty rate with a tax residency certificate and Form 41." },
   { q: "How much does company registration cost?", a: "AU Corporate offers the best pricing with better work support, and the first consultation is free." },
+  { q: "Can an NRI change from non-repatriation to repatriation basis later?", a: "Not simply by declaration; the treatment follows how the investment was made and funded, so choose the basis at the start and take advice before any later restructuring." },
+  { q: "Can an OCI cardholder be a director?", a: "Yes. OCI cardholders can be directors with a DIN and digital signature; the resident director rule still needs one director who stayed in India for 182 days." },
 ]
 
 const relatedCards = [

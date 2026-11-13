@@ -53,3 +53,16 @@ is the page's subject; treated like the "topic term" rows in page-checklist.csv.
 
 Off-page work (chambers, directories, guest articles, reviews) is planned in off-page-plan.md and
 needs the AU team to carry out.
+
+## Added after the Search Console check (not in the workbook)
+
+| Demand seen in GSC | Page | Status |
+|---|---|---|
+| employee benefits in India for Singapore / UK / German companies; how companies insure employees in India | /employee-benefits-in-india-for-foreign-companies | Built |
+| company formation in India; establish entity in India; business setup in India; company setup in India | New "Company Formation in India" section on /india-subsidiary-registration | Built |
+
+## Technical additions
+
+- en-AE: the UAE pillar is now part of the country hreflang cluster (lib/guides/countries.ts), so every
+  country hub and the UAE page link to each other with en-US ... en-AE and x-default.
+- new-pages-check.csv: word count and density for every page added in this work against its target.

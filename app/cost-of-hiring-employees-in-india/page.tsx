@@ -130,7 +130,7 @@ export default function CostOfHiringEmployeesInIndiaPage() {
 
         <h2 id="entity" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Your own company or an employer of record</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          To hire in India you need an employing entity. You can hire through your own Indian company, which has fixed set-up and compliance costs but no per-head fee, or through an employer of record (EOR), which employs staff on its own contracts for a monthly fee per employee. For a small team, an EOR avoids the set-up cost; above roughly 15 to 20 people, your own company is usually cheaper. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary</Link> for the entity side.
+          To hire in India you need an employing entity. You can hire through your own Indian company, which has fixed set-up and compliance costs but no per-head fee, or through an employer of record (EOR), which employs staff on its own contracts for a monthly fee per employee. For a small team, an EOR avoids the set-up cost; above roughly 15 to 20 people, your own company is usually cheaper. See <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary</Link> for the entity side, and <Link href="/employee-benefits-in-india-for-foreign-companies" className="text-blue-800 font-semibold hover:underline">employee benefits in India</Link> for insurance and other benefits.
         </p>
 
         <h2 id="labour-codes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How the labour codes affect cost</h2>

@@ -7,23 +7,23 @@ AU Service Pages,/compliance-calendar,Expand by ~582 words; add missing LSI,1218
 AU Service Pages,/privacy,No SEO action,352,461,352,privacy,0.85,0.87,0.6–1.2%,,,,Done
 AU Service Pages,/terms,No SEO action,364,473,364,terms,2.2,1.69,0.6–1.2%,,,density-high,Not applicable (see README)
 AU Service Pages,/gcc-setup-india,Maintain; add internal links & refresh,6186,6371,4500,GCC,2.12,2.09,1.74–2.5%,,,,Done
-AU Service Pages,/branch-office-registration,Expand by ~1825 words; add missing LSI,1975,3734,3800,branch office,2.48,1.45,1.27–1.86%,,,,Done
+AU Service Pages,/branch-office-registration,Expand by ~1825 words; add missing LSI,1975,3738,3800,branch office,2.48,1.44,1.27–1.86%,,,,Done
 AU Service Pages,/branch-office-fema-rbi-compliance,Minor expansion (+151 words),1649,1865,1800,branch office,2.73,1.82,1.27–1.86%,,,,Done
 AU Service Pages,/foreign-company-roc-compliance,Minor expansion (+272 words),1528,1755,1800,foreign company,1.51,1.31,0.8–1.5%,,,,Done
 AU Service Pages,/branch-office-tax-gst-transfer-pricing,Minor expansion (+164 words),1636,1849,1800,branch office,2.93,1.84,1.27–1.86%,,,,Done
 AU Service Pages,/branch-office-accounting-audit,Minor expansion (+99 words),1501,1729,1600,branch office,2.4,1.62,1.27–1.86%,,,,Done
 AU Service Pages,/branch-office-payroll-compliance,Maintain; add internal links & refresh,1817,2044,1600,branch office,1.98,1.76,1.27–1.86%,,,,Done
-AU Service Pages,/project-office-registration,Minor expansion (+629 words),1871,2554,2500,project office,2.57,2.15,1.67–2.45%,,,,Done
+AU Service Pages,/project-office-registration,Minor expansion (+629 words),1871,2558,2500,project office,2.57,2.15,1.67–2.45%,,,,Done
 AU Service Pages,/project-office-fema-rbi-compliance,Minor expansion (+89 words),1511,1738,1600,project office,2.65,2.42,1.67–2.45%,,,,Done
 AU Service Pages,/project-office-tax-gst-transfer-pricing,Maintain; add internal links & refresh,1689,1916,1600,project office,2.66,2.45,1.67–2.45%,,,,Done
 AU Service Pages,/project-office-accounting-audit,Maintain; add internal links & refresh,1505,1732,1500,project office,1.93,1.79,1.67–2.45%,,,,Done
 AU Service Pages,/project-office-payroll-compliance,Maintain; add internal links & refresh,1753,1989,1500,project office,1.65,1.71,1.67–2.45%,,,,Done
-AU Service Pages,/liaison-office-registration,Expand by ~1010 words; add missing LSI,1990,2806,3000,liaison office,2.76,2.35,1.78–2.5%,,,,Done
+AU Service Pages,/liaison-office-registration,Expand by ~1010 words; add missing LSI,1990,2810,3000,liaison office,2.76,2.35,1.78–2.5%,,,,Done
 AU Service Pages,/liaison-office-fema-rbi-compliance,Minor expansion (+45 words),1555,1782,1600,liaison office,2.83,2.47,1.78–2.5%,,,,Done
 AU Service Pages,/liaison-office-tax-compliance,Minor expansion (+173 words),1327,1554,1500,liaison office,2.86,2.45,1.78–2.5%,,,,Done
 AU Service Pages,/liaison-office-accounting-audit,Minor expansion (+36 words),1364,1591,1400,liaison office,2.49,2.14,1.78–2.5%,,,,Done
 AU Service Pages,/liaison-office-payroll-compliance,Maintain; add internal links & refresh,1652,1879,1400,liaison office,2.12,1.86,1.78–2.5%,,,,Done
-AU Service Pages,/india-subsidiary-registration,Expand by ~1628 words; add missing LSI,2472,4132,4100,subsidiary,2.35,1.11,0.79–1.16%,,,,Done
+AU Service Pages,/india-subsidiary-registration,Expand by ~1628 words; add missing LSI,2472,4360,4100,subsidiary,2.35,1.1,0.79–1.16%,,,,Done
 AU Service Pages,/accounting-reporting-audit-support,Maintain; add internal links & refresh,3424,3651,3000,accounting,0.82,0.82,0.8–1.5%,,,,Done
 AU Service Pages,/fema-rbi-compliance,Minor expansion (+91 words),2909,3237,3000,FEMA,0.89,1.11,1.07–1.57%,,,,Done
 AU Service Pages,/corporate-tax-gst-transfer-pricing,Maintain; add internal links & refresh,3953,4180,3500,transfer pricing,0.89,0.84,0.8–1.5%,,,,Done
@@ -31,21 +31,21 @@ AU Service Pages,/oidar-gst-registration-india,Maintain; add internal links & re
 AU Service Pages,/secretarial-roc-compliance,Maintain; add internal links & refresh,3707,3934,3000,ROC,1.48,1.4,0.8–1.5%,,,,Done
 AU Service Pages,/payroll-expat-services,Maintain; add internal links & refresh,4023,4250,3100,payroll,1.67,1.62,2.47–2.5%,,,density-low,Deliberate exception (see README)
 AU Service Pages,/partners/uniproasia,"Navigational page: add trust signals (team, credentials, reviews)",1276,1385,1000,UniproAsia,2.74,2.53,0.6–1.2%,,,density-high,Not applicable (see README)
-AU Service Pages,/blog,Listing hub: keep intro 300-500 words; paginate/categorise by country,8756,3311,800,India,3.25,3.02,0.6–1.2%,,,density-high,Not applicable (see README)
+AU Service Pages,/blog,Listing hub: keep intro 300-500 words; paginate/categorise by country,8756,3357,800,India,3.25,3.04,0.6–1.2%,,,density-high,Not applicable (see README)
 AU Service Pages,/insights,Thin hub: add 300-500 word intro + links to all country pillars,15,124,800,India,0,0.0,0.6–1.2%,,,"short, density-low",Deliberate exception (see README)
 AU Service Pages,/case-studies,Thin hub: add 300-500 word intro + links to all country pillars,230,721,800,subsidiary,2.61,0.97,0.6–1.2%,,,,Done
 AU Service Pages,/case-studies/us-saas-captive-centre-india,"Over-optimised: reduce ""captive"" to 0.6-1.2%",2909,3132,1500,captive,2.27,2.17,0.6–1.2%,,,density-high,Not applicable (see README)
 AU Service Pages,/case-studies/us-longevity-company-india-subsidiary-14-days,Maintain; add internal links & refresh,2392,2615,1500,subsidiary,1.46,1.41,0.6–1.2%,,,density-high,Not applicable (see README)
 AU Service Pages,/case-studies/china-subsidiary-fema-compounding,Maintain; add internal links & refresh,2354,2577,1500,compounding,1.44,1.32,0.6–1.2%,,,density-high,Not applicable (see README)
-AU Country Hubs,/blog/usa-to-india,Minor expansion (+273 words),4227,4699,4500,subsidiary,1.14,1.09,0.77–1.14%,,,,Done
-AU Country Hubs,/blog/australia-to-india,"Over-optimised: reduce ""subsidiary"" to 0.5-0.43%",4675,4108,4500,subsidiary,1.11,0.44,0.5–0.43%,,,,Done
-AU Country Hubs,/blog/uk-to-india,Minor expansion (+999 words),3501,4321,4500,subsidiary,0.86,0.9,1.2–1.76%,,,density-low,Deliberate exception (see README)
-AU Country Hubs,/blog/japan-to-india,Maintain; add internal links & refresh,4564,4111,4500,subsidiary,1.18,0.8,0.72–1.06%,,,,Done
-AU Country Hubs,/blog/singapore-to-india,Minor expansion (+890 words),3610,4387,4500,subsidiary,0.69,0.66,0.6–1.2%,,,,Done
-AU Country Hubs,/blog/germany-to-india,"Over-optimised: reduce ""subsidiary"" to 0.5-0.31%",3682,4053,4500,subsidiary,0.71,0.35,0.5–0.31%,,,,Done
-AU Country Hubs,/blog/china-to-india,Minor expansion (+517 words),3983,4456,4500,subsidiary,0.63,0.67,0.6–1.2%,,,,Done
-AU Country Hubs,/blog/hong-kong-to-india,Minor expansion (+539 words),3961,4427,4500,subsidiary,0.63,0.68,0.6–1.2%,,,,Done
-AU Country Hubs,/blog/russia-to-india,Minor expansion (+611 words),3889,4322,4500,subsidiary,0.62,0.67,0.6–1.2%,,,,Done
+AU Country Hubs,/blog/usa-to-india,Minor expansion (+273 words),4227,4697,4500,subsidiary,1.14,1.09,0.77–1.14%,,,,Done
+AU Country Hubs,/blog/australia-to-india,"Over-optimised: reduce ""subsidiary"" to 0.5-0.43%",4675,4106,4500,subsidiary,1.11,0.44,0.5–0.43%,,,,Done
+AU Country Hubs,/blog/uk-to-india,Minor expansion (+999 words),3501,4334,4500,subsidiary,0.86,0.9,1.2–1.76%,,,density-low,Deliberate exception (see README)
+AU Country Hubs,/blog/japan-to-india,Maintain; add internal links & refresh,4564,4109,4500,subsidiary,1.18,0.8,0.72–1.06%,,,,Done
+AU Country Hubs,/blog/singapore-to-india,Minor expansion (+890 words),3610,4400,4500,subsidiary,0.69,0.66,0.6–1.2%,,,,Done
+AU Country Hubs,/blog/germany-to-india,"Over-optimised: reduce ""subsidiary"" to 0.5-0.31%",3682,4051,4500,subsidiary,0.71,0.35,0.5–0.31%,,,,Done
+AU Country Hubs,/blog/china-to-india,Minor expansion (+517 words),3983,4482,4500,subsidiary,0.63,0.67,0.6–1.2%,,,,Done
+AU Country Hubs,/blog/hong-kong-to-india,Minor expansion (+539 words),3961,4453,4500,subsidiary,0.63,0.67,0.6–1.2%,,,,Done
+AU Country Hubs,/blog/russia-to-india,Minor expansion (+611 words),3889,4335,4500,subsidiary,0.62,0.67,0.6–1.2%,,,,Done
 AU Country Blog Posts,/blog/usa-to-india/audit-icofr,"Over-optimised: reduce ""audit"" to 0.6-1.2%",1637,1926,1500,audit,2.38,2.13,0.6–1.2%,62,13,density-high,Topic term kept (see README)
 AU Country Blog Posts,/blog/usa-to-india/common-mistakes,Maintain; add internal links & refresh,2505,2896,1500,mistake,0.56,0.69,0.6–1.2%,84,11,,Done
 AU Country Blog Posts,/blog/usa-to-india/compliance-calendar,Maintain; add internal links & refresh,1789,2076,1500,compliance,0.89,0.92,0.6–1.2%,81,13,,Done

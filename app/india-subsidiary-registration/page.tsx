@@ -238,6 +238,36 @@ export default function IndiaSubsidiaryRegistrationPage() {
         </div>
       </section>
 
+      {/* COMPANY FORMATION OPTIONS */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Company Formation in India: Choosing How to Establish Your Entity</h2>
+          <p className="text-gray-600 leading-relaxed mb-6">
+            Foreign businesses searching for company formation in India, business setup in India or how to establish an entity in India usually have four options. The right one depends on whether the Indian business will earn revenue, how long it will operate and how much control and liability separation the parent wants.
+          </p>
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full border-collapse border border-gray-300 bg-white text-sm">
+              <thead className="bg-[#081a42] text-white">
+                <tr>
+                  <th className="border border-gray-300 p-3 text-left font-bold">Entity</th>
+                  <th className="border border-gray-300 p-3 text-left font-bold">Best for</th>
+                  <th className="border border-gray-300 p-3 text-left font-bold">Approval</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td className="border border-gray-300 p-3 font-semibold">Private limited company (subsidiary)</td><td className="border border-gray-300 p-3">Any operating business: sales, services, development centres, manufacturing</td><td className="border border-gray-300 p-3">Automatic Route in most sectors; FC-GPR after allotment</td></tr>
+                <tr className="bg-gray-50"><td className="border border-gray-300 p-3 font-semibold">Branch office</td><td className="border border-gray-300 p-3">The parent&apos;s own permitted activities in its name</td><td className="border border-gray-300 p-3">AD bank or RBI approval</td></tr>
+                <tr><td className="border border-gray-300 p-3 font-semibold">Liaison office</td><td className="border border-gray-300 p-3">Market research and representation, with no income</td><td className="border border-gray-300 p-3">AD bank or RBI approval</td></tr>
+                <tr className="bg-gray-50"><td className="border border-gray-300 p-3 font-semibold">Project office</td><td className="border border-gray-300 p-3">A single contract with an Indian company</td><td className="border border-gray-300 p-3">AD bank approval where a funding condition is met</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-gray-600 leading-relaxed">
+            Most foreign companies choose the private limited company for their company setup in India, because it pays the domestic tax rate, limits liability and can later be sold or merged. See <Link href="/branch-office-registration" className="text-gold-dark font-semibold hover:underline">branch office registration</Link>, <Link href="/liaison-office-registration" className="text-gold-dark font-semibold hover:underline">liaison office registration</Link>, <Link href="/project-office-registration" className="text-gold-dark font-semibold hover:underline">project office registration</Link> and <Link href="/can-a-foreign-company-own-100-percent-of-an-indian-company" className="text-gold-dark font-semibold hover:underline">100% foreign ownership</Link>.
+          </p>
+        </div>
+      </section>
+
       <SubsidiaryDepth />
 
       {/* SETTING UP FROM YOUR COUNTRY */}
@@ -266,7 +296,8 @@ export default function IndiaSubsidiaryRegistrationPage() {
             <Link href="/resident-director-services-india" className="font-semibold text-[#081a42] underline">resident director services</Link>,{" "}
             <Link href="/company-registration-in-india-for-nri" className="font-semibold text-[#081a42] underline">registration for NRIs</Link>,{" "}
             <Link href="/manufacturing-company-setup-in-india" className="font-semibold text-[#081a42] underline">manufacturing setup</Link>,{" "}
-            <Link href="/cost-of-hiring-employees-in-india" className="font-semibold text-[#081a42] underline">cost of hiring</Link> and{" "}
+            <Link href="/cost-of-hiring-employees-in-india" className="font-semibold text-[#081a42] underline">cost of hiring</Link>,{" "}
+            <Link href="/employee-benefits-in-india-for-foreign-companies" className="font-semibold text-[#081a42] underline">employee benefits</Link> and{" "}
             <Link href="/can-a-foreign-company-own-100-percent-of-an-indian-company" className="font-semibold text-[#081a42] underline">100% foreign ownership</Link>.
           </p>
           <p className="mt-3 text-sm text-gray-600">

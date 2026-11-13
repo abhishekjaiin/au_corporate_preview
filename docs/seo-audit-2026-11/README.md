@@ -44,3 +44,12 @@ Deliberate exceptions (marked "Not applicable" or left Open with a reason):
 - **Not applicable**: legal, navigation and case-study pages measured against a service-page band.
 
 All country posts stay below 45% template similarity (audit threshold 60%).
+
+
+## Other files in this folder
+
+- AU_Corporate_vs_KRPR_SEO_Audit.xlsx: the audit workbook, used as the brief for all page changes.
+- content-gaps.md: every Content Gaps and Country Matrix item with its page and status.
+- new-pages-check.csv: measurements for the pages added in this work.
+- off-page-plan.md: outreach plan for the audit's authority finding.
+- search-console/: Search Console data (Aug-Nov 2026) compared with the audit's estimates.
