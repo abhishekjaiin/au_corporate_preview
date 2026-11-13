@@ -78,6 +78,32 @@ social, referral or email, `utm_campaign` = country-or-service_month (for exampl
 - **Watch for:** if a page's bounce rate rises sharply after the popup goes live, remove that page from
   `LEAD_PAGES` or raise the delay.
 
+### GA4 property and baseline (checked 13 November 2026)
+
+- **Account 403924854, property "AU Corporate" (559118754).** It receives www.theaucorp.com traffic from
+  the site's existing tag, so no code change is needed. The account's other property, "Register company in
+  India" (549024501), is not the one the site reports to.
+- **Last 90 days:** 545 sessions from www.theaucorp.com.
+  - Direct: 338 sessions, only 11% engaged.
+  - Organic search: 171 sessions, 59% engaged.
+  - AI assistants (ChatGPT, Perplexity and similar): 26 sessions, 65% engaged.
+  - Referral: 6. Organic social: 2.
+- **Lead events in 90 days:** 1 `generate_lead` and 1 `whatsapp_click`, both on 2 November 2026 from
+  /india-subsidiary-registration, plus 3 `form_start`. This is the "before" figure for the popup and
+  /free-consultation.
+- **Key events already set:** `generate_lead` and `whatsapp_click`.
+- **Still to do in GA4 Admin:**
+  1. Mark `book_call_click` as a key event. Go to Admin › Data display › Events. It appears in the list
+     after its first click; until then, create it by name in the key events list.
+  2. Register these event-scoped custom dimensions so the new parameters can be reported:
+     `popup_mode`, `form_location`, `lead_need`, `lead_country`, `lead_timeline` and `page_path`.
+  3. Add a data filter for internal traffic (your office IP addresses). Also add a filter or report
+     comparison that excludes the Vercel preview hosts (v0-au-corporate-website…vercel.app), which
+     currently send test visits into the same property.
+  4. The low engagement on direct traffic, and junk landing paths such as
+     /blog/japan-to-india/tax-and-social-security-treaties/ZHRhYS13aX, suggest some bot visits. Judge
+     lead conversion on organic, AI and campaign traffic rather than on all sessions.
+
 ## 6. First 90 days
 
 | Weeks | Actions |
