@@ -35,7 +35,10 @@ export async function GET(request: Request) {
       width: 1200,
       height: 630,
       headers: {
-        "Cache-Control": "public, max-age=31536000, immutable",
+        // max-age alone is browser-only: Vercel's CDN only caches a function
+        // response with s-maxage / CDN-Cache-Control.
+        "Cache-Control": "public, max-age=31536000, s-maxage=31536000, immutable",
+        "CDN-Cache-Control": "public, max-age=31536000, immutable",
       },
     },
   )

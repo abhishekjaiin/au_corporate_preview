@@ -120,7 +120,7 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b bg-white">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Primary navigation">
         <div className="flex h-16 items-center justify-between sm:h-20">
-          <Link href="/" className="flex items-center gap-2" onClick={handleLogoClick}>
+          <Link prefetch={false} href="/" className="flex items-center gap-2" onClick={handleLogoClick}>
             <Image src="/logo.png" alt="AU Corporate" width={42} height={42} priority sizes="42px" />
             <div className="flex flex-col leading-tight">
               <span translate="no" className="text-lg font-bold text-gold-dark sm:text-2xl">AU Corporate</span>
@@ -159,7 +159,7 @@ export function Navbar() {
                           <div className="space-y-0.5">
                             {col.items.map((item) =>
                               item.href ? (
-                                <Link key={item.label} href={item.href} className="block py-1.5 text-sm leading-snug text-gray-700 hover:text-gold-dark">
+                                <Link prefetch={false} key={item.label} href={item.href} className="block py-1.5 text-sm leading-snug text-gray-700 hover:text-gold-dark">
                                   {item.label}
                                 </Link>
                               ) : (
@@ -172,7 +172,7 @@ export function Navbar() {
                         </div>
                       ))}
                     </div>
-                    <Link
+                    <Link prefetch={false}
                       href="/contact"
                       className="flex items-center justify-between px-6 py-3.5 text-sm transition-colors hover:opacity-90"
                       style={{ backgroundColor: "#081a42" }}
@@ -216,7 +216,7 @@ export function Navbar() {
                     {/* Navy service-line rail */}
                     <div className="w-[62%] py-4 bg-blue">
                       {coreServiceLinks.map((item) => (
-                        <Link
+                        <Link prefetch={false}
                           key={item.label}
                           href={item.href}
                           className="group mx-2 flex items-start gap-3 rounded-lg px-4 py-2.5 transition-colors hover:bg-white/10"
@@ -232,7 +232,7 @@ export function Navbar() {
 
                     {/* CTA */}
                     <div className="flex w-[38%] flex-col justify-between p-5">
-                      <Link
+                      <Link prefetch={false}
                         href="/contact"
                         className="mt-4 block rounded-xl border border-gray-200 bg-gray-100 p-4 transition-colors hover:border-gold"
                       >
@@ -272,7 +272,7 @@ export function Navbar() {
                 >
                   <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-2xl py-2">
                     {insightsLinks.map((item) => (
-                      <Link key={item.label} href={item.href} className="block px-5 py-2.5 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#081a42]">
+                      <Link prefetch={false} key={item.label} href={item.href} className="block px-5 py-2.5 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#081a42]">
                         {item.label}
                       </Link>
                     ))}
@@ -305,7 +305,7 @@ export function Navbar() {
                 >
                   <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-2xl py-2">
                     {aboutLinks.map((item) => (
-                      <Link key={item.label} href={item.href} className="block px-5 py-2.5 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#081a42]">
+                      <Link prefetch={false} key={item.label} href={item.href} className="block px-5 py-2.5 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#081a42]">
                         {item.label}
                       </Link>
                     ))}
@@ -315,7 +315,7 @@ export function Navbar() {
             </div>
           </div>
 
-          <div className="hidden lg:block"><Button asChild><Link href="/contact">Get Started</Link></Button></div>
+          <div className="hidden lg:block"><Button asChild><Link prefetch={false} href="/contact">Get Started</Link></Button></div>
           <button type="button" onClick={() => setIsOpen((v) => !v)} className="rounded-md p-2 hover:bg-gray-100 lg:hidden" aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"} aria-expanded={isOpen} aria-controls="mobile-navigation">
             {isOpen ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
           </button>
@@ -341,7 +341,7 @@ export function Navbar() {
                       <div className="pb-2">
                         {col.items.map((item) =>
                           item.href ? (
-                            <Link key={item.label} href={item.href} onClick={closeMobile} className="block py-1.5 pl-2 text-sm text-gray-600">{item.label}</Link>
+                            <Link prefetch={false} key={item.label} href={item.href} onClick={closeMobile} className="block py-1.5 pl-2 text-sm text-gray-600">{item.label}</Link>
                           ) : (
                             <span key={item.label} className="block py-1.5 pl-2 text-sm text-gray-400">{item.label}</span>
                           )
@@ -351,7 +351,7 @@ export function Navbar() {
                   </div>
                 )
               })}
-              <Link href="/contact" onClick={closeMobile} className="mt-4 block rounded-xl p-4 bg-blue">
+              <Link prefetch={false} href="/contact" onClick={closeMobile} className="mt-4 block rounded-xl p-4 bg-blue">
                 <span className="block text-sm font-semibold text-white">Not sure which entity type fits?</span>
                 <span className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-yellow-400">Talk to an expert <ArrowRight className="h-3 w-3" aria-hidden="true" /></span>
               </Link>
@@ -359,7 +359,7 @@ export function Navbar() {
 
             <MobileGroup label="Services" open={mobileMenu === "services"} onToggle={() => setMobileMenu(mobileMenu === "services" ? null : "services")}>
               {coreServiceLinks.map((item) => (
-                <Link key={item.label} href={item.href} onClick={closeMobile} className="flex items-start gap-3 py-2">
+                <Link prefetch={false} key={item.label} href={item.href} onClick={closeMobile} className="flex items-start gap-3 py-2">
                   <item.icon className="mt-0.5 h-4 w-4 shrink-0 text-[#081a42]" aria-hidden="true" />
                   <span>
                     <span className="block text-sm">{item.label}</span>
@@ -367,21 +367,21 @@ export function Navbar() {
                   </span>
                 </Link>
               ))}
-              <Link href="/contact" onClick={closeMobile} className="mt-4 block rounded-xl p-4 bg-blue">
+              <Link prefetch={false} href="/contact" onClick={closeMobile} className="mt-4 block rounded-xl p-4 bg-blue">
                 <span className="block text-sm font-semibold text-white">Not sure where to start?</span>
                 <span className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-yellow-400">Talk to an expert <ArrowRight className="h-3 w-3" aria-hidden="true" /></span>
               </Link>
             </MobileGroup>
 
             <MobileGroup label="Insights" open={mobileMenu === "insights"} onToggle={() => setMobileMenu(mobileMenu === "insights" ? null : "insights")}>
-              {insightsLinks.map((item) => <Link key={item.label} href={item.href} onClick={closeMobile} className="block py-2 text-sm">{item.label}</Link>)}
+              {insightsLinks.map((item) => <Link prefetch={false} key={item.label} href={item.href} onClick={closeMobile} className="block py-2 text-sm">{item.label}</Link>)}
             </MobileGroup>
 
             <MobileGroup label="About" open={mobileMenu === "about"} onToggle={() => setMobileMenu(mobileMenu === "about" ? null : "about")}>
-              {aboutLinks.map((item) => <Link key={item.label} href={item.href} onClick={closeMobile} className="block py-2 text-sm">{item.label}</Link>)}
+              {aboutLinks.map((item) => <Link prefetch={false} key={item.label} href={item.href} onClick={closeMobile} className="block py-2 text-sm">{item.label}</Link>)}
             </MobileGroup>
 
-            <Button asChild className="mt-6 w-full"><Link href="/contact" onClick={closeMobile}>Get Started</Link></Button>
+            <Button asChild className="mt-6 w-full"><Link prefetch={false} href="/contact" onClick={closeMobile}>Get Started</Link></Button>
           </div>
         )}
       </nav>

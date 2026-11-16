@@ -22,7 +22,18 @@ import { extractToc, injectHeadingIds, estimateReadingTime } from "@/lib/content
 // calling notFound() there (not just in the page body) is what actually
 // produces a correct 404 status — this is the documented fix for exactly
 // this class of issue, not a bug worked around by dynamic export flags.
-export const dynamic = "force-dynamic"
+//
+// Cached with ISR rather than force-dynamic (which rendered from Postgres
+// and re-sent the page on every request, burning Fast Origin Transfer).
+// generateStaticParams returns [] so nothing is rendered at build time (no
+// database there); each article renders on its first request, is then
+// served from the CDN, and is refreshed by revalidatePath() on
+// publish/update/unpublish. Unpublished slugs never reach this page:
+// proxy.ts rewrites them to a 404 first.
+export const revalidate = 3600
+export function generateStaticParams() {
+  return []
+}
 
 // Known service/jurisdiction slugs an editor can set on an Insight (see
 // components/admin/InsightForm.tsx), mapped to the existing public pages

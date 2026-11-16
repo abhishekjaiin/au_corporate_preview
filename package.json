@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/check-transfer-budget.mjs",
     "start": "next start",
     "lint": "eslint .",
     "audit:seo": "node scripts/seo-audit.mjs",
     "audit:overflow": "node scripts/mobile-overflow.mjs",
     "indexnow:submit": "node scripts/indexnow-submit.mjs",
-    "validate:llms": "node scripts/validate-llms.mjs"
+    "validate:llms": "node scripts/validate-llms.mjs",
+    "check:transfer": "node scripts/check-transfer-budget.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.2.0",

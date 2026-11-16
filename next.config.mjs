@@ -2,11 +2,11 @@
 const jurisdictionSlugs = ["usa","uk","japan","germany","singapore","australia","china","hong-kong","russia","spain"]
 
 const nextConfig = {
-  // Inline the (Tailwind, so small) CSS into each page's <head>: removes the
-  // render-blocking stylesheet request that PageSpeed flagged on mobile.
-  experimental: {
-    inlineCss: true,
-  },
+  // Do NOT re-enable experimental.inlineCss. It copied the whole stylesheet
+  // into every HTML page AND twice into every RSC/prefetch payload, which
+  // tripled per-page bytes and blew through Vercel's Fast Origin Transfer
+  // quota (Nov 2026). scripts/check-transfer-budget.mjs fails the build if
+  // it comes back.
   images: {
     // No remotePatterns: every image on the public site — including new
     // Insights managed through the Postgres-backed dashboard — is

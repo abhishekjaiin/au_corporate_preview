@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "next build && node scripts/indexnow-on-deploy.mjs",
+  "buildCommand": "next build && node scripts/check-transfer-budget.mjs && node scripts/indexnow-on-deploy.mjs",
   "git": {
     "deploymentEnabled": {
       "**": false,

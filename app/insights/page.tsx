@@ -8,14 +8,14 @@ import { getPublishedInsights } from "@/lib/public/insights"
 const NAVY = "#081a42"
 const GOLD = "#facc15"
 
-// Same reasoning as app/insights/[slug]/page.tsx: this page reads live
-// Postgres data, so it cannot be statically prerendered at build time —
-// `next build` has no database connection available, and a previous
-// `revalidate = 60` export still left Next attempting one eager static
-// render during the build itself (ISR renders once at build, then
-// revalidates), which is what broke the Vercel build. force-dynamic skips
-// that build-time render entirely; every request runs the query live.
-export const dynamic = "force-dynamic"
+// ISR instead of force-dynamic: force-dynamic ran the Postgres query and
+// re-sent the whole page from the function on EVERY request, which counted
+// against Vercel's Fast Origin Transfer. Both DB calls below already catch
+// errors (same pattern as app/sitemap.ts), so the build-time render works
+// without a database and simply shows the empty state. publishInsight() /
+// unpublishInsight() call revalidatePath("/insights"), so a publish shows up
+// immediately; the hourly window is only a safety net.
+export const revalidate = 3600
 
 const insightsMetadata: Metadata = {
   title: {

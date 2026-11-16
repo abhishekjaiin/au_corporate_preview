@@ -91,7 +91,7 @@ export function Footer() {
           {/* BRAND */}
           <div className="sm:col-span-2 lg:col-span-1">
 
-            <Link href="/" className="flex flex-col mb-4">
+            <Link prefetch={false} href="/" className="flex flex-col mb-4">
               <span translate="no" className="text-xl sm:text-2xl font-bold tracking-wide text-gold-dark">
                 AU Corporate<span className="align-super text-xs">&reg;</span>
               </span>
@@ -150,7 +150,7 @@ export function Footer() {
             <ul className="space-y-2 sm:space-y-3">
               {indiaEntryLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-gray-600 hover:text-gold-dark text-sm transition">
+                  <Link prefetch={false} href={link.href} className="text-gray-600 hover:text-gold-dark text-sm transition">
                     {link.label}
                   </Link>
                 </li>
@@ -164,7 +164,7 @@ export function Footer() {
             <ul className="space-y-2 sm:space-y-3">
               {serviceLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-gray-600 hover:text-gold-dark text-sm transition">
+                  <Link prefetch={false} href={link.href} className="text-gray-600 hover:text-gold-dark text-sm transition">
                     {link.label}
                   </Link>
                 </li>
@@ -178,7 +178,7 @@ export function Footer() {
             <ul className="space-y-2 sm:space-y-3">
               {companyLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-gray-600 hover:text-gold-dark text-sm transition">
+                  <Link prefetch={false} href={link.href} className="text-gray-600 hover:text-gold-dark text-sm transition">
                     {link.label}
                   </Link>
                 </li>
@@ -260,7 +260,7 @@ export function Footer() {
               {group.links.map((link, i) => (
                 <span key={link.href}>
                   {i > 0 && <span className="text-gray-300" aria-hidden="true"> · </span>}
-                  <Link href={link.href} className="text-gray-500 hover:text-gold-dark transition">
+                  <Link prefetch={false} href={link.href} className="text-gray-500 hover:text-gold-dark transition">
                     {link.label}
                   </Link>
                 </span>
@@ -280,14 +280,14 @@ export function Footer() {
 
             <div className="flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-6">
 
-              <Link
+              <Link prefetch={false}
                 href="/privacy"
                 className="text-gray-500 hover:text-gold-dark text-xs sm:text-sm transition"
               >
                 Privacy Policy
               </Link>
 
-              <Link
+              <Link prefetch={false}
                 href="/terms"
                 className="text-gray-500 hover:text-gold-dark text-xs sm:text-sm transition"
               >
