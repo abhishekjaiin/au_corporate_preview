@@ -383,6 +383,8 @@ export default function IndiaUsDtaaGuidePage() {
         <p className="text-gray-700 mb-4">Indian tax withheld on a royalty or fee paid to the US parent can usually be credited against US tax, subject to the US limitation rules. Keep the withholding certificate issued by the Indian company, the bank advice and the invoice, because the US return preparer needs all three to support the credit.</p>
         <p className="text-gray-700 mb-4">In each of these situations the outcome depends on the facts recorded at the time, not on arguments built later. Keeping the residence certificates, travel logs and intercompany agreements current is the most effective protection a US group has.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">The key document is the tax residency certificate (TRC). For US companies this is IRS Form 6166, requested on Form 8802; without a TRC on file, the Indian payer must withhold at the higher domestic rate.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We confirm the DTAA position, collect documents and apply the correct Withholding Tax rate on every

@@ -179,6 +179,8 @@ export default function RelocateUkStaffPage() {
         <h2 id="uk-return" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Planning the return to the UK</h2>
         <p className="text-gray-700 mb-4">Agree the return date and the exit filings at the start of the posting, so the final Indian tax return and FRRO exit are not left to the last week.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Indian tax residency is decided mainly by days present in India in the tax year: 182 days or more makes the employee resident. A UK secondee who becomes resident in both countries applies the treaty tie-breaker, and payroll in both countries should know the expected travel pattern.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

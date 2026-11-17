@@ -513,6 +513,8 @@ export default function IndiaAustraliaDtaaPage() {
           <li>Ignoring the Australian result of the Indian tax.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-4">To apply the treaty rate, the Indian payer needs a current tax residency certificate (TRC) from the Australian Taxation Office, together with Form 41, before the payment is made.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We confirm the rate for each payment, collect the DTAA documents, prepare Form 145 and 146 and

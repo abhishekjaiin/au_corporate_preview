@@ -193,6 +193,8 @@ export default function IndiaPressNote3AndHongKongEntitiesPage() {
         <p className="text-gray-700 mb-4">Hong Kong groups that plan for a realistic Press Note 3 approval period, and prepare incorporation documents, the business plan and the ownership chart while waiting, usually launch sooner than those that treat approval as a formality. Build the timeline into customer and hiring commitments from the start.</p>
         <p className="text-gray-700 mb-4">Groups that already have Indian operations should also check whether any change in their ownership, such as a new Hong Kong investor or a restructuring of the holding chain, brings the Indian company within Press Note 3 for future investments. A short review before each change avoids a breach that would need to be regularised later.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Approval normally involves security review, including MHA clearance from the Ministry of Home Affairs, so Hong Kong entities with mainland Chinese ownership should allow for a longer approval timeline.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

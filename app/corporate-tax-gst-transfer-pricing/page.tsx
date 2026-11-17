@@ -340,6 +340,7 @@ export default function CorporateTaxGstTransferPricingPage() {
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">The Corporate Tax Calendar for an Indian Subsidiary</h2>
+          <p className="text-gray-600 leading-relaxed mb-8">For every transaction with the parent or other group companies, the subsidiary must show an arm&apos;s length price, supported by a transfer pricing study, and file the accountant&apos;s report, Form 48 (formerly Form 3CEB), before the income tax return.</p>
           <p className="text-gray-600 leading-relaxed mb-8">What is due, and when, for an Indian subsidiary with a 1 April to 31 March year. We track every date for you.</p>
           <div className="overflow-x-auto bg-white border border-gray-200 rounded-lg">
             <table className="w-full text-sm">

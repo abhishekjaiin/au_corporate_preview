@@ -184,6 +184,8 @@ export default function RelocateSingaporeStaffPage() {
           <li>Agree a travel policy for home leave and for the first six months, when the person will make many trips.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Whether a Singapore employee becomes resident in India for tax depends mainly on days spent in India: 182 days or more in the tax year means tax residency in India, and the treaty tie-breaker applies if Singapore also treats the person as resident.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

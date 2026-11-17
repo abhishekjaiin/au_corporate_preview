@@ -206,6 +206,7 @@ export default function ProjectOfficeAccountingAuditPage() {
       <section className="py-20 bg-secondary/30">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">How the Monthly Cycle Works</h2>
+          <p className="text-gray-600 leading-relaxed mb-8">Project accounts follow the contract, not the calendar. Each month we update the contract&apos;s cost to date, recognise revenue by stage of completion, and carry costs not yet billed as work-in-progress (WIP), so that the WIP balance, the billing schedule and the head office&apos;s project report agree.</p>
           <p className="text-gray-600 leading-relaxed mb-8">The same steps every month, so your head office knows when to expect the numbers.</p>
           <ol className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
             {cycle.map((step) => (

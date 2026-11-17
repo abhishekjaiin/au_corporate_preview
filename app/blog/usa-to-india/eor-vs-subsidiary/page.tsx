@@ -208,6 +208,8 @@ export default function EorVsSubsidiaryPage() {
         <h2 id="us-transition-budget" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Budgeting the switch for a US parent</h2>
         <p className="text-gray-700 mb-4">When a US company moves its Indian staff from a provider to its own entity, the one-time spend is usually incorporation, the first audit, payroll registrations and a short overlap period when both arrangements run. Ask the provider for its notice period and any conversion fee in writing, and time the switch to the start of a month so that provident fund and tax withholding records begin cleanly in the new company. Budget for the gratuity and leave balances you agree to recognise for transferred employees, and record that decision in the new offer letters.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Check IP ownership before anyone starts work. Under an Employer of Record, the EOR is the legal employer, so the EOR agreement and each employment contract should assign all work product and inventions to the US company. With your own subsidiary, the Indian company owns the IP first and assigns or licenses it to the US parent under the intercompany agreement.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We provide Employer of Record and HR services and can convert your EOR team into your own subsidiary.

@@ -256,6 +256,8 @@ export default function IndiaGermanyDtaaPage() {
         <p className="text-gray-700 mb-4">Review the classification of recurring payments each year as well. A support arrangement that began as routine assistance can develop into technical services or a licence of know-how, and the DTAA treatment changes with it. A short annual note in the tax file describing what the German parent actually provided keeps the Indian withholding position defensible if officers ask.</p>
         <p className="text-gray-700 mb-4">Keep the notes for at least eight years.</p>
 
+        <p className="text-gray-700 mb-4">The German certificate of residence from the Finanzamt serves as the tax residency certificate (TRC) the Indian payer needs before applying the treaty rate.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

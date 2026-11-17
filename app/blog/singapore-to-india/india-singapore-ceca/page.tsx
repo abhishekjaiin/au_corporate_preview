@@ -180,6 +180,8 @@ export default function IndiaSingaporeCecaPage() {
           <li>Check the notified text before relying on any change reported in the press. Review rounds are announced long before they are signed.</li>
         </ol>
 
+        <p className="text-gray-600 leading-relaxed mb-10">For goods, the main benefit of CECA is a lower tariff on qualifying products, provided they meet the rules of origin and the importer holds the certificate of origin.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

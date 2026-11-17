@@ -184,6 +184,8 @@ export default function DocumentsCompaniesHouseApostillePage() {
           <li>Ordering paper apostilles when the Indian authority would have accepted an electronic one, or the reverse.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">The UK and India are both Hague Apostille Convention members, so an apostille from the UK Foreign, Commonwealth and Development Office replaces consularisation at the Indian High Commission.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

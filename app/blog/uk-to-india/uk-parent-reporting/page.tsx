@@ -185,6 +185,8 @@ export default function UkParentReportingPage() {
           sign-off and the UK group reporting timetable.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Where the UK group is above the CbCR threshold, the Indian subsidiary notifies the Indian tax authority which group entity files the country-by-country report. On the FEMA side, the subsidiary files the FLA return with the RBI by 15 July each year, reporting the UK parent&apos;s investment.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

@@ -142,6 +142,8 @@ export default function CommonMistakesPage() {
         </p>
 
 
+        <p className="mb-8">Another common gap is the resident director. Every Indian company needs at least one director who stayed in India for 182 days or more in the financial year, and a Singapore-based board alone does not meet the rule.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

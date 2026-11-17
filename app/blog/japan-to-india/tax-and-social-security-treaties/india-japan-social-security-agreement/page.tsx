@@ -205,6 +205,8 @@ export default function IndiaJapanSocialSecurityAgreementPage() {
           <li>Forgetting to apply for an extension when the five years end.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">The practical benefit is an exemption from Indian provident fund contributions for Japanese employees on detachment, generally for up to five years, provided the employer obtains the certificate of coverage from Japan before the assignment starts.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We structure expat employment in India, run payroll and provident fund compliance, and work with your

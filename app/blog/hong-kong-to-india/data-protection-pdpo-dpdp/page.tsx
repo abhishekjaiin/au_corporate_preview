@@ -178,6 +178,8 @@ export default function DataProtectionPdpoDpdpPage() {
         </ul>
 
 
+        <p className="text-gray-600 leading-relaxed mb-10">Hong Kong&apos;s PDPO, the EU GDPR and India&apos;s DPDP Act share notice and purpose-limitation principles, but India&apos;s law relies more on consent and creates a Data Protection Board with power to impose large penalties.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

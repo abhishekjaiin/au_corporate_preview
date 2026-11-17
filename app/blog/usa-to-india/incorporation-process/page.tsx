@@ -160,6 +160,8 @@ export default function IncorporationProcessPage() {
           <li>Forgetting Form INC-20A and the first Auditor appointment, which carry penalties.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">The SPICe+ filing includes the e-MOA and e-AOA, the memorandum and articles of association. For a US-owned company the MOA AOA set should be reviewed against the parent&apos;s operating agreement or bylaws, so that the Indian articles reflect the US parent&apos;s approval rights.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We prepare and file the incorporation, handle the bank and RBI steps, and set up your compliance

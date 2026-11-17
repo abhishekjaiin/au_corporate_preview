@@ -263,6 +263,7 @@ export default function ProjectOfficeRegistrationPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">How AU Helps, in Five Steps</h2>
+          <p className="text-gray-600 leading-relaxed mb-8">Once the authorised dealer bank approves the project office, the Reserve Bank of India allots it a Unique Identification Number (UIN). The UIN is quoted in the office&apos;s later filings with the bank and the RBI, so we record it with the approval letter from day one.</p>
           <p className="text-gray-600 leading-relaxed mb-8">
             Indian filings are prepared while your documents are notarised. Project office setup under general permission typically takes about 3 to 6 weeks, and longer if RBI approval is needed.
           </p>

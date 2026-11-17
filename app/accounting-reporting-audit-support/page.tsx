@@ -345,6 +345,7 @@ export default function AccountingReportingAuditSupportPage() {
       <section className="py-20 bg-secondary/30">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Reporting in Your Parent&apos;s Framework</h2>
+          <p className="text-gray-600 leading-relaxed mb-8">Your Indian statutory accounts follow Indian accounting standards: Ind AS for listed companies, companies with a net worth of ₹250 crore or more and group companies of those, and the older Accounting Standards for most other private companies. We keep a mapping from the Indian accounts to your group framework, such as IFRS or US GAAP, so the same trial balance serves both.</p>
           <p className="text-gray-600 leading-relaxed mb-8">What changes from one parent company to the next is the reporting framework, not the Indian books. Tell us what your group uses and we set the pack up that way.</p>
           <div className="grid sm:grid-cols-2 gap-5 mb-8">
             {reportingFrameworks.map((item) => (

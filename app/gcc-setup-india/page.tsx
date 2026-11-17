@@ -312,6 +312,7 @@ export default function GCCSetupIndiaPage() {
       <section className="py-20 bg-secondary/50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Tax and Transfer Pricing for a GCC</h2>
+          <p className="text-gray-600 leading-relaxed mb-8">Location also shapes the tax position. A centre set up as a unit in a Special Economic Zone (SEZ) gets duty-free imports of equipment and zero-rated supplies for GST, but must meet the zone&apos;s export and reporting conditions, and the income tax holiday for new SEZ units has ended. Many technology centres instead register under the Software Technology Parks of India (STPI) scheme, which simplifies export certification of software services. We compare the SEZ, STPI and ordinary routes before you sign a lease.</p>
 
           <h3 className="text-xl font-semibold text-gray-900 mb-3">Corporate Tax and GST Registration for a Standard GCC Entity</h3>
           <p className="text-gray-600 leading-relaxed mb-8">

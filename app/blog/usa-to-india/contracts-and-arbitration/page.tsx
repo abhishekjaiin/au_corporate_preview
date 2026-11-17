@@ -189,6 +189,8 @@ export default function ContractsAndArbitrationPage() {
           <li>No written agreement between the parent and the subsidiary.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">US groups that prefer a neutral venue outside both countries most often choose Singapore under SIAC rules or London under LCIA rules, alongside ICC arbitration. Whatever the institution, name the seat clearly, because Indian courts treat a foreign-seated award as a foreign award, enforceable under the New York Convention.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We support contracts, arbitration and dispute resolution, and work with Indian and US counsel.

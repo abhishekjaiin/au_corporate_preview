@@ -181,6 +181,8 @@ export default function ContractsCourtsSiacPage() {
           <li>Consider emergency relief and interim measures, and keep evidence of the assets and bank accounts you may need to attach.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Some Singapore groups with European counterparties choose LCIA arbitration in London instead of SIAC. Both produce foreign awards that Indian courts enforce under the New York Convention, so the choice usually turns on the counterparty and the governing law.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

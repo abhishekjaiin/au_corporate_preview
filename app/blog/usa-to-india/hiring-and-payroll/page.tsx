@@ -209,6 +209,8 @@ export default function HiringAndPayrollPage() {
           <Link href="/usa-to-india/tax-and-social-security-treaties/social-security-us-expats-india" className="text-blue-800 font-semibold hover:underline">social security for US expats in India</Link>.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Indian offers are quoted as CTC, or cost to company: the total annual cost to the employer, including the employer&apos;s provident fund contribution, gratuity provision and allowances. Take-home pay is noticeably lower than CTC, so US hiring managers should compare offers on the same basis.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We run HR services, payroll and Employer of Record arrangements for foreign companies in India.

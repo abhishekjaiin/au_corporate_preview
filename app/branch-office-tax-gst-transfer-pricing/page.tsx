@@ -190,6 +190,7 @@ export default function BranchOfficeTaxGstTransferPricingPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Income Tax Rate for a Branch Office</h2>
+          <p className="text-gray-600 leading-relaxed mb-8">Older guides still quote a 40% tax rate for branch offices. That rate applied to foreign companies until financial year 2023-24; from financial year 2024-25 the base rate is 35%, plus surcharge and health and education cess, as shown below.</p>
           <p className="text-gray-600 leading-relaxed mb-8">A branch office pays tax as a foreign company, at a higher rate than a domestic subsidiary.</p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-gray-300">

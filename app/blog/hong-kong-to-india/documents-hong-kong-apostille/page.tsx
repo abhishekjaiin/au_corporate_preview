@@ -174,6 +174,8 @@ export default function DocumentsHongKongApostillePage() {
         <p className="text-gray-700 mb-4">Send scanned copies of every Hong Kong document to India for checking before notarisation. Correcting a name or address at that stage takes a day; correcting it after the documents are certified can take weeks.</p>
         <p className="text-gray-700 mb-4">Keep a second certified set of the core documents as well, because Indian banks sometimes ask to see originals when the account is opened, after the first set has been used for the incorporation.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Hong Kong has applied the Hague Apostille Convention for many years, so documents need an apostille from the High Court, not consularisation. Prepare the KYC set for the Indian bank at the same time, including the ownership chart up to the ultimate owners.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

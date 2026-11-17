@@ -179,6 +179,8 @@ export default function GlobalVatPage() {
           <li>Mixing Indian GST and overseas VAT in one return.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">To bill the US parent without paying GST upfront, the Indian subsidiary files a Letter of Undertaking (LUT) on the GST portal at the start of each financial year. Services that qualify as exports are then zero-rated, and any input GST can be refunded.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We support VAT registration, filing and advice for businesses selling abroad, alongside your India

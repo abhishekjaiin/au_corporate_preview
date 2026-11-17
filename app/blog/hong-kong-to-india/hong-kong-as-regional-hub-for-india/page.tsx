@@ -178,6 +178,8 @@ export default function HongKongAsRegionalHubForIndiaPage() {
           <li>Review annually as rules change.</li>
         </ol>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Indian banks and regulators look through a Hong Kong holding company to its beneficial owner. If the ultimate owners are in mainland China, Press Note 3 can apply even though the investor is incorporated in Hong Kong.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

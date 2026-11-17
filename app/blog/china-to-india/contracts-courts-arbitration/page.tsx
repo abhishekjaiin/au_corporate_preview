@@ -186,6 +186,8 @@ export default function ContractsCourtsArbitrationPage() {
           <li>Describe the Chinese party exactly as in the business licence and the approval.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Where a neutral seat is wanted, Chinese and Indian parties commonly choose SIAC or HKIAC, and sometimes LCIA in London. Indian courts enforce awards from these seats under the New York Convention, subject to the usual public policy grounds.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

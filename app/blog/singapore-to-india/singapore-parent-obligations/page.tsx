@@ -170,6 +170,8 @@ export default function SingaporeParentObligationsPage() {
           <li><strong>Listed parents:</strong> SGX listing rules may require disclosure of material subsidiaries and acquisitions.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Singapore groups above the threshold for country-by-country reporting (CbCR) must tell the Indian tax authority which entity files the report, and file the master file (Form 3CEAA under the previous rules) where India&apos;s thresholds are met. The Indian subsidiary also files the FLA return with the RBI by 15 July, and records its ultimate beneficial owner, looking through the Singapore holding company, in its company law filings.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

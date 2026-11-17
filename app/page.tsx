@@ -305,6 +305,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-4 font-heading text-blue">
             Complete Services for Your India Subsidiary
           </h2>
+          <p className="text-sm text-gray-600">One team covers the whole life of your Indian company: incorporation, FEMA and RBI filings, accounting, tax and GST, payroll, company secretarial work and a virtual CFO who prepares the management reports and cash forecasts your head office asks for.</p>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-12">
             Everything a foreign company needs to set up, run and stay compliant with its Indian subsidiary, under one team.
           </p>

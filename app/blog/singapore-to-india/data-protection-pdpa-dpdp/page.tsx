@@ -183,6 +183,8 @@ export default function DataProtectionPdpaDpdpPage() {
           before moving workloads.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Teams that already follow the EU GDPR will find India&apos;s DPDP Act familiar in its consent and purpose rules, but it is narrower: it covers digital personal data, has fewer lawful bases than GDPR and relies more on consent.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

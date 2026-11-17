@@ -196,6 +196,8 @@ export default function EpfInternationalWorkersPage() {
           <li>Telling the expat they can withdraw on return to the US.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">There is no social security agreement (SSA) in force between India and the United States, so US citizens on Indian payroll are international workers. They and the employer each pay the 12% contribution on their full salary, without the wage ceiling that applies to Indian employees.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We run payroll and provident fund compliance for foreign nationals, classify international workers and

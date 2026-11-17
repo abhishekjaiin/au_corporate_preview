@@ -171,3 +171,13 @@ work; TypeScript and the build are the checks that apply.
 | Security | Every external link that opens a new tab has noopener/noreferrer. CSP, HSTS, X-Frame-Options, nosniff, Referrer-Policy and Permissions-Policy headers are present |
 | Fixed in this pass | (1) twitter:card was "summary" on 309 pages: each page's twitter metadata replaced the root's summary_large_image. All 311 pages now use the large card for bigger previews. (2) /free-consultation had no in-content links: it is now linked from the CTA box on every guide page. (3) The Japan hub links to the Japanese notice |
 | Share image route /og | Works on the live site (checked https://www.theaucorp.com/og, 200 image/png). It fails only in this sandbox's local image library, so no code change was made |
+
+## Excel LSI terms and final status (17 Nov 2026)
+
+| Excel item | Result |
+|---|---|
+| Required word count (AU Service Pages, Country Hubs, Country Blog Posts) | 251 of 252 pages at 100% or more. The exception, /insights, is noindexed as the Excel recommends |
+| "Target LSI missing" terms | 326 of 330 present (`lsi-terms-check.csv`). The 4 not added are on /career and /insights |
+| Density bands | 188 rows in band. The rows outside it are the documented topic-term, legal/navigation and measurement exceptions (README.md). No page moved out of band in the content or LSI passes |
+| Template similarity (limit 60%) | Highest 42% across 242 country posts |
+| Technical | 311 pages, 0 broken links or redirects, reciprocal hreflang, valid JSON-LD, complete without JavaScript, 0 console errors, popup working |

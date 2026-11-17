@@ -219,6 +219,8 @@ export default function RepatriatingProfitsPage() {
         <p className="text-gray-700 mb-4">Keep a record of each repatriation with the board resolution, the withholding tax calculation, the tax residency certificate, Form 41 and the bank&apos;s remittance advice, so that the Russian parent can claim credit for Indian tax and the auditor can trace every payment.</p>
         <p className="text-gray-700 mb-4">Review the route with the bank each year.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-4">A share buyback is another route to return cash to the Russian parent. Since 1 October 2024, buyback proceeds are taxed in the shareholder&apos;s hands as a deemed dividend, so compare the buyback and dividend routes with the treaty rate before choosing.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We check the treaty rate, prepare the documents and remittance forms, and work with the Indian bank and your sanctions advisers on a payment route that will clear.

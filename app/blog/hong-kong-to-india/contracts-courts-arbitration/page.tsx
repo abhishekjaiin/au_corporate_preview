@@ -173,6 +173,8 @@ export default function ContractsCourtsArbitrationPage() {
           <li>Agreeing a price without allocating Indian tax on payments.</li>
         </ul>
 
+        <p className="mb-8">Besides HKIAC, some Hong Kong groups use LCIA arbitration in London for contracts governed by English law. Indian courts enforce awards from both seats as foreign awards under the New York Convention.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

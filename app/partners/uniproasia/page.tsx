@@ -253,6 +253,7 @@ export default function UniproAsiaPartnerPage() {
             <h2 id="how-it-works" className="text-3xl font-bold text-[#081a42]">
               How the Partnership Works
             </h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-yellow-600 mb-3">The arrangement is built for cross-border groups: AU Corporate looks after the Indian entity, UniproAsia handles the other Asian jurisdictions, and both teams share one timetable so group reporting stays consistent.</p>
             <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
               Focus on your business while AU Corporate and UniproAsia handle the entity setup and compliance behind your expansion.
             </p>

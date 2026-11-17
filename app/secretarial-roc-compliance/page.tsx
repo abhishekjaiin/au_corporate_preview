@@ -288,6 +288,7 @@ export default function SecretarialRocCompliancePage() {
       <section className="py-20 bg-secondary/30">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">The Yearly Secretarial and ROC Calendar</h2>
+          <p className="text-gray-600 leading-relaxed mb-8">The main annual company law filings are the financial statements in Form AOC-4, the annual return in Form MGT-7 (MGT-7A for small companies) and each director&apos;s DIR-3 KYC. Event-based filings, such as director changes or share allotments, are added as they happen.</p>
           <p className="text-gray-600 leading-relaxed mb-8">What is due, and when, for an Indian private company. We track every date for you.</p>
           <div className="overflow-x-auto bg-white border border-gray-200 rounded-lg">
             <table className="w-full text-sm">

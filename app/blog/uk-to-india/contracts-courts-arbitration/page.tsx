@@ -174,6 +174,8 @@ export default function ContractsCourtsArbitrationPage() {
           <li>Where payment crosses borders, state the currency and who bears tax and exchange differences. See <Link href="/uk-to-india/repatriating-profits" className="text-blue-800 font-semibold hover:underline">getting money out</Link>.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">If the parties want an Asian seat rather than London, SIAC arbitration in Singapore is a common choice for UK-India contracts. Indian courts generally enforce SIAC awards as foreign awards under the New York Convention.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

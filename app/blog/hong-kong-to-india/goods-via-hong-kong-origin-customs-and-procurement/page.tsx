@@ -170,6 +170,8 @@ export default function GoodsViaHongKongOriginCustomsAndProcurementPage() {
           port and take customs advice before using Hong Kong as a transit or trading point.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Indian customs enforce origin claims under CAROTAR, the Customs (Administration of Rules of Origin under Trade Agreements) Rules 2020. Goods shipped through Hong Kong do not acquire Hong Kong origin by transit alone, and the importer must be able to prove origin on request.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

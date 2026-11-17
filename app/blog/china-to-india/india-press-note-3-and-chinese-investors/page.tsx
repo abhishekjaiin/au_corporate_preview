@@ -215,6 +215,8 @@ export default function IndiaPressNote3AndChineseInvestorsPage() {
           <Link href="/china-to-india/funding-and-fema" className="text-blue-800 font-semibold hover:underline">funding and FEMA</Link>.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Applications under Press Note 3 usually go through security review, including MHA clearance from the Ministry of Home Affairs, before the sector ministry decides, so the timeline is longer than for other foreign investors.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

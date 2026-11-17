@@ -192,6 +192,8 @@ export default function DataProtectionPiplDpdpPage() {
         </ul>
 
 
+        <p className="mb-8">Compared with China&apos;s PIPL and the EU GDPR, India&apos;s DPDP Act is lighter on cross-border transfer formalities: transfers are allowed except to countries the government restricts, without a security assessment or standard contract filing.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

@@ -152,6 +152,8 @@ export default function CommonMistakesPage() {
         <p className="text-gray-700 mb-4">Most of the thirteen mistakes are cheap to prevent and expensive to correct. A late FC-GPR filing needs a late submission fee or, after a longer delay, a compounding application to the Reserve Bank. A missed treaty claim cannot always be recovered through a refund, so the extra Indian tax may become a permanent cost to the UK group. Transfer pricing gaps lead to adjustments and interest. Fixing a mistake after a UK audit or due diligence exercise has found it also takes management time on both sides, which is why we recommend a short review of the Indian subsidiary every six months.</p>
         <p className="text-gray-700 mb-4">The review need not be long: an hour with the Indian finance lead and a checklist of the thirteen points above is usually enough to find any gaps.</p>
 
+        <p className="text-gray-700 mb-4">Late FEMA filings are among the most frequent problems. A delayed FC-GPR can usually be regularised with a late submission fee, but repeated or unreported delays can lead to FEMA penalties or compounding with the RBI, which takes time and fees that a simple diary would have avoided.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

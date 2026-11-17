@@ -196,6 +196,8 @@ export default function JapanParentObligationsPage() {
           <li>Not keeping Japanese transfer pricing documentation for services between the parent and the subsidiary.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Japanese groups subject to country-by-country reporting (CbCR) in Japan also have Indian filings: the Indian subsidiary notifies the tax authority of the reporting entity, and files the master file (Form 3CEAA under the previous rules) when India&apos;s thresholds are met. The subsidiary&apos;s FLA return goes to the RBI by 15 July, and its company law filings identify the ultimate beneficial owner behind the Japanese parent, typically the listed KK or its controlling shareholders.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We provide Indian financial statements, tax computations and reconciliations in a format your Japanese

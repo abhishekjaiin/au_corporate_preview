@@ -189,6 +189,8 @@ export default function ExpatTaxResidencyIndiaJapanPage() {
           <li>Not checking Japanese residency status after the assignment starts.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">In their first years in India many chuzaiin are Resident but Not Ordinarily Resident (RNOR), so income from Japan generally stays outside Indian tax. If both countries treat the person as resident, the DTAA tie-breaker applies, starting with where the person has a permanent home.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We handle expat payroll, Indian tax returns and residency analysis in India, and coordinate with your

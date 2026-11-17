@@ -190,6 +190,8 @@ export default function EsopPage() {
           <li>Granting equity without a valuation.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">For the Indian employee, the gain at exercise is a perquisite, so perquisite tax is withheld through Indian payroll. Holding shares of the US parent counts as overseas investment, which the FEMA ODI rules allow for employee stock plans. A cash-settled stock appreciation right (SAR) avoids issuing shares altogether, but it is taxed as salary when paid.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We cover the valuation, FEMA, tax and legal work for ESOPs in India.

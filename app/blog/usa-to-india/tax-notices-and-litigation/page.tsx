@@ -193,6 +193,8 @@ export default function TaxNoticesAndLitigationPage() {
           including the mutual agreement procedure.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Most income tax assessments are now conducted as a faceless assessment, with no in-person hearing unless one is requested and allowed. If the order goes against the subsidiary, the first appeal is to the Commissioner of Income Tax (Appeals), known as CIT(A), and then to the Income Tax Appellate Tribunal.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We handle notices, assessments and appeals, from first reply to the tribunal, and coordinate with

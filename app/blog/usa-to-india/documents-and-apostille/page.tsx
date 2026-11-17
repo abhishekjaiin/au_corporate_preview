@@ -183,6 +183,8 @@ export default function DocumentsAndApostillePage() {
           <li>Waiting until after incorporation planning to start the US documents.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Because the United States and India both belong to the Hague Apostille Convention, a US document needs notarisation by a US notary and then an apostille from the Secretary of State of the state where it was notarised. Consularisation at an Indian consulate is not needed for US documents.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We give you a checklist and drafts for your entity type, and advise on the format Indian authorities

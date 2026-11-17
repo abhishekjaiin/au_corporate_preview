@@ -213,6 +213,8 @@ export default function ExpatTaxResidencyIndiaUsPage() {
           <li>Not filing an Indian return because tax was deducted at source.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-4">Many US assignees qualify as Resident but Not Ordinarily Resident (RNOR) in their first years, which keeps their US-source income outside Indian tax. Where both countries treat the person as resident, the DTAA tie-breaker in Article 4 decides, looking first at permanent home and then at centre of vital interests.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We handle expat payroll, Indian tax returns and residency analysis in India, and coordinate with your

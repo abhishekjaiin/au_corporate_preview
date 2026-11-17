@@ -176,6 +176,8 @@ export default function TreatyBenefitsDocumentsPage() {
         <p className="text-gray-700 mb-4">Certificates of residence usually cover a single year, and Form 41 (the old Form 10F) should match the period of each certificate. Diary the renewal a month before the period ends so that the Indian company never has to withhold at the higher domestic rate while documents are pending.</p>
         <p className="text-gray-700 mb-4">Keep scanned copies of every Form 10F or Form 41 submission and certificate in the payment folder for the year, so the Indian finance team can show reviewers which documents supported each reduced rate.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">The certificate of residence is India&apos;s tax residency certificate (TRC) requirement for Japanese recipients. It is issued by the Japanese tax office, and the Indian payer should hold it before applying a treaty rate.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We list exactly which documents the Indian payer needs, prepare Form 41 and the declarations, apply the treaty rate and file the remittance forms.

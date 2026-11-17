@@ -185,6 +185,8 @@ export default function DocumentsNotarisationLegalisationPage() {
         </p>
 
 
+        <p className="text-gray-600 leading-relaxed mb-10">China joined the Hague Apostille Convention in November 2023, so Chinese documents for India now need notarisation and an apostille instead of consularisation at the Indian embassy.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

@@ -11,6 +11,7 @@ without JavaScript.
 |---|---|
 | `docs/seo-audit-2026-11/excel-compliance.md` | **Start here.** Every Excel sheet and item with its status, plus the full technical and code audit |
 | `docs/seo-audit-2026-11/page-checklist.csv` | All 252 audited pages: audit numbers next to re-measured numbers. 0 open items |
+| `docs/seo-audit-2026-11/lsi-terms-check.csv` | Every Excel LSI term per page, and whether it is on the page (326 of 330) |
 | `docs/seo-audit-2026-11/content-gaps.md` | The Content Gaps and Country Matrix items and the page built for each |
 | `docs/seo-audit-2026-11/new-pages-check.csv` | Word count and keyword check for the new pages |
 | `docs/seo-audit-2026-11/ctr-and-technical.md` | Title and description rewrites from Search Console data, and technical fixes |
@@ -67,6 +68,21 @@ to 100% of it.
 - **Not done on purpose:** padding each of the nine country versions of a topic (for example "common
   mistakes") to match a single long KRPR guide. It would push template duplication back up, which
   the Excel rated High severity.
+
+## LSI terms pass (17 November 2026)
+
+The Excel's "Target LSI missing" column lists related terms each page should mention.
+
+- **Result:** 326 of the 330 listed terms are now on their pages, up from 227. The other 4 are on
+  /career (a navigation page) and /insights (noindexed), and were left out on purpose. Per-term status is in
+  `docs/seo-audit-2026-11/lsi-terms-check.csv`.
+- **How:** one short, country-specific paragraph on each of 65 pages, placed in the relevant section.
+- **Outdated terms written correctly:**
+  - **Branch tax rate:** the old "40% tax rate" is explained as replaced by 35% from FY 2024-25.
+  - **Form numbers:** "Form 3CEB" and "Form 3CEAA" are given as the previous numbers under the
+    new Income-tax Act form numbering.
+- **Checks after the pass:** word counts unchanged (251 of 252 at 100%); no density band changes;
+  similarity still at most 42%; 0 broken links; every page still complete without JavaScript.
 
 ## To run locally
 

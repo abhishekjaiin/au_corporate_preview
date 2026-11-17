@@ -50,6 +50,7 @@ All country posts stay below 45% template similarity (audit threshold 60%).
 
 - AU_Corporate_vs_KRPR_SEO_Audit.xlsx: the audit workbook, used as the brief for all page changes.
 - excel-compliance.md: sheet-by-sheet check of every workbook item, plus the whole-site link, canonical, hreflang, schema and console verification.
+- lsi-terms-check.csv: every "Target LSI missing" term from the workbook, per page, with its status.
 - content-gaps.md: every Content Gaps and Country Matrix item with its page and status.
 - new-pages-check.csv: measurements for the pages added in this work.
 - off-page-plan.md: outreach plan for the audit's authority finding.

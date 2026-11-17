@@ -289,6 +289,8 @@ export default function IndiaChinaDtaaPage() {
         <p className="text-gray-700 mb-4">Review the classification of recurring payments each year. Arrangements for engineering support, software or know-how often change as the Indian subsidiary matures, and the DTAA treatment changes with them. A short note in the tax file explaining what the Chinese parent actually provided, and why the chosen classification is correct, is the best defence in an Indian assessment. It also helps the Chinese parent support its foreign tax credit claim at home, because Chinese tax authorities look at the same facts.</p>
         <p className="text-gray-700 mb-4">Keep the notes with the payment folder for the year, and update them promptly whenever the commercial arrangement between the two companies changes.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">For a royalty paid to a Chinese parent, the treaty caps Indian withholding at 10%, provided the parent is the beneficial owner and the Indian payer holds its tax residency certificate and Form 41.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

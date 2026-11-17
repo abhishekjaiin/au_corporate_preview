@@ -187,6 +187,8 @@ export default function DocumentsHandelsregisterApostillePage() {
           <li><strong>Rework:</strong> the usual delays are name mismatches between the passport and the register, an extract that is too old, and a translation that omits the apostille text.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">In practice the German file has three parts: notarisation of the board resolution and signatures by a German notary, an apostille from the competent German authority, and the KYC documents the Indian bank will ask for. Because both countries belong to the Hague Apostille Convention, consularisation at the Indian embassy is not needed.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

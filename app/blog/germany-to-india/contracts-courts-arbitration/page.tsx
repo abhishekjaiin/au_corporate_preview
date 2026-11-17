@@ -186,6 +186,8 @@ export default function ContractsCourtsArbitrationPage() {
           <li>Avoid copying a German limited-liability company agreement into an Indian shareholder agreement without checking FEMA and Indian company law.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">German groups that prefer a seat outside Germany and India often look at SIAC in Singapore or LCIA in London, as well as DIS or ICC rules. Indian courts enforce awards from any of these seats as foreign awards under the New York Convention.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

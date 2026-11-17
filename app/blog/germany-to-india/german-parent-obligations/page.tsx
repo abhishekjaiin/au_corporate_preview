@@ -171,6 +171,8 @@ export default function GermanParentObligationsPage() {
           OECD side-by-side package was published in May 2026 and was not yet law when we checked.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">If the German group files country-by-country reporting (CbCR) in Germany, the Indian subsidiary must notify the Indian tax authority, and the master file (Form 3CEAA under the previous rules) is due where India&apos;s thresholds are met. Company law filings must also identify the ultimate beneficial owner behind the GmbH or AG, which for family-owned groups often means naming the family shareholders.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

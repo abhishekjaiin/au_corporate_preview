@@ -200,6 +200,8 @@ export default function SingaporeHoldcoForIndiaPage() {
           <li>An ultimate owner is in a land-border country: Press Note 3 approval may be needed and should be planned first.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">The India-Singapore DTAA includes a limitation of benefits (LOB clause): a Singapore company with no real business, including one that spends below the expenditure threshold in Singapore, can be denied treaty benefits. Substance in Singapore, such as staff, office and decision-making, is what protects the treaty position.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

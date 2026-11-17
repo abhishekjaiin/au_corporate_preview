@@ -186,6 +186,8 @@ export default function DocumentsAcraApostillePage() {
           <li><strong>Rework:</strong> the most common delay is an address proof older than two months or a name on the passport that differs from the ACRA record. Fix names before notarising.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Singapore joined the Hague Apostille Convention in 2021, so ACRA documents now need an apostille from the Singapore Academy of Law instead of consularisation at the Indian High Commission.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

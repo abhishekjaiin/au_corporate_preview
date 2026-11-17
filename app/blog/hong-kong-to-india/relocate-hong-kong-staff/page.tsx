@@ -176,6 +176,8 @@ export default function RelocateHongKongStaffPage() {
         <p className="text-gray-700 mb-4">Security clearance can take weeks, so start the application as soon as the posting is decided and agree interim arrangements, such as remote work from Hong Kong, until the employee can travel.</p>
         <p className="text-gray-700 mb-4">Plan housing, schooling and medical cover for the employee and any family before arrival, and agree how the assignment will end, including the final Indian tax return and exit formalities. Leaving these points to the last weeks of the posting is the most common source of avoidable difficulty for relocated staff.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">A Hong Kong employee becomes resident in India for tax if present for 182 days or more in the tax year. Planning travel days in advance helps keep tax residency where the group expects it.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

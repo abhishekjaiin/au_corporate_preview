@@ -206,6 +206,7 @@ export default function ForeignCompanyRocCompliancePage() {
       <section className="py-20 bg-secondary/30">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">The ROC Calendar for a Branch Office</h2>
+          <p className="text-gray-600 leading-relaxed mb-8">All of these forms are filed online on the Ministry of Corporate Affairs (MCA) portal. A filing made after its due date carries a late fee that grows with each day of delay, and a long default can also lead to penalties, so we track every date against the branch&apos;s financial year.</p>
           <p className="text-gray-600 leading-relaxed mb-8">What is due, and when. Dates can change by notification, so we confirm those that apply to your branch office.</p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-gray-300 bg-white">

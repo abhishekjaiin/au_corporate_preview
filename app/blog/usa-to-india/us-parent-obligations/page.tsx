@@ -188,6 +188,8 @@ export default function UsParentObligationsPage() {
           <Link href="/usa-to-india/tax-and-social-security-treaties/india-us-dtaa-guide" className="text-blue-800 font-semibold hover:underline">India-US tax treaty explained</Link>.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Large US groups also have Indian group reporting duties. If consolidated revenue exceeds India&apos;s threshold, the Indian subsidiary must notify the tax authority of the group&apos;s country-by-country reporting (CbCR) entity, and file a master file (Form 3CEAA under the previous rules) when the master file thresholds are met. Separately, the subsidiary files the FLA return with the RBI by 15 July, and identifies its ultimate beneficial owner, usually the listed US parent or its controlling holders, in its company law filings.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We provide Indian financial statements, tax computations and reconciliations in a format your US CPA

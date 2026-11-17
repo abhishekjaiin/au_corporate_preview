@@ -184,6 +184,8 @@ export default function RelocateGermanStaffPage() {
           <li>Plan the return: German registration, insurance and tax.</li>
         </ol>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Indian tax residency for a German secondee depends mainly on days in India: 182 days or more in the tax year makes the person resident. If Germany also treats the person as resident, the treaty tie-breaker applies.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

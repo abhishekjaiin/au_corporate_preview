@@ -197,6 +197,8 @@ export default function ExpatVisaPage() {
           <Link href="/usa-to-india/tax-and-social-security-treaties/epf-international-workers" className="text-blue-800 font-semibold hover:underline">EPF for international workers</Link>.
         </p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">The salary threshold for India&apos;s Employment Visa is USD 25,000 a year, with limited exceptions such as certain language teachers and staff of foreign embassies. Most US assignment packages clear it easily, but the visa application should state the salary in the same terms as the offer letter.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We handle visas, accommodation, bank account operations and tax filings for expats of foreign

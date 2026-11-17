@@ -168,6 +168,8 @@ export default function EpfInternationalWorkersPage() {
         <p className="text-gray-700 mb-4">If a posting is extended, apply for the extension of the Japanese certificate of coverage before the original period ends, and give the new certificate to Indian payroll straight away.</p>
         <p className="text-gray-700 mb-4">If the extension is not obtained in time, Indian payroll may have to start provident fund deductions until the new certificate arrives, so track expiry dates for every Japanese employee in India in the same calendar as visa and registration renewals.</p>
 
+        <p className="text-gray-600 leading-relaxed mb-10">Japan is one of the countries with a social security agreement (SSA) with India, in force since 2016. A Japanese employee covered by the Japanese pension scheme and holding a certificate of coverage can be exempt from Indian provident fund contributions for the detachment period.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We classify foreign employees, collect and track Certificates of Coverage, and run provident fund contributions for international workers through our payroll service.

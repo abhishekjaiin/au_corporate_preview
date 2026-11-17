@@ -181,6 +181,8 @@ export default function RestrictedSectorsProcurementAndTradePage() {
           <li>Decide the structure and partner accordingly. See <Link href="/china-to-india/structure-options" className="text-blue-800 font-semibold hover:underline">structure options</Link>.</li>
         </ol>
 
+        <p className="mb-8">In public procurement, Rule 144(xi) of the General Financial Rules (GFR 144(xi)) bars bidders from a country sharing a land border with India unless they are registered with the competent authority, which affects Chinese-owned Indian companies bidding for government contracts.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

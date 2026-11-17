@@ -188,6 +188,8 @@ export default function AustralianParentObligationsPage() {
           <li>Not planning for the different financial years.</li>
         </ul>
 
+        <p className="text-gray-600 leading-relaxed mb-10">For larger Australian groups, Indian reporting extends beyond the subsidiary&apos;s own returns. A group above India&apos;s CbCR threshold must tell the Indian tax authority which entity files its country-by-country report, and the master file (Form 3CEAA under the previous rules) is due where India&apos;s thresholds are met. The subsidiary also files the FLA return with the RBI by 15 July, and names its ultimate beneficial owner, often the ASX-listed parent or its controlling shareholders, in company law filings.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We supply the Indian books, tax computations, Withholding Tax certificates and intercompany
