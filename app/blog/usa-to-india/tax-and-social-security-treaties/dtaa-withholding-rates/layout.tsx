@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Treaty rates for payments from India to the US: dividends 15% or 25%, interest 10% or 15%, royalties and fees 10% or 15%. Conditions and how to apply them.",
     url: "https://www.theaucorp.com/usa-to-india/tax-and-social-security-treaties/dtaa-withholding-rates",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-US DTAA Withholding Tax Rates for Payments to the US",
     description:
       "Treaty rates for payments from India to the US: dividends 15% or 25%, interest 10% or 15%, royalties and fees 10% or 15%. Conditions and how to apply them.",

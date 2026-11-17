@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/faq",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "146 FAQs: Setting Up an India Subsidiary from Germany",
     description:
       "146 plain answers for German companies: incorporation, FEMA, the India-Germany tax treaty, social security agreement, staff, data protection, compliance.",

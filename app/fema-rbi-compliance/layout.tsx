@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "FC-GPR, FC-TRS, FLA return, ECB, FDI approvals, compounding and RBI approvals for your Indian subsidiary, with every RBI deadline tracked by AU Corporate.",
     url: "https://www.theaucorp.com/fema-rbi-compliance",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "FEMA & RBI Compliance in India: FC-GPR, FLA, ECB",
     description:
       "FC-GPR, FC-TRS, FLA return, ECB, FDI approvals, compounding and RBI approvals for your Indian subsidiary, with every RBI deadline tracked by AU Corporate.",

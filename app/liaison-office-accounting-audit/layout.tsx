@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Monthly accounting, remittance reconciliation, TDS, head-office reporting and audit support for a foreign company's India liaison office.",
     url: "https://www.theaucorp.com/liaison-office-accounting-audit",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Accounting and Audit Support for Liaison Offices in India",
     description:
       "Monthly accounting, remittance reconciliation, TDS, head-office reporting and audit support for a foreign company's India liaison office.",

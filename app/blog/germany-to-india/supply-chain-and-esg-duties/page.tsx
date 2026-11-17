@@ -22,6 +22,7 @@ const toc = [
   { id: "cbam", label: "CBAM and Indian exporters" },
   { id: "customs", label: "Customs and the free trade agreement" },
   { id: "plan", label: "A light programme" },
+  { id: "csddd", label: "The EU CSDDD and German supply chain law" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -49,7 +50,7 @@ export default function SupplyChainAndEsgDutiesPage() {
         headline="Supply Chain Due Diligence, Sustainability Reporting and CBAM: How German and EU Rules Reach Indian Operations"
         description="How German and EU supply chain, sustainability and carbon border rules reach an Indian subsidiary or supplier: the German Supply Chain Act (LkSG), EU reporting, CBAM, and what to prepare."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -65,7 +66,7 @@ export default function SupplyChainAndEsgDutiesPage() {
       <GuideHero
         eyebrow="Compliance: supply chain and ESG"
         title="Supply Chain Due Diligence, Sustainability Reporting and CBAM: How German and EU Rules Reach Indian Operations"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -170,6 +171,11 @@ export default function SupplyChainAndEsgDutiesPage() {
           <li>Train procurement and HR on the basics.</li>
           <li>Review again when the reform of the German Act is final.</li>
         </ol>
+        <h2 id="csddd" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The EU CSDDD and German supply chain law</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The EU Corporate Sustainability Due Diligence Directive (CSDDD), adopted in 2024, sets supply chain due diligence duties for large EU companies, and the EU&apos;s 2025 simplification proposals delay and narrow it. Together with the German supply chain act, it means Indian suppliers and group companies of German groups will keep receiving supply chain questionnaires. A single evidence file on labour, environment and governance in the Indian supply chain answers most of them.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -219,7 +225,7 @@ export default function SupplyChainAndEsgDutiesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and German
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and German
           rules change often; confirm current requirements before acting.
         </p>
       </article>

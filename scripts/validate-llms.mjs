@@ -26,21 +26,23 @@ const BASE = process.argv[2] || "http://localhost:3000"
 // them directly, not only via llms-full.txt. Update this list if the
 // site's priority pages change.
 const MUST_INCLUDE_IN_LLMS_TXT = [
+  // The former /india-entry-for-us-companies and /doing-business-in-india pages now
+  // redirect (next.config.mjs); this list names their current destinations.
   "/",
-  "/doing-business-in-india",
-  "/india-business-setup",
+  "/india-subsidiary-registration",
   "/compliance-calendar",
-  "/india-entry-for-us-companies",
-  "/india-entry-for-us-companies/register-company-in-india-from-usa",
-  "/india-entry-for-us-companies/how-to-incorporate-subsidiary-india-from-us",
-  "/india-entry-for-us-companies/cost-timeline-incorporate-company-india-from-us",
-  "/india-entry-for-us-companies/us-subsidiary-vs-branch-office-india",
-  "/india-entry-for-us-companies/fema-compliance-us-company-india-subsidiary",
-  "/india-entry-for-us-companies/transfer-pricing-us-india-subsidiary",
-  "/india-entry-for-us-companies/permanent-establishment-risk-india",
-  "/india-entry-for-us-companies/repatriating-profits-indian-subsidiary-dtaa-withholding-tax",
-  "/india-entry-for-us-companies/annual-compliance-calendar",
-  "/india-entry-for-us-companies/close-indian-subsidiary-strike-off-voluntary-liquidation",
+  "/usa-to-india",
+  "/usa-to-india/incorporation-process",
+  "/usa-to-india/cost-of-setting-up-a-subsidiary-in-india-from-the-us",
+  "/usa-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp",
+  "/usa-to-india/funding-fema-fc-gpr",
+  "/usa-to-india/transfer-pricing",
+  "/usa-to-india/dtaa-pe-risk",
+  "/usa-to-india/repatriating-profits",
+  "/usa-to-india/compliance-calendar",
+  "/usa-to-india/restructuring-and-exit",
+  "/cost-of-setting-up-a-subsidiary-in-india",
+  "/resident-director-services-india",
   "/blog",
   "/insights",
 ]

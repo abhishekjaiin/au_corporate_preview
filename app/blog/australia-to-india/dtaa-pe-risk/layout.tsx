@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/dtaa-pe-risk",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Australia DTAA and Permanent Establishment",
     description:
       "How the India-Australia DTAA applies to payments to your Australian parent: withholding rates, the ATO residency certificate (NAT 75442), Form 41 and PE risk.",

@@ -21,6 +21,7 @@ const toc = [
   { id: "money", label: "Money and FEMA" },
   { id: "people", label: "People and data" },
   { id: "plan", label: "A short prevention plan" },
+  { id: "fema-mistakes", label: "What a FEMA mistake costs" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -48,7 +49,7 @@ export default function CommonMistakesPage() {
         headline="12 Common Mistakes Singapore Companies Make When Entering India, and How to Avoid Each"
         description="The twelve mistakes we see most often when a Singapore company sets up an Indian subsidiary: treaty assumptions, holdco substance, EPF for PRs, services PE, FEMA clocks, stamping, data transfers and year-end gaps."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -64,7 +65,7 @@ export default function CommonMistakesPage() {
       <GuideHero
         eyebrow="Avoid: common mistakes"
         title="12 Common Mistakes Singapore Companies Make When Entering India, and How to Avoid Each"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -135,6 +136,11 @@ export default function CommonMistakesPage() {
           <li>Review the treaty papers and the day counts every quarter.</li>
           <li>Run a pre-exit review at least a year before any planned sale.</li>
         </ol>
+        <h2 id="fema-mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What a FEMA mistake costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Several mistakes on this list are FEMA mistakes: capital allotted late, FC-GPR filed after 30 days, a missed FLA return or a share transfer priced outside the rules. FEMA penalties can reach three times the amount involved, so such a mistake is usually settled by compounding with the RBI, or by a late submission fee where only a report was late. Each mistake costs more the longer it goes unnoticed, because compounding needs the full history. We set the FEMA calendar at incorporation so that no mistake of this kind waits for the Singapore parent&apos;s annual review.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -184,7 +190,7 @@ export default function CommonMistakesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

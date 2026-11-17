@@ -142,6 +142,56 @@ export default function ComplianceCalendarPage() {
         <p className="mb-4 text-gray-700">These are triggered by something happening, not by a date, and they are where foreign-owned subsidiaries most often fall behind.</p>
         <CalendarTable headers={["Trigger", "Filing", "Deadline", "Regulator"]} rows={eventRows} />
 
+        <h2 className="mb-2 font-heading text-2xl font-bold" style={{ color: NAVY }}>
+          First-year compliance for a new company
+        </h2>
+        <p className="mb-4 text-gray-700 leading-relaxed">
+          The first year has one-off compliance steps that the tables above do not show, and they are where new foreign-owned companies most often slip:
+        </p>
+        <ul className="mb-12 list-disc space-y-2 pl-6 text-gray-700">
+          <li>First board meeting within 30 days of incorporation, appointing the first auditor.</li>
+          <li>Share certificates issued to the subscribers within two months of incorporation.</li>
+          <li>Shares allotted within 60 days of receiving capital from the parent, and FC-GPR filed within 30 days of allotment.</li>
+          <li>Commencement of business declaration (Form INC-20A) within 180 days of incorporation.</li>
+          <li>Registrations under the state shops and establishments law, and for provident fund, ESI and professional tax as staff join.</li>
+          <li>The first AGM within nine months of the end of the first financial year.</li>
+        </ul>
+
+        <h2 className="mb-2 font-heading text-2xl font-bold" style={{ color: NAVY }}>
+          Extra compliance for foreign-owned companies
+        </h2>
+        <p className="mb-4 text-gray-700 leading-relaxed">
+          A company owned by a foreign parent has three areas of compliance that a purely Indian company may not: FEMA reporting of every share issue and transfer (FC-GPR and FC-TRS) and the yearly FLA return by 15 July; transfer pricing documentation and the accountant&apos;s report (Form 48) for every transaction with the parent and group companies; and withholding tax with Forms 145 and 146 on every payment abroad. These are the filings regulators review most closely for foreign-owned companies, so they deserve their own owner in the compliance calendar.
+        </p>
+        <p className="mb-12 text-gray-700 leading-relaxed">
+          Our country guides map these dates against the parent&apos;s own year end, for example the 
+          <Link href="/usa-to-india/compliance-calendar" className="font-semibold text-[#0E1B4D] underline hover:no-underline">compliance calendar for US companies</Link>, the 
+          <Link href="/germany-to-india/compliance-calendar" className="font-semibold text-[#0E1B4D] underline hover:no-underline">calendar for German groups</Link> and the 
+          <Link href="/japan-to-india/compliance-calendar" className="font-semibold text-[#0E1B4D] underline hover:no-underline">calendar for Japanese groups</Link>.
+        </p>
+
+        <h2 className="mb-2 font-heading text-2xl font-bold" style={{ color: NAVY }}>
+          Who owns each compliance area
+        </h2>
+        <div className="mb-12 overflow-x-auto">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="text-white" style={{ backgroundColor: NAVY }}>
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Compliance area</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Usual owner</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Information needed from the parent</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Accounting, GST and TDS</th><td className="border border-gray-300 p-3">Finance team or outsourced accountant</td><td className="border border-gray-300 p-3">Intercompany invoices and agreements</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Payroll and labour laws</th><td className="border border-gray-300 p-3">HR with a payroll provider</td><td className="border border-gray-300 p-3">Share plan data and secondment terms</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Company secretarial and ROC</th><td className="border border-gray-300 p-3">Company secretary</td><td className="border border-gray-300 p-3">Board decisions and beneficial ownership details</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">FEMA and RBI</th><td className="border border-gray-300 p-3">Company secretary or FEMA adviser</td><td className="border border-gray-300 p-3">Remittance details and valuation inputs</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Income tax and transfer pricing</th><td className="border border-gray-300 p-3">Tax adviser</td><td className="border border-gray-300 p-3">Group transfer pricing policy and figures</td></tr>
+            </tbody>
+          </table>
+        </div>
+
         <div className="mb-12 rounded-xl border border-gray-200 bg-gray-50 p-6">
           <h2 className="mb-3 font-heading text-xl font-bold" style={{ color: NAVY }}>
             Important note

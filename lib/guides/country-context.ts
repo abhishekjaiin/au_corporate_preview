@@ -894,6 +894,7 @@ export const COUNTRY_CONTEXT: Record<GuideCountryKey, Partial<Record<GuideTopic,
       "Spanish groups usually choose between relocating a Spanish executive, an Indian managing director or a professional resident director.",
     ],
   },
+  uae: {},
 }
 
 /** Country facts shown as a profile table on each country's hub page. */
@@ -1022,4 +1023,5 @@ export const COUNTRY_PROFILE: Record<GuideCountryKey, [string, string][]> = {
     ["Data transfers", "No EU adequacy for India: standard contractual clauses and a transfer impact assessment"],
     ["Trade agreement", "India-EU agreement concluded 27 January 2026, not yet in force"],
   ],
+  uae: [],
 }

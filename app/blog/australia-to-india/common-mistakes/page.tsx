@@ -20,6 +20,7 @@ const toc = [
   { id: "thirteen", label: "The thirteen mistakes" },
   { id: "habits", label: "Australian habits that do not transfer" },
   { id: "prevention", label: "A short prevention plan" },
+  { id: "fema-penalties", label: "What a FEMA mistake costs" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -50,7 +51,7 @@ export default function CommonMistakesPage() {
         headline="Thirteen Mistakes Australian Companies Make When Setting Up in India, and How to Avoid Them"
         description="The 13 most common and costly mistakes Australian companies make when setting up an Indian subsidiary, and how to avoid each. Includes a pre-filing checklist."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -66,7 +67,7 @@ export default function CommonMistakesPage() {
       <GuideHero
         eyebrow="Avoid the pitfalls"
         title="Thirteen Mistakes Australian Companies Make When Setting Up in India, and How to Avoid Them"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -196,6 +197,11 @@ export default function CommonMistakesPage() {
           <li>Sign intercompany agreements before the first invoice.</li>
           <li>Set a group calendar that maps the Indian 31 March year to the Australian 30 June year.</li>
         </ol>
+        <h2 id="fema-penalties" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What a FEMA mistake costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Several mistakes on this list are FEMA contraventions. Penalties can reach three times the amount involved, so most are settled by compounding with the RBI, or by a late submission fee where only a report was late. The cheapest mistake is the one prevented at incorporation.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -240,7 +246,7 @@ export default function CommonMistakesPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

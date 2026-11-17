@@ -22,6 +22,7 @@ const toc = [
   { id: "routes", label: "Appeal routes in India" },
   { id: "map", label: "MAP under the India-Australia treaty" },
   { id: "records", label: "Records that answer most notices" },
+  { id: "faceless", label: "Faceless assessment and the first appeal" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +36,7 @@ const faqs = [
   { q: "Where does a first income tax appeal go?", a: "To the Commissioner (Appeals), generally within 30 days of the order." },
   { q: "Do GST notices follow the same route?", a: "No. GST has its own adjudication and appellate stages." },
   { q: "How can notices be reduced?", a: "Keep treaty documents current, sign intercompany agreements and reconcile tax credits each quarter." },
+  { q: "What is faceless assessment?", a: "India's online scrutiny process, where questions, replies and hearings happen through the tax portal without meeting the officer." },
 ]
 
 const relatedCards = [
@@ -52,7 +54,7 @@ export default function TaxNoticesAndLitigationPage() {
         headline="Tax Notices and Disputes in India: What Australian Companies Should Do"
         description="What an Australian-owned Indian subsidiary should do on receiving an income tax, GST or transfer pricing notice: first steps, DRP, ITAT, treaty MAP and APAs."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -68,7 +70,7 @@ export default function TaxNoticesAndLitigationPage() {
       <GuideHero
         eyebrow="Defend: notices and litigation"
         title="Tax Notices and Disputes in India: What Australian Companies Should Do"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -165,6 +167,11 @@ export default function TaxNoticesAndLitigationPage() {
           <li>Quarterly reconciliation of tax credit statements to the books.</li>
           <li>Transfer pricing documentation ready by the report date.</li>
         </ul>
+        <h2 id="faceless" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Faceless assessment and the first appeal</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most scrutiny assessments in India are now run through the faceless assessment scheme: questions, replies and hearings happen online through the tax portal, with no meeting with the officer. Replies must therefore be complete in writing, with documents attached. If the assessment goes against the company, the first appeal goes to the Commissioner of Income Tax (Appeals), the CIT(A), also largely faceless, then to the Income Tax Appellate Tribunal. Transfer pricing cases can instead go to the Dispute Resolution Panel before the final order.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -209,7 +216,7 @@ export default function TaxNoticesAndLitigationPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

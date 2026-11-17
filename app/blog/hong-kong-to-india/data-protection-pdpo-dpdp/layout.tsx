@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/data-protection-pdpo-dpdp",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Hong Kong PDPO and India's DPDP Act",
     description:
       "How Hong Kong's Personal Data (Privacy) Ordinance and India's Digital Personal Data Protection Act apply to a group with staff and customers in both.",

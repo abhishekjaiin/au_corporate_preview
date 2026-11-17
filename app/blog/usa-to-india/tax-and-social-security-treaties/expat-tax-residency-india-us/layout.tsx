@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Which country taxes a US expat in India: Indian residency tests, US worldwide tax, the treaty tie-breaker, foreign tax credit and exclusion.",
     url: "https://www.theaucorp.com/usa-to-india/tax-and-social-security-treaties/expat-tax-residency-india-us",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Tax Residency for US Expats in India: Treaty and Credits",
     description:
       "Which country taxes a US expat in India: Indian residency tests, US worldwide tax, the treaty tie-breaker, foreign tax credit and exclusion.",

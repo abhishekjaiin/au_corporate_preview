@@ -22,6 +22,8 @@ const toc = [
   { id: "holding", label: "Direct holding or an intermediate company?" },
   { id: "people", label: "Directors and ownership: UK practical points" },
   { id: "eor", label: "When an Employer of Record is the right first step" },
+  { id: "tax-rate-table", label: "Indian tax rate by structure" },
+  { id: "uk-wos", label: "Wholly owned subsidiary or joint venture" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -31,6 +33,7 @@ const faqs = [
   { q: "Can a UK company open a liaison office in India?", a: "Yes, with RBI approval through an authorised dealer bank, if it has a profit record for the previous three years and net worth of at least USD 50,000. The office can liaise and research but cannot earn income or invoice." },
   { q: "Should a UK company hold its Indian subsidiary directly?", a: "In most cases yes. Direct holding keeps the treaty and UK exemption position simple. An intermediate holding company must pass the principal purpose test and needs real substance." },
   { q: "Is an Employer of Record better than a subsidiary?", a: "Only at the start. An Employer of Record is faster and needs no capital, but it cannot contract in your name, and it becomes costly as the team grows. Most groups convert to a subsidiary after the first year or ten hires." },
+  { q: "Can a UK company open a liaison office first?", a: "Yes, through an AD bank, if it has a three-year profit record and net worth of at least USD 50,000; it cannot earn income in India." },
 ]
 
 const relatedCards = [
@@ -48,7 +51,7 @@ export default function StructureOptionsPage() {
         headline="Choosing an Indian Structure as a UK Company: Subsidiary, Branch, Liaison Office, LLP or Employer of Record"
         description="How a UK company should choose between an Indian subsidiary, branch, liaison office, LLP or Employer of Record, and whether to hold it directly or through an intermediate company."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-GB"
       />
@@ -64,7 +67,7 @@ export default function StructureOptionsPage() {
       <GuideHero
         eyebrow="Structure: UK parent"
         title="Choosing an Indian Structure as a UK Company: Subsidiary, Branch, Liaison Office, LLP or Employer of Record"
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -173,6 +176,27 @@ export default function StructureOptionsPage() {
           contracts or assets in India make the EOR the wrong tool, and agree conversion terms with the EOR at
           the outset.
         </p>
+        <h2 id="tax-rate-table" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Indian tax rate by structure</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Structure</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax on profits</th><th scope="col" className="border border-gray-300 p-3 text-left">When profits go home</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Private limited company</th><td className="border border-gray-300 p-3">About 25.17% under the concessional regime</td><td className="border border-gray-300 p-3">Dividend withholding of 10% under the DTAA</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">LLP</th><td className="border border-gray-300 p-3">30% plus surcharge and cess, up to about 34.94%</td><td className="border border-gray-300 p-3">No further Indian tax on the profit share</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Branch or project office</th><td className="border border-gray-300 p-3">35% plus surcharge and cess, about 36.4% to 38.22%</td><td className="border border-gray-300 p-3">No Indian tax on remitting net profit</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Liaison office</th><td className="border border-gray-300 p-3">No income allowed</td><td className="border border-gray-300 p-3">Not applicable</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          On ₹1 crore of profit the company route saves roughly ₹11 to 13 lakh a year in Indian corporate tax compared with a branch, which is why most UK groups choose an Indian company for any revenue-earning business. A branch or liaison office also needs AD bank approval of the UK parent itself, which takes longer than incorporating a company.
+        </p>
+        <h2 id="uk-wos" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Wholly owned subsidiary or joint venture</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most UK groups choose a wholly owned subsidiary: the UK parent holds almost all the shares and a nominee holds one, because Indian law needs two shareholders. A joint venture suits regulated or relationship-driven sectors where an Indian partner brings licences or customers; its shareholders&apos; agreement and articles should cover board seats, reserved matters, deadlock and exit.
+        </p>
+
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -222,7 +246,7 @@ export default function StructureOptionsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

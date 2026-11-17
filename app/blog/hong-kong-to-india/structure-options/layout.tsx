@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india/structure-options",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Structure Options in India for a Hong Kong Company",
     description:
       "Compare Indian structures for a Hong Kong company: wholly owned private limited company, LLP, branch, liaison and project office, and joint venture.",

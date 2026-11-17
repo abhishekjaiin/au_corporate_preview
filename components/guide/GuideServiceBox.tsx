@@ -27,6 +27,16 @@ export function GuideServiceBox({ path }: { path: string }) {
         </Link>
         . Chartered Accountants serving foreign companies across India since 2016.
       </p>
+      {path.startsWith("/japan-to-india") && (
+        <p className="text-sm text-gray-700 mt-3 pt-3 border-t border-gold/60">
+          <strong>Japan–India alliance:</strong> AU Corporate works with{" "}
+          <Link href="/japan-alliance" className="font-semibold text-blue-800 hover:underline">
+            Nihon-bashi International Accounting Firm (日本橋国際会計事務所)
+          </Link>
+          , a Tokyo CPA and tax firm, under an MOU signed on 19 October 2026. Japanese companies can start in
+          Japanese in Tokyo, while AU Corporate handles incorporation, tax and compliance in India.
+        </p>
+      )}
     </aside>
   )
 }

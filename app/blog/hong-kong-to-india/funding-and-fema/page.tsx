@@ -22,6 +22,8 @@ const toc = [
   { id: "ecb", label: "Loans and external commercial borrowing" },
   { id: "transfers", label: "Transfers of shares" },
   { id: "mistakes", label: "Common errors" },
+  { id: "fema-steps", label: "FEMA steps for each capital round" },
+  { id: "hk-approval-first", label: "Approval before remittance" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -34,6 +36,8 @@ const faqs = [
   { q: "Can a Hong Kong group company lend to the Indian subsidiary?", a: "Yes if it meets the external commercial borrowing conditions, with Withholding Tax on interest and arm's length pricing." },
   { q: "Is Press Note 3 approval needed before the money comes in?", a: "For Hong Kong investors, yes. Funding before approval is a contravention." },
   { q: "Can money come from a third party?", a: "No. It should come from the Hong Kong parent's own account to avoid KYC and reporting problems." },
+  { q: "Which FEMA filings follow a capital remittance from the Hong Kong parent?", a: "Reporting the receipt on FIRMS, allotment within 60 days, FC-GPR within 30 days of allotment and the yearly FLA return. Each is a FEMA requirement, and a missed FEMA deadline usually needs a late fee or compounding." },
+  { q: "Who signs the FEMA valuation?", a: "A Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant, under the FEMA pricing guidelines." },
 ]
 
 const relatedCards = [
@@ -51,7 +55,7 @@ export default function FundingAndFemaPage() {
         headline="Funding Your Indian Subsidiary from Hong Kong: Equity, Preference Shares, External Borrowing and FEMA Reporting"
         description="How a Hong Kong parent can fund an Indian company: equity share and preference share pricing, 60-day allotment and FC-GPR rules, ECB, loans, FLA return, Press Note 3 and reporting through the authorised dealer bank."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -67,7 +71,7 @@ export default function FundingAndFemaPage() {
       <GuideHero
         eyebrow="Money: funding and FEMA"
         title="Funding Your Indian Subsidiary from Hong Kong: Equity, Preference Shares, External Borrowing and FEMA Reporting"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -173,6 +177,24 @@ export default function FundingAndFemaPage() {
           <li>Pricing below fair value on an issue to the Hong Kong parent.</li>
           <li>Routing the money through a third-party account or an unrelated entity.</li>
         </ul>
+        <h2 id="fema-steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA steps for each capital round</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The Indian bank issues the foreign inward remittance certificate and a KYC report on the remitter.</li>
+          <li>The receipt is reported on the RBI&apos;s FIRMS portal, where the company first registers.</li>
+          <li>Shares are allotted within 60 days, at no less than fair value under the FEMA pricing guidelines, certified by a Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant.</li>
+          <li>The return of allotment is filed with the Registrar within 30 days.</li>
+          <li>Form FC-GPR is filed on FIRMS within 30 days of allotment.</li>
+          <li>The FLA return reports the investment every year by 15 July.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Share capital has no legal minimum; most Hong Kong parents fund the first 12 to 18 months in one round, because every round repeats the FEMA steps. Remit from the shareholder named in the documents, in US or Hong Kong dollars, so the bank&apos;s KYC report matches. A late FEMA report is usually regularised by a late submission fee; a missed allotment deadline needs compounding. Where Press Note 3 applies, the government approval must be in place before the money is sent.
+        </p>
+        <h2 id="hk-approval-first" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Approval before remittance</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          For a Hong Kong investor, Press Note 3 approval must be in place before the capital is sent; a remittance received before approval cannot be allotted and must be returned. Build the approval time into the funding plan.
+        </p>
+
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -221,7 +243,7 @@ export default function FundingAndFemaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

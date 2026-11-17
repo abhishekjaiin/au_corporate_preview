@@ -4,6 +4,8 @@
 
 Primary services: India market entry and Global Capability Center (GCC) advisory, assurance and accounting (IFRS/Ind AS), taxation and transfer pricing, FEMA and RBI regulatory compliance, monthly accounting and payroll, Virtual CFO services, HR and payroll services, risk and transaction advisory, business valuation, and arbitration/dispute resolution.
 
+Japan alliance: since 19 October 2026, AU Corporate has an MOU with Nihon-bashi International Accounting Firm (日本橋国際会計事務所, Tokyo; https://www.n-cpa.com/en/) for Japan–India market entry. Nihon-bashi advises Japanese companies in Japanese in Tokyo, and AU Corporate handles incorporation, FEMA/RBI, tax and compliance in India. The firms are independent and each contracts directly for its own country.
+
 Service area: all of India, with clients worldwide. Subsidiary registration: USD 750 to 1,000 all-inclusive; incorporation typically takes 4 to 6 weeks.
 
 Contact: partner@theaucorp.com | +91-9999010513 | Serving clients across India
@@ -16,6 +18,7 @@ Full page index (every page on the site, not just the curated list below): https
 - [India Subsidiary Registration](https://www.theaucorp.com/india-subsidiary-registration): AU Corporate's incorporation service for foreign companies, with fees and process
 - [About](https://www.theaucorp.com/about): Firm background, team, and credentials
 - [Contact](https://www.theaucorp.com/contact): Contact details and inquiry form
+- [Free Consultation](https://www.theaucorp.com/free-consultation): Book a free first consultation with a Chartered Accountant on India entry and compliance
 - [Compliance Calendar](https://www.theaucorp.com/compliance-calendar): Monthly, quarterly, annual and event-based filing calendar for a foreign-owned Indian subsidiary
 - [Blog](https://www.theaucorp.com/blog): Regulatory explainers and India business guides
 - [Insights](https://www.theaucorp.com/insights): AU Corporate's published regulatory and compliance insights
@@ -26,6 +29,11 @@ Full page index (every page on the site, not just the curated list below): https
 - [Case Study: Finance and HR for a US SaaS Captive in India](https://www.theaucorp.com/case-studies/us-saas-captive-centre-india): How AU Corporate set up and runs the finance and HR function of a US SaaS company's Indian captive subsidiary: 40+ staff in India, cost-plus billing, client since 2018.
 - [Case Study: India Subsidiary Incorporated in 14 Days for a US Company](https://www.theaucorp.com/case-studies/us-longevity-company-india-subsidiary-14-days): How AU Corporate incorporated the Indian subsidiary of a US longevity company in 14 days: apostilled documents, DSC, resident director signatures and SPICe+ filing.
 - [Case Study: FEMA Compounding for a China-Owned Subsidiary in India](https://www.theaucorp.com/case-studies/china-subsidiary-fema-compounding): How AU Corporate reviewed a Chinese-owned Indian subsidiary's FEMA compliance, compounded 14 contraventions with the RBI and became its retained adviser.
+
+## Alliances
+
+- [Japan–India Alliance with Nihon-bashi International Accounting Firm](https://www.theaucorp.com/japan-alliance): AU Corporate (New Delhi) and Nihon-bashi International Accounting Firm (Tokyo) signed an MOU on 19 October 2026 for Japan–India market entry support: Japanese-language consultation in Tokyo, incorporation and compliance in India.
+- [日本橋国際会計事務所との業務提携に関するお知らせ](https://www.theaucorp.com/ja/japan-alliance): Japanese-language announcement of the same alliance.
 
 ## Country-Specific India Entry Guides
 
@@ -39,6 +47,8 @@ Full page index (every page on the site, not just the curated list below): https
 - [For Hong Kong Companies](https://www.theaucorp.com/hong-kong-to-india)
 - [For Russian Companies](https://www.theaucorp.com/russia-to-india)
 - [For Spanish Companies](https://www.theaucorp.com/spain-to-india)
+- [For UAE and Dubai Companies](https://www.theaucorp.com/uae-to-india): Setting up in India from the UAE, free zone parents, NRI founders, the tax treaty and CEPA
+- [For Dutch and European Companies](https://www.theaucorp.com/europe-to-india): Netherlands, France and other EU parents, with links to the Germany and Spain guides
 
 ## USA → India — Full Resource List
 
@@ -312,6 +322,29 @@ A long-form guide cluster for Singapore companies setting up and running a subsi
 - [Structure Options for Spanish Companies in India: Subsidiary, LLP, Branch, Liaison or JV](https://www.theaucorp.com/spain-to-india/structure-options): Compare the ways a Spanish group can enter India: a wholly owned private limited company, a joint venture, a limited liability partnership, a branch, a liaison office or a project office. Includes the RBI net worth tests, tax differences and notes for renewables, auto components, ceramics, retail and infrastructure.
 - [Transfer Pricing for Spanish Groups in India: Documentation, Form 3CEB and Benchmarking](https://www.theaucorp.com/spain-to-india/transfer-pricing): How India and Spain test related-party prices: methods, thresholds, Form 3CEB, the master and local files, intra-group services and royalties, loans, safe harbours, advance pricing agreements, audits and the match between Indian and Spanish files.
 - [179 FAQs: Setting Up an India Subsidiary from Spain](https://www.theaucorp.com/spain-to-india/faq): 179 plain answers for Spanish companies: FDI route, incorporation, FEMA, the India-Spain tax treaty, Spanish declarations, documents, staff, data protection, compliance, repatriation and exit.
+
+## Planning Guides
+
+- [Cost of Setting Up a Subsidiary in India](https://www.theaucorp.com/cost-of-setting-up-a-subsidiary-in-india): Government fees, home-country costs, share capital and annual running costs; best pricing with a free consultation
+- [How Long It Takes to Set Up a Subsidiary in India](https://www.theaucorp.com/how-long-to-set-up-a-subsidiary-in-india): Week-by-week timeline from documents to bank account and FC-GPR
+- [Resident Director Services in India](https://www.theaucorp.com/resident-director-services-india): The Section 149(3) rule and AU Corporate's professional resident director service
+- [Company Registration in India for NRIs](https://www.theaucorp.com/company-registration-in-india-for-nri): Structures, repatriation vs non-repatriation investment, documents and tax for NRIs and foreign nationals
+- [Can a Foreign Company Own 100% of an Indian Company?](https://www.theaucorp.com/can-a-foreign-company-own-100-percent-of-an-indian-company): 100% FDI, capped and prohibited sectors, Press Note 3
+- [Cost of Hiring Employees in India](https://www.theaucorp.com/cost-of-hiring-employees-in-india): CTC, statutory contributions and worked employer-cost examples
+- [India's New Labour Codes](https://www.theaucorp.com/new-labour-codes-india-50-percent-wage-rule-gratuity): The 50% wage rule, gratuity and other changes in force since 21 November 2025
+- [Manufacturing Company Setup in India](https://www.theaucorp.com/manufacturing-company-setup-in-india): Own plant or contract manufacturing, approvals and PLI incentives
+
+- [Company Registration in Bengaluru](https://www.theaucorp.com/company-registration-in-bengaluru): Registrar, Karnataka rules, districts and talent for foreign companies
+- [Company Registration in Gurugram](https://www.theaucorp.com/company-registration-in-gurugram): Registrar, Haryana rules, districts and talent for foreign companies
+- [Company Registration in Mumbai](https://www.theaucorp.com/company-registration-in-mumbai): Registrar, Maharashtra rules, districts and regulated businesses
+- [Company Registration in Pune](https://www.theaucorp.com/company-registration-in-pune): Registrar, Maharashtra rules, engineering and automotive cluster
+- [Share Valuation in India](https://www.theaucorp.com/share-valuation-india-registered-valuer-fema): FEMA pricing, registered valuer reports and income tax valuation rules
+- [ESOPs for Foreign-Owned Indian Companies](https://www.theaucorp.com/esop-india-foreign-owned-companies): Parent plans, Indian plans, ESOP valuation and perquisite tax
+- [Funding Instruments: CCDs, CCPS and Convertible Notes](https://www.theaucorp.com/funding-instruments-india-ccd-ccps-convertible-notes): FDI instruments, pricing and reporting
+
+- [Press Note 3 Approval in India](https://www.theaucorp.com/press-note-3-approval-india): Government approval for investors from China, Hong Kong and other land-border countries, including the March 2026 easing
+
+- [Employee Benefits in India for Foreign Companies](https://www.theaucorp.com/employee-benefits-in-india-for-foreign-companies): Statutory benefits, group health and life insurance, and notes for Singapore, UK, German and US employers
 
 ## India Entry — Entity Types & Process
 

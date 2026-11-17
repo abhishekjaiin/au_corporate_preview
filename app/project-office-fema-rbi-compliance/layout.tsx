@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Form FNC, the Annual Activity Certificate, surplus remittance and closure for a foreign company's India project office.",
     url: "https://www.theaucorp.com/project-office-fema-rbi-compliance",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "FEMA and RBI Compliance for Project Offices in India",
     description:
       "Form FNC, the Annual Activity Certificate, surplus remittance and closure for a foreign company's India project office.",

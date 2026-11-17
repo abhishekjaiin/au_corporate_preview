@@ -22,6 +22,7 @@ const toc = [
   { id: "annual", label: "The annual Indian cycle" },
   { id: "australian-links", label: "Filings in Australia that use Indian numbers" },
   { id: "owners", label: "Who owns each deadline" },
+  { id: "compliance-owner", label: "Keeping compliance on track" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +36,8 @@ const faqs = [
   { q: "Which Australian filing uses Indian figures?", a: "The International Dealings Schedule with the parent's company tax return, and Division 815 documentation." },
   { q: "When is Withholding Tax on payments to Australia deposited?", a: "By the 7th of the following month." },
   { q: "How many board meetings are needed?", a: "At least four a year, with no more than 120 days between them, subject to small company relaxations." },
+  { q: "When is the Indian AGM due?", a: "By 30 September after the 31 March year end." },
+  { q: "When is the FLA return due?", a: "By 15 July each year." },
 ]
 
 const relatedCards = [
@@ -52,7 +55,7 @@ export default function ComplianceCalendarPage() {
         headline="Compliance Calendar for an Indian Subsidiary: What Is Due and When"
         description="The recurring compliance of an Australian-owned Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST, FEMA and labour law."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -68,7 +71,7 @@ export default function ComplianceCalendarPage() {
       <GuideHero
         eyebrow="Operate: compliance"
         title="Compliance Calendar for an Indian Subsidiary: What Is Due and When"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -201,6 +204,11 @@ export default function ComplianceCalendarPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Assign an owner in India for each monthly filing and an approver in Australia for anything that needs parent sign-off, such as the accounts, dividends and intercompany pricing. Most missed Indian deadlines happen when the approval sits in an Australian inbox during the June year-end rush.
         </p>
+        <h2 id="compliance-owner" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping compliance on track</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most compliance problems we see in Australian-owned companies come from a missed handover rather than a hard rule. Keep one compliance owner in India, a shared calendar that maps each Indian date to the Australian month, and a monthly compliance report to the Australian CFO. See <Link href="/australia-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">common mistakes</Link>.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -245,7 +253,7 @@ export default function ComplianceCalendarPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

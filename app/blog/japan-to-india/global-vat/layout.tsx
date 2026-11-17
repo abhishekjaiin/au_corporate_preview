@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How VAT works for Japanese companies selling digital services and goods into Europe, the UK and beyond: registration, B2B and B2C rules and compliance.",
     url: "https://www.theaucorp.com/japan-to-india/global-vat",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Global VAT for Japanese Companies Selling Abroad",
     description:
       "How VAT works for Japanese companies selling digital services and goods into Europe, the UK and beyond: registration, B2B and B2C rules and compliance.",

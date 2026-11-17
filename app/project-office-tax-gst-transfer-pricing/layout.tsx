@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Tax rate, PE, lower deduction certificate, presumptive tax, GST, transfer pricing and treaty relief for the India project office of a foreign company.",
     url: "https://www.theaucorp.com/project-office-tax-gst-transfer-pricing",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Tax, GST and Transfer Pricing for Project Offices in India",
     description:
       "Tax rate, PE, lower deduction certificate, presumptive tax, GST, transfer pricing and treaty relief for the India project office of a foreign company.",

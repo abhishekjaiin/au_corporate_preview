@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "The recurring compliance of an Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST, FEMA and labour law.",
     url: "https://www.theaucorp.com/usa-to-india/compliance-calendar",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India Subsidiary Compliance Calendar for US Companies",
     description:
       "The recurring compliance of an Indian subsidiary: monthly, quarterly, annual and event-based filings under company, tax, GST, FEMA and labour law.",

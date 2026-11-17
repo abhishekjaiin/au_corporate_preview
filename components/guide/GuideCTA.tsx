@@ -8,6 +8,11 @@ export function GuideCTA({ title, description }: { title: string; description: s
       <div className="flex-1 min-w-[240px]">
         <h2 className="text-xl font-bold mb-1.5">{title}</h2>
         <p className="text-white/80 text-sm">{description}</p>
+        <p className="mt-2 text-sm">
+          <Link href="/free-consultation" className="font-semibold text-gold hover:underline">
+            Free first consultation with a Chartered Accountant →
+          </Link>
+        </p>
       </div>
       <div className="flex flex-wrap gap-3">
         <Link

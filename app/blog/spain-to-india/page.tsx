@@ -87,7 +87,7 @@ export default function SpainToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Spain: The 2026 Guide"
         description="How Spanish companies set up a subsidiary in India: FDI route, structure, incorporation, FEMA filings, the India-Spain tax treaty, Spanish declarations, staff, data and compliance. By a Chartered Accountant."
         datePublished="2026-11-02"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         inLanguage="en-ES"
       />
 
@@ -102,7 +102,7 @@ export default function SpainToIndiaHubPage() {
         eyebrow="Guide for Spanish companies"
         title="How to Set Up a Subsidiary in India from Spain: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, the India-Spain treaty, the apostille and sworn translation, costs and timelines for Spanish companies entering India, in plain terms."
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -487,7 +487,7 @@ export default function SpainToIndiaHubPage() {
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">
           <div>
             <strong className="block text-gray-900">Get a costing for your plan</strong>
-            <p className="text-sm text-gray-600 mt-0.5">Tell us what you plan to set up and we will prepare a costing and book a call.</p>
+            <p className="text-sm text-gray-600 mt-0.5">Tell us what you plan to set up: you get the best pricing, better work support and a free first consultation.</p>
           </div>
           <InquiryTrigger className="inline-block rounded-lg bg-gold px-5 py-2.5 text-sm font-bold text-[#081a42] hover:bg-gold-dark transition-colors whitespace-nowrap">
             Discuss your costing with our team
@@ -688,7 +688,7 @@ export default function SpainToIndiaHubPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian and Spanish
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Spanish
           rules change often; confirm current requirements before acting.
         </p>
       </article>

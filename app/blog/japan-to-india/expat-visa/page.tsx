@@ -22,6 +22,7 @@ const toc = [
   { id: "social-security", label: "Pension and provident fund" },
   { id: "tax", label: "Income tax on both sides" },
   { id: "settling", label: "Settling in" },
+  { id: "first-month", label: "The chuzaiin's first month in India" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -52,7 +53,7 @@ export default function ExpatVisaPage() {
         headline="Sending a Japanese Executive to India: Visa, Housing, Banking and Tax"
         description="How to relocate a Japanese executive to India: employment visa, FRRO registration, housing, banking, tax residency and permanent establishment risk for the parent."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -68,7 +69,7 @@ export default function ExpatVisaPage() {
       <GuideHero
         eyebrow="Mobilize: expats"
         title="Sending a Japanese Executive to India: Visa, Housing, Banking and Tax"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -158,6 +159,18 @@ export default function ExpatVisaPage() {
           <li>A PAN obtained early for the tax return and banking.</li>
           <li>A clear handover of who in Japan approves expenses, so local decisions are not slowed.</li>
         </ul>
+        <h2 id="first-month" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The chuzaiin&apos;s first month in India</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>FRRO registration within 14 days of arrival for stays over 180 days.</li>
+          <li>PAN, so tax is deducted at normal rates.</li>
+          <li>Indian salary account, opened with the passport, FRRO registration and employment letter.</li>
+          <li>Lease and deposit, often advanced by the employer.</li>
+          <li>Certificate of Coverage handed to the Indian employer so provident fund is not deducted.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The employment category needs a salary of at least USD 25,000 a year, which Japanese assignment packages normally exceed. Business trips by head-office staff can use the e-business route, but hands-on work needs the employment category.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -202,7 +215,7 @@ export default function ExpatVisaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

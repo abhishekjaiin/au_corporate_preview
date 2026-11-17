@@ -22,6 +22,7 @@ const toc = [
   { id: "jsox", label: "J-SOX and the Indian subsidiary" },
   { id: "gaap", label: "Ind AS, Indian GAAP and the group pack" },
   { id: "ready", label: "Being audit-ready" },
+  { id: "close-plan", label: "A practical close plan for a Japanese parent" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -52,7 +53,7 @@ export default function AuditIcofrPage() {
         headline="Audit and Internal Controls for an Indian Subsidiary of a Japanese Group"
         description="Statutory audit, tax audit, GST audit and internal controls over financial reporting for an Indian subsidiary of a Japanese group. What to expect and how to prepare."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -68,7 +69,7 @@ export default function AuditIcofrPage() {
       <GuideHero
         eyebrow="Assure: audit and controls"
         title="Audit and Internal Controls for an Indian Subsidiary of a Japanese Group"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -169,6 +170,11 @@ export default function AuditIcofrPage() {
           <li>Document the financial close and authorisation limits for J-SOX.</li>
           <li>Agree the group pack timetable and the Indian audit timetable at the start of the year.</li>
         </ul>
+        <h2 id="close-plan" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A practical close plan for a Japanese parent</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most Japanese parents also close on 31 March, which makes the Indian year easier to align than for most foreign groups. The pressure point is speed: the parent&apos;s consolidated results are often due within weeks of the year end, while the Indian statutory sign-off can wait until September. Agree a fast close in India for the group pack in April, with reviewed figures, and run the statutory work afterwards, so neither timetable holds up the other.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -213,7 +219,7 @@ export default function AuditIcofrPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

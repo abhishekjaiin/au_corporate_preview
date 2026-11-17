@@ -29,6 +29,7 @@ const toc = [
   { id: "people", label: "People: hiring, visas and provident fund" },
   { id: "cost", label: "What it costs and how long it takes" },
   { id: "mistakes", label: "Six mistakes Chinese companies make" },
+  { id: "exit", label: "Selling, restructuring or closing the Indian subsidiary" },
   { id: "series", label: "The full guide series" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
@@ -83,7 +84,7 @@ export default function ChinaToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from China: The 2026 Guide"
         description="How Chinese companies set up a subsidiary in India: Press Note 3 approval, structure, incorporation, FEMA filings, the India-China tax treaty, documents, staff and compliance. By a Chartered Accountant."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         inLanguage="en-CN"
       />
 
@@ -97,7 +98,7 @@ export default function ChinaToIndiaHubPage() {
         eyebrow="Guide for Chinese companies"
         title="How to Set Up a Subsidiary in India from China: The 2026 Guide"
         dek="Press Note 3 approval, structure, incorporation, FEMA/RBI filings, the India-China treaty and document legalisation for Chinese companies entering India, in plain terms."
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -157,6 +158,7 @@ export default function ChinaToIndiaHubPage() {
         </div>
 
         <h2 id="approval" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Step one: government approval under Press Note 3</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">Need the approval handled for you? See our <Link href="/press-note-3-approval-india" className="text-blue-800 font-semibold hover:underline">Press Note 3 approval service</Link>.</p>
         <GuideAnswerBox>
           Approval comes before incorporation and funding. Plan the project around it.
         </GuideAnswerBox>
@@ -446,7 +448,7 @@ export default function ChinaToIndiaHubPage() {
           <strong>Indicative setup fee:</strong> AU Corporate&apos;s fee for setting up the subsidiary is USD
           750 to USD 1,000 for share capital up to ₹10 lakh (about CNY 70,000 at an indicative ₹14.30 per yuan,
           July 2026 rate). The costing depends on your plan, and it does not include the Press Note 3 approval
-          work, which depends on the sector and structure.
+          work, which depends on the sector and structure. You get the best pricing, better work support and a free first consultation.
         </p>
 
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">
@@ -472,6 +474,23 @@ export default function ChinaToIndiaHubPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           More detail:{" "}
           <Link href="/china-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">12 common mistakes</Link>.
+        </p>
+
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling, restructuring or closing the Indian subsidiary</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A Chinese parent can leave India by selling the shares, having the company buy them back, winding it up, or
+          having it struck off if it is dormant. A sale is the most common route, and it has two points that do not
+          arise for most other investors:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>The buyer may need approval too.</strong> A buyer that is itself from a country sharing a land border with India, or whose beneficial owner is, needs Press Note 3 approval before it can acquire the shares.</li>
+          <li><strong>Filings in China.</strong> The Chinese seller must handle its own overseas-investment filings for the disposal, alongside the Indian steps.</li>
+          <li><strong>Pricing and reporting in India.</strong> The price must follow FEMA pricing guidelines, and the transfer is reported in Form FC-TRS.</li>
+          <li><strong>Tax.</strong> Long-term gains on unlisted Indian shares held for more than 24 months are taxed at 12.5%, and the treaty position should be confirmed before signing.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Closing a company is slower than selling it, because tax, labour and company law dues must all be cleared
+          first. See <Link href="/china-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">exit and restructuring for Chinese companies</Link>.
         </p>
 
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
@@ -560,7 +579,7 @@ export default function ChinaToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Chinese
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Chinese
           rules change often; confirm current requirements before acting.
         </p>
       </article>

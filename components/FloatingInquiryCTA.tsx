@@ -1,15 +1,44 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { usePathname } from "next/navigation"
 import { X } from "lucide-react"
 import { Web3Form } from "@/components/Web3Form"
 import { captureAttribution } from "@/lib/attribution"
 import { OPEN_INQUIRY_MODAL_EVENT } from "@/lib/inquiry-modal"
 import { trackEvent } from "@/lib/lead-context"
+import { AUTO_POPUP_DELAY_MS, isLeadPage, markPopupSeen, shouldAutoPopup } from "@/lib/lead-popup"
 
 export function FloatingInquiryCTA() {
   const [open, setOpen] = useState(false)
+  const [auto, setAuto] = useState(false)
+  const [nudge, setNudge] = useState(false)
   const [barDismissed, setBarDismissed] = useState(false)
+  const pathname = usePathname()
+
+  // Timed popup on money pages: after 6 seconds, open the form on desktop; on
+  // phones show a small bottom card instead of a full-screen overlay (Google
+  // treats full-screen mobile popups on landing pages as intrusive).
+  useEffect(() => {
+    if (!pathname || !isLeadPage(pathname) || !shouldAutoPopup()) return
+    const timer = window.setTimeout(() => {
+      if (!shouldAutoPopup()) return
+      // Don't interrupt someone already typing into a form on the page.
+      const active = document.activeElement
+      if (active && active.closest("form")) return
+      if (document.querySelector('[role="dialog"]')) return
+      markPopupSeen()
+      const desktop = window.matchMedia("(min-width: 1024px)").matches
+      trackEvent("lead_popup_shown", { popup_mode: desktop ? "modal" : "mobile_card", page_path: pathname })
+      if (desktop) {
+        setAuto(true)
+        setOpen(true)
+      } else {
+        setNudge(true)
+      }
+    }, AUTO_POPUP_DELAY_MS)
+    return () => window.clearTimeout(timer)
+  }, [pathname])
 
   useEffect(() => {
     captureAttribution()
@@ -38,7 +67,11 @@ export function FloatingInquiryCTA() {
   }, [])
 
   useEffect(() => {
-    const onOpen = () => setOpen(true)
+    const onOpen = () => {
+      setAuto(false)
+      setNudge(false)
+      setOpen(true)
+    }
     window.addEventListener(OPEN_INQUIRY_MODAL_EVENT, onOpen)
     return () => window.removeEventListener(OPEN_INQUIRY_MODAL_EVENT, onOpen)
   }, [])
@@ -80,6 +113,38 @@ export function FloatingInquiryCTA() {
         </div>
       )}
 
+      {/* Mobile timed card: compact, above the sticky bar, never full-screen. */}
+      {nudge && !open && (
+        <div
+          role="region"
+          aria-label="Free consultation offer"
+          className="fixed inset-x-3 bottom-24 z-[56] rounded-xl border border-gold bg-white p-4 shadow-2xl lg:hidden"
+        >
+          <button
+            type="button"
+            onClick={() => setNudge(false)}
+            aria-label="Close"
+            className="absolute right-2 top-2 inline-flex h-8 w-8 items-center justify-center rounded-full text-[#081a42]/70 hover:text-[#081a42]"
+          >
+            <X className="h-4 w-4" aria-hidden="true" />
+          </button>
+          <p className="pr-8 text-sm font-bold text-[#081a42]">Free first consultation with a Chartered Accountant</p>
+          <p className="mt-1 pr-6 text-xs text-gray-600">Best pricing, better work support. Reply within 24 hours.</p>
+          <button
+            type="button"
+            onClick={() => {
+              setNudge(false)
+              setAuto(true)
+              setOpen(true)
+              trackEvent("lead_popup_open", { popup_mode: "mobile_card", page_path: window.location.pathname })
+            }}
+            className="mt-3 w-full rounded-lg bg-[#FFD21F] px-4 py-2.5 text-sm font-bold text-[#0E1B4D]"
+          >
+            Get free advice
+          </button>
+        </div>
+      )}
+
       {/* Modal */}
       {open && (
         <div
@@ -102,12 +167,25 @@ export function FloatingInquiryCTA() {
             >
               <X className="h-4 w-4" aria-hidden="true" />
             </button>
-            <h3 className="mb-1 text-xl font-bold text-[#081a42]">
-              Talk to an Expert
-            </h3>
-            <p className="mb-4 text-sm text-gray-600">
-              Tell us what you&apos;re planning. A Chartered Accountant replies within 24 hours.
-            </p>
+            {auto ? (
+              <>
+                <p className="mb-1 text-xs font-bold uppercase tracking-wider text-[#7a5c00]">Free first consultation</p>
+                <h3 className="mb-1 text-xl font-bold text-[#081a42]">Planning your India entry?</h3>
+                <p className="mb-4 text-sm text-gray-600">
+                  Get a CA-led plan for your structure, timeline and compliance, with the best pricing and better work
+                  support. A Chartered Accountant replies within 24 hours.
+                </p>
+              </>
+            ) : (
+              <>
+                <h3 className="mb-1 text-xl font-bold text-[#081a42]">
+                  Talk to an Expert
+                </h3>
+                <p className="mb-4 text-sm text-gray-600">
+                  Tell us what you&apos;re planning. A Chartered Accountant replies within 24 hours.
+                </p>
+              </>
+            )}
             <Web3Form compact />
           </div>
         </div>

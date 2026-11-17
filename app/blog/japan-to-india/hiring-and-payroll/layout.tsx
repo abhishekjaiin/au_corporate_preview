@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How Japanese companies hire in India: employment contracts, provident fund, ESI, gratuity, professional tax, payroll steps and India's labour codes.",
     url: "https://www.theaucorp.com/japan-to-india/hiring-and-payroll",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Hiring in India for a Japanese Company",
     description:
       "How Japanese companies hire in India: employment contracts, provident fund, ESI, gratuity, professional tax, payroll steps and India's labour codes.",

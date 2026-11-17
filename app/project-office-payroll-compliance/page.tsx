@@ -69,7 +69,7 @@ const afterLinks = [
 ]
 
 const faqs = [
-  { q: "How much does project office payroll cost in India?", a: "AU Corporate charges a reasonable monthly fee and confirms a written quote before work begins. The fee depends on the number of project staff, expats and states. Salary, statutory contributions and government fees are separate." },
+  { q: "How much does project office payroll cost in India?", a: "AU Corporate charges a reasonable monthly fee and confirms a written quote before work begins. The fee depends on the number of project office staff, expats and states. Salary, statutory contributions and government fees are separate." },
   { q: "What does payroll for a project office in India include?", a: "Payroll includes calculating salary, deducting tax at source, social security contributions and professional tax, paying employees, issuing payslips, and depositing dues and filing returns. AU Corporate does each step and keeps project-wise cost reports." },
   { q: "What is social security compliance for a project office in India?", a: "Social security compliance covers the Employees' Provident Fund (EPF) and pension, state insurance (ESIC), gratuity and maternity benefit, under the Code on Social Security, 2020. AU Corporate checks which apply to your project office, registers it and files the monthly returns." },
   { q: "When must a project office register for EPF and ESIC?", a: "EPF generally applies to establishments with 20 or more employees, and ESIC to establishments above the notified size for employees within the wage limit. AU Corporate checks your project headcount and wages against the current limits." },
@@ -82,7 +82,7 @@ const faqs = [
   { q: "What visa does an expat need to work in a project office in India?", a: "An expat generally needs an employment visa, which has a minimum annual salary condition of USD 25,000. A project visa is available only for certain sectors such as power and steel. AU Corporate sets up payroll to match the contract used for the visa." },
   { q: "What is FRRO registration and when must an expat register?", a: "A foreign national on a visa valid for more than 180 days must register with the Foreigners Regional Registration Office (FRRO) within 14 days of arrival. Extensions and exit permits also go through FRRO. AU Corporate prepares the employer documents and the e-FRRO filings." },
   { q: "How is an expat's salary taxed in a project office in India?", a: "Salary for work done in India is taxable here whoever pays it. Whether the project office deducts tax depends on who pays and who bears the cost, and treaty relief may apply. AU Corporate reviews the arrangement, deducts tax correctly and coordinates the expat's return." },
-  { q: "What happens when project staff join and when the project ends?", a: "On joining, the project office collects KYC and bank details, registers the employee for social security and professional tax, and issues a contract. At the end of the project it pays pending salary, leave encashment and gratuity where due, completes PF exit records and issues relieving letters. AU Corporate handles each step." },
+  { q: "What happens when project staff join and when the project ends?", a: "On joining, the project office collects KYC and bank details, registers the employee for social security and professional tax, and issues a project office employment contract. When the project office closes at the end of the project, it pays pending salary, leave encashment and gratuity where due, completes PF exit records and issues relieving letters. AU Corporate handles each step." },
   { q: "Can AU Corporate handle payroll for expats from my country?", a: "AU Corporate handles payroll and expat compliance for employees from more than 10 countries, including the USA, UK, Singapore, Australia, Germany, Japan and China. We explain how Indian tax, social security and visa rules fit with the home-country payroll." },
 ]
 
@@ -142,7 +142,7 @@ export default function ProjectOfficePayrollCompliancePage() {
               A project office in India must pay salaries on time, deduct tax at source, comply with social security laws (EPF, ESIC, gratuity), pay professional tax where states levy it, follow the four Labour Codes in force since 21 November 2025, handle contract labour on site, and register its expats with the FRRO. AU Corporate, a pan-India firm of Chartered Accountants and Company Secretaries, runs all of this at reasonable monthly fees.
             </p>
             <p className="mt-3 text-sm text-gray-500">
-              Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 9 October 2026
+              Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 13 November 2026
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-10">
@@ -279,7 +279,7 @@ export default function ProjectOfficePayrollCompliancePage() {
           <h2 className="text-3xl font-bold mb-4 text-center text-gray-900">Questions Before You Start</h2>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-2">Straight answers to the questions foreign finance teams ask most about a project office in India.</p>
           <p className="text-sm text-gray-500 text-center">
-            Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 9 October 2026
+            Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 13 November 2026
           </p>
           <p className="text-sm text-gray-500 text-center mb-10">This is general guidance based on Indian law and practice as at the date above. It is not advice for your specific case, and rules can change.</p>
           <div className="grid sm:grid-cols-2 gap-x-10">

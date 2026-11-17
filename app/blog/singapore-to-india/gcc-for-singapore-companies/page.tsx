@@ -23,6 +23,8 @@ const toc = [
   { id: "pe", label: "Avoiding a permanent establishment" },
   { id: "controls", label: "Controls for regulated groups" },
   { id: "start", label: "A practical start" },
+  { id: "gcc-models", label: "GCC operating models: own centre, BOT or hybrid" },
+  { id: "sg-gcc-regional", label: "A regional GCC serving Singapore and beyond" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +35,7 @@ const faqs = [
   { q: "Does a GCC create a permanent establishment for the Singapore parent?", a: "Not by itself if the Indian entity is a separate low-risk provider, but Singapore staff directing the work or concluding contracts in India can create one." },
   { q: "Does MAS regulate a captive centre in India?", a: "MAS regulates the Singapore financial institution, and expects controls over work done by a group company in India, as for any third-party arrangement." },
   { q: "Should we use build-operate-transfer?", a: "It reduces early risk and time, but check the transfer terms, tax on the transfer and who owns the know-how." },
+  { q: "How many people does a GCC need to start?", a: "There is no minimum; many start with 20 to 50 people, often after a pilot through an employer of record." },
 ]
 
 const relatedCards = [
@@ -50,7 +53,7 @@ export default function GccForSingaporeCompaniesPage() {
         headline="Setting Up a Global Capability Centre in India for a Singapore Group: Models, Pricing, Tax and Risk"
         description="How Singapore headquartered groups build captive centres in India: build-operate-transfer, captive subsidiary and hybrid models, cost-plus pricing, GST on exports, PE risk, MAS third-party rules and talent."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -66,7 +69,7 @@ export default function GccForSingaporeCompaniesPage() {
       <GuideHero
         eyebrow="Operate: the captive centre"
         title="Setting Up a Global Capability Centre in India for a Singapore Group: Models, Pricing, Tax and Risk"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -179,6 +182,29 @@ export default function GccForSingaporeCompaniesPage() {
           <li>Hire leaders first, then the team, with a knowledge transfer plan from Singapore.</li>
           <li>Review the pricing and the tax position after the first year.</li>
         </ol>
+        <h2 id="gcc-models" className="text-2xl font-bold text-gray-900 mt-12 mb-4">GCC operating models: own centre, BOT or hybrid</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">GCC model</th><th scope="col" className="border border-gray-300 p-3 text-left">How it works</th><th scope="col" className="border border-gray-300 p-3 text-left">Suits</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Own GCC from day one</th><td className="border border-gray-300 p-3">The parent forms its Indian company, hires and runs the centre</td><td className="border border-gray-300 p-3">Groups with India experience and a clear long-term plan</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Build-operate-transfer (BOT)</th><td className="border border-gray-300 p-3">A partner builds and runs the GCC, then transfers it to the parent&apos;s own company after an agreed period</td><td className="border border-gray-300 p-3">Groups that want speed and lower early risk</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Hybrid</th><td className="border border-gray-300 p-3">A small own GCC with some functions run by a partner or employer of record</td><td className="border border-gray-300 p-3">Testing new functions before scaling</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          SEZ and STPI units are still used for GCC premises, mainly for customs and GST advantages; the SEZ income-tax holiday is not available to units that started after 31 March 2020. Most new GCCs choose standard commercial premises and price their services to the group on a cost-plus basis.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Talent availability, rather than incentives, usually decides the GCC location. Singapore groups most often look at Bengaluru, Chennai or Mumbai. See our <Link href="/gcc-setup-india" className="text-blue-800 font-semibold hover:underline">GCC setup service</Link>.
+        </p>
+        <h2 id="sg-gcc-regional" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A regional GCC serving Singapore and beyond</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Many Singapore groups run their Indian GCC for the whole Asia-Pacific region, not only for Singapore. Where the GCC serves several group companies, agree how costs are recharged to each, sign intercompany agreements with each recipient, and keep the transfer pricing consistent across them.
+        </p>
+
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -228,7 +254,7 @@ export default function GccForSingaporeCompaniesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

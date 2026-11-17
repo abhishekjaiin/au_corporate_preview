@@ -21,6 +21,10 @@ const toc = [
   { id: "cycle", label: "The Indian filing cycle" },
   { id: "chinese-year", label: "Feeding the Chinese year" },
   { id: "reviews", label: "Being ready for reviews" },
+  { id: "gst-compliance", label: "GST returns and other recurring compliance dates" },
+  { id: "china-map", label: "The Indian year against the Chinese calendar year" },
+  { id: "cn-owner", label: "Fitting Chinese approvals into the Indian calendar" },
+  { id: "cn-late", label: "What late filing costs" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -34,6 +38,7 @@ const faqs = [
   { q: "When is FC-GPR filed?", a: "Within 30 days of allotment." },
   { q: "Why keep records especially complete?", a: "Because Chinese-owned companies can face closer reviews." },
   { q: "When is the tax return due?", a: "By 31 October, or 30 November with transfer pricing." },
+  { q: "When is the FLA return due?", a: "By 15 July each year." },
 ]
 
 const relatedCards = [
@@ -51,7 +56,7 @@ export default function ComplianceCalendarPage() {
         headline="Compliance Calendar: Indian Deadlines and the Chinese Filings They Feed"
         description="A month-by-month compliance calendar for an Indian subsidiary of a Chinese parent: TDS, GST, PF and ESI, advance tax, AGM, AOC-4, MGT-7, FLA return, approval conditions and the Chinese-side reports."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-CN"
       />
@@ -67,7 +72,7 @@ export default function ComplianceCalendarPage() {
       <GuideHero
         eyebrow="Calendar: compliance"
         title="Compliance Calendar: Indian Deadlines and the Chinese Filings They Feed"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -149,6 +154,37 @@ export default function ComplianceCalendarPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           Chinese-owned companies in India can face closer checks from tax, customs, labour and other authorities. Keep payroll, contract-labour, customs and related-party records complete and reconciled each month, so a review can be answered from records rather than reconstructed.
         </p>
+        <h2 id="gst-compliance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">GST returns and other recurring compliance dates</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Filing</th><th scope="col" className="border border-gray-300 p-3 text-left">Due</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-1</th><td className="border border-gray-300 p-3">11th of the next month, or 13th after the quarter under QRMP</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-3B and tax payment</th><td className="border border-gray-300 p-3">20th of the next month, or 22nd or 24th after the quarter under QRMP</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">GSTR-9 annual return (and GSTR-9C above the threshold)</th><td className="border border-gray-300 p-3">31 December after the year end</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">TDS returns</th><td className="border border-gray-300 p-3">31 July, 31 October, 31 January and 31 May</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Advance tax</th><td className="border border-gray-300 p-3">15 June, 15 September, 15 December and 15 March</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Return of deposits (DPT-3)</th><td className="border border-gray-300 p-3">30 June</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">MSME payments return</th><td className="border border-gray-300 p-3">31 October and 30 April, where dues to small suppliers are overdue</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Services bought from the Chinese parent are usually taxed under reverse charge in GSTR-3B, with the credit claimed in the same return; this is the GST compliance point foreign-owned companies most often miss. Keep one compliance owner in India and send the Chinese parent a monthly compliance summary that maps each Indian date to its own 31 December year.
+        </p>
+        <h2 id="china-map" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The Indian year against the Chinese calendar year</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Chinese parents report on the calendar year, so the Indian 31 March year spans two Chinese years. Consolidate from Indian management accounts to 31 December, run the Indian audit between April and September, and plan the FLA return for 15 July. Chinese outbound investment reporting and SAFE filings at the parent&apos;s end use the same Indian figures, so share them in one monthly pack.
+        </p>
+        <h2 id="cn-owner" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Fitting Chinese approvals into the Indian calendar</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each capital injection or loan from China usually needs the parent's own outbound investment filings and foreign exchange registration before the money can leave China, while the Indian side then has fixed deadlines for allotment and FC-GPR once it arrives. Plan the Chinese approvals first, and only fix the Indian board date for allotment once the remittance date is certain.
+        </p>
+        <h2 id="cn-late" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What late filing costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Late filings attract daily fees with the Registrar, late fees and interest on GST returns, and fees and interest for late TDS. For Chinese-owned companies, repeated defaults also draw closer scrutiny from banks, so a reliable calendar matters more than usual.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -193,7 +229,7 @@ export default function ComplianceCalendarPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

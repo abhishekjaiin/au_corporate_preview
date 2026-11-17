@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How ESOPs and RSUs work for employees of an Indian subsidiary: FEMA reporting, employee tax, valuation, cost recharge and transfer pricing for a US parent.",
     url: "https://www.theaucorp.com/usa-to-india/esop",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "ESOPs for Indian Employees of a US Parent Company",
     description:
       "How ESOPs and RSUs work for employees of an Indian subsidiary: FEMA reporting, employee tax, valuation, cost recharge and transfer pricing for a US parent.",

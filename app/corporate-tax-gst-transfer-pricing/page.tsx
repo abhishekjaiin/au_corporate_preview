@@ -457,9 +457,9 @@ export default function CorporateTaxGstTransferPricingPage() {
                 description: "Payroll TDS and expat tax residence rules that feed into the subsidiary's overall tax position.",
               },
               {
-                label: "Banking & Taxation Setup",
-                href: "/india-business-setup/banking-taxation",
-                description: "The initial banking, GST and tax registration steps that precede ongoing compliance.",
+                label: "Transfer Pricing for US Groups in India",
+                href: "/usa-to-india/transfer-pricing",
+                description: "How cost-plus pricing, benchmarking and Form 48 work for a US parent and its Indian subsidiary.",
               },
               {
                 label: "OIDAR GST Registration for AI and SaaS Companies",

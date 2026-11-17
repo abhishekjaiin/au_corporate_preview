@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/documents-and-apostille",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India Subsidiary Documents and Apostille, Australia",
     description:
       "Which documents an Australian parent must prepare to incorporate an Indian subsidiary, and how notarisation and a DFAT apostille work.",

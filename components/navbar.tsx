@@ -315,7 +315,7 @@ export function Navbar() {
             </div>
           </div>
 
-          <div className="hidden lg:block"><Button asChild><Link href="/contact">Get Started</Link></Button></div>
+          <div className="hidden lg:block"><Button asChild><Link href="/free-consultation">Get Started</Link></Button></div>
           <button type="button" onClick={() => setIsOpen((v) => !v)} className="rounded-md p-2 hover:bg-gray-100 lg:hidden" aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"} aria-expanded={isOpen} aria-controls="mobile-navigation">
             {isOpen ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
           </button>

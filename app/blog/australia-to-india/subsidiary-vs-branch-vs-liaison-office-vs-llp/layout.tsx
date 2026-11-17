@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Subsidiary, Branch, Liaison or LLP: Australia",
     description:
       "Compare the four ways an Australian company can enter India: wholly owned subsidiary, branch office, liaison office and LLP.",

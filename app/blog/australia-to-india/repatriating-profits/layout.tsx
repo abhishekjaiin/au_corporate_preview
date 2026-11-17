@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/repatriating-profits",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Repatriating Profits from India to Australia: Forms and Tax",
     description:
       "How an Australian parent receives money from its Indian subsidiary: dividends, service fees, royalties, loans.",

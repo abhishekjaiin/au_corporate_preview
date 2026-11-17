@@ -19,6 +19,7 @@ const toc = [
   { id: "country-specific", label: "What's different for Russian companies" },
   { id: "list", label: "Twelve mistakes and fixes" },
   { id: "how", label: "How to avoid them" },
+  { id: "fema-penalties", label: "What a FEMA mistake costs" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -47,7 +48,7 @@ export default function CommonMistakesPage() {
         headline="Twelve Common Mistakes Russian Companies Make in India and How to Avoid Them"
         description="The most common mistakes of Russian companies entering India: ignoring banking and sanctions, skipping Russian clearance, late FEMA filings, weak treaty paperwork, secondment tax errors, unauthenticated documents, unstamped contracts and ignoring the Indian calendar."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -63,7 +64,7 @@ export default function CommonMistakesPage() {
       <GuideHero
         eyebrow="Risk: common mistakes"
         title="Twelve Common Mistakes Russian Companies Make in India and How to Avoid Them"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -190,6 +191,14 @@ export default function CommonMistakesPage() {
           <li>Review the structure once a year as Indian, Russian and sanctions rules change.</li>
           <li>Use local advisers for each country and make them talk to each other.</li>
         </ol>
+        <h2 id="fema-penalties" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What a FEMA mistake costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Many of the mistakes above are FEMA mistakes: late FC-GPR, shares allotted after 60 days, a missed FLA return or a share transfer priced outside the rules. FEMA penalties can reach three times the amount involved where it can be quantified, so most companies settle the mistake by compounding, an application to the RBI that ends the matter on payment of a compounding amount. Late reporting alone is often handled through a late submission fee instead.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Compounding costs money and time, and each application needs the full history of the transaction. The cheapest mistake is the one avoided at incorporation, which is why we build the FEMA calendar on day one. See <Link href="/fema-rbi-compliance" className="text-blue-800 font-semibold hover:underline">FEMA and RBI compliance</Link> and <Link href="/russia-to-india/funding-and-fema" className="text-blue-800 font-semibold hover:underline">funding and FEMA for Russian companies</Link>.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -238,7 +247,7 @@ export default function CommonMistakesPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

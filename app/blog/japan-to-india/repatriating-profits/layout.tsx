@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How a Japanese parent receives money from its Indian subsidiary: dividends, service fees, royalties, loans. Forms 145 and 146, Withholding Tax and DTAA relief.",
     url: "https://www.theaucorp.com/japan-to-india/repatriating-profits",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Repatriating Profits from India to Japan: Forms and Tax",
     description:
       "How a Japanese parent receives money from its Indian subsidiary: dividends, service fees, royalties, loans. Forms 145 and 146, Withholding Tax and DTAA relief.",

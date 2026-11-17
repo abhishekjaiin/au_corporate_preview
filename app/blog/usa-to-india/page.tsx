@@ -65,16 +65,16 @@ const seriesCards = [
 ]
 
 const faqs = [
-  { q: "Can a US company own 100% of an Indian subsidiary?", a: "A US company can own 100% of an Indian subsidiary in most sectors. India permits 100% foreign ownership under the Automatic Route, which needs no prior government approval. A few sectors have ownership caps, conditions or an approval requirement, so the sector position should be checked against the business activity before choosing a structure." },
+  { q: "Can a US company own 100% of an Indian subsidiary?", a: "A US company can own 100% of an Indian company in most sectors. India permits 100% foreign ownership under the Automatic Route, which needs no prior government approval. A few sectors have ownership caps, conditions or an approval requirement, so the sector position should be checked against the business activity before choosing a structure." },
   { q: "What is the best way for a US company to enter India?", a: "For most operating businesses, a wholly owned subsidiary incorporated as a private limited company is the standard route. It is a separate legal entity with limited liability and can carry on full business. Branch and liaison offices have restricted activities, and an Employer of Record works well as a first step before you incorporate." },
-  { q: "Does the Indian subsidiary need a director who lives in India?", a: "An Indian subsidiary needs at least one director who has stayed in India for 182 days or more in the financial year (Section 149(3) of the Companies Act, 2013). A private limited company also needs at least two directors in total (Section 149(1)). Directors can be foreign nationals, but at least one must meet the residency test." },
+  { q: "Does the Indian subsidiary need a director who lives in India?", a: "It needs at least one director who has stayed in India for 182 days or more in the financial year (Section 149(3) of the Companies Act, 2013). A private limited company also needs at least two directors in total (Section 149(1)). Directors can be foreign nationals, but at least one must meet the residency test." },
   { q: "How long does it take to set up a subsidiary in India?", a: "Typically 4 to 6 weeks from receipt of complete documents. The MCA incorporation is usually the shortest step, and the main variable is how quickly the apostilled US documents are ready. No travel to India is required." },
   { q: "How much does it cost to set up an Indian subsidiary?", a: "The cost of incorporating a subsidiary in India has three parts: government fees (MCA filing fees and state stamp duty, which depend on the authorized capital and the state), the cost of notarizing and apostilling US documents, and professional fees. AU Corporate's indicative setup fee is USD 750 to USD 1,000 for share capital up to ₹10 lakh (about USD 10,300). Annual running costs are additional." },
   { q: "What is Form FC-GPR and when is it due?", a: "Form FC-GPR is the report an Indian company files with the RBI after issuing shares to a foreign investor. It must be filed within 30 days of the share allotment through the RBI's FIRMS portal, with supporting valuation and Company Secretary certificates. Late filing attracts a Late Submission Fee or compounding." },
   { q: "How can profits be repatriated from India to the US?", a: "Profits can be repatriated from India to the US through dividends, service fees, royalties and loan repayments. Each involves Indian Withholding Tax (Section 393 of the Income-tax Act, 2025, previously Section 195 of the Income-tax Act, 1961), which the India-US tax treaty can reduce, and fees and royalties must meet transfer pricing rules. Remittances abroad usually need Form 145 and, where required, Form 146 (previously Forms 15CA and 15CB)." },
   { q: "Should we use an Employer of Record or our own subsidiary?", a: "Use an Employer of Record (EOR) if you want to hire quickly or test the market without an entity. Set up a subsidiary if you plan a larger team, need to contract directly in India, or want long-term control. Many companies begin with an EOR and move the team into a subsidiary later." },
   { q: "Does an Indian subsidiary create US tax obligations for the parent?", a: "An Indian subsidiary can create US tax obligations for the parent. A US company that owns a foreign subsidiary may have US reporting such as Form 5471, and its income may be affected by US international tax rules. These depend on the structure, so the position should be confirmed with a US tax adviser." },
-  { q: "Can we sell or close the Indian subsidiary later?", a: "A US parent can sell or close the Indian subsidiary later by selling the shares or the business, merging the subsidiary into another group company, or closing it through strike-off or voluntary liquidation. Each route has its own tax and RBI reporting steps, so the exit should be planned before investing." },
+  { q: "Can we sell or close the Indian subsidiary later?", a: "A US parent can sell or close the Indian subsidiary later by selling the shares or the business, merging it into another group company, or closing it through strike-off or voluntary liquidation. Each route has its own tax and RBI reporting steps, so the exit should be planned before investing." },
   { q: "Can US executives be directors of the Indian subsidiary?", a: "US executives can be directors of the Indian subsidiary. Foreign nationals can be directors once they obtain a digital signature and a Director Identification Number, but at least one director must be a resident of India. Directors carry statutory duties and liabilities, so they should be chosen with that in mind." },
   { q: "Is there a US-India social security (totalization) agreement?", a: "We are not aware of a US-India totalization agreement in force as of October 2026, so a US expat in India can owe both Indian provident fund and US Social Security tax. The India-US tax treaty does not cover social security taxes. See the treaty and social security guide for how to plan." },
 ]
@@ -87,7 +87,7 @@ export default function UsaToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from the USA: The 2026 Guide"
         description="How US companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, tax and compliance. By a Chartered Accountant."
         datePublished="2026-10-07"
-        dateModified="2026-10-14"
+        dateModified="2026-11-13"
       />
 
       <Breadcrumb
@@ -100,7 +100,7 @@ export default function UsaToIndiaHubPage() {
         eyebrow="Guide for US companies"
         title="How to Set Up a Subsidiary in India from the USA: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, tax and compliance for US companies entering India — in plain terms, with the form names your advisers will use."
-        updated="14 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -365,7 +365,7 @@ export default function UsaToIndiaHubPage() {
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">
           <div>
             <strong className="block text-gray-900">Get a costing for your plan</strong>
-            <p className="text-sm text-gray-600 mt-0.5">Tell us what you plan to set up and we will prepare a costing and book a call to walk you through it.</p>
+            <p className="text-sm text-gray-600 mt-0.5">Tell us what you plan to set up: you get the best pricing, better work support and a free first consultation.</p>
           </div>
           <InquiryTrigger className="inline-block rounded-lg bg-gold px-5 py-2.5 text-sm font-bold text-[#081a42] hover:bg-gold-dark transition-colors whitespace-nowrap">
             Discuss your costing with our team
@@ -507,7 +507,7 @@ export default function UsaToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 14 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

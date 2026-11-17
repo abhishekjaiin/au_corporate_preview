@@ -23,6 +23,7 @@ const toc = [
   { id: "incentives", label: "Incentives and subsidies" },
   { id: "risks", label: "Practical risks" },
   { id: "transfer", label: "Moving toward Indian control" },
+  { id: "jv-agreement", label: "What the joint venture agreement should cover" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -50,7 +51,7 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
         headline="Manufacturing in India with a Chinese Partner: Approval, Joint Venture Terms, Technology Licences and Local Content"
         description="How Chinese manufacturers approach India: joint ventures with Indian partners, the 60-day fast-track sectors under the amended Press Note 3, incentive schemes, technology licences, supply chains, customs and the practical limits."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-CN"
       />
@@ -66,7 +67,7 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
       <GuideHero
         eyebrow="Model: manufacturing and JV"
         title="Manufacturing in India with a Chinese Partner: Approval, Joint Venture Terms, Technology Licences and Local Content"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -183,6 +184,11 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
           equity later with approval. Whichever model you choose, document the technology, pricing and exit
           terms in advance and keep them consistent with the approval letter.
         </p>
+        <h2 id="jv-agreement" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the joint venture agreement should cover</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A joint venture between a Chinese company and an Indian partner should set out the shareholding, board seats and reserved matters, the technology licence and royalty, funding obligations, deadlock and exit, and what happens if Press Note 3 approval for a later capital round is refused. Put the key joint venture terms into the articles so they bind the Indian company, and make the joint venture&apos;s capital plan conditional on approval where it is needed.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -232,7 +238,7 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Chinese
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Chinese
           rules change often; confirm current requirements before acting.
         </p>
       </article>

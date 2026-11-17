@@ -23,6 +23,7 @@ const toc = [
   { id: "compliance", label: "Ongoing compliance for directors" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "resident-director-handover", label: "Planning resident director changes" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -55,7 +56,7 @@ export default function ResidentDirectorPage() {
         headline="Resident Director Rules for an Indian Subsidiary: Who Can Be One and How to Plan"
         description="Every Indian company needs a Resident Director who has stayed in India 182 days in the financial year. Who qualifies, options for US parents, and duties."
         datePublished="2026-10-07"
-        dateModified="2026-10-14"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
       />
 
@@ -70,7 +71,7 @@ export default function ResidentDirectorPage() {
       <GuideHero
         eyebrow="Enter: directors"
         title="Resident Director Rules for an Indian Subsidiary: Who Can Be One and How to Plan"
-        updated="14 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -155,6 +156,11 @@ export default function ResidentDirectorPage() {
           <li>Assuming a foreign executive who visits India occasionally will meet the 182-day test.</li>
           <li>Appointing a person who is also a director in many unrelated companies without understanding their liability exposure.</li>
         </ul>
+        <h2 id="resident-director-handover" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Planning resident director changes</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          When the resident director resigns or moves abroad, appoint a new resident director before the change takes effect, because the company must have a resident director in every financial year. File the change with the Registrar within 30 days, and update the bank&apos;s signatory records.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -210,7 +216,7 @@ export default function ResidentDirectorPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 14 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

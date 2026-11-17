@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/hong-kong-to-india",
     locale: "en_HK",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Set Up a Subsidiary in India from Hong Kong: 2026 Guide",
     description:
       "How Hong Kong companies set up a subsidiary in India: Press Note 3 approval, structure, incorporation, FEMA filings, the India-Hong Kong tax treaty.",

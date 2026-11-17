@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/data-protection-gdpr-dpdp",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "GDPR and India's DPDP Act for Spanish Companies",
     description:
       "How a Spanish group lawfully moves employee and customer data to and from India: the GDPR transfer regime and the lack of an EU adequacy decision for India.",

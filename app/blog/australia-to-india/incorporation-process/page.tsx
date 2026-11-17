@@ -22,6 +22,11 @@ const toc = [
   { id: "after", label: "After the certificate" },
   { id: "time-zones", label: "Working across the time difference" },
   { id: "delays", label: "What slows Australian incorporations" },
+  { id: "spice-detail", label: "What the SPICe+ filing contains" },
+  { id: "din", label: "Director identification numbers for Australian directors" },
+  { id: "after-cert", label: "The first 90 days after incorporation" },
+  { id: "incorporation-timeline", label: "A realistic incorporation timeline" },
+  { id: "state-choice", label: "Choosing the state and registered office" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +40,10 @@ const faqs = [
   { q: "Does an Australian investor need government approval?", a: "Not in most sectors; Press Note 3 does not apply." },
   { q: "What is the best time for calls with India?", a: "Australian early afternoon, which is Indian morning." },
   { q: "What follows incorporation?", a: "Bank account, capital remittance, allotment, FC-GPR, first auditor, INC-20A and registrations." },
+  { q: "What are the MOA and AOA?", a: "The memorandum of association states the company's objects; the articles of association are its internal rules. Both are filed with SPICe+." },
+  { q: "Do Australian directors need a DIN?", a: "Yes. Up to three DINs are allotted through SPICe+; each director also needs a digital signature certificate." },
+  { q: "How long does incorporation from Australia take?", a: "About 4 to 6 weeks from the decision to a bank account, if the documents are ready and the name is approved first time." },
+  { q: "Can we incorporate before we have an office in India?", a: "Yes, using a registered office service, and move to leased premises later." },
 ]
 
 const relatedCards = [
@@ -52,7 +61,7 @@ export default function IncorporationProcessPage() {
         headline="Incorporation Process for an Australian-Owned Indian Subsidiary, Step by Step"
         description="The eight steps to incorporate a wholly owned subsidiary in India from Australia: forms, order of steps, typical 4 to 6 week timeline and first 90 days."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -68,7 +77,7 @@ export default function IncorporationProcessPage() {
       <GuideHero
         eyebrow="Enter: incorporation"
         title="Incorporation Process for an Australian-Owned Indian Subsidiary, Step by Step"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -175,6 +184,64 @@ export default function IncorporationProcessPage() {
           <li>Board resolutions that do not name the nominee shareholder or authorised signatory.</li>
           <li>Late decision on the resident director.</li>
         </ul>
+        <h2 id="spice-detail" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the SPICe+ filing contains</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Element</th><th scope="col" className="border border-gray-300 p-3 text-left">What it is</th><th scope="col" className="border border-gray-300 p-3 text-left">Point for an Australian parent</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">SPICe+ Part A</th><td className="border border-gray-300 p-3">Reserves up to two names</td><td className="border border-gray-300 p-3">An approved name is held for 20 days, so have Part B ready</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">SPICe+ Part B</th><td className="border border-gray-300 p-3">Office, capital, subscribers, directors and DIN for up to three directors</td><td className="border border-gray-300 p-3">Names and ACN must match the ASIC extract exactly</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-MOA</th><td className="border border-gray-300 p-3">The memorandum of association, stating the objects</td><td className="border border-gray-300 p-3">Describe the actual Indian activity, not the whole Australian group&apos;s business</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-AOA</th><td className="border border-gray-300 p-3">The articles of association, the internal rules</td><td className="border border-gray-300 p-3">Include any reserved matters the Australian board wants to keep</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">AGILE-PRO-S</th><td className="border border-gray-300 p-3">GST, provident fund, ESI, professional tax and bank account</td><td className="border border-gray-300 p-3">GST can wait until the company starts supplying</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          PAN and TAN are issued with the certificate of incorporation, which carries the corporate identity number (CIN). The Indian filing usually takes 7 to 15 working days once complete.
+        </p>
+
+        <h2 id="din" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Director identification numbers for Australian directors</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Every director of an Indian company needs a Director Identification Number (DIN). For up to three directors, the DIN is allotted through SPICe+ itself; later directors apply separately. Each director also needs a digital signature certificate, issued on the basis of the apostilled passport and address proof. The DIN stays with the person for life and is used for every future Indian directorship, so keep the details consistent.
+        </p>
+
+        <h2 id="after-cert" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The first 90 days after incorporation</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Hold the first board meeting within 30 days and appoint the first auditor.</li>
+          <li>Open the bank account and receive the first capital from Australia.</li>
+          <li>Allot shares within 60 days of receipt and file FC-GPR within 30 days of allotment.</li>
+          <li>File the commencement of business declaration (INC-20A) within 180 days of incorporation.</li>
+          <li>Issue share certificates to the subscribers within two months of incorporation.</li>
+          <li>Register under the state shops and establishments law and for provident fund and ESI once staff are hired.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          See <Link href="/australia-to-india/funding-fema-fc-gpr" className="text-blue-800 font-semibold hover:underline">funding and FC-GPR</Link> for the capital steps.
+        </p>
+        <h2 id="incorporation-timeline" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A realistic incorporation timeline</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Week</th><th scope="col" className="border border-gray-300 p-3 text-left">Step</th><th scope="col" className="border border-gray-300 p-3 text-left">Who acts</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">1</th><td className="border border-gray-300 p-3">Board resolution in Australia; order the ASIC extract</td><td className="border border-gray-300 p-3">Australian company secretary</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">1 to 2</th><td className="border border-gray-300 p-3">Notarise and obtain the DFAT apostille</td><td className="border border-gray-300 p-3">Australian notary and DFAT</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">2</th><td className="border border-gray-300 p-3">Courier originals to India; scan copies for the digital signatures</td><td className="border border-gray-300 p-3">AU Corporate and the directors</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">2 to 3</th><td className="border border-gray-300 p-3">Digital signatures issued; name reserved through SPICe+ Part A</td><td className="border border-gray-300 p-3">AU Corporate</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">3 to 5</th><td className="border border-gray-300 p-3">SPICe+ Part B filed; certificate of incorporation, PAN and TAN issued</td><td className="border border-gray-300 p-3">Ministry of Corporate Affairs</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">5 to 6</th><td className="border border-gray-300 p-3">Bank account opened and first capital received</td><td className="border border-gray-300 p-3">Indian bank and the Australian treasury team</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The Australian document stage is usually the quickest part because DFAT runs a single federal process. Most delays come later: a name objection, a mismatch between the ASIC extract and the forms, or a bank&apos;s KYC questions about the ownership chain.
+        </p>
+
+        <h2 id="state-choice" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Choosing the state and registered office</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The registered office fixes the state of incorporation, the Registrar the company reports to and the stamp duty payable. Australian companies most often choose Bengaluru, Hyderabad, Pune, Chennai, Mumbai or the Delhi region, depending on where they will hire. Without premises yet, a registered office service works for incorporation; the proof needed is a utility bill not older than two months and the owner&apos;s written consent.
+        </p>
+
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -219,7 +286,7 @@ export default function IncorporationProcessPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

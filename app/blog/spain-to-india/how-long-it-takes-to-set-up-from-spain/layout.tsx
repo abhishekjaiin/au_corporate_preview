@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/spain-to-india/how-long-it-takes-to-set-up-from-spain",
     locale: "en_ES",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "How Long It Takes to Set Up an Indian Subsidiary from Spain",
     description:
       "A realistic schedule for a Spanish parent: documents and apostille in Spain, incorporation in India, the bank account and share capital.",

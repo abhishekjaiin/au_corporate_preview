@@ -22,6 +22,8 @@ const toc = [
   { id: "sale", label: "Selling the shares" },
   { id: "wind-down", label: "Winding down" },
   { id: "timing", label: "Timing across two financial years" },
+  { id: "share-transfer", label: "The share transfer, step by step" },
+  { id: "nclt", label: "Mergers and the NCLT" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,9 @@ const faqs = [
   { q: "How long does strike-off take?", a: "Usually three to six months after filing." },
   { q: "How does surplus cash reach Australia on closure?", a: "Through the bank with Forms 145 and 146 after taxes and creditors are paid." },
   { q: "Does the different year end matter for an exit?", a: "Yes. The Indian 31 March and Australian 30 June years affect when gains are recognised and returns lodged." },
+  { q: "Does a merger of Indian group companies need NCLT approval?", a: "Usually yes; a fast-track route through the regional director is available for small companies and wholly owned group mergers." },
+  { q: "What is the quickest exit for a dormant Indian company?", a: "A strike-off under Section 248, once liabilities are cleared and the bank account is closed." },
+  { q: "Which exit route do Australian parents use most?", a: "A sale of the shares to a buyer, or a strike-off for a company that never traded." },
 ]
 
 const relatedCards = [
@@ -52,7 +57,7 @@ export default function RestructuringAndExitPage() {
         headline="Restructuring, Mergers and Exit: Your Options for an Indian Subsidiary"
         description="Options for an Australian parent to restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback, strike-off and liquidation."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -68,7 +73,7 @@ export default function RestructuringAndExitPage() {
       <GuideHero
         eyebrow="Scale and exit"
         title="Restructuring, Mergers and Exit: Your Options for an Indian Subsidiary"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -164,6 +169,20 @@ export default function RestructuringAndExitPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           The Indian year ends on 31 March and the Australian year on 30 June. A sale signed in April closes in the Indian year that has just started but in the Australian year about to end, which affects when each side recognises the gain and lodges returns. Plan the signing and completion dates with both tax years in view.
         </p>
+        <h2 id="share-transfer" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The share transfer, step by step</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Obtain a fair value certificate; under FEMA, a sale to an Indian resident cannot exceed fair value.</li>
+          <li>Sign the share purchase agreement and the share transfer instrument, stamped under Indian law, or transfer in demat form.</li>
+          <li>The buyer withholds Indian tax on the gain before paying, using the Australian seller&apos;s PAN and treaty documents.</li>
+          <li>The company records the transfer, and the Indian resident party files Form FC-TRS within 60 days.</li>
+          <li>The parent reports the disposal in Australia, where the active foreign business asset reduction may apply.</li>
+        </ol>
+
+        <h2 id="nclt" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Mergers and the NCLT</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Merging the Indian company into another Indian group company, or demerging part of it, goes through a scheme approved by the National Company Law Tribunal (NCLT), with creditor and shareholder meetings and notices to the tax and other authorities. Expect six to twelve months. A simpler fast-track route is available for mergers between small companies or a holding company and its wholly owned company, approved by the regional director instead of the NCLT.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -209,7 +228,7 @@ export default function RestructuringAndExitPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

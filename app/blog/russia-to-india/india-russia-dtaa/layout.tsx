@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/russia-to-india/india-russia-dtaa",
     locale: "en_RU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Russia DTAA for Russian Companies",
     description:
       "The India-Russia tax treaty explained for a Russian parent: 10% dividends, interest, royalties and fees for technical services, permanent establishment.",
