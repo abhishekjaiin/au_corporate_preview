@@ -206,6 +206,11 @@ export default function StructureOptionsPage() {
         </p>
 
 
+        <h2 id="de-structure-triggers" className="text-2xl font-bold text-gray-900 mt-12 mb-4">When to revisit the structure</h2>
+        <p className="text-gray-700 mb-4">Record the events that would prompt a review of the Indian structure, such as the first Indian customer contract, a headcount threshold or a decision to manufacture locally. German groups that set these triggers at the outset usually move from a liaison office or project office to a subsidiary at the right time, rather than after a tax or permanent establishment question has arisen.</p>
+        <p className="text-gray-700 mb-4">Review the triggers each year when the Indian budget is approved, and record the decision in the board minutes even when the answer is to keep the current structure.</p>
+        <p className="text-gray-700 mb-4">Share the decision with the Indian management team.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

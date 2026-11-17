@@ -45,6 +45,29 @@ without JavaScript.
     Once per week, and never after an enquiry.
   - **Landing page:** the new /free-consultation page; the header's "Get Started" button links to it.
 
+## Content pass: full word targets (17 November 2026)
+
+The first pass treated 90% of the Excel's required word count as done. This pass brings every page
+to 100% of it.
+
+- **Pages edited:** 112. Each got a new, country-specific section above "How AU Corporate helps",
+  "Official sources" or the FAQs, and an entry in the page's table of contents. The two branch-office
+  service pages got one extra FAQ each.
+- **Result:** 251 of 252 audited pages now meet the full required word count. The exception is
+  /insights, which stays noindexed until articles are published, as the Excel recommends.
+- **New pages:** all 19 in `new-pages-check.csv` meet their targets. Four are now longer than KRPR's
+  page on the same topic: NRI registration, the setup timeline, resident director services and
+  manufacturing setup.
+- **Checks:**
+  - **Density:** no page left its density band.
+  - **Similarity:** the highest cross-country template similarity fell from 44% to 42%.
+  - **SEO audit:** `scripts/seo-audit.mjs` passes.
+- **Records:** word counts for the edited pages are updated in `page-checklist.csv` and
+  `new-pages-check.csv`.
+- **Not done on purpose:** padding each of the nine country versions of a topic (for example "common
+  mistakes") to match a single long KRPR guide. It would push template duplication back up, which
+  the Excel rated High severity.
+
 ## To run locally
 
 ```bash
@@ -63,5 +86,6 @@ database, /insights simply shows no articles.
 3. Send one test enquiry from the live site and check it arrives.
 4. GA4: mark `book_call_click` as a key event, register the custom dimensions, and filter internal and
    preview traffic. See `docs/lead-generation/strategy.md`.
-5. CA review of the new pages. Native Japanese review of /ja/japan-alliance.
+5. CA review of the new pages and of the new sections added in the content pass. Native Japanese
+   review of /ja/japan-alliance.
 6. Off-page authority work (`off-page-plan.md`). Review schema once genuine client reviews exist.

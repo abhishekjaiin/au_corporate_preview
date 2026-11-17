@@ -27,6 +27,7 @@ const toc = [
   { id: "first-90-days", label: "The first 90 days after incorporation" },
   { id: "office", label: "Registered office and state" },
   { id: "jp-name", label: "Choosing the company name" },
+  { id: "jp-documents-tips", label: "Preparing Japanese documents without delays" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -217,6 +218,11 @@ export default function IncorporationProcessPage() {
 
 
 
+
+        <h2 id="jp-documents-tips" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Preparing Japanese documents without delays</h2>
+        <p className="text-gray-700 mb-4">Japanese corporate documents need English translations, and the translated names must match the passports and the Indian filings exactly. Ask the notary and the Legal Affairs Bureau for documents in the order the apostille office needs them, and allow time for the apostille from the Ministry of Foreign Affairs. Check the romanisation of each director&apos;s name against the passport before anything is notarised, because a single difference can mean redoing the whole set.</p>
+        <p className="text-gray-700 mb-4">If the parent&apos;s representative director signs documents in Japan, check whether a company seal impression or a signature is expected for each document, and make sure the notary certifies whichever is used. Indian authorities expect the documents to be consistent, so mixing seals and signatures across the set can lead to questions.</p>
+        <p className="text-gray-700 mb-4">Ask the notary to confirm this before the appointment.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

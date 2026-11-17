@@ -26,6 +26,7 @@ const toc = [
   { id: "cost-compare", label: "Cost comparison at different team sizes" },
   { id: "compliance-burden", label: "What your own Indian company must handle that a provider does for you" },
   { id: "contract-terms", label: "Contract terms to check with a provider" },
+  { id: "au-eor-questions", label: "Questions to ask before you sign with an EOR" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -227,6 +228,18 @@ export default function EorVsSubsidiaryPage() {
 
 
 
+
+        <h2 id="au-eor-questions" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Questions to ask before you sign with an EOR</h2>
+        <p className="text-gray-700 mb-4">If you start with an employer of record, the contract decides how easy the later move to your own company will be. Ask each provider these questions before signing.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Will the provider release the employees to your own Indian company without a placement or conversion fee, and on what notice?</li>
+          <li>Who owns the intellectual property the team creates, and does the employment contract assign it to your Australian company?</li>
+          <li>How are gratuity and accrued leave handled if employees move to your company, and will the provider pay out or transfer the balances?</li>
+          <li>Does the provider hold the registrations, insurance and labour code compliance needed for the cities where your staff work?</li>
+          <li>What data protection terms apply to employee and customer data the team handles?</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Clear answers make the EOR a genuine stepping stone rather than an arrangement that becomes expensive to leave.</p>
+        <p className="text-gray-700 mb-4">Ask for the answers in writing as part of the contract, not in a sales email, so they are enforceable when you decide to move the team.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -27,6 +27,7 @@ const toc = [
   { id: "ownership", label: "Setting up the ownership correctly" },
   { id: "decision", label: "Five questions that decide the structure" },
   { id: "converting", label: "Changing the structure later" },
+  { id: "ru-structure-cases", label: "How Russian companies usually decide" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -239,6 +240,11 @@ export default function StructureOptionsPage() {
         </p>
 
 
+
+        <h2 id="ru-structure-cases" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Russian companies usually decide</h2>
+        <p className="text-gray-700 mb-4">In practice the decision for a Russian company is shaped by banking as much as by law. A private limited company with an Indian bank account, an Indian customer base and Indian suppliers gives the most flexibility, because it can transact in rupees and build its own banking relationships. A liaison office suits companies that only need a representative presence while they test the market. A project office is useful for a specific contract, such as an infrastructure or energy project, and closes when the contract ends.</p>
+        <p className="text-gray-700 mb-4">Joint ventures with Indian partners are common where the Indian partner brings customers, approvals or local banking relationships. Whatever the choice, test the banking route early and record the business triggers, such as the first long-term customer contract, that would justify moving to a more permanent structure.</p>
+        <p className="text-gray-700 mb-4">Two further points often shape the decision. If Indian staff are to receive share options, or if the business may later take in an Indian investor, a private limited company is far more flexible than an office. And because an Indian subsidiary is a resident company with its own bank relationships, it is usually better placed than a branch or liaison office to keep trading if banking conditions for Russian entities change again.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

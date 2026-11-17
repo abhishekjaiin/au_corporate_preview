@@ -19,6 +19,7 @@ const toc = [
   { id: "extras", label: "Benefits candidates often expect" },
   { id: "by-country", label: "Notes for Singapore, UK, German and US employers" },
   { id: "budget", label: "Budgeting for benefits" },
+  { id: "benefits-review", label: "Reviewing the package each year" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -140,6 +141,9 @@ export default function EmployeeBenefitsInIndiaForForeignCompaniesPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Most Indian offers are quoted as cost to company (CTC), which normally includes the employer&apos;s provident fund contribution and the gratuity provision. Group insurance may be inside or outside CTC; state which in the offer letter. For a full employer-cost view with worked examples, see <Link href="/cost-of-hiring-employees-in-india" className="text-blue-800 font-semibold hover:underline">the cost of hiring employees in India</Link>.
         </p>
+
+        <h2 id="benefits-review" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reviewing the package each year</h2>
+        <p className="text-gray-700 mb-4">Review the package every April, when salary revisions take effect, and check insurance limits against current hospital costs in your cities.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

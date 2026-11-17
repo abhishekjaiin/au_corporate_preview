@@ -198,6 +198,12 @@ export default function IncorporationStepsPage() {
         </p>
 
 
+        <h2 id="hk-incorporation-plan" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A practical plan around the approval</h2>
+        <p className="text-gray-700 mb-4">Because approval comes first, Hong Kong parents get the best result by preparing everything else while the application is pending. Collect the Hong Kong company documents from the Companies Registry, prepare the board resolution, have the documents notarised and apostilled by the High Court, and arrange digital signatures for the directors. Choose the company name, the registered office and the resident director, and draft the memorandum and articles.</p>
+        <p className="text-gray-700 mb-4">When approval arrives, the incorporation filing can then be made within days rather than weeks. Check whether the approval letter imposes any conditions, such as limits on the business activity or reporting requirements, and build them into the company&apos;s compliance calendar from the first day.</p>
+        <p className="text-gray-700 mb-4">Also decide in advance who will hold the subsidiary&apos;s bank mandate and how payments will be approved, because the bank will ask for these details soon after incorporation. Preparing the board resolution for the bank account alongside the incorporation documents saves another round of signatures from Hong Kong.</p>
+        <p className="text-gray-700 mb-4">Keep a second certified set of documents for the bank.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

@@ -199,6 +199,12 @@ export default function GccForGermanCompaniesPage() {
 
 
 
+        <h2 id="de-gcc-first-year" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The first year of a German capability centre</h2>
+        <p className="text-gray-700 mb-4">German companies, particularly in the Mittelstand, often begin with a small engineering or IT team and grow it once the model is proven. In the first year the priorities are a clear intercompany services agreement on a cost-plus basis, a GDPR-compliant data transfer mechanism, an information security model the German IT team accepts and a German sponsor who meets the centre head regularly.</p>
+        <p className="text-gray-700 mb-4">German works councils may need to be informed or consulted if work moves from Germany to India, so involve HR and the Betriebsrat early. Review the centre after twelve months: decide whether to expand the scope, add teams in a second Indian city or move work that requires more judgement to the centre, and update the transfer pricing and permanent establishment analysis to match.</p>
+        <p className="text-gray-700 mb-4">Report the centre&apos;s results against a small set of agreed indicators each quarter, such as delivery quality, cost per role and attrition, so that the German sponsor can make growth decisions based on evidence rather than impressions.</p>
+        <p className="text-gray-700 mb-4">Review the indicators with the sponsor every year.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

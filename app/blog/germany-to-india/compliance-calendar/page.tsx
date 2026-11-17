@@ -24,6 +24,7 @@ const toc = [
   { id: "gst-compliance", label: "GST returns and other recurring compliance dates" },
   { id: "de-map", label: "The Indian year mapped to a German 31 December year" },
   { id: "de-owner", label: "What late filing costs" },
+  { id: "de-calendar-owner", label: "Who should own the calendar" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -199,6 +200,10 @@ export default function ComplianceCalendarPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Late filings with the Registrar attract an additional fee for every day of delay, late GST returns carry a daily late fee plus interest on unpaid tax, and late TDS returns and payments carry fees and interest. None of these is large on its own, but they add up, and repeated defaults lead to notices and questions from banks and auditors. A shared calendar with the German finance team is the cheapest way to avoid them.
         </p>
+
+        <h2 id="de-calendar-owner" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Who should own the calendar</h2>
+        <p className="text-gray-700 mb-4">Assign one person in the Indian subsidiary as owner of the compliance calendar and one reviewer in the German finance team. The owner confirms each month that tax deposits, GST returns and payroll filings were made; the reviewer checks the confirmation and follows up on any gaps. Add the Indian annual dates, such as the audit, the AGM, the transfer pricing report and the Reserve Bank return, to the German group&apos;s close calendar so that both teams plan around them.</p>
+        <p className="text-gray-700 mb-4">Revisit the calendar after each Indian budget and whenever the subsidiary adds a new activity, such as a second GST registration or a group loan, so that new obligations are captured straight away.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

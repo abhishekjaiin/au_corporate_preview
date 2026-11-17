@@ -25,6 +25,7 @@ const toc = [
   { id: "returning", label: "Planning a return to India" },
   { id: "family", label: "Family members, nominees and joint ownership" },
   { id: "timeline-fees", label: "Timeline and fees" },
+  { id: "nri-scenarios", label: "Four common situations, and the structure that fits each" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -205,6 +206,24 @@ export default function CompanyRegistrationInIndiaForNriPage() {
         </p>
 
 
+
+        <h2 id="nri-scenarios" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Four common situations, and the structure that fits each</h2>
+        <p className="text-gray-700 mb-4">Most people who ask us about registering a company from abroad fall into one of four situations. The right answer depends less on where you live today and more on where the money comes from, who will run the business day to day and whether you expect to move back.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">1. You live abroad and want an Indian team to serve your overseas clients</h3>
+        <p className="text-gray-700 mb-4">This is the most common case: a consultant in Dubai, London or Singapore who wants a delivery team in Pune or Kochi. A private limited company funded on a repatriation basis is usually right, because the profits you earn in India can be paid to you abroad as dividends or as a fee for services you provide. Your overseas clients sign with your foreign business or with the Indian company directly, and an intercompany agreement sets the price for the work. Plan transfer pricing from the first invoice if the Indian company bills a business you own abroad.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">2. You want to start a business in India that a family member will run</h3>
+        <p className="text-gray-700 mb-4">Here the Indian company sells to Indian customers and a parent, sibling or spouse based in India manages it. A private limited company still works well, and the family member can be the resident director. Decide early whether you will hold shares on a repatriation or non-repatriation basis: if you never expect to take the money abroad, non-repatriation investment is treated much like a resident investment and avoids most foreign investment reporting.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">3. You are an OCI cardholder planning to return within two or three years</h3>
+        <p className="text-gray-700 mb-4">If you will become resident again soon, think about the company you want in five years, not the one that is cheapest now. Overseas Citizens of India generally invest on the same footing as non-resident Indians. When you return and become resident, your shareholding does not need to be sold, but your bank accounts must be redesignated and some FEMA reporting changes. Setting up a private limited company now, with a resident co-director, avoids restructuring later.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">4. You are a foreign national with no Indian family connection</h3>
+        <p className="text-gray-700 mb-4">A foreign national can own all the shares of an Indian private limited company in most sectors under the automatic route. The difference from an NRI is practical rather than legal: you will need a resident director who is not family, your documents must be apostilled or legalised in your country of residence, and the bank will look closely at the source of funds. Many foreign founders use our resident director service for the first year while they hire a local manager.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Mistakes we see most often</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Investing from a resident savings account that should have been redesignated as an NRO account when the founder moved abroad.</li>
+          <li>Choosing a one person company without a nominee who is willing to act, and then having to restructure when the business needs a second director or outside investors.</li>
+          <li>Putting a relative on the board as resident director without explaining that the role carries legal responsibility for filings.</li>
+          <li>Mixing personal remittances and share capital in the same transfer, which makes the Form FC-GPR filing harder to support.</li>
+        </ul>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

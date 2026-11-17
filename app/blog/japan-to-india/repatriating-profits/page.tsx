@@ -26,6 +26,7 @@ const toc = [
   { id: "forms", label: "The repatriation paperwork: Forms 145 and 146" },
   { id: "repatriation-example", label: "A worked repatriation example" },
   { id: "repatriation-timing", label: "Repatriation timing for a 31 March parent" },
+  { id: "jp-repatriation-policy", label: "Agreeing a repatriation policy with the head office" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -214,6 +215,11 @@ export default function RepatriatingProfitsPage() {
         </p>
 
 
+
+        <h2 id="jp-repatriation-policy" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Agreeing a repatriation policy with the head office</h2>
+        <p className="text-gray-700 mb-4">Many Japanese groups set a simple repatriation policy for the Indian subsidiary: how much cash it retains for working capital, when it pays dividends and which charges are invoiced to it under intercompany agreements. A written policy gives the Indian board a clear basis for each dividend, supports the service fees and royalties in a tax review and lets the Japanese treasury plan the timing of cash around the 31 March year end that both countries often share.</p>
+        <p className="text-gray-700 mb-4">Review the policy each year when the Indian accounts are approved, and check the cash forecast so that repatriation does not leave the subsidiary short of working capital.</p>
+        <p className="text-gray-700 mb-4">Record each repatriation decision in the Indian board minutes.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

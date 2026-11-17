@@ -29,6 +29,7 @@ const toc = [
   { id: "de-apa", label: "Bilateral APAs between India and Germany" },
   { id: "de-range", label: "What goes into the cost base" },
   { id: "de-checklist", label: "A year-end checklist for German groups" },
+  { id: "de-audit-readiness", label: "Preparing for audits in both countries" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -237,6 +238,12 @@ export default function TransferPricingPage() {
           In February, test the Indian margin on management accounts. In March, issue any true-up invoice before the Indian books close. Between April and August, update the Indian study with current comparables. By 31 October, file Form 48 with the tax audit. Then share the final Indian figures with the German documentation team for the 31 December year.
         </p>
 
+
+        <h2 id="de-audit-readiness" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Preparing for audits in both countries</h2>
+        <p className="text-gray-700 mb-4">German groups are reviewed from both directions. The German tax auditor looks at whether functions or profit potential have moved to India without compensation, while the Indian officer asks whether the Indian subsidiary earns enough for what it does. The same intercompany agreements and functional analysis are examined in both reviews.</p>
+        <p className="text-gray-700 mb-4">Prepare the German and Indian transfer pricing documentation from one shared description of the Indian company&apos;s functions, assets and risks. Check before each year end that the cost base, the markup and any adjustment booked after 31 December are reflected consistently in both sets of books. Where the Indian team&apos;s role has grown, for example from coding to product ownership, update the model and the documentation in the same year. For larger flows, a bilateral advance pricing agreement can give certainty in both countries for several years.</p>
+        <p className="text-gray-700 mb-4">Agree a named reviewer in the German tax team who signs off the Indian study each year. A reviewer who also owns the German local file can confirm that the two documents describe the same arrangement and raise any differences before either tax authority does.</p>
+        <p className="text-gray-700 mb-4">Record the sign-off and any open points in the transfer pricing file for the year, with the date and the reviewer&apos;s name.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

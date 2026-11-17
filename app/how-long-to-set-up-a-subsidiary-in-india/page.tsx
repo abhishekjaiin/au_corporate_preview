@@ -19,6 +19,7 @@ const toc = [
   { id: "delays", label: "What usually causes delays" },
   { id: "faster", label: "How to make it faster" },
   { id: "after-incorporation", label: "Deadlines that start after incorporation" },
+  { id: "timeline-scenarios", label: "Three real-world timelines, from fastest to slowest" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -149,6 +150,33 @@ export default function HowLongToSetUpASubsidiaryInIndiaPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           For the budget side of the same plan, see <Link href="/cost-of-setting-up-a-subsidiary-in-india" className="text-blue-800 font-semibold hover:underline">the cost of setting up a subsidiary in India</Link>.
         </p>
+
+        <h2 id="timeline-scenarios" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Three real-world timelines, from fastest to slowest</h2>
+        <p className="text-gray-700 mb-4">The headline answer of four to six weeks hides a wide range. The Indian filing itself rarely takes more than two weeks. What moves the date is everything that happens before it, in the parent&apos;s country, and the steps after it that make the company able to operate. The three scenarios below are composites of projects we have run.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Scenario A: about three weeks from instruction to bank account</h3>
+        <p className="text-gray-700 mb-4">A US software company with one shareholder and two directors who already hold passports and proof of address in good order. The parent&apos;s board resolution is signed electronically on day one, documents are notarised and apostilled by the Secretary of State within a week, the name is approved on the first attempt and the SPICe+ form is approved four working days after filing. The bank account opens within a week of incorporation because a director attends a video KYC call. This is close to the fastest realistic timeline.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Scenario B: six to seven weeks, the typical case</h3>
+        <p className="text-gray-700 mb-4">A UK group with a corporate shareholder, a nominee second shareholder and a director who is also a UK company director. The Companies House documents need certified copies, the first notarised set has a name mismatch with the passport and must be redone, and the proposed name is rejected once for being too close to an existing trademark. None of these is unusual, and together they add about three weeks. The incorporation, PAN, TAN and bank account then follow on the normal schedule.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Scenario C: three months or more</h3>
+        <p className="text-gray-700 mb-4">A company that needs government approval, for example because a shareholder is based in a country that shares a land border with India, or because the sector is outside the automatic route. The approval application itself can take eight to twelve weeks or longer, and incorporation cannot begin until it is granted. Other slow cases include parents in countries that are not party to the Apostille Convention, where documents must be legalised by the Indian embassy, and groups whose internal approvals need a board meeting that only happens quarterly.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">What does not slow you down as much as people expect</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Share capital: there is no minimum, and the money can arrive after incorporation.</li>
+          <li>Office premises: a registered office can be a co-working space or our address while you find a permanent location.</li>
+          <li>GST registration: it can be applied for after incorporation and usually takes one to three weeks.</li>
+          <li>The resident director: if you do not have one, a professional resident director can be appointed in days.</li>
+        </ul>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">A week-by-week plan you can share with your board</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Week 1: agree the structure, the name options, the directors and the shareholders. Collect passports and addresses. The parent signs the board resolution.</li>
+          <li>Week 2: notarise and apostille the parent documents. Apply for digital signature certificates for the directors.</li>
+          <li>Week 3: file the name reservation, then the SPICe+ incorporation form with the memorandum and articles.</li>
+          <li>Week 4: receive the certificate of incorporation, PAN and TAN. Start the bank account application.</li>
+          <li>Weeks 5 and 6: open the bank account, receive the share capital, allot shares and file Form FC-GPR within 30 days of allotment.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">If you start collecting documents before the board meeting rather than after it, the whole plan often moves forward by a week. The single most useful thing a parent company can do is check that names, addresses and dates match exactly across every document before anything is notarised.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Timeline differences by parent country</h3>
+        <p className="text-gray-700 mb-4">Parents in Apostille Convention countries such as the US, UK, Germany, Japan, Australia and Singapore usually finish their document stage in one to two weeks. Hong Kong uses an apostille too, but a Hong Kong shareholder is subject to the approval requirement for land-border countries, which dominates the timeline. Chinese parents need approval and, depending on the document, legalisation. Parents in the UAE need embassy attestation rather than an apostille, which typically adds one to two weeks.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

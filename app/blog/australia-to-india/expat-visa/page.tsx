@@ -23,6 +23,7 @@ const toc = [
   { id: "tax", label: "Tax in India and Australia" },
   { id: "life", label: "Living in India" },
   { id: "which-visa", label: "Employment visa, business visa or e-visa" },
+  { id: "au-expat-budget", label: "Budgeting an Australian assignment" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -182,6 +183,11 @@ export default function ExpatVisaPage() {
           Australian citizens can apply for the e-visa online for business visits. Anyone doing hands-on work for the Indian company should hold the employment category, even for a few months. See <Link href="/australia-to-india/foreign-employee-treaty-ssa" className="text-blue-800 font-semibold hover:underline">how Australian employees in India are taxed</Link>.
         </p>
 
+
+        <h2 id="au-expat-budget" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Budgeting an Australian assignment</h2>
+        <p className="text-gray-700 mb-4">An assignment budget should cover more than salary: housing in a serviced apartment or leased home, a car and driver, school fees for children, home leave flights, medical insurance that covers treatment in India, and tax equalisation if the company has promised the employee will pay no more tax than at home. Agree the budget and the length of the assignment before the employment contract is drafted, and review it after six months when the real costs are known.</p>
+        <p className="text-gray-700 mb-4">Also plan the end of the assignment from the start: who decides on extensions, how the move home is supported and how the employee&apos;s final Indian tax return and exit formalities will be handled. Leaving these to the last month is the most common cause of avoidable stress for assignees.</p>
+        <p className="text-gray-700 mb-4">A written assignment letter covering these points avoids misunderstandings.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

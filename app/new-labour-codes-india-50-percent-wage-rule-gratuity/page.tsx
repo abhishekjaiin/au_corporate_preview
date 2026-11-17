@@ -20,6 +20,7 @@ const toc = [
   { id: "ir", label: "Fixed-term employment, layoffs and closure" },
   { id: "social", label: "Social security changes" },
   { id: "checklist", label: "An employer's checklist" },
+  { id: "foreign-employers", label: "What the labour codes mean for a foreign-owned employer" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -138,6 +139,16 @@ export default function NewLabourCodesIndia50PercentWageRuleGratuityPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Our <Link href="/payroll-expat-services" className="text-blue-800 font-semibold hover:underline">payroll and expat services</Link> cover the payroll side, and country guides such as <Link href="/usa-to-india/indian-labour-codes-for-us-employers" className="text-blue-800 font-semibold hover:underline">the labour codes for US employers</Link> explain how they compare with home-country practice.
         </p>
+
+        <h2 id="foreign-employers" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the labour codes mean for a foreign-owned employer</h2>
+        <p className="text-gray-700 mb-4">Foreign parents with a small Indian team often assume the codes matter only to factories. They apply to every employer, and a few changes need attention even in an office of ten people.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Review salary structures: if allowances are more than half of total pay, the excess is added back to wages for provident fund and gratuity, which raises the employer&apos;s cost.</li>
+          <li>Update offer letters and policies for fixed-term employees, who are now entitled to gratuity after one year of service.</li>
+          <li>Check that final wages are paid within two working days of resignation or termination.</li>
+          <li>Align payroll software and the cost-to-company budget sent to the parent with the new wage definition.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Most of these changes are administrative, but they affect the cost numbers the parent approves, so update the labour code assumptions in the group budget early.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

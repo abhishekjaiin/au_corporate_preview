@@ -21,6 +21,7 @@ const toc = [
   { id: "habits", label: "Australian habits that do not transfer" },
   { id: "prevention", label: "A short prevention plan" },
   { id: "fema-penalties", label: "What a FEMA mistake costs" },
+  { id: "au-mistake-review", label: "A six-monthly review that catches most of them" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -202,6 +203,11 @@ export default function CommonMistakesPage() {
           Several mistakes on this list are FEMA contraventions. Penalties can reach three times the amount involved, so most are settled by compounding with the RBI, or by a late submission fee where only a report was late. The cheapest mistake is the one prevented at incorporation.
         </p>
 
+
+        <h2 id="au-mistake-review" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A six-monthly review that catches most of them</h2>
+        <p className="text-gray-700 mb-4">Most mistakes on this list are found late because nobody looks for them. A short review every six months, covering the FEMA filings, the transfer pricing position, director compliance and the payroll registrations, finds the problem while it is still cheap to fix. Schedule one review just before the Indian 31 March year end and one before the Australian 30 June close.</p>
+        <p className="text-gray-700 mb-4">Record what each review found and what was done about it. Over time the record shows which mistakes keep recurring and where the Indian team needs more support or clearer procedures from Australia.</p>
+        <p className="text-gray-700 mb-4">A shared checklist makes each review faster than the last.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

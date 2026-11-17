@@ -31,6 +31,7 @@ const toc = [
   { id: "mistakes", label: "Six mistakes Chinese companies make" },
   { id: "exit", label: "Selling, restructuring or closing the Indian subsidiary" },
   { id: "series", label: "The full guide series" },
+  { id: "china-subsidiary-note", label: "A note on timing" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -497,6 +498,9 @@ export default function ChinaToIndiaHubPage() {
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="china-subsidiary-note" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A note on timing</h2>
+        <p className="text-gray-700 mb-4">Build the approval period into the subsidiary&apos;s launch plan before committing to customers or hiring in India.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate can help</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -192,6 +192,16 @@ export default function ComplianceCalendarPage() {
           </table>
         </div>
 
+        <h2 className="mb-2 font-heading text-2xl font-bold" style={{ color: NAVY }}>
+          How to use this calendar inside your company
+        </h2>
+        <p className="mb-4 text-gray-700">
+          A calendar only works if someone owns it. Give each compliance area in the table above a named owner in India and a reviewer at the parent company, and add every date to the parent&apos;s own close timetable rather than keeping it in a separate file. Ask the Indian finance team for a short confirmation each month that every tax deposit, return and payroll filing was made on time, with any exception explained.
+        </p>
+        <p className="mb-10 text-gray-700">
+          Review the calendar at least twice a year: before the Indian year end on 31 March, when the annual audit and filing cycle is planned, and after the budget announcement, when due dates and forms are most likely to change. When the subsidiary adds employees, registers for GST in a new state, takes a loan from the parent or starts paying royalties, add the compliance obligations that come with each change straight away. A shared calendar that both teams can see, with the status of each item updated monthly, is the simplest way to keep everyone working from the same list.
+        </p>
+
         <div className="mb-12 rounded-xl border border-gray-200 bg-gray-50 p-6">
           <h2 className="mb-3 font-heading text-xl font-bold" style={{ color: NAVY }}>
             Important note

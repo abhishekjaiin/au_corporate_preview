@@ -194,6 +194,9 @@ export default function ExitAndRestructuringPage() {
         </p>
 
 
+        <h2 id="hk-exit-records" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Preparing for any exit</h2>
+        <p className="text-gray-700 mb-4">Keep the share register, FEMA filings and tax assessments complete, because every exit route starts with a review of these records.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

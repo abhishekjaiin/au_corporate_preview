@@ -25,6 +25,7 @@ const toc = [
   { id: "information", label: "Information the valuer will ask for" },
   { id: "example", label: "A worked example" },
   { id: "records", label: "Keeping the paperwork" },
+  { id: "choosing-valuer", label: "Choosing the right professional for the certificate" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -188,6 +189,16 @@ export default function ShareValuationIndiaRegisteredValuerFemaPage() {
 
 
 
+
+        <h2 id="choosing-valuer" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Choosing the right professional for the certificate</h2>
+        <p className="text-gray-700 mb-4">Different rules accept different signatories, which is why companies sometimes need two reports for one transaction.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Foreign exchange pricing for unlisted shares: a chartered accountant, a SEBI-registered merchant banker or a practising cost accountant can certify fair value using an internationally accepted pricing methodology.</li>
+          <li>Company law, for example a preferential allotment or a merger: a registered valuer under the Companies Act is required.</li>
+          <li>Income tax rules on share issues and transfers: the prescribed methods apply, and some methods require a merchant banker.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Where one professional holds the right qualifications, a single engagement can cover all three tests, with a separate opinion for each. Ask for this at the start, because it is cheaper and keeps the numbers consistent.</p>
+        <p className="text-gray-700 mb-4">Whoever signs, ask for the report to state which rules it addresses, the method used, the valuation date and the key assumptions, so that the bank, the auditor and the tax officer can each see that it meets their requirement.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

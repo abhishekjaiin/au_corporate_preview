@@ -25,6 +25,7 @@ const toc = [
   { id: "ctc", label: "How Indian salaries are quoted: cost to company (CTC)" },
   { id: "leaving", label: "Notice, termination and gratuity" },
   { id: "leave", label: "Leave and holidays" },
+  { id: "ru-hr-setup", label: "Setting up HR for a small Russian-owned team" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -215,6 +216,11 @@ export default function HiringInIndiaPage() {
         </p>
 
 
+
+        <h2 id="ru-hr-setup" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Setting up HR for a small Russian-owned team</h2>
+        <p className="text-gray-700 mb-4">For the first few hires, most Russian-owned subsidiaries use an outsourced salary processing provider and a simple HR policy pack: an offer letter template, a leave policy, a code of conduct and a confidentiality and IP assignment agreement. Register for provident fund and employee state insurance before the first salary is paid, and under the state shops and establishments law for the office. As the team grows, add a written grievance process and a policy on prevention of sexual harassment with an internal committee, which is required once there are ten or more employees.</p>
+        <p className="text-gray-700 mb-4">Send the Russian parent a short monthly salary summary with headcount, gross pay, employer contributions and joiners and leavers, so that staff costs can be reviewed alongside the subsidiary&apos;s results.</p>
+        <p className="text-gray-700 mb-4">Keep the format stable from month to month.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

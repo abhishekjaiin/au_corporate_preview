@@ -203,6 +203,11 @@ export default function TransferPricingPage() {
 
 
 
+        <h2 id="hk-substance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Substance in Hong Kong and India</h2>
+        <p className="text-gray-700 mb-4">Where a Hong Kong company buys from or sells to the Indian subsidiary, Indian officers will look at what the Hong Kong company actually does. A Hong Kong entity with staff, inventory risk and customer relationships can justify a larger share of the profit. One that only issues invoices will be treated as a low-value intermediary, and the Indian company may be expected to earn more.</p>
+        <p className="text-gray-700 mb-4">Document the functions performed in each place, with the names and roles of the people involved, and keep the intercompany agreements aligned with how the business actually works. Review the model when staff or responsibilities move between Hong Kong and India, and keep the transfer pricing and customs positions consistent for goods imported into India.</p>
+        <p className="text-gray-700 mb-4">Hong Kong groups should also think about how the Inland Revenue Department views the same flow. Hong Kong&apos;s own transfer pricing rules, introduced in 2018, expect the Hong Kong entity to earn an arm&apos;s length return for its functions. If India expects the Indian subsidiary to earn more and Hong Kong expects the Hong Kong company to keep more, the group can end up taxed twice. Preparing one consistent functional analysis for both sets of documentation, and considering the mutual agreement procedure under the DTAA if a dispute arises, reduces that risk.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

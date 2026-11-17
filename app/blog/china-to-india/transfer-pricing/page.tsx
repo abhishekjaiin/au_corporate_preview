@@ -207,6 +207,9 @@ export default function TransferPricingPage() {
         </p>
 
 
+        <h2 id="cn-svb" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Imports from the Chinese parent and customs valuation</h2>
+        <p className="text-gray-700 mb-4">When the Indian subsidiary imports components from its Chinese parent, Indian customs can review whether the related-party price is acceptable for duty purposes through the Special Valuation Branch. Keep the customs and transfer pricing analyses consistent, because a low price for transfer pricing and a high price for customs, or the reverse, invites questions from both authorities.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

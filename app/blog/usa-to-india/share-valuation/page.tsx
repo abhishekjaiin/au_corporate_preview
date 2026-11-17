@@ -22,6 +22,7 @@ const toc = [
   { id: "when", label: "When you need a fresh valuation" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "us-409a-difference", label: "Why a US 409A report is not enough" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -147,6 +148,10 @@ export default function ShareValuationPage() {
           <li>Treating the valuation as a formality and not keeping the workings.</li>
           <li>Using the wrong certifier for the particular transaction.</li>
         </ul>
+
+        <h2 id="us-409a-difference" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Why a US 409A report is not enough</h2>
+        <p className="text-gray-700 mb-4">US companies often hold a recent 409A report for their own stock and ask whether it can be reused in India. It cannot. The Indian requirement is a certificate on the Indian company&apos;s shares, signed by a professional recognised under Indian rules and dated close to the transaction. The US report can still help, because the Indian valuer will want the group&apos;s projections and capital structure, and reusing the same assumptions keeps the two reports consistent.</p>
+        <p className="text-gray-700 mb-4">Ask the Indian valuer to note in the report how its assumptions compare with the US report, so auditors in both countries can follow the reasoning.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

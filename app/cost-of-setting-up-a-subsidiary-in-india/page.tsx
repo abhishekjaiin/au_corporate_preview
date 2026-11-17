@@ -22,6 +22,7 @@ const toc = [
   { id: "first-year", label: "A first-year budget template" },
   { id: "save", label: "Ways to keep the set-up efficient" },
   { id: "registration-fee", label: "Indian subsidiary registration fee: what our package covers" },
+  { id: "fee-questions", label: "Questions to ask before you accept a quote" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -177,6 +178,18 @@ export default function CostOfSettingUpASubsidiaryInIndiaPage() {
         </p>
 
 
+
+        <h2 id="fee-questions" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Questions to ask before you accept a quote</h2>
+        <p className="text-gray-700 mb-4">Quotes for the same incorporation can vary several times over because providers include different things. Before signing, ask each provider the same short list of questions so that you compare like with like.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Are government fees and stamp duty included, and for which state? Stamp duty on the memorandum and articles depends on the state and the authorised share capital.</li>
+          <li>Does the fee include digital signature certificates and director identification numbers for every director?</li>
+          <li>Is the Form FC-GPR filing after the first share allotment included, along with the valuation certificate it needs?</li>
+          <li>Who provides the registered office address, and for how long?</li>
+          <li>Are the first board meeting, the appointment of the first auditor and the commencement of business filing (INC-20A) part of the package?</li>
+          <li>What happens, and what does it add, if the name is rejected or the documents need to be notarised again?</li>
+        </ul>
+        <p className="text-gray-700 mb-4">A low headline fee that leaves out the post-incorporation filings often ends up more expensive, because those filings carry penalties when missed. Our package lists each item so that you can see exactly what is covered.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

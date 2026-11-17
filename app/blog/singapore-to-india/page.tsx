@@ -32,6 +32,7 @@ const toc = [
   { id: "holdco", label: "Using a Singapore holding company for India" },
   { id: "siac", label: "SIAC arbitration and enforcement in India" },
   { id: "series", label: "The full guide series" },
+  { id: "singapore-subsidiary-calendar", label: "The subsidiary's first-year calendar" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -509,6 +510,10 @@ export default function SingaporeToIndiaHubPage() {
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="singapore-subsidiary-calendar" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The subsidiary&apos;s first-year calendar</h2>
+        <p className="text-gray-700 mb-4">In its first year a Singapore-owned Indian subsidiary should hold its first board meeting and appoint an auditor within 30 days, allot shares and file Form FC-GPR after the capital arrives, declare commencement of business within 180 days and file the annual return on foreign liabilities and assets by 15 July. Plan Singapore and Indian year ends together if the parent closes on 31 December.</p>
+        <p className="text-gray-700 mb-4">Many Singapore groups also align the subsidiary&apos;s monthly reporting with the regional headquarters&apos; timetable, so Indian figures arrive with the rest of the region and the subsidiary is reviewed in the same management meeting.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate can help</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

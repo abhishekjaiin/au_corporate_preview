@@ -23,6 +23,7 @@ const toc = [
   { id: "sizing", label: "How much to invest" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "firms-before-first-filing", label: "Before the first FC-GPR: setting up on the FIRMS portal" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -180,6 +181,9 @@ export default function FundingFemaFcGprPage() {
           <li>Issuing shares without a valuation certificate or below fair value.</li>
           <li>Sending money before the company exists or the account is open.</li>
         </ul>
+
+        <h2 id="firms-before-first-filing" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Before the first FC-GPR: setting up on the FIRMS portal</h2>
+        <p className="text-gray-700 mb-4">The FC-GPR form is filed on the Reserve Bank&apos;s FIRMS portal, and two registrations must be in place first: the Entity Master record for the Indian company and a business user login for the person who will file. Complete both as soon as the company is incorporated, not when the 30-day clock is already running. Keep the inward remittance certificate, the bank&apos;s KYC report on the US parent, the valuation certificate and the board resolution for allotment together, because the authorised dealer bank checks each one before the form is approved.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

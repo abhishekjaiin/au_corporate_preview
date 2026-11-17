@@ -198,6 +198,11 @@ export default function StructureOptionsPage() {
 
 
 
+        <h2 id="uk-structure-cases" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How UK clients usually decide</h2>
+        <p className="text-gray-700 mb-4">In our experience the choice for a UK company comes down to three questions: will the Indian operation sell to Indian customers, will it hire more than a handful of people, and how soon does the UK board want a permanent presence? A UK software business hiring a development team almost always forms a private limited company. A UK manufacturer testing demand often starts with a liaison office or a distributor and forms a company once orders justify it. A UK consultancy with one or two people in India sometimes uses an employer of record for a year.</p>
+        <p className="text-gray-700 mb-4">Whatever the starting point, write down what would trigger a change, such as headcount, revenue or the first Indian customer contract, so that the structure is reviewed before it becomes a tax or permanent establishment problem.</p>
+        <p className="text-gray-700 mb-4">Two further points often shape the decision. If the UK parent wants Indian staff to hold shares or options, a private limited company makes this far simpler than a branch or liaison office. And if the Indian operation may later be sold, merged into a new group or used to raise outside investment, a company is the only structure that allows it. UK boards that expect either outcome usually choose a company from the start, even when the first year&apos;s activity is small.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

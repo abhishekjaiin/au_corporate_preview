@@ -28,6 +28,7 @@ const toc = [
   { id: "why-europe", label: "Why European groups set up in India" },
   { id: "costs-eu", label: "Fees and timeline for European parents" },
   { id: "eu-mistakes", label: "Common mistakes European parents make" },
+  { id: "european-first-year", label: "The first year for a European-owned Indian subsidiary" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -192,6 +193,19 @@ export default function EuropeToIndiaPage() {
 
 
 
+
+        <h2 id="european-first-year" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The first year for a European-owned Indian subsidiary</h2>
+        <p className="text-gray-700 mb-4">Once the Indian subsidiary is incorporated, the first twelve months follow a similar pattern for parents from any European country. Knowing it in advance helps the parent&apos;s finance team plan.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Within 30 days: hold the first board meeting and appoint the first statutory auditor.</li>
+          <li>Within 60 days of receiving the share capital: allot shares to the parent, then file Form FC-GPR within 30 days of allotment.</li>
+          <li>Within 180 days of incorporation: file the declaration of commencement of business (Form INC-20A).</li>
+          <li>Every month: deposit tax withheld at source and file GST returns if registered.</li>
+          <li>By 15 July: file the annual return on foreign liabilities and assets with the Reserve Bank of India.</li>
+          <li>After 31 March: finalise the accounts, complete the statutory audit and, if the subsidiary bills the parent, prepare transfer pricing documentation.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Because most European parents close their books on 31 December while the Indian year ends on 31 March, the subsidiary usually prepares a second set of figures at the European year end for consolidation. Agree the reporting package, the deadlines and the accounting framework, local Indian standards or IFRS, with the group finance team before the first quarter closes.</p>
+        <p className="text-gray-700 mb-4">European parents should also plan intercompany agreements early. Whether the Indian subsidiary provides software development, back-office support or distribution, the agreement and the pricing method should be in place before the first invoice, so that the transfer pricing documentation at the year end describes what actually happened.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

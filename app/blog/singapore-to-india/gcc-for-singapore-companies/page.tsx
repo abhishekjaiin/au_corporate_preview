@@ -206,6 +206,12 @@ export default function GccForSingaporeCompaniesPage() {
 
 
 
+        <h2 id="sg-gcc-governance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Governance between Singapore and the Indian centre</h2>
+        <p className="text-gray-700 mb-4">Singapore groups often run regional functions from Singapore and delivery from India, which makes the line between the two important for tax and regulation. Decide which decisions are taken in Singapore, such as pricing, client acceptance and risk sign-off, and which in India, such as hiring, delivery and day-to-day management. Record this in the intercompany services agreement and in the job descriptions of senior staff.</p>
+        <p className="text-gray-700 mb-4">For regulated groups, the Monetary Authority of Singapore&apos;s outsourcing expectations still apply when the work is done by a group company in India. Keep an outsourcing register entry, a business continuity plan for the centre and audit access rights for the Singapore entity and its regulator. Review the centre&apos;s scope every year, because centres tend to take on more judgement-based work over time and the pricing and permanent establishment analysis should follow.</p>
+        <p className="text-gray-700 mb-4">Report the centre&apos;s performance against agreed indicators, such as delivery quality, cost per role and attrition, to the Singapore sponsor every quarter, so that decisions to expand are based on evidence.</p>
+        <p className="text-gray-700 mb-4">Review the indicators every year.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

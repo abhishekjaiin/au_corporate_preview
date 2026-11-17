@@ -267,6 +267,12 @@ export default function IndiaHongKongDtaaPage() {
           provides for exchange of information. Keep the transfer pricing files of both jurisdictions aligned.
         </p>
 
+        <h2 id="hk-treaty-routine" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Applying the DTAA in practice</h2>
+        <p className="text-gray-700 mb-4">The India-Hong Kong agreement offers low withholding rates, but only to a Hong Kong resident that is the beneficial owner of the income and meets the anti-abuse test. In practice the Indian subsidiary should check three things before paying a dividend, royalty, interest or fee to Hong Kong at the treaty rate: that a current certificate of resident status from the Hong Kong Inland Revenue Department is on file, that Form 41 has been provided and that the Hong Kong company has real substance, such as staff, an office and decision-making in Hong Kong.</p>
+        <p className="text-gray-700 mb-4">Deposit the tax withheld by the due date, which runs from the date the amount is credited in the books, and issue the withholding certificate promptly. Keep each year&apos;s invoices, remittance forms and residence documents together. Because Hong Kong taxes on a territorial basis and generally does not tax foreign-source dividends, Indian withholding tax on dividends is usually a final cost for the Hong Kong parent, which makes the 5% dividend rate valuable when it can be claimed properly.</p>
+        <p className="text-gray-700 mb-4">Review the substance of the Hong Kong company each year as well. Indian officers increasingly look beyond the certificate of resident status at whether the Hong Kong entity has its own staff, office and decision-making, especially where it holds the Indian subsidiary or receives royalties. A short annual note describing the Hong Kong company&apos;s activities, with board minutes showing that decisions are taken in Hong Kong, supports the claim that the company is entitled to the DTAA rates and is not simply a conduit for owners elsewhere.</p>
+        <p className="text-gray-700 mb-4">Keep the annual note with the residence certificate and Form 41 in the payment folder for each financial year, ready for review.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

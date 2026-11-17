@@ -199,6 +199,11 @@ export default function TransferPricingPage() {
         </p>
 
 
+        <h2 id="uk-documentation-mapping" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reusing UK documentation in India</h2>
+        <p className="text-gray-700 mb-4">UK groups that already prepare a master file and a UK local file can reuse a large part of that work in India, but not all of it. The functional analysis, the intercompany agreements and the group&apos;s transfer pricing policy carry across. The Indian study needs its own benchmarking, built on comparable companies and data that Indian officers accept, and its own analysis of the Indian entity&apos;s results against the arm&apos;s length range. Indian officers also look closely at the cost base, the treatment of pass-through costs and whether the markup was applied to the actual costs for the year.</p>
+        <p className="text-gray-700 mb-4">Build the Indian file at the same time as the UK local file, using the same descriptions of functions and risks. It reduces the chance that the two countries see different versions of the same arrangement.</p>
+        <p className="text-gray-700 mb-4">Agree as well who signs off the Indian study in the UK. A named reviewer in the group tax team, who also owns the UK local file, keeps the two documents aligned from year to year.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

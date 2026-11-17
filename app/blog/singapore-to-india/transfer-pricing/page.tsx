@@ -200,6 +200,11 @@ export default function TransferPricingPage() {
 
 
 
+        <h2 id="sg-hub-flows" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Regional hub flows: where transfer pricing gets complicated</h2>
+        <p className="text-gray-700 mb-4">Many Singapore groups route regional sales, procurement or intellectual property through Singapore, with the Indian subsidiary providing services or distributing products. The more functions sit in India, the more Indian officers will expect the Indian company to earn. If Indian staff develop software, manage customers or take key decisions, a routine cost-plus return may not be enough.</p>
+        <p className="text-gray-700 mb-4">Map the actual decision-making each year and compare it with the intercompany agreement. Where Indian teams have taken on more responsibility, adjust the transfer pricing model before an audit does it for you. Keep the Singapore and Indian documentation consistent, and remember that India has no equivalent of the Singapore routine support services simplification: every flow needs its own Indian benchmarking.</p>
+        <p className="text-gray-700 mb-4">A useful annual exercise is to interview the Indian managers about the decisions they actually take, then compare the answers with the intercompany agreement and the functional analysis. Where the two differ, update the documentation and, if needed, the pricing model in the same year. This is also the right moment to check that the Indian cost base used for the markup matches the audited Indian accounts.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

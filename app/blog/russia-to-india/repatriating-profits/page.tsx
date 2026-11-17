@@ -25,6 +25,7 @@ const toc = [
   { id: "route-choice", label: "Choosing a repatriation route: dividend, buy-back or fees" },
   { id: "remittance-forms", label: "The repatriation paperwork: Forms 145 and 146" },
   { id: "blocked-route", label: "If the repatriation route fails after a dividend is declared" },
+  { id: "ru-repatriation-plan", label: "A repatriation plan before profits arise" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -212,6 +213,11 @@ export default function RepatriatingProfitsPage() {
           Repatriation planning for Russian groups is mostly about sequence: route first, then the board decision, then the treaty documents, then the payment. Our <Link href="/russia-to-india/sanctions-and-payments-for-russian-companies" className="text-blue-800 font-semibold hover:underline">sanctions and payments guide</Link> explains how Indian banks screen these payments.
         </p>
 
+
+        <h2 id="ru-repatriation-plan" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A repatriation plan before profits arise</h2>
+        <p className="text-gray-700 mb-4">Agree the repatriation route with the Indian bank before the first dividend is declared. Decide in advance which currency will be used, which documents the bank will need and how long the payment is likely to take, so that dividends, fees and loan repayments can be made on time and the withholding tax position is clear.</p>
+        <p className="text-gray-700 mb-4">Keep a record of each repatriation with the board resolution, the withholding tax calculation, the tax residency certificate, Form 41 and the bank&apos;s remittance advice, so that the Russian parent can claim credit for Indian tax and the auditor can trace every payment.</p>
+        <p className="text-gray-700 mb-4">Review the route with the bank each year.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

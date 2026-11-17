@@ -27,6 +27,7 @@ const toc = [
   { id: "setup-time", label: "Time to set up and yearly work" },
   { id: "decision", label: "A decision guide for the head office" },
   { id: "jv", label: "Joint ventures with Indian partners" },
+  { id: "jp-structure-examples", label: "How Japanese companies typically decide" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -243,6 +244,12 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
         </p>
 
 
+
+        <h2 id="jp-structure-examples" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Japanese companies typically decide</h2>
+        <p className="text-gray-700 mb-4">In practice, Japanese trading houses and manufacturers often begin with a liaison office to study the market and build relationships, then form a private limited company when they are ready to sell, manufacture or hire. Technology and services companies usually go straight to a company because they need to employ staff and invoice from the start. Branches are mainly used by banks, construction companies and others whose regulators or customers expect to deal with the head office itself.</p>
+        <p className="text-gray-700 mb-4">Whichever path is chosen, it helps to agree at the outset the milestones that would trigger a change, such as a first customer order or a headcount number, so the head office can approve the next step without starting the analysis again.</p>
+        <p className="text-gray-700 mb-4">Including these milestones in the original ringi document is often the most useful step, because it means the head office has already agreed in principle to the next stage and only needs to confirm that the trigger has been met.</p>
+        <p className="text-gray-700 mb-4">Revisit the milestones once a year with the head office.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

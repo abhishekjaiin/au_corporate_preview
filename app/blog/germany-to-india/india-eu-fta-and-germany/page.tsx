@@ -177,6 +177,12 @@ export default function IndiaEuFtaAndGermanyPage() {
           <li>Revisit the staffing plan when the temporary-entry annex takes effect.</li>
         </ol>
 
+        <h2 id="de-fta-planning" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Practical FTA planning for German companies</h2>
+        <p className="text-gray-700 mb-4">German companies building a business case for India should treat the FTA as one input among several. For goods, the benefit depends on the tariff schedule for each product and on meeting the rules of origin, which can be demanding for products with components sourced from outside the EU. For services, the gains are mainly in certainty and transparency rather than new market access.</p>
+        <p className="text-gray-700 mb-4">Before the board approves a plan that relies on lower duties, check the tariff line, the staging period and the origin rules for the main products, and keep the evidence of origin that customs will require. Remember that the FTA does not change Indian company law, FEMA, income tax or transfer pricing, and that the double tax agreement continues to govern how profits are taxed.</p>
+        <p className="text-gray-700 mb-4">Assign someone in the German business to follow the implementation notifications and update the business case as tariff reductions take effect, because the benefits arrive in stages over several years rather than on a single date.</p>
+        <p className="text-gray-700 mb-4">Record the expected duty savings for each product so the business case can be checked against actual results.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

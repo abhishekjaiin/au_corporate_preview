@@ -190,6 +190,9 @@ export default function ManufacturingAndJvForChineseCompaniesPage() {
         </p>
 
 
+        <h2 id="cn-jv-review" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reviewing the joint venture each year</h2>
+        <p className="text-gray-700 mb-4">Review the joint venture agreement each year against how the business actually runs, including technology fees, board control and local sourcing.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

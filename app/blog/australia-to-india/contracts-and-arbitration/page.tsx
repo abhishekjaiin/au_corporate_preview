@@ -23,6 +23,7 @@ const toc = [
   { id: "stamp", label: "Stamp duty and execution" },
   { id: "templates", label: "Changing Australian templates" },
   { id: "seats", label: "SIAC, LCIA or ACICA" },
+  { id: "au-contract-governance", label: "Keeping the contract set up to date" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -175,6 +176,11 @@ export default function ContractsAndArbitrationPage() {
           Australian groups usually choose between SIAC in Singapore, ACICA in Sydney and the LCIA in London. All three produce awards enforceable in India under the New York Convention. SIAC is often preferred for Indian counterparties because of its familiarity and location; ACICA suits contracts governed by Australian law. Name the institution, seat, language and number of arbitrators in the clause.
         </p>
 
+
+        <h2 id="au-contract-governance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping the contract set up to date</h2>
+        <p className="text-gray-700 mb-4">Contracts drafted at incorporation tend to drift as the business grows. Review the intercompany agreements, the main customer contracts and the employment templates every year, and whenever the Indian company takes on a new type of work. Check that the governing law and dispute resolution clauses still match where assets sit and where enforcement would be needed. Keep signed and stamped originals in India, because Indian courts and tribunals ask for evidence that stamp duty was paid.</p>
+        <p className="text-gray-700 mb-4">Keep a simple contract register that records each agreement&apos;s parties, value, governing law, dispute clause, renewal date and whether stamp duty was paid. It makes the annual review quick and gives the Australian legal team visibility of the Indian contract portfolio.</p>
+        <p className="text-gray-700 mb-4">Review the register when the annual accounts are prepared.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

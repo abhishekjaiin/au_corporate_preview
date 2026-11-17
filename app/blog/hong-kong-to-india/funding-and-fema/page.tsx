@@ -196,6 +196,10 @@ export default function FundingAndFemaPage() {
 
 
 
+        <h2 id="hk-funding-sequence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Sequencing approval, remittance and allotment</h2>
+        <p className="text-gray-700 mb-4">For a Hong Kong investor, the order of events matters. Obtain the government approval, then remit the funds, then allot the shares within 60 days of receipt and file the FEMA reporting within 30 days of allotment. Remitting before approval creates a breach that must be unwound.</p>
+        <p className="text-gray-700 mb-4">Keep the approval letter, the board resolutions, the valuation certificate, the inward remittance certificate and the FEMA filing acknowledgement together in one file for each round. Auditors, banks and future buyers will all ask for the same documents, and having them in one place also helps if the subsidiary later raises more capital.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

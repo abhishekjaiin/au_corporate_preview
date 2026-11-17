@@ -33,6 +33,7 @@ const toc = [
   { id: "residence-cert", label: "Getting the Certificate of Residence in Japan" },
   { id: "jp-dtaa-checklist", label: "DTAA checklist before each payment" },
   { id: "jp-pe-short", label: "Permanent establishment risk for visiting engineers" },
+  { id: "jp-treaty-routine", label: "A routine for the Indian finance team" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -324,6 +325,11 @@ export default function IndiaJapanDtaaGuidePage() {
 
 
 
+
+        <h2 id="jp-treaty-routine" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A routine for the Indian finance team</h2>
+        <p className="text-gray-700 mb-4">The treaty works smoothly when the Indian company follows the same routine for every payment to Japan. Before booking an invoice from the Japanese parent, check the nature of the payment (dividend, interest, royalty, fee for technical services or business profits), confirm that a current certificate of residence and Form 41 are on file, and calculate withholding at the treaty rate only when those documents are in place. Deposit the tax by the due date even if the invoice has not yet been paid, because the obligation arises when the amount is credited in the books.</p>
+        <p className="text-gray-700 mb-4">Keep a single folder for each financial year with the invoices, the remittance forms, the withholding certificates and the residence documents. The Japanese parent needs the withholding certificates to claim foreign tax credit in Japan, and Indian officers ask for the same folder when they review the payments. Reviewing the folder before the Indian return is filed catches most gaps while they can still be fixed.</p>
+        <p className="text-gray-700 mb-4">It is also worth reviewing the classification of recurring payments every year. A support arrangement that began as routine help can grow into technical services or a licence of know-how, and the correct treatment under the treaty changes with it. A short annual note in the tax file, describing what was actually provided, keeps the Indian withholding position defensible.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

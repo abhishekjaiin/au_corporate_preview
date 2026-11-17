@@ -23,6 +23,7 @@ const toc = [
   { id: "australian-links", label: "Filings in Australia that use Indian numbers" },
   { id: "owners", label: "Who owns each deadline" },
   { id: "compliance-owner", label: "Keeping compliance on track" },
+  { id: "au-calendar-ownership", label: "Building the calendar into Australian reporting" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -209,6 +210,10 @@ export default function ComplianceCalendarPage() {
           Most compliance problems we see in Australian-owned companies come from a missed handover rather than a hard rule. Keep one compliance owner in India, a shared calendar that maps each Indian date to the Australian month, and a monthly compliance report to the Australian CFO. See <Link href="/australia-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">common mistakes</Link>.
         </p>
 
+
+        <h2 id="au-calendar-ownership" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Building the calendar into Australian reporting</h2>
+        <p className="text-gray-700 mb-4">The calendar works best when it lives inside the Australian finance team&apos;s own close timetable rather than in a separate spreadsheet. Add each Indian compliance date to the group calendar with a named owner in India and a reviewer in Australia. Flag the dates that need the parent&apos;s input, such as approval of the Indian accounts, the dividend decision and the transfer pricing inputs, at least a month ahead. A short monthly confirmation from the Indian team that every deposit and filing was made on time gives the Australian CFO the assurance the board usually asks for.</p>
+        <p className="text-gray-700 mb-4">When the subsidiary adds a new activity, such as registering for GST in another state or taking a loan from the parent, update the calendar the same week with the new compliance dates and owners, rather than waiting for the next annual review.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

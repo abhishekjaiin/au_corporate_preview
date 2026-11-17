@@ -282,6 +282,13 @@ export default function IndiaChinaDtaaPage() {
           China under the exchange of information article.
         </p>
 
+        <h2 id="cn-treaty-routine" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Applying the DTAA payment by payment</h2>
+        <p className="text-gray-700 mb-4">A Chinese parent typically receives several types of income from its Indian subsidiary: dividends, interest on group loans, royalties for technology and fees for technical services provided by Chinese engineers. Each is treated differently under the DTAA and under Indian domestic law, so the Indian finance team should classify every invoice before it is booked.</p>
+        <p className="text-gray-700 mb-4">For each payment, confirm that a current Chinese tax residency certificate and Form 41 are on file, withhold at the treaty rate only when they are, and deposit the tax by the due date, which is triggered when the amount is credited in the books rather than when cash leaves India. Where Chinese engineers visit India for installation or commissioning, track the days against the permanent establishment thresholds in the treaty.</p>
+        <p className="text-gray-700 mb-4">Keep a folder for each financial year with invoices, remittance forms, withholding certificates and residence documents. The Chinese parent needs the withholding certificates to claim credit for Indian tax in China, and Indian officers will ask for the same folder when they review the payments.</p>
+        <p className="text-gray-700 mb-4">Review the classification of recurring payments each year. Arrangements for engineering support, software or know-how often change as the Indian subsidiary matures, and the DTAA treatment changes with them. A short note in the tax file explaining what the Chinese parent actually provided, and why the chosen classification is correct, is the best defence in an Indian assessment. It also helps the Chinese parent support its foreign tax credit claim at home, because Chinese tax authorities look at the same facts.</p>
+        <p className="text-gray-700 mb-4">Keep the notes with the payment folder for the year, and update them promptly whenever the commercial arrangement between the two companies changes.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

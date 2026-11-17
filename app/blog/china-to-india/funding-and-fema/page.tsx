@@ -192,6 +192,10 @@ export default function FundingAndFemaPage() {
         </p>
 
 
+        <h2 id="cn-funding-sequence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping the two approvals in step</h2>
+        <p className="text-gray-700 mb-4">Plan the Chinese outbound investment filings and the Indian approval together, so that the remittance can be made promptly once both are in place and the Indian 60-day allotment clock starts on a date you control.</p>
+        <p className="text-gray-700 mb-4">Record the date the funds arrive in India, because the FEMA allotment and reporting clocks start from that date.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

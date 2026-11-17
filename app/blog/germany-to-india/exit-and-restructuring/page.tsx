@@ -191,6 +191,10 @@ export default function ExitAndRestructuringPage() {
         </p>
 
 
+        <h2 id="de-exit-records" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Records that make any exit faster</h2>
+        <p className="text-gray-700 mb-4">Whatever the exit route, keep the share register, FEMA filings, board minutes and tax assessments complete. Gaps in these records are the most common reason an exit takes longer than planned.</p>
+        <p className="text-gray-700 mb-4">A yearly check of these records, done when the Indian accounts are approved, keeps the subsidiary ready for an exit or restructuring at short notice.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

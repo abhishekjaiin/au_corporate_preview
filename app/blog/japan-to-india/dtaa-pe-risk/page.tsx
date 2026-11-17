@@ -23,6 +23,7 @@ const toc = [
   { id: "reduce", label: "How to reduce PE risk" },
   { id: "japanese-parent", label: "What this means for a Japanese parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "jp-pe-review", label: "An annual permanent establishment check" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -195,6 +196,9 @@ export default function DtaaPeRiskPage() {
           <li>Letting Japanese executives work from India for long periods without a PE review.</li>
           <li>Giving Indian managers signing authority for the parent&apos;s customer contracts.</li>
         </ul>
+
+        <h2 id="jp-pe-review" className="text-2xl font-bold text-gray-900 mt-12 mb-4">An annual permanent establishment check</h2>
+        <p className="text-gray-700 mb-4">Once a year, review the days Japanese staff spent in India, what they did and who they acted for. A short note in the tax file explaining why no permanent establishment arose is the best defence if the question is raised later.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

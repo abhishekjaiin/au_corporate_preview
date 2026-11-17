@@ -27,6 +27,7 @@ const toc = [
   { id: "master-file", label: "Master file and country-by-country reporting" },
   { id: "penalties", label: "What happens if the file is missing or late" },
   { id: "agreements", label: "What the intercompany agreements should say" },
+  { id: "ru-tp-evidence", label: "Evidence when circumstances change" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -234,6 +235,12 @@ export default function TransferPricingPage() {
         </p>
 
 
+
+        <h2 id="ru-tp-evidence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Evidence when circumstances change</h2>
+        <p className="text-gray-700 mb-4">Sanctions, payment routes and currency changes can alter Russia-India flows quickly. When they do, the transfer pricing documentation should explain what changed and why the price still meets the arm&apos;s length standard. Record changes in suppliers, logistics or payment currency in the year they happen, with board approvals where relevant.</p>
+        <p className="text-gray-700 mb-4">Indian officers will compare the Indian subsidiary&apos;s margins with those of independent companies, and an unusual year needs a clear explanation. Keep the intercompany agreements up to date, prepare the transfer pricing study on time and reconcile the cost base and the markup with the Indian books before the accountant&apos;s report is signed. For long-term flows, an advance pricing agreement can give certainty despite changing circumstances.</p>
+        <p className="text-gray-700 mb-4">Russian groups should also consider how the Russian tax authorities view the same transactions, since Russia has its own transfer pricing rules for cross-border dealings with related parties. A single functional analysis used for both sets of documentation, and consistent intercompany agreements, reduce the chance of the two countries taking opposite views. Where they do, the mutual agreement procedure under the DTAA remains available, though it works best when the records on both sides are complete.</p>
+        <p className="text-gray-700 mb-4">Review both sets of documentation together each year.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

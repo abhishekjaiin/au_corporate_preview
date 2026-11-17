@@ -21,6 +21,7 @@ const toc = [
   { id: "steps", label: "Steps for each funding round" },
   { id: "choosing", label: "Choosing the right instrument" },
   { id: "mistakes-fund", label: "Common mistakes in funding rounds" },
+  { id: "instrument-timeline", label: "From term sheet to allotment: a typical funding timeline" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -133,6 +134,17 @@ export default function FundingInstrumentsIndiaCcdCcpsConvertibleNotesPage() {
         </ul>
 
 
+
+        <h2 id="instrument-timeline" className="text-2xl font-bold text-gray-900 mt-12 mb-4">From term sheet to allotment: a typical funding timeline</h2>
+        <p className="text-gray-700 mb-4">Whichever instrument you choose, a foreign-funded round usually follows the same sequence, and the deadlines start when the money arrives.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Week 1: agree the term sheet and decide the instrument and the conversion terms.</li>
+          <li>Week 2: obtain the fair value certificate, pass the board resolution and call a general meeting for the special resolution.</li>
+          <li>Week 3: shareholders approve the issue and the offer letter is sent to the investor.</li>
+          <li>Week 4: the investor remits the funds to a separate bank account, and the bank issues the foreign inward remittance certificate.</li>
+          <li>Within 60 days of receiving the funds: allot the instruments, then file the return of allotment with the Registrar and Form FC-GPR within 30 days of allotment.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Keeping the funds in a separate account until allotment is a company law requirement for private placements and makes the reporting much easier to support.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

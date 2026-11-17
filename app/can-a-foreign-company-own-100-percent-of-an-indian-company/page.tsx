@@ -18,6 +18,7 @@ const toc = [
   { id: "pn3", label: "Press Note 3: investors from neighbouring countries" },
   { id: "two-shareholders", label: "How a wholly owned company meets the two-shareholder rule" },
   { id: "after", label: "Filings after a 100% FDI investment" },
+  { id: "ownership-checklist", label: "A quick checklist before you plan full foreign ownership" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -101,6 +102,16 @@ export default function CanAForeignCompanyOwn100PercentOfAnIndianCompanyPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           See <Link href="/india-subsidiary-registration" className="text-blue-800 font-semibold hover:underline">India subsidiary registration</Link> for the full setup and <Link href="/fema-rbi-compliance" className="text-blue-800 font-semibold hover:underline">FEMA and RBI compliance</Link> for the ongoing filings.
         </p>
+
+        <h2 id="ownership-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A quick checklist before you plan full foreign ownership</h2>
+        <p className="text-gray-700 mb-4">Before you commit to holding every share from abroad, run through these points with your adviser. Each one can change the answer or the timeline.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Is the business activity in a sector where 100% FDI is allowed under the automatic route, or does it have caps or conditions?</li>
+          <li>Is any shareholder, or any beneficial owner further up the chain, based in a country that shares a land border with India?</li>
+          <li>Who will be the nominee second shareholder, and is there a nominee agreement recording that the shares are held for the parent?</li>
+          <li>Who will act as the resident director?</li>
+        </ul>
+        <p className="text-gray-700 mb-4">If all four have clear answers, a wholly owned Indian subsidiary can usually be incorporated in four to six weeks.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

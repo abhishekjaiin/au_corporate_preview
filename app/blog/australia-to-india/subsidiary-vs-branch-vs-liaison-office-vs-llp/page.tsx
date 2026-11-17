@@ -27,6 +27,7 @@ const toc = [
   { id: "llp-detail", label: "Why few Australian groups use an Indian LLP" },
   { id: "decision-tree", label: "A short decision guide" },
   { id: "joint-venture", label: "Joint ventures with an Indian partner" },
+  { id: "au-board-paper", label: "What to put in the Australian board paper" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -247,6 +248,11 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
 
 
 
+
+        <h2 id="au-board-paper" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What to put in the Australian board paper</h2>
+        <p className="text-gray-700 mb-4">A board paper recommending an Indian structure is easier to approve when it answers the same questions every time. State the business purpose in India and whether the Indian operation will earn revenue locally. Compare the options on Indian tax, Australian tax on the profits when they come home, liability, set-up time and annual running effort. Set out the people plan for the first two years, because headcount often decides the answer. Name the resident director and the local signatories. Finally, record the events that would trigger a review of the structure, such as the first Indian customer contract or a headcount threshold, so that the choice is revisited before it becomes a problem.</p>
+        <p className="text-gray-700 mb-4">Attaching a one-page comparison table to the paper, with the four structures in columns and the criteria in rows, usually shortens the board discussion. It also leaves a clear record of why the structure was chosen, which helps when the decision is revisited in a few years or explained to a buyer, an auditor or the Australian Taxation Office.</p>
+        <p className="text-gray-700 mb-4">Keep the board paper on file with the minutes of the decision.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

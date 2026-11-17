@@ -30,6 +30,7 @@ const toc = [
   { id: "us-documents", label: "The documents a US company provides" },
   { id: "us-dtaa-checklist", label: "DTAA checklist before each payment" },
   { id: "us-pe-short", label: "Permanent establishment for visiting staff" },
+  { id: "us-group-scenarios", label: "Three situations US groups ask us about" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -372,6 +373,15 @@ export default function IndiaUsDtaaGuidePage() {
         </p>
 
 
+
+        <h2 id="us-group-scenarios" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Three situations US groups ask us about</h2>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">A US LLC as the shareholder</h3>
+        <p className="text-gray-700 mb-4">A US limited liability company that is treated as a disregarded entity or a partnership for US tax is not itself liable to tax in the US. Indian tax authorities have questioned whether such an entity is a treaty resident. In practice the safer approach is to confirm how the LLC is classified, obtain a certificate of residence from the IRS on Form 6166 where it can be issued, and consider whether the members, rather than the LLC, should claim treaty benefits. Settle this before the first dividend or fee is paid, not after the Indian company has already withheld tax.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Engineers visiting from the US</h3>
+        <p className="text-gray-700 mb-4">US staff who travel to India to support the Indian company can create a permanent establishment for the US company if they furnish services in India for long enough or work from a fixed place that the US company controls. Keep the visits documented, invoice support work from the Indian company where possible and review the days at each quarter end.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Claiming the US foreign tax credit</h3>
+        <p className="text-gray-700 mb-4">Indian tax withheld on a royalty or fee paid to the US parent can usually be credited against US tax, subject to the US limitation rules. Keep the withholding certificate issued by the Indian company, the bank advice and the invoice, because the US return preparer needs all three to support the credit.</p>
+        <p className="text-gray-700 mb-4">In each of these situations the outcome depends on the facts recorded at the time, not on arguments built later. Keeping the residence certificates, travel logs and intercompany agreements current is the most effective protection a US group has.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

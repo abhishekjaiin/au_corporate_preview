@@ -204,6 +204,12 @@ export default function StructureOptionsPage() {
 
 
 
+        <h2 id="cn-structure-cases" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Chinese investors usually decide</h2>
+        <p className="text-gray-700 mb-4">Because almost every option needs government approval, the practical question for a Chinese investor is which structure gives the best chance of approval and the most workable business afterwards. Manufacturers frequently choose a joint venture with an Indian partner that holds a significant stake and brings land, local relationships and experience with approvals. Technology and electronics companies sometimes license technology to an Indian manufacturer rather than investing directly. Companies that only need a small team often start with an employer of record or a contract with an Indian service provider while the approval for their own subsidiary is pending.</p>
+        <p className="text-gray-700 mb-4">Whatever the choice, plan the structure with the end state in mind: who will control the Indian company in three to five years, how technology fees and dividends will be paid and how the investor would exit if the business changes direction.</p>
+        <p className="text-gray-700 mb-4">Discuss the options with the Indian partner, the bank and the approval advisers before the application is filed, because changing the structure after approval usually means applying again. Recording why the chosen structure fits the business also helps when the approval application is reviewed.</p>
+        <p className="text-gray-700 mb-4">Record that reasoning in the board minutes when the structure is approved, so it can be revisited later.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

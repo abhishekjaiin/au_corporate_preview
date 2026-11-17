@@ -27,6 +27,7 @@ const toc = [
   { id: "hk-points", label: "Points specific to Hong Kong investors" },
   { id: "example", label: "An illustrative timeline" },
   { id: "ownership-changes", label: "When ownership changes later" },
+  { id: "application-quality", label: "How to make the application easier to approve" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -209,6 +210,18 @@ export default function PressNote3ApprovalIndiaPage() {
         </p>
 
 
+
+        <h2 id="application-quality" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to make the application easier to approve</h2>
+        <p className="text-gray-700 mb-4">Approval timelines vary, but applications that answer the reviewers&apos; questions up front tend to move faster. Based on the applications we prepare, these points make the most difference.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>A clear ownership chart showing every layer up to the ultimate individual owners, with percentages and countries, and a statement of who controls the investor.</li>
+          <li>A business plan that explains the Indian activity, the expected investment, the number of jobs and the technology involved.</li>
+          <li>Board and director details, including any individuals who will travel to India and need visas.</li>
+          <li>Consistency: the same names, numbers and descriptions across the application, the corporate documents and any supporting letters.</li>
+          <li>A plan for sensitive areas. If the business involves data, telecoms or critical infrastructure, explain the safeguards before reviewers ask.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Plan the rest of the project around a realistic approval period rather than the best case. Many investors use the waiting time to finalise the site, recruit the leadership team through an employer of record and prepare the documents for incorporation, so that the company can be set up quickly once approval arrives.</p>
+        <p className="text-gray-700 mb-4">It also helps to nominate one person who answers all follow-up questions from the ministries, so that responses are consistent and quick. Many delays come from slow or inconsistent replies to queries rather than from the original application.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

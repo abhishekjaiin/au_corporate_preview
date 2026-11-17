@@ -198,6 +198,9 @@ export default function RepatriatingProfitsPage() {
         </p>
 
 
+        <h2 id="sg-repatriation-note" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Planning repatriation each year</h2>
+        <p className="text-gray-700 mb-4">Review the repatriation plan when the Indian accounts are approved each year, so dividends and fees are paid on time and with the right documents.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

@@ -204,6 +204,11 @@ export default function HiringInIndiaPage() {
 
 
 
+        <h2 id="hk-payroll-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reporting payroll to Hong Kong</h2>
+        <p className="text-gray-700 mb-4">Agree a monthly payroll summary for the Hong Kong parent covering headcount, gross pay, employer provident fund and insurance contributions and joiners and leavers, converted to Hong Kong dollars at an agreed rate. Keep the statutory payroll registers in India and reconcile the summary to them each month, so the figures used in intercompany charges match the Indian records.</p>
+        <p className="text-gray-700 mb-4">Review the format each April, when Indian salary revisions usually take effect, and when the Hong Kong chart of accounts changes, so the payroll figures reported to Hong Kong remain comparable from year to year.</p>
+        <p className="text-gray-700 mb-4">Keep the agreed mapping in writing with the Hong Kong finance team.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}
