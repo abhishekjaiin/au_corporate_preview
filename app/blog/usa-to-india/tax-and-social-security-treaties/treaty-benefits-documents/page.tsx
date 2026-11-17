@@ -21,6 +21,7 @@ const toc = [
   { id: "llc", label: "US LLCs and pass-through entities" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "form-10f", label: "Form 41, formerly Form 10F" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -34,6 +35,7 @@ const faqs = [
   { q: "What is beneficial ownership?", a: "It means the recipient is the true owner of the income and not merely passing it to someone else." },
   { q: "Can a US LLC claim treaty benefits?", a: "Sometimes. It depends on how the LLC is taxed in the US and on its owners. Take advice before claiming." },
   { q: "What happens if we have no documents?", a: "The Indian payer may deduct Withholding Tax at the higher domestic rate, and you may have to claim a refund later." },
+  { q: "Is Form 10F still accepted?", a: "Form 10F has been replaced by Form 41 with the same content; payers may still refer to Form 10F, but the online Form 41 meets the requirement." },
 ]
 
 const relatedCards = [
@@ -51,7 +53,7 @@ export default function TreatyBenefitsDocumentsPage() {
         headline="How to Claim India-US Treaty Benefits: Form 6166, Form 41 and Beneficial Ownership"
         description="Documents needed to claim India-US treaty rates: IRS Form 6166, Form 41 (previously Form 10F), no-PE declaration and beneficial ownership."
         datePublished="2026-10-14"
-        dateModified="2026-10-14"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
       />
 
@@ -67,7 +69,7 @@ export default function TreatyBenefitsDocumentsPage() {
       <GuideHero
         eyebrow="Treaties: claiming relief"
         title="How to Claim India-US Treaty Benefits: Form 6166, Form 41 and Beneficial Ownership"
-        updated="14 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -179,6 +181,11 @@ export default function TreatyBenefitsDocumentsPage() {
           <li>Filing Form 41 with a different entity name from the recipient on the invoice.</li>
           <li>Skipping the beneficial ownership check for holding entities.</li>
         </ul>
+        <h2 id="form-10f" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Form 41, formerly Form 10F</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Under the Income-tax Act, 2025, Form 10F has been renumbered as Form 41, with the same content: the US recipient&apos;s status, nationality, tax identification number, period of residence and address, filed electronically on the Indian tax portal. Indian payers and banks sometimes still ask for Form 10F by its old name; a Form 41 filed online meets the requirement. File it once a year, before the first payment, together with the IRS certificate of residency (Form 6166), which serves as the TRC.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -236,7 +243,7 @@ export default function TreatyBenefitsDocumentsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 14 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

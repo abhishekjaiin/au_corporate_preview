@@ -23,6 +23,7 @@ const toc = [
   { id: "sanctions", label: "Sanctions and institutions" },
   { id: "practical", label: "Practical points" },
   { id: "investment", label: "Investment protection" },
+  { id: "seat-choice", label: "Choosing an arbitration seat: SIAC, LCIA or India" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -51,7 +52,7 @@ export default function ContractsCourtsArbitrationPage() {
         headline="Contracts and Dispute Resolution for Russian Companies in India: Governing Law, Arbitration Seats, Enforcing Awards and Court Judgments"
         description="How to draft and enforce contracts between a Russian company and Indian counterparties: governing law, arbitration seat and institution, enforcing awards under the New York Convention, the position on court judgments, Russian courts' jurisdiction over sanctions disputes, stamp duty and interim relief."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -67,7 +68,7 @@ export default function ContractsCourtsArbitrationPage() {
       <GuideHero
         eyebrow="Disputes: contracts and enforcement"
         title="Contracts and Dispute Resolution for Russian Companies in India: Governing Law, Arbitration Seats, Enforcing Awards and Court Judgments"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -181,6 +182,21 @@ export default function ContractsCourtsArbitrationPage() {
           Whether any treaty protects a particular investment must be checked on the facts and the current
           status.
         </p>
+        <h2 id="seat-choice" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Choosing an arbitration seat: SIAC, LCIA or India</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Seat and rules</th><th scope="col" className="border border-gray-300 p-3 text-left">Strength</th><th scope="col" className="border border-gray-300 p-3 text-left">Point to check for a Russian party</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Singapore, SIAC rules</th><td className="border border-gray-300 p-3">Neutral, experienced, enforceable in India under the New York Convention</td><td className="border border-gray-300 p-3">Fees in Singapore dollars; payment routes for deposits and awards</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">London, LCIA rules</th><td className="border border-gray-300 p-3">Established for commercial arbitration and English law contracts</td><td className="border border-gray-300 p-3">UK restrictions may affect Russian parties and payments; take advice</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">India, institutional rules such as MCIA or DIAC</th><td className="border border-gray-300 p-3">Award enforced in India as a domestic award</td><td className="border border-gray-300 p-3">Indian courts&apos; supervisory role; suits contracts with Indian counterparties</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Whichever seat is chosen, the arbitration clause should name the institution, the seat, the language and the number of arbitrators, and say how fees and awards will be paid if the usual banking route is unavailable.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -229,7 +245,7 @@ export default function ContractsCourtsArbitrationPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

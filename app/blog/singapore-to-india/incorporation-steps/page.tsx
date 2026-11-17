@@ -185,6 +185,12 @@ export default function IncorporationStepsPage() {
           <li>No Resident Director in place when the Registrar asks.</li>
         </ul>
 
+        <h2 id="sg-documents" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Preparing the Singapore documents</h2>
+        <p className="text-gray-700 mb-4">Singapore parents usually move quickly because ACRA records are easy to obtain. Download the business profile from BizFile, have the company&apos;s constitution and the board resolution certified, and have each document notarised by a Singapore notary public before the Singapore Academy of Law adds the apostille. Check that directors&apos; names and addresses match their passports and proof of address exactly.</p>
+        <p className="text-gray-700 mb-4">If the Singapore company is a holding company owned by individuals or funds in other countries, prepare an ownership chart up to the beneficial owners before the incorporation starts. The Indian bank and, where any owner is in a country sharing a land border with India, the approval process will both need it. Sending scanned copies to India for checking before the originals are couriered avoids a second round of notarisation if anything needs correcting.</p>
+        <p className="text-gray-700 mb-4">Allow for Singapore Academy of Law processing times and keep a second certified set of the core documents, because Indian banks sometimes ask for originals after incorporation when the account is opened.</p>
+        <p className="text-gray-700 mb-4">Track the originals by courier and record when each document was certified, because banks prefer documents issued within the last few months.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

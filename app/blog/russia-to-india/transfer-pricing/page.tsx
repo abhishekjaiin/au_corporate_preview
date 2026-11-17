@@ -22,6 +22,12 @@ const toc = [
   { id: "sanctions-effects", label: "When sanctions change the flow" },
   { id: "files", label: "Indian and Russian documentation" },
   { id: "certainty", label: "Safe harbour and disputes" },
+  { id: "benchmarking", label: "How the arm's length range is tested in India" },
+  { id: "apa", label: "Advance pricing agreements for Russia-India flows" },
+  { id: "master-file", label: "Master file and country-by-country reporting" },
+  { id: "penalties", label: "What happens if the file is missing or late" },
+  { id: "agreements", label: "What the intercompany agreements should say" },
+  { id: "ru-tp-evidence", label: "Evidence when circumstances change" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +41,10 @@ const faqs = [
   { q: "What royalty rate applies under the treaty?", a: "Indian tax on royalties paid to Russia is capped at 10%." },
   { q: "How are double tax disputes resolved?", a: "Through the Mutual Agreement Procedure under the treaty." },
   { q: "Do the year ends match?", a: "No. India uses 31 March and Russia the calendar year." },
+  { q: "Can a Russian group get an advance pricing agreement in India?", a: "Yes. A unilateral APA with the Indian tax authority is the practical route today; a bilateral APA needs both tax authorities to negotiate under the treaty." },
+  { q: "How long does an Indian APA last?", a: "Up to five future years, with a rollback of up to four earlier years." },
+  { q: "Which transfer pricing method suits an Indian engineering centre for a Russian group?", a: "Usually the transactional net margin method, rewarding the Indian company at cost plus a mark-up tested against independent service companies." },
+  { q: "What is a year-end true-up?", a: "An adjustment invoice, issued before the accounts close, that brings the year's margin into the arm's length range so the tax officer does not have to make an adjustment." },
 ]
 
 const relatedCards = [
@@ -52,7 +62,7 @@ export default function TransferPricingPage() {
         headline="Transfer Pricing between India and Russia: Arm's Length Pricing, Goods and Services Flows, Documentation and Safe Harbours"
         description="Transfer pricing for a Russian group with an Indian subsidiary: arm's length rules, accountant's report, master file and local file, supply of equipment and components, management fees, royalties, advance pricing agreements and safe harbours."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -68,7 +78,7 @@ export default function TransferPricingPage() {
       <GuideHero
         eyebrow="Tax: transfer pricing"
         title="Transfer Pricing between India and Russia: Arm's Length Pricing, Goods and Services Flows, Documentation and Safe Harbours"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -165,6 +175,72 @@ export default function TransferPricingPage() {
         <p className="text-gray-600 leading-relaxed mb-10">
           India&apos;s safe harbour rules give fixed margins for some services. Where India and Russia both tax the same profit after an adjustment, the treaty&apos;s Mutual Agreement Procedure lets the two authorities resolve it, although practical engagement can be slower in the current environment.
         </p>
+        <h2 id="benchmarking" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How the arm&apos;s length range is tested in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian transfer pricing does not accept a single comparable figure. The Indian company&apos;s result is compared with a set of independent companies doing similar work, and the rules decide which part of that set counts as arm&apos;s length:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Six or more comparables:</strong> the arm&apos;s length range runs from the 35th to the 65th percentile of the comparables&apos; results. If the Indian company falls inside the range, no adjustment is made; if it falls outside, the price is moved to the median.</li>
+          <li><strong>Fewer than six comparables:</strong> the arithmetic mean is used, with a tolerance band of 3% (1% for wholesale traders).</li>
+          <li><strong>Multiple-year data:</strong> current-year data is used where available, with up to two earlier years allowed in some cases.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          <strong>Worked example.</strong> An Indian engineering company spends ₹10 crore delivering design work to the Russian group and charges cost plus 12%, so it earns ₹1.2 crore. Its comparables earn a mark-up between 14% and 19% in the 35th to 65th percentile range, with a median of 16%. Because 12% is below the range, the tax officer would move it to the median: ₹1.6 crore, an adjustment of ₹40 lakh, taxed with interest. A year-end true-up invoice to the Russian parent, made before the accounts are closed, avoids this. With payments to Russia often slow, agree the true-up mechanism in the intercompany agreement in advance.
+        </p>
+
+        <h2 id="apa" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Advance pricing agreements for Russia-India flows</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An advance pricing agreement (APA) fixes the transfer pricing method, and sometimes the margin, in advance with the Indian tax authority. India offers three kinds:
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Type</th><th scope="col" className="border border-gray-300 p-3 text-left">Who agrees</th><th scope="col" className="border border-gray-300 p-3 text-left">Practical position for a Russian group</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Unilateral APA</th><td className="border border-gray-300 p-3">The Indian company and the Central Board of Direct Taxes</td><td className="border border-gray-300 p-3">The realistic choice today: certainty in India without waiting for Russian engagement</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Bilateral APA</th><td className="border border-gray-300 p-3">Indian and Russian competent authorities, under the treaty</td><td className="border border-gray-300 p-3">Gives certainty in both countries, but depends on both authorities negotiating, which is slower in the current environment</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Multilateral APA</th><td className="border border-gray-300 p-3">Three or more tax authorities</td><td className="border border-gray-300 p-3">Relevant only where a third-country trading or service company sits in the flow</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          An Indian APA can cover up to five future years and can be rolled back to up to four earlier years, which also settles open audits for those years. It suits a Russian group with a large, stable flow such as an engineering centre or a long-term supply contract. Smaller flows are usually better served by the safe harbour margins or by a strong annual file.
+        </p>
+
+        <h2 id="master-file" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Master file and country-by-country reporting</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Beyond the local documentation and Form 48, larger groups have two more Indian filings. A master file is needed where the group&apos;s revenue exceeds ₹500 crore and the Indian company&apos;s international transactions exceed ₹50 crore. Country-by-country reporting applies where the consolidated group revenue is ₹6,400 crore or more. If India cannot obtain the Russian parent&apos;s report through exchange between the two tax authorities, the Indian company can be required to file it locally, so confirm the position before the first year end.
+        </p>
+
+        <h2 id="penalties" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What happens if the file is missing or late</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>An adjustment is added to taxable income and taxed at the normal rate, with interest.</li>
+          <li>Missing documentation, or not producing it when asked, attracts a penalty linked to the value of the transactions.</li>
+          <li>A late or missing Form 48 attracts a separate fixed penalty.</li>
+          <li>Under-reported income from an adjustment can lead to a further penalty on the tax involved.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most of these are avoided by preparing the file before the return due date and keeping the intercompany agreements signed. See also <Link href="/russia-to-india/india-russia-dtaa" className="text-blue-800 font-semibold hover:underline">the Russia-India tax treaty guide</Link> for the treaty rates that apply to royalties and fees.
+        </p>
+        <h2 id="agreements" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the intercompany agreements should say</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The services, goods or rights supplied, described specifically enough to show the benefit to the Indian company.</li>
+          <li>The pricing method, the mark-up or royalty rate, and how year-end adjustments are made.</li>
+          <li>Invoicing frequency, the currency and the payment route, with a fallback if that route stops working.</li>
+          <li>Who bears the cost of delays, bank charges and exchange differences.</li>
+          <li>Ownership of intellectual property created in India.</li>
+          <li>Termination and what happens to unpaid amounts.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian tax officers ask for the agreement first. A signed, stamped agreement that matches the invoices and the transfer pricing study is the strongest evidence that a price is at arm&apos;s length.
+        </p>
+
+
+
+        <h2 id="ru-tp-evidence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Evidence when circumstances change</h2>
+        <p className="text-gray-700 mb-4">Sanctions, payment routes and currency changes can alter Russia-India flows quickly. When they do, the transfer pricing documentation should explain what changed and why the price still meets the arm&apos;s length standard. Record changes in suppliers, logistics or payment currency in the year they happen, with board approvals where relevant.</p>
+        <p className="text-gray-700 mb-4">Indian officers will compare the Indian subsidiary&apos;s margins with those of independent companies, and an unusual year needs a clear explanation. Keep the intercompany agreements up to date, prepare the transfer pricing study on time and reconcile the cost base and the markup with the Indian books before the accountant&apos;s report is signed. For long-term flows, an advance pricing agreement can give certainty despite changing circumstances.</p>
+        <p className="text-gray-700 mb-4">Russian groups should also consider how the Russian tax authorities view the same transactions, since Russia has its own transfer pricing rules for cross-border dealings with related parties. A single functional analysis used for both sets of documentation, and consistent intercompany agreements, reduce the chance of the two countries taking opposite views. Where they do, the mutual agreement procedure under the DTAA remains available, though it works best when the records on both sides are complete.</p>
+        <p className="text-gray-700 mb-4">Review both sets of documentation together each year.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -208,7 +284,7 @@ export default function TransferPricingPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

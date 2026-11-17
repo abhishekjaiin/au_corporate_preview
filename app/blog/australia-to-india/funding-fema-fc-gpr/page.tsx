@@ -22,6 +22,10 @@ const toc = [
   { id: "debt-or-equity", label: "Equity or a loan from Australia" },
   { id: "currency", label: "Managing the AUD-rupee movement" },
   { id: "australian-side", label: "On the Australian side" },
+  { id: "fc-gpr-pack", label: "What goes into an FC-GPR filing" },
+  { id: "fc-gpr-late", label: "If FC-GPR is late" },
+  { id: "later-rounds", label: "Later capital rounds" },
+  { id: "au-funding-board-pack", label: "What the Australian board pack should include" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +39,9 @@ const faqs = [
   { q: "Is there a limit on interest deductions in India?", a: "Yes. Interest on debt from non-resident associated enterprises is deductible only up to 30% of EBITDA." },
   { q: "Is a minimum capital required?", a: "No. Plan enough to cover 12 to 18 months of the subsidiary's costs." },
   { q: "What does a late FC-GPR cost?", a: "₹7,500 plus 0.025% of the amount involved for each year of delay, for up to three years." },
+  { q: "What documents are needed for FC-GPR?", a: "The bank's foreign inward remittance certificate and KYC report, the valuation certificate, the allotment resolution and the return of allotment." },
+  { q: "Does each capital injection need its own FC-GPR?", a: "Yes. Every allotment of shares to the Australian parent is reported in its own FC-GPR within 30 days." },
+  { q: "Can the Australian parent send capital in Australian dollars?", a: "Yes. The Indian bank converts it to rupees, and the rupee amount on the inward remittance certificate is the amount reported in FC-GPR." },
 ]
 
 const relatedCards = [
@@ -52,7 +59,7 @@ export default function FundingFemaFcGprPage() {
         headline="Funding the Indian Subsidiary: FEMA Rules, Share Allotment and Form FC-GPR"
         description="How an Australian parent invests in an Indian subsidiary: equity, CCPS, ECB, the 60-day allotment rule, pricing, and RBI reporting through Form FC-GPR on FIRMS."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -68,7 +75,7 @@ export default function FundingFemaFcGprPage() {
       <GuideHero
         eyebrow="Fund: capital infusion"
         title="Funding the Indian Subsidiary: FEMA Rules, Share Allotment and Form FC-GPR"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -168,6 +175,40 @@ export default function FundingFemaFcGprPage() {
           <li>Interest on any parent loan is assessable in Australia, with a foreign income tax offset for the Indian Withholding Tax.</li>
           <li>Transfer pricing on the loan is reviewed by both the Indian authorities and the ATO under Division 815.</li>
         </ul>
+        <h2 id="fc-gpr-pack" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What goes into an FC-GPR filing</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The foreign inward remittance certificate and the KYC report on the Australian remitter, both issued by the Indian bank.</li>
+          <li>The valuation certificate under the FEMA pricing guidelines.</li>
+          <li>The board resolution allotting the shares, and the return of allotment filed with the Registrar.</li>
+          <li>A declaration on the sector, the route and compliance with any sectoral cap.</li>
+          <li>The company&apos;s FIRMS registration details.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The bank&apos;s KYC report is often the item that delays an FC-GPR: it must confirm that the remitter is the Australian shareholder named in the documents. A transfer from a group treasury company or a personal account of a director causes a mismatch, so send the capital from the shareholder itself.
+        </p>
+
+        <h2 id="fc-gpr-late" className="text-2xl font-bold text-gray-900 mt-12 mb-4">If FC-GPR is late</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A late FC-GPR can usually be regularised by paying a late submission fee calculated on the amount and the delay. If shares were not allotted within 60 days, or the money was not refunded in time, the issue is more serious and normally needs compounding with the RBI. Each later round of capital needs its own FC-GPR, so we keep a register of every remittance, allotment and FC-GPR filing for the Indian company.
+        </p>
+        <h2 id="later-rounds" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Later capital rounds</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          After the first capital, Australian parents usually add funds through a rights issue to existing shareholders. Each round needs a board resolution, a valuation dated close to the issue, allotment within 60 days, the return of allotment and a fresh FC-GPR. One larger round each year is easier to manage than several small ones, and it keeps the Australian treasury forecast simpler.
+        </p>
+
+
+
+        <h2 id="au-funding-board-pack" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Australian board pack should include</h2>
+        <p className="text-gray-700 mb-4">Australian boards approving the first capital injection usually want to see the same few items. Preparing them together saves a round of questions.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>The amount, the instrument and the number of shares to be issued, with the fair value certificate supporting the price.</li>
+          <li>The remittance plan: AUD amount, expected rupee value, bank charges and who bears the exchange rate risk between approval and arrival.</li>
+          <li>The Indian deadlines that start when the money lands: allotment within 60 days and Form FC-GPR within 30 days of allotment.</li>
+          <li>How the investment will be recorded in the Australian parent&apos;s books and whether any foreign exchange gain or loss arises.</li>
+          <li>Plans for later rounds, so the board knows whether further approvals will be needed within the year.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Including the FC-GPR timeline in the board paper keeps the Australian side aware that the Indian reporting obligation is the parent&apos;s concern too: a late filing affects the parent&apos;s investment record with the Reserve Bank.</p>
+        <p className="text-gray-700 mb-4">Once the filing is approved, send the acknowledgement to the Australian finance team for the investment file and the group&apos;s audit evidence.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -212,7 +253,7 @@ export default function FundingFemaFcGprPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

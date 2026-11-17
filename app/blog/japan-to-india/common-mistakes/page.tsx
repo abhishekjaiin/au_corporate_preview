@@ -20,6 +20,7 @@ const toc = [
   { id: "ten", label: "The ten mistakes" },
   { id: "approvals", label: "Fitting Indian deadlines into Japanese approvals" },
   { id: "before-filing", label: "Before you file anything" },
+  { id: "fema-penalties", label: "What a FEMA mistake costs" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -50,7 +51,7 @@ export default function CommonMistakesPage() {
         headline="Ten Mistakes Japanese Companies Make When Setting Up in India, and How to Avoid Them"
         description="The ten most common and costly mistakes Japanese companies make when setting up an Indian subsidiary, and how to avoid each. Includes a pre-filing checklist."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -66,7 +67,7 @@ export default function CommonMistakesPage() {
       <GuideHero
         eyebrow="Avoid the pitfalls"
         title="Ten Mistakes Japanese Companies Make When Setting Up in India, and How to Avoid Them"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -181,6 +182,14 @@ export default function CommonMistakesPage() {
           <li>Draft the intercompany agreement and the secondment terms for chuzaiin.</li>
           <li>Set the reporting calendar between the Indian 31 March year and the parent&apos;s year end.</li>
         </ol>
+        <h2 id="fema-penalties" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What a FEMA mistake costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Several of these mistakes are FEMA contraventions: capital allotted late, an FC-GPR filed after 30 days, a missed FLA return, or a share transfer priced outside the rules. FEMA penalties can reach three times the amount involved, so a mistake of this kind is usually settled by compounding with the RBI, or by a late submission fee where only a report was late. Each mistake also needs the full transaction history to be reconstructed, which is slow when the head office approved it years earlier.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The cheapest mistake is one that never happens. We set the FEMA calendar at incorporation so that each mistake on this list has a named owner and a date. See <Link href="/fema-rbi-compliance" className="text-blue-800 font-semibold hover:underline">FEMA and RBI compliance</Link>.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -225,7 +234,7 @@ export default function CommonMistakesPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

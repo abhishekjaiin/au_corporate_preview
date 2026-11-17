@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/germany-to-india/incorporation-steps",
     locale: "en_DE",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Incorporating an Indian Subsidiary from Germany",
     description:
       "A split plan for a German parent forming an Indian private limited company: what the German team does, what the Indian team does, SPICe+, bank account.",

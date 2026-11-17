@@ -231,7 +231,7 @@ export const metadata: Metadata = {
   description:
     "CA-led firm for company incorporation and registration in India, serving clients across India and worldwide, with accounting, tax and FEMA compliance.",
   alternates: { canonical: "https://www.theaucorp.com/" },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "AU Corporate: Company Registration in India & Compliance",
     description:
       "CA-led firm for company incorporation and registration in India, serving clients across India and worldwide, with accounting, tax and FEMA compliance.",

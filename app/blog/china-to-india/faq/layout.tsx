@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/china-to-india/faq",
     locale: "en_CN",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "147 FAQs: Setting Up an India Subsidiary from China",
     description:
       "147 plain answers for Chinese companies: Press Note 3 approval, incorporation, FEMA, the India-China tax treaty, documents, staff, data protection.",

@@ -59,6 +59,17 @@ const included = [
 
 const countryGuides = [
   { label: "USA", href: "/usa-to-india" },
+  { label: "UK", href: "/uk-to-india" },
+  { label: "Australia", href: "/australia-to-india" },
+  { label: "Singapore", href: "/singapore-to-india" },
+  { label: "Germany", href: "/germany-to-india" },
+  { label: "Spain", href: "/spain-to-india" },
+  { label: "Japan", href: "/japan-to-india" },
+  { label: "China", href: "/china-to-india" },
+  { label: "Hong Kong", href: "/hong-kong-to-india" },
+  { label: "Russia", href: "/russia-to-india" },
+  { label: "UAE", href: "/uae-to-india" },
+  { label: "Europe", href: "/europe-to-india" },
 ]
 
 const afterLinks = [
@@ -84,6 +95,7 @@ const faqs = [
   { q: "What compliance does a branch office have every year after setup?", a: "A branch office files an Annual Activity Certificate from a Chartered Accountant with its AD bank, normally by 30 September, and files its income tax return, tax audit report and TDS returns. It also files Forms FC-3 and FC-4 with the ROC and GST returns where it is registered. AU Corporate tracks every date." },
   { q: "Are the rules for branch offices in India changing?", a: "Yes, they may. In October 2025 the RBI released draft regulations that would drop the net worth and profit track-record tests and let AD banks approve most cases. Until they are notified, the 2016 Regulations apply. AU Corporate checks the position on the day you apply." },
   { q: "How much does branch office registration cost in India?", a: "AU Corporate gives a fixed written quote before work starts. The fee depends on the route (AD bank or RBI), the parent's country and the number of documents. Government fees, notary and apostille charges and courier costs are separate." },
+  { q: "How long does branch office registration take, and what slows it down?", a: "Branch office approvals often take six to ten weeks from a complete application, depending on the AD bank and on whether the RBI raises questions. The usual causes of delay are audited accounts that do not clearly show the five-year profit record, documents that need re-notarisation because names differ from passports, and extra questions from the AD bank or the RBI when the proposed activities go beyond those a branch office may carry out. After approval, the foreign company must register with the ROC in Form FC-1 within 30 days." },
   { q: "Can AU Corporate set up a branch office for a parent company from my country?", a: "AU Corporate sets up branch offices for foreign companies from more than 10 countries, including the USA, UK, Singapore, Australia, Germany, Japan and China. We prepare a document checklist for your country so that notarisation and apostille are right the first time." },
 ]
 
@@ -143,7 +155,7 @@ export default function BranchOfficeRegistrationPage() {
               A foreign company can open a branch office in India only with approval under FEMA. It applies on Form FNC through an authorised dealer (AD) Category-I bank, normally needing five years of profitable track record and a net worth of USD 100,000, receives a Unique Identification Number, files Form FC-1 with the Registrar of Companies within 30 days, and then obtains PAN and TAN. AU Corporate, a pan-India firm of Chartered Accountants and Company Secretaries serving foreign companies since 2016, handles the full process.
             </p>
             <p className="mt-3 text-sm text-gray-500">
-              Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 2 November 2026
+              Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 13 November 2026
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-10">
@@ -343,7 +355,7 @@ export default function BranchOfficeRegistrationPage() {
           <h2 className="text-3xl font-bold mb-4 text-center text-gray-900">Questions Before You Start</h2>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-2">Straight answers to the questions foreign finance teams ask most about a branch office in India.</p>
           <p className="text-sm text-gray-500 text-center">
-            Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 2 November 2026
+            Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 13 November 2026
           </p>
           <p className="text-sm text-gray-500 text-center mb-10">This is general guidance based on Indian law and practice as at the date above. It is not advice for your specific case, and rules can change.</p>
           <div className="grid sm:grid-cols-2 gap-x-10">

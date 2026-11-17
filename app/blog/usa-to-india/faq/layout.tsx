@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "216 plain answers for US companies: incorporation, FEMA, tax, hiring, compliance, repatriation, ESOPs, M&A and closing an Indian subsidiary.",
     url: "https://www.theaucorp.com/usa-to-india/faq",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "216 FAQs: Setting Up an India Subsidiary from the USA",
     description:
       "216 plain answers for US companies: incorporation, FEMA, tax, hiring, compliance, repatriation, ESOPs, M&A and closing an Indian subsidiary.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Which documents a US parent must prepare to incorporate an Indian subsidiary, and how notarization and apostille work for US state and federal documents.",
     url: "https://www.theaucorp.com/usa-to-india/documents-and-apostille",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Documents and Apostille for an India Subsidiary (US Parent)",
     description:
       "Which documents a US parent must prepare to incorporate an Indian subsidiary, and how notarization and apostille work for US state and federal documents.",

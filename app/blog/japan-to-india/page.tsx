@@ -27,13 +27,28 @@ const toc = [
   { id: "people", label: "Local hires and chuzaiin" },
   { id: "cost", label: "Cost and timeline" },
   { id: "treaties", label: "Treaty and social security" },
+  { id: "resident-director", label: "Meeting the resident director rule" },
+  { id: "equity", label: "Stock options and RSUs for Indian staff" },
+  { id: "contracts", label: "Contracts and dispute resolution" },
+  { id: "digital-sales", label: "Selling software and digital services into India" },
+  { id: "notices", label: "When an Indian tax notice arrives" },
+  { id: "restructuring", label: "Regional holding companies, mergers and exit" },
+  { id: "mistakes", label: "Ten mistakes and the fixes" },
+  { id: "steps", label: "Incorporating the subsidiary, step by step" },
+  { id: "payroll", label: "Hiring the first Indian team" },
+  { id: "parent-reporting", label: "What the Japanese parent reports at home" },
   { id: "series", label: "The full guide series" },
+  { id: "japan-subsidiary-note", label: "One last planning note for the head office" },
   { id: "help", label: "How AU Corporate works with Japanese groups" },
+  { id: "japan-alliance", label: "Our Japan alliance: Nihon-bashi International Accounting Firm" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
 ]
 
 const seriesCards = [
+  { title: "Data Protection for Japanese Companies in India: APPI and DPDP", desc: "How Japan's APPI and India's DPDP Act apply when a Japanese company runs an Indian subsidiary: transfers to India, contracts, the DPDP Rules 2025 timeline and practical steps.", href: "/japan-to-india/data-protection-appi-dpdp" },
+  { title: "GCC Setup in India for Japanese Companies (2026 Guide)", desc: "How Japanese companies set up a GCC in India: own centre or BOT, Japanese-language bridge roles, cities, cost-plus transfer pricing, data rules and the ringi timeline.", href: "/japan-to-india/gcc-for-japanese-companies" },
+  { title: "India-Japan CEPA: What It Means for Japanese Companies", desc: "How the India-Japan Comprehensive Economic Partnership Agreement affects Japanese companies: tariff cuts, rules of origin, certificates, services, investment and what it does not change.", href: "/japan-to-india/india-japan-cepa" },
   { title: "Subsidiary, branch, liaison office or LLP", desc: "Which vehicle fits a KK or GK entering India.", href: "/japan-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp" },
   { title: "Incorporation process from Japan", desc: "Three phases across Japan and India, in order.", href: "/japan-to-india/incorporation-process" },
   { title: "Documents and apostille from Japan", desc: "Notary, Legal Affairs Bureau, MOFA and translation.", href: "/japan-to-india/documents-and-apostille" },
@@ -52,6 +67,7 @@ const seriesCards = [
 ]
 
 const faqs = [
+  { q: "Does AU Corporate have a partner firm in Japan?", a: "Yes. AU Corporate signed an MOU on 19 October 2026 with Nihon-bashi International Accounting Firm (日本橋国際会計事務所), a Tokyo firm of Japanese CPAs and tax accountants. Nihon-bashi takes consultations in Japanese and handles Japan-side accounting and tax, and AU Corporate handles incorporation and compliance in India. The firms are independent, and each contracts directly for work in its own country." },
   { q: "Can a KK or GK own all the shares of an Indian company?", a: "Yes, in most sectors. India allows 100% foreign ownership under the Automatic Route, and Press Note 3 does not apply to Japanese investors, so no prior approval is needed unless the sector itself requires it. A second shareholder, usually a group company or nominee holding one share, completes the two-shareholder minimum." },
   { q: "How long does it take to set up from Japan?", a: "Usually 4 to 6 weeks from the day the apostilled Japanese documents reach India. The Japanese document steps, the internal approval of the capital and bank KYC are what most often extend the timeline." },
   { q: "Who apostilles Japanese company documents?", a: "The Ministry of Foreign Affairs of Japan. Private documents such as board resolutions are notarised and certified by the Legal Affairs Bureau first, and every document needs a certified English translation." },
@@ -74,7 +90,7 @@ export default function JapanToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Japan: The 2026 Guide"
         description="How Japanese companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, tax and compliance. By a Chartered Accountant."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         inLanguage="en-JP"
       />
 
@@ -88,7 +104,7 @@ export default function JapanToIndiaHubPage() {
         eyebrow="Guide for Japanese companies"
         title="How to Set Up a Subsidiary in India from Japan: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, the India-Japan tax treaty and social security, and compliance for Japanese companies (KK and GK) entering India, in plain terms."
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -251,7 +267,7 @@ export default function JapanToIndiaHubPage() {
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">
           <div>
             <strong className="block text-gray-900">Get a costing for your plan</strong>
-            <p className="text-sm text-gray-600 mt-0.5">Tell us what you plan to set up and we will prepare a costing and book a call to walk you through it.</p>
+            <p className="text-sm text-gray-600 mt-0.5">Tell us what you plan to set up: you get the best pricing, better work support and a free first consultation.</p>
           </div>
           <InquiryTrigger className="inline-block rounded-lg bg-gold px-5 py-2.5 text-sm font-bold text-[#081a42] hover:bg-gold-dark transition-colors whitespace-nowrap">
             Discuss your costing with our team
@@ -272,10 +288,148 @@ export default function JapanToIndiaHubPage() {
           <li><Link href="/japan-to-india/tax-and-social-security-treaties/epf-international-workers" className="text-blue-800 font-semibold hover:underline">EPF for international workers</Link></li>
           <li><Link href="/japan-to-india/tax-and-social-security-treaties/japan-social-insurance-for-expats-in-india" className="text-blue-800 font-semibold hover:underline">Japanese social insurance for employees in India</Link></li>
         </ul>
+
+        <h2 id="resident-director" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Meeting the resident director rule</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Every Indian company needs at least one director who has stayed in India for 182 days or more in the
+          financial year. Japanese businesses usually meet this in one of three ways:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>A chuzaiin posted for a full year.</strong> The most common choice when the head office already plans to send a general manager.</li>
+          <li><strong>An Indian general manager on the board.</strong> Common once the subsidiary has hired its local leader.</li>
+          <li><strong>A professional resident director.</strong> The fallback at incorporation, before either of the others is in place, with no authority over the business.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The other directors, including those in Tokyo or Osaka, can stay abroad and sign digitally. A chuzaiin who
+          meets the 182-day test may also become tax resident in India, so plan the tax position at the same time. See{" "}
+          <Link href="/japan-to-india/resident-director" className="text-blue-800 font-semibold hover:underline">the resident director guide for Japanese companies</Link>.
+        </p>
+
+        <h2 id="equity" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Stock options and RSUs for Indian staff</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Indian employees of a Japanese group usually receive equity through the parent&apos;s own stock option or
+          restricted stock unit plan rather than a separate Indian scheme. India taxes the benefit as salary when an
+          option is exercised or an RSU vests, and the Indian subsidiary must withhold that tax through payroll even
+          though the shares come from Japan, so the plan administrator needs to send exercise and vesting data every
+          month. If the parent recharges the cost of the awards to India, the recharge needs a written agreement and
+          transfer pricing support. See{" "}
+          <Link href="/japan-to-india/esop" className="text-blue-800 font-semibold hover:underline">ESOPs and RSUs for Indian employees</Link>.
+        </p>
+
+        <h2 id="contracts" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contracts and dispute resolution</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Japanese groups arrive with careful contract templates, but they need adapting for India: stamp duty, Indian
+          employment law and data protection rules apply whatever the governing law says. For disputes, arbitration
+          is the practical choice. Japan is not a reciprocating territory under Section 44A of the Code of Civil
+          Procedure, so a Japanese court judgment cannot be executed directly in India, while an arbitral award seated
+          in Japan or Singapore can be enforced here under the New York Convention. We review intercompany, customer
+          and supplier templates before the first signature. See{" "}
+          <Link href="/japan-to-india/contracts-and-arbitration" className="text-blue-800 font-semibold hover:underline">contracts and arbitration</Link>.
+        </p>
+
+        <h2 id="digital-sales" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling software and digital services into India</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A Japanese company that sells software, apps or other online services to Indian consumers usually has to
+          register for Indian GST as an OIDAR supplier and charge 18% GST, often from the first sale, because the tax
+          follows the customer. Indian business customers usually account for the tax themselves under reverse
+          charge. The same logic applies in the EU, the UK and other VAT countries. Where the sales are made through
+          the Indian subsidiary instead, it registers for GST as an ordinary Indian business. See{" "}
+          <Link href="/japan-to-india/global-vat" className="text-blue-800 font-semibold hover:underline">VAT and GST on digital sales</Link>{" "}
+          and{" "}
+          <Link href="/oidar-gst-registration-india" className="text-blue-800 font-semibold hover:underline">OIDAR GST registration in India</Link>.
+        </p>
+
+        <h2 id="notices" className="text-2xl font-bold text-gray-900 mt-12 mb-4">When an Indian tax notice arrives</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          An Indian tax notice to a Japanese-owned subsidiary is usually routine: a mismatch between the return and the
+          tax department&apos;s data, a withholding tax query, a scrutiny selection or a transfer pricing reference.
+          Deadlines are short, often 7 to 30 days, which rarely fits a head-office approval cycle. Agree in advance who
+          may approve a reply, read each notice the day it arrives and respond with documents. Where a transfer
+          pricing adjustment causes double tax, the Mutual Agreement Procedure under the India-Japan treaty lets the
+          two tax authorities resolve it. See{" "}
+          <Link href="/japan-to-india/tax-notices-and-litigation" className="text-blue-800 font-semibold hover:underline">tax notices and litigation</Link>.
+        </p>
+
+        <h2 id="restructuring" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Regional holding companies, mergers and exit</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Japanese groups most often restructure an Indian subsidiary for one of three reasons: to bring it under a
+          regional holding company, often in Singapore; to combine two Indian entities after an acquisition; or to wind
+          down a unit that no longer fits. The tools are a share transfer, a merger scheme, a slump sale, strike-off or
+          voluntary liquidation. Each has its own Indian tax and FEMA steps, including Form FC-TRS for share transfers
+          and a valuation at fair value, and a separate result for the Japanese parent. See{" "}
+          <Link href="/japan-to-india/restructuring-and-exit" className="text-blue-800 font-semibold hover:underline">restructuring and exit</Link>.
+        </p>
+
+        <h2 id="mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Ten mistakes Japanese businesses make in India, and the fixes</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Mistake</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Fix</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Starting the ringi only after choosing a city and partner</th><td className="border border-gray-300 p-3">Run the internal approval in parallel with entity planning, with a fixed decision date</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Preparing Japanese documents in the wrong order</th><td className="border border-gray-300 p-3">Notarise, obtain Legal Affairs Bureau certification, apostille through MOFA, then translate; keep certificates under three months old</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Remitting capital from a group treasury company</th><td className="border border-gray-300 p-3">Send funds from the shareholder named in the incorporation documents, or FC-GPR is held up</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Missing the 60-day allotment window over Golden Week or Obon</th><td className="border border-gray-300 p-3">Fix the board date for allotment before the money leaves Japan</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Letting chuzaiin negotiate or sign contracts for the parent</th><td className="border border-gray-300 p-3">Keep contracting authority in the Indian company and document roles, to avoid a permanent establishment</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Copying Japanese employment terms</th><td className="border border-gray-300 p-3">Use Indian contracts reviewed against the labour codes and state shops rules</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Assuming the same year end needs no bridge</th><td className="border border-gray-300 p-3">Parents on 31 March match India; those on 31 December need an agreed reconciliation</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Charging the subsidiary without an intercompany agreement</th><td className="border border-gray-300 p-3">Sign agreements before the first invoice and price them at arm&apos;s length</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Skipping a Certificate of Coverage for seconded staff</th><td className="border border-gray-300 p-3">Apply under the India-Japan Social Security Agreement before the move</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Treating the resident director as a formality</th><td className="border border-gray-300 p-3">Plan who meets the 182-day test, often a full-year chuzaiin or an Indian manager</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Each mistake is explained with examples in{" "}
+          <Link href="/japan-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">common mistakes Japanese companies make in India</Link>.
+        </p>
+
+        <h2 id="steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Incorporating the subsidiary, step by step</h2>
+        <ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-4">
+          <li><strong>Head office approval.</strong> The KK or GK board approves the Indian subsidiary, its capital, the directors and an authorised signatory, ideally with the ringi running in parallel with entity planning.</li>
+          <li><strong>Documents in Japan.</strong> A fresh certificate of registered matters, the articles and the resolution are notarised, certified by the Legal Affairs Bureau and apostilled by MOFA, then given a certified English translation.</li>
+          <li><strong>Digital signatures and DIN.</strong> Each proposed director receives a digital signature certificate, and Director Identification Numbers are allotted through the incorporation filing.</li>
+          <li><strong>SPICe+ filing.</strong> The subsidiary is incorporated on the Ministry of Corporate Affairs portal, with PAN and TAN, usually within 7 to 15 working days once the papers arrive.</li>
+          <li><strong>Bank account, capital and FC-GPR.</strong> The account is opened, the shareholder named in the documents remits the yen or dollar capital, shares are allotted within 60 days and FC-GPR is filed within 30 days of allotment.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The whole process usually takes 4 to 6 weeks from the day the apostilled documents reach India, and the
+          longest part is normally the document stage in Japan. See 
+          <Link href="/japan-to-india/incorporation-process" className="text-blue-800 font-semibold hover:underline">incorporation from Japan</Link> 
+          and our <Link href="/india-subsidiary-registration" className="text-blue-800 font-semibold hover:underline">India subsidiary registration</Link> service.
+        </p>
+
+        <h2 id="payroll" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Hiring the first Indian team</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Employees of the Indian subsidiary are hired on Indian contracts, on Indian payroll, with Indian statutory
+          benefits, whatever the group&apos;s practice in Japan. Payroll deducts income tax monthly and pays provident
+          fund, plus ESI where wages are low enough; gratuity becomes payable after five years; and the four labour
+          codes now set the rules on wages and working conditions. Japanese seniority pay and lifetime employment do not
+          carry over, so salary bands and promotion rules should be designed for the Indian market. See 
+          <Link href="/japan-to-india/hiring-and-payroll" className="text-blue-800 font-semibold hover:underline">hiring and payroll for Japanese companies</Link>.
+        </p>
+
+        <h2 id="parent-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Japanese parent reports at home</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A Japanese company that owns an Indian subsidiary has obligations of its own in Japan: checking the
+          controlled foreign company rules, applying the foreign dividend exemption, keeping transfer pricing
+          documentation for transactions with the subsidiary, including it in J-SOX internal control reporting if the
+          parent is listed, and meeting any outward investment reporting. Your Japanese tax adviser should confirm
+          these; we supply the Indian data on the parent&apos;s timetable so the numbers match. See 
+          <Link href="/japan-to-india/japan-parent-obligations" className="text-blue-800 font-semibold hover:underline">obligations of the Japanese parent</Link>.
+        </p>
+
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="japan-subsidiary-note" className="text-2xl font-bold text-gray-900 mt-12 mb-4">One last planning note for the head office</h2>
+        <p className="text-gray-700 mb-4">Assign one person at the head office as the owner of the Indian subsidiary&apos;s calendar, so that every Indian deadline has a named person in Japan.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate works with Japanese groups</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -324,6 +478,14 @@ export default function JapanToIndiaHubPage() {
             </tbody>
           </table>
         </div>
+        <h2 id="japan-alliance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Our Japan alliance: Nihon-bashi International Accounting Firm</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          On 19 October 2026, AU Corporate signed a memorandum of understanding with <strong>Nihon-bashi International Accounting Firm (日本橋国際会計事務所)</strong>, a firm of Japanese CPAs and tax accountants based in Nihonbashi, Tokyo, and established in 2009. Under the alliance, a Japanese company can hold its first consultation in Japanese with Nihon-bashi in Tokyo. Nihon-bashi then handles the Japanese parent&apos;s accounting, tax, consolidation and transfer pricing questions, and AU Corporate handles incorporation, FEMA and RBI filings, GST, income tax, transfer pricing, accounting and payroll in India.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The two firms are independent: neither is a branch or subsidiary of the other, and each contracts directly with the client for its own country&apos;s work. The alliance also supports Indian companies entering Japan. Read the details, services and how the work is shared on our <Link href="/japan-alliance" className="text-blue-800 font-semibold hover:underline">Japan–India alliance page</Link>, read our <Link href="/ja/japan-alliance" className="text-blue-800 font-semibold hover:underline" lang="ja">日本語のお知らせ</Link>, or see Nihon-bashi&apos;s own <a href="https://www.n-cpa.com/au-corporate-alliance/" className="text-blue-800 font-semibold hover:underline" rel="noopener" lang="ja">announcement (Japanese)</a>.
+        </p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Rules on this page can be verified at the primary sources:{" "}
@@ -362,7 +524,7 @@ export default function JapanToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

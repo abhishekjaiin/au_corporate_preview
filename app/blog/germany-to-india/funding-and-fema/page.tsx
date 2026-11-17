@@ -22,6 +22,13 @@ const toc = [
   { id: "convertibles", label: "Convertible instruments" },
   { id: "reporting", label: "RBI reporting" },
   { id: "german-books", label: "In the German books" },
+  { id: "fema-steps", label: "FEMA steps for each capital round" },
+  { id: "de-loans", label: "Funding by loan: KfW, DEG and group loans" },
+  { id: "de-equity-mix", label: "Equity or loan: what German groups usually choose" },
+  { id: "de-bundesbank", label: "Reporting on the German side" },
+  { id: "de-fema-rounds", label: "FEMA checks for later rounds" },
+  { id: "de-fx", label: "Managing the euro-rupee exchange rate" },
+  { id: "de-funding-board-paper", label: "What the Geschäftsführung usually asks for" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +42,9 @@ const faqs = [
   { q: "Is there a limit on interest deductions in India?", a: "Yes, 30% of EBITDA for debt from non-resident associated enterprises." },
   { q: "Does Press Note 3 apply to German investors?", a: "No, unless a beneficial owner is from a land-border country." },
   { q: "What is the FLA return?", a: "An annual RBI return due by 15 July." },
+  { q: "Is interest on a KfW or DEG loan taxed in India?", a: "It is reported as exempt in India under the India-Germany DTAA; interest on other parent loans is taxed at up to 10%." },
+  { q: "How much share capital should a German company put into its Indian company?", a: "There is no legal minimum. Most German groups fund 12 to 18 months of costs in the first round, because each further round repeats the FEMA valuation, allotment and FC-GPR steps." },
+  { q: "Can capital be sent before the Indian company exists?", a: "No. The bank account is opened after incorporation, and the capital is remitted to it; money sent earlier cannot be allotted as shares." },
 ]
 
 const relatedCards = [
@@ -52,7 +62,7 @@ export default function FundingAndFemaPage() {
         headline="Funding an Indian Subsidiary from Germany: Equity, Convertible Instruments, ECB Loans and RBI Reporting"
         description="How a German parent funds an Indian subsidiary: equity pricing, compulsorily convertible instruments, external commercial borrowings, euro remittance, public-lender loans, FC-GPR and the annual FLA return."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -68,7 +78,7 @@ export default function FundingAndFemaPage() {
       <GuideHero
         eyebrow="Money in: funding and FEMA"
         title="Funding an Indian Subsidiary from Germany: Equity, Convertible Instruments, ECB Loans and RBI Reporting"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -163,6 +173,61 @@ export default function FundingAndFemaPage() {
           <li>Interest received on a parent loan is taxable in Germany with credit for Indian tax.</li>
           <li>Germany&apos;s own interest barrier and transfer pricing rules apply to the parent&apos;s side of the loan.</li>
         </ul>
+        <h2 id="fema-steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA steps for each capital round</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The Indian bank issues the foreign inward remittance certificate and a KYC report on the remitter.</li>
+          <li>The receipt is reported on the RBI&apos;s FIRMS portal, where the company first registers.</li>
+          <li>Shares are allotted within 60 days, at no less than fair value under the FEMA pricing guidelines, certified by a Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant.</li>
+          <li>The return of allotment is filed with the Registrar within 30 days.</li>
+          <li>Form FC-GPR is filed on FIRMS within 30 days of allotment.</li>
+          <li>The FLA return reports the investment every year by 15 July.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Share capital has no legal minimum; most German parents fund the first 12 to 18 months in one round, because every round repeats the FEMA steps. Remit from the shareholder named in the documents, in euros, so the bank&apos;s KYC report matches. A late FEMA report is usually regularised by a late submission fee; a missed allotment deadline needs compounding.
+        </p>
+        <h2 id="de-loans" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Funding by loan: KfW, DEG and group loans</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Some German groups fund India partly by loan. A loan from the German parent is an external commercial borrowing, registered through the AD bank with a loan registration number before drawdown and reported monthly. Interest paid to the German parent is taxed in India at up to 10% under the DTAA, while interest on loans from KfW, DEG and Hermes-guaranteed loans is reported as exempt in India. Indian interest deductions are limited to 30% of EBITDA for interest paid to group lenders above the threshold.
+        </p>
+
+        <h2 id="de-equity-mix" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Equity or loan: what German groups usually choose</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Point</th><th scope="col" className="border border-gray-300 p-3 text-left">Equity</th><th scope="col" className="border border-gray-300 p-3 text-left">Parent loan</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Indian approval</th><td className="border border-gray-300 p-3">Automatic Route in most sectors</td><td className="border border-gray-300 p-3">ECB framework through the AD bank</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Cost in India</th><td className="border border-gray-300 p-3">Dividends from after-tax profits</td><td className="border border-gray-300 p-3">Interest deductible within limits</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Indian tax on payments to Germany</th><td className="border border-gray-300 p-3">10% on dividends</td><td className="border border-gray-300 p-3">10% on interest; exempt for KfW and DEG lenders</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">German side</th><td className="border border-gray-300 p-3">Dividends 95% exempt under Section 8b</td><td className="border border-gray-300 p-3">Interest taxable in Germany with credit</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Repayment</th><td className="border border-gray-300 p-3">Only by buy-back, capital reduction or sale</td><td className="border border-gray-300 p-3">Under the loan terms</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most German parents fund an Indian company mainly with equity, adding a loan where the business has steady cash flows to service it.
+        </p>
+
+        <h2 id="de-bundesbank" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reporting on the German side</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The German parent may also need to report its Indian investment and related payments to the Bundesbank under German foreign trade reporting rules where the thresholds are met, and notify its tax office of the foreign holding. These are German requirements for German advisers to confirm; we provide the Indian figures so the two sets of reports agree.
+        </p>
+        <h2 id="de-fema-rounds" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA checks for later rounds</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Every later capital round repeats the FEMA steps: a fresh valuation under the FEMA pricing guidelines, allotment within 60 days, the return of allotment, and FC-GPR within 30 days. Convertible instruments must fix the conversion formula at issue under FEMA. A FEMA delay is usually regularised with a late submission fee; a missed allotment needs compounding with the RBI. We keep a FEMA register of every remittance, allotment and filing so that the German parent&apos;s auditors can trace each euro.
+        </p>
+        <h2 id="de-fx" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Managing the euro-rupee exchange rate</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The capital is fixed in rupees at allotment, so the euro amount sent decides how many shares are issued. Agree the rupee amount with the Indian bank before remitting, allow a small buffer for exchange movements and bank charges, and record any excess as share application money to be allotted or refunded within the FEMA deadlines.
+        </p>
+
+
+
+
+
+        <h2 id="de-funding-board-paper" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Geschäftsführung usually asks for</h2>
+        <p className="text-gray-700 mb-4">German management boards approving funding for the Indian subsidiary generally want the same information: the amount and instrument, the fair value certificate, the euro-rupee assumption, the Indian deadlines after the money arrives and how the investment will be shown in the German accounts. Including the FEMA reporting steps in the approval paper ensures both sides know who files what. If the funding is a loan, add the external commercial borrowing terms, the all-in cost and the reporting the Indian company must make each month.</p>
+        <p className="text-gray-700 mb-4">Agree as well who in Germany will receive the FEMA filing acknowledgements and keep them in the investment file. German auditors increasingly ask for evidence that foreign investments have been reported correctly in the host country, and a complete file of resolutions, valuations, remittance advices and acknowledgements answers the question quickly. It also helps if the subsidiary later raises further capital or is sold.</p>
+        <p className="text-gray-700 mb-4">Review the file after each capital round.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -207,7 +272,7 @@ export default function FundingAndFemaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

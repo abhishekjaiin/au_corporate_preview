@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How Japanese companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, tax and compliance. By a Chartered Accountant.",
     url: "https://www.theaucorp.com/japan-to-india",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Set Up a Subsidiary in India from Japan: 2026 Guide",
     description:
       "How Japanese companies set up a subsidiary in India: structure, FDI rules, incorporation steps, RBI/FEMA filings, tax and compliance. By a Chartered Accountant.",

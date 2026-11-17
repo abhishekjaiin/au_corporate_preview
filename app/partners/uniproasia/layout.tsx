@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       "AU Corporate partners with UniproAsia to help clients expand beyond India into Hong Kong, Singapore and China — formation, tax and compliance in one engagement.",
     url: "https://www.theaucorp.com/partners/uniproasia",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "UniproAsia: Hong Kong, Singapore and China",
     description:
       "AU Corporate partners with UniproAsia to help clients expand beyond India into Hong Kong, Singapore and China — formation, tax and compliance in one engagement.",

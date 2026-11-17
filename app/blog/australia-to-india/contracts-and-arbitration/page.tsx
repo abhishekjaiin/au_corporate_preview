@@ -22,6 +22,8 @@ const toc = [
   { id: "arbitration", label: "Setting up arbitration" },
   { id: "stamp", label: "Stamp duty and execution" },
   { id: "templates", label: "Changing Australian templates" },
+  { id: "seats", label: "SIAC, LCIA or ACICA" },
+  { id: "au-contract-governance", label: "Keeping the contract set up to date" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -52,7 +54,7 @@ export default function ContractsAndArbitrationPage() {
         headline="Contracts and Arbitration in India: A Guide for Australian Companies"
         description="Contracts between an Australian parent and its Indian subsidiary: governing law, arbitration clauses, the New York Convention and enforcing awards in India."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -68,7 +70,7 @@ export default function ContractsAndArbitrationPage() {
       <GuideHero
         eyebrow="Defend: contracts and arbitration"
         title="Contracts and Arbitration in India: A Guide for Australian Companies"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -169,6 +171,16 @@ export default function ContractsAndArbitrationPage() {
           <li>Draft liquidated damages as a genuine pre-estimate, because Indian courts award reasonable compensation up to the amount.</li>
           <li>Add Indian data protection terms under the Digital Personal Data Protection Act.</li>
         </ul>
+        <h2 id="seats" className="text-2xl font-bold text-gray-900 mt-12 mb-4">SIAC, LCIA or ACICA</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Australian groups usually choose between SIAC in Singapore, ACICA in Sydney and the LCIA in London. All three produce awards enforceable in India under the New York Convention. SIAC is often preferred for Indian counterparties because of its familiarity and location; ACICA suits contracts governed by Australian law. Name the institution, seat, language and number of arbitrators in the clause.
+        </p>
+
+
+        <h2 id="au-contract-governance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping the contract set up to date</h2>
+        <p className="text-gray-700 mb-4">Contracts drafted at incorporation tend to drift as the business grows. Review the intercompany agreements, the main customer contracts and the employment templates every year, and whenever the Indian company takes on a new type of work. Check that the governing law and dispute resolution clauses still match where assets sit and where enforcement would be needed. Keep signed and stamped originals in India, because Indian courts and tribunals ask for evidence that stamp duty was paid.</p>
+        <p className="text-gray-700 mb-4">Keep a simple contract register that records each agreement&apos;s parties, value, governing law, dispute clause, renewal date and whether stamp duty was paid. It makes the annual review quick and gives the Australian legal team visibility of the Indian contract portfolio.</p>
+        <p className="text-gray-700 mb-4">Review the register when the annual accounts are prepared.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -213,7 +225,7 @@ export default function ContractsAndArbitrationPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

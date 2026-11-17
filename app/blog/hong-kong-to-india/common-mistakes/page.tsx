@@ -19,6 +19,7 @@ const toc = [
   { id: "country-specific", label: "What's different for Hong Kong companies" },
   { id: "list", label: "Twelve mistakes and fixes" },
   { id: "how", label: "How to avoid them" },
+  { id: "fema-mistakes", label: "What a FEMA mistake costs" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -47,7 +48,7 @@ export default function CommonMistakesPage() {
         headline="Twelve Common Mistakes Hong Kong Companies Make in India and How to Avoid Them"
         description="The most common mistakes of Hong Kong companies entering India: skipping Press Note 3, thin hub structures, late FEMA filings, weak treaty paperwork, secondment tax errors, stale apostilles, unstamped contracts and ignoring the Indian calendar."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -63,7 +64,7 @@ export default function CommonMistakesPage() {
       <GuideHero
         eyebrow="Risk: common mistakes"
         title="Twelve Common Mistakes Hong Kong Companies Make in India and How to Avoid Them"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -190,6 +191,11 @@ export default function CommonMistakesPage() {
           <li>Review the structure once a year as Indian and Hong Kong rules change.</li>
           <li>Use local advisers for each country and make them talk to each other.</li>
         </ol>
+        <h2 id="fema-mistakes" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What a FEMA mistake costs</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Several mistakes on this list are FEMA mistakes: capital allotted late, FC-GPR filed after 30 days, a missed FLA return or a share transfer priced outside the rules. FEMA penalties can reach three times the amount involved, so such a mistake is usually settled by compounding with the RBI, or by a late submission fee where only a report was late. Each mistake costs more the longer it goes unnoticed, because compounding needs the full history. We set the FEMA calendar at incorporation so that no mistake of this kind waits for the Hong Kong parent&apos;s annual review.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -238,7 +244,7 @@ export default function CommonMistakesPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

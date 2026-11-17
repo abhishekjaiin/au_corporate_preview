@@ -24,6 +24,7 @@ const toc = [
   { id: "tips", label: "Tips to avoid delays" },
   { id: "japanese-parent", label: "What this means for a Japanese parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "bank-pack", label: "After incorporation: the bank's document set" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -60,7 +61,7 @@ export default function DocumentsAndApostillePage() {
         headline="Documents and Apostille for a Japanese Parent: What to Prepare and in What Order"
         description="Which documents a Japanese parent must prepare to incorporate an Indian subsidiary, and how notarization, translation and apostille work in Japan."
         datePublished="2026-10-20"
-        dateModified="2026-10-20"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -76,7 +77,7 @@ export default function DocumentsAndApostillePage() {
       <GuideHero
         eyebrow="Set up: documents"
         title="Documents and Apostille for a Japanese Parent: What to Prepare and in What Order"
-        updated="20 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -201,6 +202,18 @@ export default function DocumentsAndApostillePage() {
           <li>Sending Japanese documents without translations.</li>
           <li>Name or address spellings that differ between documents.</li>
         </ul>
+        <h2 id="bank-pack" className="text-2xl font-bold text-gray-900 mt-12 mb-4">After incorporation: the bank&apos;s document set</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Certificate of incorporation, PAN, memorandum and articles.</li>
+          <li>Board resolution of the Indian company opening the account.</li>
+          <li>KYC for directors and signatories.</li>
+          <li>Beneficial ownership declaration up to the ultimate owners of the KK or GK.</li>
+          <li>The Japanese certificate of registered matters, as authenticated for incorporation.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Consularisation by the Indian embassy is not needed for Japanese documents, because Japan is a party to the Hague Convention. It can still be needed for a shareholder registered in a country outside the Convention.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -257,7 +270,7 @@ export default function DocumentsAndApostillePage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 20 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

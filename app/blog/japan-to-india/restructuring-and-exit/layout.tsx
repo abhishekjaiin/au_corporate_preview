@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How a Japanese parent can restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback and winding up.",
     url: "https://www.theaucorp.com/japan-to-india/restructuring-and-exit",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Exit Options for a Japanese Group's Indian Subsidiary",
     description:
       "How a Japanese parent can restructure, sell, merge or close its Indian subsidiary: share sale, slump sale, merger, buyback and winding up.",

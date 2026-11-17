@@ -22,6 +22,10 @@ const toc = [
   { id: "branch", label: "Branch, liaison and project offices" },
   { id: "jv", label: "Joint venture" },
   { id: "choose", label: "How to choose" },
+  { id: "tax-rate-table", label: "Indian tax rate by structure" },
+  { id: "pn3-hk", label: "Press Note 3 and Hong Kong ownership" },
+  { id: "hk-tax", label: "Trading groups: company or office?" },
+  { id: "hk-next", label: "Next step" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +37,8 @@ const faqs = [
   { q: "Can a liaison office sell products?", a: "No. It can only represent the parent, promote exports and imports and communicate." },
   { q: "Is a joint venture easier?", a: "It can open access to a partner and market, but it needs strong governance terms and pricing compliance." },
   { q: "How are branches taxed?", a: "As foreign companies on Indian profits at the higher foreign company rate, with surcharge and cess; check the current rates." },
+  { q: "Does a Hong Kong company need approval to open a branch in India?", a: "Yes. It goes through the RBI route with security review." },
+  { q: "Can a Hong Kong group use an LLP in India?", a: "Only in sectors open to 100% automatic foreign investment, and Press Note 3 approval is still needed where it applies." },
 ]
 
 const relatedCards = [
@@ -50,7 +56,7 @@ export default function StructureOptionsPage() {
         headline="Choosing an Indian Structure for a Hong Kong Parent: Private Limited, LLP, Branch, Liaison Office, Project Office and Joint Venture"
         description="Compare Indian structures for a Hong Kong company: wholly owned private limited company, LLP, branch, liaison and project office, and joint venture, with tax, approval, liability and exit points."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -66,7 +72,7 @@ export default function StructureOptionsPage() {
       <GuideHero
         eyebrow="Setup: structure"
         title="Choosing an Indian Structure for a Hong Kong Parent: Private Limited, LLP, Branch, Liaison Office, Project Office and Joint Venture"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -175,6 +181,43 @@ export default function StructureOptionsPage() {
           <li>Compare liability: a branch exposes the Hong Kong parent.</li>
           <li>Plan the exit and the repatriation route from day one.</li>
         </ol>
+        <h2 id="tax-rate-table" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Indian tax rate by structure</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Structure</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax on profits</th><th scope="col" className="border border-gray-300 p-3 text-left">When profits go home</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Private limited company</th><td className="border border-gray-300 p-3">About 25.17% under the concessional regime</td><td className="border border-gray-300 p-3">Dividend withholding of 5% under the DTAA</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">LLP</th><td className="border border-gray-300 p-3">30% plus surcharge and cess, up to about 34.94%</td><td className="border border-gray-300 p-3">No further Indian tax on the profit share</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Branch or project office</th><td className="border border-gray-300 p-3">35% plus surcharge and cess, about 36.4% to 38.22%</td><td className="border border-gray-300 p-3">No Indian tax on remitting net profit</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Liaison office</th><td className="border border-gray-300 p-3">No income allowed</td><td className="border border-gray-300 p-3">Not applicable</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          On ₹1 crore of profit the company route saves roughly ₹11 to 13 lakh a year in Indian corporate tax compared with a branch, which is why most Hong Kong groups choose an Indian company for any revenue-earning business. A branch or liaison office also needs AD bank approval of the Hong Kong parent itself, which takes longer than incorporating a company.
+        </p>
+        <h2 id="pn3-hk" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Press Note 3 and Hong Kong ownership</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian authorities treat Hong Kong as part of China for Press Note 3, so a Hong Kong investor, or any investor whose beneficial owner is in China or Hong Kong, needs government approval before investing in an Indian company. A branch or liaison office goes through the RBI with security review. Plan the approval time before choosing the structure, and disclose the full ownership chain, including any Chinese mainland shareholders.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>A wholly owned Indian company is still the usual choice once approval is obtained.</li>
+          <li>A joint venture with an Indian majority partner can reduce, but not remove, the approval question if a Hong Kong or Chinese owner holds any beneficial interest.</li>
+          <li>Later capital rounds also need approval.</li>
+        </ul>
+        <h2 id="hk-tax" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Trading groups: company or office?</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Hong Kong trading groups sometimes consider a liaison office to support sourcing from India without earning income there. It works while the office only liaises with suppliers; as soon as it negotiates contracts, inspects for customers for a fee or invoices, it needs to become a company. Because the Indian company pays tax at the domestic rate and dividends to Hong Kong are taxed at 5% under the DTAA, a company is usually the better long-term vehicle for any trading business.
+        </p>
+        <h2 id="hk-next" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Next step</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Once the structure is chosen, see the incorporation steps and the funding guide for the approval and capital sequence that applies to Hong Kong investors.
+        </p>
+
+
+        <h2 id="hk-structure-cases" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Hong Kong groups usually choose</h2>
+        <p className="text-gray-700 mb-4">Hong Kong trading groups often start by selling to Indian importers from Hong Kong and form an Indian subsidiary once local stock, staff or after-sales service are needed. Technology and services groups usually form a subsidiary directly so that they can hire and invoice. Manufacturers may partner with an Indian company through a joint venture, especially where land, approvals and local sourcing matter. Because a Hong Kong shareholder generally needs government approval for an Indian company, the timeline for any structure is longer than for parents in other countries, and some groups use an employer of record or an Indian contractor while approval is pending. Record the triggers for moving to a permanent structure so the decision is revisited at the right time.</p>
+        <p className="text-gray-700 mb-4">Two further points often decide the matter. If Indian staff are to receive share options, a company makes this much simpler than an office. And if the Indian business may later raise outside capital, be sold or be merged into another group company, a subsidiary is the only structure that allows it directly. Hong Kong groups expecting either outcome usually choose a company from the start, accepting the longer approval timeline in exchange for flexibility later.</p>
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -223,7 +266,7 @@ export default function StructureOptionsPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

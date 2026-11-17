@@ -20,6 +20,7 @@ const toc = [
   { id: "without-coc", label: "If there is no Certificate of Coverage" },
   { id: "courts", label: "The court challenges" },
   { id: "payroll", label: "Payroll steps for a Japanese-owned employer" },
+  { id: "jp-coc-renewal", label: "Renewing the certificate on longer postings" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -33,6 +34,7 @@ const faqs = [
   { q: "Were the international worker rules struck down?", a: "The Karnataka High Court struck them down in 2024, but the Delhi High Court upheld them in November 2025, so most employers still comply." },
   { q: "What happens if contributions were missed?", a: "Arrears can be claimed with interest and damages, so take advice before regularising." },
   { q: "When are contributions deposited?", a: "By the 15th of the following month, with the monthly return." },
+  { q: "What is the 12% contribution for international workers?", a: "Employer and employee each contribute 12% of basic wages, with no wage ceiling for international workers unless a social security agreement and Certificate of Coverage apply." },
 ]
 
 const relatedCards = [
@@ -50,7 +52,7 @@ export default function EpfInternationalWorkersPage() {
         headline="EPF for International Workers in India: What Japanese Expats and Their Employers Must Know"
         description="How Indian provident fund applies to foreign nationals: international worker rules, no wage ceiling, the Japan agreement exclusion and the 2026 EPF Scheme."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -67,7 +69,7 @@ export default function EpfInternationalWorkersPage() {
       <GuideHero
         eyebrow="Treaties: Indian provident fund"
         title="EPF for International Workers in India: What Japanese Expats and Their Employers Must Know"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -162,6 +164,10 @@ export default function EpfInternationalWorkersPage() {
           <li>Keep evidence of classification for provident fund inspections.</li>
         </ol>
 
+        <h2 id="jp-coc-renewal" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Renewing the certificate on longer postings</h2>
+        <p className="text-gray-700 mb-4">If a posting is extended, apply for the extension of the Japanese certificate of coverage before the original period ends, and give the new certificate to Indian payroll straight away.</p>
+        <p className="text-gray-700 mb-4">If the extension is not obtained in time, Indian payroll may have to start provident fund deductions until the new certificate arrives, so track expiry dates for every Japanese employee in India in the same calendar as visa and registration renewals.</p>
+
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           We classify foreign employees, collect and track Certificates of Coverage, and run provident fund contributions for international workers through our payroll service.
@@ -205,7 +211,7 @@ export default function EpfInternationalWorkersPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

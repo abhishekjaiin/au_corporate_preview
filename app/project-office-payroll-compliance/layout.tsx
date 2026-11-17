@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Payroll, provident fund, professional tax, labour codes and FRRO support for a foreign company's India project office.",
     url: "https://www.theaucorp.com/project-office-payroll-compliance",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Payroll, PF, Labour Law & FRRO for Project Offices in India",
     description:
       "Payroll, provident fund, professional tax, labour codes and FRRO support for a foreign company's India project office.",

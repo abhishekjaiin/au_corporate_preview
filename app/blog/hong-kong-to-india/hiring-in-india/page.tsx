@@ -22,6 +22,8 @@ const toc = [
   { id: "hk", label: "Differences from Hong Kong practice" },
   { id: "foreign", label: "Posting Hong Kong staff" },
   { id: "cost", label: "Cost planning" },
+  { id: "ctc", label: "Cost to company (CTC) and the Indian payroll" },
+  { id: "hk-mpf", label: "MPF and Indian provident fund" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +35,8 @@ const faqs = [
   { q: "Have the labour codes taken effect?", a: "They were reported to be in force from 21 November 2025. Confirm the rules and state notifications that apply to you." },
   { q: "Do I need a sexual harassment committee?", a: "Employers with 10 or more employees must form an Internal Committee under the POSH Act." },
   { q: "How does this differ from Hong Kong?", a: "Provident fund, termination, leave and wage-payment rules differ. Use Indian counsel for the handbook and contracts." },
+  { q: "Can the Indian payroll be outsourced?", a: "Yes. Many {a}-owned companies outsource payroll processing, statutory filings and payslips to an Indian firm, while HR decisions stay in-house." },
+  { q: "When must payroll deductions be deposited?", a: "Tax deducted through payroll by the 7th of the following month, and provident fund and ESI by the 15th." },
 ]
 
 const relatedCards = [
@@ -50,7 +54,7 @@ export default function HiringInIndiaPage() {
         headline="Hiring Staff in India as a Hong Kong-Owned Company: Employment Contracts, Provident Fund, ESI, Gratuity and Labour Codes"
         description="How a Hong Kong-owned Indian subsidiary hires locally: offer and employment contracts, payroll taxes, provident fund, ESI, gratuity, labour codes, shops and establishments law, notice periods, POSH and differences from Hong Kong practice."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -66,7 +70,7 @@ export default function HiringInIndiaPage() {
       <GuideHero
         eyebrow="People: hiring"
         title="Hiring Staff in India as a Hong Kong-Owned Company: Employment Contracts, Provident Fund, ESI, Gratuity and Labour Codes"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -174,6 +178,36 @@ export default function HiringInIndiaPage() {
           <Link href="/hong-kong-to-india/compliance-calendar" className="text-blue-800 font-semibold hover:underline">compliance calendar</Link>{" "}
           for due dates.
         </p>
+        <h2 id="ctc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Cost to company (CTC) and the Indian payroll</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian offers are quoted as an annual cost to company (CTC). Hong Kong HR teams should present offers the same way, because candidates compare on CTC, and the payroll then breaks it into its parts:
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">CTC component</th><th scope="col" className="border border-gray-300 p-3 text-left">Note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Basic salary</th><td className="border border-gray-300 p-3">Wages must be at least 50% of total remuneration under the labour codes</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Allowances</th><td className="border border-gray-300 p-3">House rent and other allowances, partly tax-free for the employee</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Employer provident fund</th><td className="border border-gray-300 p-3">12% of basic wages, often capped by policy</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Gratuity provision</th><td className="border border-gray-300 p-3">15 days&apos; wages per year of service, capped at ₹20 lakh, paid after five years</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Insurance and variable pay</th><td className="border border-gray-300 p-3">Group health cover and an annual bonus are usual</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each month the payroll deducts income tax, employee provident fund and professional tax, deposits tax by the 7th and provident fund by the 15th, and pays wages by the 7th of the following month. Take-home pay is therefore well below CTC divided by twelve.
+        </p>
+        <h2 id="hk-mpf" className="text-2xl font-bold text-gray-900 mt-12 mb-4">MPF and Indian provident fund</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Hong Kong staff who move onto the Indian company&apos;s payroll join Indian provident fund as international workers, because India and Hong Kong have no social security agreement. Whether MPF contributions also continue depends on whether the person stays employed in Hong Kong.
+        </p>
+
+
+
+        <h2 id="hk-payroll-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reporting payroll to Hong Kong</h2>
+        <p className="text-gray-700 mb-4">Agree a monthly payroll summary for the Hong Kong parent covering headcount, gross pay, employer provident fund and insurance contributions and joiners and leavers, converted to Hong Kong dollars at an agreed rate. Keep the statutory payroll registers in India and reconcile the summary to them each month, so the figures used in intercompany charges match the Indian records.</p>
+        <p className="text-gray-700 mb-4">Review the format each April, when Indian salary revisions usually take effect, and when the Hong Kong chart of accounts changes, so the payroll figures reported to Hong Kong remain comparable from year to year.</p>
+        <p className="text-gray-700 mb-4">Keep the agreed mapping in writing with the Hong Kong finance team.</p>
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -222,7 +256,7 @@ export default function HiringInIndiaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

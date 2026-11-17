@@ -22,6 +22,7 @@ const toc = [
   { id: "chinese-points", label: "Points specific to Chinese funding" },
   { id: "valuation", label: "Pricing and valuation" },
   { id: "penalty", label: "Late filing and compounding" },
+  { id: "fema-steps", label: "FEMA steps for each capital round" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -33,6 +34,8 @@ const faqs = [
   { q: "What happens if I miss the 60-day allotment limit?", a: "The funds must be refunded through the same channel, otherwise the receipt is a FEMA contravention to be regularised." },
   { q: "Is the FLA return required every year?", a: "Yes. The annual return on foreign liabilities and assets is due by 15 July." },
   { q: "Can funds come from a related company that is not the investor?", a: "Not safely. Remit from the approved investor's own account, to match the approval and the bank records." },
+  { q: "Which FEMA filings follow a capital remittance from the Chinese parent?", a: "Reporting the receipt on FIRMS, allotment within 60 days, FC-GPR within 30 days of allotment and the yearly FLA return. Each is a FEMA requirement, and a missed FEMA deadline usually needs a late fee or compounding." },
+  { q: "Who signs the FEMA valuation?", a: "A Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant, under the FEMA pricing guidelines." },
 ]
 
 const relatedCards = [
@@ -50,7 +53,7 @@ export default function FundingAndFemaPage() {
         headline="Funding an Indian Subsidiary from China: Equity, Convertible Instruments, ECB Loans, SAFE Remittance and FC-GPR"
         description="How a Chinese parent funds an Indian subsidiary: equity pricing and valuation, compulsorily convertible instruments, external commercial borrowing, the Chinese SAFE step, inward remittance, FC-GPR and the 60-day and 30-day clocks."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-CN"
       />
@@ -66,7 +69,7 @@ export default function FundingAndFemaPage() {
       <GuideHero
         eyebrow="Money in: funding and FEMA"
         title="Funding an Indian Subsidiary from China: Equity, Convertible Instruments, ECB Loans, SAFE Remittance and FC-GPR"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -175,6 +178,23 @@ export default function FundingAndFemaPage() {
           calendar from the day funds are sent. See{" "}
           <Link href="/china-to-india/compliance-calendar" className="text-blue-800 font-semibold hover:underline">compliance calendar</Link>.
         </p>
+        <h2 id="fema-steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">FEMA steps for each capital round</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>The Indian bank issues the foreign inward remittance certificate and a KYC report on the remitter.</li>
+          <li>The receipt is reported on the RBI&apos;s FIRMS portal, where the company first registers.</li>
+          <li>Shares are allotted within 60 days, at no less than fair value under the FEMA pricing guidelines, certified by a Chartered Accountant, a SEBI-registered merchant banker or a practising cost accountant.</li>
+          <li>The return of allotment is filed with the Registrar within 30 days.</li>
+          <li>Form FC-GPR is filed on FIRMS within 30 days of allotment.</li>
+          <li>The FLA return reports the investment every year by 15 July.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Share capital has no legal minimum; most Chinese parents fund the first 12 to 18 months in one round, because every round repeats the FEMA steps. Remit from the shareholder named in the documents, in US dollars, so the bank&apos;s KYC report matches. A late FEMA report is usually regularised by a late submission fee; a missed allotment deadline needs compounding. Where Press Note 3 applies, the government approval must be in place before the money is sent.
+        </p>
+
+
+        <h2 id="cn-funding-sequence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping the two approvals in step</h2>
+        <p className="text-gray-700 mb-4">Plan the Chinese outbound investment filings and the Indian approval together, so that the remittance can be made promptly once both are in place and the Indian 60-day allotment clock starts on a date you control.</p>
+        <p className="text-gray-700 mb-4">Record the date the funds arrive in India, because the FEMA allotment and reporting clocks start from that date.</p>
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -224,7 +244,7 @@ export default function FundingAndFemaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Chinese
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Chinese
           rules change often; confirm current requirements before acting.
         </p>
       </article>

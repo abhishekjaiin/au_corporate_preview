@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Compare an Employer of Record with your own Indian subsidiary: speed, control, compliance, tax presence and when to convert. A guide for Japanese companies.",
     url: "https://www.theaucorp.com/japan-to-india/eor-vs-subsidiary",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "EOR vs Subsidiary in India: Right for a Japanese Company?",
     description:
       "Compare an Employer of Record with your own Indian subsidiary: speed, control, compliance, tax presence and when to convert. A guide for Japanese companies.",

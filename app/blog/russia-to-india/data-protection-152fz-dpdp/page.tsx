@@ -21,6 +21,7 @@ const toc = [
   { id: "flows", label: "Typical data flows in a Russia-India group" },
   { id: "steps", label: "Practical steps" },
   { id: "sector", label: "Sector rules" },
+  { id: "dpdp-rules", label: "The DPDP Rules 2025 timeline" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -49,7 +50,7 @@ export default function DataProtection152fzDpdpPage() {
         headline="Data Protection for Russian Groups in India: Localisation, Cross-Border Transfer Notification, the DPDP Act and Penalties of up to INR 250 crore"
         description="How Russia's personal data law (152-FZ), with its localisation rule and cross-border transfer notification, and India's Digital Personal Data Protection Act apply to a group with staff and customers in both: consent, notice, transfers, processors, breach notification and penalties."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -65,7 +66,7 @@ export default function DataProtection152fzDpdpPage() {
       <GuideHero
         eyebrow="Compliance: data protection"
         title="Data Protection for Russian Groups in India: Localisation, Cross-Border Transfer Notification, the DPDP Act and Penalties of up to INR 250 crore"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -167,6 +168,20 @@ export default function DataProtection152fzDpdpPage() {
           localisation requirements in some regulated sectors in both countries. Check your sector
           regulator&apos;s directions before moving data.
         </p>
+        <h2 id="dpdp-rules" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The DPDP Rules 2025 timeline</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India&apos;s Digital Personal Data Protection Act, 2023 (the DPDP Act) is being brought into force in stages by the DPDP Rules 2025, notified on 13 November 2025. The Data Protection Board provisions came first; the main duties for data fiduciaries, such as notice, consent, security safeguards and breach reporting, start on 13 May 2027.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Before May 2027:</strong> map what personal data the Indian company holds and where it goes, including transfers to Russia.</li>
+          <li><strong>Notices and consent:</strong> prepare DPDP notices in English and, where needed, other Indian languages.</li>
+          <li><strong>Security and breaches:</strong> set up the DPDP security safeguards and a breach reporting process.</li>
+          <li><strong>Cross-border transfers:</strong> the DPDP Act allows transfers abroad unless the government restricts a country, so watch for any notification.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Unlike the GDPR, the DPDP Act has no adequacy system; and unlike Russia&apos;s 152-FZ, it does not generally require personal data to be stored locally. A Russian group that complies with 152-FZ for data on Russian citizens still needs a separate DPDP programme for the Indian company&apos;s own data.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -215,7 +230,7 @@ export default function DataProtection152fzDpdpPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.theaucorp.com/australia-to-india/audit-icofr",
     locale: "en_AU",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Audit and ICOFR for Australian Companies",
     description:
       "Statutory audit, tax audit, GST audit and internal controls over financial reporting for an Indian subsidiary of an Australian group.",

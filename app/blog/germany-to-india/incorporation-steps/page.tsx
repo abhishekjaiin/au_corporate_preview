@@ -22,6 +22,13 @@ const toc = [
   { id: "indian-steps", label: "The Indian steps" },
   { id: "calendar", label: "Fitting it around German holidays and approvals" },
   { id: "pitfalls", label: "Where German incorporations stall" },
+  { id: "spice-detail", label: "Inside the SPICe+ incorporation filing" },
+  { id: "de-sequence", label: "The German document sequence" },
+  { id: "de-name", label: "Name approval and objects" },
+  { id: "de-after", label: "After the certificate of incorporation" },
+  { id: "de-office", label: "Digital signatures and DINs for German directors" },
+  { id: "de-timeline", label: "A realistic timeline" },
+  { id: "de-lead-times", label: "Lead times to plan for in Germany" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +42,10 @@ const faqs = [
   { q: "Do German directors need to travel to India?", a: "No. They sign with digital signatures." },
   { q: "Why approve the capital with the incorporation?", a: "So the 60-day allotment window is not delayed by a second approval." },
   { q: "What follows the certificate of incorporation?", a: "Bank account, capital, allotment, FC-GPR, auditor and registrations." },
+  { q: "What is name approval in India?", a: "The reservation of the company name through SPICe+ Part A; an approved name is held for 20 days." },
+  { q: "When are PAN and TAN issued?", a: "With the certificate of incorporation." },
+  { q: "Can a GmbH & Co. KG be the shareholder?", a: "Yes, but its tax treatment as a partnership needs a German review before it holds Indian shares." },
+  { q: "Do German directors need to travel to India?", a: "No. They sign digitally; some banks ask to meet a signatory by video when opening the account." },
 ]
 
 const relatedCards = [
@@ -52,7 +63,7 @@ export default function IncorporationStepsPage() {
         headline="Incorporating a Subsidiary in India from Germany: Who Does What, in What Order"
         description="A split plan for a German parent forming an Indian private limited company: what the German team does, what the Indian team does, SPICe+, bank account, FC-GPR and the first 180 days."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -68,7 +79,7 @@ export default function IncorporationStepsPage() {
       <GuideHero
         eyebrow="Setup: the step-by-step plan"
         title="Incorporating a Subsidiary in India from Germany: Who Does What, in What Order"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -179,6 +190,63 @@ export default function IncorporationStepsPage() {
           <li>A Handelsregister extract that has aged before filing.</li>
           <li>No resident director chosen when the forms are ready.</li>
         </ul>
+        <h2 id="spice-detail" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Inside the SPICe+ incorporation filing</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Element</th><th scope="col" className="border border-gray-300 p-3 text-left">What it covers</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part A: name approval</th><td className="border border-gray-300 p-3">Up to two names; an approved name is reserved for 20 days</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part B</th><td className="border border-gray-300 p-3">Registered office, share capital, subscribers, directors and DINs for up to three directors</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-MOA and e-AOA</th><td className="border border-gray-300 p-3">The memorandum (objects) and articles (internal rules)</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">AGILE-PRO-S</th><td className="border border-gray-300 p-3">GST, provident fund, ESI, professional tax and the bank account</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          PAN and TAN are issued with the certificate of incorporation. After incorporation: first board meeting and auditor within 30 days, shares allotted within 60 days of receiving capital, FC-GPR within 30 days of allotment, the commencement of business declaration within 180 days, and share certificates within two months.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The registered office fixes the state of incorporation. German companies most often choose Pune, Bengaluru or Chennai; a registered office service is enough to start, with a utility bill not older than two months and the owner&apos;s consent as proof.
+        </p>
+        <h2 id="de-sequence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The German document sequence</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Shareholder or management board resolution approving the Indian company.</li>
+          <li>Notarisation of the resolution and of the directors&apos; passports and address proofs.</li>
+          <li>A current Handelsregister extract from the register court.</li>
+          <li>Apostille from the competent Landgericht for each notarised document.</li>
+          <li>Sworn English translation of every German document, with the translation also covered where required.</li>
+          <li>Courier of originals to India and scans for the digital signatures.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Getting this order right is the single biggest factor in staying within 4 to 6 weeks. A document apostilled before translation, or a Handelsregister extract that is no longer current, is the usual cause of delay.
+        </p>
+
+        <h2 id="de-name" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Name approval and objects</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The name is reserved through SPICe+ Part A. Indian name approval rejects names too close to existing companies or registered trademarks. Many German groups use the group name followed by a descriptive word and &apos;India Private Limited&apos;. The objects in the memorandum should describe the Indian activity, for example engineering services or distribution of machinery, because banks and tax officers read them.
+        </p>
+
+        <h2 id="de-after" className="text-2xl font-bold text-gray-900 mt-12 mb-4">After the certificate of incorporation</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The certificate of incorporation carries the corporate identity number, and PAN and TAN are issued with it. The first board meeting appoints the auditor within 30 days, the bank account is opened, the GmbH remits the capital, shares are allotted within 60 days and FC-GPR follows within 30 days. The company also files its commencement of business declaration within 180 days. See <Link href="/germany-to-india/funding-and-fema" className="text-blue-800 font-semibold hover:underline">funding and FEMA</Link>.
+        </p>
+        <h2 id="de-office" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Digital signatures and DINs for German directors</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each director needs a digital signature certificate, issued against the apostilled passport and address proof, and a Director Identification Number. For up to three directors the DIN is allotted through SPICe+ itself; a director added later applies separately. German directors sign all Indian filings digitally, so there is no need to travel to India for the incorporation.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Keep the spelling of each name identical across the passport, the Handelsregister extract and the Indian forms, including umlauts written out (for example ue for ü), or the filing will be queried.
+        </p>
+        <h2 id="de-timeline" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A realistic timeline</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Allow one to two weeks in Germany for the resolution, notary, Landgericht apostille and sworn translations, a few days for courier, one to two weeks in India for digital signatures, name approval and the SPICe+ filing, and a further one to two weeks for the bank account. Four to six weeks in total is realistic when the documents are right the first time.
+        </p>
+
+
+        <h2 id="de-lead-times" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Lead times to plan for in Germany</h2>
+        <p className="text-gray-700 mb-4">Allow time for the Handelsregister extract, the notarisation of the shareholder resolution and the apostille from the Landgericht. Holiday periods in August and late December slow each step, so start the German paperwork early if you want the Indian company incorporated before the year end.</p>
+        <p className="text-gray-700 mb-4">A practical tip is to have the German documents checked in India in draft form before they are signed. Names must appear exactly as in the passports, the registered address of the German parent must match the Handelsregister extract and the shareholder resolution must name the nominee shareholder and the authorised signatory for the Indian filings. Correcting a draft takes a day, while correcting a notarised and apostilled document means repeating the notary appointment and the Landgericht step. German parents that follow this order usually complete their side of the incorporation within two to three weeks.</p>
+        <p className="text-gray-700 mb-4">Keep a second certified set for the Indian bank.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -223,7 +291,7 @@ export default function IncorporationStepsPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

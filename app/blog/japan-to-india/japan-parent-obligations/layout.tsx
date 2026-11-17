@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Japanese reporting that follows when you own an Indian subsidiary: CFC rules, dividend exemption, transfer pricing documentation, J-SOX and overseas reporting.",
     url: "https://www.theaucorp.com/japan-to-india/japan-parent-obligations",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Japanese Parent Reporting for an Indian Subsidiary",
     description:
       "Japanese reporting that follows when you own an Indian subsidiary: CFC rules, dividend exemption, transfer pricing documentation, J-SOX and overseas reporting.",

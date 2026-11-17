@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "What to do on receiving an Indian income tax, GST or transfer pricing notice: first steps, appeal routes, DRP, ITAT, MAP and Advance Pricing Agreements.",
     url: "https://www.theaucorp.com/usa-to-india/tax-notices-and-litigation",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Handling Indian Tax Notices for a US-Owned Subsidiary",
     description:
       "What to do on receiving an Indian income tax, GST or transfer pricing notice: first steps, appeal routes, DRP, ITAT, MAP and Advance Pricing Agreements.",

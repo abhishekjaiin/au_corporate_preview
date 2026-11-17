@@ -23,6 +23,8 @@ const toc = [
   { id: "labour-codes", label: "The labour codes" },
   { id: "share-plans", label: "Share plans for Indian employees" },
   { id: "eor", label: "Employer of Record as a first step" },
+  { id: "ctc", label: "Cost to company (CTC) and the Indian payroll" },
+  { id: "benefits", label: "Employee benefits Singapore companies usually offer in India" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -35,6 +37,8 @@ const faqs = [
   { q: "When did the labour codes come into force?", a: "The four labour codes were reported to have come into force on 21 November 2025. Rules and state implementation are still developing, so confirm the current position." },
   { q: "Can I give Indian employees shares in the Singapore parent?", a: "Yes, subject to the foreign investment rules for residents. They are taxed as a perquisite on exercise, and the employee reports foreign assets in the Indian return." },
   { q: "Is an Employer of Record a long-term solution?", a: "Not usually. It suits a pilot. For a stable team, a subsidiary gives control, brand and a clean legal position." },
+  { q: "Can the Indian payroll be outsourced?", a: "Yes. Many {a}-owned companies outsource payroll processing, statutory filings and payslips to an Indian firm, while HR decisions stay in-house." },
+  { q: "When must payroll deductions be deposited?", a: "Tax deducted through payroll by the 7th of the following month, and provident fund and ESI by the 15th." },
 ]
 
 const relatedCards = [
@@ -52,7 +56,7 @@ export default function HiringInIndiaPage() {
         headline="Hiring in India as a Singapore Employer: What Changes from Singapore Practice"
         description="A comparison for Singapore HR teams hiring in India: employment contracts, provident fund, ESI, gratuity, labour codes, notice and termination, payroll tax and share plans, set against Singapore practice."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -68,7 +72,7 @@ export default function HiringInIndiaPage() {
       <GuideHero
         eyebrow="People: hiring in India"
         title="Hiring in India as a Singapore Employer: What Changes from Singapore Practice"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -190,6 +194,40 @@ export default function HiringInIndiaPage() {
           if your staff start concluding contracts for the Singapore company, a permanent establishment may
           arise. Move to a subsidiary once you reach a stable headcount.
         </p>
+        <h2 id="ctc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Cost to company (CTC) and the Indian payroll</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian offers are quoted as an annual cost to company (CTC). Singapore HR teams should present offers the same way, because candidates compare on CTC, and the payroll then breaks it into its parts:
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">CTC component</th><th scope="col" className="border border-gray-300 p-3 text-left">Note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Basic salary</th><td className="border border-gray-300 p-3">Wages must be at least 50% of total remuneration under the labour codes</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Allowances</th><td className="border border-gray-300 p-3">House rent and other allowances, partly tax-free for the employee</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Employer provident fund</th><td className="border border-gray-300 p-3">12% of basic wages, often capped by policy</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Gratuity provision</th><td className="border border-gray-300 p-3">15 days&apos; wages per year of service, capped at ₹20 lakh, paid after five years</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Insurance and variable pay</th><td className="border border-gray-300 p-3">Group health cover and an annual bonus are usual</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Each month the payroll deducts income tax, employee provident fund and professional tax, deposits tax by the 7th and provident fund by the 15th, and pays wages by the 7th of the following month. Take-home pay is therefore well below CTC divided by twelve.
+        </p>
+        <h2 id="benefits" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Employee benefits Singapore companies usually offer in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          CPF and MediSave do not cover staff hired in India, so Singapore companies combine Indian statutory benefits with market-standard extras:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Statutory:</strong> provident fund (Singapore citizens are exempt under the CECA; others contribute), ESI for lower-paid staff, gratuity after five years, maternity benefit and paid leave.</li>
+          <li><strong>Group health insurance</strong> for the employee and family from an Indian insurer, issued to the Indian company or an employer of record.</li>
+          <li><strong>Group term life and personal accident cover</strong>, often a multiple of salary.</li>
+          <li><strong>Allowances</strong> for meals, internet and late shifts where teams support Singapore hours.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          See <Link href="/employee-benefits-in-india-for-foreign-companies" className="text-blue-800 font-semibold hover:underline">employee benefits in India for foreign companies</Link> for the full picture.
+        </p>
+
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -239,7 +277,7 @@ export default function HiringInIndiaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

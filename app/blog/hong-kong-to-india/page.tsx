@@ -29,7 +29,9 @@ const toc = [
   { id: "people", label: "People: hiring, visas and provident fund" },
   { id: "cost", label: "What it costs and how long it takes" },
   { id: "mistakes", label: "Six mistakes Hong Kong companies make" },
+  { id: "exit", label: "Selling, restructuring or closing the Indian subsidiary" },
   { id: "series", label: "The full guide series" },
+  { id: "hk-subsidiary-note", label: "A note on timing for Hong Kong parents" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -83,7 +85,7 @@ export default function HongKongToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Hong Kong: The 2026 Guide"
         description="How Hong Kong companies set up a subsidiary in India: Press Note 3 approval, structure, incorporation, FEMA filings, the India-Hong Kong tax treaty, documents, staff and compliance. By a Chartered Accountant."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         inLanguage="en-HK"
       />
 
@@ -97,7 +99,7 @@ export default function HongKongToIndiaHubPage() {
         eyebrow="Guide for Hong Kong companies"
         title="How to Set Up a Subsidiary in India from Hong Kong: The 2026 Guide"
         dek="Structure, incorporation, Press Note 3 approval, FEMA/RBI filings, the India-Hong Kong treaty and the Hong Kong apostille for Hong Kong companies entering India, in plain terms."
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -158,6 +160,7 @@ export default function HongKongToIndiaHubPage() {
         </div>
 
         <h2 id="approval" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Step one: government approval under Press Note 3</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">Need the approval handled for you? See our <Link href="/press-note-3-approval-india" className="text-blue-800 font-semibold hover:underline">Press Note 3 approval service</Link>.</p>
         <GuideAnswerBox>
           Approval comes before incorporation and funding. Plan the project around it.
         </GuideAnswerBox>
@@ -435,7 +438,7 @@ export default function HongKongToIndiaHubPage() {
           <strong>Indicative setup fee:</strong> AU Corporate&apos;s fee for setting up the subsidiary is USD
           750 to USD 1,000 for share capital up to ₹10 lakh (about HK$83,000 at an indicative ₹12.07 per Hong
           Kong dollar, 15 October 2026 rate). The costing depends on your plan, and it does not include the
-          Press Note 3 approval work, which depends on the sector and structure.
+          Press Note 3 approval work, which depends on the sector and structure. You get the best pricing, better work support and a free first consultation.
         </p>
 
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">
@@ -463,10 +466,32 @@ export default function HongKongToIndiaHubPage() {
           <Link href="/hong-kong-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">12 common mistakes</Link>.
         </p>
 
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling, restructuring or closing the Indian subsidiary</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A Hong Kong parent can exit by selling the Indian shares, by a buy-back, by a merger, or by closing the
+          company through voluntary liquidation or strike-off. Hong Kong generally does not tax capital gains, but gains
+          on Indian shares are taxed in India under the treaty, so the Indian tax is usually the main cost.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Tax rate.</strong> A long-term gain on unlisted shares held for more than 24 months is taxed at 12.5%.</li>
+          <li><strong>FEMA pricing.</strong> A purchase from a non-resident cannot be above fair value, and a sale to a non-resident cannot be below it.</li>
+          <li><strong>Reporting.</strong> The transfer is reported on Form FC-TRS within 60 days.</li>
+          <li><strong>Buyer approval.</strong> If the buyer, or its beneficial owner, is from a land-border country, Press Note 3 approval is needed before it can acquire the shares.</li>
+          <li><strong>Clearances.</strong> Obtain the tax clearances before the money leaves India.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The same steps apply when a group moves its Indian shares from Hong Kong to another holding company. See 
+          <Link href="/hong-kong-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">exit and restructuring for Hong Kong companies</Link>.
+        </p>
+
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="hk-subsidiary-note" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A note on timing for Hong Kong parents</h2>
+        <p className="text-gray-700 mb-4">Because approval comes before incorporation, plan the Indian subsidiary&apos;s launch, hiring and customer commitments around a realistic approval period rather than the four to six weeks a typical incorporation takes.</p>
+        <p className="text-gray-700 mb-4">Using the approval period to prepare documents, the business plan and the subsidiary&apos;s leadership team means the company can start operating soon after approval arrives.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate can help</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -548,7 +573,7 @@ export default function HongKongToIndiaHubPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

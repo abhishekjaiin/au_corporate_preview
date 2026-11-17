@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "What happens to Japanese pension, health and employment insurance when an employee is sent to India: the Certificate of Coverage and who pays what.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/japan-social-insurance-for-expats-in-india",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Japanese Social Insurance for Employees Sent to India",
     description:
       "What happens to Japanese pension, health and employment insurance when an employee is sent to India: the Certificate of Coverage and who pays what.",

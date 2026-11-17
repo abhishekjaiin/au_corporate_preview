@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "The India-US DTAA, the income tax treaty between the USA and India, explained: who qualifies, taxes covered, residency, relief from double tax and disputes.",
     url: "https://www.theaucorp.com/usa-to-india/tax-and-social-security-treaties/india-us-dtaa-guide",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-US DTAA: Tax Treaty Between the US and India Explained",
     description:
       "The India-US DTAA, the income tax treaty between the USA and India, explained: who qualifies, taxes covered, residency, relief from double tax and disputes.",

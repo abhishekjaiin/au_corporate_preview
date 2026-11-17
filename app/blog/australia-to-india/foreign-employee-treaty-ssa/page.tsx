@@ -25,6 +25,7 @@ const toc = [
   { id: "pe-link", label: "Permanent establishment and the 183-day service test" },
   { id: "australian-parent", label: "What this means for an Australian parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "ssa-steps", label: "Applying the social security agreement step by step" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -43,6 +44,8 @@ const faqs = [
   { q: "Can an Australian employee claim Indian tax paid against Australian tax?", a: "Yes, generally. An Australian resident can claim a foreign income tax offset for Indian tax paid on Indian-source income that is assessable in Australia (Division 770 of the Income Tax Assessment Act 1997), up to a cap. Confirm the position with an Australian tax adviser." },
   { q: "What happens to the provident fund when an Australian employee leaves India?", a: "For members covered by the agreement, the Employees’ Provident Fund Organisation rules allow withdrawal of the balance on leaving employment in an EPF-covered establishment. Confirm the withdrawal procedure and tax treatment at the time." },
   { q: "Are Indian employees sent to Australia covered by the same agreement?", a: "Yes. An Indian employer can obtain a certificate of coverage through the EPFO’s international worker process so that the employee stays in the Indian provident fund scheme and the employer is exempt from Australian superannuation guarantee for up to five years." },
+  { q: "Does the social security agreement cover Indian staff sent to Australia?", a: "Yes. It works both ways: an Indian employee posted to Australia can stay in Indian social security with an Indian certificate of coverage, and avoid Australian superannuation guarantee for the covered period." },
+  { q: "What social security applies after five years?", a: "Once the period covered by the certificate ends, the employee normally joins the social security system of the country where they work, unless an extension is agreed." },
 ]
 
 const relatedCards = [
@@ -60,7 +63,7 @@ export default function ForeignEmployeeTreatySsaPage() {
         headline="Treaty and Social Security for Australian Employees in India: Article 15 and the Social Security Agreement"
         description="How the India-Australia DTAA (Article 15) and the India-Australia Social Security Agreement apply to Australian employees working in India: the 183-day rule, Indian tax residency, certificates of coverage, provident fund and superannuation."
         datePublished="2026-10-15"
-        dateModified="2026-10-15"
+        dateModified="2026-11-13"
         isPartOfUrl={HUB_URL}
         inLanguage="en-AU"
       />
@@ -76,7 +79,7 @@ export default function ForeignEmployeeTreatySsaPage() {
       <GuideHero
         eyebrow="People: treaties for employees"
         title="Treaty and Social Security for Australian Employees in India: Article 15 and the Social Security Agreement"
-        updated="15 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -273,6 +276,17 @@ export default function ForeignEmployeeTreatySsaPage() {
           <li>Treating a local hire as an assignee, or the reverse.</li>
           <li>Missing the FRRO registration for a stay over 180 days.</li>
         </ul>
+        <h2 id="ssa-steps" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Applying the social security agreement step by step</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Apply to the ATO for a certificate of coverage before the employee leaves Australia.</li>
+          <li>Give the Indian company a copy so it does not enrol the employee in provident fund as an international worker.</li>
+          <li>Keep the certificate on the employee&apos;s Indian file for the duration of the assignment, up to five years.</li>
+          <li>If the assignment is extended beyond the period covered, apply for an extension or move the employee into Indian social security.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Without the certificate, the social security agreement does not apply, and Indian provident fund contributions are due on full wages.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -330,7 +344,7 @@ export default function ForeignEmployeeTreatySsaPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 15 October 2026. General information only, not legal or tax advice. Indian and Australian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Australian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

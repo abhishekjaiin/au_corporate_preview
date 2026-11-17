@@ -68,6 +68,17 @@ const included = [
 
 const countryGuides = [
   { label: "USA", href: "/usa-to-india" },
+  { label: "UK", href: "/uk-to-india" },
+  { label: "Australia", href: "/australia-to-india" },
+  { label: "Singapore", href: "/singapore-to-india" },
+  { label: "Germany", href: "/germany-to-india" },
+  { label: "Spain", href: "/spain-to-india" },
+  { label: "Japan", href: "/japan-to-india" },
+  { label: "China", href: "/china-to-india" },
+  { label: "Hong Kong", href: "/hong-kong-to-india" },
+  { label: "Russia", href: "/russia-to-india" },
+  { label: "UAE", href: "/uae-to-india" },
+  { label: "Europe", href: "/europe-to-india" },
 ]
 
 const afterLinks = [
@@ -154,7 +165,7 @@ export default function LiaisonOfficeRegistrationPage() {
               A foreign company can open a liaison office in India, to represent it and act as a communication channel without earning income, only with approval under FEMA. It applies in Form FNC through an authorised dealer bank, normally needing three years of profits and a net worth of USD 50,000, receives a Unique Identification Number, files Form FC-1 with the Registrar of Companies within 30 days, and then obtains PAN and TAN. Applicants from Sri Lanka need prior RBI approval. AU Corporate, a pan-India firm of Chartered Accountants and Company Secretaries serving foreign companies since 2016, handles the full process.
             </p>
             <p className="mt-3 text-sm text-gray-500">
-              Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 2 November 2026
+              Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 13 November 2026
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-10">
@@ -228,6 +239,16 @@ export default function LiaisonOfficeRegistrationPage() {
             </table>
           </div>
           <p className="text-sm text-gray-500 mt-4">Eligibility tests and conditions differ for each office. Our team confirms the right choice for your case.</p>
+        </div>
+      </section>
+
+      {/* AFTER APPROVAL */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">After Approval: The First Year of Your Liaison Office</h2>
+          <p className="text-gray-600 leading-relaxed mb-4">The approval letter is the start, not the end. In the first months the office needs a PAN and TAN, a bank account with the authorised dealer bank that processed the application, and registration under the local shops and establishments law where staff work. Running costs must be met only from money remitted by the head office through normal banking channels; the office cannot earn income in India or borrow locally.</p>
+          <p className="text-gray-600 leading-relaxed mb-4">Each year, after the financial year closes, the office files an Annual Activity Certificate from a chartered accountant with the authorised dealer bank, confirming that it carried out only the permitted activities. It also files Form 49C with the income tax department within 60 days of the year end, and its accounts are audited. Missing these filings is the most common reason renewals are delayed.</p>
+          <p className="text-gray-600 leading-relaxed">Approval is granted for a fixed period, typically three years, so renewal should be planned well ahead of expiry. If the office starts to need revenue in India, the usual next step is to convert to a <Link href="/branch-office-registration" className="text-blue-800 font-semibold hover:underline">branch office</Link> or set up a <Link href="/india-subsidiary-registration" className="text-blue-800 font-semibold hover:underline">subsidiary</Link>. Our <Link href="/compliance-calendar" className="text-blue-800 font-semibold hover:underline">compliance calendar</Link> lists the dates.</p>
         </div>
       </section>
 
@@ -329,7 +350,7 @@ export default function LiaisonOfficeRegistrationPage() {
           <h2 className="text-3xl font-bold mb-4 text-center text-gray-900">Questions Before You Start</h2>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-2">Straight answers to the questions foreign finance teams ask most about a liaison office in India.</p>
           <p className="text-sm text-gray-500 text-center">
-            Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 2 November 2026
+            Written and reviewed by <AuthorLink className="font-semibold text-gray-700 hover:underline" />, Chartered Accountant (All India Rank 44; ICAI Membership No. 544646) · Last reviewed: 13 November 2026
           </p>
           <p className="text-sm text-gray-500 text-center mb-10">This is general guidance based on Indian law and practice as at the date above. It is not advice for your specific case, and rules can change.</p>
           <div className="grid sm:grid-cols-2 gap-x-10">

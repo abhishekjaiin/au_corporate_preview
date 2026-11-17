@@ -22,6 +22,7 @@ const toc = [
   { id: "director", label: "Directors and the resident director" },
   { id: "costs", label: "Cost planning" },
   { id: "after", label: "After incorporation" },
+  { id: "spice-detail", label: "Inside the SPICe+ incorporation filing" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -51,7 +52,7 @@ export default function IncorporationStepsPage() {
         headline="How to Incorporate a Private Limited Company in India as a Hong Kong Parent: Approval, SPICe+, Bank Account and Post-Incorporation Filings"
         description="Step-by-step route for a Hong Kong parent to set up an Indian private limited company: Press Note 3 approval, name, SPICe+, DIN and DSC, resident director, PAN and TAN, bank account, capital inflow, FC-GPR and first filings."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-HK"
       />
@@ -67,7 +68,7 @@ export default function IncorporationStepsPage() {
       <GuideHero
         eyebrow="Setup: step by step"
         title="How to Incorporate a Private Limited Company in India as a Hong Kong Parent: Approval, SPICe+, Bank Account and Post-Incorporation Filings"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -177,6 +178,31 @@ export default function IncorporationStepsPage() {
           <li>Register for GST, professional tax and labour laws as needed.</li>
           <li>File FLA return by 15 July each year.</li>
         </ul>
+        <h2 id="spice-detail" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Inside the SPICe+ incorporation filing</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Element</th><th scope="col" className="border border-gray-300 p-3 text-left">What it covers</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part A: name approval</th><td className="border border-gray-300 p-3">Up to two names; an approved name is reserved for 20 days</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Part B</th><td className="border border-gray-300 p-3">Registered office, share capital, subscribers, directors and DINs for up to three directors</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">e-MOA and e-AOA</th><td className="border border-gray-300 p-3">The memorandum (objects) and articles (internal rules)</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">AGILE-PRO-S</th><td className="border border-gray-300 p-3">GST, provident fund, ESI, professional tax and the bank account</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          PAN and TAN are issued with the certificate of incorporation. After incorporation: first board meeting and auditor within 30 days, shares allotted within 60 days of receiving capital, FC-GPR within 30 days of allotment, the commencement of business declaration within 180 days, and share certificates within two months.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          The registered office fixes the state of incorporation. Hong Kong companies most often choose Mumbai, Bengaluru or the National Capital Region; a registered office service is enough to start, with a utility bill not older than two months and the owner&apos;s consent as proof.
+        </p>
+
+
+        <h2 id="hk-incorporation-plan" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A practical plan around the approval</h2>
+        <p className="text-gray-700 mb-4">Because approval comes first, Hong Kong parents get the best result by preparing everything else while the application is pending. Collect the Hong Kong company documents from the Companies Registry, prepare the board resolution, have the documents notarised and apostilled by the High Court, and arrange digital signatures for the directors. Choose the company name, the registered office and the resident director, and draft the memorandum and articles.</p>
+        <p className="text-gray-700 mb-4">When approval arrives, the incorporation filing can then be made within days rather than weeks. Check whether the approval letter imposes any conditions, such as limits on the business activity or reporting requirements, and build them into the company&apos;s compliance calendar from the first day.</p>
+        <p className="text-gray-700 mb-4">Also decide in advance who will hold the subsidiary&apos;s bank mandate and how payments will be approved, because the bank will ask for these details soon after incorporation. Preparing the board resolution for the bank account alongside the incorporation documents saves another round of signatures from Hong Kong.</p>
+        <p className="text-gray-700 mb-4">Keep a second certified set of documents for the bank.</p>
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -225,7 +251,7 @@ export default function IncorporationStepsPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Hong Kong
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Hong Kong
           rules change often; confirm current requirements before acting.
         </p>
       </article>

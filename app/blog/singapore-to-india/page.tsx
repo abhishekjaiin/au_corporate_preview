@@ -28,7 +28,11 @@ const toc = [
   { id: "people", label: "People: hiring, secondments and share plans" },
   { id: "cost", label: "What it costs and how long it takes" },
   { id: "mistakes", label: "Six mistakes Singapore companies make" },
+  { id: "ceca-table", label: "CECA, the tax treaty and company law" },
+  { id: "holdco", label: "Using a Singapore holding company for India" },
+  { id: "siac", label: "SIAC arbitration and enforcement in India" },
   { id: "series", label: "The full guide series" },
+  { id: "singapore-subsidiary-calendar", label: "The subsidiary's first-year calendar" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -81,7 +85,7 @@ export default function SingaporeToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Singapore: The 2026 Guide"
         description="How Singapore companies set up a subsidiary in India: structure, FDI rules, incorporation, FEMA filings, the India-Singapore tax treaty, holding companies, staff and compliance. By a Chartered Accountant."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         inLanguage="en-SG"
       />
 
@@ -95,7 +99,7 @@ export default function SingaporeToIndiaHubPage() {
         eyebrow="Guide for Singapore companies"
         title="How to Set Up a Subsidiary in India from Singapore: The 2026 Guide"
         dek="Structure, incorporation, FEMA/RBI filings, the India-Singapore treaty, CECA and holding structures for Singapore companies entering India, in plain terms."
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -410,7 +414,7 @@ export default function SingaporeToIndiaHubPage() {
         <p className="text-gray-600 leading-relaxed mb-4">
           <strong>Indicative setup fee:</strong> AU Corporate&apos;s fee for setting up the subsidiary is USD
           750 to USD 1,000 for share capital up to ₹10 lakh (about S$13,500 at an indicative ₹74.0 per Singapore
-          dollar on 21 October 2026). The costing depends on your plan.
+          dollar on 21 October 2026). The costing depends on your plan. You get the best pricing, better work support and a free first consultation.
         </p>
 
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">
@@ -438,10 +442,78 @@ export default function SingaporeToIndiaHubPage() {
           <Link href="/singapore-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">12 common mistakes</Link>.
         </p>
 
+        <h2 id="ceca-table" className="text-2xl font-bold text-gray-900 mt-12 mb-4">CECA, the tax treaty and company law: which one decides what</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Singapore companies often assume the CECA, in force since 2005 and India&apos;s first comprehensive agreement of
+          its kind, makes India entry easier across the board. In practice three different instruments each decide a
+          different question.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white">
+              <tr>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Question</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">What decides it</th>
+                <th scope="col" className="border border-gray-300 p-3 text-left">Position for a Singapore company</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Can we own 100% of an Indian company?</th><td className="border border-gray-300 p-3">FDI Policy and FEMA</td><td className="border border-gray-300 p-3">Yes in most sectors, on the Automatic Route; Press Note 3 applies only if a beneficial owner is from a country sharing a land border with India</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">How is the company formed and run?</th><td className="border border-gray-300 p-3">Companies Act, 2013</td><td className="border border-gray-300 p-3">Same rules as any foreign parent, including a resident director</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Withholding on dividends</th><td className="border border-gray-300 p-3">India-Singapore tax treaty</td><td className="border border-gray-300 p-3">10% with a holding of at least 25%; 15% otherwise</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Withholding on interest and royalties</th><td className="border border-gray-300 p-3">India-Singapore tax treaty</td><td className="border border-gray-300 p-3">Interest 10% for banks, 15% otherwise; royalties and technical fees 10%</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Gain on selling Indian shares</th><td className="border border-gray-300 p-3">Tax treaty, as amended by the Third Protocol</td><td className="border border-gray-300 p-3">Taxable in India for shares acquired on or after 1 April 2017</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Provident fund for staff sent to India</th><td className="border border-gray-300 p-3">CECA</td><td className="border border-gray-300 p-3">Singapore citizens are exempt from India&apos;s EPF, by nationality rather than a certificate</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Tariffs and services access</th><td className="border border-gray-300 p-3">CECA</td><td className="border border-gray-300 p-3">Preferential terms under the agreement&apos;s schedules; its third review has been open since 2018</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          See <Link href="/singapore-to-india/india-singapore-ceca" className="text-blue-800 font-semibold hover:underline">the India-Singapore CECA</Link>, 
+          <Link href="/singapore-to-india/india-singapore-dtaa" className="text-blue-800 font-semibold hover:underline">the India-Singapore DTAA</Link> 
+          and 
+          <Link href="/singapore-to-india/singapore-employees-in-india-epf-cpf" className="text-blue-800 font-semibold hover:underline">Singapore employees in India: EPF and CPF</Link>.
+        </p>
+
+        <h2 id="holdco" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Using a Singapore holding company for India</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Many groups, not only Singaporean ones, hold their Indian subsidiaries through Singapore. Singapore has no
+          capital gains tax and exempts the dividends it pays, and the treaty caps Indian withholding. The protection for
+          gains has narrowed, though: shares bought on or after 1 April 2017 are taxable in India on sale, and the
+          shell-company test in the treaty and the principal purpose test from the MLI can deny treaty benefits to a
+          holding company with little substance.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Works when</strong> the holdco has real management in Singapore, real spending and staff, and a commercial reason such as running a regional group.</li>
+          <li><strong>Does not work when</strong> it is a letterbox set up only to own Indian shares.</li>
+          <li><strong>Check also</strong> the Pillar Two top-up for in-scope groups and Singapore&apos;s foreign-sourced income exemption conditions for dividends received from India.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          The full analysis is in 
+          <Link href="/singapore-to-india/singapore-holdco-for-india" className="text-blue-800 font-semibold hover:underline">Singapore holding companies for India</Link>.
+          Groups from <Link href="/japan-to-india" className="text-blue-800 font-semibold hover:underline">Japan</Link>, 
+          <Link href="/usa-to-india" className="text-blue-800 font-semibold hover:underline">the USA</Link> and 
+          <Link href="/australia-to-india" className="text-blue-800 font-semibold hover:underline">Australia</Link> often use the same structure.
+        </p>
+
+        <h2 id="siac" className="text-2xl font-bold text-gray-900 mt-12 mb-4">SIAC arbitration and enforcement in India</h2>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          A Singapore parent can choose Singapore law and a Singapore-seated SIAC arbitration for its shareholder,
+          services and licence agreements. India has notified Singapore as a New York Convention territory, so an award
+          is enforceable here as a foreign award under Part II of the Arbitration and Conciliation Act, 1996. Singapore
+          court judgments can be enforced as decrees where Singapore is treated as a reciprocating territory for the court
+          that gave them. Indian mandatory law, FEMA and stamp duty still apply whatever law is chosen. See 
+          <Link href="/singapore-to-india/contracts-courts-siac" className="text-blue-800 font-semibold hover:underline">contracts, courts and SIAC</Link>.
+        </p>
+
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="singapore-subsidiary-calendar" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The subsidiary&apos;s first-year calendar</h2>
+        <p className="text-gray-700 mb-4">In its first year a Singapore-owned Indian subsidiary should hold its first board meeting and appoint an auditor within 30 days, allot shares and file Form FC-GPR after the capital arrives, declare commencement of business within 180 days and file the annual return on foreign liabilities and assets by 15 July. Plan Singapore and Indian year ends together if the parent closes on 31 December.</p>
+        <p className="text-gray-700 mb-4">Many Singapore groups also align the subsidiary&apos;s monthly reporting with the regional headquarters&apos; timetable, so Indian figures arrive with the rest of the region and the subsidiary is reviewed in the same management meeting.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate can help</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -524,7 +596,7 @@ export default function SingaporeToIndiaHubPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

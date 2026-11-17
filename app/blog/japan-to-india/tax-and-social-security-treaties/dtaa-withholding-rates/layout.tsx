@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Treaty rates for payments from India to Japan: 10% on dividends, interest, royalties and fees for technical services, against 20% domestic rates.",
     url: "https://www.theaucorp.com/japan-to-india/tax-and-social-security-treaties/dtaa-withholding-rates",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India-Japan DTAA Withholding Tax Rates: Payments to Japan",
     description:
       "Treaty rates for payments from India to Japan: 10% on dividends, interest, royalties and fees for technical services, against 20% domestic rates.",

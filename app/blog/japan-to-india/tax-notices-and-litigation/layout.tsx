@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "How a Japanese-owned Indian subsidiary should handle Indian income tax, GST and transfer pricing notices: deadlines, replies, appeals and the India-Japan MAP.",
     url: "https://www.theaucorp.com/japan-to-india/tax-notices-and-litigation",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Handling Indian Tax Notices for a Japanese-Owned Subsidiary",
     description:
       "How a Japanese-owned Indian subsidiary should handle Indian income tax, GST and transfer pricing notices: deadlines, replies, appeals and the India-Japan MAP.",

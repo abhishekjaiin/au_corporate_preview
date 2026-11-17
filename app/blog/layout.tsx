@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Insights and guides from AU Corporate on India market entry, taxation, compliance, and business advisory topics.",
     url: "https://www.theaucorp.com/blog",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "India Entry and Compliance Guides",
     description:
       "Insights and guides from AU Corporate on India market entry, taxation, compliance, and business advisory topics.",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "The eight steps to incorporate a wholly owned subsidiary in India from Japan: forms, order of steps, typical 4 to 6 week timeline and first 90 days.",
     url: "https://www.theaucorp.com/japan-to-india/incorporation-process",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Incorporating an Indian Subsidiary from Japan, Step by Step",
     description:
       "The eight steps to incorporate a wholly owned subsidiary in India from Japan: forms, order of steps, typical 4 to 6 week timeline and first 90 days.",

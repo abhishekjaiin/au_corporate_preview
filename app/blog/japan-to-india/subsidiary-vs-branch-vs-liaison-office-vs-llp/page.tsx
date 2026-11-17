@@ -23,6 +23,11 @@ const toc = [
   { id: "branch", label: "When a branch is considered" },
   { id: "llp", label: "Why Japanese groups rarely use an LLP" },
   { id: "decide", label: "Questions to settle before choosing" },
+  { id: "tax-numbers", label: "Indian tax on each option" },
+  { id: "setup-time", label: "Time to set up and yearly work" },
+  { id: "decision", label: "A decision guide for the head office" },
+  { id: "jv", label: "Joint ventures with Indian partners" },
+  { id: "jp-structure-examples", label: "How Japanese companies typically decide" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -36,6 +41,10 @@ const faqs = [
   { q: "Can a liaison office be converted into a subsidiary?", a: "Not directly. The subsidiary is incorporated, the business moves to it, and the liaison office is closed with RBI and Registrar filings." },
   { q: "Does Press Note 3 apply to Japanese investors?", a: "No, unless a beneficial owner in the Japanese company's chain is from a country sharing a land border with India." },
   { q: "Is an LLP a good option for a Japanese company?", a: "Rarely. Foreign investment in LLPs is limited to certain sectors and the Japanese tax treatment needs separate review." },
+  { q: "What is the tax rate for a Japanese-owned company in India?", a: "About 25.17% under the concessional regime, against about 36.4% to 38.22% for a branch office." },
+  { q: "Is a branch faster to open than a company?", a: "Usually not; a branch needs the AD bank to approve the Japanese company first." },
+  { q: "Which option is easiest to close?", a: "A liaison office or a company that never traded; a branch or trading company takes longer." },
+  { q: "Can a liaison office invoice Indian customers?", a: "No. It cannot earn any income in India." },
 ]
 
 const relatedCards = [
@@ -53,7 +62,7 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
         headline="Subsidiary vs. Branch vs. Liaison Office vs. LLP: Which Is Right for a Japanese Company in India?"
         description="Compare the four ways a Japanese company can enter India: wholly owned subsidiary, branch office, liaison office and LLP. Activities, approvals, tax and control."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -69,7 +78,7 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
       <GuideHero
         eyebrow="Enter: choose your structure"
         title="Subsidiary vs. Branch vs. Liaison Office vs. LLP: Which Is Right for a Japanese Company in India?"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -190,6 +199,57 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
           <li>How will profits return to Japan, as dividends or service fees?</li>
           <li>Is a joint venture partner likely later?</li>
         </ol>
+        <h2 id="tax-numbers" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Indian tax on each option</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Option</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax on profits</th><th scope="col" className="border border-gray-300 p-3 text-left">When profits go to Japan</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Private limited company</th><td className="border border-gray-300 p-3">About 25.17% under the concessional regime</td><td className="border border-gray-300 p-3">10% on dividends under the treaty; 95% of the dividend exempt in Japan for a qualifying holding</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">LLP</th><td className="border border-gray-300 p-3">30% plus surcharge and cess, up to about 34.94%</td><td className="border border-gray-300 p-3">No further Indian tax on the profit share</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Branch office</th><td className="border border-gray-300 p-3">35% plus surcharge and cess, about 36.4% to 38.22%</td><td className="border border-gray-300 p-3">No Indian tax on remitting net profit</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Liaison office</th><td className="border border-gray-300 p-3">No income allowed</td><td className="border border-gray-300 p-3">Not applicable</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          On ₹3 crore of profit, the company route leaves about ₹2.25 crore after Indian corporate tax; a branch leaves about ₹1.85 to 1.9 crore. Even after 10% dividend tax, the company route is ahead, and Japan&apos;s foreign dividend exemption keeps most of the dividend out of Japanese tax.
+        </p>
+
+        <h2 id="setup-time" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Time to set up and yearly work</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Option</th><th scope="col" className="border border-gray-300 p-3 text-left">Typical time to open</th><th scope="col" className="border border-gray-300 p-3 text-left">Yearly work</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Private limited company</th><td className="border border-gray-300 p-3">4 to 6 weeks from complete Japanese documents</td><td className="border border-gray-300 p-3">Audit, AGM, ROC returns, tax return, FEMA reports, payroll, GST</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Branch office</th><td className="border border-gray-300 p-3">6 to 10 weeks or more, including AD bank approval of the Japanese company</td><td className="border border-gray-300 p-3">Annual Activity Certificate, Forms FC-3 and FC-4, tax return, transfer pricing</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Liaison office</th><td className="border border-gray-300 p-3">6 to 10 weeks or more</td><td className="border border-gray-300 p-3">Annual Activity Certificate and ROC forms; renewal after about three years</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Japanese head offices sometimes expect an office to be faster to open than a company. In India it is usually the other way round, because the AD bank must first review the Japanese company&apos;s own track record. See <Link href="/branch-office-registration" className="text-blue-800 font-semibold hover:underline">branch office registration</Link> and <Link href="/liaison-office-registration" className="text-blue-800 font-semibold hover:underline">liaison office registration</Link>.
+        </p>
+
+        <h2 id="decision" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A decision guide for the head office</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>No Indian revenue planned for two or three years? A liaison office for market research.</li>
+          <li>A single plant or infrastructure contract? A project office.</li>
+          <li>Hiring, sales, manufacturing or a development centre? A private limited company.</li>
+          <li>An Indian partner bringing customers or licences? A joint venture company.</li>
+          <li>The business must sit inside the Japanese legal entity, and the KK meets the five-year profit and USD 100,000 net worth tests? Only then a branch.</li>
+        </ol>
+        <h2 id="jv" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Joint ventures with Indian partners</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A joint venture company has an Indian shareholder alongside the Japanese parent. It suits manufacturing and distribution businesses that need a partner&apos;s customers, land or licences. The shareholders&apos; agreement should cover board seats, reserved matters, technology licensing, funding, deadlock and exit, and be reflected in the articles.
+        </p>
+
+
+
+        <h2 id="jp-structure-examples" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Japanese companies typically decide</h2>
+        <p className="text-gray-700 mb-4">In practice, Japanese trading houses and manufacturers often begin with a liaison office to study the market and build relationships, then form a private limited company when they are ready to sell, manufacture or hire. Technology and services companies usually go straight to a company because they need to employ staff and invoice from the start. Branches are mainly used by banks, construction companies and others whose regulators or customers expect to deal with the head office itself.</p>
+        <p className="text-gray-700 mb-4">Whichever path is chosen, it helps to agree at the outset the milestones that would trigger a change, such as a first customer order or a headcount number, so the head office can approve the next step without starting the analysis again.</p>
+        <p className="text-gray-700 mb-4">Including these milestones in the original ringi document is often the most useful step, because it means the head office has already agreed in principle to the next stage and only needs to confirm that the trigger has been met.</p>
+        <p className="text-gray-700 mb-4">Revisit the milestones once a year with the head office.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -235,7 +295,7 @@ export default function SubsidiaryVsBranchVsLiaisonOfficeVsLlpPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

@@ -22,6 +22,7 @@ const toc = [
   { id: "guides", label: "The guides in this series" },
   { id: "japanese-parent", label: "What this means for a Japanese parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "how-to-use", label: "How to use these guides" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -64,7 +65,7 @@ export default function TaxAndSocialSecurityTreatiesPage() {
         headline="India-Japan Tax Treaty and Social Security Agreement: The Complete Guide for Japanese Companies and Expats"
         description="The India-Japan tax treaty (DTAA) and Social Security Agreement for Japanese companies and expats: 10% treaty rates, residency, EPF and pensions."
         datePublished="2026-10-20"
-        dateModified="2026-10-20"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -80,7 +81,7 @@ export default function TaxAndSocialSecurityTreatiesPage() {
       <GuideHero
         eyebrow="Treaties: tax and social security"
         title="India-Japan Tax Treaty and Social Security Agreement: The Complete Guide for Japanese Companies and Expats"
-        updated="20 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -215,6 +216,11 @@ export default function TaxAndSocialSecurityTreatiesPage() {
           <li>Assuming the agreement covers health insurance.</li>
           <li>Moving the employee onto the Indian subsidiary&apos;s payroll and losing the detached worker position.</li>
         </ul>
+        <h2 id="how-to-use" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How to use these guides</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Start with the agreement that matches your question. For tax on payments from India, read the DTAA guide and the documents guide. For employees moving between Japan and India, read the social security agreement guide, then the provident fund and Japanese social insurance guides, then the residency guide. Each page has a worked example and the forms you will need.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -278,7 +284,7 @@ export default function TaxAndSocialSecurityTreatiesPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 20 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

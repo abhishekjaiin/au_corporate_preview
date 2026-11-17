@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Compare the four ways a Japanese company can enter India: wholly owned subsidiary, branch office, liaison office and LLP.",
     url: "https://www.theaucorp.com/japan-to-india/subsidiary-vs-branch-vs-liaison-office-vs-llp",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Subsidiary, Branch, Liaison or LLP: Japan",
     description:
       "Compare the four ways a Japanese company can enter India: wholly owned subsidiary, branch office, liaison office and LLP.",

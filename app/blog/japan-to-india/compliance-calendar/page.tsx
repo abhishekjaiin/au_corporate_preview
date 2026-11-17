@@ -22,6 +22,7 @@ const toc = [
   { id: "year", label: "The annual cycle against a Japanese year end" },
   { id: "events", label: "Event-driven filings" },
   { id: "parent-dates", label: "Dates the Japanese parent should hold" },
+  { id: "compliance-owner", label: "Making compliance routine" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -52,7 +53,7 @@ export default function ComplianceCalendarPage() {
         headline="Compliance Calendar for an Indian Subsidiary: What Is Due and When"
         description="The yearly compliance calendar of an Indian subsidiary owned by a Japanese company: monthly, quarterly and annual filings, mapped to a 31 March parent year-end."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -68,7 +69,7 @@ export default function ComplianceCalendarPage() {
       <GuideHero
         eyebrow="Operate: compliance"
         title="Compliance Calendar for an Indian Subsidiary: What Is Due and When"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -208,6 +209,11 @@ export default function ComplianceCalendarPage() {
           <li>Transfer pricing true-up dates, so year-end adjustments are invoiced before the books close.</li>
           <li>The renewal dates of Certificates of Coverage for seconded staff.</li>
         </ul>
+        <h2 id="compliance-owner" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Making compliance routine</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian compliance runs on fixed dates that do not move for internal approvals. Japanese groups that do well appoint one compliance owner in India, keep a shared compliance calendar that maps each Indian date to the head office&apos;s own cycle, and receive a short monthly compliance report. The report lists what was filed, what was paid and what is due, so the head office can approve items before the deadline rather than after it.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -253,7 +259,7 @@ export default function ComplianceCalendarPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

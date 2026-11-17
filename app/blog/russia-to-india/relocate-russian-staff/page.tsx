@@ -22,6 +22,9 @@ const toc = [
   { id: "family", label: "Family and dependants" },
   { id: "money", label: "Banking and personal money" },
   { id: "leaving", label: "Leaving India" },
+  { id: "tax-residency", label: "Tax residency in the first year" },
+  { id: "first-month", label: "The first month in India: a checklist" },
+  { id: "ru-relocation-money", label: "Personal banking for relocated staff" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -31,10 +34,11 @@ const faqs = [
   { q: "Is there a minimum salary for the Employment Visa?", a: "Yes, USD 25,000 a year, with limited exceptions." },
   { q: "Do Russian nationals need security clearance?", a: "Not by nationality; Russia does not share a land border with India." },
   { q: "When is FRRO registration required?", a: "Within 14 days of arrival, for stays over 180 days." },
-  { q: "Can a Russian employee work on a business visa?", a: "No. Business visas cover meetings and negotiations, not productive work." },
+  { q: "Can a Russian employee work on a business visa?", a: "No. That category covers meetings and negotiations, not productive work." },
   { q: "Do Russian bank cards work in India?", a: "Often not, so the employer should plan initial expenses in India." },
-  { q: "Can families join?", a: "Yes, on dependant visas linked to the employment visa." },
+  { q: "Can families join?", a: "Yes, on dependant status linked to the employee's own permission to stay." },
   { q: "Is Indian tax due from the first day?", a: "Yes, on salary for work done in India." },
+  { q: "When does a Russian employee become tax resident in India?", a: "Usually after 182 days in an Indian financial year, which runs from 1 April to 31 March." },
 ]
 
 const relatedCards = [
@@ -52,7 +56,7 @@ export default function RelocateRussianStaffPage() {
         headline="Moving Russian Employees to India: Employment Visa, FRRO Registration, Dependants and Practicalities"
         description="How to relocate Russian staff to an Indian subsidiary: e-visa and business visa limits, employment visa and the salary floor, FRRO registration within 14 days for stays over 180 days, dependants, tax and exit."
         datePublished="2026-10-26"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -68,7 +72,7 @@ export default function RelocateRussianStaffPage() {
       <GuideHero
         eyebrow="People: relocation"
         title="Moving Russian Employees to India: Employment Visa, FRRO Registration, Dependants and Practicalities"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -163,6 +167,42 @@ export default function RelocateRussianStaffPage() {
           <li>Settle provident fund withdrawal or transfer as the rules allow.</li>
           <li>Close Indian bank accounts or convert them to non-resident accounts.</li>
         </ul>
+        <h2 id="tax-residency" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Tax residency in the first year</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A Russian employee usually becomes resident in India for tax after 182 days in an Indian financial year, which runs from 1 April to 31 March. The arrival date therefore matters: someone arriving in October may stay non-resident for the first Indian year and become resident in the second.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Status</th><th scope="col" className="border border-gray-300 p-3 text-left">What India taxes</th><th scope="col" className="border border-gray-300 p-3 text-left">Practical effect</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Non-resident</th><td className="border border-gray-300 p-3">Only income earned or received in India, mainly the Indian salary</td><td className="border border-gray-300 p-3">Russian income stays outside Indian tax</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Resident but not ordinarily resident</th><td className="border border-gray-300 p-3">Indian income, plus foreign income only in limited cases</td><td className="border border-gray-300 p-3">Common in the first two years after arrival</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Resident and ordinarily resident</th><td className="border border-gray-300 p-3">Worldwide income, with credit for Russian tax under the treaty</td><td className="border border-gray-300 p-3">Russian rental income, interest and gains must be declared in India</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Russia generally treats a person as tax resident after 183 days in Russia in a 12-month period, so an employee who moves to India for a full year often stops being Russian resident. That changes the Russian tax rate on any Russian income. Confirm both positions before the move; see <Link href="/russia-to-india/russian-employees-in-india" className="text-blue-800 font-semibold hover:underline">Russian employees in India</Link> for the employer&apos;s side.
+        </p>
+
+        <h2 id="first-month" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The first month in India: a checklist</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Register with the FRRO online within 14 days of arrival if the stay is longer than 180 days.</li>
+          <li>Obtain a PAN so the employer can deduct tax at normal rates instead of the higher no-PAN rate.</li>
+          <li>Open an Indian salary account; banks ask for the passport, the FRRO registration and the employment letter.</li>
+          <li>Sign a lease; landlords often ask for several months&apos; deposit, which the employer may advance.</li>
+          <li>Enrol with the provident fund as an international worker and give the employer bank details for salary.</li>
+          <li>Keep copies of every document for the annual FRRO extension and for leaving India.</li>
+        </ol>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Moving personal money from Russia is often the hardest part. Plan enough funds outside Russia for the first weeks, and agree with the employer whether a relocation allowance will be paid in India. Our <Link href="/payroll-expat-services" className="text-blue-800 font-semibold hover:underline">payroll and expat services</Link> cover the Indian side.
+        </p>
+
+
+        <h2 id="ru-relocation-money" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Personal banking for relocated staff</h2>
+        <p className="text-gray-700 mb-4">Relocated Russian employees often find it hard to use Russian cards in India, so arrange salary payment into an Indian bank account from the first month and plan how they will pay for housing deposits and other costs before their account is open.</p>
+        <p className="text-gray-700 mb-4">Agree in advance how the assignment will end, including the final Indian tax return, the closing of Indian bank accounts and the exit formalities with the immigration authorities, so that the employee can leave India without delay when the posting finishes.</p>
+        <p className="text-gray-700 mb-4">Put these points in the assignment letter.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -206,7 +246,7 @@ export default function RelocateRussianStaffPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

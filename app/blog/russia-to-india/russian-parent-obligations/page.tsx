@@ -22,6 +22,7 @@ const toc = [
   { id: "tax", label: "Tax on income from India" },
   { id: "data", label: "Data and technology" },
   { id: "sequence", label: "Order of work" },
+  { id: "group-reporting", label: "Group reporting the Russian parent feeds in India" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -50,7 +51,7 @@ export default function RussianParentObligationsPage() {
         headline="What a Russian Parent Must Do at Home: Outbound Investment Controls, Currency Rules, Foreign Account Reporting and Tax Credit"
         description="The Russian-side steps for a parent investing in India: Bank of Russia thresholds and approval for share investments abroad, currency control and repatriation rules, foreign account reporting, controlled foreign company rules, profit tax and treatment of Indian dividends."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-RU"
       />
@@ -66,7 +67,7 @@ export default function RussianParentObligationsPage() {
       <GuideHero
         eyebrow="Russian side: parent duties"
         title="What a Russian Parent Must Do at Home: Outbound Investment Controls, Currency Rules, Foreign Account Reporting and Tax Credit"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -171,6 +172,17 @@ export default function RussianParentObligationsPage() {
           use the same ownership chart and funds plan. Do not remit funds before the Russian clearance and
           Indian bank approval are in place.
         </p>
+        <h2 id="group-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Group reporting the Russian parent feeds in India</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>Ultimate beneficial owner.</strong> The Indian company records its significant beneficial owners with the Registrar, and the bank keeps its own beneficial ownership declaration; the Russian parent must give the full chain.</li>
+          <li><strong>Master file.</strong> Where the group&apos;s revenue exceeds ₹500 crore and Indian international transactions exceed ₹50 crore, the Indian company files the master file (Form 3CEAA under the old numbering), using information the parent provides.</li>
+          <li><strong>CbCR.</strong> Country-by-country reporting applies at consolidated group revenue of ₹6,400 crore or more; the parent&apos;s report or a local filing may be needed in India.</li>
+          <li><strong>Group accounts.</strong> The parent consolidates the Indian company on the calendar year, so it needs Indian figures re-cut from the 31 March year.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          These are parent-driven filings: the Indian company cannot complete them without information from Moscow. Agree a yearly information request, and see <Link href="/russia-to-india/transfer-pricing" className="text-blue-800 font-semibold hover:underline">transfer pricing between India and Russia</Link>.
+        </p>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -219,7 +231,7 @@ export default function RussianParentObligationsPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

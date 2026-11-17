@@ -20,6 +20,8 @@ const toc = [
   { id: "form41", label: "Filing Form 41 in India" },
   { id: "tests", label: "Beneficial ownership and anti-abuse" },
   { id: "routine", label: "A routine for recurring payments" },
+  { id: "form-10f", label: "Form 41, formerly Form 10F: what changed" },
+  { id: "jp-documents-calendar", label: "A calendar for renewing the documents" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -33,6 +35,7 @@ const faqs = [
   { q: "Does a regional holding company change the position?", a: "It can. The treaty then depends on that company's own residence and beneficial ownership, so the structure needs review." },
   { q: "Can the Japanese parent file Form 41 without an Indian PAN?", a: "The portal requires a PAN or a non-resident registration, so the parent usually obtains one." },
   { q: "Which payments benefit from the 10% rate?", a: "Dividends, interest, royalties and fees for technical services paid to a Japanese resident beneficial owner." },
+  { q: "Is Form 10F still needed?", a: "Its replacement, Form 41, is. The content and purpose are the same as the former Form 10F." },
 ]
 
 const relatedCards = [
@@ -50,7 +53,7 @@ export default function TreatyBenefitsDocumentsPage() {
         headline="How to Claim India-Japan Treaty Benefits: Certificate of Residence, Form 41 and Beneficial Ownership"
         description="Documents a Japanese company needs to claim India-Japan treaty rates: certificate of residence, Form 41 (previously Form 10F) and no-PE declaration."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -67,7 +70,7 @@ export default function TreatyBenefitsDocumentsPage() {
       <GuideHero
         eyebrow="Treaties: claiming relief"
         title="How to Claim India-Japan Treaty Benefits: Certificate of Residence, Form 41 and Beneficial Ownership"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -163,6 +166,15 @@ export default function TreatyBenefitsDocumentsPage() {
           <li>Check each payment type against the treaty article that applies.</li>
           <li>Prepare Forms 145 and 146 with the treaty rate stated.</li>
         </ol>
+        <h2 id="form-10f" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Form 41, formerly Form 10F: what changed</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Under the Income-tax Act, 2025, Form 10F has been renumbered as Form 41. The content is the same: the recipient&apos;s status, nationality, tax identification number, residence period and address, filed electronically on the Indian tax portal. Payers still sometimes ask for Form 10F by its old name; a Form 41 filed online meets the same requirement.
+        </p>
+
+
+        <h2 id="jp-documents-calendar" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A calendar for renewing the documents</h2>
+        <p className="text-gray-700 mb-4">Certificates of residence usually cover a single year, and Form 41 (the old Form 10F) should match the period of each certificate. Diary the renewal a month before the period ends so that the Indian company never has to withhold at the higher domestic rate while documents are pending.</p>
+        <p className="text-gray-700 mb-4">Keep scanned copies of every Form 10F or Form 41 submission and certificate in the payment folder for the year, so the Indian finance team can show reviewers which documents supported each reduced rate.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -207,7 +219,7 @@ export default function TreatyBenefitsDocumentsPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

@@ -22,6 +22,10 @@ const toc = [
   { id: "statutory", label: "Statutory contributions" },
   { id: "cycle", label: "The monthly payroll cycle" },
   { id: "japanese-practice", label: "Japanese practices that need rethinking" },
+  { id: "ctc", label: "Cost to company (CTC): how Indian salaries are quoted" },
+  { id: "leave", label: "Leave, holidays and gratuity" },
+  { id: "probation", label: "Probation and notice" },
+  { id: "jp-payroll-reporting", label: "Reporting payroll to the head office" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +39,9 @@ const faqs = [
   { q: "Is at-will employment possible in India?", a: "No. Termination follows the contract, notice and the procedures in the labour codes." },
   { q: "When is tax on salaries deposited?", a: "By the 7th of the following month, with quarterly TDS returns." },
   { q: "Do the labour codes change salary structures?", a: "Yes. Wages must be at least 50% of total pay for provident fund and gratuity, so allowance-heavy structures may need changing." },
+  { q: "What does CTC mean?", a: "Cost to company: the employer's total annual cost, including employer provident fund, gratuity provision and benefits." },
+  { q: "When are salaries paid in India?", a: "Generally by the 7th of the following month under the labour codes, or earlier under the contract." },
+  { q: "Are seniority-based increases common in India?", a: "Less than in Japan. Indian increases are usually annual and performance-linked, and the market moves quickly for skilled staff." },
 ]
 
 const relatedCards = [
@@ -52,7 +59,7 @@ export default function HiringAndPayrollPage() {
         headline="Hiring and Payroll in India for Japanese Companies: Contracts, PF, ESI and Gratuity"
         description="How Japanese companies hire in India: employment contracts, provident fund, ESI, gratuity, professional tax, payroll steps and India's labour codes."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -68,7 +75,7 @@ export default function HiringAndPayrollPage() {
       <GuideHero
         eyebrow="Launch: people and payroll"
         title="Hiring and Payroll in India for Japanese Companies: Contracts, PF, ESI and Gratuity"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -178,6 +185,42 @@ export default function HiringAndPayrollPage() {
           <li>Twice-yearly bonuses: possible, but statutory bonus rules and the wage definition affect how they are structured.</li>
           <li>Lifetime employment expectations: Indian employees change jobs more often, so retention plans matter early.</li>
         </ul>
+        <h2 id="ctc" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Cost to company (CTC): how Indian salaries are quoted</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Component</th><th scope="col" className="border border-gray-300 p-3 text-left">Note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Basic salary</th><td className="border border-gray-300 p-3">Wages must be at least 50% of total remuneration under the labour codes</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">House rent and other allowances</th><td className="border border-gray-300 p-3">Partly tax-free depending on the employee</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Employer provident fund</th><td className="border border-gray-300 p-3">12% of basic wages, often capped by policy</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Gratuity provision</th><td className="border border-gray-300 p-3">Accrued yearly; paid after five years</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Health insurance</th><td className="border border-gray-300 p-3">Expected in most offers</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Variable pay</th><td className="border border-gray-300 p-3">Annual bonus or incentive</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Japanese HR teams used to monthly salary plus twice-yearly bonuses should present Indian offers as an annual CTC, which is how candidates compare them. Take-home pay is lower than CTC divided by twelve.
+        </p>
+
+        <h2 id="leave" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Leave, holidays and gratuity</h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Three national holidays plus state festival holidays.</li>
+          <li>Earned and sick leave minimums from the state shops and establishments law.</li>
+          <li>26 weeks of paid maternity leave for eligible employees.</li>
+          <li>Gratuity of 15 days&apos; wages per year of service on 26 working days a month, capped at ₹20 lakh, after five years (one year for fixed-term staff).</li>
+        </ul>
+        <h2 id="probation" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Probation and notice</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Indian contracts usually set a probation period of three to six months, with a shorter notice period during probation and one to three months afterwards. Both sides normally serve the notice, and early release is often agreed with a payment in lieu.
+        </p>
+
+
+
+        <h2 id="jp-payroll-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reporting payroll to the head office</h2>
+        <p className="text-gray-700 mb-4">Japanese parents usually ask for payroll data in their own format and on their own timetable. Agree a monthly summary with headcount, gross salary, employer provident fund and insurance contributions, bonuses and overtime, converted to yen at an agreed rate. Keep the statutory registers in India separately. Send the summary in English, and in Japanese where the head office prefers, by a fixed day each month so it can be used in the parent&apos;s management reporting and in the cost base for intercompany charges.</p>
+        <p className="text-gray-700 mb-4">Agree in advance how bonuses and salary revisions in April will be reflected, because Indian revisions usually take effect at the start of the Indian financial year, which is also the Japanese year for most parents.</p>
+        <p className="text-gray-700 mb-4">Keep the format stable from month to month.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -222,7 +265,7 @@ export default function HiringAndPayrollPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

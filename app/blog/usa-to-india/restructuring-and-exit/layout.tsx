@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Options to restructure, sell, merge or close an Indian subsidiary: share sale, slump sale, merger, buyback, strike-off and liquidation, with tax and RBI steps.",
     url: "https://www.theaucorp.com/usa-to-india/restructuring-and-exit",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Restructuring, Mergers and Exit for an Indian Subsidiary",
     description:
       "Options to restructure, sell, merge or close an Indian subsidiary: share sale, slump sale, merger, buyback, strike-off and liquidation, with tax and RBI steps.",

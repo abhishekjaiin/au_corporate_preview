@@ -22,6 +22,7 @@ const toc = [
   { id: "dpdp", label: "India: the DPDP Act and Rules" },
   { id: "compare", label: "A comparison" },
   { id: "plan", label: "A build plan for one privacy programme" },
+  { id: "dpdp-rules", label: "The DPDP Rules 2025 timeline" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -50,7 +51,7 @@ export default function DataProtectionGdprDpdpPage() {
         headline="Moving Personal Data Between Germany and India: GDPR Transfer Rules, Works Councils and the DPDP Act"
         description="How the GDPR and India's Digital Personal Data Protection Act apply when a German company has an Indian subsidiary: standard contractual clauses, transfer impact assessments, employee data, works council rights, breach notice and penalties."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-DE"
       />
@@ -66,7 +67,7 @@ export default function DataProtectionGdprDpdpPage() {
       <GuideHero
         eyebrow="Data: GDPR and DPDP"
         title="Moving Personal Data Between Germany and India: GDPR Transfer Rules, Works Councils and the DPDP Act"
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -183,6 +184,17 @@ export default function DataProtectionGdprDpdpPage() {
           <li>Update notices and consent flows for Indian individuals before 13 May 2027.</li>
           <li>Train the Indian team and run a tabletop breach exercise.</li>
         </ol>
+        <h2 id="dpdp-rules" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The DPDP Rules 2025 timeline</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India&apos;s Digital Personal Data Protection Act, 2023 (the DPDP Act) is coming into force in stages under the DPDP Rules 2025, notified on 13 November 2025. The Data Protection Board provisions came first; the main duties of a Data Fiduciary, including notice, consent, security safeguards and breach reporting, start on 13 May 2027.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Map personal data held by the Indian company and every flow abroad before May 2027.</li>
+          <li>Prepare DPDP notices and consent records for Indian customers and staff.</li>
+          <li>Set up DPDP security safeguards and a breach response plan.</li>
+          <li>Watch for any government notification restricting transfers to particular countries; the DPDP Act otherwise allows transfers abroad, including to the German group.</li>
+        </ul>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -232,7 +244,7 @@ export default function DataProtectionGdprDpdpPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and German
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and German
           rules change often; confirm current requirements before acting.
         </p>
       </article>

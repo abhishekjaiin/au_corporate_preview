@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Monthly accounting, head office reconciliation, TDS and GST workings, US GAAP or IFRS reporting and audit support for the India branch of a foreign company.",
     url: "https://www.theaucorp.com/branch-office-accounting-audit",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Accounting and Audit Support for Branch Offices in India",
     description:
       "Monthly accounting, head office reconciliation, TDS and GST workings, US GAAP or IFRS reporting and audit support for the India branch of a foreign company.",

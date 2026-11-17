@@ -30,7 +30,9 @@ const toc = [
   { id: "people", label: "People: hiring, visas and provident fund" },
   { id: "cost", label: "What it costs and how long it takes" },
   { id: "mistakes", label: "Six mistakes Russian companies make" },
+  { id: "exit", label: "Selling, restructuring or closing the Indian subsidiary" },
   { id: "series", label: "The full guide series" },
+  { id: "russia-subsidiary-checks", label: "Three checks before you commit" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -84,7 +86,7 @@ export default function RussiaToIndiaHubPage() {
         headline="How to Set Up a Subsidiary in India from Russia: The 2026 Guide"
         description="How Russian companies set up a subsidiary in India: FDI route, sanctions and banking, structure, incorporation, FEMA filings, the India-Russia tax treaty, documents, staff and compliance. By a Chartered Accountant."
         datePublished="2026-10-26"
-        dateModified="2026-10-26"
+        dateModified="2026-11-13"
         inLanguage="en-RU"
       />
 
@@ -98,7 +100,7 @@ export default function RussiaToIndiaHubPage() {
         eyebrow="Guide for Russian companies"
         title="How to Set Up a Subsidiary in India from Russia: The 2026 Guide"
         dek="The FDI route, sanctions and banking, structure, incorporation, FEMA/RBI filings, the India-Russia treaty and the apostille for Russian companies entering India, in plain terms."
-        updated="26 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -455,7 +457,7 @@ export default function RussiaToIndiaHubPage() {
           <strong>Indicative setup fee:</strong> AU Corporate&apos;s fee for setting up the subsidiary is USD
           750 to USD 1,000 for share capital up to ₹10 lakh (about RUB 845,000 at an indicative ₹1.18 per
           rouble, 27 October 2026 rate). The costing depends on your plan, and it does not include sanctions,
-          banking or approval work, which depends on the sector, structure and parties.
+          banking or approval work, which depends on the sector, structure and parties. You get the best pricing, better work support and a free first consultation.
         </p>
 
         <div className="flex flex-wrap gap-4 items-center justify-between bg-[#fffbe6] border border-gold-dark rounded-xl p-5 mb-10">
@@ -483,10 +485,30 @@ export default function RussiaToIndiaHubPage() {
           <Link href="/russia-to-india/common-mistakes" className="text-blue-800 font-semibold hover:underline">12 common mistakes</Link>.
         </p>
 
+        <h2 id="exit" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Selling, restructuring or closing the Indian subsidiary</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          A Russian parent can exit through a share sale, a buy-back, a merger, voluntary liquidation or strike-off,
+          using the same Indian legal routes as any foreign owner. The hard part is usually the money, not the law:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><strong>The payment route.</strong> Sale proceeds or the surplus on liquidation must reach Russia through a channel both banks accept, so agree it before signing.</li>
+          <li><strong>Buyer screening.</strong> A buyer, and its bank, will run sanctions and ownership checks on the Russian seller, which adds time.</li>
+          <li><strong>Tax.</strong> Gains on Indian shares are taxable in India under the treaty, and the Indian buyer withholds tax before paying.</li>
+          <li><strong>FEMA.</strong> The price must follow the pricing guidelines, and the transfer is reported in Form FC-TRS.</li>
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-10">
+          Because banking and sanctions positions change often, we review this section every quarter. See 
+          <Link href="/russia-to-india/exit-and-restructuring" className="text-blue-800 font-semibold hover:underline">exit and restructuring for Russian companies</Link>.
+        </p>
+
         <h2 id="series" className="text-2xl font-bold text-gray-900 mt-12 mb-6">The full guide series</h2>
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="russia-subsidiary-checks" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Three checks before you commit</h2>
+        <p className="text-gray-700 mb-4">Before the Russian parent approves the budget for an Indian subsidiary, confirm three practical points. First, that an Indian bank will open the subsidiary&apos;s account and accept the inward remittance of share capital through a payment route it is comfortable with. Second, that the subsidiary&apos;s customers and suppliers, including any multinational partners, are able to transact with a Russian-owned company. Third, that the parent can receive dividends, fees or loan repayments from India through the same route. If any of the three is uncertain, the subsidiary may still be the right structure, but the business plan should include more working capital and a longer launch period.</p>
+        <p className="text-gray-700 mb-4">Russian groups that test these three points with the Indian bank and key counterparties before incorporation usually avoid the most common problem, which is a subsidiary that exists on paper but cannot yet receive capital or pay its suppliers. A short written note of what the bank has confirmed is a useful part of the board&apos;s approval file.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate can help</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -569,7 +591,7 @@ export default function RussiaToIndiaHubPage() {
         />
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 26 October 2026. General information only, not legal or tax advice. Indian and Russian
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Russian
           rules change often; confirm current requirements before acting.
         </p>
       </article>

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Explore career opportunities at AU Corporate, a professional services firm specializing in India entry, taxation, and regulatory advisory.",
     url: "https://www.theaucorp.com/career",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "Careers at AU Corporate | Join Our Advisory Team",
     description:
       "Explore career opportunities at AU Corporate, a professional services firm specializing in India entry, taxation, and regulatory advisory.",

@@ -24,6 +24,7 @@ const toc = [
   { id: "close", label: "Closing the subsidiary" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "exit-at-a-glance", label: "Exit routes at a glance" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -56,7 +57,7 @@ export default function RestructuringAndExitPage() {
         headline="Restructuring, Mergers and Exit: Your Options for an Indian Subsidiary"
         description="Options to restructure, sell, merge or close an Indian subsidiary: share sale, slump sale, merger, buyback, strike-off and liquidation, with tax and RBI steps."
         datePublished="2026-10-07"
-        dateModified="2026-10-14"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
       />
 
@@ -71,7 +72,7 @@ export default function RestructuringAndExitPage() {
       <GuideHero
         eyebrow="Scale and exit"
         title="Restructuring, Mergers and Exit: Your Options for an Indian Subsidiary"
-        updated="14 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -189,6 +190,22 @@ export default function RestructuringAndExitPage() {
           <li>Letting a dormant company run up late fees instead of closing it properly.</li>
           <li>Not planning the US tax result.</li>
         </ul>
+        <h2 id="exit-at-a-glance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Exit routes at a glance</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Exit route</th><th scope="col" className="border border-gray-300 p-3 text-left">Main steps</th><th scope="col" className="border border-gray-300 p-3 text-left">Typical time</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Share transfer to a buyer</th><td className="border border-gray-300 p-3">Valuation, share purchase agreement, withholding by the buyer, Form FC-TRS within 60 days</td><td className="border border-gray-300 p-3">Two to four months</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Strike-off under Section 248</th><td className="border border-gray-300 p-3">Dormant company; liabilities cleared; Form STK-2 with indemnity and affidavits</td><td className="border border-gray-300 p-3">Several months</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Merger through the NCLT</th><td className="border border-gray-300 p-3">Scheme approved by the National Company Law Tribunal, or the fast-track route for group companies</td><td className="border border-gray-300 p-3">Six to twelve months</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Voluntary liquidation</th><td className="border border-gray-300 p-3">Declaration of solvency, liquidator, sale of assets, final distribution</td><td className="border border-gray-300 p-3">A year or more</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          For a US parent the exit choice usually turns on tax on both sides and on how quickly cash is needed. Plan the exit early, because clean records from the first year make every exit route faster.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -249,7 +266,7 @@ export default function RestructuringAndExitPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 14 October 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

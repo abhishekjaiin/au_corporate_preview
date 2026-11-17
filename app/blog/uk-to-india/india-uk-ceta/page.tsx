@@ -167,6 +167,18 @@ export default function IndiaUkCetaPage() {
           <li>Keep the tax file in step: day counts for the treaty&apos;s permanent establishment and 183-day tests are unaffected by CETA.</li>
         </ol>
 
+        <h2 id="uk-ceta-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A short CETA checklist for UK companies</h2>
+        <p className="text-gray-700 mb-4">Before relying on the agreement in a business case, check each of these points against the final text and the Indian implementing notifications.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Goods: confirm the tariff line, the staged reduction and the rules of origin for each product, and whether the product qualifies as UK-originating.</li>
+          <li>Services: check whether your service sector appears in India&apos;s schedule of commitments and what conditions apply.</li>
+          <li>People: confirm which category of business visitor or intra-corporate transferee your staff fall into and whether the Double Contributions Convention is in force for their posting.</li>
+          <li>Procurement: if you sell to Indian public bodies, check whether the contract value and the entity are covered.</li>
+          <li>Disputes: remember that the agreement does not give a UK investor a direct claim against India; the tax treaty, contracts and Indian courts remain the tools.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Keep the checklist with the board paper for the India project, and revisit it when India issues the customs and services notifications that put the agreement into effect.</p>
+        <p className="text-gray-700 mb-4">Assign one person in the UK business to track these notifications, because the practical benefits arrive in stages rather than on a single date.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

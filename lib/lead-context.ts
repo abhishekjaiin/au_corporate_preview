@@ -25,6 +25,9 @@ const COUNTRY_BY_PREFIX: Record<string, string> = {
   "hong-kong-to-india": "Hong Kong",
   "russia-to-india": "Russia",
   "spain-to-india": "Spain",
+  "uae-to-india": "United Arab Emirates",
+  "japan-alliance": "Japan",
+  ja: "Japan",
 }
 
 const NEED_BY_GUIDE_SERVICE: Record<GuideServiceKey, (typeof LEAD_NEEDS)[number]> = {

@@ -22,6 +22,8 @@ const toc = [
   { id: "super", label: "Superannuation and provident fund" },
   { id: "tax", label: "Tax in India and Australia" },
   { id: "life", label: "Living in India" },
+  { id: "which-visa", label: "Employment visa, business visa or e-visa" },
+  { id: "au-expat-budget", label: "Budgeting an Australian assignment" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -35,6 +37,9 @@ const faqs = [
   { q: "How is double tax avoided?", a: "The executive claims a foreign income tax offset in Australia for Indian tax on Indian salary." },
   { q: "Are allowances taxable in India?", a: "Housing and school allowances are generally taxable." },
   { q: "Can the executive create a PE for the Australian parent?", a: "Yes, if he or she concludes contracts for the parent; the role should sit with the Indian company." },
+  { q: "What is the salary threshold for an Indian employment visa?", a: "USD 25,000 a year, with limited exceptions." },
+  { q: "Must Australian staff register with the FRRO?", a: "Yes, within 14 days of arrival if the stay is longer than 180 days." },
+  { q: "Can family members join an Australian employee in India?", a: "Yes, on dependant status linked to the employee's own permission, with separate FRRO registration for each family member staying longer than 180 days." },
 ]
 
 const relatedCards = [
@@ -52,7 +57,7 @@ export default function ExpatVisaPage() {
         headline="Sending an Australian Executive to India: Visa, Housing, Banking and Tax"
         description="How to relocate an Australian executive to India: employment visa, FRRO registration, housing, banking, tax residency and permanent establishment risk for the parent."
         datePublished="2026-10-15"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-AU"
       />
@@ -68,7 +73,7 @@ export default function ExpatVisaPage() {
       <GuideHero
         eyebrow="Mobilize: expats"
         title="Sending an Australian Executive to India: Visa, Housing, Banking and Tax"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -163,6 +168,26 @@ export default function ExpatVisaPage() {
           <li>Housing and schools in cities such as Bengaluru, Mumbai, Gurugram or Chennai.</li>
           <li>A clear policy on who in Australia approves local spending.</li>
         </ul>
+        <h2 id="which-visa" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Employment visa, business visa or e-visa</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Purpose</th><th scope="col" className="border border-gray-300 p-3 text-left">Category</th><th scope="col" className="border border-gray-300 p-3 text-left">Note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Working for the Indian company</th><td className="border border-gray-300 p-3">Employment visa</td><td className="border border-gray-300 p-3">Salary threshold of USD 25,000 a year, with limited exceptions</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Meetings, negotiations, site visits</th><td className="border border-gray-300 p-3">Business visa or business e-visa</td><td className="border border-gray-300 p-3">No productive work on the Indian company&apos;s projects</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Short technical installation</th><td className="border border-gray-300 p-3">Depends on the contract and duration</td><td className="border border-gray-300 p-3">Check before travel; the wrong category is a common problem</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Australian citizens can apply for the e-visa online for business visits. Anyone doing hands-on work for the Indian company should hold the employment category, even for a few months. See <Link href="/australia-to-india/foreign-employee-treaty-ssa" className="text-blue-800 font-semibold hover:underline">how Australian employees in India are taxed</Link>.
+        </p>
+
+
+        <h2 id="au-expat-budget" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Budgeting an Australian assignment</h2>
+        <p className="text-gray-700 mb-4">An assignment budget should cover more than salary: housing in a serviced apartment or leased home, a car and driver, school fees for children, home leave flights, medical insurance that covers treatment in India, and tax equalisation if the company has promised the employee will pay no more tax than at home. Agree the budget and the length of the assignment before the employment contract is drafted, and review it after six months when the real costs are known.</p>
+        <p className="text-gray-700 mb-4">Also plan the end of the assignment from the start: who decides on extensions, how the move home is supported and how the employee&apos;s final Indian tax return and exit formalities will be handled. Leaving these to the last month is the most common cause of avoidable stress for assignees.</p>
+        <p className="text-gray-700 mb-4">A written assignment letter covering these points avoids misunderstandings.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -207,7 +232,7 @@ export default function ExpatVisaPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>

@@ -20,6 +20,7 @@ const toc = [
   { id: "dpdp", label: "India's DPDP Act: what applies and when" },
   { id: "exemption", label: "The processor exemption that helps captive centres" },
   { id: "governance", label: "Setting up governance in the Indian subsidiary" },
+  { id: "dpdp-rules", label: "The DPDP Rules 2025 timeline" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -47,7 +48,7 @@ export default function DataProtectionUkGdprDpdpPage() {
         headline="Data Protection for a UK Group with an Indian Subsidiary: UK GDPR Transfers and India's DPDP Act"
         description="How a UK company moves personal data to and from an Indian subsidiary: UK GDPR transfer rules, India's Digital Personal Data Protection Act and Rules, timelines, and practical contract terms."
         datePublished="2026-10-19"
-        dateModified="2026-10-19"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-GB"
       />
@@ -63,7 +64,7 @@ export default function DataProtectionUkGdprDpdpPage() {
       <GuideHero
         eyebrow="Data: UK GDPR and DPDP"
         title="Data Protection for a UK Group with an Indian Subsidiary: UK GDPR Transfers and India's DPDP Act"
-        updated="19 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -173,6 +174,17 @@ export default function DataProtectionUkGdprDpdpPage() {
           <li>Treat data localisation as a live possibility for regulated sectors such as financial services, payments and telecoms.</li>
           <li>Review the position each year, because the Indian Rules phase in and UK law is still being updated.</li>
         </ul>
+        <h2 id="dpdp-rules" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The DPDP Rules 2025 timeline</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          India&apos;s Digital Personal Data Protection Act, 2023 (the DPDP Act) is coming into force in stages under the DPDP Rules 2025, notified on 13 November 2025. The Data Protection Board provisions came first; the main duties of a Data Fiduciary, including notice, consent, security safeguards and breach reporting, start on 13 May 2027.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li>Map personal data held by the Indian company and every flow abroad before May 2027.</li>
+          <li>Prepare DPDP notices and consent records for Indian customers and staff.</li>
+          <li>Set up DPDP security safeguards and a breach response plan.</li>
+          <li>Watch for any government notification restricting transfers to particular countries; the DPDP Act otherwise allows transfers abroad, including to the UK group.</li>
+        </ul>
+
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -222,7 +234,7 @@ export default function DataProtectionUkGdprDpdpPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 19 October 2026. General information only, not legal or tax advice. Indian and UK rules
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and UK rules
           change often; confirm current requirements before acting.
         </p>
       </article>

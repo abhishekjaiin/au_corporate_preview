@@ -22,6 +22,7 @@ const toc = [
   { id: "private-limited", label: "Why a private limited company is the default" },
   { id: "branch-lo", label: "Branch and liaison office: when they make sense" },
   { id: "llp-gift", label: "LLP and GIFT City" },
+  { id: "tax-rate-table", label: "Indian tax rate by structure" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
 
@@ -49,7 +50,7 @@ export default function StructureOptionsPage() {
         headline="Which Structure Should a Singapore Company Use in India? Subsidiary, Branch, Liaison Office, LLP, GIFT City or Employer of Record"
         description="A decision guide for Singapore companies: wholly owned subsidiary, branch, liaison office, LLP, GIFT City IFSC unit and EOR, with eligibility tests, tax results and a choice by business model."
         datePublished="2026-10-21"
-        dateModified="2026-10-21"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-SG"
       />
@@ -65,7 +66,7 @@ export default function StructureOptionsPage() {
       <GuideHero
         eyebrow="Setup: choose the structure"
         title="Which Structure Should a Singapore Company Use in India? Subsidiary, Branch, Liaison Office, LLP, GIFT City or Employer of Record"
-        updated="21 October 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -188,6 +189,26 @@ export default function StructureOptionsPage() {
           treatment differ from onshore India, so take specific advice before using it for anything other than
           financial services.
         </p>
+        <h2 id="tax-rate-table" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Indian tax rate by structure</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
+            <thead className="bg-[#081a42] text-white"><tr><th scope="col" className="border border-gray-300 p-3 text-left">Structure</th><th scope="col" className="border border-gray-300 p-3 text-left">Indian tax on profits</th><th scope="col" className="border border-gray-300 p-3 text-left">When profits go home</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Private limited company</th><td className="border border-gray-300 p-3">About 25.17% under the concessional regime</td><td className="border border-gray-300 p-3">Dividend withholding of 10% with a holding of at least 25% (15% otherwise) under the DTAA</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">LLP</th><td className="border border-gray-300 p-3">30% plus surcharge and cess, up to about 34.94%</td><td className="border border-gray-300 p-3">No further Indian tax on the profit share</td></tr>
+              <tr><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Branch or project office</th><td className="border border-gray-300 p-3">35% plus surcharge and cess, about 36.4% to 38.22%</td><td className="border border-gray-300 p-3">No Indian tax on remitting net profit</td></tr>
+              <tr className="bg-gray-50"><th scope="row" className="border border-gray-300 p-3 text-left font-semibold">Liaison office</th><td className="border border-gray-300 p-3">No income allowed</td><td className="border border-gray-300 p-3">Not applicable</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          On ₹1 crore of profit the company route saves roughly ₹11 to 13 lakh a year in Indian corporate tax compared with a branch, which is why most Singapore groups choose an Indian company for any revenue-earning business. A branch or liaison office also needs AD bank approval of the Singapore parent itself, which takes longer than incorporating a company.
+        </p>
+
+
+        <h2 id="sg-structure-cases" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Typical choices for Singapore companies</h2>
+        <p className="text-gray-700 mb-4">Singapore regional headquarters setting up delivery teams in India usually form a private limited company. Fund managers and treasury operations increasingly look at GIFT City because of its separate regulatory regime. Trading companies testing the Indian market sometimes start with a liaison office or an Indian distributor before forming a subsidiary. Small professional firms occasionally begin with an employer of record. Whichever option is chosen, record the business triggers, such as headcount or the first Indian customer contract, that would prompt a review of the structure.</p>
+        <p className="text-gray-700 mb-4">Two further points often decide the question. If Indian staff are to receive share options, a private limited company makes this much easier than a branch or liaison office. And if the Indian business may later raise outside investment, be sold or be merged into another group company, a company is the only structure that allows it without first being converted. Singapore groups that expect either outcome generally choose a company from the outset, even when the first year&apos;s activity is modest.</p>
 
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -237,7 +258,7 @@ export default function StructureOptionsPage() {
 
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 21 October 2026. General information only, not legal or tax advice. Indian and Singapore
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian and Singapore
           rules change often; confirm current requirements before acting.
         </p>
       </article>

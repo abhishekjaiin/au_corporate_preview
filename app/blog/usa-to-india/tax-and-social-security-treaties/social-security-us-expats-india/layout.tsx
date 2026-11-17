@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Is there a US-India social security agreement? What applies to a US expat in India: provident fund, US FICA, double coverage and planning.",
     url: "https://www.theaucorp.com/usa-to-india/tax-and-social-security-treaties/social-security-us-expats-india",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "US-India Totalization Agreement: Social Security for Expats",
     description:
       "Is there a US-India social security agreement? What applies to a US expat in India: provident fund, US FICA, double coverage and planning.",

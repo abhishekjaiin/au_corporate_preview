@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Form FNC, UIN, Annual Activity Certificate, extension, additional offices, compounding and closure for the India liaison office of a foreign company.",
     url: "https://www.theaucorp.com/liaison-office-fema-rbi-compliance",
   },
-  twitter: {
+  twitter: { card: "summary_large_image",
     title: "FEMA and RBI Compliance for Liaison Offices in India",
     description:
       "Form FNC, UIN, Annual Activity Certificate, extension, additional offices, compounding and closure for the India liaison office of a foreign company.",

@@ -22,6 +22,7 @@ const toc = [
   { id: "appeals", label: "Where a dispute goes next" },
   { id: "double-tax", label: "Double tax between India and Japan" },
   { id: "prevention", label: "Keeping notices routine" },
+  { id: "faceless", label: "Faceless assessment and the CIT(A)" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -52,7 +53,7 @@ export default function TaxNoticesAndLitigationPage() {
         headline="Tax Notices and Disputes in India: What Japanese Companies Should Do"
         description="How a Japanese-owned Indian subsidiary should handle Indian income tax, GST and transfer pricing notices: deadlines, replies, appeals and the India-Japan MAP."
         datePublished="2026-10-20"
-        dateModified="2026-11-02"
+        dateModified="2026-11-13"
         isPartOfUrl={PARENT_URL}
         inLanguage="en-JP"
       />
@@ -68,7 +69,7 @@ export default function TaxNoticesAndLitigationPage() {
       <GuideHero
         eyebrow="Defend: notices and litigation"
         title="Tax Notices and Disputes in India: What Japanese Companies Should Do"
-        updated="2 November 2026"
+        updated="13 November 2026"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14">
@@ -169,6 +170,11 @@ export default function TaxNoticesAndLitigationPage() {
           <li>Reconcile tax credit statements with the books every quarter.</li>
           <li>Keep the transfer pricing documentation ready by the due date of the report.</li>
         </ul>
+        <h2 id="faceless" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Faceless assessment and the CIT(A)</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Most scrutiny in India now runs through faceless assessment: questions, replies and hearings happen on the tax portal without meeting the officer, so written replies must be complete and documented. An adverse order goes on appeal first to the Commissioner of Income Tax (Appeals), the CIT(A), then to the Income Tax Appellate Tribunal. Transfer pricing cases can go to the Dispute Resolution Panel before the final order, and double tax can be taken to the Mutual Agreement Procedure with Japan.
+        </p>
+
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
@@ -213,7 +219,7 @@ export default function TaxNoticesAndLitigationPage() {
         </p>
 
         <p className="text-sm text-gray-500 mt-6">
-          Last updated 2 November 2026. General information only, not legal or tax advice. Indian rules change
+          Last updated 13 November 2026. General information only, not legal or tax advice. Indian rules change
           often; confirm current requirements before acting.
         </p>
       </article>
