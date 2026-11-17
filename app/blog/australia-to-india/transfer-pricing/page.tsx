@@ -29,6 +29,7 @@ const toc = [
   { id: "safe-harbour-detail", label: "When the safe harbour is worth using" },
   { id: "year-end", label: "A year-end checklist" },
   { id: "documents-list", label: "What the Indian study contains" },
+  { id: "au-ato-india-consistency", label: "Keeping the ATO and Indian positions consistent" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -230,6 +231,11 @@ export default function TransferPricingPage() {
 
 
 
+
+        <h2 id="au-ato-india-consistency" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping the ATO and Indian positions consistent</h2>
+        <p className="text-gray-700 mb-4">An Australian group&apos;s transfer pricing is reviewed from both ends. The Australian Taxation Office looks at whether the Australian parent is paying too much to India, while Indian officers look at whether the Indian subsidiary is earning too little. The two reviews use the same agreements and the same facts, so inconsistent descriptions are a common cause of difficulty.</p>
+        <p className="text-gray-700 mb-4">Before each year end, compare the Australian local file and the Indian study side by side. Check that the functions, risks and assets of the Indian company are described in the same way, that the cost base used in India matches the cost recharged in Australia and that any true-up booked after 30 June is reflected in the Indian figures for the right year. Where the two benchmarking sets point to different ranges, document why the agreed markup is defensible in both countries. If a dispute does arise, the mutual agreement procedure under the India-Australia treaty is available, but consistent transfer pricing records from the start make it far less likely to be needed.</p>
+        <p className="text-gray-700 mb-4">Agree a named reviewer in Australia who signs off both documents each year.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -250,6 +250,12 @@ export default function IndiaGermanyDtaaPage() {
           and the German parent files an Indian return.
         </p>
 
+        <h2 id="de-treaty-routine" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A routine for every payment to Germany</h2>
+        <p className="text-gray-700 mb-4">The DTAA only helps if the Indian company applies it correctly each time it pays the German parent. Before booking each invoice, classify the payment as a dividend, interest, royalty, fee for technical services or business profits. Confirm that a current German tax residence certificate from the Finanzamt and Form 41 are on file. Withhold at the treaty rate only when they are, and deposit the tax by the due date even if payment to Germany is delayed.</p>
+        <p className="text-gray-700 mb-4">Keep the invoices, the remittance forms, the withholding certificates and the residence documents in one folder for each financial year. The German parent needs the certificates to claim credit for Indian tax in Germany, and Indian officers ask for the same folder during an assessment. A short review of the folder before the Indian return is filed catches most gaps.</p>
+        <p className="text-gray-700 mb-4">Review the classification of recurring payments each year as well. A support arrangement that began as routine assistance can develop into technical services or a licence of know-how, and the DTAA treatment changes with it. A short annual note in the tax file describing what the German parent actually provided keeps the Indian withholding position defensible if officers ask.</p>
+        <p className="text-gray-700 mb-4">Keep the notes for at least eight years.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

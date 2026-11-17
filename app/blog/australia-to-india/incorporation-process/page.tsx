@@ -27,6 +27,7 @@ const toc = [
   { id: "after-cert", label: "The first 90 days after incorporation" },
   { id: "incorporation-timeline", label: "A realistic incorporation timeline" },
   { id: "state-choice", label: "Choosing the state and registered office" },
+  { id: "au-incorporation-checklist", label: "A document checklist for Australian parents" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -242,6 +243,19 @@ export default function IncorporationProcessPage() {
         </p>
 
 
+
+        <h2 id="au-incorporation-checklist" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A document checklist for Australian parents</h2>
+        <p className="text-gray-700 mb-4">Before the incorporation starts, gather these items from the Australian side. Having them ready is the single biggest factor in a fast timeline.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>A current ASIC company extract and the constitution of the Australian parent, if it has one.</li>
+          <li>A board resolution approving the investment, naming the authorised representative and the nominee shareholder.</li>
+          <li>Passports and recent proof of address for each director, with names exactly as they will appear in the Indian filings.</li>
+          <li>An ownership chart up to the individual beneficial owners.</li>
+          <li>Notarisation by an Australian notary and an apostille from the Department of Foreign Affairs and Trade for each document that needs it.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Send scanned copies to India for checking before the originals are couriered, so any correction can be made before the incorporation documents are filed.</p>
+        <p className="text-gray-700 mb-4">Allow for DFAT processing times when planning, especially around Australian public holidays, and keep a second certified set of the core documents in case the bank asks for originals after incorporation.</p>
+        <p className="text-gray-700 mb-4">Courier the originals by a tracked service.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

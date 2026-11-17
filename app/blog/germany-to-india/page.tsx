@@ -38,6 +38,7 @@ const toc = [
   { id: "secondees", label: "Sending German staff to India: four questions to settle" },
   { id: "parent-reporting", label: "What the German parent reports at home" },
   { id: "series", label: "The full guide series" },
+  { id: "german-subsidiary-first-year", label: "Running the subsidiary in its first year" },
   { id: "help", label: "How AU Corporate works with German groups" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -491,6 +492,21 @@ export default function GermanyToIndiaHubPage() {
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="german-subsidiary-first-year" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Running the subsidiary in its first year</h2>
+        <p className="text-gray-700 mb-4">Once the Indian company is incorporated, German groups usually want a clear picture of the first year: who signs what, when the first figures arrive in Germany and which filings carry penalties if missed. The pattern below assumes a German parent with a 31 December year end.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Within 30 days of incorporation: first board meeting, appointment of the statutory auditor and opening of the bank account.</li>
+          <li>Within 60 days of receiving the euros: allotment of shares to the German parent, followed by Form FC-GPR within 30 days of allotment.</li>
+          <li>Within 180 days: declaration of commencement of business, after the share capital has been received.</li>
+          <li>Each month: tax withheld at source deposited by the 7th and GST returns filed if the subsidiary is registered.</li>
+          <li>By 15 July: annual return on foreign liabilities and assets to the Reserve Bank of India.</li>
+          <li>After 31 March: Indian audit, transfer pricing study and income tax return, alongside the December figures already prepared for German consolidation.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">The German parent should agree with the Indian team how the December reporting pack is prepared, because the Indian books will be only nine months into their financial year at that point. Most groups ask for a hard close at 31 December with the main year-end adjustments, then a statutory close at 31 March for the Indian audit.</p>
+        <p className="text-gray-700 mb-4">Two governance points are worth settling early. First, the delegation of authority: which decisions the Indian managing director can take alone and which need approval from the Geschäftsführung in Germany. Second, the intercompany agreements, which should be signed before the Indian company issues its first invoice to the German parent. Both make the first Indian audit and the first German tax audit of the arrangement much simpler, and both give the Indian management a clear mandate.</p>
+        <p className="text-gray-700 mb-4">A third point concerns people. German groups often second an engineer or manager from Germany for the first year or two to set up processes in India. Plan the secondment terms, the Indian employment visa, the tax position in both countries and the social security certificate before the person travels. Agree as well who will take over when the secondment ends, because the Indian processes are only robust once they no longer depend on one person from headquarters. Groups that plan this handover from the start usually find the Indian business becomes self-sufficient within two to three years.</p>
+        <p className="text-gray-700 mb-4">Finally, agree how often the German parent will visit. A senior visit from headquarters at least once a year, timed with a board meeting in India, signals to Indian staff and customers that the Indian business matters to the group and gives the German management a direct view of how it is run.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate works with German groups</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

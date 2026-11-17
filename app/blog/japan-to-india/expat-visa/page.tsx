@@ -23,6 +23,7 @@ const toc = [
   { id: "tax", label: "Income tax on both sides" },
   { id: "settling", label: "Settling in" },
   { id: "first-month", label: "The chuzaiin's first month in India" },
+  { id: "jp-chuzaiin-family", label: "Supporting the family" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -171,6 +172,11 @@ export default function ExpatVisaPage() {
           The employment category needs a salary of at least USD 25,000 a year, which Japanese assignment packages normally exceed. Business trips by head-office staff can use the e-business route, but hands-on work needs the employment category.
         </p>
 
+
+        <h2 id="jp-chuzaiin-family" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Supporting the family</h2>
+        <p className="text-gray-700 mb-4">Chuzaiin with families settle faster when schooling, housing and medical care are arranged before arrival. Japanese schools operate in some Indian cities, and international schools fill places early, so apply as soon as the posting is confirmed. Dependants need their own visas and registrations.</p>
+        <p className="text-gray-700 mb-4">Agree, too, how the chuzaiin&apos;s family will be supported if there is a medical emergency, including which hospitals are covered by the group insurance policy and who in India will help with admission and payment.</p>
+        <p className="text-gray-700 mb-4">Share these details with the family before they travel.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

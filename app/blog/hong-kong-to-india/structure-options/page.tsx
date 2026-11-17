@@ -215,6 +215,10 @@ export default function StructureOptionsPage() {
         </p>
 
 
+        <h2 id="hk-structure-cases" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Hong Kong groups usually choose</h2>
+        <p className="text-gray-700 mb-4">Hong Kong trading groups often start by selling to Indian importers from Hong Kong and form an Indian subsidiary once local stock, staff or after-sales service are needed. Technology and services groups usually form a subsidiary directly so that they can hire and invoice. Manufacturers may partner with an Indian company through a joint venture, especially where land, approvals and local sourcing matter. Because a Hong Kong shareholder generally needs government approval for an Indian company, the timeline for any structure is longer than for parents in other countries, and some groups use an employer of record or an Indian contractor while approval is pending. Record the triggers for moving to a permanent structure so the decision is revisited at the right time.</p>
+        <p className="text-gray-700 mb-4">Two further points often decide the matter. If Indian staff are to receive share options, a company makes this much simpler than an office. And if the Indian business may later raise outside capital, be sold or be merged into another group company, a subsidiary is the only structure that allows it directly. Hong Kong groups expecting either outcome usually choose a company from the start, accepting the longer approval timeline in exchange for flexibility later.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

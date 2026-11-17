@@ -26,6 +26,7 @@ const toc = [
   { id: "pricing", label: "FEMA pricing guidelines for shares issued to Russia" },
   { id: "after-allotment", label: "Company-law filings after each allotment" },
   { id: "later-rounds", label: "Later funding rounds: rights issue or private placement" },
+  { id: "ru-funding-evidence", label: "Preparing the evidence before the money moves" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -210,6 +211,10 @@ export default function FundingAndFemaPage() {
         </p>
 
 
+
+        <h2 id="ru-funding-evidence" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Preparing the evidence before the money moves</h2>
+        <p className="text-gray-700 mb-4">Indian banks review inward remittances from Russia carefully. Before the funds are sent, prepare the board resolution, the valuation certificate, the ownership chart up to the individual owners and a short explanation of the source of funds. Agree the remittance route, the currency and the correspondent bank with the Indian bank in advance. Funds that arrive without this preparation may be held while the bank asks questions, and the FEMA clocks for allotment and reporting continue to run in the meantime.</p>
+        <p className="text-gray-700 mb-4">Keep all of these documents with the FEMA filing acknowledgement in one file for each round. The Indian bank, the auditor and any future buyer will ask for exactly this set, and it also helps when the Russian parent&apos;s own auditors review the investment.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

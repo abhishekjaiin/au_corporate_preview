@@ -34,6 +34,7 @@ const toc = [
   { id: "gcc", label: "Captive centres for UK groups" },
   { id: "exit", label: "Leaving or restructuring later" },
   { id: "series", label: "The full guide series" },
+  { id: "uk-subsidiary-governance", label: "Governing the subsidiary from the UK" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -505,6 +506,11 @@ export default function UkToIndiaHubPage() {
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="uk-subsidiary-governance" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Governing the subsidiary from the UK</h2>
+        <p className="text-gray-700 mb-4">A UK parent usually controls its Indian subsidiary through three tools: the board, a delegation of authority and a reporting pack. The board should include at least one UK executive alongside the resident director, and meet at least four times a year. The delegation of authority sets out which decisions the subsidiary&apos;s managers can take alone and which need UK approval, such as capital spending, hiring senior staff and signing contracts above a set value. The monthly reporting pack should show the subsidiary&apos;s results in the UK chart of accounts as well as the Indian statutory format.</p>
+        <p className="text-gray-700 mb-4">UK groups that set these three tools up in the first quarter rarely have governance problems later. Those that rely on informal email approvals often find, at the first Indian audit, that board minutes and approvals do not match what actually happened in the subsidiary.</p>
+        <p className="text-gray-700 mb-4">A short annual review of the subsidiary&apos;s governance, comparing board minutes and approvals with the delegation of authority, keeps the arrangement working as the Indian team grows.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate can help</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -24,6 +24,7 @@ const toc = [
   { id: "leaving", label: "Leaving India" },
   { id: "tax-residency", label: "Tax residency in the first year" },
   { id: "first-month", label: "The first month in India: a checklist" },
+  { id: "ru-relocation-money", label: "Personal banking for relocated staff" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -197,6 +198,11 @@ export default function RelocateRussianStaffPage() {
           Moving personal money from Russia is often the hardest part. Plan enough funds outside Russia for the first weeks, and agree with the employer whether a relocation allowance will be paid in India. Our <Link href="/payroll-expat-services" className="text-blue-800 font-semibold hover:underline">payroll and expat services</Link> cover the Indian side.
         </p>
 
+
+        <h2 id="ru-relocation-money" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Personal banking for relocated staff</h2>
+        <p className="text-gray-700 mb-4">Relocated Russian employees often find it hard to use Russian cards in India, so arrange salary payment into an Indian bank account from the first month and plan how they will pay for housing deposits and other costs before their account is open.</p>
+        <p className="text-gray-700 mb-4">Agree in advance how the assignment will end, including the final Indian tax return, the closing of Indian bank accounts and the exit formalities with the immigration authorities, so that the employee can leave India without delay when the posting finishes.</p>
+        <p className="text-gray-700 mb-4">Put these points in the assignment letter.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

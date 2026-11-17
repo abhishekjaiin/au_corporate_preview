@@ -24,6 +24,7 @@ const toc = [
   { id: "upkeep", label: "Keeping the director compliant" },
   { id: "din-dsc", label: "DIN and digital signature for the resident director" },
   { id: "liability", label: "Director liability: what the resident director is exposed to" },
+  { id: "au-rd-handover", label: "Replacing the resident director" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -186,6 +187,11 @@ export default function ResidentDirectorPage() {
           A professional resident director will therefore ask for a limited role, an indemnity from the Australian parent, directors&apos; and officers&apos; insurance and access to records. Australian boards should agree these terms in writing, and keep compliance current so the director&apos;s exposure stays low.
         </p>
 
+
+        <h2 id="au-rd-handover" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Replacing the resident director</h2>
+        <p className="text-gray-700 mb-4">Plan replacements before they are needed. If the only resident director resigns, the company must appoint another one promptly to stay compliant. Keep a named successor in mind, whether an Indian manager or a professional director, and agree a handover of board records and digital signature arrangements as part of the original appointment.</p>
+        <p className="text-gray-700 mb-4">Write the succession plan into the board minutes when the first resident director is appointed. It should name who will step in, how quickly a director identification number and digital signature can be obtained for that person and who will hand over the statutory registers and board papers. If the plan is to use an Indian employee, check early whether the employee is willing to accept the responsibility, because many decline. A professional director can be appointed within days if no internal candidate is ready.</p>
+        <p className="text-gray-700 mb-4">Review the plan each year at the first board meeting.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

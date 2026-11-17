@@ -25,6 +25,7 @@ const toc = [
   { id: "din", label: "DIN, digital signature and KYC" },
   { id: "liability", label: "Director liability and how to manage it" },
   { id: "transition", label: "When the chuzaiin rotates" },
+  { id: "jp-rd-continuity", label: "Planning for continuity" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -191,6 +192,10 @@ export default function ResidentDirectorPage() {
         </p>
 
 
+
+        <h2 id="jp-rd-continuity" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Planning for continuity</h2>
+        <p className="text-gray-700 mb-4">When the resident director is a chuzaiin, plan the handover before the posting ends. The successor needs a director identification number and a digital signature before appointment, and the 182-day test applies to the new director for the year in which they are appointed. If there is a gap, a professional resident director can cover it.</p>
+        <p className="text-gray-700 mb-4">Keep the board informed of the rotation plan well before the change. Indian filings for the appointment and resignation of directors must be made within 30 days, and the Japanese head office usually needs to approve the new director through its own process. Starting both early avoids a period in which the subsidiary has no director who meets the 182-day test.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

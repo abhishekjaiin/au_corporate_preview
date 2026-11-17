@@ -25,6 +25,7 @@ const toc = [
   { id: "supply", label: "Imports, local sourcing and customs" },
   { id: "exit-risk", label: "Planning for change" },
   { id: "checklist-mfg", label: "Project checklist for the first year" },
+  { id: "plant-in-depth", label: "From site visit to first shipment: a detailed plan for a foreign-owned plant" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -184,6 +185,40 @@ export default function ManufacturingCompanySetupInIndiaPage() {
         </ol>
 
 
+
+        <h2 id="plant-in-depth" className="text-2xl font-bold text-gray-900 mt-12 mb-4">From site visit to first shipment: a detailed plan for a foreign-owned plant</h2>
+        <p className="text-gray-700 mb-4">The sections above set out the choices. This part walks through the sequence a foreign parent actually follows, with the approvals, the money and the people in the order they come up. Timings assume a medium-sized assembly or processing plant on leased industrial land in an established park.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Months 0 to 2: decide where and how</h3>
+        <p className="text-gray-700 mb-4">Shortlist two or three states based on supplier base, port access, labour availability and the incentive package. Visit the industrial parks, meet the state investment promotion agency and ask for the current incentive policy in writing. At the same stage decide between your own factory, a contract manufacturer and a joint venture. A contract manufacturer gets product to market fastest but limits control over quality and IP. A joint venture brings land, approvals experience and a local network, but needs a carefully drafted shareholders&apos; agreement on deadlock, exit and technology use.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Months 1 to 3: set up the company and the money</h3>
+        <p className="text-gray-700 mb-4">Incorporate the Indian company while the site is being finalised. Most production activity allows 100% foreign ownership under the automatic route, but defence, some electronics and certain other sectors have conditions, and investors from countries sharing a land border with India need government approval. Decide how the project will be funded: equity, compulsorily convertible instruments, external commercial borrowings from the parent or a combination. A plant usually needs more capital up front than a services business, so align the funding plan with the land, building and machinery payment schedule.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Months 2 to 6: land and building approvals</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Allotment or lease of the plot from the industrial development corporation, with the lease deed registered and stamp duty paid.</li>
+          <li>Building plan approval and, where the park requires it, approval of the layout from the park authority.</li>
+          <li>Consent to Establish from the State Pollution Control Board, under the Water and Air Acts, before construction begins. Red category industries face the longest review.</li>
+          <li>Fire safety approval of the plans and, later, a fire no-objection certificate before occupation.</li>
+          <li>Power and water connections, often the slowest items in practice, so apply as soon as the plot is allotted.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Most states run a single-window portal that tracks these applications together. Use it, but keep a separate tracker, because each department still issues its own approval.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Months 4 to 10: machinery, imports and customs</h3>
+        <p className="text-gray-700 mb-4">Order machinery with delivery dates that match construction. Check whether imported capital goods qualify for reduced customs duty under an incentive scheme, an export promotion capital goods authorisation or a free trade agreement, and obtain the importer-exporter code before the first shipment. Second-hand machinery can be imported but faces additional conditions, including a chartered engineer&apos;s certificate. Plan the classification of components early, because customs duty on inputs often decides whether local assembly makes sense at all.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Months 8 to 12: people and pre-production</h3>
+        <p className="text-gray-700 mb-4">Register the factory under the factories law of the state, now aligned with the Occupational Safety, Health and Working Conditions Code, before production begins, and appoint an occupier. Register for provident fund and employee state insurance as soon as the first workers join, and register under the state shops and establishments law for any office. Draft standing orders or service rules, set shift patterns that respect the daily and weekly hour limits, and plan for contract labour compliance if you use a manpower agency. Recruit supervisors first; they will help hire and train operators.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Months 10 to 14: consent to operate and first production</h3>
+        <p className="text-gray-700 mb-4">Apply for the Consent to Operate from the pollution control board once construction and pollution control equipment are complete. Obtain the fire no-objection certificate and complete any product certification your goods need, such as Bureau of Indian Standards certification for products under a quality control order. Run trial production, validate quality and only then begin commercial shipments.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Money: what foreign parents underestimate</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Stamp duty and registration charges on the land lease, which vary by state and can be significant.</li>
+          <li>Security deposits for power and water connections.</li>
+          <li>Working capital for raw material stocks, which is often larger than planned because lead times from overseas suppliers are long.</li>
+          <li>GST paid on capital goods and inputs before sales begin. It can be recovered as input tax credit, but only against future output tax or through a refund for exports.</li>
+          <li>Pre-operative expenses during the twelve months or more before revenue starts.</li>
+        </ul>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Claiming incentives without losing them</h3>
+        <p className="text-gray-700 mb-4">State incentives such as capital subsidies, stamp duty refunds, electricity duty waivers and reimbursement of state GST are usually linked to investment and employment milestones within a fixed period. Central schemes such as production linked incentives are tied to incremental sales and investment thresholds. Keep investment and employment evidence from day one, file claims on time and check clawback conditions before you relocate machinery or cut headcount. Incentives are often the difference between a project that meets its return target and one that does not, and they are lost more often through missed paperwork than through failure to qualify.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">After the first year</h3>
+        <p className="text-gray-700 mb-4">Once the plant is running, the annual cycle includes renewal of pollution consents, factory licence renewals, annual returns under labour laws, statutory audit, tax audit, transfer pricing documentation for purchases from and sales to group companies, and GST reconciliations. A single compliance calendar that combines company law, tax, labour and environmental deadlines is the most useful control a plant manager can have.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

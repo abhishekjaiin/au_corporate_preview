@@ -25,6 +25,7 @@ const toc = [
   { id: "pe-types", label: "The four permanent establishment triggers in practice" },
   { id: "secondment", label: "Secondments without a permanent establishment" },
   { id: "pe-checklist", label: "An annual permanent establishment review" },
+  { id: "au-pe-documentation", label: "The paper trail that defends a no-PE position" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -211,6 +212,11 @@ export default function DtaaPeRiskPage() {
         </p>
 
 
+
+        <h2 id="au-pe-documentation" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The paper trail that defends a no-PE position</h2>
+        <p className="text-gray-700 mb-4">If the Indian tax authorities ask whether an Australian company has a permanent establishment, the answer is only as good as the records behind it. Keep travel logs for every Australian employee who visits India, with the purpose of each trip. Keep the intercompany agreement showing that the Indian subsidiary is paid at arm&apos;s length for the work it does. Make sure Australian staff do not sign contracts or negotiate final terms in India on behalf of the Australian company. Review the records annually before the Indian return is filed.</p>
+        <p className="text-gray-700 mb-4">Share the review with the Australian tax team each year, so the Australian return and the Indian return describe the same arrangements and the same visits, and any permanent establishment concern is raised before either return is filed.</p>
+        <p className="text-gray-700 mb-4">Keep the review notes for at least eight years.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

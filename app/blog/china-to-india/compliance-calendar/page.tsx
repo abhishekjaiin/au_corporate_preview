@@ -25,6 +25,7 @@ const toc = [
   { id: "china-map", label: "The Indian year against the Chinese calendar year" },
   { id: "cn-owner", label: "Fitting Chinese approvals into the Indian calendar" },
   { id: "cn-late", label: "What late filing costs" },
+  { id: "cn-calendar-control", label: "Keeping both calendars aligned" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -185,6 +186,10 @@ export default function ComplianceCalendarPage() {
           Late filings attract daily fees with the Registrar, late fees and interest on GST returns, and fees and interest for late TDS. For Chinese-owned companies, repeated defaults also draw closer scrutiny from banks, so a reliable calendar matters more than usual.
         </p>
 
+
+        <h2 id="cn-calendar-control" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping both calendars aligned</h2>
+        <p className="text-gray-700 mb-4">Chinese parents close their books on 31 December, while the Indian subsidiary closes on 31 March. Keep one combined compliance calendar that shows both year ends, the Indian monthly and annual filings, any conditions attached to the Press Note 3 approval and the dates when the Chinese parent needs Indian figures. Give each item an owner in India and a reviewer in China.</p>
+        <p className="text-gray-700 mb-4">Include the dates when the Chinese parent&apos;s own reporting needs Indian figures, such as the December consolidation and any outbound investment reports, so the Indian team knows when to prepare them. A monthly confirmation from the Indian finance team that every compliance deadline was met gives the parent a simple control.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

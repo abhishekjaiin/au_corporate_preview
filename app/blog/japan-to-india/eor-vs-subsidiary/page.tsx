@@ -28,6 +28,7 @@ const toc = [
   { id: "chuzaiin", label: "Chuzaiin and the provider model" },
   { id: "transition", label: "Planning the move to your own company" },
   { id: "jp-pe-note", label: "A note on permanent establishment" },
+  { id: "jp-eor-ringi", label: "Presenting the choice in the ringi" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -239,6 +240,11 @@ export default function EorVsSubsidiaryPage() {
 
 
 
+
+        <h2 id="jp-eor-ringi" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Presenting the choice in the ringi</h2>
+        <p className="text-gray-700 mb-4">Japanese head offices usually decide through a ringi approval, which works best when the options are set out clearly. Present an EOR and a subsidiary side by side on cost for the first three years, time to start, control over employees, permanent establishment risk and how the team would later move into the group&apos;s own company. Include the provider&apos;s notice terms and any transfer fee. Showing the head office both paths together, with the triggers for moving from one to the other, usually leads to a faster decision than proposing one option alone.</p>
+        <p className="text-gray-700 mb-4">Including a realistic timeline for each path, with the approval steps needed in Japan, helps the head office see when the subsidiary option becomes practical.</p>
+        <p className="text-gray-700 mb-4">Revisit the comparison each year.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

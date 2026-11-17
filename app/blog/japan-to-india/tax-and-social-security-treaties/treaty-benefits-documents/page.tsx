@@ -21,6 +21,7 @@ const toc = [
   { id: "tests", label: "Beneficial ownership and anti-abuse" },
   { id: "routine", label: "A routine for recurring payments" },
   { id: "form-10f", label: "Form 41, formerly Form 10F: what changed" },
+  { id: "jp-documents-calendar", label: "A calendar for renewing the documents" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -170,6 +171,10 @@ export default function TreatyBenefitsDocumentsPage() {
           Under the Income-tax Act, 2025, Form 10F has been renumbered as Form 41. The content is the same: the recipient&apos;s status, nationality, tax identification number, residence period and address, filed electronically on the Indian tax portal. Payers still sometimes ask for Form 10F by its old name; a Form 41 filed online meets the same requirement.
         </p>
 
+
+        <h2 id="jp-documents-calendar" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A calendar for renewing the documents</h2>
+        <p className="text-gray-700 mb-4">Certificates of residence usually cover a single year, and Form 41 (the old Form 10F) should match the period of each certificate. Diary the renewal a month before the period ends so that the Indian company never has to withhold at the higher domestic rate while documents are pending.</p>
+        <p className="text-gray-700 mb-4">Keep scanned copies of every Form 10F or Form 41 submission and certificate in the payment folder for the year, so the Indian finance team can show reviewers which documents supported each reduced rate.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

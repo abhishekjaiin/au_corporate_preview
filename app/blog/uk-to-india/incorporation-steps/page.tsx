@@ -176,6 +176,10 @@ export default function IncorporationStepsPage() {
           Rates and the indicative setup fee change; confirm the current costing with us before you commit.
         </div>
 
+        <h2 id="uk-documents-tips" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Getting the UK documents right first time</h2>
+        <p className="text-gray-700 mb-4">Most delays for UK parents happen before anything is filed in India. Ask Companies House for a certified copy of the certificate of incorporation and the articles, prepare the board resolution on the parent&apos;s letterhead and have a UK notary notarise each document before the Foreign, Commonwealth and Development Office adds the apostille. Check that every director&apos;s name appears exactly as it does in the passport, including middle names, and that the address on the proof of address document is less than two months old when it is notarised. If the UK parent is itself owned by another company, prepare a short ownership chart up to the individuals, because the bank will ask for the beneficial owners when the Indian account is opened.</p>
+        <p className="text-gray-700 mb-4">Once the documents are ready, scan them and send the copies to India for checking before the originals are couriered. A second pair of eyes on spellings, dates and signatures at this stage avoids the most common delay, which is a rejected filing that sends the parent back to the notary.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

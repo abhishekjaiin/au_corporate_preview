@@ -24,6 +24,7 @@ const toc = [
   { id: "moscow", label: "Figures the Russian parent needs" },
   { id: "gst-returns", label: "GST returns and other recurring compliance filings" },
   { id: "calendar-owner", label: "Who owns the compliance calendar" },
+  { id: "ru-calendar-confirmations", label: "Monthly confirmations to the Russian parent" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -197,6 +198,10 @@ export default function ComplianceCalendarPage() {
           The compliance calendar works best when one person in India owns it and one person in Moscow receives a monthly status report. We maintain the calendar, file the Indian returns and send the Russian parent a short monthly summary of what was filed, what was paid and what is coming up, so that sanctions re-screening and bank KYC refreshes are planned alongside the tax dates. See <Link href="/russia-to-india/russian-parent-obligations" className="text-blue-800 font-semibold hover:underline">obligations of the Russian parent</Link> for the parent&apos;s own reports.
         </p>
 
+
+        <h2 id="ru-calendar-confirmations" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Monthly confirmations to the Russian parent</h2>
+        <p className="text-gray-700 mb-4">Ask the Indian finance team to send a short monthly confirmation to the Russian parent that every tax deposit, GST return and payroll filing was made on time, with any exceptions explained. It gives the parent a simple control over compliance without needing to follow Indian deadlines directly.</p>
+        <p className="text-gray-700 mb-4">Update the calendar whenever the subsidiary adds an activity, such as a new GST registration or a group loan, and review it after each Indian budget, when forms and compliance due dates are most likely to change.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -51,6 +51,9 @@ export default function CaseStudiesPage() {
             <p className="mb-6">
               That is why we prefer to be involved from the first board resolution, and why each case study ends with the practical steps the client took to keep its Indian company on track.
             </p>
+            <p className="mb-6">
+              Every subsidiary in these case studies started with the same questions: which structure, how quickly the company could be running and what the parent would need to do from abroad. The answers differed because the parents differed, in their home country, their internal approvals and how much of the finance and HR work they wanted to keep in-house. What stayed constant was a single plan, agreed at the start, covering incorporation, the first filings and the monthly routine that followed.
+            </p>
             <h2 className="text-2xl font-bold font-heading text-blue mb-4">How an engagement usually runs</h2>
             <ol className="list-decimal pl-6 space-y-2 mb-6">
               <li>A call to understand the parent, its plans for India and any history of filings.</li>

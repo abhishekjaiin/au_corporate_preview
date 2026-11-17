@@ -37,6 +37,7 @@ const toc = [
   { id: "payroll", label: "Payroll for an Indian team" },
   { id: "parent-reporting", label: "What the Australian parent reports at home" },
   { id: "series", label: "The full guide series" },
+  { id: "australian-subsidiary-year-one", label: "Your subsidiary's first year, month by month" },
   { id: "help", label: "How AU Corporate works with Australian groups" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -456,6 +457,20 @@ export default function AustraliaToIndiaHubPage() {
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="australian-subsidiary-year-one" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Your subsidiary&apos;s first year, month by month</h2>
+        <p className="text-gray-700 mb-4">Australian boards often ask what happens after the Indian company is incorporated. The first year follows a predictable pattern, and planning it against the Australian 30 June year end avoids most surprises.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Month 1: first board meeting, first auditor appointed, bank account opened and share capital received from Australia.</li>
+          <li>Month 2: shares allotted to the Australian parent and Form FC-GPR filed; GST and payroll registrations completed if the company will invoice or hire.</li>
+          <li>Months 3 to 6: commencement of business declared, intercompany agreement signed and the first quarterly withholding tax returns filed.</li>
+          <li>By 15 July: the company files its annual return on foreign liabilities and assets with the Reserve Bank of India, just after the Australian year end.</li>
+          <li>After 31 March: Indian accounts closed and audited, transfer pricing documentation prepared, and figures restated to the 30 June year for the Australian group consolidation.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Keeping one combined calendar for the Indian subsidiary and the Australian reporting timetable is the simplest control. It shows the Australian finance team when Indian numbers will be ready and when the Indian team needs approvals from the parent board, such as the annual accounts and any dividend.</p>
+        <p className="text-gray-700 mb-4">If the Indian company belongs to an Australian group that reports under the significant global entity rules, also plan the country-by-country and master file inputs the Indian company will need to provide.</p>
+        <p className="text-gray-700 mb-4">It also helps to agree early who in Australia approves what for the Indian business. Most groups ask the Australian CFO to approve the Indian budget, capital requests and dividends, and the Australian board to approve only the initial investment and any change in structure. Writing these approvals into a short delegation of authority, and recording them in Indian board minutes, keeps the Indian company&apos;s governance clear for the Indian auditor and for any future buyer of the business.</p>
+        <p className="text-gray-700 mb-4">Review the delegation once a year, when the Indian budget is approved, so it keeps pace with the size of the Indian business.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate works with Australian groups</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

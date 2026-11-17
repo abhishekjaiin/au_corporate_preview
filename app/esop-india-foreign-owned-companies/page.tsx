@@ -26,6 +26,7 @@ const toc = [
   { id: "communication", label: "Explaining equity to Indian employees" },
   { id: "accounting", label: "Accounting for share-based payments in India" },
   { id: "checklist-esop", label: "Checklist before the first grant to Indian staff" },
+  { id: "esop-decisions", label: "Five decisions to take before the plan launches in India" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -170,6 +171,17 @@ export default function EsopIndiaForeignOwnedCompaniesPage() {
 
 
 
+
+        <h2 id="esop-decisions" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Five decisions to take before the plan launches in India</h2>
+        <p className="text-gray-700 mb-4">Groups that roll out an existing global plan to Indian staff usually need to take five decisions before the first grant.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Who grants: the parent under its global plan, or the Indian company under its own ESOP scheme approved by its shareholders.</li>
+          <li>What is granted: options, restricted stock units or share appreciation rights, each of which is taxed at a different point.</li>
+          <li>How the cost is borne: whether the parent recharges the Indian company, which affects transfer pricing and the deduction available in India.</li>
+          <li>How tax is collected: the Indian employer must withhold tax on the perquisite value at exercise or vesting, so payroll needs the fair market value and the exercise data on time.</li>
+          <li>How exit events are handled: what happens to unvested awards on a sale, a merger or a restructuring of the Indian company.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Documenting these decisions in a short India supplement to the plan rules avoids disputes with employees and gives the payroll team what it needs to withhold tax correctly. It also makes the annual reporting to employees and the tax authorities simpler.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

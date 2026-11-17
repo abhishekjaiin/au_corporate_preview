@@ -313,6 +313,12 @@ export default function IndiaRussiaDtaaPage() {
         </p>
 
 
+        <h2 id="ru-treaty-routine" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Applying the DTAA to each payment</h2>
+        <p className="text-gray-700 mb-4">The India-Russia DTAA caps Indian tax on most payments to a Russian parent at 10%, but the Indian subsidiary must apply it correctly each time. Classify every invoice as a dividend, interest, royalty, technical fee or business profits before booking it. Confirm that a current Russian tax residency certificate and Form 41 are on file. Withhold at the treaty rate only when they are, and deposit the tax by the due date even if the remittance to Russia is delayed by banking constraints.</p>
+        <p className="text-gray-700 mb-4">Keep a folder for each financial year with the invoices, the remittance forms, the withholding certificates and the residence documents. The Russian parent needs the certificates to claim credit for Indian tax in Russia, and Indian officers will ask for the same folder in an assessment. Where the payment route changes, for example from euros to rupees, record the reason and the exchange rate used.</p>
+        <p className="text-gray-700 mb-4">Review the classification of recurring payments each year. Engineering support, software and know-how arrangements often change as the Indian subsidiary matures, and the DTAA treatment can change with them. A short note in the tax file describing what the Russian parent actually provided keeps the Indian withholding position defensible.</p>
+        <p className="text-gray-700 mb-4">Keep the notes with the payment folder for at least eight years.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

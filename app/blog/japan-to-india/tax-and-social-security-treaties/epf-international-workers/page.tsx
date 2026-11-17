@@ -20,6 +20,7 @@ const toc = [
   { id: "without-coc", label: "If there is no Certificate of Coverage" },
   { id: "courts", label: "The court challenges" },
   { id: "payroll", label: "Payroll steps for a Japanese-owned employer" },
+  { id: "jp-coc-renewal", label: "Renewing the certificate on longer postings" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -162,6 +163,10 @@ export default function EpfInternationalWorkersPage() {
           <li>Diarise the certificate&apos;s expiry and plan the position if the assignment is extended.</li>
           <li>Keep evidence of classification for provident fund inspections.</li>
         </ol>
+
+        <h2 id="jp-coc-renewal" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Renewing the certificate on longer postings</h2>
+        <p className="text-gray-700 mb-4">If a posting is extended, apply for the extension of the Japanese certificate of coverage before the original period ends, and give the new certificate to Indian payroll straight away.</p>
+        <p className="text-gray-700 mb-4">If the extension is not obtained in time, Indian payroll may have to start provident fund deductions until the new certificate arrives, so track expiry dates for every Japanese employee in India in the same calendar as visa and registration renewals.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

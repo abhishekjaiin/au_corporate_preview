@@ -24,6 +24,7 @@ const toc = [
   { id: "errors", label: "Errors to avoid" },
   { id: "two-rules", label: "FEMA pricing guidelines and Rule 11UA: two different tests" },
   { id: "methods", label: "Methods valuers use" },
+  { id: "au-valuation-timing", label: "Timing the certificate around the remittance" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -187,6 +188,10 @@ export default function ShareValuationPage() {
           Give the valuer projections that match those used for the Australian board and the transfer pricing model, so the numbers tell one consistent story.
         </p>
 
+
+        <h2 id="au-valuation-timing" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Timing the certificate around the remittance</h2>
+        <p className="text-gray-700 mb-4">The fair value certificate should be dated close to the share issue, and the price per share must not be lower than the certified value. If the remittance from Australia is delayed by a few months, ask the valuer whether the certificate still holds or needs updating, particularly if the Indian company&apos;s results or the exchange rate have moved materially in the meantime.</p>
+        <p className="text-gray-700 mb-4">It also helps to keep the valuation report with the board resolution, the remittance advice and the FC-GPR acknowledgement for each round. If the Indian tax authorities later review whether the shares were issued at fair value under income tax rules, the same file supports both the FEMA and the tax position. Where the Australian parent is investing in several tranches over a year, discuss with the valuer whether one report can cover all of them or whether each tranche needs its own certificate.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

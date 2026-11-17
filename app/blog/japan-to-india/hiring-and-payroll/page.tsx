@@ -25,6 +25,7 @@ const toc = [
   { id: "ctc", label: "Cost to company (CTC): how Indian salaries are quoted" },
   { id: "leave", label: "Leave, holidays and gratuity" },
   { id: "probation", label: "Probation and notice" },
+  { id: "jp-payroll-reporting", label: "Reporting payroll to the head office" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -215,6 +216,11 @@ export default function HiringAndPayrollPage() {
         </p>
 
 
+
+        <h2 id="jp-payroll-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reporting payroll to the head office</h2>
+        <p className="text-gray-700 mb-4">Japanese parents usually ask for payroll data in their own format and on their own timetable. Agree a monthly summary with headcount, gross salary, employer provident fund and insurance contributions, bonuses and overtime, converted to yen at an agreed rate. Keep the statutory registers in India separately. Send the summary in English, and in Japanese where the head office prefers, by a fixed day each month so it can be used in the parent&apos;s management reporting and in the cost base for intercompany charges.</p>
+        <p className="text-gray-700 mb-4">Agree in advance how bonuses and salary revisions in April will be reflected, because Indian revisions usually take effect at the start of the Indian financial year, which is also the Japanese year for most parents.</p>
+        <p className="text-gray-700 mb-4">Keep the format stable from month to month.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

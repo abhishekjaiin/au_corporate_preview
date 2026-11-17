@@ -24,6 +24,7 @@ const toc = [
   { id: "offer", label: "Making the offer in India" },
   { id: "esop-tax", label: "How an ESOP is taxed for an Indian employee" },
   { id: "esop-fema", label: "FEMA and holding ASX shares from India" },
+  { id: "au-esop-communication", label: "Explaining the plan to Indian staff" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -190,6 +191,10 @@ export default function EsopPage() {
           An Indian resident employee can acquire shares in the Australian parent under a group ESOP scheme. The overseas investment (ODI) rules permit this for employees of the Indian company, and the Indian company reports the issue through its AD bank. Dividends and sale proceeds follow the overseas investment rules, and the employee declares the foreign shares in the Indian return each year. A clear ESOP information pack for Indian employees avoids most questions.
         </p>
 
+
+        <h2 id="au-esop-communication" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Explaining the plan to Indian staff</h2>
+        <p className="text-gray-700 mb-4">Indian employees are often less familiar with ASX-listed equity than Australian staff. A short India-specific guide explaining the ESOP vesting dates, how the perquisite tax is calculated and withheld through Indian payroll, how to sell shares and bring the money back to India, and what happens on leaving, reduces questions and helps the plan do its job of retaining people. Update the guide whenever the plan rules or Indian tax rules change.</p>
+        <p className="text-gray-700 mb-4">Before each vesting date, confirm with Indian payroll that it has the fair market value data needed to withhold tax on time, because errors are hard to correct once the ESOP shares are delivered.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -206,6 +206,10 @@ export default function StructureOptionsPage() {
         </p>
 
 
+        <h2 id="sg-structure-cases" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Typical choices for Singapore companies</h2>
+        <p className="text-gray-700 mb-4">Singapore regional headquarters setting up delivery teams in India usually form a private limited company. Fund managers and treasury operations increasingly look at GIFT City because of its separate regulatory regime. Trading companies testing the Indian market sometimes start with a liaison office or an Indian distributor before forming a subsidiary. Small professional firms occasionally begin with an employer of record. Whichever option is chosen, record the business triggers, such as headcount or the first Indian customer contract, that would prompt a review of the structure.</p>
+        <p className="text-gray-700 mb-4">Two further points often decide the question. If Indian staff are to receive share options, a private limited company makes this much easier than a branch or liaison office. And if the Indian business may later raise outside investment, be sold or be merged into another group company, a company is the only structure that allows it without first being converted. Singapore groups that expect either outcome generally choose a company from the outset, even when the first year&apos;s activity is modest.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

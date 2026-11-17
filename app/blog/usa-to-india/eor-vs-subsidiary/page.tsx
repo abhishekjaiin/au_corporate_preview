@@ -24,6 +24,7 @@ const toc = [
   { id: "convert", label: "Moving from an EOR to your own subsidiary" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "us-transition-budget", label: "Budgeting the switch for a US parent" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -203,6 +204,9 @@ export default function EorVsSubsidiaryPage() {
           See also: Expats on an EOR:{" "}
           <Link href="/usa-to-india/tax-and-social-security-treaties/social-security-us-expats-india" className="text-blue-800 font-semibold hover:underline">social security for US expats in India</Link>.
         </p>
+
+        <h2 id="us-transition-budget" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Budgeting the switch for a US parent</h2>
+        <p className="text-gray-700 mb-4">When a US company moves its Indian staff from a provider to its own entity, the one-time spend is usually incorporation, the first audit, payroll registrations and a short overlap period when both arrangements run. Ask the provider for its notice period and any conversion fee in writing, and time the switch to the start of a month so that provident fund and tax withholding records begin cleanly in the new company. Budget for the gratuity and leave balances you agree to recognise for transferred employees, and record that decision in the new offer letters.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

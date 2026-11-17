@@ -221,6 +221,10 @@ export default function IncorporationStepsPage() {
         </p>
 
 
+        <h2 id="cn-documents" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Preparing the Chinese documents</h2>
+        <p className="text-gray-700 mb-4">Chinese corporate documents need certified English translations, notarisation and either an apostille or consular legalisation, depending on the document and the authority. Check names in pinyin against passports before anything is notarised, because mismatches are the most common reason for a second round.</p>
+        <p className="text-gray-700 mb-4">Send scanned copies to India for review before the originals are certified, and keep a second certified set for the bank, which often asks for originals when the account is opened.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

@@ -24,6 +24,7 @@ const toc = [
   { id: "existing-company", label: "Taking over as director of an existing company" },
   { id: "governance", label: "Keeping control with the foreign parent" },
   { id: "checklist", label: "Checklist before appointment" },
+  { id: "resident-director-in-depth", label: "Resident director services in depth: day-to-day duties, risks and how we manage them" },
   { id: "how-we-help", label: "How AU Corporate helps" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -201,6 +202,48 @@ export default function ResidentDirectorServicesIndiaPage() {
         </ul>
 
 
+
+        <h2 id="resident-director-in-depth" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Resident director services in depth: day-to-day duties, risks and how we manage them</h2>
+        <p className="text-gray-700 mb-4">Foreign parents often ask what a professional resident director actually does once the company is running, and what protects both the director and the parent. This section sets out the practical side, so your board can approve the appointment with a clear picture of the role.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">What the role involves in a normal year</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Attending board meetings, at least four a year with no more than 120 days between two meetings, usually by video conference.</li>
+          <li>Signing the documents that need an Indian director&apos;s digital signature: the annual financial statements, the board report, the annual return and event-based forms such as changes in share capital or registered office.</li>
+          <li>Completing the annual director KYC (Form DIR-3 KYC) and disclosing interests in other companies at the first board meeting of each financial year.</li>
+          <li>Reviewing the compliance calendar with our secretarial team so that filings are made on time, since late filings are recorded against every director.</li>
+          <li>Acting as a point of contact for the Registrar of Companies and the statutory auditor when an Indian director&apos;s signature or confirmation is needed.</li>
+        </ul>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">What the role deliberately excludes</h3>
+        <p className="text-gray-700 mb-4">A professional resident director in our model is a non-executive director. The director is not an authorised signatory on the bank account, does not sign customer or vendor contracts, does not approve payments and does not employ or dismiss staff. Those powers stay with the directors and officers the parent chooses. We put this in writing in the appointment letter and, where the parent agrees, in a board resolution that sets out the delegation of authority.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Why liability is the real question</h3>
+        <p className="text-gray-700 mb-4">Under Indian company law, a non-executive director who is not a promoter or key managerial person is generally liable only for acts of the company that happened with the director&apos;s knowledge, consent or connivance, or where the director did not act diligently. That protection is real but it depends on records. The director must be able to show what was known and when. For that reason we ask for:</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Board papers circulated in advance and minutes that record the director&apos;s questions and any dissent.</li>
+          <li>A monthly or quarterly compliance confirmation from the finance team covering tax deposits, statutory dues and filings.</li>
+          <li>Directors and officers insurance where the group already has a policy that can extend to the Indian subsidiary.</li>
+          <li>An indemnity from the parent or the company for liabilities arising from matters outside the director&apos;s control.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Other laws can also name directors. Labour, environmental and tax laws often define an &apos;officer in default&apos; or &apos;person in charge&apos;, and the company can avoid exposing the resident director by formally nominating the responsible officer under those laws. We help the company make those nominations when it hires its first employees or starts operations at a site.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">How the 182-day test is counted</h3>
+        <p className="text-gray-700 mb-4">At least one director must have stayed in India for a total of 182 days or more during the financial year, which runs from 1 April to 31 March. For a company incorporated part way through the year, the requirement is applied proportionately. The test is about physical presence, not citizenship or tax residence, so an Indian citizen who has lived abroad for most of the year does not qualify, and a foreign national who has lived in India for most of the year does.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Common situations where companies need us</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>A new subsidiary whose directors all live abroad and which needs a resident director to incorporate.</li>
+          <li>An existing company whose only resident director has resigned or moved overseas, leaving it in breach until a replacement is appointed.</li>
+          <li>A group waiting to hire a country manager who will later take over the role.</li>
+          <li>A company whose Indian employees prefer not to join the board because of the personal responsibility.</li>
+        </ul>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Handing over when you are ready</h3>
+        <p className="text-gray-700 mb-4">Many clients use a professional resident director for one to three years. When the company hires a senior manager who meets the 182-day test and is willing to join the board, we appoint the new director, hand over the board records and resign, filing the required forms with the Registrar within 30 days. The transition is planned so the company is never without a resident director, even for a day.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Questions your board should ask any provider</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>Is the director an individual professional with experience on other boards, and how many directorships does the person already hold? The law caps total directorships at 20, including no more than 10 public companies.</li>
+          <li>What exactly will the director sign, and what is excluded?</li>
+          <li>What records will the director need to see each quarter?</li>
+          <li>How quickly can the director be replaced if the person becomes unavailable?</li>
+          <li>What is the notice period on either side?</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Clear answers to these questions protect your company as much as the director. A resident director who understands the role, sees the right information and has a defined scope is a safeguard for the subsidiary, not just a box that has been ticked.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate helps</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

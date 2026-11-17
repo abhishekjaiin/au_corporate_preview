@@ -23,6 +23,7 @@ const toc = [
   { id: "gaap", label: "Ind AS, Indian GAAP and the group pack" },
   { id: "ready", label: "Being audit-ready" },
   { id: "close-plan", label: "A practical close plan for a Japanese parent" },
+  { id: "jp-audit-note", label: "One practical tip for the close" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -175,6 +176,9 @@ export default function AuditIcofrPage() {
           Most Japanese parents also close on 31 March, which makes the Indian year easier to align than for most foreign groups. The pressure point is speed: the parent&apos;s consolidated results are often due within weeks of the year end, while the Indian statutory sign-off can wait until September. Agree a fast close in India for the group pack in April, with reviewed figures, and run the statutory work afterwards, so neither timetable holds up the other.
         </p>
 
+
+        <h2 id="jp-audit-note" className="text-2xl font-bold text-gray-900 mt-12 mb-4">One practical tip for the close</h2>
+        <p className="text-gray-700 mb-4">Agree the reporting package template with the Japanese parent before the first year end, in Japanese and English if needed.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -38,6 +38,7 @@ const toc = [
   { id: "payroll", label: "Hiring the first Indian team" },
   { id: "parent-reporting", label: "What the Japanese parent reports at home" },
   { id: "series", label: "The full guide series" },
+  { id: "japan-subsidiary-note", label: "One last planning note for the head office" },
   { id: "help", label: "How AU Corporate works with Japanese groups" },
   { id: "japan-alliance", label: "Our Japan alliance: Nihon-bashi International Accounting Firm" },
   { id: "faq", label: "Frequently asked questions" },
@@ -426,6 +427,9 @@ export default function JapanToIndiaHubPage() {
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="japan-subsidiary-note" className="text-2xl font-bold text-gray-900 mt-12 mb-4">One last planning note for the head office</h2>
+        <p className="text-gray-700 mb-4">Assign one person at the head office as the owner of the Indian subsidiary&apos;s calendar, so that every Indian deadline has a named person in Japan.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate works with Japanese groups</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

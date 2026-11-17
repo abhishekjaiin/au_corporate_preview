@@ -28,6 +28,7 @@ const toc = [
   { id: "de-after", label: "After the certificate of incorporation" },
   { id: "de-office", label: "Digital signatures and DINs for German directors" },
   { id: "de-timeline", label: "A realistic timeline" },
+  { id: "de-lead-times", label: "Lead times to plan for in Germany" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -241,6 +242,11 @@ export default function IncorporationStepsPage() {
           Allow one to two weeks in Germany for the resolution, notary, Landgericht apostille and sworn translations, a few days for courier, one to two weeks in India for digital signatures, name approval and the SPICe+ filing, and a further one to two weeks for the bank account. Four to six weeks in total is realistic when the documents are right the first time.
         </p>
 
+
+        <h2 id="de-lead-times" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Lead times to plan for in Germany</h2>
+        <p className="text-gray-700 mb-4">Allow time for the Handelsregister extract, the notarisation of the shareholder resolution and the apostille from the Landgericht. Holiday periods in August and late December slow each step, so start the German paperwork early if you want the Indian company incorporated before the year end.</p>
+        <p className="text-gray-700 mb-4">A practical tip is to have the German documents checked in India in draft form before they are signed. Names must appear exactly as in the passports, the registered address of the German parent must match the Handelsregister extract and the shareholder resolution must name the nominee shareholder and the authorised signatory for the Indian filings. Correcting a draft takes a day, while correcting a notarised and apostilled document means repeating the notary appointment and the Landgericht step. German parents that follow this order usually complete their side of the incorporation within two to three weeks.</p>
+        <p className="text-gray-700 mb-4">Keep a second certified set for the Indian bank.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

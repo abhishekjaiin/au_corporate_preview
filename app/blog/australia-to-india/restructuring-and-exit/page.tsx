@@ -24,6 +24,7 @@ const toc = [
   { id: "timing", label: "Timing across two financial years" },
   { id: "share-transfer", label: "The share transfer, step by step" },
   { id: "nclt", label: "Mergers and the NCLT" },
+  { id: "au-exit-readiness", label: "Keeping an exit option open" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -183,6 +184,11 @@ export default function RestructuringAndExitPage() {
           Merging the Indian company into another Indian group company, or demerging part of it, goes through a scheme approved by the National Company Law Tribunal (NCLT), with creditor and shareholder meetings and notices to the tax and other authorities. Expect six to twelve months. A simpler fast-track route is available for mergers between small companies or a holding company and its wholly owned company, approved by the regional director instead of the NCLT.
         </p>
 
+
+        <h2 id="au-exit-readiness" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Keeping an exit option open</h2>
+        <p className="text-gray-700 mb-4">An exit is far easier when the Indian company&apos;s records are already clean. Keep share registers, FC-GPR and FC-TRS filings, board minutes and tax assessments up to date, and close open tax notices where possible. Buyers and liquidators both start by asking for these records, and gaps add months to any exit, whether a share sale, a merger into another group company or a voluntary liquidation.</p>
+        <p className="text-gray-700 mb-4">Groups that review these records once a year find that an exit, when it comes, is mostly a matter of execution rather than repair. Those that do not often spend the first months of the exit process locating board minutes, regularising late FEMA filings and closing old tax matters before a buyer or liquidator will proceed.</p>
+        <p className="text-gray-700 mb-4">An annual records check is a small cost by comparison.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

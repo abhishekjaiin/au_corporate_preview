@@ -26,6 +26,7 @@ const toc = [
   { id: "first-90-days", label: "The first 90 days after incorporation" },
   { id: "office", label: "Registered office and the state of incorporation" },
   { id: "resubmissions", label: "Why SPICe+ filings come back" },
+  { id: "ru-incorporation-practical", label: "Practical points that save time" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -239,6 +240,11 @@ export default function IncorporationStepsPage() {
         </p>
 
 
+
+        <h2 id="ru-incorporation-practical" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Practical points that save time</h2>
+        <p className="text-gray-700 mb-4">Russia is a party to the Apostille Convention, so Russian corporate documents can be apostilled rather than legalised, but they must also be translated into English by a translator whose work is notarised. Check the transliteration of every name against the passport, because Russian names are often spelt differently across documents. Order the documents so that the extract from the Russian state register (EGRUL), the charter and the board resolution are issued close together, as banks prefer recent documents.</p>
+        <p className="text-gray-700 mb-4">In parallel, start discussions with the Indian bank about the account and the remittance of share capital before incorporation, so that the company can be capitalised soon after it is formed.</p>
+        <p className="text-gray-700 mb-4">Keep a second certified and translated set of the core documents, because the Indian bank may ask to see originals after the incorporation. If any document is reissued in Russia during the process, for example a fresh extract from the state register, make sure the new version is translated, notarised and apostilled in the same way so that the documents on file remain consistent. Small inconsistencies between versions are a common reason for bank queries.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

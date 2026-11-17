@@ -189,6 +189,10 @@ export default function IndiaPressNote3AndHongKongEntitiesPage() {
           <li>Using Hong Kong as a regional hub: <Link href="/hong-kong-to-india/hong-kong-as-regional-hub-for-india" className="text-blue-800 font-semibold hover:underline">regional hub guide</Link></li>
         </ul>
 
+        <h2 id="hk-pn3-planning" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Planning the project around Press Note 3</h2>
+        <p className="text-gray-700 mb-4">Hong Kong groups that plan for a realistic Press Note 3 approval period, and prepare incorporation documents, the business plan and the ownership chart while waiting, usually launch sooner than those that treat approval as a formality. Build the timeline into customer and hiring commitments from the start.</p>
+        <p className="text-gray-700 mb-4">Groups that already have Indian operations should also check whether any change in their ownership, such as a new Hong Kong investor or a restructuring of the holding chain, brings the Indian company within Press Note 3 for future investments. A short review before each change avoids a breach that would need to be regularised later.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

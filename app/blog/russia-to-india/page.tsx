@@ -32,6 +32,7 @@ const toc = [
   { id: "mistakes", label: "Six mistakes Russian companies make" },
   { id: "exit", label: "Selling, restructuring or closing the Indian subsidiary" },
   { id: "series", label: "The full guide series" },
+  { id: "russia-subsidiary-checks", label: "Three checks before you commit" },
   { id: "help", label: "How AU Corporate can help" },
   { id: "faq", label: "Frequently asked questions" },
   { id: "sources", label: "Sources and how this page is maintained" },
@@ -504,6 +505,10 @@ export default function RussiaToIndiaHubPage() {
         <div className="mb-10">
           <GuideRelatedCards cards={seriesCards} />
         </div>
+
+        <h2 id="russia-subsidiary-checks" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Three checks before you commit</h2>
+        <p className="text-gray-700 mb-4">Before the Russian parent approves the budget for an Indian subsidiary, confirm three practical points. First, that an Indian bank will open the subsidiary&apos;s account and accept the inward remittance of share capital through a payment route it is comfortable with. Second, that the subsidiary&apos;s customers and suppliers, including any multinational partners, are able to transact with a Russian-owned company. Third, that the parent can receive dividends, fees or loan repayments from India through the same route. If any of the three is uncertain, the subsidiary may still be the right structure, but the business plan should include more working capital and a longer launch period.</p>
+        <p className="text-gray-700 mb-4">Russian groups that test these three points with the Indian bank and key counterparties before incorporation usually avoid the most common problem, which is a subsidiary that exists on paper but cannot yet receive capital or pay its suppliers. A short written note of what the bank has confirmed is a useful part of the board&apos;s approval file.</p>
 
         <h2 id="help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate can help</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

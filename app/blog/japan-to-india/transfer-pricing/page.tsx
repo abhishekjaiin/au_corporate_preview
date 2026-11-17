@@ -30,6 +30,7 @@ const toc = [
   { id: "tp-calendar", label: "A transfer pricing calendar for a 31 March year" },
   { id: "study", label: "What the Indian study contains" },
   { id: "jp-contract-mfg", label: "Contract manufacturers supplying Japan" },
+  { id: "jp-local-file-link", label: "Linking the Indian study to the Japanese local file" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -242,6 +243,11 @@ export default function TransferPricingPage() {
 
 
 
+
+        <h2 id="jp-local-file-link" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Linking the Indian study to the Japanese local file</h2>
+        <p className="text-gray-700 mb-4">Japanese groups prepare a local file for the parent under Japanese rules, and the Indian subsidiary prepares its own transfer pricing study. Keep the two consistent: the same description of the Indian company&apos;s functions and risks, the same intercompany agreements and the same treatment of year-end adjustments. Where the Japanese side benchmarks a royalty or a service charge, share the analysis with the Indian team so Indian officers can see how the price was set. If the two countries&apos; positions start to diverge, a bilateral advance pricing agreement between India and Japan is worth considering for large or long-running flows.</p>
+        <p className="text-gray-700 mb-4">Agree as well who in Japan reviews the Indian study before the accountant&apos;s report is filed. A reviewer who also owns the Japanese local file can confirm that the descriptions match and raise any differences before Indian officers do.</p>
+        <p className="text-gray-700 mb-4">Record the review and its outcome in the transfer pricing file each year.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

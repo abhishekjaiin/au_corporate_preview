@@ -26,6 +26,7 @@ const toc = [
   { id: "leave-holidays", label: "Leave, holidays and working hours" },
   { id: "gratuity", label: "Gratuity: India's long service payment" },
   { id: "onboarding", label: "Onboarding checklist for a new Indian hire" },
+  { id: "au-payroll-reporting", label: "Reporting payroll costs back to Australia" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -228,6 +229,11 @@ export default function HiringAndPayrollPage() {
         </ol>
 
 
+
+        <h2 id="au-payroll-reporting" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reporting staff costs back to Australia</h2>
+        <p className="text-gray-700 mb-4">Australian finance teams usually want Indian staff costs in their own format, by cost centre and in Australian dollars. Agree the mapping at the start: which Indian pay items count as salary, which as superannuation-equivalent contributions (provident fund and gratuity provisions) and which as on-costs. Send a monthly salary summary with headcount, gross pay, employer contributions and joiners and leavers, alongside the statutory registers kept in India. This makes intercompany recharges and the transfer pricing cost base easier to support.</p>
+        <p className="text-gray-700 mb-4">Review the mapping each year when Indian salaries are revised in April, and whenever the Australian chart of accounts changes. Small changes in how allowances, bonuses or statutory contributions are classified can make the Indian staff cost look very different in Australian reports, and an agreed mapping prevents unnecessary questions about why the numbers moved.</p>
+        <p className="text-gray-700 mb-4">Keep the agreed mapping in writing with the Australian finance team.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

@@ -25,6 +25,7 @@ const toc = [
   { id: "fc-gpr-pack", label: "What goes into an FC-GPR filing" },
   { id: "fc-gpr-late", label: "If FC-GPR is late" },
   { id: "later-rounds", label: "Later capital rounds" },
+  { id: "au-funding-board-pack", label: "What the Australian board pack should include" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -196,6 +197,18 @@ export default function FundingFemaFcGprPage() {
         </p>
 
 
+
+        <h2 id="au-funding-board-pack" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Australian board pack should include</h2>
+        <p className="text-gray-700 mb-4">Australian boards approving the first capital injection usually want to see the same few items. Preparing them together saves a round of questions.</p>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+          <li>The amount, the instrument and the number of shares to be issued, with the fair value certificate supporting the price.</li>
+          <li>The remittance plan: AUD amount, expected rupee value, bank charges and who bears the exchange rate risk between approval and arrival.</li>
+          <li>The Indian deadlines that start when the money lands: allotment within 60 days and Form FC-GPR within 30 days of allotment.</li>
+          <li>How the investment will be recorded in the Australian parent&apos;s books and whether any foreign exchange gain or loss arises.</li>
+          <li>Plans for later rounds, so the board knows whether further approvals will be needed within the year.</li>
+        </ul>
+        <p className="text-gray-700 mb-4">Including the FC-GPR timeline in the board paper keeps the Australian side aware that the Indian reporting obligation is the parent&apos;s concern too: a late filing affects the parent&apos;s investment record with the Reserve Bank.</p>
+        <p className="text-gray-700 mb-4">Once the filing is approved, send the acknowledgement to the Australian finance team for the investment file and the group&apos;s audit evidence.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

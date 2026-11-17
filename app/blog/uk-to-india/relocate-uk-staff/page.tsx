@@ -176,6 +176,9 @@ export default function RelocateUkStaffPage() {
           <li>Exit planning: what happens to the lease, visa and tax filings at the end of the assignment.</li>
         </ul>
 
+        <h2 id="uk-return" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Planning the return to the UK</h2>
+        <p className="text-gray-700 mb-4">Agree the return date and the exit filings at the start of the posting, so the final Indian tax return and FRRO exit are not left to the last week.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

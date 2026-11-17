@@ -24,6 +24,7 @@ const toc = [
   { id: "prepare", label: "Preparing the Indian close" },
   { id: "caro", label: "What the Indian auditor's report covers" },
   { id: "close-calendar", label: "A practical year-end calendar" },
+  { id: "au-group-auditor", label: "Working with the Australian group auditor" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -184,6 +185,10 @@ export default function AuditIcofrPage() {
           Running the Indian close in April also gives the Australian parent reliable numbers for its 30 June year without waiting for the statutory sign-off.
         </p>
 
+
+        <h2 id="au-group-auditor" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Working with the Australian group auditor</h2>
+        <p className="text-gray-700 mb-4">Ask the Australian group auditor for its instructions to component auditors before the Indian year end, not after. The instructions set the materiality, the reporting deadlines and the specific procedures the Indian firm must perform for the 30 June consolidation. Share them with the Indian statutory auditor early so the March and June work can be planned as one engagement where possible.</p>
+        <p className="text-gray-700 mb-4">Agree in advance who resolves differences between the Indian statutory accounts and the group reporting pack, and document the reconciliation each year. Group auditors usually ask for it, and preparing it during the close is far easier than reconstructing it later.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

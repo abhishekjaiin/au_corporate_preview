@@ -23,6 +23,7 @@ const toc = [
   { id: "map", label: "MAP under the India-Australia treaty" },
   { id: "records", label: "Records that answer most notices" },
   { id: "faceless", label: "Faceless assessment and the first appeal" },
+  { id: "au-response-routine", label: "A response routine for the Indian team" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -172,6 +173,11 @@ export default function TaxNoticesAndLitigationPage() {
           Most scrutiny assessments in India are now run through the faceless assessment scheme: questions, replies and hearings happen online through the tax portal, with no meeting with the officer. Replies must therefore be complete in writing, with documents attached. If the assessment goes against the company, the first appeal goes to the Commissioner of Income Tax (Appeals), the CIT(A), also largely faceless, then to the Income Tax Appellate Tribunal. Transfer pricing cases can instead go to the Dispute Resolution Panel before the final order.
         </p>
 
+
+        <h2 id="au-response-routine" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A response routine for the Indian team</h2>
+        <p className="text-gray-700 mb-4">Give the Indian finance team a short written routine: log every communication from the tax department on the day it arrives, send a copy to the Australian tax lead within two working days, agree who drafts and who approves the reply, and calendar the response date with a margin. Most problems come from replies that are late or filed without the supporting documents, not from the underlying tax position.</p>
+        <p className="text-gray-700 mb-4">Review the routine after each matter is closed: note what caused the query, whether the response was on time and what records would have answered it faster. Over time this turns individual queries into improvements in the subsidiary&apos;s processes.</p>
+        <p className="text-gray-700 mb-4">Share the lessons with the Australian tax team as well, so both sides learn from each query.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

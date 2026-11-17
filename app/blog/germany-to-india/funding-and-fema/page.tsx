@@ -28,6 +28,7 @@ const toc = [
   { id: "de-bundesbank", label: "Reporting on the German side" },
   { id: "de-fema-rounds", label: "FEMA checks for later rounds" },
   { id: "de-fx", label: "Managing the euro-rupee exchange rate" },
+  { id: "de-funding-board-paper", label: "What the Geschäftsführung usually asks for" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -222,6 +223,11 @@ export default function FundingAndFemaPage() {
 
 
 
+
+        <h2 id="de-funding-board-paper" className="text-2xl font-bold text-gray-900 mt-12 mb-4">What the Geschäftsführung usually asks for</h2>
+        <p className="text-gray-700 mb-4">German management boards approving funding for the Indian subsidiary generally want the same information: the amount and instrument, the fair value certificate, the euro-rupee assumption, the Indian deadlines after the money arrives and how the investment will be shown in the German accounts. Including the FEMA reporting steps in the approval paper ensures both sides know who files what. If the funding is a loan, add the external commercial borrowing terms, the all-in cost and the reporting the Indian company must make each month.</p>
+        <p className="text-gray-700 mb-4">Agree as well who in Germany will receive the FEMA filing acknowledgements and keep them in the investment file. German auditors increasingly ask for evidence that foreign investments have been reported correctly in the host country, and a complete file of resolutions, valuations, remittance advices and acknowledgements answers the question quickly. It also helps if the subsidiary later raises further capital or is sold.</p>
+        <p className="text-gray-700 mb-4">Review the file after each capital round.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

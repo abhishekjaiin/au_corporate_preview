@@ -26,6 +26,7 @@ const toc = [
   { id: "forms", label: "The repatriation paperwork: Forms 145 and 146" },
   { id: "timing", label: "Repatriation timing across two financial years" },
   { id: "repatriation-example", label: "A worked repatriation example" },
+  { id: "au-repatriation-policy", label: "Setting a repatriation policy for the group" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -208,6 +209,12 @@ export default function RepatriatingProfitsPage() {
         </p>
 
 
+
+        <h2 id="au-repatriation-policy" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Setting a repatriation policy for the group</h2>
+        <p className="text-gray-700 mb-4">Rather than deciding each payment separately, many Australian groups agree a simple repatriation policy for the Indian subsidiary. It sets out how much cash the subsidiary keeps for working capital, when surplus profits are paid as dividends and which ongoing charges, such as management fees and royalties, are invoiced under the intercompany agreement.</p>
+        <p className="text-gray-700 mb-4">A written policy helps in three ways. It gives the Indian board a clear basis for declaring dividends. It shows Indian tax officers that fees and royalties are charged for real services on agreed terms. And it lets the Australian treasury plan the timing of cash, bearing in mind that a dividend from an Indian company in which the Australian parent holds at least 10% is generally non-assessable in Australia, so Indian withholding tax on it is usually a final cost. Review the policy each year when the Indian accounts are approved.</p>
+        <p className="text-gray-700 mb-4">When the policy is reviewed, also check the Indian company&apos;s cash forecast for the coming year, so that repatriation does not leave the subsidiary short of working capital or unable to meet tax payments.</p>
+        <p className="text-gray-700 mb-4">Record each decision in the Indian board minutes.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

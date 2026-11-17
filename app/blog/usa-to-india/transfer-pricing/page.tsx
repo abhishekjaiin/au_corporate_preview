@@ -24,6 +24,7 @@ const toc = [
   { id: "adjust", label: "What happens if the price is challenged" },
   { id: "us-parent", label: "What this means for a US parent" },
   { id: "mistakes", label: "Mistakes to avoid" },
+  { id: "us-parent-alignment", label: "Aligning the Indian study with the US documentation" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -213,6 +214,10 @@ export default function TransferPricingPage() {
           <Link href="/usa-to-india/tax-and-social-security-treaties/india-us-dtaa-guide" className="text-blue-800 font-semibold hover:underline">India-US tax treaty (DTAA) explained</Link>,
           including the mutual agreement procedure.
         </p>
+
+        <h2 id="us-parent-alignment" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Aligning the Indian study with the US documentation</h2>
+        <p className="text-gray-700 mb-4">Many US groups prepare transfer pricing documentation under section 482 for the US side and a separate Indian study for the subsidiary. The two should describe the same functions, assets and risks and use consistent intercompany agreements, even though the benchmarking sets differ. Before the Indian accountant signs Form 48, compare the cost base, the markup and the year-end adjustment with what the US team has recorded, so that a mismatch does not surface later in an Indian audit.</p>
+        <p className="text-gray-700 mb-4">It also helps to share the Indian benchmarking with the US tax team each year. If the Indian range and the US analysis point to different markups, agree a documented position before the Indian return is filed, so the same intercompany charge is not defended on different grounds in each country and the US team is not surprised by an Indian adjustment.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

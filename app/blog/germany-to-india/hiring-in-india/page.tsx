@@ -28,6 +28,7 @@ const toc = [
   { id: "de-onboard", label: "Onboarding a new hire" },
   { id: "de-mobility", label: "Hiring German nationals locally in India" },
   { id: "benefits", label: "Employee benefits German companies usually offer in India" },
+  { id: "de-payroll-summary", label: "A monthly summary for Germany" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -238,6 +239,10 @@ export default function HiringInIndiaPage() {
 
 
 
+
+        <h2 id="de-payroll-summary" className="text-2xl font-bold text-gray-900 mt-12 mb-4">A monthly summary for Germany</h2>
+        <p className="text-gray-700 mb-4">Send the German parent a short monthly payroll summary with headcount, gross pay, employer contributions and joiners and leavers, in euros, by a fixed working day.</p>
+        <p className="text-gray-700 mb-4">Agree the format and the euro conversion rate with the German finance team before the first month&apos;s summary is sent.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

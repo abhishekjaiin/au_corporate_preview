@@ -195,6 +195,10 @@ export default function FundingAndFemaPage() {
         </p>
 
 
+        <h2 id="sg-funding-records" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Records to keep for every round</h2>
+        <p className="text-gray-700 mb-4">For each round, keep the board and shareholder resolutions, the fair value certificate, the bank&apos;s inward remittance certificate, the share certificates issued to the Singapore parent and the FEMA filing acknowledgement in one file. The auditor, the bank and any future buyer will ask for exactly this set.</p>
+        <p className="text-gray-700 mb-4">Keep a short summary sheet on top of each file showing the dates of receipt, allotment and filing, so anyone checking can confirm at a glance that the 60-day and 30-day FEMA deadlines were met.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}

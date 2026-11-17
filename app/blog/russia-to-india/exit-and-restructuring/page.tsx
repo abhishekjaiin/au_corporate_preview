@@ -26,6 +26,7 @@ const toc = [
   { id: "strike-off", label: "Strike-off under Section 248 and voluntary liquidation" },
   { id: "exit-checklist", label: "Exit checklist for a Russian parent" },
   { id: "exit-timeline", label: "How long each exit takes" },
+  { id: "ru-exit-proceeds", label: "Getting the exit proceeds home" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -224,6 +225,11 @@ export default function ExitAndRestructuringPage() {
         </p>
 
 
+
+        <h2 id="ru-exit-proceeds" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Getting the exit proceeds home</h2>
+        <p className="text-gray-700 mb-4">For a Russian parent, the practical difficulty in an exit is often not the Indian process but moving the proceeds to Russia. Before signing a share sale or starting a liquidation, confirm with the Indian bank how the proceeds will be remitted, in which currency and through which correspondent arrangements. Check the FEMA pricing rules for the transfer, because a sale by a non-resident to a resident must not be at a price above fair value, and obtain the valuation certificate before the price is agreed.</p>
+        <p className="text-gray-700 mb-4">Plan the tax as well: capital gains tax is withheld by an Indian buyer, and the Russian parent may be able to claim treaty relief only with a current tax residency certificate and Form 41 on file. Build these steps into the exit timetable so that the proceeds are not stuck in India after the shares have changed hands.</p>
+        <p className="text-gray-700 mb-4">Agreeing these points with the bank and the buyer before signing usually saves months in the exit timetable.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

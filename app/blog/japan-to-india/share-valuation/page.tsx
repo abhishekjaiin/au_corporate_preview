@@ -24,6 +24,7 @@ const toc = [
   { id: "transfers", label: "Transfers between the parent and others" },
   { id: "two-rules", label: "FEMA pricing guidelines and Rule 11UA" },
   { id: "records", label: "Keeping records" },
+  { id: "jp-valuation-approval", label: "Fitting the certificate into head office approval" },
   { id: "how-we-help", label: "How AU Corporate handles this" },
   { id: "faqs", label: "Frequently asked questions" },
 ]
@@ -180,6 +181,11 @@ export default function ShareValuationPage() {
         </p>
 
 
+
+        <h2 id="jp-valuation-approval" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Fitting the certificate into head office approval</h2>
+        <p className="text-gray-700 mb-4">Head office approval can take weeks. Obtain the fair value certificate early enough that it is still current when the remittance is made, and ask the valuer to update it if the approval takes longer than expected.</p>
+        <p className="text-gray-700 mb-4">Keep the certificate with the board resolution, the remittance advice and the FEMA filing acknowledgement, so the head office, the auditor and any later buyer can see that the share price was supported.</p>
+        <p className="text-gray-700 mb-4">Keep the file for at least eight years.</p>
 
         <h2 id="how-we-help" className="text-2xl font-bold text-gray-900 mt-12 mb-4">How AU Corporate handles this</h2>
         <p className="text-gray-600 leading-relaxed mb-4">

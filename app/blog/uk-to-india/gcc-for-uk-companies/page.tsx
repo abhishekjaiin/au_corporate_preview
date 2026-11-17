@@ -205,6 +205,11 @@ export default function GccForUkCompaniesPage() {
 
 
 
+        <h2 id="uk-gcc-first-year" className="text-2xl font-bold text-gray-900 mt-12 mb-4">The first year of a UK-owned centre</h2>
+        <p className="text-gray-700 mb-4">A UK group&apos;s centre usually starts with a pilot team of ten to thirty people and a single process or product line. In the first year the work that matters is less about headcount and more about the foundations: an intercompany services agreement priced on a cost-plus basis, a data transfer mechanism for UK personal data, a security and access model the UK information security team accepts, and a governance rhythm with a named UK sponsor.</p>
+        <p className="text-gray-700 mb-4">Plan the reporting line before hiring the centre head. Centres that report to a UK business owner tend to take on judgement-based work sooner than those that report only into a shared services function. Review the arrangement after six and twelve months and decide whether to add teams, move from a build-operate-transfer provider to the group&apos;s own company, or keep the centre focused on its first scope.</p>
+        <p className="text-gray-700 mb-4">Measure the centre against a small set of agreed indicators, such as delivery quality, cost per role and attrition, and share them with the UK sponsor every quarter so decisions about growth are based on evidence.</p>
+
         <h2 id="official-sources" className="text-2xl font-bold text-gray-900 mt-12 mb-4">Official sources</h2>
         <p className="text-gray-600 leading-relaxed mb-10">
           Check the rules at the primary sources:{" "}
